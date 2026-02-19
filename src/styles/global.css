@@ -55,16 +55,18 @@ a:hover {
 [data-item-id].unread::before {
   content: "NEW";
   position: absolute;
-  top: 6px;
-  right: 6px;
+  top: -7px;
+  left: 8px;
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.5px;
-  color: var(--color-primary-light);
-  background: color-mix(in srgb, var(--color-primary) 25%, transparent);
+  color: #181825;
+  background: var(--color-primary-light);
   padding: 1px 5px;
   border-radius: 4px;
   pointer-events: none;
+  line-height: 1.4;
+  z-index: 1;
 }
 [data-item-id] {
   position: relative;
