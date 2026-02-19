@@ -3,6 +3,7 @@ import { fetchHuggingFace } from './fetchers/huggingface.js';
 import { fetchGitHub } from './fetchers/github.js';
 import { fetchRSS } from './fetchers/rss.js';
 import { fetchGoogleTrends } from './fetchers/google-trends.js';
+import { fetchStocks } from './fetchers/stocks.js';
 
 interface FetchResult {
   name: string;
@@ -37,6 +38,7 @@ async function main() {
     runFetcher('GitHub', fetchGitHub),
     runFetcher('RSS', fetchRSS),
     runFetcher('Google Trends', fetchGoogleTrends),
+    runFetcher('Stocks', fetchStocks),
   ]);
 
   console.log('\n=== Results ===');

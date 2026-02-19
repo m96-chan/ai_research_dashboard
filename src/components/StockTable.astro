@@ -1,0 +1,51 @@
+---
+interface Stock {
+  symbol: string;
+  name: string;
+  price: number;
+  change: number;
+  changePercent: number;
+}
+
+interface Props {
+  title: string;
+  id: string;
+  stocks: Stock[];
+}
+
+const { title, stocks } = Astro.props;
+---
+
+<div>
+  <h3 class="mb-2 text-sm font-semibold text-text-secondary">{title}</h3>
+  <div class="overflow-x-auto rounded-lg border border-border bg-surface">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="border-b border-border text-xs text-text-muted">
+          <th class="px-3 py-2 text-left font-medium">Ticker</th>
+          <th class="px-3 py-2 text-left font-medium">Name</th>
+          <th class="px-3 py-2 text-right font-medium">Price</th>
+          <th class="px-3 py-2 text-right font-medium">Change</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-border">
+        {stocks.map((s) => {
+          const isUp = s.change >= 0;
+          const color = s.price === 0 ? 'text-text-muted' : isUp ? 'text-emerald-400' : 'text-red-400';
+          return (
+            <tr class="transition-colors hover:bg-surface-hover">
+              <td class="px-3 py-2 font-mono font-semibold text-text-primary">{s.symbol}</td>
+              <td class="px-3 py-2 text-text-secondary">{s.name}</td>
+              <td class="px-3 py-2 text-right font-mono text-text-primary">
+                {s.price > 0 ? `$${s.price.toFixed(2)}` : '—'}
+              </td>
+              <td class:list={["px-3 py-2 text-right font-mono whitespace-nowrap", color]}>
+                {s.price > 0 ? `${isUp ? '+' : ''}${s.change.toFixed(2)} (${isUp ? '+' : ''}${s.changePercent.toFixed(1)}%)` : '—'}
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+</div>
