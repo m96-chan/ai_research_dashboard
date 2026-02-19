@@ -32,7 +32,21 @@ const trendRegions = trendsData.regions ?? [];
 const stockCategories = stocksData.categories ?? [];
 ---
 
-<Layout title="AI Research Dashboard">
+<Layout title="AI Research Dashboard — Latest AI/ML Papers, Models & News">
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AI Research Dashboard",
+    "url": "https://ai.m96-chan.dev",
+    "description": "Curated dashboard for the latest AI/ML papers, models, repos, trends and news — auto-updated every hour.",
+    "author": {
+      "@type": "Person",
+      "name": "m96-chan",
+      "url": "https://github.com/m96-chan"
+    }
+  })} />
+
   <!-- Hero -->
   <div class="mb-8 text-center">
     <h1 class="mb-2 text-3xl font-bold">AI Research Dashboard</h1>
