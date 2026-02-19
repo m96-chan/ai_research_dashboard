@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-19T12:06:45.617Z",
+  "updatedAt": "2026-02-19T12:27:04.936Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 768,
+        "likes": 769,
         "downloads": 89919,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1370,
+        "likes": 1371,
         "downloads": 171928,
         "tags": [
           "transformers",
@@ -70,7 +70,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 584,
+        "likes": 585,
         "downloads": 77344,
         "tags": [
           "transformers",
@@ -203,7 +203,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
         "author": "FireRedTeam",
-        "likes": 197,
+        "likes": 198,
         "downloads": 1298,
         "tags": [
           "diffusers",
@@ -244,7 +244,7 @@
       {
         "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
         "author": "Qwen",
-        "likes": 1084,
+        "likes": 1085,
         "downloads": 831695,
         "tags": [
           "safetensors",
@@ -308,26 +308,6 @@
         "link": "https://huggingface.co/nineninesix/kani-tts-2-en"
       },
       {
-        "id": "Qwen/Qwen3-Coder-Next",
-        "author": "Qwen",
-        "likes": 923,
-        "downloads": 363083,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_next",
-          "text-generation",
-          "conversational",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
-      },
-      {
         "id": "OpenMOSS-Team/MOVA-360p",
         "author": "OpenMOSS-Team",
         "likes": 193,
@@ -352,6 +332,26 @@
         "pipeline_tag": "image-to-video",
         "lastModified": "",
         "link": "https://huggingface.co/OpenMOSS-Team/MOVA-360p"
+      },
+      {
+        "id": "Qwen/Qwen3-Coder-Next",
+        "author": "Qwen",
+        "likes": 923,
+        "downloads": 363083,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_next",
+          "text-generation",
+          "conversational",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
       },
       {
         "id": "inclusionAI/Ming-flash-omni-2.0",
@@ -462,7 +462,7 @@
       {
         "id": "deepgenteam/DeepGen-1.0",
         "author": "deepgenteam",
-        "likes": 102,
+        "likes": 103,
         "downloads": 0,
         "tags": [
           "image-to-image",
@@ -500,7 +500,7 @@
       {
         "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
         "author": "mistralai",
-        "likes": 576,
+        "likes": 577,
         "downloads": 27153,
         "tags": [
           "vllm",
@@ -534,7 +534,7 @@
       {
         "id": "zai-org/GLM-OCR",
         "author": "zai-org",
-        "likes": 1081,
+        "likes": 1082,
         "downloads": 1148985,
         "tags": [
           "transformers",
@@ -636,28 +636,6 @@
         "link": "https://huggingface.co/Soul-AILab/SoulX-Singer"
       },
       {
-        "id": "zai-org/GLM-5-FP8",
-        "author": "zai-org",
-        "likes": 112,
-        "downloads": 309657,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "glm_moe_dsa",
-          "text-generation",
-          "conversational",
-          "en",
-          "zh",
-          "license:mit",
-          "endpoints_compatible",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/zai-org/GLM-5-FP8"
-      },
-      {
         "id": "salakash/Minimalism",
         "author": "salakash",
         "likes": 70,
@@ -685,29 +663,41 @@
         "link": "https://huggingface.co/salakash/Minimalism"
       },
       {
-        "id": "lm-provers/QED-Nano",
-        "author": "lm-provers",
-        "likes": 64,
-        "downloads": 352,
+        "id": "zai-org/GLM-5-FP8",
+        "author": "zai-org",
+        "likes": 112,
+        "downloads": 309657,
         "tags": [
           "transformers",
           "safetensors",
-          "qwen3",
+          "glm_moe_dsa",
           "text-generation",
           "conversational",
           "en",
-          "dataset:lm-provers/FineProofs-RL",
-          "arxiv:2602.03773",
-          "base_model:lm-provers/QED-Nano-SFT",
-          "base_model:finetune:lm-provers/QED-Nano-SFT",
-          "license:apache-2.0",
-          "text-generation-inference",
+          "zh",
+          "license:mit",
           "endpoints_compatible",
+          "fp8",
           "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/lm-provers/QED-Nano"
+        "link": "https://huggingface.co/zai-org/GLM-5-FP8"
+      },
+      {
+        "id": "circlestone-labs/Anima",
+        "author": "circlestone-labs",
+        "likes": 631,
+        "downloads": 159280,
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/circlestone-labs/Anima"
       }
     ]
   },
@@ -935,7 +925,7 @@
       {
         "id": "atreydesai/qgqa-gpt-5.2-20260213-041705",
         "author": "atreydesai",
-        "likes": 31,
+        "likes": 32,
         "downloads": 36,
         "tags": [
           "size_categories:1K<n<10K",
@@ -955,7 +945,7 @@
       {
         "id": "allenai/molmospaces",
         "author": "allenai",
-        "likes": 34,
+        "likes": 35,
         "downloads": 201,
         "tags": [
           "license:odc-by",
@@ -983,7 +973,7 @@
       {
         "id": "TeichAI/Pony-Alpha-15k",
         "author": "TeichAI",
-        "likes": 33,
+        "likes": 34,
         "downloads": 194,
         "tags": [
           "size_categories:10K<n<100K",
@@ -1058,6 +1048,20 @@
         "link": "https://huggingface.co/datasets/Nanbeige/ToolMind-Web-QA"
       },
       {
+        "id": "nvidia/PhysicalAI-Robotics-Kitchen-Sim-Demos",
+        "author": "nvidia",
+        "likes": 33,
+        "downloads": 489,
+        "tags": [
+          "task_categories:robotics",
+          "license:cc-by-4.0",
+          "region:us",
+          "robotics"
+        ],
+        "lastModified": "2026-02-13T02:47:07.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Kitchen-Sim-Demos"
+      },
+      {
         "id": "galaxyMindAiLabs/stem-reasoning-complex",
         "author": "galaxyMindAiLabs",
         "likes": 54,
@@ -1087,20 +1091,6 @@
         ],
         "lastModified": "2026-02-15T13:25:44.000Z",
         "link": "https://huggingface.co/datasets/galaxyMindAiLabs/stem-reasoning-complex"
-      },
-      {
-        "id": "nvidia/PhysicalAI-Robotics-Kitchen-Sim-Demos",
-        "author": "nvidia",
-        "likes": 33,
-        "downloads": 489,
-        "tags": [
-          "task_categories:robotics",
-          "license:cc-by-4.0",
-          "region:us",
-          "robotics"
-        ],
-        "lastModified": "2026-02-13T02:47:07.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Kitchen-Sim-Demos"
       },
       {
         "id": "opencsg/Fineweb-Edu-Chinese-V2.2",
