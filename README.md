@@ -1,43 +1,84 @@
-# Astro Starter Kit: Minimal
+<p align="center">
+  <img src="docs/hero.png" alt="AI Research Dashboard" width="600" />
+</p>
 
-```sh
-pnpm create astro@latest -- --template minimal
+<h1 align="center">AI Research Dashboard</h1>
+
+<p align="center">
+  A curated dashboard for the latest AI/ML papers, models, repos, trends, and news.<br/>
+  Auto-updated every hour via GitHub Actions.<br/><br/>
+  AI/ML の最新論文・モデル・リポジトリ・トレンド・ニュースを集約するダッシュボード。<br/>
+  GitHub Actions により毎時自動更新。
+</p>
+
+<p align="center">
+  <a href="https://ai.m96-chan.dev">Live Site</a> &bull;
+  <a href="https://github.com/m96-chan/ai_research_dashboard/issues/new">Request a Feature / 機能リクエスト</a> &bull;
+  <a href="https://www.buymeacoffee.com/m96chan">Buy Me a Coffee</a>
+</p>
+
+---
+
+## What's Inside / コンテンツ
+
+| Source | Description / 説明 |
+|--------|-------------|
+| **arXiv** | Latest papers from cs.AI, cs.LG, cs.CL, cs.CV, stat.ML / AI 関連の最新論文 |
+| **HuggingFace** | Trending models & datasets / トレンドのモデルとデータセット |
+| **GitHub** | Newly starred AI/ML repositories / 注目の AI/ML リポジトリ |
+| **RSS Feeds** | Global & Japan AI news, Hardware, Security (YAML configurable) / 国内外の AI ニュース、ハードウェア、セキュリティ |
+| **Google Trends** | Tech trending topics from US, Japan, South Korea / 米・日・韓のテック急上昇ワード |
+| **Stock Prices** | AI-related stocks (Semiconductors, Big Tech, AI Pure-Play) / AI 関連銘柄の株価 |
+| **TL;DR** | Japanese summaries by GPT-4o-mini / GPT-4o-mini による日本語要約 |
+
+## Tech Stack / 技術スタック
+
+- **Framework:** [Astro](https://astro.build) + Tailwind CSS v4
+- **Data Fetching:** TypeScript scripts on GitHub Actions (cron every 60 min)
+- **Summarization:** OpenAI GPT-4o-mini
+- **Hosting:** GitHub Pages
+
+## Getting Started / はじめかた
+
+```bash
+pnpm install
+pnpm run fetch-data      # Fetch all data sources / データ取得
+pnpm run summarize       # Generate TL;DR (requires OPENAI_API_KEY) / 要約生成
+pnpm dev                 # Start dev server at localhost:4321 / 開発サーバー起動
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Add / Edit RSS Feeds / RSS フィードの追加・編集
 
-## 🚀 Project Structure
+Edit `config/feeds.yml` to add your own feeds:
 
-Inside of your Astro project, you'll see the following folders and files:
+`config/feeds.yml` を編集してフィードを追加できます：
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```yaml
+categories:
+  - name: Global AI & Tech
+    feeds:
+      - name: OpenAI Blog
+        url: https://openai.com/blog/rss.xml
+      - name: Google AI Blog
+        url: https://blog.google/technology/ai/rss/
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Want a New Feature? / 機能リクエスト
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Got an idea? Found a bug? We'd love to hear from you!
 
-Any static assets, like images, can be placed in the `public/` directory.
+アイデアやバグ報告、大歓迎です！
 
-## 🧞 Commands
+**[Open an Issue / Issue を作成する](https://github.com/m96-chan/ai_research_dashboard/issues/new)**
 
-All commands are run from the root of the project, from a terminal:
+## Support / サポート
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+This dashboard uses the OpenAI API to generate TL;DR summaries, which costs real money to run. If you find this useful, a small donation would be greatly appreciated!
 
-## 👀 Want to learn more?
+このダッシュボードは TL;DR 要約の生成に OpenAI API を利用しており、API 利用料が発生しています。もし役に立っていたら、カンパしていただけるとめちゃくちゃ助かります！
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+**[Buy Me a Coffee](https://www.buymeacoffee.com/m96chan)**
+
+## License
+
+MIT
