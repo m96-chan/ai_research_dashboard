@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-19T11:20:50.690Z",
+  "updatedAt": "2026-02-19T11:39:41.295Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 767,
+        "likes": 768,
         "downloads": 89919,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1369,
+        "likes": 1370,
         "downloads": 171928,
         "tags": [
           "transformers",
@@ -98,7 +98,7 @@
       {
         "id": "nvidia/personaplex-7b-v1",
         "author": "nvidia",
-        "likes": 2045,
+        "likes": 2046,
         "downloads": 479308,
         "tags": [
           "moshi",
@@ -203,7 +203,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
         "author": "FireRedTeam",
-        "likes": 195,
+        "likes": 196,
         "downloads": 1298,
         "tags": [
           "diffusers",
@@ -221,7 +221,7 @@
       {
         "id": "openbmb/MiniCPM-SALA",
         "author": "openbmb",
-        "likes": 467,
+        "likes": 468,
         "downloads": 4372,
         "tags": [
           "transformers",
@@ -403,7 +403,7 @@
       {
         "id": "unsloth/MiniMax-M2.5-GGUF",
         "author": "unsloth",
-        "likes": 120,
+        "likes": 121,
         "downloads": 53852,
         "tags": [
           "transformers",
@@ -586,7 +586,7 @@
       {
         "id": "DMindAI/DMind-3",
         "author": "DMindAI",
-        "likes": 71,
+        "likes": 72,
         "downloads": 69,
         "tags": [
           "transformers",
@@ -660,7 +660,7 @@
       {
         "id": "salakash/Minimalism",
         "author": "salakash",
-        "likes": 68,
+        "likes": 69,
         "downloads": 692,
         "tags": [
           "mlx-lm",
@@ -685,19 +685,29 @@
         "link": "https://huggingface.co/salakash/Minimalism"
       },
       {
-        "id": "circlestone-labs/Anima",
-        "author": "circlestone-labs",
-        "likes": 630,
-        "downloads": 159280,
+        "id": "lm-provers/QED-Nano",
+        "author": "lm-provers",
+        "likes": 64,
+        "downloads": 352,
         "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "license:other",
+          "transformers",
+          "safetensors",
+          "qwen3",
+          "text-generation",
+          "conversational",
+          "en",
+          "dataset:lm-provers/FineProofs-RL",
+          "arxiv:2602.03773",
+          "base_model:lm-provers/QED-Nano-SFT",
+          "base_model:finetune:lm-provers/QED-Nano-SFT",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/circlestone-labs/Anima"
+        "link": "https://huggingface.co/lm-provers/QED-Nano"
       }
     ]
   },
@@ -747,7 +757,7 @@
       {
         "id": "ma-xu/fine-t2i",
         "author": "ma-xu",
-        "likes": 71,
+        "likes": 72,
         "downloads": 24044,
         "tags": [
           "task_categories:image-to-text",
@@ -964,6 +974,24 @@
         "link": "https://huggingface.co/datasets/allenai/molmospaces"
       },
       {
+        "id": "TeichAI/Pony-Alpha-15k",
+        "author": "TeichAI",
+        "likes": 33,
+        "downloads": 194,
+        "tags": [
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-17T00:02:30.000Z",
+        "link": "https://huggingface.co/datasets/TeichAI/Pony-Alpha-15k"
+      },
+      {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
         "likes": 32,
@@ -983,22 +1011,27 @@
         "link": "https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"
       },
       {
-        "id": "TeichAI/Pony-Alpha-15k",
-        "author": "TeichAI",
-        "likes": 32,
-        "downloads": 194,
+        "id": "google/MapTrace",
+        "author": "google",
+        "likes": 42,
+        "downloads": 691,
         "tags": [
+          "task_categories:image-to-text",
+          "language:en",
+          "license:cc-by-4.0",
           "size_categories:10K<n<100K",
-          "format:json",
+          "format:parquet",
           "modality:text",
           "library:datasets",
-          "library:pandas",
+          "library:dask",
           "library:polars",
           "library:mlcroissant",
-          "region:us"
+          "arxiv:2512.19609",
+          "region:us",
+          "map"
         ],
-        "lastModified": "2026-02-17T00:02:30.000Z",
-        "link": "https://huggingface.co/datasets/TeichAI/Pony-Alpha-15k"
+        "lastModified": "2026-01-03T06:15:16.000Z",
+        "link": "https://huggingface.co/datasets/google/MapTrace"
       },
       {
         "id": "Nanbeige/ToolMind-Web-QA",
@@ -1061,29 +1094,6 @@
         ],
         "lastModified": "2026-02-13T02:47:07.000Z",
         "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Kitchen-Sim-Demos"
-      },
-      {
-        "id": "google/MapTrace",
-        "author": "google",
-        "likes": 41,
-        "downloads": 691,
-        "tags": [
-          "task_categories:image-to-text",
-          "language:en",
-          "license:cc-by-4.0",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2512.19609",
-          "region:us",
-          "map"
-        ],
-        "lastModified": "2026-01-03T06:15:16.000Z",
-        "link": "https://huggingface.co/datasets/google/MapTrace"
       },
       {
         "id": "opencsg/Fineweb-Edu-Chinese-V2.2",
