@@ -1,0 +1,32 @@
+---
+interface Props {
+  title: string;
+  traffic: string;
+  articles: { title: string; url: string; source: string }[];
+}
+
+const { title, traffic, articles } = Astro.props;
+---
+
+<div class="rounded-lg border border-border bg-surface p-4 transition-colors hover:bg-surface-hover">
+  <div class="mb-2 flex items-center justify-between">
+    <h3 class="text-sm font-semibold text-text-primary">{title}</h3>
+    {traffic && (
+      <span class="rounded-full bg-accent-trends/20 px-2 py-0.5 text-xs text-accent-trends">
+        {traffic}
+      </span>
+    )}
+  </div>
+  {articles.length > 0 && (
+    <ul class="space-y-1">
+      {articles.map((a) => (
+        <li>
+          <a href={a.url} target="_blank" rel="noopener noreferrer" class="text-xs text-text-secondary hover:text-accent-trends">
+            {a.title}
+            {a.source && <span class="text-text-muted"> — {a.source}</span>}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</div>

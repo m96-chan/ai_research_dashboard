@@ -1,0 +1,27 @@
+---
+interface Props {
+  title: string;
+  icon: string;
+  accentClass?: string;
+  updatedAt?: string;
+}
+
+const { title, icon, accentClass = '', updatedAt } = Astro.props;
+
+function formatDate(iso: string): string {
+  const d = new Date(iso);
+  return d.toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+}
+---
+
+<div class="mb-4 flex items-center justify-between">
+  <h2 class:list={["flex items-center gap-2 text-xl font-bold", accentClass]}>
+    <span>{icon}</span>
+    <span>{title}</span>
+  </h2>
+  {updatedAt && (
+    <span class="text-xs text-text-muted">
+      {formatDate(updatedAt)} 更新
+    </span>
+  )}
+</div>

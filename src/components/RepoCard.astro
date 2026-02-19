@@ -1,0 +1,40 @@
+---
+interface Props {
+  fullName: string;
+  description: string;
+  stars: number;
+  forks: number;
+  language: string;
+  topics: string[];
+  url: string;
+}
+
+const { fullName, description, stars, forks, language, topics, url } = Astro.props;
+
+function formatNum(n: number): string {
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`;
+  return n.toString();
+}
+
+const shortDesc = description.length > 120 ? description.slice(0, 120) + '...' : description;
+---
+
+<a href={url} target="_blank" rel="noopener noreferrer"
+   class="group block rounded-lg border border-border bg-surface p-4 transition-colors hover:bg-surface-hover no-underline">
+  <h3 class="mb-1 text-sm font-semibold text-text-primary group-hover:text-accent-github truncate">
+    {fullName}
+  </h3>
+  <p class="mb-3 text-xs leading-relaxed text-text-secondary">{shortDesc}</p>
+  <div class="mb-2 flex flex-wrap gap-1.5">
+    {topics.slice(0, 4).map((t) => (
+      <span class="rounded-full bg-accent-github/15 px-2 py-0.5 text-xs text-accent-github">
+        {t}
+      </span>
+    ))}
+  </div>
+  <div class="flex items-center gap-4 text-xs text-text-muted">
+    <span>★ {formatNum(stars)}</span>
+    <span>🍴 {formatNum(forks)}</span>
+    {language && <span class="rounded-full bg-surface-alt px-2 py-0.5">{language}</span>}
+  </div>
+</a>

@@ -1,0 +1,47 @@
+---
+interface Props {
+  title: string;
+  authors: string[];
+  summary: string;
+  categories: string[];
+  link: string;
+  pdfLink: string;
+  published: string;
+}
+
+const { title, authors, summary, categories, link, pdfLink, published } = Astro.props;
+
+const date = new Date(published).toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' });
+const shortSummary = summary.length > 200 ? summary.slice(0, 200) + '...' : summary;
+const displayAuthors = authors.length > 3
+  ? `${authors.slice(0, 3).join(', ')} +${authors.length - 3}`
+  : authors.join(', ');
+---
+
+<article class="group rounded-lg border border-border bg-surface p-4 transition-colors hover:bg-surface-hover">
+  <div class="mb-2 flex flex-wrap gap-1.5">
+    {categories.slice(0, 3).map((cat) => (
+      <span class="rounded-full bg-accent-arxiv/20 px-2 py-0.5 text-xs text-accent-arxiv">
+        {cat}
+      </span>
+    ))}
+    <span class="ml-auto text-xs text-text-muted">{date}</span>
+  </div>
+  <h3 class="mb-1 text-sm font-semibold leading-snug">
+    <a href={link} target="_blank" rel="noopener noreferrer" class="text-text-primary hover:text-primary-light">
+      {title}
+    </a>
+  </h3>
+  <p class="mb-2 text-xs text-text-muted">{displayAuthors}</p>
+  <p class="mb-3 text-xs leading-relaxed text-text-secondary">{shortSummary}</p>
+  <div class="flex gap-2">
+    <a href={link} target="_blank" rel="noopener noreferrer" class="text-xs text-primary-light hover:text-primary">
+      Abstract →
+    </a>
+    {pdfLink && (
+      <a href={pdfLink} target="_blank" rel="noopener noreferrer" class="text-xs text-accent-arxiv hover:text-accent-arxiv/80">
+        PDF ↓
+      </a>
+    )}
+  </div>
+</article>

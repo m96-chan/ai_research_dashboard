@@ -1,0 +1,47 @@
+# AI Research Dashboard - RSS Feed Configuration
+# カテゴリごとにフィードを登録
+
+categories:
+  - name: "AI Research Labs"
+    id: "ai-labs"
+    icon: "🔬"
+    feeds:
+      - name: "OpenAI Blog"
+        url: "https://openai.com/blog/rss.xml"
+      - name: "Google AI Blog"
+        url: "https://blog.google/technology/ai/rss/"
+      - name: "DeepMind Blog"
+        url: "https://deepmind.google/blog/rss.xml"
+      - name: "Meta AI Blog"
+        url: "https://ai.meta.com/blog/rss/"
+      - name: "Anthropic Research"
+        url: "https://www.anthropic.com/feed"
+
+  - name: "ML Community"
+    id: "ml-community"
+    icon: "🤖"
+    feeds:
+      - name: "Hugging Face Blog"
+        url: "https://huggingface.co/blog/feed.xml"
+      - name: "Papers With Code"
+        url: "https://paperswithcode.com/latest.rss"
+
+  - name: "Tech News"
+    id: "tech-news"
+    icon: "📰"
+    feeds:
+      - name: "The Verge - AI"
+        url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      - name: "Ars Technica - AI"
+        url: "https://feeds.arstechnica.com/arstechnica/features"
+      - name: "TechCrunch - AI"
+        url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+
+  - name: "Newsletters & Blogs"
+    id: "newsletters"
+    icon: "📝"
+    feeds:
+      - name: "The Batch (deeplearning.ai)"
+        url: "https://www.deeplearning.ai/the-batch/feed/"
+      - name: "Towards Data Science"
+        url: "https://towardsdatascience.com/feed"

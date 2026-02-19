@@ -1,0 +1,32 @@
+---
+interface Props {
+  title: string;
+  link: string;
+  description: string;
+  pubDate: string;
+  source: string;
+}
+
+const { title, link, description, pubDate, source } = Astro.props;
+
+const date = pubDate
+  ? new Date(pubDate).toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' })
+  : '';
+const shortDesc = description.length > 150 ? description.slice(0, 150) + '...' : description;
+---
+
+<a href={link} target="_blank" rel="noopener noreferrer"
+   class="group block rounded-lg border border-border bg-surface p-4 transition-colors hover:bg-surface-hover no-underline">
+  <div class="mb-2 flex items-center justify-between gap-2">
+    <span class="rounded-full bg-accent-rss/20 px-2 py-0.5 text-xs text-accent-rss">
+      {source}
+    </span>
+    {date && <span class="text-xs text-text-muted">{date}</span>}
+  </div>
+  <h3 class="mb-2 text-sm font-semibold leading-snug text-text-primary group-hover:text-accent-rss">
+    {title}
+  </h3>
+  {shortDesc && (
+    <p class="text-xs leading-relaxed text-text-secondary">{shortDesc}</p>
+  )}
+</a>

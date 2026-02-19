@@ -1,0 +1,50 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'AI Research Dashboard - Latest papers, models, and trends' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen">
+    <header class="sticky top-0 z-50 border-b border-border bg-surface/80 backdrop-blur-md">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+        <a href={base} class="flex items-center gap-2 text-text-primary no-underline hover:text-text-primary">
+          <span class="text-2xl">🔭</span>
+          <span class="text-lg font-bold">AI Research Dashboard</span>
+        </a>
+        <nav class="flex items-center gap-4 text-sm">
+          <a href={base} class="text-text-secondary hover:text-text-primary">Dashboard</a>
+          <a href={`${base}about`} class="text-text-secondary hover:text-text-primary">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 py-6">
+      <slot />
+    </main>
+
+    <footer class="border-t border-border py-6 text-center text-sm text-text-muted">
+      <div class="mx-auto max-w-7xl px-4">
+        Updated automatically every hour via GitHub Actions
+      </div>
+    </footer>
+  </body>
+</html>

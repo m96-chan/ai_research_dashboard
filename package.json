@@ -1,0 +1,23 @@
+{
+  "name": "ai_research_dashboard",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fetch-data": "tsx scripts/fetch-all.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.0",
+    "astro": "^5.17.1",
+    "fast-xml-parser": "^5.3.6",
+    "tailwindcss": "^4.2.0",
+    "yaml": "^2.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0"
+  }
+}
