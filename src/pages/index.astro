@@ -44,7 +44,7 @@ const stockCategories = stocksData.categories ?? [];
   <!-- Stock Prices -->
   {stockCategories.length > 0 && (
     <section class="mb-10" id="stocks">
-      <SectionHeader title="AI関連株価" icon="💹" updatedAt={stocksData.updatedAt} />
+      <SectionHeader title="AI Stocks" icon="💹" updatedAt={stocksData.updatedAt} />
       <div class="grid gap-6 lg:grid-cols-3">
         {stockCategories.map((cat: any) => (
           <StockTable title={cat.name} id={cat.id} stocks={cat.stocks} />

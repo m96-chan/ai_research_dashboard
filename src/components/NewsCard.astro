@@ -11,7 +11,7 @@ interface Props {
 const { title, link, pubDate, source, tldr } = Astro.props;
 
 const date = pubDate
-  ? new Date(pubDate).toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' })
+  ? new Date(pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
   : '';
 ---
 

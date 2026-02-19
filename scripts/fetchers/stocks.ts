@@ -16,7 +16,7 @@ interface StockCategory {
 
 const STOCK_GROUPS = [
   {
-    name: 'AI半導体',
+    name: 'AI Semiconductors',
     id: 'semiconductor',
     symbols: [
       { symbol: 'NVDA', name: 'NVIDIA' },
@@ -29,7 +29,7 @@ const STOCK_GROUPS = [
     ],
   },
   {
-    name: 'ビッグテック',
+    name: 'Big Tech',
     id: 'bigtech',
     symbols: [
       { symbol: 'MSFT', name: 'Microsoft' },
@@ -40,7 +40,7 @@ const STOCK_GROUPS = [
     ],
   },
   {
-    name: 'AI特化',
+    name: 'AI Pure-Play',
     id: 'ai-pure',
     symbols: [
       { symbol: 'PLTR', name: 'Palantir' },

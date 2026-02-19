@@ -12,7 +12,7 @@ interface Props {
 
 const { title, authors, summary, categories, link, pdfLink, published, tldr } = Astro.props;
 
-const date = new Date(published).toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' });
+const date = new Date(published).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 const shortSummary = summary.length > 200 ? summary.slice(0, 200) + '...' : summary;
 const displayAuthors = authors.length > 3
   ? `${authors.slice(0, 3).join(', ')} +${authors.length - 3}`

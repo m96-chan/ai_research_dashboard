@@ -10,7 +10,7 @@ const { title, icon, accentClass = '', updatedAt } = Astro.props;
 
 function formatDate(iso: string): string {
   const d = new Date(iso);
-  return d.toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+  return d.toLocaleString('en-US', { timeZone: 'Asia/Tokyo', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
 }
 ---
 
@@ -21,7 +21,7 @@ function formatDate(iso: string): string {
   </h2>
   {updatedAt && (
     <span class="text-xs text-text-muted">
-      {formatDate(updatedAt)} 更新
+      Updated {formatDate(updatedAt)}
     </span>
   )}
 </div>

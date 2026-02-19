@@ -94,7 +94,7 @@ export const GET: APIRoute = async () => {
     <description>Latest AI/ML papers, models, repos, and news — updated every hour</description>
     <link>${site}</link>
     <atom:link href="${site}/feed.xml" rel="self" type="application/rss+xml"/>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>${lastBuildDate}</lastBuildDate>
 ${items.slice(0, 50).map(item => `    <item>
       <title>${escapeXml(item.title)}</title>
