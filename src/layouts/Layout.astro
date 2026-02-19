@@ -77,7 +77,82 @@ const ogImage = `${site}/og.png`;
     <footer class="border-t border-border py-6 text-center text-sm text-text-muted">
       <div class="mx-auto max-w-7xl px-4">
         Updated automatically every hour via GitHub Actions
+        <span id="reload-countdown" class="ml-2 text-text-muted"></span>
       </div>
     </footer>
+
+    <script>
+      const STORAGE_KEY = 'ai-dashboard-read-items';
+      const RELOAD_INTERVAL = 60 * 60 * 1000; // 1 hour
+
+      // --- Auto-reload ---
+      const pageLoadTime = Date.now();
+      const countdownEl = document.getElementById('reload-countdown');
+
+      function updateCountdown() {
+        const elapsed = Date.now() - pageLoadTime;
+        const remaining = Math.max(0, RELOAD_INTERVAL - elapsed);
+        const mins = Math.floor(remaining / 60_000);
+        const secs = Math.floor((remaining % 60_000) / 1000);
+        if (countdownEl) {
+          countdownEl.textContent = `(reload in ${mins}m ${secs.toString().padStart(2, '0')}s)`;
+        }
+        if (remaining <= 0) {
+          location.reload();
+        }
+      }
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+
+      // --- Unread highlight ---
+      function getReadItems(): Set<string> {
+        try {
+          const data = localStorage.getItem(STORAGE_KEY);
+          return data ? new Set(JSON.parse(data)) : new Set();
+        } catch {
+          return new Set();
+        }
+      }
+
+      function saveReadItems(items: Set<string>) {
+        // Keep only the latest 500 items to avoid localStorage bloat
+        const arr = [...items];
+        const trimmed = arr.slice(-500);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(trimmed));
+      }
+
+      function markRead(id: string) {
+        const items = getReadItems();
+        if (items.has(id)) return;
+        items.add(id);
+        saveReadItems(items);
+        // Remove unread style from matching elements
+        document.querySelectorAll(`[data-item-id="${CSS.escape(id)}"]`).forEach(el => {
+          el.classList.remove('unread');
+        });
+      }
+
+      // Apply unread state
+      const readItems = getReadItems();
+      document.querySelectorAll<HTMLElement>('[data-item-id]').forEach(el => {
+        const id = el.dataset.itemId;
+        if (!id) return;
+        if (!readItems.has(id)) {
+          el.classList.add('unread');
+        }
+        el.addEventListener('click', () => markRead(id));
+      });
+
+      // Mark all currently visible items as "seen" after 3 seconds on the page
+      // so next visit shows only truly new items
+      setTimeout(() => {
+        const currentItems = getReadItems();
+        document.querySelectorAll<HTMLElement>('[data-item-id]').forEach(el => {
+          const id = el.dataset.itemId;
+          if (id) currentItems.add(id);
+        });
+        saveReadItems(currentItems);
+      }, 3000);
+    </script>
   </body>
 </html>

@@ -19,7 +19,7 @@ const displayAuthors = authors.length > 3
   : authors.join(', ');
 ---
 
-<article class="group rounded-lg border border-border bg-surface p-4 transition-colors hover:bg-surface-hover">
+<article class="group rounded-lg border border-border bg-surface p-4 transition-colors hover:bg-surface-hover" data-item-id={link}>
   <div class="mb-2 flex flex-wrap gap-1.5">
     {categories.slice(0, 3).map((cat) => (
       <span class="rounded-full bg-accent-arxiv/20 px-2 py-0.5 text-xs text-accent-arxiv">

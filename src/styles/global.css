@@ -46,3 +46,26 @@ a {
 a:hover {
   color: var(--color-primary);
 }
+
+/* Unread item highlight */
+[data-item-id].unread {
+  border-left: 3px solid var(--color-primary-light);
+  background-color: color-mix(in srgb, var(--color-primary) 8%, var(--color-surface));
+}
+[data-item-id].unread::before {
+  content: "NEW";
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--color-primary-light);
+  background: color-mix(in srgb, var(--color-primary) 25%, transparent);
+  padding: 1px 5px;
+  border-radius: 4px;
+  pointer-events: none;
+}
+[data-item-id] {
+  position: relative;
+}

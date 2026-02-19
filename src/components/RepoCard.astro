@@ -21,7 +21,8 @@ const shortDesc = description.length > 120 ? description.slice(0, 120) + '...' :
 ---
 
 <a href={url} target="_blank" rel="noopener noreferrer"
-   class="group block rounded-lg border border-border bg-surface p-4 transition-colors hover:bg-surface-hover no-underline">
+   class="group block rounded-lg border border-border bg-surface p-4 transition-colors hover:bg-surface-hover no-underline"
+   data-item-id={url}>
   <h3 class="mb-1 text-sm font-semibold text-text-primary group-hover:text-accent-github truncate">
     {fullName}
   </h3>
