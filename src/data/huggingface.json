@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-19T21:35:31.331Z",
+  "updatedAt": "2026-02-19T22:35:05.084Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 787,
+        "likes": 789,
         "downloads": 89919,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 729,
+        "likes": 731,
         "downloads": 79343,
         "tags": [
           "transformers",
@@ -70,7 +70,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 597,
+        "likes": 600,
         "downloads": 77344,
         "tags": [
           "transformers",
@@ -98,7 +98,7 @@
       {
         "id": "nvidia/personaplex-7b-v1",
         "author": "nvidia",
-        "likes": 2058,
+        "likes": 2060,
         "downloads": 479308,
         "tags": [
           "moshi",
@@ -123,7 +123,7 @@
       {
         "id": "OpenMOSS-Team/MOSS-TTS",
         "author": "OpenMOSS-Team",
-        "likes": 273,
+        "likes": 274,
         "downloads": 28182,
         "tags": [
           "safetensors",
@@ -160,7 +160,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
         "author": "FireRedTeam",
-        "likes": 206,
+        "likes": 207,
         "downloads": 1298,
         "tags": [
           "diffusers",
@@ -199,9 +199,26 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K2.5"
       },
       {
+        "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+        "author": "Qwen",
+        "likes": 1092,
+        "downloads": 831695,
+        "tags": [
+          "safetensors",
+          "qwen3_tts",
+          "text-to-speech",
+          "arxiv:2601.15621",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
+      },
+      {
         "id": "inclusionAI/Ring-2.5-1T",
         "author": "inclusionAI",
-        "likes": 209,
+        "likes": 210,
         "downloads": 4468,
         "tags": [
           "transformers",
@@ -217,23 +234,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/inclusionAI/Ring-2.5-1T"
-      },
-      {
-        "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
-        "author": "Qwen",
-        "likes": 1091,
-        "downloads": 831695,
-        "tags": [
-          "safetensors",
-          "qwen3_tts",
-          "text-to-speech",
-          "arxiv:2601.15621",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-speech",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
       },
       {
         "id": "unsloth/Qwen3.5-397B-A17B-GGUF",
@@ -356,7 +356,7 @@
       {
         "id": "xgen-universe/Capybara",
         "author": "xgen-universe",
-        "likes": 117,
+        "likes": 118,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -663,7 +663,7 @@
       {
         "id": "lm-provers/QED-Nano",
         "author": "lm-provers",
-        "likes": 68,
+        "likes": 69,
         "downloads": 352,
         "tags": [
           "transformers",
@@ -686,19 +686,38 @@
         "link": "https://huggingface.co/lm-provers/QED-Nano"
       },
       {
-        "id": "circlestone-labs/Anima",
-        "author": "circlestone-labs",
-        "likes": 632,
-        "downloads": 159280,
+        "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
+        "author": "nvidia",
+        "likes": 59,
+        "downloads": 1067,
         "tags": [
-          "diffusion-single-file",
-          "comfyui",
+          "transformers",
+          "safetensors",
+          "nemotron_h",
+          "text-generation",
+          "nvidia",
+          "pytorch",
+          "conversational",
+          "custom_code",
+          "en",
+          "ja",
+          "dataset:nvidia/Nemotron-Personas-Japan",
+          "dataset:nvidia/Nemotron-CC-v2.1",
+          "dataset:nvidia/Nemotron-Pretraining-Specialized-v1",
+          "dataset:nvidia/Nemotron-Agentic-v1",
+          "dataset:nvidia/Nemotron-Instruction-Following-Chat-v1",
+          "dataset:globis-university/aozorabunko-clean",
+          "dataset:HuggingFaceFW/fineweb-2",
+          "arxiv:2504.03624",
+          "arxiv:2508.14444",
+          "base_model:nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+          "base_model:finetune:nvidia/NVIDIA-Nemotron-Nano-9B-v2",
           "license:other",
           "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/circlestone-labs/Anima"
+        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese"
       }
     ]
   },
@@ -819,29 +838,6 @@
         "link": "https://huggingface.co/datasets/OpenMed/Medical-Reasoning-SFT-Mega"
       },
       {
-        "id": "AlicanKiraz0/Turkish-Finance-SFT-Dataset",
-        "author": "AlicanKiraz0",
-        "likes": 48,
-        "downloads": 164,
-        "tags": [
-          "task_categories:question-answering",
-          "language:tr",
-          "license:mit",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "finance",
-          "fintech"
-        ],
-        "lastModified": "2026-02-12T16:33:00.000Z",
-        "link": "https://huggingface.co/datasets/AlicanKiraz0/Turkish-Finance-SFT-Dataset"
-      },
-      {
         "id": "nvidia/SAGE-10k",
         "author": "nvidia",
         "likes": 57,
@@ -882,6 +878,29 @@
         ],
         "lastModified": "2026-02-12T22:23:38.000Z",
         "link": "https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset"
+      },
+      {
+        "id": "AlicanKiraz0/Turkish-Finance-SFT-Dataset",
+        "author": "AlicanKiraz0",
+        "likes": 48,
+        "downloads": 164,
+        "tags": [
+          "task_categories:question-answering",
+          "language:tr",
+          "license:mit",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "finance",
+          "fintech"
+        ],
+        "lastModified": "2026-02-12T16:33:00.000Z",
+        "link": "https://huggingface.co/datasets/AlicanKiraz0/Turkish-Finance-SFT-Dataset"
       },
       {
         "id": "atreydesai/qgqa-gpt-5.2-20260213-041705",
