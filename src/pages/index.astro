@@ -12,7 +12,7 @@ let arxivData: any = { papers: [], updatedAt: '' };
 let hfData: any = { models: { items: [] }, datasets: { items: [] }, updatedAt: '' };
 let githubData: any = { repos: [], updatedAt: '' };
 let rssData: any = { categories: [], updatedAt: '' };
-let trendsData: any = { allTrends: { items: [] }, aiTrends: { items: [] }, updatedAt: '' };
+let trendsData: any = { regions: [], updatedAt: '' };
 
 try { arxivData = await import('../data/arxiv.json'); } catch {}
 try { hfData = await import('../data/huggingface.json'); } catch {}
@@ -25,8 +25,7 @@ const models = hfData.models?.items?.slice(0, 12) ?? [];
 const datasets = hfData.datasets?.items?.slice(0, 8) ?? [];
 const repos = githubData.repos?.slice(0, 12) ?? [];
 const rssCategories = rssData.categories ?? [];
-const allTrends = trendsData.allTrends?.items?.slice(0, 10) ?? [];
-const aiTrends = trendsData.aiTrends?.items ?? [];
+const trendRegions = trendsData.regions ?? [];
 ---
 
 <Layout title="AI Research Dashboard">
@@ -36,6 +35,61 @@ const aiTrends = trendsData.aiTrends?.items ?? [];
     <p class="text-text-secondary">
       Latest papers, trending models, repositories, and news — updated every hour
     </p>
+  </div>
+
+  <!-- RSS Feeds by Category -->
+  {rssCategories.map((cat: any) => (
+    <section class="mb-10" id={`rss-${cat.id}`}>
+      <SectionHeader title={cat.name} icon={cat.icon} accentClass="text-accent-rss" updatedAt={rssData.updatedAt} />
+      <div class="divide-y divide-border rounded-lg border border-border bg-surface">
+        {cat.items.slice(0, 15).map((item: any) => (
+          <NewsCard
+            title={item.title}
+            link={item.link}
+            description={item.description}
+            pubDate={item.pubDate}
+            source={item.source}
+          />
+        ))}
+      </div>
+      {cat.items.length === 0 && <p class="text-sm text-text-muted">No feeds available.</p>}
+    </section>
+  ))}
+
+  <!-- Google Trends (Tech) -->
+  <section class="mb-10" id="trends">
+    <SectionHeader title="Tech Trends" icon="📈" accentClass="text-accent-trends" updatedAt={trendsData.updatedAt} />
+    {trendRegions.length > 0 ? (
+      <div class="space-y-6">
+        {trendRegions.map((r: any) => (
+          <div>
+            <h3 class="mb-3 flex items-center gap-2 text-sm font-semibold text-text-secondary">
+              <span>{r.icon}</span>
+              <span>{r.label}</span>
+              <span class="text-text-muted">({r.items.length})</span>
+            </h3>
+            {r.items.length > 0 ? (
+              <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {r.items.map((t: any) => (
+                  <TrendCard title={t.title} traffic={t.traffic} articles={t.articles} />
+                ))}
+              </div>
+            ) : (
+              <p class="text-sm text-text-muted">No tech trends found.</p>
+            )}
+          </div>
+        ))}
+      </div>
+    ) : (
+      <p class="text-sm text-text-muted">No trends data available yet.</p>
+    )}
+  </section>
+
+  <!-- Divider -->
+  <div class="mb-10 flex items-center gap-4">
+    <div class="h-px flex-1 bg-border"></div>
+    <span class="text-sm font-medium text-text-muted">For Researchers</span>
+    <div class="h-px flex-1 bg-border"></div>
   </div>
 
   <!-- arXiv Papers -->
@@ -109,48 +163,5 @@ const aiTrends = trendsData.aiTrends?.items ?? [];
       ))}
     </div>
     {repos.length === 0 && <p class="text-sm text-text-muted">No data available yet.</p>}
-  </section>
-
-  <!-- RSS Feeds by Category -->
-  {rssCategories.map((cat: any) => (
-    <section class="mb-10" id={`rss-${cat.id}`}>
-      <SectionHeader title={cat.name} icon={cat.icon} accentClass="text-accent-rss" updatedAt={rssData.updatedAt} />
-      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {cat.items.slice(0, 9).map((item: any) => (
-          <NewsCard
-            title={item.title}
-            link={item.link}
-            description={item.description}
-            pubDate={item.pubDate}
-            source={item.source}
-          />
-        ))}
-      </div>
-      {cat.items.length === 0 && <p class="text-sm text-text-muted">No feeds available.</p>}
-    </section>
-  ))}
-
-  <!-- Google Trends -->
-  <section class="mb-10" id="trends">
-    <SectionHeader title="Google Trends" icon="📈" accentClass="text-accent-trends" updatedAt={trendsData.updatedAt} />
-    {aiTrends.length > 0 && (
-      <div class="mb-4">
-        <h3 class="mb-3 text-sm font-semibold text-accent-trends">AI-Related Trends</h3>
-        <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {aiTrends.map((t: any) => (
-            <TrendCard title={t.title} traffic={t.traffic} articles={t.articles} />
-          ))}
-        </div>
-      </div>
-    )}
-    <div>
-      <h3 class="mb-3 text-sm font-semibold text-text-secondary">All Trending</h3>
-      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {allTrends.map((t: any) => (
-          <TrendCard title={t.title} traffic={t.traffic} articles={t.articles} />
-        ))}
-      </div>
-    </div>
-    {allTrends.length === 0 && <p class="text-sm text-text-muted">No trends data available yet.</p>}
   </section>
 </Layout>
