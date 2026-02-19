@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-19T19:40:10.630Z",
+  "updatedAt": "2026-02-19T20:36:28.528Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 783,
+        "likes": 784,
         "downloads": 89919,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 727,
+        "likes": 728,
         "downloads": 79343,
         "tags": [
           "transformers",
@@ -70,7 +70,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 595,
+        "likes": 596,
         "downloads": 77344,
         "tags": [
           "transformers",
@@ -98,7 +98,7 @@
       {
         "id": "nvidia/personaplex-7b-v1",
         "author": "nvidia",
-        "likes": 2058,
+        "likes": 2059,
         "downloads": 479308,
         "tags": [
           "moshi",
@@ -123,7 +123,7 @@
       {
         "id": "OpenMOSS-Team/MOSS-TTS",
         "author": "OpenMOSS-Team",
-        "likes": 272,
+        "likes": 273,
         "downloads": 28182,
         "tags": [
           "safetensors",
@@ -160,7 +160,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
         "author": "FireRedTeam",
-        "likes": 205,
+        "likes": 206,
         "downloads": 1298,
         "tags": [
           "diffusers",
@@ -287,7 +287,7 @@
       {
         "id": "OpenMOSS-Team/MOVA-360p",
         "author": "OpenMOSS-Team",
-        "likes": 194,
+        "likes": 195,
         "downloads": 16854,
         "tags": [
           "diffusers",
@@ -333,7 +333,7 @@
       {
         "id": "unsloth/MiniMax-M2.5-GGUF",
         "author": "unsloth",
-        "likes": 123,
+        "likes": 124,
         "downloads": 53852,
         "tags": [
           "transformers",
@@ -379,7 +379,7 @@
       {
         "id": "xgen-universe/Capybara",
         "author": "xgen-universe",
-        "likes": 115,
+        "likes": 116,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -413,6 +413,24 @@
         "link": "https://huggingface.co/jdopensource/JoyAI-LLM-Flash"
       },
       {
+        "id": "deepgenteam/DeepGen-1.0",
+        "author": "deepgenteam",
+        "likes": 108,
+        "downloads": 0,
+        "tags": [
+          "image-to-image",
+          "dataset:Alex11556666/Reason_Tuning",
+          "arxiv:2602.12205",
+          "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepgenteam/DeepGen-1.0"
+      },
+      {
         "id": "inclusionAI/Ming-flash-omni-2.0",
         "author": "inclusionAI",
         "likes": 237,
@@ -433,24 +451,6 @@
         "pipeline_tag": "any-to-any",
         "lastModified": "",
         "link": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0"
-      },
-      {
-        "id": "deepgenteam/DeepGen-1.0",
-        "author": "deepgenteam",
-        "likes": 107,
-        "downloads": 0,
-        "tags": [
-          "image-to-image",
-          "dataset:Alex11556666/Reason_Tuning",
-          "arxiv:2602.12205",
-          "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
-          "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepgenteam/DeepGen-1.0"
       },
       {
         "id": "unsloth/GLM-5-GGUF",
@@ -590,7 +590,7 @@
       {
         "id": "unsloth/Qwen3-Coder-Next-GGUF",
         "author": "unsloth",
-        "likes": 357,
+        "likes": 358,
         "downloads": 416860,
         "tags": [
           "transformers",
@@ -713,6 +713,12 @@
         "tags": [
           "task_categories:other",
           "size_categories:1B<n<10B",
+          "format:csv",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
           "arxiv:2602.11664",
           "region:us",
           "recommendation-system",
@@ -878,6 +884,38 @@
         "link": "https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset"
       },
       {
+        "id": "atreydesai/qgqa-gpt-5.2-20260213-041705",
+        "author": "atreydesai",
+        "likes": 34,
+        "downloads": 36,
+        "tags": [
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-13T11:32:10.000Z",
+        "link": "https://huggingface.co/datasets/atreydesai/qgqa-gpt-5.2-20260213-041705"
+      },
+      {
+        "id": "zai-org/terminal-bench-2-verified",
+        "author": "zai-org",
+        "likes": 48,
+        "downloads": 5500,
+        "tags": [
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "lastModified": "2026-02-19T07:01:19.000Z",
+        "link": "https://huggingface.co/datasets/zai-org/terminal-bench-2-verified"
+      },
+      {
         "id": "Snowflake/AgentWorldModel-1K",
         "author": "Snowflake",
         "likes": 43,
@@ -897,38 +935,6 @@
         "link": "https://huggingface.co/datasets/Snowflake/AgentWorldModel-1K"
       },
       {
-        "id": "zai-org/terminal-bench-2-verified",
-        "author": "zai-org",
-        "likes": 48,
-        "downloads": 5500,
-        "tags": [
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "lastModified": "2026-02-19T07:01:19.000Z",
-        "link": "https://huggingface.co/datasets/zai-org/terminal-bench-2-verified"
-      },
-      {
-        "id": "atreydesai/qgqa-gpt-5.2-20260213-041705",
-        "author": "atreydesai",
-        "likes": 33,
-        "downloads": 36,
-        "tags": [
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-13T11:32:10.000Z",
-        "link": "https://huggingface.co/datasets/atreydesai/qgqa-gpt-5.2-20260213-041705"
-      },
-      {
         "id": "Soul-AILab/VividHead",
         "author": "Soul-AILab",
         "likes": 50,
@@ -942,6 +948,25 @@
         ],
         "lastModified": "2026-02-12T09:20:28.000Z",
         "link": "https://huggingface.co/datasets/Soul-AILab/VividHead"
+      },
+      {
+        "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
+        "author": "nohurry",
+        "likes": 37,
+        "downloads": 225,
+        "tags": [
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-10T13:06:40.000Z",
+        "link": "https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"
       },
       {
         "id": "google/MapTrace",
@@ -965,25 +990,6 @@
         ],
         "lastModified": "2026-01-03T06:15:16.000Z",
         "link": "https://huggingface.co/datasets/google/MapTrace"
-      },
-      {
-        "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
-        "author": "nohurry",
-        "likes": 35,
-        "downloads": 225,
-        "tags": [
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-10T13:06:40.000Z",
-        "link": "https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"
       },
       {
         "id": "allenai/molmospaces",
