@@ -5,9 +5,10 @@ interface Props {
   description: string;
   pubDate: string;
   source: string;
+  tldr?: string;
 }
 
-const { title, link, pubDate, source } = Astro.props;
+const { title, link, pubDate, source, tldr } = Astro.props;
 
 const date = pubDate
   ? new Date(pubDate).toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' })
@@ -15,12 +16,19 @@ const date = pubDate
 ---
 
 <a href={link} target="_blank" rel="noopener noreferrer"
-   class="group flex items-center gap-3 rounded-md px-3 py-2 transition-colors hover:bg-surface-hover no-underline">
-  <span class="shrink-0 rounded bg-accent-rss/15 px-1.5 py-0.5 text-[10px] font-medium text-accent-rss min-w-[80px] text-center truncate">
+   class="group flex items-start gap-3 rounded-md px-3 py-2 transition-colors hover:bg-surface-hover no-underline">
+  <span class="mt-0.5 shrink-0 rounded bg-accent-rss/15 px-1.5 py-0.5 text-[10px] font-medium text-accent-rss min-w-[80px] text-center truncate">
     {source}
   </span>
-  <span class="min-w-0 flex-1 truncate text-sm text-text-primary group-hover:text-accent-rss">
-    {title}
+  <span class="min-w-0 flex-1">
+    <span class="block truncate text-sm text-text-primary group-hover:text-accent-rss">
+      {title}
+    </span>
+    {tldr && (
+      <span class="block mt-0.5 text-xs text-text-muted leading-snug line-clamp-1">
+        {tldr}
+      </span>
+    )}
   </span>
-  {date && <span class="shrink-0 text-xs text-text-muted">{date}</span>}
+  {date && <span class="mt-0.5 shrink-0 text-xs text-text-muted">{date}</span>}
 </a>

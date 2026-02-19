@@ -43,6 +43,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate TL;DR summaries
+        run: pnpm summarize
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"

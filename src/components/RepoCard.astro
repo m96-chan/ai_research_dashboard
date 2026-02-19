@@ -7,9 +7,10 @@ interface Props {
   language: string;
   topics: string[];
   url: string;
+  tldr?: string;
 }
 
-const { fullName, description, stars, forks, language, topics, url } = Astro.props;
+const { fullName, description, stars, forks, language, topics, url, tldr } = Astro.props;
 
 function formatNum(n: number): string {
   if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`;
@@ -24,6 +25,11 @@ const shortDesc = description.length > 120 ? description.slice(0, 120) + '...' :
   <h3 class="mb-1 text-sm font-semibold text-text-primary group-hover:text-accent-github truncate">
     {fullName}
   </h3>
+  {tldr && (
+    <p class="mb-2 rounded bg-primary/10 px-2 py-1 text-xs leading-relaxed text-primary-light">
+      {tldr}
+    </p>
+  )}
   <p class="mb-3 text-xs leading-relaxed text-text-secondary">{shortDesc}</p>
   <div class="mb-2 flex flex-wrap gap-1.5">
     {topics.slice(0, 4).map((t) => (

@@ -65,6 +65,7 @@ const stockCategories = stocksData.categories ?? [];
             description={item.description}
             pubDate={item.pubDate}
             source={item.source}
+            tldr={item.tldr}
           />
         ))}
       </div>
@@ -121,6 +122,7 @@ const stockCategories = stocksData.categories ?? [];
           link={p.link}
           pdfLink={p.pdfLink}
           published={p.published}
+          tldr={p.tldr}
         />
       ))}
     </div>
@@ -175,6 +177,7 @@ const stockCategories = stocksData.categories ?? [];
           language={r.language}
           topics={r.topics}
           url={r.url}
+          tldr={r.tldr}
         />
       ))}
     </div>

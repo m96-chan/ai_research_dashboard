@@ -7,9 +7,10 @@ interface Props {
   link: string;
   pdfLink: string;
   published: string;
+  tldr?: string;
 }
 
-const { title, authors, summary, categories, link, pdfLink, published } = Astro.props;
+const { title, authors, summary, categories, link, pdfLink, published, tldr } = Astro.props;
 
 const date = new Date(published).toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' });
 const shortSummary = summary.length > 200 ? summary.slice(0, 200) + '...' : summary;
@@ -33,6 +34,11 @@ const displayAuthors = authors.length > 3
     </a>
   </h3>
   <p class="mb-2 text-xs text-text-muted">{displayAuthors}</p>
+  {tldr && (
+    <p class="mb-2 rounded bg-primary/10 px-2 py-1 text-xs leading-relaxed text-primary-light">
+      TL;DR: {tldr}
+    </p>
+  )}
   <p class="mb-3 text-xs leading-relaxed text-text-secondary">{shortSummary}</p>
   <div class="flex gap-2">
     <a href={link} target="_blank" rel="noopener noreferrer" class="text-xs text-primary-light hover:text-primary">
