@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-20T13:00:18.953Z",
+  "updatedAt": "2026-02-20T14:00:22.157Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 812,
+        "likes": 813,
         "downloads": 123344,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 752,
+        "likes": 753,
         "downloads": 105189,
         "tags": [
           "transformers",
@@ -49,7 +49,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1408,
+        "likes": 1409,
         "downloads": 173716,
         "tags": [
           "transformers",
@@ -71,7 +71,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 617,
+        "likes": 618,
         "downloads": 104051,
         "tags": [
           "transformers",
@@ -99,7 +99,7 @@
       {
         "id": "nvidia/personaplex-7b-v1",
         "author": "nvidia",
-        "likes": 2074,
+        "likes": 2076,
         "downloads": 509647,
         "tags": [
           "moshi",
@@ -124,7 +124,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
         "author": "FireRedTeam",
-        "likes": 215,
+        "likes": 216,
         "downloads": 1711,
         "tags": [
           "diffusers",
@@ -202,7 +202,7 @@
       {
         "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
         "author": "Qwen",
-        "likes": 1099,
+        "likes": 1101,
         "downloads": 877971,
         "tags": [
           "safetensors",
@@ -291,7 +291,7 @@
       {
         "id": "xgen-universe/Capybara",
         "author": "xgen-universe",
-        "likes": 129,
+        "likes": 130,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -327,7 +327,7 @@
       {
         "id": "Qwen/Qwen3-Coder-Next",
         "author": "Qwen",
-        "likes": 932,
+        "likes": 933,
         "downloads": 389713,
         "tags": [
           "transformers",
@@ -365,7 +365,7 @@
       {
         "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
         "author": "mistralai",
-        "likes": 588,
+        "likes": 589,
         "downloads": 63264,
         "tags": [
           "vllm",
@@ -505,30 +505,29 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese"
       },
       {
-        "id": "OpenMOSS-Team/MOVA-360p",
-        "author": "OpenMOSS-Team",
-        "likes": 198,
-        "downloads": 19756,
+        "id": "unsloth/Qwen3-Coder-Next-GGUF",
+        "author": "unsloth",
+        "likes": 366,
+        "downloads": 447659,
         "tags": [
-          "diffusers",
-          "safetensors",
-          "image-to-video",
-          "image-text-to-video",
-          "image-to-audio-video",
-          "image-text-to-audio-video",
-          "MOVA",
-          "OpenMOSS",
-          "SII",
-          "MOSI",
-          "sglang-diffusion",
-          "arxiv:2602.08794",
+          "transformers",
+          "gguf",
+          "qwen3_next",
+          "unsloth",
+          "qwen",
+          "qwen3",
+          "text-generation",
+          "base_model:Qwen/Qwen3-Coder-Next",
+          "base_model:quantized:Qwen/Qwen3-Coder-Next",
           "license:apache-2.0",
-          "diffusers:MOVA",
-          "region:us"
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
         ],
-        "pipeline_tag": "image-to-video",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/OpenMOSS-Team/MOVA-360p"
+        "link": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF"
       },
       {
         "id": "inclusionAI/Ming-flash-omni-2.0",
@@ -553,57 +552,9 @@
         "link": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0"
       },
       {
-        "id": "openbmb/MiniCPM-SALA",
-        "author": "openbmb",
-        "likes": 471,
-        "downloads": 4543,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "minicpm_sala",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "zh",
-          "en",
-          "arxiv:2509.24663",
-          "arxiv:2601.22156",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/openbmb/MiniCPM-SALA"
-      },
-      {
-        "id": "unsloth/Qwen3-Coder-Next-GGUF",
-        "author": "unsloth",
-        "likes": 365,
-        "downloads": 447659,
-        "tags": [
-          "transformers",
-          "gguf",
-          "qwen3_next",
-          "unsloth",
-          "qwen",
-          "qwen3",
-          "text-generation",
-          "base_model:Qwen/Qwen3-Coder-Next",
-          "base_model:quantized:Qwen/Qwen3-Coder-Next",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF"
-      },
-      {
         "id": "zai-org/GLM-OCR",
         "author": "zai-org",
-        "likes": 1090,
+        "likes": 1091,
         "downloads": 1240960,
         "tags": [
           "transformers",
@@ -628,6 +579,32 @@
         "link": "https://huggingface.co/zai-org/GLM-OCR"
       },
       {
+        "id": "OpenMOSS-Team/MOVA-360p",
+        "author": "OpenMOSS-Team",
+        "likes": 199,
+        "downloads": 19756,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "image-to-video",
+          "image-text-to-video",
+          "image-to-audio-video",
+          "image-text-to-audio-video",
+          "MOVA",
+          "OpenMOSS",
+          "SII",
+          "MOSI",
+          "sglang-diffusion",
+          "arxiv:2602.08794",
+          "license:apache-2.0",
+          "diffusers:MOVA",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/OpenMOSS-Team/MOVA-360p"
+      },
+      {
         "id": "Soul-AILab/SoulX-Singer",
         "author": "Soul-AILab",
         "likes": 120,
@@ -649,6 +626,29 @@
         "pipeline_tag": "text-to-speech",
         "lastModified": "",
         "link": "https://huggingface.co/Soul-AILab/SoulX-Singer"
+      },
+      {
+        "id": "openbmb/MiniCPM-SALA",
+        "author": "openbmb",
+        "likes": 471,
+        "downloads": 4543,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minicpm_sala",
+          "text-generation",
+          "conversational",
+          "custom_code",
+          "zh",
+          "en",
+          "arxiv:2509.24663",
+          "arxiv:2601.22156",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/openbmb/MiniCPM-SALA"
       },
       {
         "id": "inclusionAI/Ling-2.5-1T",
@@ -750,7 +750,7 @@
       {
         "id": "OpenResearcher/OpenResearcher-Dataset",
         "author": "OpenResearcher",
-        "likes": 66,
+        "likes": 67,
         "downloads": 6813,
         "tags": [
           "license:mit",
@@ -767,6 +767,29 @@
         ],
         "lastModified": "2026-02-12T22:23:38.000Z",
         "link": "https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset"
+      },
+      {
+        "id": "google/MapTrace",
+        "author": "google",
+        "likes": 58,
+        "downloads": 711,
+        "tags": [
+          "task_categories:image-to-text",
+          "language:en",
+          "license:cc-by-4.0",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2512.19609",
+          "region:us",
+          "map"
+        ],
+        "lastModified": "2026-01-03T06:15:16.000Z",
+        "link": "https://huggingface.co/datasets/google/MapTrace"
       },
       {
         "id": "openbmb/UltraData-Math",
@@ -873,29 +896,6 @@
         ],
         "lastModified": "2026-02-06T15:06:13.000Z",
         "link": "https://huggingface.co/datasets/OpenMed/Medical-Reasoning-SFT-Mega"
-      },
-      {
-        "id": "google/MapTrace",
-        "author": "google",
-        "likes": 56,
-        "downloads": 711,
-        "tags": [
-          "task_categories:image-to-text",
-          "language:en",
-          "license:cc-by-4.0",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2512.19609",
-          "region:us",
-          "map"
-        ],
-        "lastModified": "2026-01-03T06:15:16.000Z",
-        "link": "https://huggingface.co/datasets/google/MapTrace"
       },
       {
         "id": "AlicanKiraz0/Turkish-Finance-SFT-Dataset",
@@ -1083,6 +1083,22 @@
         "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Kitchen-Sim-Demos"
       },
       {
+        "id": "uv-scripts/ocr",
+        "author": "uv-scripts",
+        "likes": 60,
+        "downloads": 681,
+        "tags": [
+          "region:us",
+          "uv-script",
+          "ocr",
+          "vision-language-model",
+          "document-processing",
+          "hf-jobs"
+        ],
+        "lastModified": "2026-02-19T13:07:01.000Z",
+        "link": "https://huggingface.co/datasets/uv-scripts/ocr"
+      },
+      {
         "id": "galaxyMindAiLabs/stem-reasoning-complex",
         "author": "galaxyMindAiLabs",
         "likes": 57,
@@ -1139,24 +1155,6 @@
         ],
         "lastModified": "2026-02-09T07:05:40.000Z",
         "link": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb-L3"
-      },
-      {
-        "id": "deepgenteam/DeepGen-1.0",
-        "author": "deepgenteam",
-        "likes": 24,
-        "downloads": 679,
-        "tags": [
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:imagefolder",
-          "modality:image",
-          "library:datasets",
-          "library:mlcroissant",
-          "arxiv:2602.12205",
-          "region:us"
-        ],
-        "lastModified": "2026-02-13T10:44:53.000Z",
-        "link": "https://huggingface.co/datasets/deepgenteam/DeepGen-1.0"
       }
     ]
   }
