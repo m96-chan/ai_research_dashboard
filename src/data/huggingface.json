@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-20T12:00:19.274Z",
+  "updatedAt": "2026-02-20T13:00:18.953Z",
   "models": {
     "count": 30,
     "items": [
@@ -19,7 +19,8 @@
           "eval-results",
           "endpoints_compatible",
           "fp8",
-          "region:us"
+          "region:us",
+          "deploy:azure"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
@@ -48,7 +49,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1406,
+        "likes": 1408,
         "downloads": 173716,
         "tags": [
           "transformers",
@@ -70,7 +71,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 616,
+        "likes": 617,
         "downloads": 104051,
         "tags": [
           "transformers",
@@ -98,7 +99,7 @@
       {
         "id": "nvidia/personaplex-7b-v1",
         "author": "nvidia",
-        "likes": 2073,
+        "likes": 2074,
         "downloads": 509647,
         "tags": [
           "moshi",
@@ -141,7 +142,7 @@
       {
         "id": "OpenMOSS-Team/MOSS-TTS",
         "author": "OpenMOSS-Team",
-        "likes": 281,
+        "likes": 282,
         "downloads": 35455,
         "tags": [
           "safetensors",
@@ -178,7 +179,7 @@
       {
         "id": "moonshotai/Kimi-K2.5",
         "author": "moonshotai",
-        "likes": 2275,
+        "likes": 2276,
         "downloads": 1006690,
         "tags": [
           "transformers",
@@ -218,7 +219,7 @@
       {
         "id": "unsloth/Qwen3.5-397B-A17B-GGUF",
         "author": "unsloth",
-        "likes": 158,
+        "likes": 159,
         "downloads": 66442,
         "tags": [
           "transformers",
@@ -290,7 +291,7 @@
       {
         "id": "xgen-universe/Capybara",
         "author": "xgen-universe",
-        "likes": 128,
+        "likes": 129,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -326,7 +327,7 @@
       {
         "id": "Qwen/Qwen3-Coder-Next",
         "author": "Qwen",
-        "likes": 931,
+        "likes": 932,
         "downloads": 389713,
         "tags": [
           "transformers",
@@ -346,7 +347,7 @@
       {
         "id": "deepgenteam/DeepGen-1.0",
         "author": "deepgenteam",
-        "likes": 116,
+        "likes": 117,
         "downloads": 0,
         "tags": [
           "text-to-image",
@@ -364,7 +365,7 @@
       {
         "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
         "author": "mistralai",
-        "likes": 587,
+        "likes": 588,
         "downloads": 63264,
         "tags": [
           "vllm",
@@ -445,58 +446,9 @@
         "link": "https://huggingface.co/DMindAI/DMind-3"
       },
       {
-        "id": "OpenMOSS-Team/MOVA-360p",
-        "author": "OpenMOSS-Team",
-        "likes": 198,
-        "downloads": 19756,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "image-to-video",
-          "image-text-to-video",
-          "image-to-audio-video",
-          "image-text-to-audio-video",
-          "MOVA",
-          "OpenMOSS",
-          "SII",
-          "MOSI",
-          "sglang-diffusion",
-          "arxiv:2602.08794",
-          "license:apache-2.0",
-          "diffusers:MOVA",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/OpenMOSS-Team/MOVA-360p"
-      },
-      {
-        "id": "openbmb/MiniCPM-SALA",
-        "author": "openbmb",
-        "likes": 471,
-        "downloads": 4543,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "minicpm_sala",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "zh",
-          "en",
-          "arxiv:2509.24663",
-          "arxiv:2601.22156",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/openbmb/MiniCPM-SALA"
-      },
-      {
         "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
         "author": "Fortytwo-Network",
-        "likes": 91,
+        "likes": 92,
         "downloads": 511,
         "tags": [
           "transformers",
@@ -553,6 +505,32 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese"
       },
       {
+        "id": "OpenMOSS-Team/MOVA-360p",
+        "author": "OpenMOSS-Team",
+        "likes": 198,
+        "downloads": 19756,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "image-to-video",
+          "image-text-to-video",
+          "image-to-audio-video",
+          "image-text-to-audio-video",
+          "MOVA",
+          "OpenMOSS",
+          "SII",
+          "MOSI",
+          "sglang-diffusion",
+          "arxiv:2602.08794",
+          "license:apache-2.0",
+          "diffusers:MOVA",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/OpenMOSS-Team/MOVA-360p"
+      },
+      {
         "id": "inclusionAI/Ming-flash-omni-2.0",
         "author": "inclusionAI",
         "likes": 238,
@@ -573,6 +551,54 @@
         "pipeline_tag": "any-to-any",
         "lastModified": "",
         "link": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0"
+      },
+      {
+        "id": "openbmb/MiniCPM-SALA",
+        "author": "openbmb",
+        "likes": 471,
+        "downloads": 4543,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minicpm_sala",
+          "text-generation",
+          "conversational",
+          "custom_code",
+          "zh",
+          "en",
+          "arxiv:2509.24663",
+          "arxiv:2601.22156",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/openbmb/MiniCPM-SALA"
+      },
+      {
+        "id": "unsloth/Qwen3-Coder-Next-GGUF",
+        "author": "unsloth",
+        "likes": 365,
+        "downloads": 447659,
+        "tags": [
+          "transformers",
+          "gguf",
+          "qwen3_next",
+          "unsloth",
+          "qwen",
+          "qwen3",
+          "text-generation",
+          "base_model:Qwen/Qwen3-Coder-Next",
+          "base_model:quantized:Qwen/Qwen3-Coder-Next",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF"
       },
       {
         "id": "zai-org/GLM-OCR",
@@ -600,31 +626,6 @@
         "pipeline_tag": "image-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/zai-org/GLM-OCR"
-      },
-      {
-        "id": "unsloth/Qwen3-Coder-Next-GGUF",
-        "author": "unsloth",
-        "likes": 365,
-        "downloads": 447659,
-        "tags": [
-          "transformers",
-          "gguf",
-          "qwen3_next",
-          "unsloth",
-          "qwen",
-          "qwen3",
-          "text-generation",
-          "base_model:Qwen/Qwen3-Coder-Next",
-          "base_model:quantized:Qwen/Qwen3-Coder-Next",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF"
       },
       {
         "id": "Soul-AILab/SoulX-Singer",
@@ -1082,24 +1083,6 @@
         "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Kitchen-Sim-Demos"
       },
       {
-        "id": "deepgenteam/DeepGen-1.0",
-        "author": "deepgenteam",
-        "likes": 24,
-        "downloads": 679,
-        "tags": [
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:imagefolder",
-          "modality:image",
-          "library:datasets",
-          "library:mlcroissant",
-          "arxiv:2602.12205",
-          "region:us"
-        ],
-        "lastModified": "2026-02-13T10:44:53.000Z",
-        "link": "https://huggingface.co/datasets/deepgenteam/DeepGen-1.0"
-      },
-      {
         "id": "galaxyMindAiLabs/stem-reasoning-complex",
         "author": "galaxyMindAiLabs",
         "likes": 57,
@@ -1156,6 +1139,24 @@
         ],
         "lastModified": "2026-02-09T07:05:40.000Z",
         "link": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb-L3"
+      },
+      {
+        "id": "deepgenteam/DeepGen-1.0",
+        "author": "deepgenteam",
+        "likes": 24,
+        "downloads": 679,
+        "tags": [
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "arxiv:2602.12205",
+          "region:us"
+        ],
+        "lastModified": "2026-02-13T10:44:53.000Z",
+        "link": "https://huggingface.co/datasets/deepgenteam/DeepGen-1.0"
       }
     ]
   }
