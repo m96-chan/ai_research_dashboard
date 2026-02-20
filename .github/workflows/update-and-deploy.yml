@@ -1,9 +1,6 @@
 name: Update Data & Deploy
 
 on:
-  schedule:
-    # Run every 60 minutes
-    - cron: '0 * * * *'
   push:
     branches: [main]
   workflow_dispatch:
