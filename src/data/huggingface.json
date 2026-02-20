@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-20T22:00:19.586Z",
+  "updatedAt": "2026-02-20T23:00:18.464Z",
   "models": {
     "count": 30,
     "items": [
@@ -26,7 +26,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 804,
+        "likes": 806,
         "downloads": 123344,
         "tags": [
           "transformers",
@@ -69,6 +69,31 @@
         "link": "https://huggingface.co/zai-org/GLM-5"
       },
       {
+        "id": "nvidia/personaplex-7b-v1",
+        "author": "nvidia",
+        "likes": 2084,
+        "downloads": 509647,
+        "tags": [
+          "moshi",
+          "safetensors",
+          "personaplex",
+          "speech-to-speech",
+          "audio-to-audio",
+          "en",
+          "arxiv:2602.06053",
+          "arxiv:2503.04721",
+          "arxiv:2110.13900",
+          "arxiv:2410.00037",
+          "base_model:kyutai/moshiko-pytorch-bf16",
+          "base_model:finetune:kyutai/moshiko-pytorch-bf16",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "audio-to-audio",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/personaplex-7b-v1"
+      },
+      {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
         "likes": 622,
@@ -97,34 +122,9 @@
         "link": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
       },
       {
-        "id": "nvidia/personaplex-7b-v1",
-        "author": "nvidia",
-        "likes": 2081,
-        "downloads": 509647,
-        "tags": [
-          "moshi",
-          "safetensors",
-          "personaplex",
-          "speech-to-speech",
-          "audio-to-audio",
-          "en",
-          "arxiv:2602.06053",
-          "arxiv:2503.04721",
-          "arxiv:2110.13900",
-          "arxiv:2410.00037",
-          "base_model:kyutai/moshiko-pytorch-bf16",
-          "base_model:finetune:kyutai/moshiko-pytorch-bf16",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "audio-to-audio",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/personaplex-7b-v1"
-      },
-      {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
         "author": "FireRedTeam",
-        "likes": 219,
+        "likes": 220,
         "downloads": 1711,
         "tags": [
           "diffusers",
@@ -159,7 +159,7 @@
       {
         "id": "unsloth/Qwen3.5-397B-A17B-GGUF",
         "author": "unsloth",
-        "likes": 161,
+        "likes": 162,
         "downloads": 66442,
         "tags": [
           "transformers",
@@ -182,7 +182,7 @@
       {
         "id": "OpenMOSS-Team/MOSS-TTS",
         "author": "OpenMOSS-Team",
-        "likes": 282,
+        "likes": 283,
         "downloads": 35455,
         "tags": [
           "safetensors",
@@ -219,7 +219,7 @@
       {
         "id": "nineninesix/kani-tts-2-en",
         "author": "nineninesix",
-        "likes": 153,
+        "likes": 154,
         "downloads": 2362,
         "tags": [
           "transformers",
@@ -245,7 +245,7 @@
       {
         "id": "moonshotai/Kimi-K2.5",
         "author": "moonshotai",
-        "likes": 2046,
+        "likes": 2047,
         "downloads": 1006690,
         "tags": [
           "transformers",
@@ -268,7 +268,7 @@
       {
         "id": "xgen-universe/Capybara",
         "author": "xgen-universe",
-        "likes": 133,
+        "likes": 136,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -284,7 +284,7 @@
       {
         "id": "unsloth/MiniMax-M2.5-GGUF",
         "author": "unsloth",
-        "likes": 132,
+        "likes": 133,
         "downloads": 59026,
         "tags": [
           "transformers",
@@ -307,7 +307,7 @@
       {
         "id": "jdopensource/JoyAI-LLM-Flash",
         "author": "jdopensource",
-        "likes": 121,
+        "likes": 122,
         "downloads": 648,
         "tags": [
           "safetensors",
@@ -323,6 +323,24 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/jdopensource/JoyAI-LLM-Flash"
+      },
+      {
+        "id": "deepgenteam/DeepGen-1.0",
+        "author": "deepgenteam",
+        "likes": 124,
+        "downloads": 0,
+        "tags": [
+          "text-to-image",
+          "dataset:Alex11556666/Reason_Tuning",
+          "arxiv:2602.12205",
+          "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepgenteam/DeepGen-1.0"
       },
       {
         "id": "Qwen/Qwen3-Coder-Next",
@@ -345,22 +363,38 @@
         "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
       },
       {
-        "id": "deepgenteam/DeepGen-1.0",
-        "author": "deepgenteam",
-        "likes": 121,
-        "downloads": 0,
+        "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
+        "author": "nvidia",
+        "likes": 85,
+        "downloads": 2658,
         "tags": [
-          "text-to-image",
-          "dataset:Alex11556666/Reason_Tuning",
-          "arxiv:2602.12205",
-          "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
-          "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
-          "license:apache-2.0",
+          "transformers",
+          "safetensors",
+          "nemotron_h",
+          "text-generation",
+          "nvidia",
+          "pytorch",
+          "conversational",
+          "custom_code",
+          "en",
+          "ja",
+          "dataset:nvidia/Nemotron-Personas-Japan",
+          "dataset:nvidia/Nemotron-CC-v2.1",
+          "dataset:nvidia/Nemotron-Pretraining-Specialized-v1",
+          "dataset:nvidia/Nemotron-Agentic-v1",
+          "dataset:nvidia/Nemotron-Instruction-Following-Chat-v1",
+          "dataset:globis-university/aozorabunko-clean",
+          "dataset:HuggingFaceFW/fineweb-2",
+          "arxiv:2504.03624",
+          "arxiv:2508.14444",
+          "base_model:nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+          "base_model:finetune:nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+          "license:other",
           "region:us"
         ],
-        "pipeline_tag": "text-to-image",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/deepgenteam/DeepGen-1.0"
+        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese"
       },
       {
         "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
@@ -397,43 +431,9 @@
         "link": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602"
       },
       {
-        "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
-        "author": "nvidia",
-        "likes": 83,
-        "downloads": 2658,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_h",
-          "text-generation",
-          "nvidia",
-          "pytorch",
-          "conversational",
-          "custom_code",
-          "en",
-          "ja",
-          "dataset:nvidia/Nemotron-Personas-Japan",
-          "dataset:nvidia/Nemotron-CC-v2.1",
-          "dataset:nvidia/Nemotron-Pretraining-Specialized-v1",
-          "dataset:nvidia/Nemotron-Agentic-v1",
-          "dataset:nvidia/Nemotron-Instruction-Following-Chat-v1",
-          "dataset:globis-university/aozorabunko-clean",
-          "dataset:HuggingFaceFW/fineweb-2",
-          "arxiv:2504.03624",
-          "arxiv:2508.14444",
-          "base_model:nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-          "base_model:finetune:nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese"
-      },
-      {
         "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
         "author": "Fortytwo-Network",
-        "likes": 98,
+        "likes": 99,
         "downloads": 511,
         "tags": [
           "transformers",
@@ -458,7 +458,7 @@
       {
         "id": "inclusionAI/Ling-2.5-1T",
         "author": "inclusionAI",
-        "likes": 72,
+        "likes": 73,
         "downloads": 1623,
         "tags": [
           "transformers",
@@ -473,6 +473,26 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/inclusionAI/Ling-2.5-1T"
+      },
+      {
+        "id": "inclusionAI/Ring-2.5-1T",
+        "author": "inclusionAI",
+        "likes": 213,
+        "downloads": 4877,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "bailing_hybrid",
+          "text-generation",
+          "conversational",
+          "custom_code",
+          "license:mit",
+          "compressed-tensors",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/inclusionAI/Ring-2.5-1T"
       },
       {
         "id": "unsloth/Qwen3-Coder-Next-GGUF",
@@ -498,26 +518,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF"
-      },
-      {
-        "id": "inclusionAI/Ring-2.5-1T",
-        "author": "inclusionAI",
-        "likes": 212,
-        "downloads": 4877,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "bailing_hybrid",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "license:mit",
-          "compressed-tensors",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/inclusionAI/Ring-2.5-1T"
       },
       {
         "id": "zai-org/GLM-OCR",
@@ -549,7 +549,7 @@
       {
         "id": "Soul-AILab/SoulX-Singer",
         "author": "Soul-AILab",
-        "likes": 122,
+        "likes": 123,
         "downloads": 1027,
         "tags": [
           "huggingface_hub",
@@ -570,6 +570,21 @@
         "link": "https://huggingface.co/Soul-AILab/SoulX-Singer"
       },
       {
+        "id": "Zyphra/ZUNA",
+        "author": "Zyphra",
+        "likes": 66,
+        "downloads": 529,
+        "tags": [
+          "safetensors",
+          "en",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/Zyphra/ZUNA"
+      },
+      {
         "id": "circlestone-labs/Anima",
         "author": "circlestone-labs",
         "likes": 642,
@@ -585,24 +600,29 @@
         "link": "https://huggingface.co/circlestone-labs/Anima"
       },
       {
-        "id": "Zyphra/ZUNA",
-        "author": "Zyphra",
-        "likes": 65,
-        "downloads": 529,
+        "id": "AIDC-AI/Ovis2.6-30B-A3B",
+        "author": "AIDC-AI",
+        "likes": 132,
+        "downloads": 9338,
         "tags": [
           "safetensors",
-          "en",
+          "ovis2_6_moe",
+          "image-text-to-text",
+          "conversational",
+          "custom_code",
+          "arxiv:2508.11737",
+          "arxiv:2405.20797",
           "license:apache-2.0",
           "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/Zyphra/ZUNA"
+        "link": "https://huggingface.co/AIDC-AI/Ovis2.6-30B-A3B"
       },
       {
         "id": "inclusionAI/Ming-flash-omni-2.0",
         "author": "inclusionAI",
-        "likes": 238,
+        "likes": 239,
         "downloads": 7619,
         "tags": [
           "diffusers",
@@ -620,26 +640,6 @@
         "pipeline_tag": "any-to-any",
         "lastModified": "",
         "link": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0"
-      },
-      {
-        "id": "AIDC-AI/Ovis2.6-30B-A3B",
-        "author": "AIDC-AI",
-        "likes": 131,
-        "downloads": 9338,
-        "tags": [
-          "safetensors",
-          "ovis2_6_moe",
-          "image-text-to-text",
-          "conversational",
-          "custom_code",
-          "arxiv:2508.11737",
-          "arxiv:2405.20797",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/AIDC-AI/Ovis2.6-30B-A3B"
       },
       {
         "id": "openbmb/MiniCPM-SALA",
@@ -667,7 +667,7 @@
       {
         "id": "unsloth/GLM-5-GGUF",
         "author": "unsloth",
-        "likes": 179,
+        "likes": 180,
         "downloads": 46517,
         "tags": [
           "transformers",
@@ -725,7 +725,7 @@
       {
         "id": "google/MapTrace",
         "author": "google",
-        "likes": 61,
+        "likes": 62,
         "downloads": 711,
         "tags": [
           "task_categories:image-to-text",
@@ -769,7 +769,7 @@
       {
         "id": "openbmb/UltraData-Math",
         "author": "openbmb",
-        "likes": 234,
+        "likes": 235,
         "downloads": 39051,
         "tags": [
           "task_categories:text-generation",
@@ -880,6 +880,18 @@
         "link": "https://huggingface.co/datasets/Snowflake/AgentWorldModel-1K"
       },
       {
+        "id": "zai-org/terminal-bench-2-verified",
+        "author": "zai-org",
+        "likes": 50,
+        "downloads": 5527,
+        "tags": [
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "lastModified": "2026-02-19T07:01:19.000Z",
+        "link": "https://huggingface.co/datasets/zai-org/terminal-bench-2-verified"
+      },
+      {
         "id": "OpenMed/Medical-Reasoning-SFT-Mega",
         "author": "OpenMed",
         "likes": 79,
@@ -910,18 +922,6 @@
         ],
         "lastModified": "2026-02-06T15:06:13.000Z",
         "link": "https://huggingface.co/datasets/OpenMed/Medical-Reasoning-SFT-Mega"
-      },
-      {
-        "id": "zai-org/terminal-bench-2-verified",
-        "author": "zai-org",
-        "likes": 50,
-        "downloads": 5527,
-        "tags": [
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "lastModified": "2026-02-19T07:01:19.000Z",
-        "link": "https://huggingface.co/datasets/zai-org/terminal-bench-2-verified"
       },
       {
         "id": "AlicanKiraz0/Turkish-Finance-SFT-Dataset",
