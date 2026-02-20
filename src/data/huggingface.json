@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-20T21:00:24.585Z",
+  "updatedAt": "2026-02-20T22:00:19.586Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 765,
+        "likes": 768,
         "downloads": 105189,
         "tags": [
           "transformers",
@@ -142,7 +142,7 @@
       {
         "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
         "author": "Qwen",
-        "likes": 1106,
+        "likes": 1107,
         "downloads": 877971,
         "tags": [
           "safetensors",
@@ -159,7 +159,7 @@
       {
         "id": "unsloth/Qwen3.5-397B-A17B-GGUF",
         "author": "unsloth",
-        "likes": 160,
+        "likes": 161,
         "downloads": 66442,
         "tags": [
           "transformers",
@@ -456,55 +456,6 @@
         "link": "https://huggingface.co/Fortytwo-Network/Strand-Rust-Coder-14B-v1"
       },
       {
-        "id": "DMindAI/DMind-3",
-        "author": "DMindAI",
-        "likes": 84,
-        "downloads": 140,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gpt_oss",
-          "text-generation",
-          "web3",
-          "finance",
-          "defi",
-          "chain-of-thought",
-          "sft",
-          "security-audit",
-          "on-device-ai",
-          "conversational",
-          "en",
-          "zh",
-          "base_model:openai/gpt-oss-20b",
-          "base_model:finetune:openai/gpt-oss-20b",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/DMindAI/DMind-3"
-      },
-      {
-        "id": "inclusionAI/Ring-2.5-1T",
-        "author": "inclusionAI",
-        "likes": 212,
-        "downloads": 4877,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "bailing_hybrid",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "license:mit",
-          "compressed-tensors",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/inclusionAI/Ring-2.5-1T"
-      },
-      {
         "id": "inclusionAI/Ling-2.5-1T",
         "author": "inclusionAI",
         "likes": 72,
@@ -526,7 +477,7 @@
       {
         "id": "unsloth/Qwen3-Coder-Next-GGUF",
         "author": "unsloth",
-        "likes": 368,
+        "likes": 369,
         "downloads": 447659,
         "tags": [
           "transformers",
@@ -547,6 +498,26 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF"
+      },
+      {
+        "id": "inclusionAI/Ring-2.5-1T",
+        "author": "inclusionAI",
+        "likes": 212,
+        "downloads": 4877,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "bailing_hybrid",
+          "text-generation",
+          "conversational",
+          "custom_code",
+          "license:mit",
+          "compressed-tensors",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/inclusionAI/Ring-2.5-1T"
       },
       {
         "id": "zai-org/GLM-OCR",
@@ -651,6 +622,26 @@
         "link": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0"
       },
       {
+        "id": "AIDC-AI/Ovis2.6-30B-A3B",
+        "author": "AIDC-AI",
+        "likes": 131,
+        "downloads": 9338,
+        "tags": [
+          "safetensors",
+          "ovis2_6_moe",
+          "image-text-to-text",
+          "conversational",
+          "custom_code",
+          "arxiv:2508.11737",
+          "arxiv:2405.20797",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/AIDC-AI/Ovis2.6-30B-A3B"
+      },
+      {
         "id": "openbmb/MiniCPM-SALA",
         "author": "openbmb",
         "likes": 470,
@@ -674,24 +665,29 @@
         "link": "https://huggingface.co/openbmb/MiniCPM-SALA"
       },
       {
-        "id": "AIDC-AI/Ovis2.6-30B-A3B",
-        "author": "AIDC-AI",
-        "likes": 131,
-        "downloads": 9338,
+        "id": "unsloth/GLM-5-GGUF",
+        "author": "unsloth",
+        "likes": 179,
+        "downloads": 46517,
         "tags": [
-          "safetensors",
-          "ovis2_6_moe",
-          "image-text-to-text",
-          "conversational",
-          "custom_code",
-          "arxiv:2508.11737",
-          "arxiv:2405.20797",
-          "license:apache-2.0",
-          "region:us"
+          "transformers",
+          "gguf",
+          "unsloth",
+          "glm_moe_dsa",
+          "text-generation",
+          "en",
+          "zh",
+          "base_model:zai-org/GLM-5",
+          "base_model:quantized:zai-org/GLM-5",
+          "license:mit",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/AIDC-AI/Ovis2.6-30B-A3B"
+        "link": "https://huggingface.co/unsloth/GLM-5-GGUF"
       }
     ]
   },
