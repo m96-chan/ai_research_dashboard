@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-21T16:00:25.304Z",
+  "updatedAt": "2026-02-21T17:00:15.568Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 811,
+        "likes": 816,
         "downloads": 133264,
         "tags": [
           "transformers",
@@ -26,7 +26,7 @@
       {
         "id": "nvidia/personaplex-7b-v1",
         "author": "nvidia",
-        "likes": 2103,
+        "likes": 2105,
         "downloads": 539048,
         "tags": [
           "moshi",
@@ -51,7 +51,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 823,
+        "likes": 825,
         "downloads": 173116,
         "tags": [
           "transformers",
@@ -74,7 +74,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1398,
+        "likes": 1399,
         "downloads": 176889,
         "tags": [
           "transformers",
@@ -159,7 +159,7 @@
       {
         "id": "unsloth/Qwen3.5-397B-A17B-GGUF",
         "author": "unsloth",
-        "likes": 168,
+        "likes": 170,
         "downloads": 73447,
         "tags": [
           "transformers",
@@ -208,7 +208,7 @@
       {
         "id": "xgen-universe/Capybara",
         "author": "xgen-universe",
-        "likes": 143,
+        "likes": 145,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -325,6 +325,24 @@
         "link": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF"
       },
       {
+        "id": "deepgenteam/DeepGen-1.0",
+        "author": "deepgenteam",
+        "likes": 128,
+        "downloads": 24,
+        "tags": [
+          "text-to-image",
+          "dataset:Alex11556666/Reason_Tuning",
+          "arxiv:2602.12205",
+          "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepgenteam/DeepGen-1.0"
+      },
+      {
         "id": "Qwen/Qwen3-Coder-Next",
         "author": "Qwen",
         "likes": 938,
@@ -343,24 +361,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
-      },
-      {
-        "id": "deepgenteam/DeepGen-1.0",
-        "author": "deepgenteam",
-        "likes": 128,
-        "downloads": 24,
-        "tags": [
-          "text-to-image",
-          "dataset:Alex11556666/Reason_Tuning",
-          "arxiv:2602.12205",
-          "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
-          "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepgenteam/DeepGen-1.0"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
@@ -424,7 +424,7 @@
       {
         "id": "Zyphra/ZUNA",
         "author": "Zyphra",
-        "likes": 88,
+        "likes": 90,
         "downloads": 747,
         "tags": [
           "safetensors",
@@ -435,6 +435,49 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/Zyphra/ZUNA"
+      },
+      {
+        "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
+        "author": "TeichAI",
+        "likes": 89,
+        "downloads": 8740,
+        "tags": [
+          "transformers",
+          "gguf",
+          "qwen3",
+          "text-generation",
+          "text-generation-inference",
+          "unsloth",
+          "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
+          "base_model:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
+          "base_model:quantized:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
+      },
+      {
+        "id": "inclusionAI/Ling-2.5-1T",
+        "author": "inclusionAI",
+        "likes": 83,
+        "downloads": 1636,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "bailing_hybrid",
+          "text-generation",
+          "conversational",
+          "custom_code",
+          "license:mit",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/inclusionAI/Ling-2.5-1T"
       },
       {
         "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
@@ -469,49 +512,6 @@
         "pipeline_tag": "automatic-speech-recognition",
         "lastModified": "",
         "link": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602"
-      },
-      {
-        "id": "inclusionAI/Ling-2.5-1T",
-        "author": "inclusionAI",
-        "likes": 81,
-        "downloads": 1636,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "bailing_hybrid",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/inclusionAI/Ling-2.5-1T"
-      },
-      {
-        "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
-        "author": "TeichAI",
-        "likes": 82,
-        "downloads": 8740,
-        "tags": [
-          "transformers",
-          "gguf",
-          "qwen3",
-          "text-generation",
-          "text-generation-inference",
-          "unsloth",
-          "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
-          "base_model:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
-          "base_model:quantized:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
       },
       {
         "id": "unsloth/Qwen3-Coder-Next-GGUF",
@@ -562,6 +562,26 @@
         "link": "https://huggingface.co/Soul-AILab/SoulX-Singer"
       },
       {
+        "id": "tarteel-ai/whisper-base-ar-quran",
+        "author": "tarteel-ai",
+        "likes": 136,
+        "downloads": 12682,
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tensorboard",
+          "whisper",
+          "automatic-speech-recognition",
+          "generated_from_trainer",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "lastModified": "",
+        "link": "https://huggingface.co/tarteel-ai/whisper-base-ar-quran"
+      },
+      {
         "id": "circlestone-labs/Anima",
         "author": "circlestone-labs",
         "likes": 652,
@@ -579,7 +599,7 @@
       {
         "id": "zai-org/GLM-OCR",
         "author": "zai-org",
-        "likes": 1095,
+        "likes": 1096,
         "downloads": 1318961,
         "tags": [
           "transformers",
@@ -602,26 +622,6 @@
         "pipeline_tag": "image-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/zai-org/GLM-OCR"
-      },
-      {
-        "id": "tarteel-ai/whisper-base-ar-quran",
-        "author": "tarteel-ai",
-        "likes": 135,
-        "downloads": 12682,
-        "tags": [
-          "transformers",
-          "pytorch",
-          "tensorboard",
-          "whisper",
-          "automatic-speech-recognition",
-          "generated_from_trainer",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "automatic-speech-recognition",
-        "lastModified": "",
-        "link": "https://huggingface.co/tarteel-ai/whisper-base-ar-quran"
       },
       {
         "id": "shallowdream204/BitDance-14B-16x",
@@ -665,30 +665,52 @@
         "link": "https://huggingface.co/inclusionAI/Ring-2.5-1T"
       },
       {
-        "id": "AIDC-AI/Ovis2.6-30B-A3B",
-        "author": "AIDC-AI",
-        "likes": 133,
-        "downloads": 11109,
+        "id": "TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
+        "author": "TeichAI",
+        "likes": 320,
+        "downloads": 67330,
         "tags": [
-          "safetensors",
-          "ovis2_6_moe",
-          "image-text-to-text",
-          "conversational",
-          "custom_code",
-          "arxiv:2508.11737",
-          "arxiv:2405.20797",
+          "gguf",
+          "text-generation-inference",
+          "llama.cpp",
+          "unsloth",
+          "glm4_moe_lite",
+          "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
+          "base_model:TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill",
+          "base_model:quantized:TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill",
           "license:apache-2.0",
-          "region:us"
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/AIDC-AI/Ovis2.6-30B-A3B"
+        "link": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
       }
     ]
   },
   "datasets": {
     "count": 20,
     "items": [
+      {
+        "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
+        "author": "nohurry",
+        "likes": 64,
+        "downloads": 393,
+        "tags": [
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-10T13:06:40.000Z",
+        "link": "https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"
+      },
       {
         "id": "google/MapTrace",
         "author": "google",
@@ -713,28 +735,9 @@
         "link": "https://huggingface.co/datasets/google/MapTrace"
       },
       {
-        "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
-        "author": "nohurry",
-        "likes": 60,
-        "downloads": 393,
-        "tags": [
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-10T13:06:40.000Z",
-        "link": "https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"
-      },
-      {
         "id": "OpenResearcher/OpenResearcher-Dataset",
         "author": "OpenResearcher",
-        "likes": 74,
+        "likes": 75,
         "downloads": 8469,
         "tags": [
           "license:mit",
@@ -755,7 +758,7 @@
       {
         "id": "openbmb/UltraData-Math",
         "author": "openbmb",
-        "likes": 237,
+        "likes": 238,
         "downloads": 40812,
         "tags": [
           "task_categories:text-generation",
@@ -804,7 +807,7 @@
       {
         "id": "uv-scripts/ocr",
         "author": "uv-scripts",
-        "likes": 78,
+        "likes": 79,
         "downloads": 725,
         "tags": [
           "region:us",
@@ -869,7 +872,7 @@
       {
         "id": "allenai/olmOCR-bench",
         "author": "allenai",
-        "likes": 70,
+        "likes": 71,
         "downloads": 1954,
         "tags": [
           "benchmark:official",
@@ -951,7 +954,7 @@
           "mobility",
           "travel"
         ],
-        "lastModified": "2026-02-21T15:52:06.000Z",
+        "lastModified": "2026-02-21T16:46:33.000Z",
         "link": "https://huggingface.co/datasets/GD-ML/IntTravel_dataset"
       },
       {
@@ -1026,7 +1029,7 @@
       {
         "id": "Nanbeige/ToolMind-Web-QA",
         "author": "Nanbeige",
-        "likes": 30,
+        "likes": 31,
         "downloads": 1111,
         "tags": [
           "task_categories:text-generation",
@@ -1043,7 +1046,7 @@
       {
         "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
         "author": "TeichAI",
-        "likes": 267,
+        "likes": 268,
         "downloads": 5382,
         "tags": [
           "size_categories:n<1K",
@@ -1191,6 +1194,24 @@
         "link": "https://huggingface.co/datasets/commoncrawl/CommonLID"
       },
       {
+        "id": "deepgenteam/DeepGen-1.0",
+        "author": "deepgenteam",
+        "likes": 28,
+        "downloads": 1290,
+        "tags": [
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "arxiv:2602.12205",
+          "region:us"
+        ],
+        "lastModified": "2026-02-13T10:44:53.000Z",
+        "link": "https://huggingface.co/datasets/deepgenteam/DeepGen-1.0"
+      },
+      {
         "id": "atreydesai/qgqa-gpt-5.2-20260213-041705",
         "author": "atreydesai",
         "likes": 36,
@@ -1209,33 +1230,6 @@
         ],
         "lastModified": "2026-02-13T11:32:10.000Z",
         "link": "https://huggingface.co/datasets/atreydesai/qgqa-gpt-5.2-20260213-041705"
-      },
-      {
-        "id": "openbmb/Ultra-FineWeb-L3",
-        "author": "openbmb",
-        "likes": 37,
-        "downloads": 2047,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "language:zh",
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "llm",
-          "pretraining",
-          "web-data",
-          "data-synthesis",
-          "high-quality"
-        ],
-        "lastModified": "2026-02-09T07:05:40.000Z",
-        "link": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb-L3"
       }
     ]
   }
