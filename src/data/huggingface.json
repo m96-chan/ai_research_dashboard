@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-21T04:00:19.496Z",
+  "updatedAt": "2026-02-21T05:00:17.802Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 775,
+        "likes": 777,
         "downloads": 105189,
         "tags": [
           "transformers",
@@ -26,7 +26,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 808,
+        "likes": 809,
         "downloads": 123344,
         "tags": [
           "transformers",
@@ -49,7 +49,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1380,
+        "likes": 1383,
         "downloads": 173716,
         "tags": [
           "transformers",
@@ -124,7 +124,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
         "author": "FireRedTeam",
-        "likes": 222,
+        "likes": 223,
         "downloads": 1711,
         "tags": [
           "diffusers",
@@ -159,7 +159,7 @@
       {
         "id": "unsloth/Qwen3.5-397B-A17B-GGUF",
         "author": "unsloth",
-        "likes": 162,
+        "likes": 163,
         "downloads": 66442,
         "tags": [
           "transformers",
@@ -245,7 +245,7 @@
       {
         "id": "moonshotai/Kimi-K2.5",
         "author": "moonshotai",
-        "likes": 2052,
+        "likes": 2053,
         "downloads": 1006690,
         "tags": [
           "transformers",
@@ -284,7 +284,7 @@
       {
         "id": "unsloth/MiniMax-M2.5-GGUF",
         "author": "unsloth",
-        "likes": 134,
+        "likes": 135,
         "downloads": 59026,
         "tags": [
           "transformers",
@@ -365,7 +365,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
         "author": "nvidia",
-        "likes": 88,
+        "likes": 89,
         "downloads": 2658,
         "tags": [
           "transformers",
@@ -399,7 +399,7 @@
       {
         "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
         "author": "Fortytwo-Network",
-        "likes": 101,
+        "likes": 102,
         "downloads": 511,
         "tags": [
           "transformers",
@@ -475,9 +475,24 @@
         "link": "https://huggingface.co/inclusionAI/Ling-2.5-1T"
       },
       {
+        "id": "Zyphra/ZUNA",
+        "author": "Zyphra",
+        "likes": 76,
+        "downloads": 529,
+        "tags": [
+          "safetensors",
+          "en",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/Zyphra/ZUNA"
+      },
+      {
         "id": "unsloth/Qwen3-Coder-Next-GGUF",
         "author": "unsloth",
-        "likes": 371,
+        "likes": 372,
         "downloads": 447659,
         "tags": [
           "transformers",
@@ -500,19 +515,27 @@
         "link": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF"
       },
       {
-        "id": "Zyphra/ZUNA",
-        "author": "Zyphra",
-        "likes": 73,
-        "downloads": 529,
+        "id": "Soul-AILab/SoulX-Singer",
+        "author": "Soul-AILab",
+        "likes": 124,
+        "downloads": 1027,
         "tags": [
-          "safetensors",
+          "huggingface_hub",
+          "text-to-audio",
+          "music",
+          "singing-voice-synthesis",
+          "svs",
+          "zero-shot",
+          "text-to-speech",
           "en",
+          "zh",
+          "arxiv:2602.07803",
           "license:apache-2.0",
           "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "text-to-speech",
         "lastModified": "",
-        "link": "https://huggingface.co/Zyphra/ZUNA"
+        "link": "https://huggingface.co/Soul-AILab/SoulX-Singer"
       },
       {
         "id": "zai-org/GLM-OCR",
@@ -540,29 +563,6 @@
         "pipeline_tag": "image-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/zai-org/GLM-OCR"
-      },
-      {
-        "id": "Soul-AILab/SoulX-Singer",
-        "author": "Soul-AILab",
-        "likes": 124,
-        "downloads": 1027,
-        "tags": [
-          "huggingface_hub",
-          "text-to-audio",
-          "music",
-          "singing-voice-synthesis",
-          "svs",
-          "zero-shot",
-          "text-to-speech",
-          "en",
-          "zh",
-          "arxiv:2602.07803",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-speech",
-        "lastModified": "",
-        "link": "https://huggingface.co/Soul-AILab/SoulX-Singer"
       },
       {
         "id": "inclusionAI/Ring-2.5-1T",
@@ -600,6 +600,26 @@
         "link": "https://huggingface.co/circlestone-labs/Anima"
       },
       {
+        "id": "tarteel-ai/whisper-base-ar-quran",
+        "author": "tarteel-ai",
+        "likes": 130,
+        "downloads": 12192,
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tensorboard",
+          "whisper",
+          "automatic-speech-recognition",
+          "generated_from_trainer",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "lastModified": "",
+        "link": "https://huggingface.co/tarteel-ai/whisper-base-ar-quran"
+      },
+      {
         "id": "AIDC-AI/Ovis2.6-30B-A3B",
         "author": "AIDC-AI",
         "likes": 132,
@@ -620,51 +640,9 @@
         "link": "https://huggingface.co/AIDC-AI/Ovis2.6-30B-A3B"
       },
       {
-        "id": "tarteel-ai/whisper-base-ar-quran",
-        "author": "tarteel-ai",
-        "likes": 129,
-        "downloads": 12192,
-        "tags": [
-          "transformers",
-          "pytorch",
-          "tensorboard",
-          "whisper",
-          "automatic-speech-recognition",
-          "generated_from_trainer",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "automatic-speech-recognition",
-        "lastModified": "",
-        "link": "https://huggingface.co/tarteel-ai/whisper-base-ar-quran"
-      },
-      {
-        "id": "inclusionAI/Ming-flash-omni-2.0",
-        "author": "inclusionAI",
-        "likes": 240,
-        "downloads": 7619,
-        "tags": [
-          "diffusers",
-          "onnx",
-          "safetensors",
-          "bailingmm_moe_v2_lite",
-          "any-to-any",
-          "custom_code",
-          "en",
-          "arxiv:2506.09344",
-          "arxiv:2510.24821",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0"
-      },
-      {
         "id": "unsloth/GLM-5-GGUF",
         "author": "unsloth",
-        "likes": 180,
+        "likes": 181,
         "downloads": 46517,
         "tags": [
           "transformers",
@@ -685,6 +663,27 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/GLM-5-GGUF"
+      },
+      {
+        "id": "shallowdream204/BitDance-14B-16x",
+        "author": "shallowdream204",
+        "likes": 54,
+        "downloads": 107,
+        "tags": [
+          "safetensors",
+          "qwen3",
+          "text-to-image",
+          "en",
+          "zh",
+          "arxiv:2602.14041",
+          "base_model:Qwen/Qwen3-14B",
+          "base_model:finetune:Qwen/Qwen3-14B",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/shallowdream204/BitDance-14B-16x"
       }
     ]
   },
@@ -694,7 +693,7 @@
       {
         "id": "google/MapTrace",
         "author": "google",
-        "likes": 62,
+        "likes": 64,
         "downloads": 711,
         "tags": [
           "task_categories:image-to-text",
@@ -715,25 +714,23 @@
         "link": "https://huggingface.co/datasets/google/MapTrace"
       },
       {
-        "id": "OpenResearcher/OpenResearcher-Dataset",
-        "author": "OpenResearcher",
-        "likes": 69,
-        "downloads": 6813,
+        "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
+        "author": "nohurry",
+        "likes": 49,
+        "downloads": 281,
         "tags": [
-          "license:mit",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:tabular",
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:json",
           "modality:text",
           "library:datasets",
-          "library:dask",
+          "library:pandas",
           "library:polars",
           "library:mlcroissant",
           "region:us"
         ],
-        "lastModified": "2026-02-12T22:23:38.000Z",
-        "link": "https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset"
+        "lastModified": "2026-02-10T13:06:40.000Z",
+        "link": "https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"
       },
       {
         "id": "ma-xu/fine-t2i",
@@ -764,6 +761,27 @@
         "link": "https://huggingface.co/datasets/ma-xu/fine-t2i"
       },
       {
+        "id": "OpenResearcher/OpenResearcher-Dataset",
+        "author": "OpenResearcher",
+        "likes": 69,
+        "downloads": 6813,
+        "tags": [
+          "license:mit",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-12T22:23:38.000Z",
+        "link": "https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset"
+      },
+      {
         "id": "openbmb/UltraData-Math",
         "author": "openbmb",
         "likes": 235,
@@ -792,25 +810,6 @@
         ],
         "lastModified": "2026-02-20T15:02:34.000Z",
         "link": "https://huggingface.co/datasets/openbmb/UltraData-Math"
-      },
-      {
-        "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
-        "author": "nohurry",
-        "likes": 46,
-        "downloads": 281,
-        "tags": [
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-10T13:06:40.000Z",
-        "link": "https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"
       },
       {
         "id": "Snowflake/AgentWorldModel-1K",
@@ -877,6 +876,22 @@
         "link": "https://huggingface.co/datasets/GD-ML/IntTravel_dataset"
       },
       {
+        "id": "uv-scripts/ocr",
+        "author": "uv-scripts",
+        "likes": 71,
+        "downloads": 681,
+        "tags": [
+          "region:us",
+          "uv-script",
+          "ocr",
+          "vision-language-model",
+          "document-processing",
+          "hf-jobs"
+        ],
+        "lastModified": "2026-02-19T13:07:01.000Z",
+        "link": "https://huggingface.co/datasets/uv-scripts/ocr"
+      },
+      {
         "id": "zai-org/terminal-bench-2-verified",
         "author": "zai-org",
         "likes": 50,
@@ -910,22 +925,6 @@
         ],
         "lastModified": "2026-02-12T16:33:00.000Z",
         "link": "https://huggingface.co/datasets/AlicanKiraz0/Turkish-Finance-SFT-Dataset"
-      },
-      {
-        "id": "uv-scripts/ocr",
-        "author": "uv-scripts",
-        "likes": 70,
-        "downloads": 681,
-        "tags": [
-          "region:us",
-          "uv-script",
-          "ocr",
-          "vision-language-model",
-          "document-processing",
-          "hf-jobs"
-        ],
-        "lastModified": "2026-02-19T13:07:01.000Z",
-        "link": "https://huggingface.co/datasets/uv-scripts/ocr"
       },
       {
         "id": "OpenMed/Medical-Reasoning-SFT-Mega",
@@ -1006,26 +1005,9 @@
         "link": "https://huggingface.co/datasets/TeichAI/Pony-Alpha-15k"
       },
       {
-        "id": "Nanbeige/ToolMind-Web-QA",
-        "author": "Nanbeige",
-        "likes": 28,
-        "downloads": 724,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "arxiv:2602.13367",
-          "region:us",
-          "synthetic",
-          "deep search"
-        ],
-        "lastModified": "2026-02-19T07:53:07.000Z",
-        "link": "https://huggingface.co/datasets/Nanbeige/ToolMind-Web-QA"
-      },
-      {
         "id": "allenai/olmOCR-bench",
         "author": "allenai",
-        "likes": 64,
+        "likes": 65,
         "downloads": 2745,
         "tags": [
           "benchmark:official",
@@ -1041,6 +1023,23 @@
         ],
         "lastModified": "2026-02-19T17:28:38.000Z",
         "link": "https://huggingface.co/datasets/allenai/olmOCR-bench"
+      },
+      {
+        "id": "Nanbeige/ToolMind-Web-QA",
+        "author": "Nanbeige",
+        "likes": 28,
+        "downloads": 724,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "arxiv:2602.13367",
+          "region:us",
+          "synthetic",
+          "deep search"
+        ],
+        "lastModified": "2026-02-19T07:53:07.000Z",
+        "link": "https://huggingface.co/datasets/Nanbeige/ToolMind-Web-QA"
       },
       {
         "id": "atreydesai/qgqa-gpt-5.2-20260213-041705",
@@ -1063,51 +1062,9 @@
         "link": "https://huggingface.co/datasets/atreydesai/qgqa-gpt-5.2-20260213-041705"
       },
       {
-        "id": "openbmb/Ultra-FineWeb-L3",
-        "author": "openbmb",
-        "likes": 37,
-        "downloads": 1293,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "language:zh",
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "llm",
-          "pretraining",
-          "web-data",
-          "data-synthesis",
-          "high-quality"
-        ],
-        "lastModified": "2026-02-09T07:05:40.000Z",
-        "link": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb-L3"
-      },
-      {
-        "id": "Soul-AILab/VividHead",
-        "author": "Soul-AILab",
-        "likes": 51,
-        "downloads": 3164,
-        "tags": [
-          "task_categories:image-to-video",
-          "license:apache-2.0",
-          "size_categories:100K<n<1M",
-          "arxiv:2602.07449",
-          "region:us"
-        ],
-        "lastModified": "2026-02-12T09:20:28.000Z",
-        "link": "https://huggingface.co/datasets/Soul-AILab/VividHead"
-      },
-      {
         "id": "commoncrawl/CommonLID",
         "author": "commoncrawl",
-        "likes": 26,
+        "likes": 27,
         "downloads": 188,
         "tags": [
           "task_categories:text-classification",
@@ -1235,6 +1192,48 @@
         ],
         "lastModified": "2026-02-10T00:07:47.000Z",
         "link": "https://huggingface.co/datasets/commoncrawl/CommonLID"
+      },
+      {
+        "id": "Soul-AILab/VividHead",
+        "author": "Soul-AILab",
+        "likes": 51,
+        "downloads": 3164,
+        "tags": [
+          "task_categories:image-to-video",
+          "license:apache-2.0",
+          "size_categories:100K<n<1M",
+          "arxiv:2602.07449",
+          "region:us"
+        ],
+        "lastModified": "2026-02-12T09:20:28.000Z",
+        "link": "https://huggingface.co/datasets/Soul-AILab/VividHead"
+      },
+      {
+        "id": "openbmb/Ultra-FineWeb-L3",
+        "author": "openbmb",
+        "likes": 37,
+        "downloads": 1293,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "language:zh",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "llm",
+          "pretraining",
+          "web-data",
+          "data-synthesis",
+          "high-quality"
+        ],
+        "lastModified": "2026-02-09T07:05:40.000Z",
+        "link": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb-L3"
       }
     ]
   }
