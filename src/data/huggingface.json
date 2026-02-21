@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-21T20:00:20.578Z",
+  "updatedAt": "2026-02-21T21:00:16.881Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 826,
+        "likes": 827,
         "downloads": 133264,
         "tags": [
           "transformers",
@@ -26,7 +26,7 @@
       {
         "id": "nvidia/personaplex-7b-v1",
         "author": "nvidia",
-        "likes": 2110,
+        "likes": 2113,
         "downloads": 539048,
         "tags": [
           "moshi",
@@ -96,7 +96,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 643,
+        "likes": 644,
         "downloads": 130220,
         "tags": [
           "transformers",
@@ -208,7 +208,7 @@
       {
         "id": "xgen-universe/Capybara",
         "author": "xgen-universe",
-        "likes": 145,
+        "likes": 146,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -224,7 +224,7 @@
       {
         "id": "moonshotai/Kimi-K2.5",
         "author": "moonshotai",
-        "likes": 2062,
+        "likes": 2063,
         "downloads": 1068624,
         "tags": [
           "transformers",
@@ -247,7 +247,7 @@
       {
         "id": "jdopensource/JoyAI-LLM-Flash",
         "author": "jdopensource",
-        "likes": 132,
+        "likes": 133,
         "downloads": 807,
         "tags": [
           "safetensors",
@@ -304,7 +304,7 @@
       {
         "id": "unsloth/MiniMax-M2.5-GGUF",
         "author": "unsloth",
-        "likes": 139,
+        "likes": 142,
         "downloads": 64509,
         "tags": [
           "transformers",
@@ -325,24 +325,6 @@
         "link": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF"
       },
       {
-        "id": "deepgenteam/DeepGen-1.0",
-        "author": "deepgenteam",
-        "likes": 130,
-        "downloads": 24,
-        "tags": [
-          "text-to-image",
-          "dataset:Alex11556666/Reason_Tuning",
-          "arxiv:2602.12205",
-          "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
-          "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepgenteam/DeepGen-1.0"
-      },
-      {
         "id": "Qwen/Qwen3-Coder-Next",
         "author": "Qwen",
         "likes": 942,
@@ -361,6 +343,24 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+      },
+      {
+        "id": "deepgenteam/DeepGen-1.0",
+        "author": "deepgenteam",
+        "likes": 130,
+        "downloads": 24,
+        "tags": [
+          "text-to-image",
+          "dataset:Alex11556666/Reason_Tuning",
+          "arxiv:2602.12205",
+          "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepgenteam/DeepGen-1.0"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
@@ -397,6 +397,30 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese"
       },
       {
+        "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
+        "author": "TeichAI",
+        "likes": 98,
+        "downloads": 8740,
+        "tags": [
+          "transformers",
+          "gguf",
+          "qwen3",
+          "text-generation",
+          "text-generation-inference",
+          "unsloth",
+          "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
+          "base_model:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
+          "base_model:quantized:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
+      },
+      {
         "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
         "author": "Fortytwo-Network",
         "likes": 107,
@@ -422,33 +446,9 @@
         "link": "https://huggingface.co/Fortytwo-Network/Strand-Rust-Coder-14B-v1"
       },
       {
-        "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
-        "author": "TeichAI",
-        "likes": 95,
-        "downloads": 8740,
-        "tags": [
-          "transformers",
-          "gguf",
-          "qwen3",
-          "text-generation",
-          "text-generation-inference",
-          "unsloth",
-          "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
-          "base_model:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
-          "base_model:quantized:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
-      },
-      {
         "id": "Zyphra/ZUNA",
         "author": "Zyphra",
-        "likes": 92,
+        "likes": 93,
         "downloads": 747,
         "tags": [
           "safetensors",
@@ -463,7 +463,7 @@
       {
         "id": "inclusionAI/Ling-2.5-1T",
         "author": "inclusionAI",
-        "likes": 83,
+        "likes": 84,
         "downloads": 1636,
         "tags": [
           "transformers",
@@ -597,30 +597,9 @@
         "link": "https://huggingface.co/circlestone-labs/Anima"
       },
       {
-        "id": "shallowdream204/BitDance-14B-16x",
-        "author": "shallowdream204",
-        "likes": 60,
-        "downloads": 117,
-        "tags": [
-          "safetensors",
-          "qwen3",
-          "text-to-image",
-          "en",
-          "zh",
-          "arxiv:2602.14041",
-          "base_model:Qwen/Qwen3-14B",
-          "base_model:finetune:Qwen/Qwen3-14B",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/shallowdream204/BitDance-14B-16x"
-      },
-      {
         "id": "zai-org/GLM-OCR",
         "author": "zai-org",
-        "likes": 1096,
+        "likes": 1097,
         "downloads": 1318961,
         "tags": [
           "transformers",
@@ -645,6 +624,27 @@
         "link": "https://huggingface.co/zai-org/GLM-OCR"
       },
       {
+        "id": "shallowdream204/BitDance-14B-16x",
+        "author": "shallowdream204",
+        "likes": 60,
+        "downloads": 117,
+        "tags": [
+          "safetensors",
+          "qwen3",
+          "text-to-image",
+          "en",
+          "zh",
+          "arxiv:2602.14041",
+          "base_model:Qwen/Qwen3-14B",
+          "base_model:finetune:Qwen/Qwen3-14B",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/shallowdream204/BitDance-14B-16x"
+      },
+      {
         "id": "inclusionAI/Ring-2.5-1T",
         "author": "inclusionAI",
         "likes": 215,
@@ -667,7 +667,7 @@
       {
         "id": "TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
-        "likes": 323,
+        "likes": 324,
         "downloads": 67330,
         "tags": [
           "gguf",
@@ -695,7 +695,7 @@
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
-        "likes": 65,
+        "likes": 66,
         "downloads": 393,
         "tags": [
           "license:apache-2.0",
@@ -851,7 +851,7 @@
       {
         "id": "allenai/olmOCR-bench",
         "author": "allenai",
-        "likes": 72,
+        "likes": 73,
         "downloads": 1954,
         "tags": [
           "benchmark:official",
@@ -900,6 +900,24 @@
         ],
         "lastModified": "2026-02-19T07:01:19.000Z",
         "link": "https://huggingface.co/datasets/zai-org/terminal-bench-2-verified"
+      },
+      {
+        "id": "TeichAI/Pony-Alpha-15k",
+        "author": "TeichAI",
+        "likes": 42,
+        "downloads": 228,
+        "tags": [
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-17T00:02:30.000Z",
+        "link": "https://huggingface.co/datasets/TeichAI/Pony-Alpha-15k"
       },
       {
         "id": "AlicanKiraz0/Turkish-Finance-SFT-Dataset",
@@ -955,24 +973,6 @@
         ],
         "lastModified": "2026-02-06T15:06:13.000Z",
         "link": "https://huggingface.co/datasets/OpenMed/Medical-Reasoning-SFT-Mega"
-      },
-      {
-        "id": "TeichAI/Pony-Alpha-15k",
-        "author": "TeichAI",
-        "likes": 41,
-        "downloads": 228,
-        "tags": [
-          "size_categories:10K<n<100K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-17T00:02:30.000Z",
-        "link": "https://huggingface.co/datasets/TeichAI/Pony-Alpha-15k"
       },
       {
         "id": "GD-ML/IntTravel_dataset",
