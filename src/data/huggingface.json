@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-22T05:00:20.351Z",
+  "updatedAt": "2026-02-22T06:00:18.711Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 843,
+        "likes": 845,
         "downloads": 133264,
         "tags": [
           "transformers",
@@ -51,7 +51,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 672,
+        "likes": 674,
         "downloads": 130220,
         "tags": [
           "transformers",
@@ -79,7 +79,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 840,
+        "likes": 842,
         "downloads": 173116,
         "tags": [
           "transformers",
@@ -102,7 +102,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1411,
+        "likes": 1412,
         "downloads": 176889,
         "tags": [
           "transformers",
@@ -124,7 +124,7 @@
       {
         "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
         "author": "Qwen",
-        "likes": 1129,
+        "likes": 1130,
         "downloads": 933192,
         "tags": [
           "safetensors",
@@ -182,7 +182,7 @@
       {
         "id": "xgen-universe/Capybara",
         "author": "xgen-universe",
-        "likes": 147,
+        "likes": 148,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -221,7 +221,7 @@
       {
         "id": "jdopensource/JoyAI-LLM-Flash",
         "author": "jdopensource",
-        "likes": 135,
+        "likes": 136,
         "downloads": 807,
         "tags": [
           "safetensors",
@@ -278,7 +278,7 @@
       {
         "id": "nineninesix/kani-tts-2-en",
         "author": "nineninesix",
-        "likes": 163,
+        "likes": 164,
         "downloads": 2590,
         "tags": [
           "transformers",
@@ -304,7 +304,7 @@
       {
         "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
-        "likes": 114,
+        "likes": 116,
         "downloads": 8740,
         "tags": [
           "transformers",
@@ -347,6 +347,26 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF"
+      },
+      {
+        "id": "Qwen/Qwen3-Coder-Next",
+        "author": "Qwen",
+        "likes": 947,
+        "downloads": 415106,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_next",
+          "text-generation",
+          "conversational",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
@@ -408,24 +428,19 @@
         "link": "https://huggingface.co/Fortytwo-Network/Strand-Rust-Coder-14B-v1"
       },
       {
-        "id": "Qwen/Qwen3-Coder-Next",
-        "author": "Qwen",
-        "likes": 945,
-        "downloads": 415106,
+        "id": "Zyphra/ZUNA",
+        "author": "Zyphra",
+        "likes": 95,
+        "downloads": 747,
         "tags": [
-          "transformers",
           "safetensors",
-          "qwen3_next",
-          "text-generation",
-          "conversational",
+          "en",
           "license:apache-2.0",
-          "endpoints_compatible",
-          "deploy:azure",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+        "link": "https://huggingface.co/Zyphra/ZUNA"
       },
       {
         "id": "deepgenteam/DeepGen-1.0",
@@ -444,21 +459,6 @@
         "pipeline_tag": "text-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/deepgenteam/DeepGen-1.0"
-      },
-      {
-        "id": "Zyphra/ZUNA",
-        "author": "Zyphra",
-        "likes": 94,
-        "downloads": 747,
-        "tags": [
-          "safetensors",
-          "en",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Zyphra/ZUNA"
       },
       {
         "id": "inclusionAI/Ling-2.5-1T",
@@ -622,6 +622,29 @@
         "link": "https://huggingface.co/zai-org/GLM-OCR"
       },
       {
+        "id": "TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
+        "author": "TeichAI",
+        "likes": 333,
+        "downloads": 67330,
+        "tags": [
+          "gguf",
+          "text-generation-inference",
+          "llama.cpp",
+          "unsloth",
+          "glm4_moe_lite",
+          "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
+          "base_model:TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill",
+          "base_model:quantized:TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
+      },
+      {
         "id": "Soul-AILab/SoulX-Singer",
         "author": "Soul-AILab",
         "likes": 127,
@@ -643,29 +666,6 @@
         "pipeline_tag": "text-to-speech",
         "lastModified": "",
         "link": "https://huggingface.co/Soul-AILab/SoulX-Singer"
-      },
-      {
-        "id": "TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
-        "author": "TeichAI",
-        "likes": 331,
-        "downloads": 67330,
-        "tags": [
-          "gguf",
-          "text-generation-inference",
-          "llama.cpp",
-          "unsloth",
-          "glm4_moe_lite",
-          "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
-          "base_model:TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill",
-          "base_model:quantized:TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
       },
       {
         "id": "salakash/Minimalism",
@@ -1036,6 +1036,24 @@
         "link": "https://huggingface.co/datasets/allenai/molmospaces"
       },
       {
+        "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
+        "author": "TeichAI",
+        "likes": 272,
+        "downloads": 5382,
+        "tags": [
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "lastModified": "2025-11-28T03:02:41.000Z",
+        "link": "https://huggingface.co/datasets/TeichAI/claude-4.5-opus-high-reasoning-250x"
+      },
+      {
         "id": "Nanbeige/ToolMind-Web-QA",
         "author": "Nanbeige",
         "likes": 31,
@@ -1183,24 +1201,6 @@
         ],
         "lastModified": "2026-02-10T00:07:47.000Z",
         "link": "https://huggingface.co/datasets/commoncrawl/CommonLID"
-      },
-      {
-        "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
-        "author": "TeichAI",
-        "likes": 271,
-        "downloads": 5382,
-        "tags": [
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "lastModified": "2025-11-28T03:02:41.000Z",
-        "link": "https://huggingface.co/datasets/TeichAI/claude-4.5-opus-high-reasoning-250x"
       },
       {
         "id": "GD-ML/IntTravel_dataset",
