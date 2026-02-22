@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-22T08:00:18.966Z",
+  "updatedAt": "2026-02-22T09:00:15.558Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 854,
+        "likes": 855,
         "downloads": 217901,
         "tags": [
           "transformers",
@@ -51,7 +51,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 680,
+        "likes": 683,
         "downloads": 153566,
         "tags": [
           "transformers",
@@ -77,6 +77,28 @@
         "link": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
       },
       {
+        "id": "zai-org/GLM-5",
+        "author": "zai-org",
+        "likes": 1417,
+        "downloads": 177505,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa",
+          "text-generation",
+          "conversational",
+          "en",
+          "zh",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/zai-org/GLM-5"
+      },
+      {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
         "likes": 845,
@@ -98,28 +120,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
-      },
-      {
-        "id": "zai-org/GLM-5",
-        "author": "zai-org",
-        "likes": 1417,
-        "downloads": 177505,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "glm_moe_dsa",
-          "text-generation",
-          "conversational",
-          "en",
-          "zh",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/zai-org/GLM-5"
       },
       {
         "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
@@ -239,9 +239,35 @@
         "link": "https://huggingface.co/jdopensource/JoyAI-LLM-Flash"
       },
       {
+        "id": "nineninesix/kani-tts-2-en",
+        "author": "nineninesix",
+        "likes": 165,
+        "downloads": 2932,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm2",
+          "text-generation",
+          "text-to-speech",
+          "en",
+          "dataset:laion/Emolia",
+          "arxiv:2511.23404",
+          "arxiv:2501.15907",
+          "arxiv:2506.09827",
+          "base_model:nineninesix/kani-tts-2-pt",
+          "base_model:finetune:nineninesix/kani-tts-2-pt",
+          "license:other",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "lastModified": "",
+        "link": "https://huggingface.co/nineninesix/kani-tts-2-en"
+      },
+      {
         "id": "OpenMOSS-Team/MOSS-TTS",
         "author": "OpenMOSS-Team",
-        "likes": 294,
+        "likes": 295,
         "downloads": 44292,
         "tags": [
           "safetensors",
@@ -276,32 +302,6 @@
         "link": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS"
       },
       {
-        "id": "nineninesix/kani-tts-2-en",
-        "author": "nineninesix",
-        "likes": 164,
-        "downloads": 2932,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "lfm2",
-          "text-generation",
-          "text-to-speech",
-          "en",
-          "dataset:laion/Emolia",
-          "arxiv:2511.23404",
-          "arxiv:2501.15907",
-          "arxiv:2506.09827",
-          "base_model:nineninesix/kani-tts-2-pt",
-          "base_model:finetune:nineninesix/kani-tts-2-pt",
-          "license:other",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-speech",
-        "lastModified": "",
-        "link": "https://huggingface.co/nineninesix/kani-tts-2-en"
-      },
-      {
         "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
         "likes": 117,
@@ -326,52 +326,9 @@
         "link": "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
       },
       {
-        "id": "unsloth/MiniMax-M2.5-GGUF",
-        "author": "unsloth",
-        "likes": 142,
-        "downloads": 69100,
-        "tags": [
-          "transformers",
-          "gguf",
-          "unsloth",
-          "minimax_m2",
-          "text-generation",
-          "base_model:MiniMaxAI/MiniMax-M2.5",
-          "base_model:quantized:MiniMaxAI/MiniMax-M2.5",
-          "license:other",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF"
-      },
-      {
-        "id": "Qwen/Qwen3-Coder-Next",
-        "author": "Qwen",
-        "likes": 948,
-        "downloads": 433837,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_next",
-          "text-generation",
-          "conversational",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
-      },
-      {
         "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
         "author": "nvidia",
-        "likes": 97,
+        "likes": 99,
         "downloads": 8298,
         "tags": [
           "transformers",
@@ -403,9 +360,52 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese"
       },
       {
+        "id": "unsloth/MiniMax-M2.5-GGUF",
+        "author": "unsloth",
+        "likes": 142,
+        "downloads": 69100,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "minimax_m2",
+          "text-generation",
+          "base_model:MiniMaxAI/MiniMax-M2.5",
+          "base_model:quantized:MiniMaxAI/MiniMax-M2.5",
+          "license:other",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF"
+      },
+      {
+        "id": "Qwen/Qwen3-Coder-Next",
+        "author": "Qwen",
+        "likes": 949,
+        "downloads": 433837,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_next",
+          "text-generation",
+          "conversational",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+      },
+      {
         "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
         "author": "Fortytwo-Network",
-        "likes": 111,
+        "likes": 112,
         "downloads": 1074,
         "tags": [
           "transformers",
@@ -430,7 +430,7 @@
       {
         "id": "Zyphra/ZUNA",
         "author": "Zyphra",
-        "likes": 96,
+        "likes": 97,
         "downloads": 954,
         "tags": [
           "safetensors",
@@ -597,7 +597,7 @@
       {
         "id": "TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
-        "likes": 334,
+        "likes": 335,
         "downloads": 67519,
         "tags": [
           "gguf",
@@ -830,7 +830,7 @@
       {
         "id": "allenai/olmOCR-bench",
         "author": "allenai",
-        "likes": 77,
+        "likes": 78,
         "downloads": 2096,
         "tags": [
           "benchmark:official",
@@ -896,7 +896,7 @@
       {
         "id": "ronantakizawa/github-top-code",
         "author": "ronantakizawa",
-        "likes": 30,
+        "likes": 31,
         "downloads": 161,
         "tags": [
           "task_categories:text-generation",
@@ -918,6 +918,23 @@
         ],
         "lastModified": "2026-02-20T01:55:18.000Z",
         "link": "https://huggingface.co/datasets/ronantakizawa/github-top-code"
+      },
+      {
+        "id": "Nanbeige/ToolMind-Web-QA",
+        "author": "Nanbeige",
+        "likes": 33,
+        "downloads": 1440,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "arxiv:2602.13367",
+          "region:us",
+          "synthetic",
+          "deep search"
+        ],
+        "lastModified": "2026-02-19T07:53:07.000Z",
+        "link": "https://huggingface.co/datasets/Nanbeige/ToolMind-Web-QA"
       },
       {
         "id": "OpenMed/Medical-Reasoning-SFT-Mega",
@@ -952,27 +969,6 @@
         "link": "https://huggingface.co/datasets/OpenMed/Medical-Reasoning-SFT-Mega"
       },
       {
-        "id": "nvidia/SAGE-10k",
-        "author": "nvidia",
-        "likes": 63,
-        "downloads": 13601,
-        "tags": [
-          "task_categories:text-to-3d",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:10K<n<100K",
-          "arxiv:2602.10116",
-          "region:us",
-          "Scene-Generation",
-          "Interactive-Scenes",
-          "Embodied-AI",
-          "Scene-Understanding",
-          "Robotics"
-        ],
-        "lastModified": "2026-02-11T03:54:29.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/SAGE-10k"
-      },
-      {
         "id": "AlicanKiraz0/Turkish-Finance-SFT-Dataset",
         "author": "AlicanKiraz0",
         "likes": 52,
@@ -994,6 +990,27 @@
         ],
         "lastModified": "2026-02-12T16:33:00.000Z",
         "link": "https://huggingface.co/datasets/AlicanKiraz0/Turkish-Finance-SFT-Dataset"
+      },
+      {
+        "id": "nvidia/SAGE-10k",
+        "author": "nvidia",
+        "likes": 63,
+        "downloads": 13601,
+        "tags": [
+          "task_categories:text-to-3d",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "arxiv:2602.10116",
+          "region:us",
+          "Scene-Generation",
+          "Interactive-Scenes",
+          "Embodied-AI",
+          "Scene-Understanding",
+          "Robotics"
+        ],
+        "lastModified": "2026-02-11T03:54:29.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/SAGE-10k"
       },
       {
         "id": "zai-org/terminal-bench-2-verified",
@@ -1024,23 +1041,6 @@
         ],
         "lastModified": "2025-11-28T03:02:41.000Z",
         "link": "https://huggingface.co/datasets/TeichAI/claude-4.5-opus-high-reasoning-250x"
-      },
-      {
-        "id": "Nanbeige/ToolMind-Web-QA",
-        "author": "Nanbeige",
-        "likes": 31,
-        "downloads": 1440,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "arxiv:2602.13367",
-          "region:us",
-          "synthetic",
-          "deep search"
-        ],
-        "lastModified": "2026-02-19T07:53:07.000Z",
-        "link": "https://huggingface.co/datasets/Nanbeige/ToolMind-Web-QA"
       },
       {
         "id": "commoncrawl/CommonLID",
@@ -1175,6 +1175,24 @@
         "link": "https://huggingface.co/datasets/commoncrawl/CommonLID"
       },
       {
+        "id": "deepgenteam/DeepGen-1.0",
+        "author": "deepgenteam",
+        "likes": 30,
+        "downloads": 1527,
+        "tags": [
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "arxiv:2602.12205",
+          "region:us"
+        ],
+        "lastModified": "2026-02-13T10:44:53.000Z",
+        "link": "https://huggingface.co/datasets/deepgenteam/DeepGen-1.0"
+      },
+      {
         "id": "allenai/molmospaces",
         "author": "allenai",
         "likes": 38,
@@ -1217,26 +1235,8 @@
           "mobility",
           "travel"
         ],
-        "lastModified": "2026-02-22T06:26:18.000Z",
+        "lastModified": "2026-02-22T08:39:26.000Z",
         "link": "https://huggingface.co/datasets/GD-ML/IntTravel_dataset"
-      },
-      {
-        "id": "deepgenteam/DeepGen-1.0",
-        "author": "deepgenteam",
-        "likes": 30,
-        "downloads": 1527,
-        "tags": [
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:imagefolder",
-          "modality:image",
-          "library:datasets",
-          "library:mlcroissant",
-          "arxiv:2602.12205",
-          "region:us"
-        ],
-        "lastModified": "2026-02-13T10:44:53.000Z",
-        "link": "https://huggingface.co/datasets/deepgenteam/DeepGen-1.0"
       }
     ]
   }
