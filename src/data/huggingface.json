@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-23T10:00:19.199Z",
+  "updatedAt": "2026-02-23T11:00:21.598Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 908,
+        "likes": 909,
         "downloads": 302852,
         "tags": [
           "transformers",
@@ -51,7 +51,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 728,
+        "likes": 729,
         "downloads": 177577,
         "tags": [
           "transformers",
@@ -79,7 +79,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1452,
+        "likes": 1454,
         "downloads": 178519,
         "tags": [
           "transformers",
@@ -141,7 +141,7 @@
       {
         "id": "unsloth/Qwen3.5-397B-A17B-GGUF",
         "author": "unsloth",
-        "likes": 181,
+        "likes": 182,
         "downloads": 84503,
         "tags": [
           "transformers",
@@ -180,7 +180,7 @@
       {
         "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
-        "likes": 156,
+        "likes": 157,
         "downloads": 19434,
         "tags": [
           "transformers",
@@ -204,7 +204,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
         "author": "FireRedTeam",
-        "likes": 255,
+        "likes": 256,
         "downloads": 2689,
         "tags": [
           "diffusers",
@@ -341,7 +341,7 @@
       {
         "id": "Zyphra/ZUNA",
         "author": "Zyphra",
-        "likes": 106,
+        "likes": 107,
         "downloads": 1241,
         "tags": [
           "safetensors",
@@ -356,7 +356,7 @@
       {
         "id": "nineninesix/kani-tts-2-en",
         "author": "nineninesix",
-        "likes": 167,
+        "likes": 168,
         "downloads": 3119,
         "tags": [
           "transformers",
@@ -402,7 +402,7 @@
       {
         "id": "deepgenteam/DeepGen-1.0",
         "author": "deepgenteam",
-        "likes": 139,
+        "likes": 140,
         "downloads": 76,
         "tags": [
           "text-to-image",
@@ -420,7 +420,7 @@
       {
         "id": "KittenML/kitten-tts-mini-0.8",
         "author": "KittenML",
-        "likes": 79,
+        "likes": 81,
         "downloads": 11376,
         "tags": [
           "onnx",
@@ -453,29 +453,43 @@
         "link": "https://huggingface.co/shallowdream204/BitDance-14B-16x"
       },
       {
-        "id": "jdopensource/JoyAI-LLM-Flash",
-        "author": "jdopensource",
-        "likes": 140,
-        "downloads": 977,
+        "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+        "author": "mistralai",
+        "likes": 608,
+        "downloads": 184380,
         "tags": [
+          "vllm",
           "safetensors",
-          "joyai_llm_flash",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "zh",
+          "voxtral_realtime",
+          "mistral-common",
+          "automatic-speech-recognition",
           "en",
-          "eval-results",
+          "fr",
+          "es",
+          "de",
+          "ru",
+          "zh",
+          "ja",
+          "it",
+          "pt",
+          "nl",
+          "ar",
+          "hi",
+          "ko",
+          "arxiv:2602.11298",
+          "base_model:mistralai/Ministral-3-3B-Base-2512",
+          "base_model:finetune:mistralai/Ministral-3-3B-Base-2512",
+          "license:apache-2.0",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "automatic-speech-recognition",
         "lastModified": "",
-        "link": "https://huggingface.co/jdopensource/JoyAI-LLM-Flash"
+        "link": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602"
       },
       {
         "id": "CohereLabs/tiny-aya-global",
         "author": "CohereLabs",
-        "likes": 74,
+        "likes": 75,
         "downloads": 1706,
         "tags": [
           "transformers",
@@ -560,38 +574,24 @@
         "link": "https://huggingface.co/CohereLabs/tiny-aya-global"
       },
       {
-        "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
-        "author": "mistralai",
-        "likes": 606,
-        "downloads": 184380,
+        "id": "jdopensource/JoyAI-LLM-Flash",
+        "author": "jdopensource",
+        "likes": 140,
+        "downloads": 977,
         "tags": [
-          "vllm",
           "safetensors",
-          "voxtral_realtime",
-          "mistral-common",
-          "automatic-speech-recognition",
-          "en",
-          "fr",
-          "es",
-          "de",
-          "ru",
+          "joyai_llm_flash",
+          "text-generation",
+          "conversational",
+          "custom_code",
           "zh",
-          "ja",
-          "it",
-          "pt",
-          "nl",
-          "ar",
-          "hi",
-          "ko",
-          "arxiv:2602.11298",
-          "base_model:mistralai/Ministral-3-3B-Base-2512",
-          "base_model:finetune:mistralai/Ministral-3-3B-Base-2512",
-          "license:apache-2.0",
+          "en",
+          "eval-results",
           "region:us"
         ],
-        "pipeline_tag": "automatic-speech-recognition",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602"
+        "link": "https://huggingface.co/jdopensource/JoyAI-LLM-Flash"
       },
       {
         "id": "unsloth/MiniMax-M2.5-GGUF",
@@ -643,7 +643,7 @@
       {
         "id": "Qwen/Qwen3.5-397B-A17B-FP8",
         "author": "Qwen",
-        "likes": 67,
+        "likes": 68,
         "downloads": 53167,
         "tags": [
           "transformers",
@@ -678,7 +678,7 @@
       {
         "id": "TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
-        "likes": 344,
+        "likes": 345,
         "downloads": 70652,
         "tags": [
           "gguf",
@@ -752,7 +752,7 @@
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
-        "likes": 93,
+        "likes": 94,
         "downloads": 737,
         "tags": [
           "license:apache-2.0",
@@ -771,7 +771,7 @@
       {
         "id": "google/MapTrace",
         "author": "google",
-        "likes": 83,
+        "likes": 84,
         "downloads": 924,
         "tags": [
           "task_categories:image-to-text",
@@ -894,27 +894,9 @@
         "link": "https://huggingface.co/datasets/Snowflake/AgentWorldModel-1K"
       },
       {
-        "id": "TeichAI/Pony-Alpha-15k",
-        "author": "TeichAI",
-        "likes": 49,
-        "downloads": 342,
-        "tags": [
-          "size_categories:10K<n<100K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-17T00:02:30.000Z",
-        "link": "https://huggingface.co/datasets/TeichAI/Pony-Alpha-15k"
-      },
-      {
         "id": "FINAL-Bench/Metacognitive",
         "author": "FINAL-Bench",
-        "likes": 37,
+        "likes": 38,
         "downloads": 899,
         "tags": [
           "task_categories:text-generation",
@@ -923,6 +905,7 @@
           "license:apache-2.0",
           "size_categories:n<1K",
           "format:json",
+          "modality:document",
           "modality:text",
           "library:datasets",
           "library:pandas",
@@ -944,6 +927,24 @@
         ],
         "lastModified": "2026-02-22T16:25:52.000Z",
         "link": "https://huggingface.co/datasets/FINAL-Bench/Metacognitive"
+      },
+      {
+        "id": "TeichAI/Pony-Alpha-15k",
+        "author": "TeichAI",
+        "likes": 49,
+        "downloads": 342,
+        "tags": [
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-17T00:02:30.000Z",
+        "link": "https://huggingface.co/datasets/TeichAI/Pony-Alpha-15k"
       },
       {
         "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
@@ -1041,7 +1042,7 @@
       {
         "id": "markov-ai/computer-use",
         "author": "markov-ai",
-        "likes": 33,
+        "likes": 34,
         "downloads": 164,
         "tags": [
           "task_categories:robotics",
@@ -1071,7 +1072,7 @@
       {
         "id": "commoncrawl/CommonLID",
         "author": "commoncrawl",
-        "likes": 36,
+        "likes": 37,
         "downloads": 240,
         "tags": [
           "task_categories:text-classification",
@@ -1203,7 +1204,7 @@
       {
         "id": "deepgenteam/DeepGen-1.0",
         "author": "deepgenteam",
-        "likes": 32,
+        "likes": 33,
         "downloads": 1776,
         "tags": [
           "license:apache-2.0",
@@ -1219,21 +1220,9 @@
         "link": "https://huggingface.co/datasets/deepgenteam/DeepGen-1.0"
       },
       {
-        "id": "nvidia/PhysicalAI-Kitchen-Assets",
-        "author": "nvidia",
-        "likes": 27,
-        "downloads": 442,
-        "tags": [
-          "license:cc-by-4.0",
-          "region:us"
-        ],
-        "lastModified": "2026-02-13T08:01:26.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Kitchen-Assets"
-      },
-      {
         "id": "openfoodfacts/product-database",
         "author": "openfoodfacts",
-        "likes": 96,
+        "likes": 97,
         "downloads": 4568,
         "tags": [
           "language:en",
@@ -1307,6 +1296,18 @@
         ],
         "lastModified": "2026-02-22T16:01:32.000Z",
         "link": "https://huggingface.co/datasets/openfoodfacts/product-database"
+      },
+      {
+        "id": "nvidia/PhysicalAI-Kitchen-Assets",
+        "author": "nvidia",
+        "likes": 27,
+        "downloads": 442,
+        "tags": [
+          "license:cc-by-4.0",
+          "region:us"
+        ],
+        "lastModified": "2026-02-13T08:01:26.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Kitchen-Assets"
       },
       {
         "id": "allenai/olmix",
