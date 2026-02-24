@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-23T23:00:17.845Z",
+  "updatedAt": "2026-02-24T00:00:20.597Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 930,
+        "likes": 934,
         "downloads": 302852,
         "tags": [
           "transformers",
@@ -26,7 +26,7 @@
       {
         "id": "nvidia/personaplex-7b-v1",
         "author": "nvidia",
-        "likes": 2168,
+        "likes": 2169,
         "downloads": 539031,
         "tags": [
           "moshi",
@@ -51,7 +51,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1465,
+        "likes": 1467,
         "downloads": 178519,
         "tags": [
           "transformers",
@@ -73,7 +73,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 746,
+        "likes": 748,
         "downloads": 177577,
         "tags": [
           "transformers",
@@ -101,7 +101,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 873,
+        "likes": 874,
         "downloads": 208828,
         "tags": [
           "transformers",
@@ -157,7 +157,7 @@
       {
         "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
-        "likes": 162,
+        "likes": 163,
         "downloads": 19434,
         "tags": [
           "transformers",
@@ -181,7 +181,7 @@
       {
         "id": "moonshotai/Kimi-K2.5",
         "author": "moonshotai",
-        "likes": 2091,
+        "likes": 2092,
         "downloads": 1193038,
         "tags": [
           "transformers",
@@ -222,7 +222,7 @@
       {
         "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
         "author": "Fortytwo-Network",
-        "likes": 127,
+        "likes": 128,
         "downloads": 1181,
         "tags": [
           "transformers",
@@ -542,7 +542,7 @@
       {
         "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
         "author": "mistralai",
-        "likes": 611,
+        "likes": 612,
         "downloads": 184380,
         "tags": [
           "vllm",
@@ -596,7 +596,7 @@
       {
         "id": "unsloth/Qwen3-Coder-Next-GGUF",
         "author": "unsloth",
-        "likes": 396,
+        "likes": 397,
         "downloads": 502434,
         "tags": [
           "gguf",
@@ -684,6 +684,21 @@
         "link": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF"
       },
       {
+        "id": "circlestone-labs/Anima",
+        "author": "circlestone-labs",
+        "likes": 672,
+        "downloads": 189978,
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/circlestone-labs/Anima"
+      },
+      {
         "id": "salakash/Minimalism",
         "author": "salakash",
         "likes": 90,
@@ -709,21 +724,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/salakash/Minimalism"
-      },
-      {
-        "id": "circlestone-labs/Anima",
-        "author": "circlestone-labs",
-        "likes": 671,
-        "downloads": 189978,
-        "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/circlestone-labs/Anima"
       },
       {
         "id": "zai-org/GLM-OCR",
@@ -760,7 +760,7 @@
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
-        "likes": 101,
+        "likes": 103,
         "downloads": 737,
         "tags": [
           "license:apache-2.0",
@@ -1320,7 +1320,7 @@
       {
         "id": "allenai/olmix",
         "author": "allenai",
-        "likes": 28,
+        "likes": 29,
         "downloads": 262,
         "tags": [
           "task_categories:other",
@@ -1340,27 +1340,37 @@
         "link": "https://huggingface.co/datasets/allenai/olmix"
       },
       {
-        "id": "OpenDriveLab-org/Kai0",
-        "author": "OpenDriveLab-org",
-        "likes": 33,
-        "downloads": 25161,
+        "id": "PleIAs/common_corpus",
+        "author": "PleIAs",
+        "likes": 366,
+        "downloads": 61930,
         "tags": [
-          "task_categories:robotics",
-          "license:cc-by-nc-sa-4.0",
-          "size_categories:1K<n<10K",
+          "language:en",
+          "language:fr",
+          "language:de",
+          "language:zh",
+          "language:it",
+          "language:es",
+          "language:ja",
+          "language:pl",
+          "language:la",
+          "language:nl",
+          "language:ru",
+          "language:ar",
+          "language:ko",
+          "size_categories:10K<n<100K",
           "format:parquet",
           "modality:tabular",
-          "modality:timeseries",
-          "modality:video",
+          "modality:text",
           "library:datasets",
           "library:pandas",
           "library:polars",
           "library:mlcroissant",
-          "region:us",
-          "LeRobot"
+          "arxiv:2410.22587",
+          "region:us"
         ],
-        "lastModified": "2026-02-14T19:31:50.000Z",
-        "link": "https://huggingface.co/datasets/OpenDriveLab-org/Kai0"
+        "lastModified": "2026-02-19T13:13:01.000Z",
+        "link": "https://huggingface.co/datasets/PleIAs/common_corpus"
       }
     ]
   }
