@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-24T02:00:18.405Z",
+  "updatedAt": "2026-02-24T03:00:19.320Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 938,
+        "likes": 944,
         "downloads": 302852,
         "tags": [
           "transformers",
@@ -24,9 +24,31 @@
         "link": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B"
       },
       {
+        "id": "zai-org/GLM-5",
+        "author": "zai-org",
+        "likes": 1478,
+        "downloads": 178519,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa",
+          "text-generation",
+          "conversational",
+          "en",
+          "zh",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/zai-org/GLM-5"
+      },
+      {
         "id": "nvidia/personaplex-7b-v1",
         "author": "nvidia",
-        "likes": 2172,
+        "likes": 2175,
         "downloads": 539031,
         "tags": [
           "moshi",
@@ -47,28 +69,6 @@
         "pipeline_tag": "audio-to-audio",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/personaplex-7b-v1"
-      },
-      {
-        "id": "zai-org/GLM-5",
-        "author": "zai-org",
-        "likes": 1472,
-        "downloads": 178519,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "glm_moe_dsa",
-          "text-generation",
-          "conversational",
-          "en",
-          "zh",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/zai-org/GLM-5"
       },
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
@@ -101,7 +101,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 877,
+        "likes": 880,
         "downloads": 208828,
         "tags": [
           "transformers",
@@ -140,7 +140,7 @@
       {
         "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
-        "likes": 167,
+        "likes": 169,
         "downloads": 19434,
         "tags": [
           "transformers",
@@ -164,7 +164,7 @@
       {
         "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
         "author": "Qwen",
-        "likes": 1162,
+        "likes": 1163,
         "downloads": 1011122,
         "tags": [
           "safetensors",
@@ -181,7 +181,7 @@
       {
         "id": "moonshotai/Kimi-K2.5",
         "author": "moonshotai",
-        "likes": 2094,
+        "likes": 2095,
         "downloads": 1193038,
         "tags": [
           "transformers",
@@ -202,27 +202,9 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K2.5"
       },
       {
-        "id": "FireRedTeam/FireRed-Image-Edit-1.0",
-        "author": "FireRedTeam",
-        "likes": 259,
-        "downloads": 2689,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "en",
-          "zh",
-          "license:apache-2.0",
-          "diffusers:QwenImageEditPlusPipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.0"
-      },
-      {
         "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
         "author": "Fortytwo-Network",
-        "likes": 129,
+        "likes": 131,
         "downloads": 1181,
         "tags": [
           "transformers",
@@ -243,6 +225,24 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/Fortytwo-Network/Strand-Rust-Coder-14B-v1"
+      },
+      {
+        "id": "FireRedTeam/FireRed-Image-Edit-1.0",
+        "author": "FireRedTeam",
+        "likes": 259,
+        "downloads": 2689,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "en",
+          "zh",
+          "license:apache-2.0",
+          "diffusers:QwenImageEditPlusPipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.0"
       },
       {
         "id": "Zyphra/ZUNA",
@@ -294,6 +294,29 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese"
       },
       {
+        "id": "unsloth/Qwen3.5-397B-A17B-GGUF",
+        "author": "unsloth",
+        "likes": 186,
+        "downloads": 84503,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.5-397B-A17B",
+          "base_model:quantized:Qwen/Qwen3.5-397B-A17B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF"
+      },
+      {
         "id": "OpenMOSS-Team/MOSS-TTS",
         "author": "OpenMOSS-Team",
         "likes": 309,
@@ -331,32 +354,9 @@
         "link": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS"
       },
       {
-        "id": "unsloth/Qwen3.5-397B-A17B-GGUF",
-        "author": "unsloth",
-        "likes": 185,
-        "downloads": 84503,
-        "tags": [
-          "transformers",
-          "gguf",
-          "unsloth",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.5-397B-A17B",
-          "base_model:quantized:Qwen/Qwen3.5-397B-A17B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF"
-      },
-      {
         "id": "KittenML/kitten-tts-mini-0.8",
         "author": "KittenML",
-        "likes": 93,
+        "likes": 94,
         "downloads": 11376,
         "tags": [
           "onnx",
@@ -370,7 +370,7 @@
       {
         "id": "Qwen/Qwen3-Coder-Next",
         "author": "Qwen",
-        "likes": 967,
+        "likes": 969,
         "downloads": 447864,
         "tags": [
           "transformers",
@@ -596,7 +596,7 @@
       {
         "id": "unsloth/Qwen3-Coder-Next-GGUF",
         "author": "unsloth",
-        "likes": 399,
+        "likes": 400,
         "downloads": 502434,
         "tags": [
           "gguf",
@@ -620,7 +620,7 @@
       {
         "id": "TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
-        "likes": 352,
+        "likes": 353,
         "downloads": 70652,
         "tags": [
           "gguf",
@@ -818,7 +818,7 @@
       {
         "id": "allenai/olmOCR-bench",
         "author": "allenai",
-        "likes": 93,
+        "likes": 94,
         "downloads": 2115,
         "tags": [
           "benchmark:official",
@@ -914,26 +914,8 @@
           "LLM-evaluation",
           "metacognition"
         ],
-        "lastModified": "2026-02-22T16:25:52.000Z",
+        "lastModified": "2026-02-24T02:24:41.000Z",
         "link": "https://huggingface.co/datasets/FINAL-Bench/Metacognitive"
-      },
-      {
-        "id": "TeichAI/Pony-Alpha-15k",
-        "author": "TeichAI",
-        "likes": 53,
-        "downloads": 342,
-        "tags": [
-          "size_categories:10K<n<100K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-17T00:02:30.000Z",
-        "link": "https://huggingface.co/datasets/TeichAI/Pony-Alpha-15k"
       },
       {
         "id": "Snowflake/AgentWorldModel-1K",
@@ -955,6 +937,24 @@
         "link": "https://huggingface.co/datasets/Snowflake/AgentWorldModel-1K"
       },
       {
+        "id": "TeichAI/Pony-Alpha-15k",
+        "author": "TeichAI",
+        "likes": 53,
+        "downloads": 342,
+        "tags": [
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-17T00:02:30.000Z",
+        "link": "https://huggingface.co/datasets/TeichAI/Pony-Alpha-15k"
+      },
+      {
         "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
         "author": "TeichAI",
         "likes": 283,
@@ -973,26 +973,9 @@
         "link": "https://huggingface.co/datasets/TeichAI/claude-4.5-opus-high-reasoning-250x"
       },
       {
-        "id": "Nanbeige/ToolMind-Web-QA",
-        "author": "Nanbeige",
-        "likes": 41,
-        "downloads": 1732,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "arxiv:2602.13367",
-          "region:us",
-          "synthetic",
-          "deep search"
-        ],
-        "lastModified": "2026-02-19T07:53:07.000Z",
-        "link": "https://huggingface.co/datasets/Nanbeige/ToolMind-Web-QA"
-      },
-      {
         "id": "markov-ai/computer-use",
         "author": "markov-ai",
-        "likes": 38,
+        "likes": 39,
         "downloads": 164,
         "tags": [
           "task_categories:robotics",
@@ -1018,6 +1001,23 @@
         ],
         "lastModified": "2026-02-13T15:11:21.000Z",
         "link": "https://huggingface.co/datasets/markov-ai/computer-use"
+      },
+      {
+        "id": "Nanbeige/ToolMind-Web-QA",
+        "author": "Nanbeige",
+        "likes": 41,
+        "downloads": 1732,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "arxiv:2602.13367",
+          "region:us",
+          "synthetic",
+          "deep search"
+        ],
+        "lastModified": "2026-02-19T07:53:07.000Z",
+        "link": "https://huggingface.co/datasets/Nanbeige/ToolMind-Web-QA"
       },
       {
         "id": "openbmb/UltraData-Math",
@@ -1048,6 +1048,84 @@
         ],
         "lastModified": "2026-02-20T15:02:34.000Z",
         "link": "https://huggingface.co/datasets/openbmb/UltraData-Math"
+      },
+      {
+        "id": "openfoodfacts/product-database",
+        "author": "openfoodfacts",
+        "likes": 102,
+        "downloads": 4568,
+        "tags": [
+          "language:en",
+          "language:fr",
+          "language:de",
+          "language:es",
+          "language:it",
+          "language:nl",
+          "language:pl",
+          "language:pt",
+          "language:sv",
+          "language:bg",
+          "language:ro",
+          "language:fi",
+          "language:ru",
+          "language:nb",
+          "language:cs",
+          "language:th",
+          "language:da",
+          "language:hr",
+          "language:hu",
+          "language:ar",
+          "language:el",
+          "language:ja",
+          "language:ca",
+          "language:sr",
+          "language:sl",
+          "language:sk",
+          "language:tr",
+          "language:lt",
+          "language:zh",
+          "language:et",
+          "language:lv",
+          "language:xx",
+          "language:uk",
+          "language:id",
+          "language:he",
+          "language:vi",
+          "language:is",
+          "language:la",
+          "language:in",
+          "language:ko",
+          "language:sq",
+          "language:iw",
+          "language:ka",
+          "language:ms",
+          "language:bs",
+          "language:fa",
+          "language:bn",
+          "language:gl",
+          "language:kk",
+          "language:mk",
+          "language:nn",
+          "language:hi",
+          "language:aa",
+          "language:uz",
+          "language:so",
+          "language:af",
+          "language:eu",
+          "license:agpl-3.0",
+          "license:odbl",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-23T16:01:31.000Z",
+        "link": "https://huggingface.co/datasets/openfoodfacts/product-database"
       },
       {
         "id": "commoncrawl/CommonLID",
@@ -1180,84 +1258,6 @@
         ],
         "lastModified": "2026-02-10T00:07:47.000Z",
         "link": "https://huggingface.co/datasets/commoncrawl/CommonLID"
-      },
-      {
-        "id": "openfoodfacts/product-database",
-        "author": "openfoodfacts",
-        "likes": 101,
-        "downloads": 4568,
-        "tags": [
-          "language:en",
-          "language:fr",
-          "language:de",
-          "language:es",
-          "language:it",
-          "language:nl",
-          "language:pl",
-          "language:pt",
-          "language:sv",
-          "language:bg",
-          "language:ro",
-          "language:fi",
-          "language:ru",
-          "language:nb",
-          "language:cs",
-          "language:th",
-          "language:da",
-          "language:hr",
-          "language:hu",
-          "language:ar",
-          "language:el",
-          "language:ja",
-          "language:ca",
-          "language:sr",
-          "language:sl",
-          "language:sk",
-          "language:tr",
-          "language:lt",
-          "language:zh",
-          "language:et",
-          "language:lv",
-          "language:xx",
-          "language:uk",
-          "language:id",
-          "language:he",
-          "language:vi",
-          "language:is",
-          "language:la",
-          "language:in",
-          "language:ko",
-          "language:sq",
-          "language:iw",
-          "language:ka",
-          "language:ms",
-          "language:bs",
-          "language:fa",
-          "language:bn",
-          "language:gl",
-          "language:kk",
-          "language:mk",
-          "language:nn",
-          "language:hi",
-          "language:aa",
-          "language:uz",
-          "language:so",
-          "language:af",
-          "language:eu",
-          "license:agpl-3.0",
-          "license:odbl",
-          "size_categories:1M<n<10M",
-          "format:parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-23T16:01:31.000Z",
-        "link": "https://huggingface.co/datasets/openfoodfacts/product-database"
       },
       {
         "id": "deepgenteam/DeepGen-1.0",
