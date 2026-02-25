@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-25T10:00:18.903Z",
+  "updatedAt": "2026-02-25T11:00:19.467Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 1041,
+        "likes": 1045,
         "downloads": 482910,
         "tags": [
           "transformers",
@@ -26,7 +26,7 @@
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 306,
+        "likes": 320,
         "downloads": 20991,
         "tags": [
           "transformers",
@@ -35,6 +35,7 @@
           "image-text-to-text",
           "conversational",
           "license:apache-2.0",
+          "eval-results",
           "endpoints_compatible",
           "region:us"
         ],
@@ -45,7 +46,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1537,
+        "likes": 1540,
         "downloads": 181706,
         "tags": [
           "transformers",
@@ -95,7 +96,7 @@
       {
         "id": "Qwen/Qwen3.5-27B",
         "author": "Qwen",
-        "likes": 222,
+        "likes": 231,
         "downloads": 6875,
         "tags": [
           "transformers",
@@ -104,6 +105,7 @@
           "image-text-to-text",
           "conversational",
           "license:apache-2.0",
+          "eval-results",
           "endpoints_compatible",
           "region:us"
         ],
@@ -114,7 +116,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 923,
+        "likes": 926,
         "downloads": 240246,
         "tags": [
           "transformers",
@@ -137,7 +139,7 @@
       {
         "id": "Qwen/Qwen3.5-122B-A10B",
         "author": "Qwen",
-        "likes": 201,
+        "likes": 207,
         "downloads": 3320,
         "tags": [
           "transformers",
@@ -206,7 +208,7 @@
       {
         "id": "LocoreMind/LocoOperator-4B",
         "author": "LocoreMind",
-        "likes": 168,
+        "likes": 171,
         "downloads": 232,
         "tags": [
           "transformers",
@@ -235,7 +237,7 @@
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 132,
+        "likes": 134,
         "downloads": 60114,
         "tags": [
           "gguf",
@@ -257,7 +259,7 @@
       {
         "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
         "author": "Qwen",
-        "likes": 1183,
+        "likes": 1185,
         "downloads": 1033164,
         "tags": [
           "safetensors",
@@ -274,7 +276,7 @@
       {
         "id": "Zyphra/ZUNA",
         "author": "Zyphra",
-        "likes": 131,
+        "likes": 132,
         "downloads": 1592,
         "tags": [
           "safetensors",
@@ -290,7 +292,7 @@
       {
         "id": "moonshotai/Kimi-K2.5",
         "author": "moonshotai",
-        "likes": 2118,
+        "likes": 2119,
         "downloads": 1382433,
         "tags": [
           "transformers",
@@ -311,34 +313,9 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K2.5"
       },
       {
-        "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
-        "author": "Fortytwo-Network",
-        "likes": 143,
-        "downloads": 1483,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen2",
-          "text-generation",
-          "conversational",
-          "dataset:Fortytwo-Network/Strandset-Rust-v1",
-          "arxiv:2510.24801",
-          "arxiv:2409.08386",
-          "base_model:Qwen/Qwen2.5-Coder-14B-Instruct",
-          "base_model:finetune:Qwen/Qwen2.5-Coder-14B-Instruct",
-          "license:apache-2.0",
-          "text-generation-inference",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/Fortytwo-Network/Strand-Rust-Coder-14B-v1"
-      },
-      {
         "id": "LiquidAI/LFM2-24B-A2B",
         "author": "LiquidAI",
-        "likes": 115,
+        "likes": 116,
         "downloads": 1570,
         "tags": [
           "transformers",
@@ -366,6 +343,31 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/LiquidAI/LFM2-24B-A2B"
+      },
+      {
+        "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
+        "author": "Fortytwo-Network",
+        "likes": 143,
+        "downloads": 1483,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "dataset:Fortytwo-Network/Strandset-Rust-v1",
+          "arxiv:2510.24801",
+          "arxiv:2409.08386",
+          "base_model:Qwen/Qwen2.5-Coder-14B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-Coder-14B-Instruct",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/Fortytwo-Network/Strand-Rust-Coder-14B-v1"
       },
       {
         "id": "KittenML/kitten-tts-mini-0.8",
@@ -420,7 +422,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
         "author": "FireRedTeam",
-        "likes": 273,
+        "likes": 275,
         "downloads": 3510,
         "tags": [
           "diffusers",
@@ -438,7 +440,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
         "author": "nvidia",
-        "likes": 114,
+        "likes": 115,
         "downloads": 11275,
         "tags": [
           "transformers",
@@ -529,7 +531,7 @@
       {
         "id": "unsloth/Qwen3.5-122B-A10B-GGUF",
         "author": "unsloth",
-        "likes": 78,
+        "likes": 79,
         "downloads": 25873,
         "tags": [
           "transformers",
@@ -696,7 +698,7 @@
       {
         "id": "deepgenteam/DeepGen-1.0",
         "author": "deepgenteam",
-        "likes": 153,
+        "likes": 154,
         "downloads": 101,
         "tags": [
           "text-to-image",
@@ -850,7 +852,7 @@
       {
         "id": "allenai/olmOCR-bench",
         "author": "allenai",
-        "likes": 100,
+        "likes": 101,
         "downloads": 2119,
         "tags": [
           "benchmark:official",
@@ -866,6 +868,31 @@
         ],
         "lastModified": "2026-02-19T17:28:38.000Z",
         "link": "https://huggingface.co/datasets/allenai/olmOCR-bench"
+      },
+      {
+        "id": "peteromallet/dataclaw-peteromallet",
+        "author": "peteromallet",
+        "likes": 53,
+        "downloads": 43,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:mit",
+          "region:us",
+          "dataclaw",
+          "claude-code",
+          "conversations",
+          "coding-assistant",
+          "tool-use",
+          "agentic-coding",
+          "claude-haiku-4-5-20251001",
+          "claude-opus-4-5-20251101",
+          "claude-opus-4-6",
+          "claude-sonnet-4-5-20250929",
+          "claude-sonnet-4-6"
+        ],
+        "lastModified": "2026-02-24T20:42:04.000Z",
+        "link": "https://huggingface.co/datasets/peteromallet/dataclaw-peteromallet"
       },
       {
         "id": "FINAL-Bench/Metacognitive",
@@ -944,7 +971,7 @@
       {
         "id": "GD-ML/IntTravel_dataset",
         "author": "GD-ML",
-        "likes": 86,
+        "likes": 87,
         "downloads": 2527,
         "tags": [
           "task_categories:other",
@@ -958,6 +985,34 @@
         ],
         "lastModified": "2026-02-25T08:53:03.000Z",
         "link": "https://huggingface.co/datasets/GD-ML/IntTravel_dataset"
+      },
+      {
+        "id": "VLR-CVC/DocVQA-2026",
+        "author": "VLR-CVC",
+        "likes": 39,
+        "downloads": 1046,
+        "tags": [
+          "task_categories:visual-question-answering",
+          "task_categories:document-question-answering",
+          "task_categories:image-text-to-text",
+          "task_categories:question-answering",
+          "language:en",
+          "size_categories:n<1K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:image",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "multimodal",
+          "benchmark",
+          "document-understanding"
+        ],
+        "lastModified": "2026-02-23T08:34:00.000Z",
+        "link": "https://huggingface.co/datasets/VLR-CVC/DocVQA-2026"
       },
       {
         "id": "markov-ai/computer-use",
@@ -990,57 +1045,21 @@
         "link": "https://huggingface.co/datasets/markov-ai/computer-use"
       },
       {
-        "id": "VLR-CVC/DocVQA-2026",
-        "author": "VLR-CVC",
-        "likes": 37,
-        "downloads": 1046,
-        "tags": [
-          "task_categories:visual-question-answering",
-          "task_categories:document-question-answering",
-          "task_categories:image-text-to-text",
-          "task_categories:question-answering",
-          "language:en",
-          "size_categories:n<1K",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:image",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "multimodal",
-          "benchmark",
-          "document-understanding"
-        ],
-        "lastModified": "2026-02-23T08:34:00.000Z",
-        "link": "https://huggingface.co/datasets/VLR-CVC/DocVQA-2026"
-      },
-      {
-        "id": "peteromallet/dataclaw-peteromallet",
-        "author": "peteromallet",
-        "likes": 35,
-        "downloads": 43,
+        "id": "Nanbeige/ToolMind-Web-QA",
+        "author": "Nanbeige",
+        "likes": 45,
+        "downloads": 2423,
         "tags": [
           "task_categories:text-generation",
           "language:en",
-          "license:mit",
+          "license:apache-2.0",
+          "arxiv:2602.13367",
           "region:us",
-          "dataclaw",
-          "claude-code",
-          "conversations",
-          "coding-assistant",
-          "tool-use",
-          "agentic-coding",
-          "claude-haiku-4-5-20251001",
-          "claude-opus-4-5-20251101",
-          "claude-opus-4-6",
-          "claude-sonnet-4-5-20250929",
-          "claude-sonnet-4-6"
+          "synthetic",
+          "deep search"
         ],
-        "lastModified": "2026-02-24T20:42:04.000Z",
-        "link": "https://huggingface.co/datasets/peteromallet/dataclaw-peteromallet"
+        "lastModified": "2026-02-19T07:53:07.000Z",
+        "link": "https://huggingface.co/datasets/Nanbeige/ToolMind-Web-QA"
       },
       {
         "id": "openfoodfacts/product-database",
@@ -1121,41 +1140,6 @@
         "link": "https://huggingface.co/datasets/openfoodfacts/product-database"
       },
       {
-        "id": "Nanbeige/ToolMind-Web-QA",
-        "author": "Nanbeige",
-        "likes": 44,
-        "downloads": 2423,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "arxiv:2602.13367",
-          "region:us",
-          "synthetic",
-          "deep search"
-        ],
-        "lastModified": "2026-02-19T07:53:07.000Z",
-        "link": "https://huggingface.co/datasets/Nanbeige/ToolMind-Web-QA"
-      },
-      {
-        "id": "TeichAI/Pony-Alpha-15k",
-        "author": "TeichAI",
-        "likes": 54,
-        "downloads": 387,
-        "tags": [
-          "size_categories:10K<n<100K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-17T00:02:30.000Z",
-        "link": "https://huggingface.co/datasets/TeichAI/Pony-Alpha-15k"
-      },
-      {
         "id": "allenai/olmix",
         "author": "allenai",
         "likes": 37,
@@ -1180,7 +1164,7 @@
       {
         "id": "crownelius/Opus-4.6-Reasoning-3300x",
         "author": "crownelius",
-        "likes": 27,
+        "likes": 28,
         "downloads": 159,
         "tags": [
           "license:apache-2.0",
@@ -1197,9 +1181,27 @@
         "link": "https://huggingface.co/datasets/crownelius/Opus-4.6-Reasoning-3300x"
       },
       {
+        "id": "TeichAI/Pony-Alpha-15k",
+        "author": "TeichAI",
+        "likes": 54,
+        "downloads": 387,
+        "tags": [
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-17T00:02:30.000Z",
+        "link": "https://huggingface.co/datasets/TeichAI/Pony-Alpha-15k"
+      },
+      {
         "id": "Solenopsisbot/real-slop",
         "author": "Solenopsisbot",
-        "likes": 25,
+        "likes": 26,
         "downloads": 112,
         "tags": [
           "task_categories:text-generation",
@@ -1220,7 +1222,7 @@
       {
         "id": "nvidia/PhysicalAI-Kitchen-Assets",
         "author": "nvidia",
-        "likes": 33,
+        "likes": 34,
         "downloads": 541,
         "tags": [
           "license:cc-by-4.0",
@@ -1230,34 +1232,37 @@
         "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Kitchen-Assets"
       },
       {
-        "id": "openbmb/UltraData-Math",
-        "author": "openbmb",
-        "likes": 248,
-        "downloads": 46406,
+        "id": "PleIAs/common_corpus",
+        "author": "PleIAs",
+        "likes": 373,
+        "downloads": 65364,
         "tags": [
-          "task_categories:text-generation",
           "language:en",
+          "language:fr",
+          "language:de",
           "language:zh",
-          "license:apache-2.0",
-          "size_categories:100M<n<1B",
+          "language:it",
+          "language:es",
+          "language:ja",
+          "language:pl",
+          "language:la",
+          "language:nl",
+          "language:ru",
+          "language:ar",
+          "language:ko",
+          "size_categories:10K<n<100K",
           "format:parquet",
+          "modality:tabular",
           "modality:text",
           "library:datasets",
-          "library:dask",
+          "library:pandas",
           "library:polars",
           "library:mlcroissant",
-          "arxiv:2602.09003",
-          "region:us",
-          "llm",
-          "pretraining",
-          "math",
-          "data-synthesis",
-          "data-filtering",
-          "high-quality",
-          "mathematical-reasoning"
+          "arxiv:2410.22587",
+          "region:us"
         ],
-        "lastModified": "2026-02-20T15:02:34.000Z",
-        "link": "https://huggingface.co/datasets/openbmb/UltraData-Math"
+        "lastModified": "2026-02-19T13:13:01.000Z",
+        "link": "https://huggingface.co/datasets/PleIAs/common_corpus"
       }
     ]
   }
