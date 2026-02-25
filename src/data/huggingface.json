@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-25T09:00:17.174Z",
+  "updatedAt": "2026-02-25T10:00:18.903Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 1038,
+        "likes": 1041,
         "downloads": 482910,
         "tags": [
           "transformers",
@@ -26,7 +26,7 @@
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 294,
+        "likes": 306,
         "downloads": 20991,
         "tags": [
           "transformers",
@@ -67,7 +67,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 787,
+        "likes": 789,
         "downloads": 227984,
         "tags": [
           "transformers",
@@ -93,6 +93,25 @@
         "link": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
       },
       {
+        "id": "Qwen/Qwen3.5-27B",
+        "author": "Qwen",
+        "likes": 222,
+        "downloads": 6875,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-27B"
+      },
+      {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
         "likes": 923,
@@ -116,28 +135,53 @@
         "link": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
       },
       {
-        "id": "Qwen/Qwen3.5-27B",
+        "id": "Qwen/Qwen3.5-122B-A10B",
         "author": "Qwen",
-        "likes": 214,
-        "downloads": 6875,
+        "likes": 201,
+        "downloads": 3320,
         "tags": [
           "transformers",
           "safetensors",
-          "qwen3_5",
+          "qwen3_5_moe",
           "image-text-to-text",
           "conversational",
           "license:apache-2.0",
+          "eval-results",
           "endpoints_compatible",
           "region:us"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-27B"
+        "link": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B"
+      },
+      {
+        "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
+        "author": "TeichAI",
+        "likes": 201,
+        "downloads": 43099,
+        "tags": [
+          "transformers",
+          "gguf",
+          "qwen3",
+          "text-generation",
+          "text-generation-inference",
+          "unsloth",
+          "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
+          "base_model:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
+          "base_model:quantized:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
       },
       {
         "id": "nvidia/personaplex-7b-v1",
         "author": "nvidia",
-        "likes": 2192,
+        "likes": 2193,
         "downloads": 537707,
         "tags": [
           "moshi",
@@ -160,52 +204,9 @@
         "link": "https://huggingface.co/nvidia/personaplex-7b-v1"
       },
       {
-        "id": "Qwen/Qwen3.5-122B-A10B",
-        "author": "Qwen",
-        "likes": 195,
-        "downloads": 3320,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B"
-      },
-      {
-        "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
-        "author": "TeichAI",
-        "likes": 200,
-        "downloads": 43099,
-        "tags": [
-          "transformers",
-          "gguf",
-          "qwen3",
-          "text-generation",
-          "text-generation-inference",
-          "unsloth",
-          "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
-          "base_model:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
-          "base_model:quantized:TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
-      },
-      {
         "id": "LocoreMind/LocoOperator-4B",
         "author": "LocoreMind",
-        "likes": 163,
+        "likes": 168,
         "downloads": 232,
         "tags": [
           "transformers",
@@ -234,7 +235,7 @@
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 128,
+        "likes": 132,
         "downloads": 60114,
         "tags": [
           "gguf",
@@ -252,6 +253,23 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF"
+      },
+      {
+        "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+        "author": "Qwen",
+        "likes": 1183,
+        "downloads": 1033164,
+        "tags": [
+          "safetensors",
+          "qwen3_tts",
+          "text-to-speech",
+          "arxiv:2601.15621",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
       },
       {
         "id": "Zyphra/ZUNA",
@@ -293,23 +311,6 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K2.5"
       },
       {
-        "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
-        "author": "Qwen",
-        "likes": 1180,
-        "downloads": 1033164,
-        "tags": [
-          "safetensors",
-          "qwen3_tts",
-          "text-to-speech",
-          "arxiv:2601.15621",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-speech",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
-      },
-      {
         "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
         "author": "Fortytwo-Network",
         "likes": 143,
@@ -337,7 +338,7 @@
       {
         "id": "LiquidAI/LFM2-24B-A2B",
         "author": "LiquidAI",
-        "likes": 111,
+        "likes": 115,
         "downloads": 1570,
         "tags": [
           "transformers",
@@ -367,25 +368,9 @@
         "link": "https://huggingface.co/LiquidAI/LFM2-24B-A2B"
       },
       {
-        "id": "xgen-universe/Capybara",
-        "author": "xgen-universe",
-        "likes": 182,
-        "downloads": 0,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "any-to-any",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/xgen-universe/Capybara"
-      },
-      {
         "id": "KittenML/kitten-tts-mini-0.8",
         "author": "KittenML",
-        "likes": 106,
+        "likes": 108,
         "downloads": 34290,
         "tags": [
           "onnx",
@@ -417,9 +402,25 @@
         "link": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B-FP8"
       },
       {
+        "id": "xgen-universe/Capybara",
+        "author": "xgen-universe",
+        "likes": 182,
+        "downloads": 0,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "any-to-any",
+          "license:mit",
+          "region:us"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/xgen-universe/Capybara"
+      },
+      {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
         "author": "FireRedTeam",
-        "likes": 272,
+        "likes": 273,
         "downloads": 3510,
         "tags": [
           "diffusers",
@@ -471,7 +472,7 @@
       {
         "id": "Qwen/Qwen3-Coder-Next",
         "author": "Qwen",
-        "likes": 989,
+        "likes": 990,
         "downloads": 549875,
         "tags": [
           "transformers",
@@ -491,7 +492,7 @@
       {
         "id": "OpenMOSS-Team/MOSS-TTS",
         "author": "OpenMOSS-Team",
-        "likes": 321,
+        "likes": 322,
         "downloads": 61362,
         "tags": [
           "safetensors",
@@ -526,9 +527,32 @@
         "link": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS"
       },
       {
+        "id": "unsloth/Qwen3.5-122B-A10B-GGUF",
+        "author": "unsloth",
+        "likes": 78,
+        "downloads": 25873,
+        "tags": [
+          "transformers",
+          "gguf",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "unsloth",
+          "base_model:Qwen/Qwen3.5-122B-A10B",
+          "base_model:quantized:Qwen/Qwen3.5-122B-A10B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF"
+      },
+      {
         "id": "CohereLabs/tiny-aya-global",
         "author": "CohereLabs",
-        "likes": 99,
+        "likes": 100,
         "downloads": 2695,
         "tags": [
           "transformers",
@@ -613,32 +637,9 @@
         "link": "https://huggingface.co/CohereLabs/tiny-aya-global"
       },
       {
-        "id": "unsloth/Qwen3.5-122B-A10B-GGUF",
-        "author": "unsloth",
-        "likes": 77,
-        "downloads": 25873,
-        "tags": [
-          "transformers",
-          "gguf",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "unsloth",
-          "base_model:Qwen/Qwen3.5-122B-A10B",
-          "base_model:quantized:Qwen/Qwen3.5-122B-A10B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF"
-      },
-      {
         "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
         "author": "mistralai",
-        "likes": 627,
+        "likes": 628,
         "downloads": 223732,
         "tags": [
           "vllm",
@@ -695,7 +696,7 @@
       {
         "id": "deepgenteam/DeepGen-1.0",
         "author": "deepgenteam",
-        "likes": 152,
+        "likes": 153,
         "downloads": 101,
         "tags": [
           "text-to-image",
@@ -713,7 +714,7 @@
       {
         "id": "unsloth/Qwen3.5-397B-A17B-GGUF",
         "author": "unsloth",
-        "likes": 196,
+        "likes": 197,
         "downloads": 96347,
         "tags": [
           "transformers",
@@ -736,7 +737,7 @@
       {
         "id": "unsloth/Qwen3-Coder-Next-GGUF",
         "author": "unsloth",
-        "likes": 412,
+        "likes": 413,
         "downloads": 535476,
         "tags": [
           "gguf",
@@ -765,7 +766,7 @@
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
-        "likes": 133,
+        "likes": 134,
         "downloads": 1029,
         "tags": [
           "license:apache-2.0",
@@ -869,7 +870,7 @@
       {
         "id": "FINAL-Bench/Metacognitive",
         "author": "FINAL-Bench",
-        "likes": 50,
+        "likes": 51,
         "downloads": 3963,
         "tags": [
           "task_categories:text-generation",
@@ -904,7 +905,7 @@
       {
         "id": "OpenResearcher/OpenResearcher-Dataset",
         "author": "OpenResearcher",
-        "likes": 96,
+        "likes": 97,
         "downloads": 12709,
         "tags": [
           "license:mit",
@@ -925,7 +926,7 @@
       {
         "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
         "author": "TeichAI",
-        "likes": 288,
+        "likes": 289,
         "downloads": 5546,
         "tags": [
           "size_categories:n<1K",
@@ -1015,6 +1016,31 @@
         ],
         "lastModified": "2026-02-23T08:34:00.000Z",
         "link": "https://huggingface.co/datasets/VLR-CVC/DocVQA-2026"
+      },
+      {
+        "id": "peteromallet/dataclaw-peteromallet",
+        "author": "peteromallet",
+        "likes": 35,
+        "downloads": 43,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:mit",
+          "region:us",
+          "dataclaw",
+          "claude-code",
+          "conversations",
+          "coding-assistant",
+          "tool-use",
+          "agentic-coding",
+          "claude-haiku-4-5-20251001",
+          "claude-opus-4-5-20251101",
+          "claude-opus-4-6",
+          "claude-sonnet-4-5-20250929",
+          "claude-sonnet-4-6"
+        ],
+        "lastModified": "2026-02-24T20:42:04.000Z",
+        "link": "https://huggingface.co/datasets/peteromallet/dataclaw-peteromallet"
       },
       {
         "id": "openfoodfacts/product-database",
@@ -1112,31 +1138,6 @@
         "link": "https://huggingface.co/datasets/Nanbeige/ToolMind-Web-QA"
       },
       {
-        "id": "peteromallet/my-personal-claude-code-data",
-        "author": "peteromallet",
-        "likes": 29,
-        "downloads": 43,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:mit",
-          "region:us",
-          "dataclaw",
-          "claude-code",
-          "conversations",
-          "coding-assistant",
-          "tool-use",
-          "agentic-coding",
-          "claude-haiku-4-5-20251001",
-          "claude-opus-4-5-20251101",
-          "claude-opus-4-6",
-          "claude-sonnet-4-5-20250929",
-          "claude-sonnet-4-6"
-        ],
-        "lastModified": "2026-02-24T20:42:04.000Z",
-        "link": "https://huggingface.co/datasets/peteromallet/my-personal-claude-code-data"
-      },
-      {
         "id": "TeichAI/Pony-Alpha-15k",
         "author": "TeichAI",
         "likes": 54,
@@ -1157,7 +1158,7 @@
       {
         "id": "allenai/olmix",
         "author": "allenai",
-        "likes": 36,
+        "likes": 37,
         "downloads": 272,
         "tags": [
           "task_categories:other",
