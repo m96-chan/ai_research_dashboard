@@ -69,10 +69,27 @@ jobs:
         with:
           ref: main
 
-      - name: Install, build, and upload
-        uses: withastro/action@v5
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
-          package-manager: pnpm@10
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
 
       - name: Deploy to GitHub Pages
         id: deployment
