@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-26T19:00:39.962Z",
+  "updatedAt": "2026-02-26T20:00:22.934Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 541,
+        "likes": 544,
         "downloads": 158273,
         "tags": [
           "transformers",
@@ -27,7 +27,7 @@
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 1087,
+        "likes": 1089,
         "downloads": 601563,
         "tags": [
           "transformers",
@@ -47,7 +47,7 @@
       {
         "id": "Qwen/Qwen3.5-27B",
         "author": "Qwen",
-        "likes": 353,
+        "likes": 357,
         "downloads": 41061,
         "tags": [
           "transformers",
@@ -133,7 +133,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 808,
+        "likes": 809,
         "downloads": 255172,
         "tags": [
           "transformers",
@@ -161,7 +161,7 @@
       {
         "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
-        "likes": 213,
+        "likes": 214,
         "downloads": 55865,
         "tags": [
           "transformers",
@@ -237,7 +237,7 @@
       {
         "id": "LiquidAI/LFM2-24B-A2B",
         "author": "LiquidAI",
-        "likes": 162,
+        "likes": 163,
         "downloads": 3079,
         "tags": [
           "transformers",
@@ -334,7 +334,7 @@
       {
         "id": "unsloth/Qwen3.5-122B-A10B-GGUF",
         "author": "unsloth",
-        "likes": 110,
+        "likes": 109,
         "downloads": 72554,
         "tags": [
           "transformers",
@@ -469,7 +469,7 @@
       {
         "id": "xgen-universe/Capybara",
         "author": "xgen-universe",
-        "likes": 191,
+        "likes": 192,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -552,6 +552,26 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF"
+      },
+      {
+        "id": "Qwen/Qwen3.5-35B-A3B-Base",
+        "author": "Qwen",
+        "likes": 69,
+        "downloads": 1937,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "deploy:azure"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base"
       },
       {
         "id": "CohereLabs/tiny-aya-global",
@@ -639,26 +659,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/CohereLabs/tiny-aya-global"
-      },
-      {
-        "id": "Qwen/Qwen3.5-35B-A3B-Base",
-        "author": "Qwen",
-        "likes": 69,
-        "downloads": 1937,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "deploy:azure"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
@@ -760,7 +760,7 @@
       {
         "id": "peteromallet/dataclaw-peteromallet",
         "author": "peteromallet",
-        "likes": 184,
+        "likes": 187,
         "downloads": 456,
         "tags": [
           "task_categories:text-generation",
@@ -1096,6 +1096,25 @@
         "link": "https://huggingface.co/datasets/LocoreMind/qwen3.5-27b-cli-reasoning-3632x"
       },
       {
+        "id": "togethercomputer/CoderForge-Preview",
+        "author": "togethercomputer",
+        "likes": 33,
+        "downloads": 48,
+        "tags": [
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-26T18:22:08.000Z",
+        "link": "https://huggingface.co/datasets/togethercomputer/CoderForge-Preview"
+      },
+      {
         "id": "Solenopsisbot/real-slop",
         "author": "Solenopsisbot",
         "likes": 32,
@@ -1193,25 +1212,6 @@
         ],
         "lastModified": "2026-02-26T16:01:33.000Z",
         "link": "https://huggingface.co/datasets/openfoodfacts/product-database"
-      },
-      {
-        "id": "togethercomputer/CoderForge-Preview",
-        "author": "togethercomputer",
-        "likes": 28,
-        "downloads": 48,
-        "tags": [
-          "size_categories:100K<n<1M",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-26T18:22:08.000Z",
-        "link": "https://huggingface.co/datasets/togethercomputer/CoderForge-Preview"
       },
       {
         "id": "nvidia/Nemotron-Terminal-Corpus",
