@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-27T04:00:18.416Z",
+  "updatedAt": "2026-02-27T05:00:18.451Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 569,
+        "likes": 572,
         "downloads": 158273,
         "tags": [
           "transformers",
@@ -48,7 +48,7 @@
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 1098,
+        "likes": 1097,
         "downloads": 601563,
         "tags": [
           "transformers",
@@ -89,7 +89,7 @@
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 258,
+        "likes": 259,
         "downloads": 179363,
         "tags": [
           "gguf",
@@ -317,7 +317,7 @@
       {
         "id": "unsloth/Qwen3.5-122B-A10B-GGUF",
         "author": "unsloth",
-        "likes": 111,
+        "likes": 113,
         "downloads": 72554,
         "tags": [
           "transformers",
@@ -340,7 +340,7 @@
       {
         "id": "unsloth/Qwen3.5-27B-GGUF",
         "author": "unsloth",
-        "likes": 110,
+        "likes": 111,
         "downloads": 73615,
         "tags": [
           "gguf",
@@ -451,7 +451,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
         "author": "FireRedTeam",
-        "likes": 285,
+        "likes": 286,
         "downloads": 3951,
         "tags": [
           "diffusers",
@@ -465,22 +465,6 @@
         "pipeline_tag": "image-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.0"
-      },
-      {
-        "id": "xgen-universe/Capybara",
-        "author": "xgen-universe",
-        "likes": 195,
-        "downloads": 0,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "any-to-any",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/xgen-universe/Capybara"
       },
       {
         "id": "Qwen/Qwen3.5-397B-A17B-FP8",
@@ -507,7 +491,7 @@
       {
         "id": "Qwen/Qwen3.5-35B-A3B-Base",
         "author": "Qwen",
-        "likes": 71,
+        "likes": 72,
         "downloads": 1937,
         "tags": [
           "transformers",
@@ -523,6 +507,22 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base"
+      },
+      {
+        "id": "xgen-universe/Capybara",
+        "author": "xgen-universe",
+        "likes": 195,
+        "downloads": 0,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "any-to-any",
+          "license:mit",
+          "region:us"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/xgen-universe/Capybara"
       },
       {
         "id": "CohereLabs/tiny-aya-global",
@@ -614,7 +614,7 @@
       {
         "id": "unsloth/Qwen3-Coder-Next-GGUF",
         "author": "unsloth",
-        "likes": 424,
+        "likes": 425,
         "downloads": 549668,
         "tags": [
           "gguf",
@@ -695,6 +695,29 @@
         "link": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602"
       },
       {
+        "id": "guidelabs/steerling-8b",
+        "author": "guidelabs",
+        "likes": 59,
+        "downloads": 343,
+        "tags": [
+          "steerling",
+          "safetensors",
+          "causal_diffusion",
+          "causal-diffusion",
+          "interpretability",
+          "concept-steering",
+          "masked-diffusion",
+          "block-causal",
+          "text-generation",
+          "en",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/guidelabs/steerling-8b"
+      },
+      {
         "id": "circlestone-labs/Anima",
         "author": "circlestone-labs",
         "likes": 688,
@@ -708,40 +731,6 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/circlestone-labs/Anima"
-      },
-      {
-        "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
-        "author": "nvidia",
-        "likes": 120,
-        "downloads": 12587,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_h",
-          "text-generation",
-          "nvidia",
-          "pytorch",
-          "conversational",
-          "custom_code",
-          "en",
-          "ja",
-          "dataset:nvidia/Nemotron-Personas-Japan",
-          "dataset:nvidia/Nemotron-CC-v2.1",
-          "dataset:nvidia/Nemotron-Pretraining-Specialized-v1",
-          "dataset:nvidia/Nemotron-Agentic-v1",
-          "dataset:nvidia/Nemotron-Instruction-Following-Chat-v1",
-          "dataset:globis-university/aozorabunko-clean",
-          "dataset:HuggingFaceFW/fineweb-2",
-          "arxiv:2504.03624",
-          "arxiv:2508.14444",
-          "base_model:nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-          "base_model:finetune:nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese"
       }
     ]
   },
@@ -751,7 +740,7 @@
       {
         "id": "peteromallet/dataclaw-peteromallet",
         "author": "peteromallet",
-        "likes": 197,
+        "likes": 199,
         "downloads": 456,
         "tags": [
           "task_categories:text-generation",
@@ -803,7 +792,7 @@
       {
         "id": "ronantakizawa/github-top-code",
         "author": "ronantakizawa",
-        "likes": 79,
+        "likes": 80,
         "downloads": 593,
         "tags": [
           "task_categories:text-generation",
@@ -921,6 +910,25 @@
         "link": "https://huggingface.co/datasets/google/MapTrace"
       },
       {
+        "id": "togethercomputer/CoderForge-Preview",
+        "author": "togethercomputer",
+        "likes": 48,
+        "downloads": 48,
+        "tags": [
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-26T18:22:08.000Z",
+        "link": "https://huggingface.co/datasets/togethercomputer/CoderForge-Preview"
+      },
+      {
         "id": "VLR-CVC/DocVQA-2026",
         "author": "VLR-CVC",
         "likes": 49,
@@ -947,25 +955,6 @@
         ],
         "lastModified": "2026-02-23T08:34:00.000Z",
         "link": "https://huggingface.co/datasets/VLR-CVC/DocVQA-2026"
-      },
-      {
-        "id": "togethercomputer/CoderForge-Preview",
-        "author": "togethercomputer",
-        "likes": 42,
-        "downloads": 48,
-        "tags": [
-          "size_categories:100K<n<1M",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-26T18:22:08.000Z",
-        "link": "https://huggingface.co/datasets/togethercomputer/CoderForge-Preview"
       },
       {
         "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
@@ -1039,36 +1028,6 @@
         "link": "https://huggingface.co/datasets/LocoreMind/qwen3.5-27b-cli-reasoning-3632x"
       },
       {
-        "id": "markov-ai/computer-use",
-        "author": "markov-ai",
-        "likes": 48,
-        "downloads": 253,
-        "tags": [
-          "task_categories:robotics",
-          "task_categories:image-to-text",
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:image",
-          "modality:text",
-          "modality:timeseries",
-          "modality:video",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "computer-use",
-          "gui-agent",
-          "osworld",
-          "trajectories",
-          "reinforcement-learning"
-        ],
-        "lastModified": "2026-02-13T15:11:21.000Z",
-        "link": "https://huggingface.co/datasets/markov-ai/computer-use"
-      },
-      {
         "id": "crownelius/Opus-4.6-Reasoning-3300x",
         "author": "crownelius",
         "likes": 36,
@@ -1106,9 +1065,39 @@
         "link": "https://huggingface.co/datasets/GD-ML/IntTravel_dataset"
       },
       {
+        "id": "markov-ai/computer-use",
+        "author": "markov-ai",
+        "likes": 48,
+        "downloads": 253,
+        "tags": [
+          "task_categories:robotics",
+          "task_categories:image-to-text",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:image",
+          "modality:text",
+          "modality:timeseries",
+          "modality:video",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "computer-use",
+          "gui-agent",
+          "osworld",
+          "trajectories",
+          "reinforcement-learning"
+        ],
+        "lastModified": "2026-02-13T15:11:21.000Z",
+        "link": "https://huggingface.co/datasets/markov-ai/computer-use"
+      },
+      {
         "id": "Solenopsisbot/real-slop",
         "author": "Solenopsisbot",
-        "likes": 32,
+        "likes": 33,
         "downloads": 121,
         "tags": [
           "task_categories:text-generation",
@@ -1207,7 +1196,7 @@
       {
         "id": "nvidia/Nemotron-Terminal-Corpus",
         "author": "nvidia",
-        "likes": 27,
+        "likes": 28,
         "downloads": 129,
         "tags": [
           "task_categories:question-answering",
@@ -1227,37 +1216,24 @@
         "link": "https://huggingface.co/datasets/nvidia/Nemotron-Terminal-Corpus"
       },
       {
-        "id": "PleIAs/common_corpus",
-        "author": "PleIAs",
-        "likes": 375,
-        "downloads": 65637,
+        "id": "GD-ML/GenMRP",
+        "author": "GD-ML",
+        "likes": 24,
+        "downloads": 189,
         "tags": [
-          "language:en",
-          "language:fr",
-          "language:de",
-          "language:zh",
-          "language:it",
-          "language:es",
-          "language:ja",
-          "language:pl",
-          "language:la",
-          "language:nl",
-          "language:ru",
-          "language:ar",
-          "language:ko",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "modality:tabular",
+          "task_categories:tabular-classification",
+          "task_categories:graph-ml",
+          "size_categories:100K<n<1M",
+          "format:csv",
           "modality:text",
           "library:datasets",
-          "library:pandas",
+          "library:dask",
           "library:polars",
           "library:mlcroissant",
-          "arxiv:2410.22587",
           "region:us"
         ],
-        "lastModified": "2026-02-19T13:13:01.000Z",
-        "link": "https://huggingface.co/datasets/PleIAs/common_corpus"
+        "lastModified": "2026-02-08T13:39:59.000Z",
+        "link": "https://huggingface.co/datasets/GD-ML/GenMRP"
       },
       {
         "id": "lm-provers/FineProofs-SFT",
