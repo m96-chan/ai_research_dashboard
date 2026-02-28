@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-28T11:00:20.537Z",
+  "updatedAt": "2026-02-28T12:00:19.304Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 655,
+        "likes": 657,
         "downloads": 378228,
         "tags": [
           "transformers",
@@ -71,7 +71,7 @@
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 336,
+        "likes": 338,
         "downloads": 350233,
         "tags": [
           "gguf",
@@ -93,7 +93,7 @@
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 1119,
+        "likes": 1121,
         "downloads": 889203,
         "tags": [
           "transformers",
@@ -163,7 +163,7 @@
       {
         "id": "LocoreMind/LocoOperator-4B",
         "author": "LocoreMind",
-        "likes": 227,
+        "likes": 230,
         "downloads": 1997,
         "tags": [
           "transformers",
@@ -192,7 +192,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 1034,
+        "likes": 1035,
         "downloads": 305031,
         "tags": [
           "transformers",
@@ -271,7 +271,7 @@
       {
         "id": "unsloth/Qwen3.5-27B-GGUF",
         "author": "unsloth",
-        "likes": 142,
+        "likes": 144,
         "downloads": 148382,
         "tags": [
           "gguf",
@@ -380,7 +380,7 @@
       {
         "id": "Qwen/Qwen3-Coder-Next",
         "author": "Qwen",
-        "likes": 1020,
+        "likes": 1021,
         "downloads": 754223,
         "tags": [
           "transformers",
@@ -420,7 +420,7 @@
       {
         "id": "KittenML/kitten-tts-mini-0.8",
         "author": "KittenML",
-        "likes": 123,
+        "likes": 124,
         "downloads": 67690,
         "tags": [
           "onnx",
@@ -511,6 +511,28 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/LiquidAI/LFM2-24B-A2B-GGUF"
+      },
+      {
+        "id": "Qwen/Qwen3.5-397B-A17B-FP8",
+        "author": "Qwen",
+        "likes": 114,
+        "downloads": 199991,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "conversational",
+          "base_model:Qwen/Qwen3.5-397B-A17B",
+          "base_model:quantized:Qwen/Qwen3.5-397B-A17B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "fp8",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B-FP8"
       },
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.0",
@@ -634,31 +656,9 @@
         "link": "https://huggingface.co/xgen-universe/Capybara"
       },
       {
-        "id": "Qwen/Qwen3.5-397B-A17B-FP8",
-        "author": "Qwen",
-        "likes": 113,
-        "downloads": 199991,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "conversational",
-          "base_model:Qwen/Qwen3.5-397B-A17B",
-          "base_model:quantized:Qwen/Qwen3.5-397B-A17B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B-FP8"
-      },
-      {
         "id": "TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
-        "likes": 377,
+        "likes": 378,
         "downloads": 82978,
         "tags": [
           "gguf",
@@ -787,7 +787,7 @@
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
-        "likes": 187,
+        "likes": 188,
         "downloads": 1538,
         "tags": [
           "license:apache-2.0",
@@ -980,6 +980,25 @@
         "link": "https://huggingface.co/datasets/uv-scripts/ocr"
       },
       {
+        "id": "crownelius/Opus-4.6-Reasoning-3300x",
+        "author": "crownelius",
+        "likes": 40,
+        "downloads": 309,
+        "tags": [
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-12T21:49:07.000Z",
+        "link": "https://huggingface.co/datasets/crownelius/Opus-4.6-Reasoning-3300x"
+      },
+      {
         "id": "google/MapTrace",
         "author": "google",
         "likes": 107,
@@ -1001,25 +1020,6 @@
         ],
         "lastModified": "2026-01-03T06:15:16.000Z",
         "link": "https://huggingface.co/datasets/google/MapTrace"
-      },
-      {
-        "id": "crownelius/Opus-4.6-Reasoning-3300x",
-        "author": "crownelius",
-        "likes": 40,
-        "downloads": 309,
-        "tags": [
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-12T21:49:07.000Z",
-        "link": "https://huggingface.co/datasets/crownelius/Opus-4.6-Reasoning-3300x"
       },
       {
         "id": "nvidia/Nemotron-Terminal-Corpus",
