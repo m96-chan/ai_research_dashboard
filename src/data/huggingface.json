@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T20:00:17.306Z",
+  "updatedAt": "2026-02-28T21:00:20.352Z",
   "models": {
     "count": 30,
     "items": [
@@ -29,7 +29,7 @@
       {
         "id": "Qwen/Qwen3.5-27B",
         "author": "Qwen",
-        "likes": 434,
+        "likes": 437,
         "downloads": 172154,
         "tags": [
           "transformers",
@@ -50,7 +50,7 @@
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 358,
+        "likes": 359,
         "downloads": 350233,
         "tags": [
           "gguf",
@@ -113,7 +113,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 903,
+        "likes": 904,
         "downloads": 310641,
         "tags": [
           "transformers",
@@ -245,6 +245,27 @@
         "link": "https://huggingface.co/LiquidAI/LFM2-24B-A2B"
       },
       {
+        "id": "unsloth/Qwen3.5-27B-GGUF",
+        "author": "unsloth",
+        "likes": 149,
+        "downloads": 148382,
+        "tags": [
+          "gguf",
+          "qwen3_5_moe",
+          "unsloth",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.5-27B",
+          "base_model:quantized:Qwen/Qwen3.5-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF"
+      },
+      {
         "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
         "likes": 242,
@@ -269,30 +290,9 @@
         "link": "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
       },
       {
-        "id": "unsloth/Qwen3.5-27B-GGUF",
-        "author": "unsloth",
-        "likes": 148,
-        "downloads": 148382,
-        "tags": [
-          "gguf",
-          "qwen3_5_moe",
-          "unsloth",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.5-27B",
-          "base_model:quantized:Qwen/Qwen3.5-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF"
-      },
-      {
         "id": "unsloth/Qwen3.5-122B-A10B-GGUF",
         "author": "unsloth",
-        "likes": 134,
+        "likes": 135,
         "downloads": 123933,
         "tags": [
           "transformers",
@@ -434,7 +434,7 @@
       {
         "id": "deepseek-ai/DeepSeek-R1",
         "author": "deepseek-ai",
-        "likes": 13089,
+        "likes": 13090,
         "downloads": 896749,
         "tags": [
           "transformers",
@@ -642,7 +642,7 @@
       {
         "id": "xgen-universe/Capybara",
         "author": "xgen-universe",
-        "likes": 209,
+        "likes": 210,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -654,6 +654,30 @@
         "pipeline_tag": "any-to-any",
         "lastModified": "",
         "link": "https://huggingface.co/xgen-universe/Capybara"
+      },
+      {
+        "id": "unsloth/Qwen3-Coder-Next-GGUF",
+        "author": "unsloth",
+        "likes": 432,
+        "downloads": 590418,
+        "tags": [
+          "gguf",
+          "qwen3_next",
+          "unsloth",
+          "qwen",
+          "qwen3",
+          "text-generation",
+          "base_model:Qwen/Qwen3-Coder-Next",
+          "base_model:quantized:Qwen/Qwen3-Coder-Next",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF"
       },
       {
         "id": "TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
@@ -679,28 +703,24 @@
         "link": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
       },
       {
-        "id": "unsloth/Qwen3-Coder-Next-GGUF",
-        "author": "unsloth",
-        "likes": 432,
-        "downloads": 590418,
+        "id": "Video-Reason/VBVR-Wan2.2",
+        "author": "Video-Reason",
+        "likes": 59,
+        "downloads": 0,
         "tags": [
-          "gguf",
-          "qwen3_next",
-          "unsloth",
-          "qwen",
-          "qwen3",
-          "text-generation",
-          "base_model:Qwen/Qwen3-Coder-Next",
-          "base_model:quantized:Qwen/Qwen3-Coder-Next",
+          "transformers",
+          "diffusers",
+          "safetensors",
+          "arxiv:2602.20159",
+          "base_model:Wan-AI/Wan2.2-I2V-A14B-Diffusers",
+          "base_model:finetune:Wan-AI/Wan2.2-I2V-A14B-Diffusers",
           "license:apache-2.0",
           "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
+          "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF"
+        "link": "https://huggingface.co/Video-Reason/VBVR-Wan2.2"
       },
       {
         "id": "fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA",
@@ -729,26 +749,6 @@
         "pipeline_tag": "image-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA"
-      },
-      {
-        "id": "Video-Reason/VBVR-Wan2.2",
-        "author": "Video-Reason",
-        "likes": 58,
-        "downloads": 0,
-        "tags": [
-          "transformers",
-          "diffusers",
-          "safetensors",
-          "arxiv:2602.20159",
-          "base_model:Wan-AI/Wan2.2-I2V-A14B-Diffusers",
-          "base_model:finetune:Wan-AI/Wan2.2-I2V-A14B-Diffusers",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Video-Reason/VBVR-Wan2.2"
       }
     ]
   },
@@ -791,7 +791,7 @@
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
-        "likes": 192,
+        "likes": 193,
         "downloads": 1538,
         "tags": [
           "license:apache-2.0",
@@ -810,7 +810,7 @@
       {
         "id": "togethercomputer/CoderForge-Preview",
         "author": "togethercomputer",
-        "likes": 84,
+        "likes": 85,
         "downloads": 4726,
         "tags": [
           "size_categories:100K<n<1M",
@@ -918,7 +918,7 @@
       {
         "id": "LocoreMind/qwen3.5-27b-cli-reasoning-3632x",
         "author": "LocoreMind",
-        "likes": 44,
+        "likes": 45,
         "downloads": 505,
         "tags": [
           "task_categories:text-generation",
@@ -1255,32 +1255,23 @@
         "link": "https://huggingface.co/datasets/markov-ai/computer-use"
       },
       {
-        "id": "bigcode/the-stack-v2",
-        "author": "bigcode",
-        "likes": 499,
-        "downloads": 7945,
+        "id": "GD-ML/CCN",
+        "author": "GD-ML",
+        "likes": 28,
+        "downloads": 188,
         "tags": [
-          "task_categories:text-generation",
-          "language_creators:crowdsourced",
-          "language_creators:expert-generated",
-          "multilinguality:multilingual",
-          "language:code",
-          "license:other",
-          "size_categories:1B<n<10B",
-          "format:parquet",
-          "modality:tabular",
+          "task_categories:tabular-classification",
+          "size_categories:100K<n<1M",
+          "format:csv",
           "modality:text",
           "library:datasets",
           "library:dask",
-          "library:mlcroissant",
           "library:polars",
-          "arxiv:2402.19173",
-          "arxiv:2107.03374",
-          "arxiv:2207.14157",
+          "library:mlcroissant",
           "region:us"
         ],
-        "lastModified": "2024-04-23T15:52:32.000Z",
-        "link": "https://huggingface.co/datasets/bigcode/the-stack-v2"
+        "lastModified": "2026-02-08T13:35:55.000Z",
+        "link": "https://huggingface.co/datasets/GD-ML/CCN"
       }
     ]
   }
