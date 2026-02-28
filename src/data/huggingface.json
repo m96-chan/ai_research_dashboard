@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-28T13:00:17.246Z",
+  "updatedAt": "2026-02-28T14:00:15.704Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 658,
+        "likes": 662,
         "downloads": 378228,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "Qwen/Qwen3.5-27B",
         "author": "Qwen",
-        "likes": 425,
+        "likes": 429,
         "downloads": 172154,
         "tags": [
           "transformers",
@@ -50,7 +50,7 @@
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 341,
+        "likes": 345,
         "downloads": 350233,
         "tags": [
           "gguf",
@@ -72,7 +72,7 @@
       {
         "id": "Qwen/Qwen3.5-122B-A10B",
         "author": "Qwen",
-        "likes": 338,
+        "likes": 340,
         "downloads": 120090,
         "tags": [
           "transformers",
@@ -192,7 +192,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 1035,
+        "likes": 1036,
         "downloads": 305031,
         "tags": [
           "transformers",
@@ -215,7 +215,7 @@
       {
         "id": "LiquidAI/LFM2-24B-A2B",
         "author": "LiquidAI",
-        "likes": 206,
+        "likes": 207,
         "downloads": 8049,
         "tags": [
           "transformers",
@@ -719,32 +719,24 @@
         "link": "https://huggingface.co/Zyphra/ZUNA"
       },
       {
-        "id": "fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA",
-        "author": "fal",
-        "likes": 1065,
-        "downloads": 62008,
+        "id": "Video-Reason/VBVR-Wan2.2",
+        "author": "Video-Reason",
+        "likes": 56,
+        "downloads": 0,
         "tags": [
+          "transformers",
           "diffusers",
-          "qwen",
-          "qwen-image-edit",
-          "qwen-image-edit-2511",
-          "lora",
-          "multi-angle",
-          "camera-angles",
-          "camera-control",
-          "image-editing",
-          "image-to-image",
-          "gaussian-splatting",
-          "fal",
-          "en",
-          "base_model:Qwen/Qwen-Image-Edit-2511",
-          "base_model:adapter:Qwen/Qwen-Image-Edit-2511",
+          "safetensors",
+          "arxiv:2602.20159",
+          "base_model:Wan-AI/Wan2.2-I2V-A14B-Diffusers",
+          "base_model:finetune:Wan-AI/Wan2.2-I2V-A14B-Diffusers",
           "license:apache-2.0",
+          "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "image-to-image",
+        "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA"
+        "link": "https://huggingface.co/Video-Reason/VBVR-Wan2.2"
       }
     ]
   },
@@ -754,7 +746,7 @@
       {
         "id": "peteromallet/dataclaw-peteromallet",
         "author": "peteromallet",
-        "likes": 229,
+        "likes": 230,
         "downloads": 3109,
         "tags": [
           "task_categories:text-generation",
@@ -956,7 +948,7 @@
           "document-processing",
           "hf-jobs"
         ],
-        "lastModified": "2026-02-25T13:43:19.000Z",
+        "lastModified": "2026-02-28T13:51:55.000Z",
         "link": "https://huggingface.co/datasets/uv-scripts/ocr"
       },
       {
@@ -999,29 +991,6 @@
         "link": "https://huggingface.co/datasets/crownelius/Opus-4.6-Reasoning-3300x"
       },
       {
-        "id": "google/MapTrace",
-        "author": "google",
-        "likes": 107,
-        "downloads": 3049,
-        "tags": [
-          "task_categories:image-to-text",
-          "language:en",
-          "license:cc-by-4.0",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2512.19609",
-          "region:us",
-          "map"
-        ],
-        "lastModified": "2026-01-03T06:15:16.000Z",
-        "link": "https://huggingface.co/datasets/google/MapTrace"
-      },
-      {
         "id": "nvidia/Nemotron-Terminal-Corpus",
         "author": "nvidia",
         "likes": 36,
@@ -1043,6 +1012,29 @@
         ],
         "lastModified": "2026-02-27T22:37:57.000Z",
         "link": "https://huggingface.co/datasets/nvidia/Nemotron-Terminal-Corpus"
+      },
+      {
+        "id": "google/MapTrace",
+        "author": "google",
+        "likes": 107,
+        "downloads": 3049,
+        "tags": [
+          "task_categories:image-to-text",
+          "language:en",
+          "license:cc-by-4.0",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2512.19609",
+          "region:us",
+          "map"
+        ],
+        "lastModified": "2026-01-03T06:15:16.000Z",
+        "link": "https://huggingface.co/datasets/google/MapTrace"
       },
       {
         "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
@@ -1102,27 +1094,6 @@
         ],
         "lastModified": "2026-02-21T02:02:48.000Z",
         "link": "https://huggingface.co/datasets/Solenopsisbot/real-slop"
-      },
-      {
-        "id": "OpenResearcher/OpenResearcher-Dataset",
-        "author": "OpenResearcher",
-        "likes": 104,
-        "downloads": 14500,
-        "tags": [
-          "license:mit",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-12T22:23:38.000Z",
-        "link": "https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset"
       },
       {
         "id": "openfoodfacts/product-database",
@@ -1201,6 +1172,27 @@
         ],
         "lastModified": "2026-02-27T16:01:20.000Z",
         "link": "https://huggingface.co/datasets/openfoodfacts/product-database"
+      },
+      {
+        "id": "OpenResearcher/OpenResearcher-Dataset",
+        "author": "OpenResearcher",
+        "likes": 104,
+        "downloads": 14500,
+        "tags": [
+          "license:mit",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-12T22:23:38.000Z",
+        "link": "https://huggingface.co/datasets/OpenResearcher/OpenResearcher-Dataset"
       },
       {
         "id": "GD-ML/IntTravel_dataset",
