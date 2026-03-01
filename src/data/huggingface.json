@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-01T22:00:15.539Z",
+  "updatedAt": "2026-03-01T23:00:17.075Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 745,
+        "likes": 746,
         "downloads": 481446,
         "tags": [
           "transformers",
@@ -50,7 +50,7 @@
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 406,
+        "likes": 407,
         "downloads": 432876,
         "tags": [
           "gguf",
@@ -93,7 +93,7 @@
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 1148,
+        "likes": 1149,
         "downloads": 1030009,
         "tags": [
           "transformers",
@@ -224,7 +224,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 1050,
+        "likes": 1051,
         "downloads": 313330,
         "tags": [
           "transformers",
@@ -338,7 +338,7 @@
       {
         "id": "huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
         "author": "huihui-ai",
-        "likes": 102,
+        "likes": 104,
         "downloads": 1444,
         "tags": [
           "transformers",
@@ -377,31 +377,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base"
-      },
-      {
-        "id": "nvidia/personaplex-7b-v1",
-        "author": "nvidia",
-        "likes": 2224,
-        "downloads": 562555,
-        "tags": [
-          "moshi",
-          "safetensors",
-          "personaplex",
-          "speech-to-speech",
-          "audio-to-audio",
-          "en",
-          "arxiv:2602.06053",
-          "arxiv:2503.04721",
-          "arxiv:2110.13900",
-          "arxiv:2410.00037",
-          "base_model:kyutai/moshiko-pytorch-bf16",
-          "base_model:finetune:kyutai/moshiko-pytorch-bf16",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "audio-to-audio",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/personaplex-7b-v1"
       },
       {
         "id": "deepseek-ai/DeepSeek-R1",
@@ -451,6 +426,31 @@
         "link": "https://huggingface.co/guidelabs/steerling-8b"
       },
       {
+        "id": "nvidia/personaplex-7b-v1",
+        "author": "nvidia",
+        "likes": 2224,
+        "downloads": 562555,
+        "tags": [
+          "moshi",
+          "safetensors",
+          "personaplex",
+          "speech-to-speech",
+          "audio-to-audio",
+          "en",
+          "arxiv:2602.06053",
+          "arxiv:2503.04721",
+          "arxiv:2110.13900",
+          "arxiv:2410.00037",
+          "base_model:kyutai/moshiko-pytorch-bf16",
+          "base_model:finetune:kyutai/moshiko-pytorch-bf16",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "audio-to-audio",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/personaplex-7b-v1"
+      },
+      {
         "id": "LiquidAI/LFM2-24B-A2B-GGUF",
         "author": "LiquidAI",
         "likes": 83,
@@ -487,7 +487,7 @@
       {
         "id": "Qwen/Qwen3-Coder-Next",
         "author": "Qwen",
-        "likes": 1035,
+        "likes": 1036,
         "downloads": 818632,
         "tags": [
           "transformers",
@@ -531,7 +531,7 @@
       {
         "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
         "author": "Qwen",
-        "likes": 1217,
+        "likes": 1218,
         "downloads": 1103460,
         "tags": [
           "safetensors",
@@ -629,7 +629,7 @@
       {
         "id": "unsloth/Qwen3-Coder-Next-GGUF",
         "author": "unsloth",
-        "likes": 438,
+        "likes": 439,
         "downloads": 603346,
         "tags": [
           "gguf",
@@ -792,7 +792,7 @@
       {
         "id": "crownelius/Opus-4.6-Reasoning-3300x",
         "author": "crownelius",
-        "likes": 56,
+        "likes": 57,
         "downloads": 358,
         "tags": [
           "license:apache-2.0",
@@ -871,7 +871,7 @@
       {
         "id": "nvidia/Nemotron-Terminal-Corpus",
         "author": "nvidia",
-        "likes": 43,
+        "likes": 44,
         "downloads": 458,
         "tags": [
           "task_categories:question-answering",
@@ -975,6 +975,36 @@
         "link": "https://huggingface.co/datasets/uv-scripts/ocr"
       },
       {
+        "id": "Video-Reason/VBVR-Dataset",
+        "author": "Video-Reason",
+        "likes": 32,
+        "downloads": 1213,
+        "tags": [
+          "task_categories:video-classification",
+          "task_categories:visual-question-answering",
+          "task_categories:video-text-to-text",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2602.20159",
+          "region:us",
+          "video-reasoning",
+          "video-generation",
+          "visual-reasoning",
+          "benchmark",
+          "spatiotemporal",
+          "VBVR"
+        ],
+        "lastModified": "2026-02-27T20:46:01.000Z",
+        "link": "https://huggingface.co/datasets/Video-Reason/VBVR-Dataset"
+      },
+      {
         "id": "FINAL-Bench/Metacognitive",
         "author": "FINAL-Bench",
         "likes": 62,
@@ -1010,34 +1040,22 @@
         "link": "https://huggingface.co/datasets/FINAL-Bench/Metacognitive"
       },
       {
-        "id": "Video-Reason/VBVR-Dataset",
-        "author": "Video-Reason",
-        "likes": 32,
-        "downloads": 1213,
+        "id": "GD-ML/IntTravel_dataset",
+        "author": "GD-ML",
+        "likes": 89,
+        "downloads": 3184,
         "tags": [
-          "task_categories:video-classification",
-          "task_categories:visual-question-answering",
-          "task_categories:video-text-to-text",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:1M<n<10M",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2602.20159",
+          "task_categories:other",
+          "size_categories:1B<n<10B",
+          "arxiv:2602.11664",
           "region:us",
-          "video-reasoning",
-          "video-generation",
-          "visual-reasoning",
-          "benchmark",
-          "spatiotemporal",
-          "VBVR"
+          "recommendation-system",
+          "poi-recommendation",
+          "mobility",
+          "travel"
         ],
-        "lastModified": "2026-02-27T20:46:01.000Z",
-        "link": "https://huggingface.co/datasets/Video-Reason/VBVR-Dataset"
+        "lastModified": "2026-02-26T02:35:51.000Z",
+        "link": "https://huggingface.co/datasets/GD-ML/IntTravel_dataset"
       },
       {
         "id": "Solenopsisbot/real-slop",
@@ -1059,24 +1077,6 @@
         ],
         "lastModified": "2026-02-21T02:02:48.000Z",
         "link": "https://huggingface.co/datasets/Solenopsisbot/real-slop"
-      },
-      {
-        "id": "GD-ML/IntTravel_dataset",
-        "author": "GD-ML",
-        "likes": 89,
-        "downloads": 3184,
-        "tags": [
-          "task_categories:other",
-          "size_categories:1B<n<10B",
-          "arxiv:2602.11664",
-          "region:us",
-          "recommendation-system",
-          "poi-recommendation",
-          "mobility",
-          "travel"
-        ],
-        "lastModified": "2026-02-26T02:35:51.000Z",
-        "link": "https://huggingface.co/datasets/GD-ML/IntTravel_dataset"
       },
       {
         "id": "allenai/olmOCR-bench",
@@ -1146,7 +1146,7 @@
       {
         "id": "openfoodfacts/product-database",
         "author": "openfoodfacts",
-        "likes": 114,
+        "likes": 115,
         "downloads": 4895,
         "tags": [
           "language:en",
