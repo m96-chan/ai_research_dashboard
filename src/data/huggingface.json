@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-02T04:00:16.989Z",
+  "updatedAt": "2026-03-02T05:00:19.044Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 753,
+        "likes": 755,
         "downloads": 481446,
         "tags": [
           "transformers",
@@ -72,7 +72,7 @@
       {
         "id": "Qwen/Qwen3.5-122B-A10B",
         "author": "Qwen",
-        "likes": 361,
+        "likes": 362,
         "downloads": 127141,
         "tags": [
           "transformers",
@@ -93,7 +93,7 @@
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 1152,
+        "likes": 1154,
         "downloads": 1030009,
         "tags": [
           "transformers",
@@ -164,7 +164,7 @@
       {
         "id": "LiquidAI/LFM2-24B-A2B",
         "author": "LiquidAI",
-        "likes": 221,
+        "likes": 222,
         "downloads": 10611,
         "tags": [
           "transformers",
@@ -314,7 +314,7 @@
       {
         "id": "huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
         "author": "huihui-ai",
-        "likes": 107,
+        "likes": 109,
         "downloads": 1444,
         "tags": [
           "transformers",
@@ -485,6 +485,26 @@
         "link": "https://huggingface.co/nvidia/personaplex-7b-v1"
       },
       {
+        "id": "Qwen/Qwen3-Coder-Next",
+        "author": "Qwen",
+        "likes": 1038,
+        "downloads": 818632,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_next",
+          "text-generation",
+          "conversational",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+      },
+      {
         "id": "perplexity-ai/pplx-embed-v1-0.6b",
         "author": "perplexity-ai",
         "likes": 90,
@@ -507,26 +527,6 @@
         "pipeline_tag": "feature-extraction",
         "lastModified": "",
         "link": "https://huggingface.co/perplexity-ai/pplx-embed-v1-0.6b"
-      },
-      {
-        "id": "Qwen/Qwen3-Coder-Next",
-        "author": "Qwen",
-        "likes": 1037,
-        "downloads": 818632,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_next",
-          "text-generation",
-          "conversational",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
       },
       {
         "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
@@ -627,6 +627,29 @@
         "link": "https://huggingface.co/dx8152/Flux2-Klein-9B-Enhanced-Details"
       },
       {
+        "id": "huihui-ai/Huihui-Qwen3.5-27B-abliterated",
+        "author": "huihui-ai",
+        "likes": 59,
+        "downloads": 966,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "base_model:Qwen/Qwen3.5-27B",
+          "base_model:finetune:Qwen/Qwen3.5-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/huihui-ai/Huihui-Qwen3.5-27B-abliterated"
+      },
+      {
         "id": "unsloth/Qwen3-Coder-Next-GGUF",
         "author": "unsloth",
         "likes": 439,
@@ -651,43 +674,32 @@
         "link": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF"
       },
       {
-        "id": "huihui-ai/Huihui-Qwen3.5-27B-abliterated",
-        "author": "huihui-ai",
-        "likes": 59,
-        "downloads": 966,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "abliterated",
-          "uncensored",
-          "conversational",
-          "base_model:Qwen/Qwen3.5-27B",
-          "base_model:finetune:Qwen/Qwen3.5-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/huihui-ai/Huihui-Qwen3.5-27B-abliterated"
-      },
-      {
-        "id": "xgen-universe/Capybara",
-        "author": "xgen-universe",
-        "likes": 215,
-        "downloads": 0,
+        "id": "fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA",
+        "author": "fal",
+        "likes": 1071,
+        "downloads": 62464,
         "tags": [
           "diffusers",
-          "safetensors",
-          "any-to-any",
-          "license:mit",
+          "qwen",
+          "qwen-image-edit",
+          "qwen-image-edit-2511",
+          "lora",
+          "multi-angle",
+          "camera-angles",
+          "camera-control",
+          "image-editing",
+          "image-to-image",
+          "gaussian-splatting",
+          "fal",
+          "en",
+          "base_model:Qwen/Qwen-Image-Edit-2511",
+          "base_model:adapter:Qwen/Qwen-Image-Edit-2511",
+          "license:apache-2.0",
           "region:us"
         ],
-        "pipeline_tag": "any-to-any",
+        "pipeline_tag": "image-to-image",
         "lastModified": "",
-        "link": "https://huggingface.co/xgen-universe/Capybara"
+        "link": "https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA"
       }
     ]
   },
@@ -697,7 +709,7 @@
       {
         "id": "peteromallet/dataclaw-peteromallet",
         "author": "peteromallet",
-        "likes": 242,
+        "likes": 243,
         "downloads": 3586,
         "tags": [
           "task_categories:text-generation",
@@ -963,7 +975,7 @@
       {
         "id": "Video-Reason/VBVR-Dataset",
         "author": "Video-Reason",
-        "likes": 33,
+        "likes": 34,
         "downloads": 1213,
         "tags": [
           "task_categories:video-classification",
