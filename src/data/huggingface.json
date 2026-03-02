@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-02T22:00:18.863Z",
+  "updatedAt": "2026-03-02T23:00:17.984Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 812,
+        "likes": 816,
         "downloads": 587006,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "Qwen/Qwen3.5-27B",
         "author": "Qwen",
-        "likes": 516,
+        "likes": 517,
         "downloads": 260326,
         "tags": [
           "transformers",
@@ -50,7 +50,7 @@
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 450,
+        "likes": 453,
         "downloads": 503127,
         "tags": [
           "gguf",
@@ -174,7 +174,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1677,
+        "likes": 1678,
         "downloads": 196173,
         "tags": [
           "transformers",
@@ -196,7 +196,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 1062,
+        "likes": 1063,
         "downloads": 323865,
         "tags": [
           "transformers",
@@ -219,7 +219,7 @@
       {
         "id": "unsloth/Qwen3.5-27B-GGUF",
         "author": "unsloth",
-        "likes": 186,
+        "likes": 187,
         "downloads": 218342,
         "tags": [
           "gguf",
@@ -269,7 +269,7 @@
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 164,
+        "likes": 171,
         "downloads": 10,
         "tags": [
           "transformers",
@@ -358,6 +358,28 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K2.5"
       },
       {
+        "id": "Qwen/Qwen3.5-4B",
+        "author": "Qwen",
+        "likes": 108,
+        "downloads": 41,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "base_model:Qwen/Qwen3.5-4B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-4B-Base",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-4B"
+      },
+      {
         "id": "Qwen/Qwen3.5-35B-A3B-Base",
         "author": "Qwen",
         "likes": 106,
@@ -378,18 +400,18 @@
         "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base"
       },
       {
-        "id": "Qwen/Qwen3.5-4B",
+        "id": "Qwen/Qwen3.5-0.8B",
         "author": "Qwen",
         "likes": 104,
-        "downloads": 41,
+        "downloads": 6,
         "tags": [
           "transformers",
           "safetensors",
           "qwen3_5",
           "image-text-to-text",
           "conversational",
-          "base_model:Qwen/Qwen3.5-4B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-4B-Base",
+          "base_model:Qwen/Qwen3.5-0.8B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-0.8B-Base",
           "license:apache-2.0",
           "eval-results",
           "endpoints_compatible",
@@ -397,12 +419,12 @@
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-4B"
+        "link": "https://huggingface.co/Qwen/Qwen3.5-0.8B"
       },
       {
         "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
         "author": "TeichAI",
-        "likes": 259,
+        "likes": 260,
         "downloads": 73061,
         "tags": [
           "transformers",
@@ -422,28 +444,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
-      },
-      {
-        "id": "Qwen/Qwen3.5-0.8B",
-        "author": "Qwen",
-        "likes": 99,
-        "downloads": 6,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "base_model:Qwen/Qwen3.5-0.8B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-0.8B-Base",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-0.8B"
       },
       {
         "id": "perplexity-ai/pplx-embed-v1-0.6b",
@@ -470,33 +470,9 @@
         "link": "https://huggingface.co/perplexity-ai/pplx-embed-v1-0.6b"
       },
       {
-        "id": "deepseek-ai/DeepSeek-R1",
-        "author": "deepseek-ai",
-        "likes": 13103,
-        "downloads": 946257,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v3",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "arxiv:2501.12948",
-          "license:mit",
-          "eval-results",
-          "text-generation-inference",
-          "endpoints_compatible",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
-      },
-      {
         "id": "LiquidAI/LFM2-24B-A2B-GGUF",
         "author": "LiquidAI",
-        "likes": 88,
+        "likes": 89,
         "downloads": 15452,
         "tags": [
           "transformers",
@@ -526,6 +502,30 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/LiquidAI/LFM2-24B-A2B-GGUF"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-R1",
+        "author": "deepseek-ai",
+        "likes": 13103,
+        "downloads": 946257,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v3",
+          "text-generation",
+          "conversational",
+          "custom_code",
+          "arxiv:2501.12948",
+          "license:mit",
+          "eval-results",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "fp8",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
       },
       {
         "id": "guidelabs/steerling-8b",
@@ -639,7 +639,7 @@
       {
         "id": "Qwen/Qwen3.5-2B",
         "author": "Qwen",
-        "likes": 72,
+        "likes": 74,
         "downloads": 6,
         "tags": [
           "transformers",
@@ -676,7 +676,7 @@
       {
         "id": "unsloth/Qwen3.5-9B-GGUF",
         "author": "unsloth",
-        "likes": 68,
+        "likes": 69,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -735,7 +735,7 @@
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
-        "likes": 212,
+        "likes": 213,
         "downloads": 1843,
         "tags": [
           "license:apache-2.0",
@@ -818,7 +818,7 @@
       {
         "id": "nvidia/Nemotron-Terminal-Corpus",
         "author": "nvidia",
-        "likes": 51,
+        "likes": 52,
         "downloads": 601,
         "tags": [
           "task_categories:question-answering",
@@ -1036,22 +1036,6 @@
         "link": "https://huggingface.co/datasets/GD-ML/SCASRec"
       },
       {
-        "id": "uv-scripts/ocr",
-        "author": "uv-scripts",
-        "likes": 120,
-        "downloads": 914,
-        "tags": [
-          "region:us",
-          "uv-script",
-          "ocr",
-          "vision-language-model",
-          "document-processing",
-          "hf-jobs"
-        ],
-        "lastModified": "2026-03-02T13:35:24.000Z",
-        "link": "https://huggingface.co/datasets/uv-scripts/ocr"
-      },
-      {
         "id": "Goedel-LM/SFT_dataset_v2",
         "author": "Goedel-LM",
         "likes": 26,
@@ -1074,6 +1058,22 @@
         ],
         "lastModified": "2026-03-02T19:27:28.000Z",
         "link": "https://huggingface.co/datasets/Goedel-LM/SFT_dataset_v2"
+      },
+      {
+        "id": "uv-scripts/ocr",
+        "author": "uv-scripts",
+        "likes": 120,
+        "downloads": 914,
+        "tags": [
+          "region:us",
+          "uv-script",
+          "ocr",
+          "vision-language-model",
+          "document-processing",
+          "hf-jobs"
+        ],
+        "lastModified": "2026-03-02T13:35:24.000Z",
+        "link": "https://huggingface.co/datasets/uv-scripts/ocr"
       },
       {
         "id": "skylenage/DeepVision-103K",
