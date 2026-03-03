@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-02T23:00:17.984Z",
+  "updatedAt": "2026-03-03T00:00:28.897Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 816,
+        "likes": 817,
         "downloads": 587006,
         "tags": [
           "transformers",
@@ -50,7 +50,7 @@
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 453,
+        "likes": 454,
         "downloads": 503127,
         "tags": [
           "gguf",
@@ -174,7 +174,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1678,
+        "likes": 1679,
         "downloads": 196173,
         "tags": [
           "transformers",
@@ -219,7 +219,7 @@
       {
         "id": "unsloth/Qwen3.5-27B-GGUF",
         "author": "unsloth",
-        "likes": 187,
+        "likes": 188,
         "downloads": 218342,
         "tags": [
           "gguf",
@@ -269,7 +269,7 @@
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 171,
+        "likes": 178,
         "downloads": 10,
         "tags": [
           "transformers",
@@ -360,7 +360,7 @@
       {
         "id": "Qwen/Qwen3.5-4B",
         "author": "Qwen",
-        "likes": 108,
+        "likes": 113,
         "downloads": 41,
         "tags": [
           "transformers",
@@ -378,6 +378,28 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3.5-4B"
+      },
+      {
+        "id": "Qwen/Qwen3.5-0.8B",
+        "author": "Qwen",
+        "likes": 107,
+        "downloads": 6,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "base_model:Qwen/Qwen3.5-0.8B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-0.8B-Base",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-0.8B"
       },
       {
         "id": "Qwen/Qwen3.5-35B-A3B-Base",
@@ -398,28 +420,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base"
-      },
-      {
-        "id": "Qwen/Qwen3.5-0.8B",
-        "author": "Qwen",
-        "likes": 104,
-        "downloads": 6,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "base_model:Qwen/Qwen3.5-0.8B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-0.8B-Base",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-0.8B"
       },
       {
         "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
@@ -571,6 +571,29 @@
         "link": "https://huggingface.co/Video-Reason/VBVR-Wan2.2"
       },
       {
+        "id": "Qwen/Qwen3.5-35B-A3B-FP8",
+        "author": "Qwen",
+        "likes": 81,
+        "downloads": 235390,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "conversational",
+          "base_model:Qwen/Qwen3.5-35B-A3B",
+          "base_model:quantized:Qwen/Qwen3.5-35B-A3B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "fp8",
+          "region:us",
+          "deploy:azure"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-FP8"
+      },
+      {
         "id": "Qwen/Qwen3.5-27B-FP8",
         "author": "Qwen",
         "likes": 80,
@@ -594,27 +617,26 @@
         "link": "https://huggingface.co/Qwen/Qwen3.5-27B-FP8"
       },
       {
-        "id": "Qwen/Qwen3.5-35B-A3B-FP8",
+        "id": "Qwen/Qwen3.5-2B",
         "author": "Qwen",
-        "likes": 80,
-        "downloads": 235390,
+        "likes": 78,
+        "downloads": 6,
         "tags": [
           "transformers",
           "safetensors",
-          "qwen3_5_moe",
+          "qwen3_5",
           "image-text-to-text",
           "conversational",
-          "base_model:Qwen/Qwen3.5-35B-A3B",
-          "base_model:quantized:Qwen/Qwen3.5-35B-A3B",
+          "base_model:Qwen/Qwen3.5-2B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-2B-Base",
           "license:apache-2.0",
+          "eval-results",
           "endpoints_compatible",
-          "fp8",
-          "region:us",
-          "deploy:azure"
+          "region:us"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-FP8"
+        "link": "https://huggingface.co/Qwen/Qwen3.5-2B"
       },
       {
         "id": "Qwen/Qwen3-Coder-Next",
@@ -637,46 +659,9 @@
         "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
       },
       {
-        "id": "Qwen/Qwen3.5-2B",
-        "author": "Qwen",
-        "likes": 74,
-        "downloads": 6,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "base_model:Qwen/Qwen3.5-2B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-2B-Base",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-2B"
-      },
-      {
-        "id": "dx8152/Flux2-Klein-9B-Enhanced-Details",
-        "author": "dx8152",
-        "likes": 69,
-        "downloads": 0,
-        "tags": [
-          "lora",
-          "image-to-image",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/dx8152/Flux2-Klein-9B-Enhanced-Details"
-      },
-      {
         "id": "unsloth/Qwen3.5-9B-GGUF",
         "author": "unsloth",
-        "likes": 69,
+        "likes": 71,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -693,6 +678,21 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF"
+      },
+      {
+        "id": "dx8152/Flux2-Klein-9B-Enhanced-Details",
+        "author": "dx8152",
+        "likes": 69,
+        "downloads": 0,
+        "tags": [
+          "lora",
+          "image-to-image",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/dx8152/Flux2-Klein-9B-Enhanced-Details"
       }
     ]
   },
@@ -871,6 +871,26 @@
         "link": "https://huggingface.co/datasets/LocoreMind/qwen3.5-27b-cli-reasoning-3632x"
       },
       {
+        "id": "GD-ML/GenMRP",
+        "author": "GD-ML",
+        "likes": 38,
+        "downloads": 511,
+        "tags": [
+          "task_categories:tabular-classification",
+          "task_categories:graph-ml",
+          "size_categories:100K<n<1M",
+          "format:csv",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-08T13:39:59.000Z",
+        "link": "https://huggingface.co/datasets/GD-ML/GenMRP"
+      },
+      {
         "id": "VLR-CVC/DocVQA-2026",
         "author": "VLR-CVC",
         "likes": 57,
@@ -897,26 +917,6 @@
         ],
         "lastModified": "2026-02-23T08:34:00.000Z",
         "link": "https://huggingface.co/datasets/VLR-CVC/DocVQA-2026"
-      },
-      {
-        "id": "GD-ML/GenMRP",
-        "author": "GD-ML",
-        "likes": 38,
-        "downloads": 511,
-        "tags": [
-          "task_categories:tabular-classification",
-          "task_categories:graph-ml",
-          "size_categories:100K<n<1M",
-          "format:csv",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-08T13:39:59.000Z",
-        "link": "https://huggingface.co/datasets/GD-ML/GenMRP"
       },
       {
         "id": "bigcode/the-stack-v2",
