@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-04T22:00:26.449Z",
+  "updatedAt": "2026-03-04T23:00:15.292Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 927,
+        "likes": 929,
         "downloads": 769032,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 388,
+        "likes": 389,
         "downloads": 172298,
         "tags": [
           "transformers",
@@ -182,6 +182,27 @@
         "link": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
       },
       {
+        "id": "unsloth/Qwen3.5-9B-GGUF",
+        "author": "unsloth",
+        "likes": 161,
+        "downloads": 199724,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.5-9B",
+          "base_model:quantized:Qwen/Qwen3.5-9B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF"
+      },
+      {
         "id": "Qwen/Qwen3.5-122B-A10B",
         "author": "Qwen",
         "likes": 392,
@@ -205,7 +226,7 @@
       {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
-        "likes": 945,
+        "likes": 946,
         "downloads": 417673,
         "tags": [
           "transformers",
@@ -229,27 +250,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
-      },
-      {
-        "id": "unsloth/Qwen3.5-9B-GGUF",
-        "author": "unsloth",
-        "likes": 158,
-        "downloads": 199724,
-        "tags": [
-          "transformers",
-          "gguf",
-          "unsloth",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.5-9B",
-          "base_model:quantized:Qwen/Qwen3.5-9B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF"
       },
       {
         "id": "huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
@@ -277,7 +277,7 @@
       {
         "id": "zai-org/GLM-5",
         "author": "zai-org",
-        "likes": 1702,
+        "likes": 1703,
         "downloads": 205187,
         "tags": [
           "transformers",
@@ -299,7 +299,7 @@
       {
         "id": "unsloth/Qwen3.5-27B-GGUF",
         "author": "unsloth",
-        "likes": 224,
+        "likes": 226,
         "downloads": 318308,
         "tags": [
           "gguf",
@@ -317,6 +317,29 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF"
+      },
+      {
+        "id": "Qwen/Qwen3.5-2B",
+        "author": "Qwen",
+        "likes": 123,
+        "downloads": 46974,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "base_model:Qwen/Qwen3.5-2B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-2B-Base",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us",
+          "deploy:azure"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-2B"
       },
       {
         "id": "LiquidAI/LFM2-24B-A2B",
@@ -349,29 +372,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/LiquidAI/LFM2-24B-A2B"
-      },
-      {
-        "id": "Qwen/Qwen3.5-2B",
-        "author": "Qwen",
-        "likes": 123,
-        "downloads": 46974,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "base_model:Qwen/Qwen3.5-2B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-2B-Base",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us",
-          "deploy:azure"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-2B"
       },
       {
         "id": "moonshotai/Kimi-K2.5",
@@ -568,29 +568,6 @@
         "link": "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
       },
       {
-        "id": "unsloth/Qwen3.5-122B-A10B-GGUF",
-        "author": "unsloth",
-        "likes": 158,
-        "downloads": 205312,
-        "tags": [
-          "transformers",
-          "gguf",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "unsloth",
-          "base_model:Qwen/Qwen3.5-122B-A10B",
-          "base_model:quantized:Qwen/Qwen3.5-122B-A10B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF"
-      },
-      {
         "id": "huihui-ai/Huihui-Qwen3.5-27B-abliterated",
         "author": "huihui-ai",
         "likes": 69,
@@ -635,6 +612,29 @@
         "link": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF"
       },
       {
+        "id": "unsloth/Qwen3.5-122B-A10B-GGUF",
+        "author": "unsloth",
+        "likes": 158,
+        "downloads": 205312,
+        "tags": [
+          "transformers",
+          "gguf",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "unsloth",
+          "base_model:Qwen/Qwen3.5-122B-A10B",
+          "base_model:quantized:Qwen/Qwen3.5-122B-A10B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF"
+      },
+      {
         "id": "FireRedTeam/FireRed-OCR",
         "author": "FireRedTeam",
         "likes": 65,
@@ -676,7 +676,7 @@
       {
         "id": "Video-Reason/VBVR-Wan2.2",
         "author": "Video-Reason",
-        "likes": 94,
+        "likes": 95,
         "downloads": 147,
         "tags": [
           "diffusers",
@@ -772,7 +772,7 @@
       {
         "id": "TuringEnterprises/Open-RL",
         "author": "TuringEnterprises",
-        "likes": 79,
+        "likes": 81,
         "downloads": 4,
         "tags": [
           "task_categories:question-answering",
@@ -821,7 +821,7 @@
       {
         "id": "crownelius/Opus-4.6-Reasoning-3300x",
         "author": "crownelius",
-        "likes": 86,
+        "likes": 87,
         "downloads": 565,
         "tags": [
           "license:apache-2.0",
@@ -1119,7 +1119,7 @@
       {
         "id": "Roman1111111/gemini-3-pro-10000x-hard-high-reasoning",
         "author": "Roman1111111",
-        "likes": 28,
+        "likes": 29,
         "downloads": 432,
         "tags": [
           "task_categories:question-answering",
@@ -1169,22 +1169,31 @@
         "link": "https://huggingface.co/datasets/AweAI-Team/Scale-SWE"
       },
       {
-        "id": "abdeljalilELmajjodi/Lhadith_dataset",
-        "author": "abdeljalilELmajjodi",
+        "id": "OmniLottie/MMLottie-2M",
+        "author": "OmniLottie",
         "likes": 20,
-        "downloads": 49,
+        "downloads": 47,
         "tags": [
-          "size_categories:10K<n<100K",
+          "language:en",
+          "license:cc-by-nc-sa-4.0",
+          "size_categories:1M<n<10M",
           "format:parquet",
+          "modality:image",
           "modality:text",
           "library:datasets",
-          "library:pandas",
+          "library:dask",
           "library:polars",
           "library:mlcroissant",
-          "region:us"
+          "arxiv:2603.02138",
+          "region:us",
+          "lottie",
+          "animation",
+          "vector-graphics",
+          "motion-graphics",
+          "multi-modal"
         ],
-        "lastModified": "2026-02-26T10:37:36.000Z",
-        "link": "https://huggingface.co/datasets/abdeljalilELmajjodi/Lhadith_dataset"
+        "lastModified": "2026-03-03T05:56:44.000Z",
+        "link": "https://huggingface.co/datasets/OmniLottie/MMLottie-2M"
       }
     ]
   }
