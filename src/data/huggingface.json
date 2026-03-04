@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-04T11:00:20.384Z",
+  "updatedAt": "2026-03-04T12:00:23.563Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 908,
+        "likes": 911,
         "downloads": 769032,
         "tags": [
           "transformers",
@@ -51,7 +51,7 @@
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 352,
+        "likes": 356,
         "downloads": 172298,
         "tags": [
           "transformers",
@@ -94,7 +94,7 @@
       {
         "id": "Qwen/Qwen3.5-0.8B",
         "author": "Qwen",
-        "likes": 211,
+        "likes": 213,
         "downloads": 93448,
         "tags": [
           "transformers",
@@ -116,7 +116,7 @@
       {
         "id": "Qwen/Qwen3.5-4B",
         "author": "Qwen",
-        "likes": 204,
+        "likes": 205,
         "downloads": 99087,
         "tags": [
           "transformers",
@@ -138,7 +138,7 @@
       {
         "id": "Qwen/Qwen3.5-122B-A10B",
         "author": "Qwen",
-        "likes": 389,
+        "likes": 390,
         "downloads": 171055,
         "tags": [
           "transformers",
@@ -159,7 +159,7 @@
       {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
-        "likes": 1216,
+        "likes": 1218,
         "downloads": 1291825,
         "tags": [
           "transformers",
@@ -297,7 +297,7 @@
       {
         "id": "unsloth/Qwen3.5-9B-GGUF",
         "author": "unsloth",
-        "likes": 147,
+        "likes": 148,
         "downloads": 199724,
         "tags": [
           "transformers",
@@ -395,7 +395,7 @@
       {
         "id": "perplexity-ai/pplx-embed-v1-0.6b",
         "author": "perplexity-ai",
-        "likes": 115,
+        "likes": 116,
         "downloads": 12207,
         "tags": [
           "sentence-transformers",
@@ -541,7 +541,7 @@
       {
         "id": "F16/z-image-turbo-flow-dpo",
         "author": "F16",
-        "likes": 74,
+        "likes": 76,
         "downloads": 0,
         "tags": [
           "text-to-image",
@@ -630,26 +630,6 @@
         "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
       },
       {
-        "id": "Qwen/Qwen3.5-35B-A3B-Base",
-        "author": "Qwen",
-        "likes": 111,
-        "downloads": 6639,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base"
-      },
-      {
         "id": "Video-Reason/VBVR-Wan2.2",
         "author": "Video-Reason",
         "likes": 92,
@@ -670,23 +650,45 @@
         "link": "https://huggingface.co/Video-Reason/VBVR-Wan2.2"
       },
       {
-        "id": "FireRedTeam/FireRed-OCR",
-        "author": "FireRedTeam",
-        "likes": 58,
-        "downloads": 2084,
+        "id": "Qwen/Qwen3.5-35B-A3B-Base",
+        "author": "Qwen",
+        "likes": 111,
+        "downloads": 6639,
         "tags": [
+          "transformers",
           "safetensors",
-          "qwen3_vl",
-          "image-to-text",
-          "arxiv:2603.01840",
-          "base_model:Qwen/Qwen3-VL-2B-Instruct",
-          "base_model:finetune:Qwen/Qwen3-VL-2B-Instruct",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "conversational",
           "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
           "region:us"
         ],
-        "pipeline_tag": "image-to-text",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/FireRedTeam/FireRed-OCR"
+        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base"
+      },
+      {
+        "id": "unsloth/Qwen3.5-4B-GGUF",
+        "author": "unsloth",
+        "likes": 60,
+        "downloads": 89898,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.5-4B",
+          "base_model:quantized:Qwen/Qwen3.5-4B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF"
       }
     ]
   },
@@ -839,6 +841,32 @@
         "link": "https://huggingface.co/datasets/LocoreMind/qwen3.5-27b-cli-reasoning-3632x"
       },
       {
+        "id": "TuringEnterprises/Open-RL",
+        "author": "TuringEnterprises",
+        "likes": 43,
+        "downloads": 4,
+        "tags": [
+          "task_categories:question-answering",
+          "language:en",
+          "license:mit",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "chemistry",
+          "physics",
+          "math",
+          "biology",
+          "science"
+        ],
+        "lastModified": "2026-03-04T11:24:40.000Z",
+        "link": "https://huggingface.co/datasets/TuringEnterprises/Open-RL"
+      },
+      {
         "id": "ronantakizawa/github-top-code",
         "author": "ronantakizawa",
         "likes": 108,
@@ -960,32 +988,6 @@
         ],
         "lastModified": "2026-02-27T20:46:01.000Z",
         "link": "https://huggingface.co/datasets/Video-Reason/VBVR-Dataset"
-      },
-      {
-        "id": "TuringEnterprises/Open-RL",
-        "author": "TuringEnterprises",
-        "likes": 31,
-        "downloads": 4,
-        "tags": [
-          "task_categories:question-answering",
-          "language:en",
-          "license:mit",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "chemistry",
-          "physics",
-          "math",
-          "biology",
-          "science"
-        ],
-        "lastModified": "2026-03-04T05:55:44.000Z",
-        "link": "https://huggingface.co/datasets/TuringEnterprises/Open-RL"
       },
       {
         "id": "AudioVisual-Caption/ASID-1M",
