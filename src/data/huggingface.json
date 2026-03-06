@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-06T19:00:20.006Z",
+  "updatedAt": "2026-03-06T20:00:18.484Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 521,
+        "likes": 523,
         "downloads": 516030,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 989,
+        "likes": 990,
         "downloads": 1000738,
         "tags": [
           "transformers",
@@ -98,7 +98,7 @@
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 547,
+        "likes": 546,
         "downloads": 919117,
         "tags": [
           "gguf",
@@ -120,7 +120,7 @@
       {
         "id": "Lightricks/LTX-2.3",
         "author": "Lightricks",
-        "likes": 245,
+        "likes": 247,
         "downloads": 34959,
         "tags": [
           "diffusers",
@@ -160,7 +160,7 @@
       {
         "id": "unsloth/Qwen3.5-9B-GGUF",
         "author": "unsloth",
-        "likes": 217,
+        "likes": 218,
         "downloads": 380168,
         "tags": [
           "transformers",
@@ -246,6 +246,49 @@
         "link": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
       },
       {
+        "id": "Qwen/Qwen3.5-397B-A17B",
+        "author": "Qwen",
+        "likes": 1253,
+        "downloads": 1376334,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B"
+      },
+      {
+        "id": "Qwen/Qwen3.5-2B",
+        "author": "Qwen",
+        "likes": 145,
+        "downloads": 143887,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "base_model:Qwen/Qwen3.5-2B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-2B-Base",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us",
+          "deploy:azure"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-2B"
+      },
+      {
         "id": "Nanbeige/Nanbeige4.1-3B",
         "author": "Nanbeige",
         "likes": 964,
@@ -274,49 +317,6 @@
         "link": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
       },
       {
-        "id": "Qwen/Qwen3.5-397B-A17B",
-        "author": "Qwen",
-        "likes": 1251,
-        "downloads": 1376334,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B"
-      },
-      {
-        "id": "Qwen/Qwen3.5-2B",
-        "author": "Qwen",
-        "likes": 143,
-        "downloads": 143887,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "base_model:Qwen/Qwen3.5-2B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-2B-Base",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us",
-          "deploy:azure"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-2B"
-      },
-      {
         "id": "unsloth/Qwen3.5-27B-GGUF",
         "author": "unsloth",
         "likes": 256,
@@ -340,7 +340,7 @@
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 124,
+        "likes": 126,
         "downloads": 29210,
         "tags": [
           "gguf",
@@ -358,6 +358,25 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive"
+      },
+      {
+        "id": "FireRedTeam/FireRed-OCR",
+        "author": "FireRedTeam",
+        "likes": 95,
+        "downloads": 4178,
+        "tags": [
+          "safetensors",
+          "qwen3_vl",
+          "image-to-text",
+          "arxiv:2603.01840",
+          "base_model:Qwen/Qwen3-VL-2B-Instruct",
+          "base_model:finetune:Qwen/Qwen3-VL-2B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/FireRedTeam/FireRed-OCR"
       },
       {
         "id": "zai-org/GLM-5",
@@ -382,28 +401,9 @@
         "link": "https://huggingface.co/zai-org/GLM-5"
       },
       {
-        "id": "FireRedTeam/FireRed-OCR",
-        "author": "FireRedTeam",
-        "likes": 95,
-        "downloads": 4178,
-        "tags": [
-          "safetensors",
-          "qwen3_vl",
-          "image-to-text",
-          "arxiv:2603.01840",
-          "base_model:Qwen/Qwen3-VL-2B-Instruct",
-          "base_model:finetune:Qwen/Qwen3-VL-2B-Instruct",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/FireRedTeam/FireRed-OCR"
-      },
-      {
         "id": "unsloth/Qwen3.5-4B-GGUF",
         "author": "unsloth",
-        "likes": 93,
+        "likes": 94,
         "downloads": 158820,
         "tags": [
           "transformers",
@@ -424,7 +424,7 @@
       {
         "id": "microsoft/Phi-4-reasoning-vision-15B",
         "author": "microsoft",
-        "likes": 89,
+        "likes": 90,
         "downloads": 9099,
         "tags": [
           "safetensors",
@@ -553,6 +553,33 @@
         "link": "https://huggingface.co/LiquidAI/LFM2-24B-A2B"
       },
       {
+        "id": "crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5",
+        "author": "crownelius",
+        "likes": 72,
+        "downloads": 13452,
+        "tags": [
+          "safetensors",
+          "gguf",
+          "qwen3_5",
+          "agent",
+          "dataset:crownelius/Creative_Writing_ShareGPT_Enhanced",
+          "dataset:microsoft/rStar-Coder",
+          "dataset:peteromallet/dataclaw-peteromallet",
+          "dataset:crownelius/Opus-4.6-Reasoning-3300x",
+          "dataset:openbmb/UltraData-Math",
+          "dataset:Unreleased/Dataset",
+          "base_model:trohrbaugh/Qwen3.5-9B-heretic-v2",
+          "base_model:quantized:trohrbaugh/Qwen3.5-9B-heretic-v2",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5"
+      },
+      {
         "id": "FireRedTeam/FireRed-Image-Edit-1.1",
         "author": "FireRedTeam",
         "likes": 71,
@@ -570,30 +597,6 @@
         "pipeline_tag": "image-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.1"
-      },
-      {
-        "id": "crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5",
-        "author": "crownelius",
-        "likes": 70,
-        "downloads": 13452,
-        "tags": [
-          "safetensors",
-          "gguf",
-          "qwen3_5",
-          "agent",
-          "dataset:crownelius/Opus-4.6-Reasoning-2100x-formatted",
-          "dataset:crownelius/Creative_Writing_ShareGPT_Enhanced",
-          "dataset:microsoft/rStar-Coder",
-          "dataset:peteromallet/dataclaw-peteromallet",
-          "base_model:trohrbaugh/Qwen3.5-9B-heretic-v2",
-          "base_model:quantized:trohrbaugh/Qwen3.5-9B-heretic-v2",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5"
       },
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
@@ -666,6 +669,27 @@
         "link": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
       },
       {
+        "id": "unsloth/Qwen3.5-0.8B-GGUF",
+        "author": "unsloth",
+        "likes": 63,
+        "downloads": 92748,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.5-0.8B",
+          "base_model:quantized:Qwen/Qwen3.5-0.8B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF"
+      },
+      {
         "id": "stepfun-ai/Step-3.5-Flash-Base",
         "author": "stepfun-ai",
         "likes": 63,
@@ -684,35 +708,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base"
-      },
-      {
-        "id": "LocoreMind/LocoOperator-4B",
-        "author": "LocoreMind",
-        "likes": 271,
-        "downloads": 5100,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3",
-          "text-generation",
-          "code",
-          "agent",
-          "tool-calling",
-          "distillation",
-          "gguf",
-          "llama-cpp",
-          "conversational",
-          "en",
-          "base_model:Qwen/Qwen3-4B-Instruct-2507",
-          "base_model:finetune:Qwen/Qwen3-4B-Instruct-2507",
-          "license:mit",
-          "text-generation-inference",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/LocoreMind/LocoOperator-4B"
       }
     ]
   },
@@ -748,7 +743,7 @@
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
-        "likes": 255,
+        "likes": 256,
         "downloads": 2690,
         "tags": [
           "license:apache-2.0",
@@ -767,7 +762,7 @@
       {
         "id": "crownelius/Opus-4.6-Reasoning-3300x",
         "author": "crownelius",
-        "likes": 103,
+        "likes": 104,
         "downloads": 888,
         "tags": [
           "license:apache-2.0",
