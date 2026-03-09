@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-09T05:00:17.385Z",
+  "updatedAt": "2026-03-09T06:00:21.118Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 609,
+        "likes": 610,
         "downloads": 868002,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "Lightricks/LTX-2.3",
         "author": "Lightricks",
-        "likes": 371,
+        "likes": 372,
         "downloads": 175440,
         "tags": [
           "diffusers",
@@ -92,7 +92,7 @@
       {
         "id": "Qwen/Qwen3.5-4B",
         "author": "Qwen",
-        "likes": 304,
+        "likes": 305,
         "downloads": 348672,
         "tags": [
           "transformers",
@@ -188,7 +188,7 @@
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 213,
+        "likes": 214,
         "downloads": 75511,
         "tags": [
           "gguf",
@@ -318,7 +318,7 @@
       {
         "id": "sarvamai/sarvam-30b",
         "author": "sarvamai",
-        "likes": 121,
+        "likes": 122,
         "downloads": 1549,
         "tags": [
           "transformers",
@@ -388,6 +388,36 @@
         "link": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
       },
       {
+        "id": "microsoft/Phi-4-reasoning-vision-15B",
+        "author": "microsoft",
+        "likes": 117,
+        "downloads": 14331,
+        "tags": [
+          "safetensors",
+          "phi4-siglip",
+          "multimodal",
+          "vision-language",
+          "reasoning",
+          "math",
+          "ocr",
+          "gui-grounding",
+          "computer-use",
+          "chain-of-thought",
+          "image-text-to-text",
+          "conversational",
+          "custom_code",
+          "en",
+          "base_model:microsoft/Phi-4-reasoning",
+          "base_model:finetune:microsoft/Phi-4-reasoning",
+          "license:mit",
+          "model-index",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/microsoft/Phi-4-reasoning-vision-15B"
+      },
+      {
         "id": "Qwen/Qwen3.5-397B-A17B",
         "author": "Qwen",
         "likes": 1270,
@@ -429,60 +459,9 @@
         "link": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF"
       },
       {
-        "id": "microsoft/Phi-4-reasoning-vision-15B",
-        "author": "microsoft",
-        "likes": 116,
-        "downloads": 14331,
-        "tags": [
-          "safetensors",
-          "phi4-siglip",
-          "multimodal",
-          "vision-language",
-          "reasoning",
-          "math",
-          "ocr",
-          "gui-grounding",
-          "computer-use",
-          "chain-of-thought",
-          "image-text-to-text",
-          "conversational",
-          "custom_code",
-          "en",
-          "base_model:microsoft/Phi-4-reasoning",
-          "base_model:finetune:microsoft/Phi-4-reasoning",
-          "license:mit",
-          "model-index",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/microsoft/Phi-4-reasoning-vision-15B"
-      },
-      {
-        "id": "unsloth/Qwen3.5-27B-GGUF",
-        "author": "unsloth",
-        "likes": 270,
-        "downloads": 476733,
-        "tags": [
-          "gguf",
-          "unsloth",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.5-27B",
-          "base_model:quantized:Qwen/Qwen3.5-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF"
-      },
-      {
         "id": "crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5",
         "author": "crownelius",
-        "likes": 102,
+        "likes": 104,
         "downloads": 26159,
         "tags": [
           "safetensors",
@@ -509,7 +488,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.1",
         "author": "FireRedTeam",
-        "likes": 99,
+        "likes": 102,
         "downloads": 778,
         "tags": [
           "diffusers",
@@ -524,6 +503,27 @@
         "pipeline_tag": "image-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.1"
+      },
+      {
+        "id": "unsloth/Qwen3.5-27B-GGUF",
+        "author": "unsloth",
+        "likes": 270,
+        "downloads": 476733,
+        "tags": [
+          "gguf",
+          "unsloth",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.5-27B",
+          "base_model:quantized:Qwen/Qwen3.5-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF"
       },
       {
         "id": "huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
@@ -551,7 +551,7 @@
       {
         "id": "FireRedTeam/FireRed-OCR",
         "author": "FireRedTeam",
-        "likes": 113,
+        "likes": 114,
         "downloads": 5231,
         "tags": [
           "safetensors",
@@ -792,7 +792,7 @@
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
-        "likes": 282,
+        "likes": 283,
         "downloads": 3159,
         "tags": [
           "license:apache-2.0",
@@ -811,7 +811,7 @@
       {
         "id": "crownelius/Opus-4.6-Reasoning-3300x",
         "author": "crownelius",
-        "likes": 126,
+        "likes": 127,
         "downloads": 1246,
         "tags": [
           "license:apache-2.0",
@@ -916,7 +916,7 @@
       {
         "id": "peteromallet/dataclaw-peteromallet",
         "author": "peteromallet",
-        "likes": 279,
+        "likes": 280,
         "downloads": 9608,
         "tags": [
           "task_categories:text-generation",
@@ -972,7 +972,7 @@
       {
         "id": "google/WaxalNLP",
         "author": "google",
-        "likes": 172,
+        "likes": 173,
         "downloads": 9898,
         "tags": [
           "task_categories:automatic-speech-recognition",
