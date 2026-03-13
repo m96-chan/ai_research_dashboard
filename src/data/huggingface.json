@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-13T05:00:17.403Z",
+  "updatedAt": "2026-03-13T06:00:18.245Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 506,
+        "likes": 512,
         "downloads": 40726,
         "tags": [
           "safetensors",
@@ -200,7 +200,7 @@
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 381,
+        "likes": 384,
         "downloads": 152471,
         "tags": [
           "gguf",
@@ -304,6 +304,43 @@
         "link": "https://huggingface.co/sarvamai/sarvam-30b"
       },
       {
+        "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "author": "nvidia",
+        "likes": 147,
+        "downloads": 2849,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nemotron_h",
+          "text-generation",
+          "nvidia",
+          "pytorch",
+          "nemotron-3",
+          "latent-moe",
+          "mtp",
+          "conversational",
+          "custom_code",
+          "en",
+          "fr",
+          "es",
+          "it",
+          "de",
+          "ja",
+          "zh",
+          "dataset:nvidia/nemotron-post-training-v3",
+          "dataset:nvidia/nemotron-pre-training-datasets",
+          "arxiv:2512.20848",
+          "arxiv:2512.20856",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+      },
+      {
         "id": "unsloth/LTX-2.3-GGUF",
         "author": "unsloth",
         "likes": 163,
@@ -348,46 +385,9 @@
         "link": "https://huggingface.co/unsloth/LTX-2.3-GGUF"
       },
       {
-        "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
-        "author": "nvidia",
-        "likes": 145,
-        "downloads": 2849,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_h",
-          "text-generation",
-          "nvidia",
-          "pytorch",
-          "nemotron-3",
-          "latent-moe",
-          "mtp",
-          "conversational",
-          "custom_code",
-          "en",
-          "fr",
-          "es",
-          "it",
-          "de",
-          "ja",
-          "zh",
-          "dataset:nvidia/nemotron-post-training-v3",
-          "dataset:nvidia/nemotron-pre-training-datasets",
-          "arxiv:2512.20848",
-          "arxiv:2512.20856",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
-      },
-      {
         "id": "HumeAI/tada-1b",
         "author": "HumeAI",
-        "likes": 139,
+        "likes": 140,
         "downloads": 5556,
         "tags": [
           "safetensors",
@@ -508,7 +508,7 @@
       {
         "id": "crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5",
         "author": "crownelius",
-        "likes": 160,
+        "likes": 161,
         "downloads": 43656,
         "tags": [
           "safetensors",
@@ -622,7 +622,7 @@
       {
         "id": "HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 107,
+        "likes": 108,
         "downloads": 52103,
         "tags": [
           "gguf",
@@ -642,50 +642,42 @@
         "link": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive"
       },
       {
-        "id": "Qwen/Qwen3.5-4B",
-        "author": "Qwen",
-        "likes": 344,
-        "downloads": 750931,
+        "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "author": "nvidia",
+        "likes": 95,
+        "downloads": 11460,
         "tags": [
           "transformers",
           "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
+          "nemotron_h",
+          "text-generation",
+          "nvidia",
+          "pytorch",
+          "nemotron-3",
+          "latent-moe",
+          "mtp",
           "conversational",
-          "base_model:Qwen/Qwen3.5-4B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-4B-Base",
-          "license:apache-2.0",
-          "eval-results",
+          "custom_code",
+          "en",
+          "fr",
+          "es",
+          "it",
+          "de",
+          "ja",
+          "zh",
+          "dataset:nvidia/nemotron-post-training-v3",
+          "dataset:nvidia/nemotron-pre-training-datasets",
+          "arxiv:2512.20848",
+          "arxiv:2512.20856",
+          "license:other",
           "endpoints_compatible",
-          "deploy:azure",
+          "8-bit",
+          "modelopt",
           "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-4B"
-      },
-      {
-        "id": "Qwen/Qwen3.5-0.8B",
-        "author": "Qwen",
-        "likes": 370,
-        "downloads": 662319,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "base_model:Qwen/Qwen3.5-0.8B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-0.8B-Base",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-0.8B"
+        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
@@ -725,47 +717,32 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"
       },
       {
-        "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
-        "author": "nvidia",
-        "likes": 93,
-        "downloads": 11460,
+        "id": "Qwen/Qwen3.5-4B",
+        "author": "Qwen",
+        "likes": 344,
+        "downloads": 750931,
         "tags": [
           "transformers",
           "safetensors",
-          "nemotron_h",
-          "text-generation",
-          "nvidia",
-          "pytorch",
-          "nemotron-3",
-          "latent-moe",
-          "mtp",
+          "qwen3_5",
+          "image-text-to-text",
           "conversational",
-          "custom_code",
-          "en",
-          "fr",
-          "es",
-          "it",
-          "de",
-          "ja",
-          "zh",
-          "dataset:nvidia/nemotron-post-training-v3",
-          "dataset:nvidia/nemotron-pre-training-datasets",
-          "arxiv:2512.20848",
-          "arxiv:2512.20856",
-          "license:other",
+          "base_model:Qwen/Qwen3.5-4B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-4B-Base",
+          "license:apache-2.0",
+          "eval-results",
           "endpoints_compatible",
-          "8-bit",
-          "modelopt",
+          "deploy:azure",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4"
+        "link": "https://huggingface.co/Qwen/Qwen3.5-4B"
       },
       {
         "id": "ibm-granite/granite-4.0-1b-speech",
         "author": "ibm-granite",
-        "likes": 89,
+        "likes": 91,
         "downloads": 9208,
         "tags": [
           "transformers",
@@ -793,6 +770,29 @@
         "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
       },
       {
+        "id": "Qwen/Qwen3.5-0.8B",
+        "author": "Qwen",
+        "likes": 370,
+        "downloads": 662319,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "base_model:Qwen/Qwen3.5-0.8B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-0.8B-Base",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-0.8B"
+      },
+      {
         "id": "FireRedTeam/FireRed-Image-Edit-1.1",
         "author": "FireRedTeam",
         "likes": 147,
@@ -815,7 +815,7 @@
       {
         "id": "HumeAI/tada-3b-ml",
         "author": "HumeAI",
-        "likes": 86,
+        "likes": 87,
         "downloads": 4130,
         "tags": [
           "safetensors",
@@ -860,6 +860,29 @@
         "link": "https://huggingface.co/dx8152/Flux2-Klein-9B-Consistency"
       },
       {
+        "id": "MiniMaxAI/MiniMax-M2.5",
+        "author": "MiniMaxAI",
+        "likes": 1177,
+        "downloads": 484731,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minimax_m2",
+          "text-generation",
+          "conversational",
+          "custom_code",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "fp8",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
+      },
+      {
         "id": "Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
         "author": "Jackrong",
         "likes": 98,
@@ -886,57 +909,24 @@
         "link": "https://huggingface.co/Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
       },
       {
-        "id": "MiniMaxAI/MiniMax-M2.5",
-        "author": "MiniMaxAI",
-        "likes": 1176,
-        "downloads": 484731,
+        "id": "Qwen/Qwen3.5-397B-A17B",
+        "author": "Qwen",
+        "likes": 1310,
+        "downloads": 1663471,
         "tags": [
           "transformers",
           "safetensors",
-          "minimax_m2",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "fp8",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
-      },
-      {
-        "id": "microsoft/Phi-4-reasoning-vision-15B",
-        "author": "microsoft",
-        "likes": 144,
-        "downloads": 18207,
-        "tags": [
-          "safetensors",
-          "phi4-siglip",
-          "multimodal",
-          "vision-language",
-          "reasoning",
-          "math",
-          "ocr",
-          "gui-grounding",
-          "computer-use",
-          "chain-of-thought",
+          "qwen3_5_moe",
           "image-text-to-text",
           "conversational",
-          "custom_code",
-          "en",
-          "base_model:microsoft/Phi-4-reasoning",
-          "base_model:finetune:microsoft/Phi-4-reasoning",
-          "license:mit",
-          "model-index",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
           "region:us"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/microsoft/Phi-4-reasoning-vision-15B"
+        "link": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B"
       }
     ]
   },
@@ -946,7 +936,7 @@
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
-        "likes": 329,
+        "likes": 330,
         "downloads": 3634,
         "tags": [
           "license:apache-2.0",
@@ -1133,9 +1123,37 @@
         "link": "https://huggingface.co/datasets/google/WaxalNLP"
       },
       {
+        "id": "Jackrong/Qwen3.5-reasoning-700x",
+        "author": "Jackrong",
+        "likes": 33,
+        "downloads": 305,
+        "tags": [
+          "task_categories:question-answering",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "reasoning",
+          "math",
+          "distillation",
+          "instruction-tuning",
+          "chain-of-thought",
+          "qwen",
+          "qwen3.5"
+        ],
+        "lastModified": "2026-03-02T17:44:52.000Z",
+        "link": "https://huggingface.co/datasets/Jackrong/Qwen3.5-reasoning-700x"
+      },
+      {
         "id": "ronantakizawa/github-codereview",
         "author": "ronantakizawa",
-        "likes": 31,
+        "likes": 32,
         "downloads": 159,
         "tags": [
           "task_categories:text-generation",
@@ -1161,32 +1179,25 @@
         "link": "https://huggingface.co/datasets/ronantakizawa/github-codereview"
       },
       {
-        "id": "Jackrong/Qwen3.5-reasoning-700x",
-        "author": "Jackrong",
-        "likes": 32,
-        "downloads": 305,
+        "id": "markov-ai/computer-use-large",
+        "author": "markov-ai",
+        "likes": 30,
+        "downloads": 0,
         "tags": [
-          "task_categories:question-answering",
+          "task_categories:video-classification",
+          "task_categories:robotics",
           "language:en",
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
+          "license:cc-by-4.0",
+          "size_categories:10K<n<100K",
           "region:us",
-          "reasoning",
-          "math",
-          "distillation",
-          "instruction-tuning",
-          "chain-of-thought",
-          "qwen",
-          "qwen3.5"
+          "screen-recording",
+          "computer-use",
+          "software-tutorials",
+          "gui",
+          "desktop"
         ],
-        "lastModified": "2026-03-02T17:44:52.000Z",
-        "link": "https://huggingface.co/datasets/Jackrong/Qwen3.5-reasoning-700x"
+        "lastModified": "2026-03-12T13:40:50.000Z",
+        "link": "https://huggingface.co/datasets/markov-ai/computer-use-large"
       },
       {
         "id": "nvidia/Nemotron-ClimbMix",
@@ -1248,27 +1259,6 @@
         ],
         "lastModified": "2026-03-10T14:47:44.000Z",
         "link": "https://huggingface.co/datasets/ginigen-ai/smol-worldcup"
-      },
-      {
-        "id": "markov-ai/computer-use-large",
-        "author": "markov-ai",
-        "likes": 28,
-        "downloads": 0,
-        "tags": [
-          "task_categories:video-classification",
-          "task_categories:robotics",
-          "language:en",
-          "license:cc-by-4.0",
-          "size_categories:10K<n<100K",
-          "region:us",
-          "screen-recording",
-          "computer-use",
-          "software-tutorials",
-          "gui",
-          "desktop"
-        ],
-        "lastModified": "2026-03-12T13:40:50.000Z",
-        "link": "https://huggingface.co/datasets/markov-ai/computer-use-large"
       },
       {
         "id": "AudioVisual-Caption/ASID-1M",
@@ -1470,24 +1460,6 @@
         "link": "https://huggingface.co/datasets/Anthropic/EconomicIndex"
       },
       {
-        "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
-        "author": "TeichAI",
-        "likes": 325,
-        "downloads": 2666,
-        "tags": [
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "lastModified": "2025-11-28T03:02:41.000Z",
-        "link": "https://huggingface.co/datasets/TeichAI/claude-4.5-opus-high-reasoning-250x"
-      },
-      {
         "id": "HuggingFaceFW/fineweb-edu",
         "author": "HuggingFaceFW",
         "likes": 987,
@@ -1513,6 +1485,24 @@
         ],
         "lastModified": "2025-07-11T20:16:53.000Z",
         "link": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
+      },
+      {
+        "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
+        "author": "TeichAI",
+        "likes": 325,
+        "downloads": 2666,
+        "tags": [
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "lastModified": "2025-11-28T03:02:41.000Z",
+        "link": "https://huggingface.co/datasets/TeichAI/claude-4.5-opus-high-reasoning-250x"
       }
     ]
   }
