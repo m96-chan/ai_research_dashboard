@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-13T18:00:18.300Z",
+  "updatedAt": "2026-03-13T19:00:22.230Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 558,
+        "likes": 560,
         "downloads": 53243,
         "tags": [
           "safetensors",
@@ -35,7 +35,7 @@
       {
         "id": "fishaudio/s2-pro",
         "author": "fishaudio",
-        "likes": 352,
+        "likes": 354,
         "downloads": 3142,
         "tags": [
           "safetensors",
@@ -137,7 +137,7 @@
       {
         "id": "Lightricks/LTX-2.3",
         "author": "Lightricks",
-        "likes": 579,
+        "likes": 581,
         "downloads": 448513,
         "tags": [
           "diffusers",
@@ -435,7 +435,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
         "author": "Jackrong",
-        "likes": 187,
+        "likes": 188,
         "downloads": 117044,
         "tags": [
           "gguf",
@@ -465,7 +465,7 @@
       {
         "id": "Tesslate/OmniCoder-9B",
         "author": "Tesslate",
-        "likes": 114,
+        "likes": 117,
         "downloads": 272,
         "tags": [
           "transformers",
@@ -615,7 +615,7 @@
       {
         "id": "crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5",
         "author": "crownelius",
-        "likes": 169,
+        "likes": 170,
         "downloads": 47918,
         "tags": [
           "safetensors",
@@ -690,6 +690,36 @@
         "link": "https://huggingface.co/RuneXX/LTX-2.3-Workflows"
       },
       {
+        "id": "ibm-granite/granite-4.0-1b-speech",
+        "author": "ibm-granite",
+        "likes": 98,
+        "downloads": 11276,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "granite_speech",
+          "automatic-speech-recognition",
+          "multilingual",
+          "en",
+          "fr",
+          "de",
+          "es",
+          "pt",
+          "ja",
+          "arxiv:2505.08699",
+          "arxiv:2603.11243",
+          "base_model:ibm-granite/granite-4.0-1b-base",
+          "base_model:finetune:ibm-granite/granite-4.0-1b-base",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "lastModified": "",
+        "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
+      },
+      {
         "id": "LocoreMind/LocoTrainer-4B",
         "author": "LocoreMind",
         "likes": 98,
@@ -719,58 +749,6 @@
         "link": "https://huggingface.co/LocoreMind/LocoTrainer-4B"
       },
       {
-        "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
-        "author": "unsloth",
-        "likes": 638,
-        "downloads": 1495396,
-        "tags": [
-          "gguf",
-          "qwen3_5_moe",
-          "unsloth",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.5-35B-A3B",
-          "base_model:quantized:Qwen/Qwen3.5-35B-A3B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF"
-      },
-      {
-        "id": "ibm-granite/granite-4.0-1b-speech",
-        "author": "ibm-granite",
-        "likes": 96,
-        "downloads": 11276,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "granite_speech",
-          "automatic-speech-recognition",
-          "multilingual",
-          "en",
-          "fr",
-          "de",
-          "es",
-          "pt",
-          "ja",
-          "arxiv:2505.08699",
-          "arxiv:2603.11243",
-          "base_model:ibm-granite/granite-4.0-1b-base",
-          "base_model:finetune:ibm-granite/granite-4.0-1b-base",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "automatic-speech-recognition",
-        "lastModified": "",
-        "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
-      },
-      {
         "id": "HumeAI/tada-3b-ml",
         "author": "HumeAI",
         "likes": 95,
@@ -798,6 +776,28 @@
         "pipeline_tag": "text-to-speech",
         "lastModified": "",
         "link": "https://huggingface.co/HumeAI/tada-3b-ml"
+      },
+      {
+        "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
+        "author": "unsloth",
+        "likes": 639,
+        "downloads": 1495396,
+        "tags": [
+          "gguf",
+          "qwen3_5_moe",
+          "unsloth",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.5-35B-A3B",
+          "base_model:quantized:Qwen/Qwen3.5-35B-A3B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF"
       },
       {
         "id": "HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive",
@@ -903,7 +903,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.1",
         "author": "FireRedTeam",
-        "likes": 149,
+        "likes": 150,
         "downloads": 2372,
         "tags": [
           "diffusers",
@@ -1042,7 +1042,7 @@
       {
         "id": "markov-ai/computer-use-large",
         "author": "markov-ai",
-        "likes": 40,
+        "likes": 41,
         "downloads": 18189,
         "tags": [
           "task_categories:video-classification",
@@ -1083,7 +1083,7 @@
       {
         "id": "google/WaxalNLP",
         "author": "google",
-        "likes": 186,
+        "likes": 187,
         "downloads": 10642,
         "tags": [
           "task_categories:automatic-speech-recognition",
@@ -1440,24 +1440,6 @@
         "link": "https://huggingface.co/datasets/BytedTsinghua-SIA/CUDA-Agent-Ops-6K"
       },
       {
-        "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
-        "author": "TeichAI",
-        "likes": 326,
-        "downloads": 2897,
-        "tags": [
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "lastModified": "2025-11-28T03:02:41.000Z",
-        "link": "https://huggingface.co/datasets/TeichAI/claude-4.5-opus-high-reasoning-250x"
-      },
-      {
         "id": "karpathy/climbmix-400b-shuffle",
         "author": "karpathy",
         "likes": 16,
@@ -1503,6 +1485,24 @@
         ],
         "lastModified": "2025-12-20T18:53:44.000Z",
         "link": "https://huggingface.co/datasets/openai/gsm8k"
+      },
+      {
+        "id": "TeichAI/claude-4.5-opus-high-reasoning-250x",
+        "author": "TeichAI",
+        "likes": 326,
+        "downloads": 2897,
+        "tags": [
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "lastModified": "2025-11-28T03:02:41.000Z",
+        "link": "https://huggingface.co/datasets/TeichAI/claude-4.5-opus-high-reasoning-250x"
       },
       {
         "id": "peteromallet/dataclaw-peteromallet",
