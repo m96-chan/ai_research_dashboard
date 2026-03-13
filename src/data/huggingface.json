@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-13T22:00:17.614Z",
+  "updatedAt": "2026-03-13T23:00:19.585Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 568,
+        "likes": 570,
         "downloads": 53243,
         "tags": [
           "safetensors",
@@ -35,7 +35,7 @@
       {
         "id": "fishaudio/s2-pro",
         "author": "fishaudio",
-        "likes": 362,
+        "likes": 363,
         "downloads": 3142,
         "tags": [
           "safetensors",
@@ -177,7 +177,7 @@
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 406,
+        "likes": 408,
         "downloads": 173501,
         "tags": [
           "gguf",
@@ -199,7 +199,7 @@
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 794,
+        "likes": 795,
         "downloads": 1685919,
         "tags": [
           "transformers",
@@ -222,7 +222,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
         "author": "nvidia",
-        "likes": 168,
+        "likes": 169,
         "downloads": 6439,
         "tags": [
           "transformers",
@@ -302,7 +302,7 @@
       {
         "id": "HumeAI/tada-1b",
         "author": "HumeAI",
-        "likes": 157,
+        "likes": 158,
         "downloads": 6113,
         "tags": [
           "safetensors",
@@ -322,7 +322,7 @@
       {
         "id": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 141,
+        "likes": 142,
         "downloads": 47580,
         "tags": [
           "gguf",
@@ -349,7 +349,7 @@
       {
         "id": "unsloth/LTX-2.3-GGUF",
         "author": "unsloth",
-        "likes": 169,
+        "likes": 170,
         "downloads": 69192,
         "tags": [
           "ggml",
@@ -451,6 +451,29 @@
         "link": "https://huggingface.co/Tesslate/OmniCoder-9B"
       },
       {
+        "id": "Qwen/Qwen3.5-35B-A3B",
+        "author": "Qwen",
+        "likes": 1101,
+        "downloads": 1551820,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "conversational",
+          "base_model:Qwen/Qwen3.5-35B-A3B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-35B-A3B-Base",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+      },
+      {
         "id": "sarvamai/sarvam-30b",
         "author": "sarvamai",
         "likes": 157,
@@ -491,29 +514,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/sarvamai/sarvam-30b"
-      },
-      {
-        "id": "Qwen/Qwen3.5-35B-A3B",
-        "author": "Qwen",
-        "likes": 1101,
-        "downloads": 1551820,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "conversational",
-          "base_model:Qwen/Qwen3.5-35B-A3B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-35B-A3B-Base",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
       },
       {
         "id": "unsloth/Qwen3.5-9B-GGUF",
@@ -613,57 +613,33 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"
       },
       {
-        "id": "crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5",
-        "author": "crownelius",
-        "likes": 171,
-        "downloads": 47918,
+        "id": "HumeAI/tada-3b-ml",
+        "author": "HumeAI",
+        "likes": 99,
+        "downloads": 5976,
         "tags": [
           "safetensors",
-          "gguf",
-          "qwen3_5",
-          "agent",
+          "llama",
+          "tts",
+          "text-to-speech",
+          "speech-language-model",
           "en",
-          "zh",
-          "ru",
-          "es",
-          "fr",
-          "it",
           "ja",
-          "ko",
-          "af",
           "de",
+          "fr",
+          "es",
+          "ch",
           "ar",
-          "tr",
-          "is",
+          "it",
           "pl",
-          "sw",
-          "sv",
-          "nl",
-          "he",
-          "id",
-          "uk",
-          "fa",
-          "pa",
           "pt",
-          "ms",
-          "fi",
-          "el",
-          "dataset:crownelius/Creative_Writing_ShareGPT_Enhanced",
-          "dataset:microsoft/rStar-Coder",
-          "dataset:peteromallet/dataclaw-peteromallet",
-          "dataset:crownelius/Opus-4.6-Reasoning-3300x",
-          "dataset:openbmb/UltraData-Math",
-          "dataset:Unreleased/Dataset",
-          "base_model:trohrbaugh/Qwen3.5-9B-heretic-v2",
-          "base_model:quantized:trohrbaugh/Qwen3.5-9B-heretic-v2",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "arxiv:2602.23068",
+          "license:mit",
+          "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "text-to-speech",
         "lastModified": "",
-        "link": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5"
+        "link": "https://huggingface.co/HumeAI/tada-3b-ml"
       },
       {
         "id": "RuneXX/LTX-2.3-Workflows",
@@ -719,55 +695,57 @@
         "link": "https://huggingface.co/LocoreMind/LocoTrainer-4B"
       },
       {
-        "id": "HumeAI/tada-3b-ml",
-        "author": "HumeAI",
-        "likes": 98,
-        "downloads": 5976,
+        "id": "crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5",
+        "author": "crownelius",
+        "likes": 171,
+        "downloads": 47918,
         "tags": [
           "safetensors",
-          "llama",
-          "tts",
-          "text-to-speech",
-          "speech-language-model",
-          "en",
-          "ja",
-          "de",
-          "fr",
-          "es",
-          "ch",
-          "ar",
-          "it",
-          "pl",
-          "pt",
-          "arxiv:2602.23068",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-speech",
-        "lastModified": "",
-        "link": "https://huggingface.co/HumeAI/tada-3b-ml"
-      },
-      {
-        "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
-        "author": "unsloth",
-        "likes": 640,
-        "downloads": 1495396,
-        "tags": [
           "gguf",
-          "qwen3_5_moe",
-          "unsloth",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.5-35B-A3B",
-          "base_model:quantized:Qwen/Qwen3.5-35B-A3B",
+          "qwen3_5",
+          "agent",
+          "en",
+          "zh",
+          "ru",
+          "es",
+          "fr",
+          "it",
+          "ja",
+          "ko",
+          "af",
+          "de",
+          "ar",
+          "tr",
+          "is",
+          "pl",
+          "sw",
+          "sv",
+          "nl",
+          "he",
+          "id",
+          "uk",
+          "fa",
+          "pa",
+          "pt",
+          "ms",
+          "fi",
+          "el",
+          "dataset:crownelius/Creative_Writing_ShareGPT_Enhanced",
+          "dataset:microsoft/rStar-Coder",
+          "dataset:peteromallet/dataclaw-peteromallet",
+          "dataset:crownelius/Opus-4.6-Reasoning-3300x",
+          "dataset:openbmb/UltraData-Math",
+          "dataset:Unreleased/Dataset",
+          "base_model:trohrbaugh/Qwen3.5-9B-heretic-v2",
+          "base_model:quantized:trohrbaugh/Qwen3.5-9B-heretic-v2",
           "license:apache-2.0",
           "endpoints_compatible",
           "region:us",
-          "imatrix",
           "conversational"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF"
+        "link": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5"
       },
       {
         "id": "ibm-granite/granite-4.0-1b-speech",
@@ -800,6 +778,28 @@
         "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
       },
       {
+        "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
+        "author": "unsloth",
+        "likes": 640,
+        "downloads": 1495396,
+        "tags": [
+          "gguf",
+          "qwen3_5_moe",
+          "unsloth",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.5-35B-A3B",
+          "base_model:quantized:Qwen/Qwen3.5-35B-A3B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF"
+      },
+      {
         "id": "HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
         "likes": 114,
@@ -824,7 +824,7 @@
       {
         "id": "Kijai/LTX2.3_comfy",
         "author": "Kijai",
-        "likes": 143,
+        "likes": 144,
         "downloads": 213990,
         "tags": [
           "diffusion-single-file",
@@ -1058,6 +1058,26 @@
         "link": "https://huggingface.co/datasets/markov-ai/computer-use-large"
       },
       {
+        "id": "karpathy/tinystories-gpt4-clean",
+        "author": "karpathy",
+        "likes": 45,
+        "downloads": 1337,
+        "tags": [
+          "license:cdla-sharing-1.0",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2305.07759",
+          "region:us"
+        ],
+        "lastModified": "2026-02-08T21:07:28.000Z",
+        "link": "https://huggingface.co/datasets/karpathy/tinystories-gpt4-clean"
+      },
+      {
         "id": "google/WaxalNLP",
         "author": "google",
         "likes": 189,
@@ -1117,26 +1137,6 @@
         ],
         "lastModified": "2026-03-13T11:58:41.000Z",
         "link": "https://huggingface.co/datasets/google/WaxalNLP"
-      },
-      {
-        "id": "karpathy/tinystories-gpt4-clean",
-        "author": "karpathy",
-        "likes": 45,
-        "downloads": 1337,
-        "tags": [
-          "license:cdla-sharing-1.0",
-          "size_categories:1M<n<10M",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2305.07759",
-          "region:us"
-        ],
-        "lastModified": "2026-02-08T21:07:28.000Z",
-        "link": "https://huggingface.co/datasets/karpathy/tinystories-gpt4-clean"
       },
       {
         "id": "Jackrong/Qwen3.5-reasoning-700x",
@@ -1503,37 +1503,35 @@
         "link": "https://huggingface.co/datasets/TeichAI/claude-4.5-opus-high-reasoning-250x"
       },
       {
-        "id": "peteromallet/dataclaw-peteromallet",
-        "author": "peteromallet",
-        "likes": 286,
-        "downloads": 9863,
+        "id": "Oatmealliu/UrbanVerse-100K",
+        "author": "Oatmealliu",
+        "likes": 13,
+        "downloads": 6234,
         "tags": [
-          "task_categories:text-generation",
+          "task_categories:robotics",
+          "task_categories:text-to-3d",
+          "task_categories:image-to-3d",
+          "task_categories:reinforcement-learning",
+          "task_categories:image-to-text",
+          "task_categories:text-to-image",
           "language:en",
-          "license:mit",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
+          "license:odc-by",
+          "size_categories:100K<n<1M",
+          "modality:3d",
+          "arxiv:2510.15018",
           "region:us",
-          "dataclaw",
-          "claude-code",
-          "codex-cli",
-          "conversations",
-          "coding-assistant",
-          "tool-use",
-          "agentic-coding",
-          "claude-haiku-4-5-20251001",
-          "claude-opus-4-5-20251101",
-          "claude-opus-4-6",
-          "claude-sonnet-4-5-20250929",
-          "claude-sonnet-4-6"
+          "3d",
+          "Robotics",
+          "PhysicalAI",
+          "EmbodiedAI",
+          "Objects",
+          "3DAssets",
+          "UrbanSimulation",
+          "IsaacSim",
+          "IsaacLab"
         ],
-        "lastModified": "2026-02-25T16:14:13.000Z",
-        "link": "https://huggingface.co/datasets/peteromallet/dataclaw-peteromallet"
+        "lastModified": "2026-03-11T10:40:11.000Z",
+        "link": "https://huggingface.co/datasets/Oatmealliu/UrbanVerse-100K"
       }
     ]
   }
