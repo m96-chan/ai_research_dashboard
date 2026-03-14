@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-14T01:00:17.662Z",
+  "updatedAt": "2026-03-14T02:00:17.129Z",
   "models": {
     "count": 30,
     "items": [
@@ -35,7 +35,7 @@
       {
         "id": "fishaudio/s2-pro",
         "author": "fishaudio",
-        "likes": 368,
+        "likes": 370,
         "downloads": 3142,
         "tags": [
           "safetensors",
@@ -347,6 +347,36 @@
         "link": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive"
       },
       {
+        "id": "Tesslate/OmniCoder-9B",
+        "author": "Tesslate",
+        "likes": 129,
+        "downloads": 272,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "qwen3.5",
+          "code",
+          "agent",
+          "sft",
+          "omnicoder",
+          "tesslate",
+          "text-generation",
+          "conversational",
+          "en",
+          "base_model:Qwen/Qwen3.5-9B",
+          "base_model:finetune:Qwen/Qwen3.5-9B",
+          "license:apache-2.0",
+          "model-index",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/Tesslate/OmniCoder-9B"
+      },
+      {
         "id": "unsloth/LTX-2.3-GGUF",
         "author": "unsloth",
         "likes": 171,
@@ -391,36 +421,6 @@
         "link": "https://huggingface.co/unsloth/LTX-2.3-GGUF"
       },
       {
-        "id": "Tesslate/OmniCoder-9B",
-        "author": "Tesslate",
-        "likes": 128,
-        "downloads": 272,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "qwen3.5",
-          "code",
-          "agent",
-          "sft",
-          "omnicoder",
-          "tesslate",
-          "text-generation",
-          "conversational",
-          "en",
-          "base_model:Qwen/Qwen3.5-9B",
-          "base_model:finetune:Qwen/Qwen3.5-9B",
-          "license:apache-2.0",
-          "model-index",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/Tesslate/OmniCoder-9B"
-      },
-      {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
         "author": "Jackrong",
         "likes": 190,
@@ -449,6 +449,44 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+      },
+      {
+        "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "author": "nvidia",
+        "likes": 108,
+        "downloads": 55955,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nemotron_h",
+          "text-generation",
+          "nvidia",
+          "pytorch",
+          "nemotron-3",
+          "latent-moe",
+          "mtp",
+          "conversational",
+          "custom_code",
+          "en",
+          "fr",
+          "es",
+          "it",
+          "de",
+          "ja",
+          "zh",
+          "dataset:nvidia/nemotron-post-training-v3",
+          "dataset:nvidia/nemotron-pre-training-datasets",
+          "arxiv:2512.20848",
+          "arxiv:2512.20856",
+          "license:other",
+          "endpoints_compatible",
+          "8-bit",
+          "modelopt",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4"
       },
       {
         "id": "unsloth/Qwen3.5-9B-GGUF",
@@ -514,70 +552,9 @@
         "link": "https://huggingface.co/sarvamai/sarvam-30b"
       },
       {
-        "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
-        "author": "nvidia",
-        "likes": 108,
-        "downloads": 55955,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_h",
-          "text-generation",
-          "nvidia",
-          "pytorch",
-          "nemotron-3",
-          "latent-moe",
-          "mtp",
-          "conversational",
-          "custom_code",
-          "en",
-          "fr",
-          "es",
-          "it",
-          "de",
-          "ja",
-          "zh",
-          "dataset:nvidia/nemotron-post-training-v3",
-          "dataset:nvidia/nemotron-pre-training-datasets",
-          "arxiv:2512.20848",
-          "arxiv:2512.20856",
-          "license:other",
-          "endpoints_compatible",
-          "8-bit",
-          "modelopt",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4"
-      },
-      {
-        "id": "Qwen/Qwen3.5-35B-A3B",
-        "author": "Qwen",
-        "likes": 1102,
-        "downloads": 1551820,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "conversational",
-          "base_model:Qwen/Qwen3.5-35B-A3B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-35B-A3B-Base",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
-      },
-      {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
         "author": "nvidia",
-        "likes": 106,
+        "likes": 107,
         "downloads": 8960,
         "tags": [
           "transformers",
@@ -613,9 +590,32 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"
       },
       {
+        "id": "Qwen/Qwen3.5-35B-A3B",
+        "author": "Qwen",
+        "likes": 1102,
+        "downloads": 1551820,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "conversational",
+          "base_model:Qwen/Qwen3.5-35B-A3B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-35B-A3B-Base",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+      },
+      {
         "id": "RuneXX/LTX-2.3-Workflows",
         "author": "RuneXX",
-        "likes": 115,
+        "likes": 116,
         "downloads": 0,
         "tags": [
           "ltx",
@@ -750,7 +750,7 @@
       {
         "id": "ibm-granite/granite-4.0-1b-speech",
         "author": "ibm-granite",
-        "likes": 102,
+        "likes": 103,
         "downloads": 11276,
         "tags": [
           "transformers",
@@ -780,7 +780,7 @@
       {
         "id": "Kijai/LTX2.3_comfy",
         "author": "Kijai",
-        "likes": 145,
+        "likes": 146,
         "downloads": 213990,
         "tags": [
           "diffusion-single-file",
@@ -795,7 +795,7 @@
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 640,
+        "likes": 641,
         "downloads": 1495396,
         "tags": [
           "gguf",
@@ -817,7 +817,7 @@
       {
         "id": "HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 115,
+        "likes": 116,
         "downloads": 64990,
         "tags": [
           "gguf",
@@ -835,6 +835,24 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive"
+      },
+      {
+        "id": "dx8152/Flux2-Klein-9B-Consistency",
+        "author": "dx8152",
+        "likes": 104,
+        "downloads": 3994,
+        "tags": [
+          "diffusers",
+          "lora",
+          "image-to-image",
+          "base_model:black-forest-labs/FLUX.2-klein-9B",
+          "base_model:adapter:black-forest-labs/FLUX.2-klein-9B",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/dx8152/Flux2-Klein-9B-Consistency"
       },
       {
         "id": "Qwen/Qwen3.5-4B",
@@ -860,27 +878,9 @@
         "link": "https://huggingface.co/Qwen/Qwen3.5-4B"
       },
       {
-        "id": "dx8152/Flux2-Klein-9B-Consistency",
-        "author": "dx8152",
-        "likes": 103,
-        "downloads": 3994,
-        "tags": [
-          "diffusers",
-          "lora",
-          "image-to-image",
-          "base_model:black-forest-labs/FLUX.2-klein-9B",
-          "base_model:adapter:black-forest-labs/FLUX.2-klein-9B",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/dx8152/Flux2-Klein-9B-Consistency"
-      },
-      {
         "id": "FireRedTeam/FireRed-Image-Edit-1.1",
         "author": "FireRedTeam",
-        "likes": 151,
+        "likes": 152,
         "downloads": 2372,
         "tags": [
           "diffusers",
