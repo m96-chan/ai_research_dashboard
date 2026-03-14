@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-14T06:00:16.027Z",
+  "updatedAt": "2026-03-14T07:00:18.177Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 596,
+        "likes": 599,
         "downloads": 53243,
         "tags": [
           "safetensors",
@@ -137,7 +137,7 @@
       {
         "id": "Lightricks/LTX-2.3",
         "author": "Lightricks",
-        "likes": 588,
+        "likes": 591,
         "downloads": 448513,
         "tags": [
           "diffusers",
@@ -177,7 +177,7 @@
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 411,
+        "likes": 413,
         "downloads": 173501,
         "tags": [
           "gguf",
@@ -199,7 +199,7 @@
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 797,
+        "likes": 798,
         "downloads": 1685919,
         "tags": [
           "transformers",
@@ -222,7 +222,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
         "author": "nvidia",
-        "likes": 172,
+        "likes": 173,
         "downloads": 6439,
         "tags": [
           "transformers",
@@ -260,7 +260,7 @@
       {
         "id": "HumeAI/tada-1b",
         "author": "HumeAI",
-        "likes": 162,
+        "likes": 163,
         "downloads": 6113,
         "tags": [
           "safetensors",
@@ -280,7 +280,7 @@
       {
         "id": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 145,
+        "likes": 146,
         "downloads": 47580,
         "tags": [
           "gguf",
@@ -307,7 +307,7 @@
       {
         "id": "Tesslate/OmniCoder-9B",
         "author": "Tesslate",
-        "likes": 134,
+        "likes": 138,
         "downloads": 272,
         "tags": [
           "transformers",
@@ -335,46 +335,34 @@
         "link": "https://huggingface.co/Tesslate/OmniCoder-9B"
       },
       {
-        "id": "sarvamai/sarvam-105b",
-        "author": "sarvamai",
-        "likes": 232,
-        "downloads": 5959,
+        "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "author": "Jackrong",
+        "likes": 193,
+        "downloads": 117044,
         "tags": [
-          "transformers",
-          "safetensors",
-          "sarvam_mla",
+          "gguf",
+          "qwen3_5",
+          "unsloth",
+          "qwen",
+          "qwen3.5",
+          "reasoning",
+          "chain-of-thought",
+          "Dense",
           "text-generation",
-          "conversational",
-          "custom_code",
           "en",
-          "hi",
-          "bn",
-          "ta",
-          "te",
-          "mr",
-          "gu",
-          "kn",
-          "ml",
-          "pa",
-          "or",
-          "as",
-          "ur",
-          "sa",
-          "ne",
-          "sd",
-          "kok",
-          "mai",
-          "doi",
-          "mni",
-          "sat",
-          "ks",
-          "bo",
+          "zh",
+          "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
+          "dataset:Jackrong/Qwen3.5-reasoning-700x",
+          "base_model:Qwen/Qwen3.5-27B",
+          "base_model:quantized:Qwen/Qwen3.5-27B",
           "license:apache-2.0",
-          "region:us"
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/sarvamai/sarvam-105b"
+        "link": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
       },
       {
         "id": "unsloth/LTX-2.3-GGUF",
@@ -421,34 +409,46 @@
         "link": "https://huggingface.co/unsloth/LTX-2.3-GGUF"
       },
       {
-        "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-        "author": "Jackrong",
-        "likes": 193,
-        "downloads": 117044,
+        "id": "sarvamai/sarvam-105b",
+        "author": "sarvamai",
+        "likes": 232,
+        "downloads": 5959,
         "tags": [
-          "gguf",
-          "qwen3_5",
-          "unsloth",
-          "qwen",
-          "qwen3.5",
-          "reasoning",
-          "chain-of-thought",
-          "Dense",
+          "transformers",
+          "safetensors",
+          "sarvam_mla",
           "text-generation",
+          "conversational",
+          "custom_code",
           "en",
-          "zh",
-          "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
-          "dataset:Jackrong/Qwen3.5-reasoning-700x",
-          "base_model:Qwen/Qwen3.5-27B",
-          "base_model:quantized:Qwen/Qwen3.5-27B",
+          "hi",
+          "bn",
+          "ta",
+          "te",
+          "mr",
+          "gu",
+          "kn",
+          "ml",
+          "pa",
+          "or",
+          "as",
+          "ur",
+          "sa",
+          "ne",
+          "sd",
+          "kok",
+          "mai",
+          "doi",
+          "mni",
+          "sat",
+          "ks",
+          "bo",
           "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+        "link": "https://huggingface.co/sarvamai/sarvam-105b"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
@@ -579,7 +579,7 @@
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 1103,
+        "likes": 1105,
         "downloads": 1551820,
         "tags": [
           "transformers",
@@ -653,78 +653,6 @@
         "link": "https://huggingface.co/RuneXX/LTX-2.3-Workflows"
       },
       {
-        "id": "sarvamai/sarvam-30b",
-        "author": "sarvamai",
-        "likes": 159,
-        "downloads": 9492,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "sarvam_moe",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "en",
-          "hi",
-          "bn",
-          "ta",
-          "te",
-          "mr",
-          "gu",
-          "kn",
-          "ml",
-          "pa",
-          "or",
-          "as",
-          "ur",
-          "sa",
-          "ne",
-          "sd",
-          "kok",
-          "mai",
-          "doi",
-          "mni",
-          "sat",
-          "ks",
-          "bo",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/sarvamai/sarvam-30b"
-      },
-      {
-        "id": "ibm-granite/granite-4.0-1b-speech",
-        "author": "ibm-granite",
-        "likes": 103,
-        "downloads": 11276,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "granite_speech",
-          "automatic-speech-recognition",
-          "multilingual",
-          "en",
-          "fr",
-          "de",
-          "es",
-          "pt",
-          "ja",
-          "arxiv:2505.08699",
-          "arxiv:2603.11243",
-          "base_model:ibm-granite/granite-4.0-1b-base",
-          "base_model:finetune:ibm-granite/granite-4.0-1b-base",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "automatic-speech-recognition",
-        "lastModified": "",
-        "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
-      },
-      {
         "id": "crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5",
         "author": "crownelius",
         "likes": 172,
@@ -778,6 +706,36 @@
         "link": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5"
       },
       {
+        "id": "ibm-granite/granite-4.0-1b-speech",
+        "author": "ibm-granite",
+        "likes": 103,
+        "downloads": 11276,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "granite_speech",
+          "automatic-speech-recognition",
+          "multilingual",
+          "en",
+          "fr",
+          "de",
+          "es",
+          "pt",
+          "ja",
+          "arxiv:2505.08699",
+          "arxiv:2603.11243",
+          "base_model:ibm-granite/granite-4.0-1b-base",
+          "base_model:finetune:ibm-granite/granite-4.0-1b-base",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "lastModified": "",
+        "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
+      },
+      {
         "id": "Kijai/LTX2.3_comfy",
         "author": "Kijai",
         "likes": 147,
@@ -815,6 +773,48 @@
         "link": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive"
       },
       {
+        "id": "sarvamai/sarvam-30b",
+        "author": "sarvamai",
+        "likes": 159,
+        "downloads": 9492,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "sarvam_moe",
+          "text-generation",
+          "conversational",
+          "custom_code",
+          "en",
+          "hi",
+          "bn",
+          "ta",
+          "te",
+          "mr",
+          "gu",
+          "kn",
+          "ml",
+          "pa",
+          "or",
+          "as",
+          "ur",
+          "sa",
+          "ne",
+          "sd",
+          "kok",
+          "mai",
+          "doi",
+          "mni",
+          "sat",
+          "ks",
+          "bo",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/sarvamai/sarvam-30b"
+      },
+      {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
         "likes": 641,
@@ -835,6 +835,24 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF"
+      },
+      {
+        "id": "dx8152/Flux2-Klein-9B-Consistency",
+        "author": "dx8152",
+        "likes": 105,
+        "downloads": 3994,
+        "tags": [
+          "diffusers",
+          "lora",
+          "image-to-image",
+          "base_model:black-forest-labs/FLUX.2-klein-9B",
+          "base_model:adapter:black-forest-labs/FLUX.2-klein-9B",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/dx8152/Flux2-Klein-9B-Consistency"
       },
       {
         "id": "Qwen/Qwen3.5-4B",
@@ -858,24 +876,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3.5-4B"
-      },
-      {
-        "id": "dx8152/Flux2-Klein-9B-Consistency",
-        "author": "dx8152",
-        "likes": 105,
-        "downloads": 3994,
-        "tags": [
-          "diffusers",
-          "lora",
-          "image-to-image",
-          "base_model:black-forest-labs/FLUX.2-klein-9B",
-          "base_model:adapter:black-forest-labs/FLUX.2-klein-9B",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/dx8152/Flux2-Klein-9B-Consistency"
       },
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.1",
@@ -1039,7 +1039,7 @@
       {
         "id": "markov-ai/computer-use-large",
         "author": "markov-ai",
-        "likes": 41,
+        "likes": 42,
         "downloads": 18189,
         "tags": [
           "task_categories:video-classification",
@@ -1080,7 +1080,7 @@
       {
         "id": "google/WaxalNLP",
         "author": "google",
-        "likes": 191,
+        "likes": 192,
         "downloads": 10642,
         "tags": [
           "task_categories:automatic-speech-recognition",
