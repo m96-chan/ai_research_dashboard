@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-14T03:00:17.180Z",
+  "updatedAt": "2026-03-14T04:00:20.717Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 582,
+        "likes": 591,
         "downloads": 53243,
         "tags": [
           "safetensors",
@@ -35,7 +35,7 @@
       {
         "id": "fishaudio/s2-pro",
         "author": "fishaudio",
-        "likes": 370,
+        "likes": 371,
         "downloads": 3142,
         "tags": [
           "safetensors",
@@ -137,7 +137,7 @@
       {
         "id": "Lightricks/LTX-2.3",
         "author": "Lightricks",
-        "likes": 583,
+        "likes": 586,
         "downloads": 448513,
         "tags": [
           "diffusers",
@@ -260,7 +260,7 @@
       {
         "id": "HumeAI/tada-1b",
         "author": "HumeAI",
-        "likes": 158,
+        "likes": 160,
         "downloads": 6113,
         "tags": [
           "safetensors",
@@ -377,9 +377,39 @@
         "link": "https://huggingface.co/Tesslate/OmniCoder-9B"
       },
       {
+        "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "author": "Jackrong",
+        "likes": 193,
+        "downloads": 117044,
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth",
+          "qwen",
+          "qwen3.5",
+          "reasoning",
+          "chain-of-thought",
+          "Dense",
+          "text-generation",
+          "en",
+          "zh",
+          "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
+          "dataset:Jackrong/Qwen3.5-reasoning-700x",
+          "base_model:Qwen/Qwen3.5-27B",
+          "base_model:quantized:Qwen/Qwen3.5-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+      },
+      {
         "id": "unsloth/LTX-2.3-GGUF",
         "author": "unsloth",
-        "likes": 171,
+        "likes": 172,
         "downloads": 69192,
         "tags": [
           "ggml",
@@ -421,39 +451,9 @@
         "link": "https://huggingface.co/unsloth/LTX-2.3-GGUF"
       },
       {
-        "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-        "author": "Jackrong",
-        "likes": 190,
-        "downloads": 117044,
-        "tags": [
-          "gguf",
-          "qwen3_5",
-          "unsloth",
-          "qwen",
-          "qwen3.5",
-          "reasoning",
-          "chain-of-thought",
-          "Dense",
-          "text-generation",
-          "en",
-          "zh",
-          "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
-          "dataset:Jackrong/Qwen3.5-reasoning-700x",
-          "base_model:Qwen/Qwen3.5-27B",
-          "base_model:quantized:Qwen/Qwen3.5-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
-      },
-      {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
         "author": "nvidia",
-        "likes": 108,
+        "likes": 110,
         "downloads": 55955,
         "tags": [
           "transformers",
@@ -491,7 +491,7 @@
       {
         "id": "unsloth/Qwen3.5-9B-GGUF",
         "author": "unsloth",
-        "likes": 329,
+        "likes": 330,
         "downloads": 826103,
         "tags": [
           "transformers",
@@ -512,7 +512,7 @@
       {
         "id": "sarvamai/sarvam-30b",
         "author": "sarvamai",
-        "likes": 158,
+        "likes": 159,
         "downloads": 9492,
         "tags": [
           "transformers",
@@ -668,7 +668,7 @@
       {
         "id": "LocoreMind/LocoTrainer-4B",
         "author": "LocoreMind",
-        "likes": 99,
+        "likes": 100,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -693,6 +693,36 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/LocoreMind/LocoTrainer-4B"
+      },
+      {
+        "id": "ibm-granite/granite-4.0-1b-speech",
+        "author": "ibm-granite",
+        "likes": 103,
+        "downloads": 11276,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "granite_speech",
+          "automatic-speech-recognition",
+          "multilingual",
+          "en",
+          "fr",
+          "de",
+          "es",
+          "pt",
+          "ja",
+          "arxiv:2505.08699",
+          "arxiv:2603.11243",
+          "base_model:ibm-granite/granite-4.0-1b-base",
+          "base_model:finetune:ibm-granite/granite-4.0-1b-base",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "lastModified": "",
+        "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
       },
       {
         "id": "crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5",
@@ -748,39 +778,9 @@
         "link": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5"
       },
       {
-        "id": "ibm-granite/granite-4.0-1b-speech",
-        "author": "ibm-granite",
-        "likes": 103,
-        "downloads": 11276,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "granite_speech",
-          "automatic-speech-recognition",
-          "multilingual",
-          "en",
-          "fr",
-          "de",
-          "es",
-          "pt",
-          "ja",
-          "arxiv:2505.08699",
-          "arxiv:2603.11243",
-          "base_model:ibm-granite/granite-4.0-1b-base",
-          "base_model:finetune:ibm-granite/granite-4.0-1b-base",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "automatic-speech-recognition",
-        "lastModified": "",
-        "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
-      },
-      {
         "id": "Kijai/LTX2.3_comfy",
         "author": "Kijai",
-        "likes": 146,
+        "likes": 147,
         "downloads": 213990,
         "tags": [
           "diffusion-single-file",
@@ -791,6 +791,28 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/Kijai/LTX2.3_comfy"
+      },
+      {
+        "id": "HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive",
+        "author": "HauhauCS",
+        "likes": 117,
+        "downloads": 64990,
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.5",
+          "qwen",
+          "en",
+          "zh",
+          "multilingual",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive"
       },
       {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
@@ -813,28 +835,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF"
-      },
-      {
-        "id": "HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive",
-        "author": "HauhauCS",
-        "likes": 116,
-        "downloads": 64990,
-        "tags": [
-          "gguf",
-          "uncensored",
-          "qwen3.5",
-          "qwen",
-          "en",
-          "zh",
-          "multilingual",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive"
       },
       {
         "id": "dx8152/Flux2-Klein-9B-Consistency",
@@ -880,7 +880,7 @@
       {
         "id": "FireRedTeam/FireRed-Image-Edit-1.1",
         "author": "FireRedTeam",
-        "likes": 153,
+        "likes": 154,
         "downloads": 2372,
         "tags": [
           "diffusers",
