@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-14T14:00:18.319Z",
+  "updatedAt": "2026-03-14T15:00:20.241Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 625,
+        "likes": 628,
         "downloads": 58809,
         "tags": [
           "safetensors",
@@ -35,7 +35,7 @@
       {
         "id": "fishaudio/s2-pro",
         "author": "fishaudio",
-        "likes": 391,
+        "likes": 397,
         "downloads": 3964,
         "tags": [
           "safetensors",
@@ -137,7 +137,7 @@
       {
         "id": "Lightricks/LTX-2.3",
         "author": "Lightricks",
-        "likes": 597,
+        "likes": 600,
         "downloads": 500610,
         "tags": [
           "diffusers",
@@ -177,7 +177,7 @@
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 809,
+        "likes": 810,
         "downloads": 1827499,
         "tags": [
           "transformers",
@@ -222,7 +222,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
         "author": "nvidia",
-        "likes": 178,
+        "likes": 181,
         "downloads": 13104,
         "tags": [
           "transformers",
@@ -278,6 +278,35 @@
         "link": "https://huggingface.co/HumeAI/tada-1b"
       },
       {
+        "id": "LocoreMind/LocoTrainer-4B",
+        "author": "LocoreMind",
+        "likes": 159,
+        "downloads": 1012,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3",
+          "text-generation",
+          "code",
+          "agent",
+          "tool-calling",
+          "distillation",
+          "ms-swift",
+          "codebase-analysis",
+          "conversational",
+          "en",
+          "base_model:Qwen/Qwen3-4B-Instruct-2507",
+          "base_model:finetune:Qwen/Qwen3-4B-Instruct-2507",
+          "license:mit",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/LocoreMind/LocoTrainer-4B"
+      },
+      {
         "id": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
         "likes": 156,
@@ -303,35 +332,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive"
-      },
-      {
-        "id": "LocoreMind/LocoTrainer-4B",
-        "author": "LocoreMind",
-        "likes": 156,
-        "downloads": 1012,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3",
-          "text-generation",
-          "code",
-          "agent",
-          "tool-calling",
-          "distillation",
-          "ms-swift",
-          "codebase-analysis",
-          "conversational",
-          "en",
-          "base_model:Qwen/Qwen3-4B-Instruct-2507",
-          "base_model:finetune:Qwen/Qwen3-4B-Instruct-2507",
-          "license:mit",
-          "text-generation-inference",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/LocoreMind/LocoTrainer-4B"
       },
       {
         "id": "Tesslate/OmniCoder-9B",
@@ -410,7 +410,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
         "author": "Jackrong",
-        "likes": 197,
+        "likes": 196,
         "downloads": 132412,
         "tags": [
           "gguf",
@@ -440,7 +440,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
         "author": "nvidia",
-        "likes": 117,
+        "likes": 118,
         "downloads": 116992,
         "tags": [
           "transformers",
@@ -478,7 +478,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
         "author": "nvidia",
-        "likes": 113,
+        "likes": 115,
         "downloads": 34937,
         "tags": [
           "transformers",
@@ -506,8 +506,8 @@
           "license:other",
           "endpoints_compatible",
           "modelopt",
-          "region:us",
-          "deploy:azure"
+          "deploy:azure",
+          "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
@@ -566,6 +566,27 @@
         "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
       },
       {
+        "id": "unsloth/Qwen3.5-9B-GGUF",
+        "author": "unsloth",
+        "likes": 332,
+        "downloads": 900532,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.5-9B",
+          "base_model:quantized:Qwen/Qwen3.5-9B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF"
+      },
+      {
         "id": "sarvamai/sarvam-105b",
         "author": "sarvamai",
         "likes": 233,
@@ -608,30 +629,9 @@
         "link": "https://huggingface.co/sarvamai/sarvam-105b"
       },
       {
-        "id": "unsloth/Qwen3.5-9B-GGUF",
-        "author": "unsloth",
-        "likes": 331,
-        "downloads": 900532,
-        "tags": [
-          "transformers",
-          "gguf",
-          "unsloth",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.5-9B",
-          "base_model:quantized:Qwen/Qwen3.5-9B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF"
-      },
-      {
         "id": "RuneXX/LTX-2.3-Workflows",
         "author": "RuneXX",
-        "likes": 116,
+        "likes": 117,
         "downloads": 0,
         "tags": [
           "ltx",
@@ -739,28 +739,6 @@
         "link": "https://huggingface.co/Kijai/LTX2.3_comfy"
       },
       {
-        "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
-        "author": "unsloth",
-        "likes": 642,
-        "downloads": 1548808,
-        "tags": [
-          "gguf",
-          "qwen3_5_moe",
-          "unsloth",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.5-35B-A3B",
-          "base_model:quantized:Qwen/Qwen3.5-35B-A3B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF"
-      },
-      {
         "id": "ibm-granite/granite-4.0-1b-speech",
         "author": "ibm-granite",
         "likes": 106,
@@ -833,9 +811,31 @@
         "link": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive"
       },
       {
+        "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
+        "author": "unsloth",
+        "likes": 642,
+        "downloads": 1548808,
+        "tags": [
+          "gguf",
+          "qwen3_5_moe",
+          "unsloth",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.5-35B-A3B",
+          "base_model:quantized:Qwen/Qwen3.5-35B-A3B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF"
+      },
+      {
         "id": "Qwen/Qwen3.5-4B",
         "author": "Qwen",
-        "likes": 355,
+        "likes": 356,
         "downloads": 930557,
         "tags": [
           "transformers",
@@ -900,7 +900,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.5",
         "author": "MiniMaxAI",
-        "likes": 1181,
+        "likes": 1182,
         "downloads": 505799,
         "tags": [
           "transformers",
@@ -951,7 +951,7 @@
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
-        "likes": 343,
+        "likes": 344,
         "downloads": 4646,
         "tags": [
           "license:apache-2.0",
@@ -970,7 +970,7 @@
       {
         "id": "HuggingFaceFW/finephrase",
         "author": "HuggingFaceFW",
-        "likes": 73,
+        "likes": 74,
         "downloads": 76704,
         "tags": [
           "task_categories:text-generation",
@@ -994,7 +994,7 @@
       {
         "id": "crownelius/Opus-4.6-Reasoning-3300x",
         "author": "crownelius",
-        "likes": 164,
+        "likes": 165,
         "downloads": 2025,
         "tags": [
           "license:apache-2.0",
@@ -1139,6 +1139,34 @@
         "link": "https://huggingface.co/datasets/google/WaxalNLP"
       },
       {
+        "id": "AudioVisual-Caption/ASID-1M",
+        "author": "AudioVisual-Caption",
+        "likes": 70,
+        "downloads": 1948,
+        "tags": [
+          "task_categories:image-text-to-text",
+          "language:en",
+          "license:cc-by-2.0",
+          "size_categories:100K<n<1M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2602.13013",
+          "region:us",
+          "caption",
+          "audiovisual",
+          "instruction-tuning",
+          "attribute-structured",
+          "quality-verified",
+          "video-understanding"
+        ],
+        "lastModified": "2026-03-11T12:26:08.000Z",
+        "link": "https://huggingface.co/datasets/AudioVisual-Caption/ASID-1M"
+      },
+      {
         "id": "ginigen-ai/smol-worldcup",
         "author": "ginigen-ai",
         "likes": 30,
@@ -1179,32 +1207,32 @@
         "link": "https://huggingface.co/datasets/ginigen-ai/smol-worldcup"
       },
       {
-        "id": "AudioVisual-Caption/ASID-1M",
-        "author": "AudioVisual-Caption",
-        "likes": 68,
-        "downloads": 1948,
+        "id": "ronantakizawa/github-codereview",
+        "author": "ronantakizawa",
+        "likes": 35,
+        "downloads": 306,
         "tags": [
-          "task_categories:image-text-to-text",
+          "task_categories:text-generation",
           "language:en",
-          "license:cc-by-2.0",
+          "language:code",
+          "license:other",
           "size_categories:100K<n<1M",
-          "format:json",
+          "format:parquet",
+          "modality:tabular",
           "modality:text",
           "library:datasets",
-          "library:pandas",
+          "library:dask",
           "library:polars",
           "library:mlcroissant",
-          "arxiv:2602.13013",
           "region:us",
-          "caption",
-          "audiovisual",
-          "instruction-tuning",
-          "attribute-structured",
-          "quality-verified",
-          "video-understanding"
+          "code-review",
+          "code-generation",
+          "software-engineering",
+          "pull-requests",
+          "github"
         ],
-        "lastModified": "2026-03-11T12:26:08.000Z",
-        "link": "https://huggingface.co/datasets/AudioVisual-Caption/ASID-1M"
+        "lastModified": "2026-03-10T00:59:34.000Z",
+        "link": "https://huggingface.co/datasets/ronantakizawa/github-codereview"
       },
       {
         "id": "Jackrong/Qwen3.5-reasoning-700x",
@@ -1233,34 +1261,6 @@
         ],
         "lastModified": "2026-03-02T17:44:52.000Z",
         "link": "https://huggingface.co/datasets/Jackrong/Qwen3.5-reasoning-700x"
-      },
-      {
-        "id": "ronantakizawa/github-codereview",
-        "author": "ronantakizawa",
-        "likes": 35,
-        "downloads": 306,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "language:code",
-          "license:other",
-          "size_categories:100K<n<1M",
-          "format:parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "code-review",
-          "code-generation",
-          "software-engineering",
-          "pull-requests",
-          "github"
-        ],
-        "lastModified": "2026-03-10T00:59:34.000Z",
-        "link": "https://huggingface.co/datasets/ronantakizawa/github-codereview"
       },
       {
         "id": "yatin-superintelligence/Edge-Agent-Reasoning-WebSearch-260K",
