@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T00:00:22.103Z",
+  "updatedAt": "2026-03-15T01:00:21.435Z",
   "models": {
     "count": 30,
     "items": [
@@ -35,7 +35,7 @@
       {
         "id": "fishaudio/s2-pro",
         "author": "fishaudio",
-        "likes": 416,
+        "likes": 417,
         "downloads": 3964,
         "tags": [
           "safetensors",
@@ -177,7 +177,7 @@
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 818,
+        "likes": 819,
         "downloads": 1827499,
         "tags": [
           "transformers",
@@ -200,7 +200,7 @@
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 425,
+        "likes": 426,
         "downloads": 202003,
         "tags": [
           "gguf",
@@ -280,7 +280,7 @@
       {
         "id": "Tesslate/OmniCoder-9B",
         "author": "Tesslate",
-        "likes": 164,
+        "likes": 167,
         "downloads": 2079,
         "tags": [
           "transformers",
@@ -310,7 +310,7 @@
       {
         "id": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 163,
+        "likes": 165,
         "downloads": 65894,
         "tags": [
           "gguf",
@@ -362,6 +362,44 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/LocoreMind/LocoTrainer-4B"
+      },
+      {
+        "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+        "author": "nvidia",
+        "likes": 126,
+        "downloads": 34937,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nemotron_h",
+          "text-generation",
+          "nvidia",
+          "pytorch",
+          "nemotron-3",
+          "latent-moe",
+          "mtp",
+          "conversational",
+          "custom_code",
+          "en",
+          "fr",
+          "es",
+          "it",
+          "de",
+          "ja",
+          "zh",
+          "dataset:nvidia/nemotron-post-training-v3",
+          "dataset:nvidia/nemotron-pre-training-datasets",
+          "arxiv:2512.20848",
+          "arxiv:2512.20856",
+          "license:other",
+          "endpoints_compatible",
+          "modelopt",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"
       },
       {
         "id": "unsloth/LTX-2.3-GGUF",
@@ -446,44 +484,6 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4"
       },
       {
-        "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-        "author": "nvidia",
-        "likes": 124,
-        "downloads": 34937,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_h",
-          "text-generation",
-          "nvidia",
-          "pytorch",
-          "nemotron-3",
-          "latent-moe",
-          "mtp",
-          "conversational",
-          "custom_code",
-          "en",
-          "fr",
-          "es",
-          "it",
-          "de",
-          "ja",
-          "zh",
-          "dataset:nvidia/nemotron-post-training-v3",
-          "dataset:nvidia/nemotron-pre-training-datasets",
-          "arxiv:2512.20848",
-          "arxiv:2512.20856",
-          "license:other",
-          "endpoints_compatible",
-          "modelopt",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"
-      },
-      {
         "id": "HumeAI/tada-3b-ml",
         "author": "HumeAI",
         "likes": 111,
@@ -545,7 +545,7 @@
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 1116,
+        "likes": 1118,
         "downloads": 1660118,
         "tags": [
           "transformers",
@@ -564,6 +564,27 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+      },
+      {
+        "id": "unsloth/Qwen3.5-9B-GGUF",
+        "author": "unsloth",
+        "likes": 337,
+        "downloads": 900532,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.5-9B",
+          "base_model:quantized:Qwen/Qwen3.5-9B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF"
       },
       {
         "id": "RuneXX/LTX-2.3-Workflows",
@@ -588,47 +609,6 @@
         "pipeline_tag": "image-to-video",
         "lastModified": "",
         "link": "https://huggingface.co/RuneXX/LTX-2.3-Workflows"
-      },
-      {
-        "id": "unsloth/Qwen3.5-9B-GGUF",
-        "author": "unsloth",
-        "likes": 337,
-        "downloads": 900532,
-        "tags": [
-          "transformers",
-          "gguf",
-          "unsloth",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.5-9B",
-          "base_model:quantized:Qwen/Qwen3.5-9B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF"
-      },
-      {
-        "id": "FireRedTeam/FireRed-Image-Edit-1.1",
-        "author": "FireRedTeam",
-        "likes": 163,
-        "downloads": 2760,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "image-to-image",
-          "en",
-          "zh",
-          "arxiv:2602.13344",
-          "license:apache-2.0",
-          "diffusers:QwenImageEditPlusPipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.1"
       },
       {
         "id": "sarvamai/sarvam-105b",
@@ -673,6 +653,26 @@
         "link": "https://huggingface.co/sarvamai/sarvam-105b"
       },
       {
+        "id": "FireRedTeam/FireRed-Image-Edit-1.1",
+        "author": "FireRedTeam",
+        "likes": 163,
+        "downloads": 2760,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "image-to-image",
+          "en",
+          "zh",
+          "arxiv:2602.13344",
+          "license:apache-2.0",
+          "diffusers:QwenImageEditPlusPipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.1"
+      },
+      {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
         "likes": 652,
@@ -695,24 +695,9 @@
         "link": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF"
       },
       {
-        "id": "Kijai/LTX2.3_comfy",
-        "author": "Kijai",
-        "likes": 151,
-        "downloads": 237953,
-        "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Kijai/LTX2.3_comfy"
-      },
-      {
         "id": "dx8152/Flux2-Klein-9B-Consistency",
         "author": "dx8152",
-        "likes": 114,
+        "likes": 115,
         "downloads": 4728,
         "tags": [
           "diffusers",
@@ -756,6 +741,21 @@
         "pipeline_tag": "automatic-speech-recognition",
         "lastModified": "",
         "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
+      },
+      {
+        "id": "Kijai/LTX2.3_comfy",
+        "author": "Kijai",
+        "likes": 151,
+        "downloads": 237953,
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/Kijai/LTX2.3_comfy"
       },
       {
         "id": "crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5",
@@ -988,7 +988,7 @@
       {
         "id": "markov-ai/computer-use-large",
         "author": "markov-ai",
-        "likes": 52,
+        "likes": 53,
         "downloads": 45637,
         "tags": [
           "task_categories:video-classification",
@@ -1156,7 +1156,7 @@
       {
         "id": "Jackrong/Qwen3.5-reasoning-700x",
         "author": "Jackrong",
-        "likes": 38,
+        "likes": 39,
         "downloads": 690,
         "tags": [
           "task_categories:question-answering",
@@ -1275,6 +1275,27 @@
         "link": "https://huggingface.co/datasets/yatin-superintelligence/Edge-Agent-Reasoning-WebSearch-260K"
       },
       {
+        "id": "stepfun-ai/Step-3.5-Flash-SFT",
+        "author": "stepfun-ai",
+        "likes": 28,
+        "downloads": 0,
+        "tags": [
+          "task_categories:text-generation",
+          "language:multilingual",
+          "license:apache-2.0",
+          "license:cc-by-nc-2.0",
+          "region:us",
+          "chat",
+          "sft",
+          "instruction-tuning",
+          "reasoning",
+          "code",
+          "agent"
+        ],
+        "lastModified": "2026-03-14T14:22:37.000Z",
+        "link": "https://huggingface.co/datasets/stepfun-ai/Step-3.5-Flash-SFT"
+      },
+      {
         "id": "AudioVisual-Caption/ASID-1M",
         "author": "AudioVisual-Caption",
         "likes": 70,
@@ -1301,27 +1322,6 @@
         ],
         "lastModified": "2026-03-11T12:26:08.000Z",
         "link": "https://huggingface.co/datasets/AudioVisual-Caption/ASID-1M"
-      },
-      {
-        "id": "stepfun-ai/Step-3.5-Flash-SFT",
-        "author": "stepfun-ai",
-        "likes": 27,
-        "downloads": 0,
-        "tags": [
-          "task_categories:text-generation",
-          "language:multilingual",
-          "license:apache-2.0",
-          "license:cc-by-nc-2.0",
-          "region:us",
-          "chat",
-          "sft",
-          "instruction-tuning",
-          "reasoning",
-          "code",
-          "agent"
-        ],
-        "lastModified": "2026-03-14T14:22:37.000Z",
-        "link": "https://huggingface.co/datasets/stepfun-ai/Step-3.5-Flash-SFT"
       },
       {
         "id": "FINAL-Bench/ALL-Bench-Leaderboard",
