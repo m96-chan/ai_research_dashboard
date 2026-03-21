@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-21T12:00:18.863Z",
+  "updatedAt": "2026-03-21T13:00:22.766Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 712,
+        "likes": 715,
         "downloads": 249720,
         "tags": [
           "gguf",
@@ -33,7 +33,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 974,
+        "likes": 975,
         "downloads": 129211,
         "tags": [
           "safetensors",
@@ -235,7 +235,7 @@
       {
         "id": "zai-org/GLM-OCR",
         "author": "zai-org",
-        "likes": 1396,
+        "likes": 1398,
         "downloads": 3119740,
         "tags": [
           "transformers",
@@ -264,7 +264,7 @@
       {
         "id": "RoyalCities/Foundation-1",
         "author": "RoyalCities",
-        "likes": 203,
+        "likes": 204,
         "downloads": 0,
         "tags": [
           "audio",
@@ -316,6 +316,28 @@
         "link": "https://huggingface.co/Tesslate/OmniCoder-9B"
       },
       {
+        "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+        "author": "HauhauCS",
+        "likes": 577,
+        "downloads": 335992,
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.5",
+          "qwen",
+          "en",
+          "zh",
+          "multilingual",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive"
+      },
+      {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
         "likes": 960,
@@ -339,26 +361,19 @@
         "link": "https://huggingface.co/Qwen/Qwen3.5-9B"
       },
       {
-        "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
-        "author": "HauhauCS",
-        "likes": 574,
-        "downloads": 335992,
+        "id": "circlestone-labs/Anima",
+        "author": "circlestone-labs",
+        "likes": 906,
+        "downloads": 252350,
         "tags": [
-          "gguf",
-          "uncensored",
-          "qwen3.5",
-          "qwen",
-          "en",
-          "zh",
-          "multilingual",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "diffusion-single-file",
+          "comfyui",
+          "license:other",
+          "region:us"
         ],
         "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive"
+        "link": "https://huggingface.co/circlestone-labs/Anima"
       },
       {
         "id": "mistralai/Leanstral-2603",
@@ -375,19 +390,34 @@
         "link": "https://huggingface.co/mistralai/Leanstral-2603"
       },
       {
-        "id": "circlestone-labs/Anima",
-        "author": "circlestone-labs",
-        "likes": 905,
-        "downloads": 252350,
+        "id": "nvidia/Nemotron-Cascade-2-30B-A3B",
+        "author": "nvidia",
+        "likes": 108,
+        "downloads": 1557,
         "tags": [
-          "diffusion-single-file",
-          "comfyui",
+          "transformers",
+          "safetensors",
+          "nemotron_h",
+          "text-generation",
+          "nvidia",
+          "nemotron-cascade-2",
+          "reasoning",
+          "general-purpose",
+          "SFT",
+          "RL",
+          "conversational",
+          "custom_code",
+          "en",
+          "arxiv:2603.19220",
           "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
           "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/circlestone-labs/Anima"
+        "link": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B"
       },
       {
         "id": "Lightricks/LTX-2.3",
@@ -430,69 +460,9 @@
         "link": "https://huggingface.co/Lightricks/LTX-2.3"
       },
       {
-        "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-        "author": "Jackrong",
-        "likes": 297,
-        "downloads": 413519,
-        "tags": [
-          "gguf",
-          "qwen3_5",
-          "unsloth",
-          "qwen",
-          "qwen3.5",
-          "reasoning",
-          "chain-of-thought",
-          "Dense",
-          "text-generation",
-          "en",
-          "zh",
-          "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
-          "dataset:Jackrong/Qwen3.5-reasoning-700x",
-          "base_model:Qwen/Qwen3.5-27B",
-          "base_model:quantized:Qwen/Qwen3.5-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
-      },
-      {
-        "id": "nvidia/Nemotron-Cascade-2-30B-A3B",
-        "author": "nvidia",
-        "likes": 104,
-        "downloads": 1557,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_h",
-          "text-generation",
-          "nvidia",
-          "nemotron-cascade-2",
-          "reasoning",
-          "general-purpose",
-          "SFT",
-          "RL",
-          "conversational",
-          "custom_code",
-          "en",
-          "arxiv:2603.19220",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B"
-      },
-      {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
         "author": "nvidia",
-        "likes": 277,
+        "likes": 278,
         "downloads": 82669,
         "tags": [
           "transformers",
@@ -526,6 +496,36 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+      },
+      {
+        "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "author": "Jackrong",
+        "likes": 297,
+        "downloads": 413519,
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth",
+          "qwen",
+          "qwen3.5",
+          "reasoning",
+          "chain-of-thought",
+          "Dense",
+          "text-generation",
+          "en",
+          "zh",
+          "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
+          "dataset:Jackrong/Qwen3.5-reasoning-700x",
+          "base_model:Qwen/Qwen3.5-27B",
+          "base_model:quantized:Qwen/Qwen3.5-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
       },
       {
         "id": "Tesslate/OmniCoder-9B-GGUF",
@@ -608,7 +608,7 @@
       {
         "id": "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 193,
+        "likes": 194,
         "downloads": 119073,
         "tags": [
           "gguf",
@@ -699,7 +699,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
         "author": "nvidia",
-        "likes": 185,
+        "likes": 186,
         "downloads": 629612,
         "tags": [
           "transformers",
@@ -737,7 +737,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
         "author": "nvidia",
-        "likes": 177,
+        "likes": 179,
         "downloads": 586472,
         "tags": [
           "transformers",
@@ -797,36 +797,9 @@
         "link": "https://huggingface.co/datalab-to/chandra-ocr-2"
       },
       {
-        "id": "huihui-ai/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated",
-        "author": "huihui-ai",
-        "likes": 63,
-        "downloads": 3811,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "abliterated",
-          "uncensored",
-          "Claude",
-          "reasoning",
-          "chain-of-thought",
-          "Dense",
-          "conversational",
-          "base_model:Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-          "base_model:finetune:Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/huihui-ai/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated"
-      },
-      {
         "id": "ibm-granite/granite-4.0-1b-speech",
         "author": "ibm-granite",
-        "likes": 168,
+        "likes": 169,
         "downloads": 32167,
         "tags": [
           "transformers",
@@ -852,6 +825,33 @@
         "pipeline_tag": "automatic-speech-recognition",
         "lastModified": "",
         "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
+      },
+      {
+        "id": "huihui-ai/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated",
+        "author": "huihui-ai",
+        "likes": 63,
+        "downloads": 3811,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "abliterated",
+          "uncensored",
+          "Claude",
+          "reasoning",
+          "chain-of-thought",
+          "Dense",
+          "conversational",
+          "base_model:Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+          "base_model:finetune:Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/huihui-ai/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated"
       },
       {
         "id": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
@@ -888,7 +888,7 @@
       {
         "id": "mistralai/Mistral-Small-4-119B-2603-NVFP4",
         "author": "mistralai",
-        "likes": 58,
+        "likes": 59,
         "downloads": 1608,
         "tags": [
           "vLLM",
@@ -984,7 +984,7 @@
       {
         "id": "ropedia-ai/xperience-10m",
         "author": "ropedia-ai",
-        "likes": 113,
+        "likes": 114,
         "downloads": 4026,
         "tags": [
           "task_categories:video-classification",
