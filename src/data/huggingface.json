@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-21T23:00:18.415Z",
+  "updatedAt": "2026-03-22T00:00:21.297Z",
   "models": {
     "count": 30,
     "items": [
@@ -33,7 +33,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 994,
+        "likes": 995,
         "downloads": 129211,
         "tags": [
           "safetensors",
@@ -62,7 +62,7 @@
       {
         "id": "fishaudio/s2-pro",
         "author": "fishaudio",
-        "likes": 690,
+        "likes": 691,
         "downloads": 11727,
         "tags": [
           "safetensors",
@@ -235,7 +235,7 @@
       {
         "id": "RoyalCities/Foundation-1",
         "author": "RoyalCities",
-        "likes": 214,
+        "likes": 215,
         "downloads": 0,
         "tags": [
           "audio",
@@ -340,7 +340,7 @@
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 965,
+        "likes": 967,
         "downloads": 3016919,
         "tags": [
           "transformers",
@@ -363,7 +363,7 @@
       {
         "id": "nvidia/Nemotron-Cascade-2-30B-A3B",
         "author": "nvidia",
-        "likes": 142,
+        "likes": 144,
         "downloads": 1557,
         "tags": [
           "transformers",
@@ -515,7 +515,7 @@
       {
         "id": "Tesslate/OmniCoder-9B-GGUF",
         "author": "Tesslate",
-        "likes": 163,
+        "likes": 164,
         "downloads": 47690,
         "tags": [
           "gguf",
@@ -608,7 +608,7 @@
       {
         "id": "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 196,
+        "likes": 197,
         "downloads": 119073,
         "tags": [
           "gguf",
@@ -654,7 +654,7 @@
       {
         "id": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
         "author": "Jackrong",
-        "likes": 71,
+        "likes": 72,
         "downloads": 19216,
         "tags": [
           "gguf",
@@ -707,6 +707,30 @@
         "link": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
       },
       {
+        "id": "datalab-to/chandra-ocr-2",
+        "author": "datalab-to",
+        "likes": 67,
+        "downloads": 3986,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "ocr",
+          "pdf",
+          "markdown",
+          "layout",
+          "conversational",
+          "license:openrail",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/datalab-to/chandra-ocr-2"
+      },
+      {
         "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
         "author": "unsloth",
         "likes": 716,
@@ -729,28 +753,34 @@
         "link": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF"
       },
       {
-        "id": "datalab-to/chandra-ocr-2",
-        "author": "datalab-to",
-        "likes": 66,
-        "downloads": 3986,
+        "id": "ibm-granite/granite-4.0-1b-speech",
+        "author": "ibm-granite",
+        "likes": 171,
+        "downloads": 32167,
         "tags": [
           "transformers",
           "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "ocr",
-          "pdf",
-          "markdown",
-          "layout",
-          "conversational",
-          "license:openrail",
-          "eval-results",
+          "granite_speech",
+          "automatic-speech-recognition",
+          "multilingual",
+          "en",
+          "fr",
+          "de",
+          "es",
+          "pt",
+          "ja",
+          "arxiv:2505.08699",
+          "arxiv:2603.11243",
+          "base_model:ibm-granite/granite-4.0-1b-base",
+          "base_model:finetune:ibm-granite/granite-4.0-1b-base",
+          "license:apache-2.0",
           "endpoints_compatible",
+          "deploy:azure",
           "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "automatic-speech-recognition",
         "lastModified": "",
-        "link": "https://huggingface.co/datalab-to/chandra-ocr-2"
+        "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
@@ -791,34 +821,26 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4"
       },
       {
-        "id": "ibm-granite/granite-4.0-1b-speech",
-        "author": "ibm-granite",
-        "likes": 170,
-        "downloads": 32167,
+        "id": "black-forest-labs/FLUX.2-klein-9b-kv",
+        "author": "black-forest-labs",
+        "likes": 117,
+        "downloads": 7240,
         "tags": [
-          "transformers",
+          "diffusers",
           "safetensors",
-          "granite_speech",
-          "automatic-speech-recognition",
-          "multilingual",
+          "image-generation",
+          "image-editing",
+          "flux",
+          "diffusion-single-file",
+          "image-to-image",
           "en",
-          "fr",
-          "de",
-          "es",
-          "pt",
-          "ja",
-          "arxiv:2505.08699",
-          "arxiv:2603.11243",
-          "base_model:ibm-granite/granite-4.0-1b-base",
-          "base_model:finetune:ibm-granite/granite-4.0-1b-base",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "deploy:azure",
+          "license:other",
+          "diffusers:Flux2KleinPipeline",
           "region:us"
         ],
-        "pipeline_tag": "automatic-speech-recognition",
+        "pipeline_tag": "image-to-image",
         "lastModified": "",
-        "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
+        "link": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9b-kv"
       },
       {
         "id": "mistralai/Mistral-Small-4-119B-2603-NVFP4",
@@ -862,64 +884,29 @@
         "link": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603-NVFP4"
       },
       {
-        "id": "black-forest-labs/FLUX.2-klein-9b-kv",
-        "author": "black-forest-labs",
-        "likes": 115,
-        "downloads": 7240,
+        "id": "Rakuten/RakutenAI-3.0",
+        "author": "Rakuten",
+        "likes": 58,
+        "downloads": 332,
         "tags": [
-          "diffusers",
           "safetensors",
-          "image-generation",
-          "image-editing",
-          "flux",
-          "diffusion-single-file",
-          "image-to-image",
-          "en",
-          "license:other",
-          "diffusers:Flux2KleinPipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9b-kv"
-      },
-      {
-        "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-        "author": "nvidia",
-        "likes": 181,
-        "downloads": 586472,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_h",
+          "deepseek_v3",
+          "RakutenAI",
+          "RakutenAI Large",
+          "RakutenAI-3.0",
+          "DeepSeek-V3",
+          "Mistral",
           "text-generation",
-          "nvidia",
-          "pytorch",
-          "nemotron-3",
-          "latent-moe",
-          "mtp",
           "conversational",
-          "custom_code",
-          "en",
-          "fr",
-          "es",
-          "it",
-          "de",
           "ja",
-          "zh",
-          "dataset:nvidia/nemotron-post-training-v3",
-          "dataset:nvidia/nemotron-pre-training-datasets",
-          "arxiv:2512.20848",
-          "arxiv:2512.20856",
-          "license:other",
-          "endpoints_compatible",
-          "modelopt",
-          "deploy:azure",
+          "en",
+          "license:apache-2.0",
+          "fp8",
           "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"
+        "link": "https://huggingface.co/Rakuten/RakutenAI-3.0"
       }
     ]
   },
