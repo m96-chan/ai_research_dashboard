@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-24T00:00:18.420Z",
+  "updatedAt": "2026-03-24T01:00:19.393Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 849,
+        "likes": 850,
         "downloads": 299865,
         "tags": [
           "gguf",
@@ -89,6 +89,60 @@
         "link": "https://huggingface.co/baidu/Qianfan-OCR"
       },
       {
+        "id": "RoyalCities/Foundation-1",
+        "author": "RoyalCities",
+        "likes": 236,
+        "downloads": 0,
+        "tags": [
+          "audio",
+          "music-generation",
+          "sample-generation",
+          "Music Production",
+          "Audio-to-Audio",
+          "fine-tuning",
+          "stable-audio",
+          "en",
+          "dataset:custom",
+          "base_model:stabilityai/stable-audio-open-1.0",
+          "base_model:finetune:stabilityai/stable-audio-open-1.0",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/RoyalCities/Foundation-1"
+      },
+      {
+        "id": "nvidia/Nemotron-Cascade-2-30B-A3B",
+        "author": "nvidia",
+        "likes": 229,
+        "downloads": 5346,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nemotron_h",
+          "text-generation",
+          "nvidia",
+          "nemotron-cascade-2",
+          "reasoning",
+          "general-purpose",
+          "SFT",
+          "RL",
+          "conversational",
+          "custom_code",
+          "en",
+          "arxiv:2603.19220",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B"
+      },
+      {
         "id": "mistralai/Mistral-Small-4-119B-2603",
         "author": "mistralai",
         "likes": 311,
@@ -129,60 +183,6 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
-      },
-      {
-        "id": "RoyalCities/Foundation-1",
-        "author": "RoyalCities",
-        "likes": 235,
-        "downloads": 0,
-        "tags": [
-          "audio",
-          "music-generation",
-          "sample-generation",
-          "Music Production",
-          "Audio-to-Audio",
-          "fine-tuning",
-          "stable-audio",
-          "en",
-          "dataset:custom",
-          "base_model:stabilityai/stable-audio-open-1.0",
-          "base_model:finetune:stabilityai/stable-audio-open-1.0",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/RoyalCities/Foundation-1"
-      },
-      {
-        "id": "nvidia/Nemotron-Cascade-2-30B-A3B",
-        "author": "nvidia",
-        "likes": 226,
-        "downloads": 5346,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_h",
-          "text-generation",
-          "nvidia",
-          "nemotron-cascade-2",
-          "reasoning",
-          "general-purpose",
-          "SFT",
-          "RL",
-          "conversational",
-          "custom_code",
-          "en",
-          "arxiv:2603.19220",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B"
       },
       {
         "id": "fishaudio/s2-pro",
@@ -318,7 +318,7 @@
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 624,
+        "likes": 625,
         "downloads": 366607,
         "tags": [
           "gguf",
@@ -370,7 +370,7 @@
       {
         "id": "Qwen/Qwen3.5-9B",
         "author": "Qwen",
-        "likes": 983,
+        "likes": 984,
         "downloads": 3278420,
         "tags": [
           "transformers",
@@ -458,7 +458,7 @@
       {
         "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 1232,
+        "likes": 1233,
         "downloads": 2497798,
         "tags": [
           "transformers",
@@ -511,7 +511,7 @@
       {
         "id": "datalab-to/chandra-ocr-2",
         "author": "datalab-to",
-        "likes": 86,
+        "likes": 87,
         "downloads": 6296,
         "tags": [
           "transformers",
@@ -873,34 +873,36 @@
         "link": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo"
       },
       {
-        "id": "ibm-granite/granite-4.0-1b-speech",
-        "author": "ibm-granite",
-        "likes": 178,
-        "downloads": 35391,
+        "id": "rednote-hilab/dots.mocr",
+        "author": "rednote-hilab",
+        "likes": 53,
+        "downloads": 2280,
         "tags": [
-          "transformers",
+          "dots_mocr",
           "safetensors",
-          "granite_speech",
-          "automatic-speech-recognition",
-          "multilingual",
+          "dots_ocr",
+          "text-generation",
+          "image-to-text",
+          "ocr",
+          "document-parse",
+          "layout",
+          "table",
+          "formula",
+          "transformers",
+          "custom_code",
+          "image-text-to-text",
+          "conversational",
           "en",
-          "fr",
-          "de",
-          "es",
-          "pt",
-          "ja",
-          "arxiv:2505.08699",
-          "arxiv:2603.11243",
-          "base_model:ibm-granite/granite-4.0-1b-base",
-          "base_model:finetune:ibm-granite/granite-4.0-1b-base",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "deploy:azure",
+          "zh",
+          "multilingual",
+          "arxiv:2603.13032",
+          "license:mit",
+          "eval-results",
           "region:us"
         ],
-        "pipeline_tag": "automatic-speech-recognition",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech"
+        "link": "https://huggingface.co/rednote-hilab/dots.mocr"
       }
     ]
   },
@@ -931,7 +933,7 @@
           "comments",
           "live-updated"
         ],
-        "lastModified": "2026-03-23T23:55:25.000Z",
+        "lastModified": "2026-03-24T00:55:41.000Z",
         "link": "https://huggingface.co/datasets/open-index/hacker-news"
       },
       {
@@ -1049,7 +1051,7 @@
           "multimodal",
           "annotated"
         ],
-        "lastModified": "2026-03-19T02:49:06.000Z",
+        "lastModified": "2026-03-24T00:27:20.000Z",
         "link": "https://huggingface.co/datasets/bones-studio/seed"
       },
       {
@@ -1358,6 +1360,25 @@
         "link": "https://huggingface.co/datasets/nvidia/Nemotron-Cascade-2-SFT-Data"
       },
       {
+        "id": "OpenSpeechHub/Genshin-Voice-Ja",
+        "author": "OpenSpeechHub",
+        "likes": 21,
+        "downloads": 48,
+        "tags": [
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "modality:audio",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "lastModified": "2025-04-20T05:45:29.000Z",
+        "link": "https://huggingface.co/datasets/OpenSpeechHub/Genshin-Voice-Ja"
+      },
+      {
         "id": "ianncity/Hunter-Alpha-SFT-300000x",
         "author": "ianncity",
         "likes": 27,
@@ -1401,25 +1422,6 @@
         ],
         "lastModified": "2026-03-21T15:03:04.000Z",
         "link": "https://huggingface.co/datasets/purvanshi/lica-data"
-      },
-      {
-        "id": "OpenSpeechHub/Genshin-Voice-Ja",
-        "author": "OpenSpeechHub",
-        "likes": 20,
-        "downloads": 48,
-        "tags": [
-          "size_categories:100K<n<1M",
-          "format:parquet",
-          "modality:audio",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "lastModified": "2025-04-20T05:45:29.000Z",
-        "link": "https://huggingface.co/datasets/OpenSpeechHub/Genshin-Voice-Ja"
       }
     ]
   }
