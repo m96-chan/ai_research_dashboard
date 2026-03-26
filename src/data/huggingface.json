@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-25T23:00:18.269Z",
+  "updatedAt": "2026-03-26T00:00:18.632Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 1287,
+        "likes": 1291,
         "downloads": 173865,
         "tags": [
           "safetensors",
@@ -121,7 +121,7 @@
       {
         "id": "GAIR/daVinci-MagiHuman",
         "author": "GAIR",
-        "likes": 153,
+        "likes": 154,
         "downloads": 150,
         "tags": [
           "safetensors",
@@ -149,10 +149,10 @@
         "link": "https://huggingface.co/GAIR/daVinci-MagiHuman"
       },
       {
-        "id": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
         "author": "Jackrong",
-        "likes": 144,
-        "downloads": 55120,
+        "likes": 402,
+        "downloads": 480176,
         "tags": [
           "gguf",
           "qwen3_5",
@@ -161,17 +161,14 @@
           "qwen3.5",
           "reasoning",
           "chain-of-thought",
-          "lora",
+          "Dense",
           "image-text-to-text",
           "en",
           "zh",
-          "ko",
           "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
           "dataset:Jackrong/Qwen3.5-reasoning-700x",
-          "dataset:Roman1111111/claude-opus-4.6-10000x",
-          "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
-          "base_model:Qwen/Qwen3.5-9B",
-          "base_model:adapter:Qwen/Qwen3.5-9B",
+          "base_model:Qwen/Qwen3.5-27B",
+          "base_model:quantized:Qwen/Qwen3.5-27B",
           "license:apache-2.0",
           "endpoints_compatible",
           "region:us",
@@ -179,7 +176,7 @@
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
+        "link": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
       },
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
@@ -214,10 +211,10 @@
         "link": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
       },
       {
-        "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "id": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
         "author": "Jackrong",
-        "likes": 401,
-        "downloads": 480176,
+        "likes": 144,
+        "downloads": 55120,
         "tags": [
           "gguf",
           "qwen3_5",
@@ -226,14 +223,17 @@
           "qwen3.5",
           "reasoning",
           "chain-of-thought",
-          "Dense",
+          "lora",
           "image-text-to-text",
           "en",
           "zh",
+          "ko",
           "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
           "dataset:Jackrong/Qwen3.5-reasoning-700x",
-          "base_model:Qwen/Qwen3.5-27B",
-          "base_model:quantized:Qwen/Qwen3.5-27B",
+          "dataset:Roman1111111/claude-opus-4.6-10000x",
+          "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
+          "base_model:Qwen/Qwen3.5-9B",
+          "base_model:adapter:Qwen/Qwen3.5-9B",
           "license:apache-2.0",
           "endpoints_compatible",
           "region:us",
@@ -241,7 +241,7 @@
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+        "link": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
       },
       {
         "id": "RoyalCities/Foundation-1",
@@ -322,7 +322,7 @@
       {
         "id": "fishaudio/s2-pro",
         "author": "fishaudio",
-        "likes": 739,
+        "likes": 740,
         "downloads": 14617,
         "tags": [
           "safetensors",
@@ -571,30 +571,6 @@
         "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
       },
       {
-        "id": "datalab-to/chandra-ocr-2",
-        "author": "datalab-to",
-        "likes": 102,
-        "downloads": 11325,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "ocr",
-          "pdf",
-          "markdown",
-          "layout",
-          "conversational",
-          "license:openrail",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/datalab-to/chandra-ocr-2"
-      },
-      {
         "id": "Lightricks/LTX-2.3",
         "author": "Lightricks",
         "likes": 758,
@@ -633,6 +609,30 @@
         "pipeline_tag": "image-to-video",
         "lastModified": "",
         "link": "https://huggingface.co/Lightricks/LTX-2.3"
+      },
+      {
+        "id": "datalab-to/chandra-ocr-2",
+        "author": "datalab-to",
+        "likes": 102,
+        "downloads": 11325,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "ocr",
+          "pdf",
+          "markdown",
+          "layout",
+          "conversational",
+          "license:openrail",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/datalab-to/chandra-ocr-2"
       },
       {
         "id": "rednote-hilab/dots.mocr",
@@ -690,6 +690,38 @@
         "link": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
       },
       {
+        "id": "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "author": "Jackrong",
+        "likes": 67,
+        "downloads": 24127,
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth",
+          "qwen",
+          "qwen3.5",
+          "reasoning",
+          "chain-of-thought",
+          "lora",
+          "image-text-to-text",
+          "en",
+          "zh",
+          "ko",
+          "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
+          "dataset:Jackrong/Qwen3.5-reasoning-700x",
+          "dataset:Roman1111111/claude-opus-4.6-10000x",
+          "base_model:Qwen/Qwen3.5-4B",
+          "base_model:adapter:Qwen/Qwen3.5-4B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
+      },
+      {
         "id": "RuneXX/LTX-2.3-Workflows",
         "author": "RuneXX",
         "likes": 233,
@@ -736,38 +768,6 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/Tesslate/OmniCoder-9B-GGUF"
-      },
-      {
-        "id": "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-        "author": "Jackrong",
-        "likes": 66,
-        "downloads": 24127,
-        "tags": [
-          "gguf",
-          "qwen3_5",
-          "unsloth",
-          "qwen",
-          "qwen3.5",
-          "reasoning",
-          "chain-of-thought",
-          "lora",
-          "image-text-to-text",
-          "en",
-          "zh",
-          "ko",
-          "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
-          "dataset:Jackrong/Qwen3.5-reasoning-700x",
-          "dataset:Roman1111111/claude-opus-4.6-10000x",
-          "base_model:Qwen/Qwen3.5-4B",
-          "base_model:adapter:Qwen/Qwen3.5-4B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
       },
       {
         "id": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
@@ -882,25 +882,27 @@
         "link": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo"
       },
       {
-        "id": "Qwen/Qwen3.5-27B",
-        "author": "Qwen",
-        "likes": 760,
-        "downloads": 2389748,
+        "id": "Alissonerdx/BFS-Best-Face-Swap-Video",
+        "author": "Alissonerdx",
+        "likes": 194,
+        "downloads": 89,
         "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
+          "diffusers",
+          "ltx-2",
+          "ic-lora",
+          "head-swap",
+          "video-to-video",
+          "image-to-video",
+          "bfs",
+          "lora",
+          "base_model:Lightricks/LTX-2",
+          "base_model:adapter:Lightricks/LTX-2",
+          "license:other",
           "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "image-to-video",
         "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-27B"
+        "link": "https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap-Video"
       }
     ]
   },
@@ -930,7 +932,7 @@
       {
         "id": "open-index/hacker-news",
         "author": "open-index",
-        "likes": 189,
+        "likes": 190,
         "downloads": 9333,
         "tags": [
           "task_categories:text-generation",
@@ -952,7 +954,7 @@
           "comments",
           "live-updated"
         ],
-        "lastModified": "2026-03-25T22:55:51.000Z",
+        "lastModified": "2026-03-25T23:56:00.000Z",
         "link": "https://huggingface.co/datasets/open-index/hacker-news"
       },
       {
@@ -1097,6 +1099,25 @@
         "link": "https://huggingface.co/datasets/ServiceNow-AI/eva"
       },
       {
+        "id": "Roman1111111/claude-opus-4.6-10000x",
+        "author": "Roman1111111",
+        "likes": 58,
+        "downloads": 1122,
+        "tags": [
+          "license:mit",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-03-11T16:00:39.000Z",
+        "link": "https://huggingface.co/datasets/Roman1111111/claude-opus-4.6-10000x"
+      },
+      {
         "id": "stepfun-ai/Step-3.5-Flash-SFT",
         "author": "stepfun-ai",
         "likes": 281,
@@ -1117,25 +1138,6 @@
         ],
         "lastModified": "2026-03-14T14:22:37.000Z",
         "link": "https://huggingface.co/datasets/stepfun-ai/Step-3.5-Flash-SFT"
-      },
-      {
-        "id": "Roman1111111/claude-opus-4.6-10000x",
-        "author": "Roman1111111",
-        "likes": 57,
-        "downloads": 1122,
-        "tags": [
-          "license:mit",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-03-11T16:00:39.000Z",
-        "link": "https://huggingface.co/datasets/Roman1111111/claude-opus-4.6-10000x"
       },
       {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
