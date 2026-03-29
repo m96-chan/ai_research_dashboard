@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-03-29T17:00:19.827Z",
+  "updatedAt": "2026-03-29T18:00:19.535Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 1555,
+        "likes": 1558,
         "downloads": 280522,
         "tags": [
           "safetensors",
@@ -63,7 +63,7 @@
       {
         "id": "CohereLabs/cohere-transcribe-03-2026",
         "author": "CohereLabs",
-        "likes": 413,
+        "likes": 422,
         "downloads": 20049,
         "tags": [
           "transformers",
@@ -156,7 +156,7 @@
       {
         "id": "GAIR/daVinci-MagiHuman",
         "author": "GAIR",
-        "likes": 235,
+        "likes": 236,
         "downloads": 466,
         "tags": [
           "safetensors",
@@ -203,7 +203,7 @@
       {
         "id": "nvidia/Nemotron-Cascade-2-30B-A3B",
         "author": "nvidia",
-        "likes": 384,
+        "likes": 388,
         "downloads": 74832,
         "tags": [
           "transformers",
@@ -265,7 +265,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
         "author": "Jackrong",
-        "likes": 473,
+        "likes": 475,
         "downloads": 639881,
         "tags": [
           "gguf",
@@ -339,7 +339,7 @@
       {
         "id": "Lightricks/LTX-2.3",
         "author": "Lightricks",
-        "likes": 825,
+        "likes": 827,
         "downloads": 1369717,
         "tags": [
           "diffusers",
@@ -478,7 +478,7 @@
       {
         "id": "zed-industries/zeta-2",
         "author": "zed-industries",
-        "likes": 74,
+        "likes": 75,
         "downloads": 402,
         "tags": [
           "transformers",
@@ -498,6 +498,27 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/zed-industries/zeta-2"
+      },
+      {
+        "id": "Qwen/Qwen3.5-27B",
+        "author": "Qwen",
+        "likes": 800,
+        "downloads": 2651267,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.5-27B"
       },
       {
         "id": "unsloth/Qwen3.5-27B-GGUF",
@@ -553,16 +574,18 @@
         "link": "https://huggingface.co/nvidia/gpt-oss-puzzle-88B"
       },
       {
-        "id": "Qwen/Qwen3.5-27B",
+        "id": "Qwen/Qwen3.5-35B-A3B",
         "author": "Qwen",
-        "likes": 799,
-        "downloads": 2651267,
+        "likes": 1286,
+        "downloads": 3031012,
         "tags": [
           "transformers",
           "safetensors",
-          "qwen3_5",
+          "qwen3_5_moe",
           "image-text-to-text",
           "conversational",
+          "base_model:Qwen/Qwen3.5-35B-A3B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-35B-A3B-Base",
           "license:apache-2.0",
           "eval-results",
           "endpoints_compatible",
@@ -571,7 +594,36 @@
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-27B"
+        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+      },
+      {
+        "id": "zai-org/GLM-OCR",
+        "author": "zai-org",
+        "likes": 1483,
+        "downloads": 3965327,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_ocr",
+          "image-text-to-text",
+          "image-to-text",
+          "zh",
+          "en",
+          "fr",
+          "es",
+          "ru",
+          "de",
+          "ja",
+          "ko",
+          "arxiv:2603.10910",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/zai-org/GLM-OCR"
       },
       {
         "id": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
@@ -706,58 +758,6 @@
         "link": "https://huggingface.co/fishaudio/s2-pro"
       },
       {
-        "id": "zai-org/GLM-OCR",
-        "author": "zai-org",
-        "likes": 1483,
-        "downloads": 3965327,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "glm_ocr",
-          "image-text-to-text",
-          "image-to-text",
-          "zh",
-          "en",
-          "fr",
-          "es",
-          "ru",
-          "de",
-          "ja",
-          "ko",
-          "arxiv:2603.10910",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/zai-org/GLM-OCR"
-      },
-      {
-        "id": "Qwen/Qwen3.5-35B-A3B",
-        "author": "Qwen",
-        "likes": 1285,
-        "downloads": 3031012,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "conversational",
-          "base_model:Qwen/Qwen3.5-35B-A3B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-35B-A3B-Base",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
-      },
-      {
         "id": "RuneXX/LTX-2.3-Workflows",
         "author": "RuneXX",
         "likes": 269,
@@ -806,28 +806,6 @@
         "link": "https://huggingface.co/RoyalCities/Foundation-1"
       },
       {
-        "id": "Tongyi-MAI/Z-Image-Turbo",
-        "author": "Tongyi-MAI",
-        "likes": 4353,
-        "downloads": 806053,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "text-to-image",
-          "en",
-          "arxiv:2511.22699",
-          "arxiv:2511.22677",
-          "arxiv:2511.13649",
-          "license:apache-2.0",
-          "diffusers:ZImagePipeline",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo"
-      },
-      {
         "id": "kpsss34/FHDR_Uncensored",
         "author": "kpsss34",
         "likes": 264,
@@ -849,6 +827,28 @@
         "pipeline_tag": "text-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/kpsss34/FHDR_Uncensored"
+      },
+      {
+        "id": "Tongyi-MAI/Z-Image-Turbo",
+        "author": "Tongyi-MAI",
+        "likes": 4353,
+        "downloads": 806053,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image",
+          "en",
+          "arxiv:2511.22699",
+          "arxiv:2511.22677",
+          "arxiv:2511.13649",
+          "license:apache-2.0",
+          "diffusers:ZImagePipeline",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo"
       },
       {
         "id": "datalab-to/chandra-ocr-2",
@@ -924,7 +924,7 @@
           "comments",
           "live-updated"
         ],
-        "lastModified": "2026-03-29T16:55:52.000Z",
+        "lastModified": "2026-03-29T17:55:24.000Z",
         "link": "https://huggingface.co/datasets/open-index/hacker-news"
       },
       {
@@ -1169,6 +1169,25 @@
         "link": "https://huggingface.co/datasets/OpenSpeechHub/Genshin-Voice-Ja"
       },
       {
+        "id": "nvidia/Nemotron-Cascade-2-SFT-Data",
+        "author": "nvidia",
+        "likes": 39,
+        "downloads": 9405,
+        "tags": [
+          "license:other",
+          "size_categories:10M<n<100M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-03-19T23:57:48.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Cascade-2-SFT-Data"
+      },
+      {
         "id": "ServiceNow/VideoCUA",
         "author": "ServiceNow",
         "likes": 18,
@@ -1205,23 +1224,26 @@
         "link": "https://huggingface.co/datasets/mercor/APEX-SWE"
       },
       {
-        "id": "nvidia/Nemotron-Cascade-2-SFT-Data",
-        "author": "nvidia",
-        "likes": 38,
-        "downloads": 9405,
+        "id": "stepfun-ai/Step-3.5-Flash-SFT",
+        "author": "stepfun-ai",
+        "likes": 287,
+        "downloads": 49915,
         "tags": [
-          "license:other",
-          "size_categories:10M<n<100M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
+          "task_categories:text-generation",
+          "language:multilingual",
+          "license:apache-2.0",
+          "license:cc-by-nc-2.0",
+          "size_categories:1M<n<10M",
+          "region:us",
+          "chat",
+          "sft",
+          "instruction-tuning",
+          "reasoning",
+          "code",
+          "agent"
         ],
-        "lastModified": "2026-03-19T23:57:48.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Cascade-2-SFT-Data"
+        "lastModified": "2026-03-14T14:22:37.000Z",
+        "link": "https://huggingface.co/datasets/stepfun-ai/Step-3.5-Flash-SFT"
       },
       {
         "id": "zai-org/ZClawBench",
@@ -1313,39 +1335,6 @@
         ],
         "lastModified": "2026-03-29T08:20:14.000Z",
         "link": "https://huggingface.co/datasets/ianncity/KIMI-K2.5-450000x"
-      },
-      {
-        "id": "bones-studio/seed",
-        "author": "bones-studio",
-        "likes": 79,
-        "downloads": 6082,
-        "tags": [
-          "task_categories:robotics",
-          "task_categories:text-to-video",
-          "task_categories:video-text-to-text",
-          "language:en",
-          "license:other",
-          "size_categories:100K<n<1M",
-          "region:us",
-          "motion-capture",
-          "humanoid-robotics",
-          "human-motion",
-          "physical-ai",
-          "whole-body-control",
-          "NVIDIA-SOMA",
-          "Unitree-G1",
-          "BVH",
-          "MuJoCo",
-          "language-to-action",
-          "locomotion",
-          "gesture",
-          "dance",
-          "object-interaction",
-          "multimodal",
-          "annotated"
-        ],
-        "lastModified": "2026-03-26T21:39:52.000Z",
-        "link": "https://huggingface.co/datasets/bones-studio/seed"
       }
     ]
   }
