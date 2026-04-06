@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-06T06:00:24.246Z",
+  "updatedAt": "2026-04-06T07:00:20.423Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "google/gemma-4-31B-it",
         "author": "google",
-        "likes": 1018,
+        "likes": 1024,
         "downloads": 490192,
         "tags": [
           "transformers",
@@ -26,7 +26,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 2354,
+        "likes": 2357,
         "downloads": 539356,
         "tags": [
           "safetensors",
@@ -55,7 +55,7 @@
       {
         "id": "prism-ml/Bonsai-8B-gguf",
         "author": "prism-ml",
-        "likes": 436,
+        "likes": 438,
         "downloads": 38631,
         "tags": [
           "llama.cpp",
@@ -80,7 +80,7 @@
       {
         "id": "google/gemma-4-26B-A4B-it",
         "author": "google",
-        "likes": 405,
+        "likes": 413,
         "downloads": 271222,
         "tags": [
           "transformers",
@@ -96,6 +96,27 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/google/gemma-4-26B-A4B-it"
+      },
+      {
+        "id": "netflix/void-model",
+        "author": "netflix",
+        "likes": 407,
+        "downloads": 0,
+        "tags": [
+          "video-inpainting",
+          "video-editing",
+          "object-removal",
+          "cogvideox",
+          "diffusion",
+          "video-generation",
+          "video-to-video",
+          "arxiv:2604.02296",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "video-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/netflix/void-model"
       },
       {
         "id": "baidu/Qianfan-OCR",
@@ -127,30 +148,9 @@
         "link": "https://huggingface.co/baidu/Qianfan-OCR"
       },
       {
-        "id": "netflix/void-model",
-        "author": "netflix",
-        "likes": 401,
-        "downloads": 0,
-        "tags": [
-          "video-inpainting",
-          "video-editing",
-          "object-removal",
-          "cogvideox",
-          "diffusion",
-          "video-generation",
-          "video-to-video",
-          "arxiv:2604.02296",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "video-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/netflix/void-model"
-      },
-      {
         "id": "google/gemma-4-E4B-it",
         "author": "google",
-        "likes": 362,
+        "likes": 363,
         "downloads": 197704,
         "tags": [
           "transformers",
@@ -209,7 +209,7 @@
       {
         "id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
         "author": "dealignai",
-        "likes": 276,
+        "likes": 288,
         "downloads": 3123,
         "tags": [
           "mlx",
@@ -231,7 +231,7 @@
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 999,
+        "likes": 1000,
         "downloads": 725110,
         "tags": [
           "gguf",
@@ -253,7 +253,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
         "author": "Jackrong",
-        "likes": 512,
+        "likes": 513,
         "downloads": 254428,
         "tags": [
           "gguf",
@@ -285,7 +285,7 @@
       {
         "id": "google/gemma-4-E2B-it",
         "author": "google",
-        "likes": 258,
+        "likes": 260,
         "downloads": 167166,
         "tags": [
           "transformers",
@@ -305,7 +305,7 @@
       {
         "id": "k2-fsa/OmniVoice",
         "author": "k2-fsa",
-        "likes": 254,
+        "likes": 258,
         "downloads": 39852,
         "tags": [
           "safetensors",
@@ -1097,6 +1097,33 @@
         "link": "https://huggingface.co/google/gemma-4-31B"
       },
       {
+        "id": "nvidia/Gemma-4-31B-IT-NVFP4",
+        "author": "nvidia",
+        "likes": 203,
+        "downloads": 85892,
+        "tags": [
+          "Model Optimizer",
+          "safetensors",
+          "gemma4",
+          "nvidia",
+          "ModelOpt",
+          "Gemma-4-31B-IT",
+          "lighthouse",
+          "quantized",
+          "NVFP4",
+          "text-generation",
+          "conversational",
+          "base_model:google/gemma-4-31B-it",
+          "base_model:quantized:google/gemma-4-31B-it",
+          "license:other",
+          "modelopt",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4"
+      },
+      {
         "id": "mistralai/Voxtral-4B-TTS-2603",
         "author": "mistralai",
         "likes": 674,
@@ -1125,36 +1152,9 @@
         "link": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603"
       },
       {
-        "id": "nvidia/Gemma-4-31B-IT-NVFP4",
-        "author": "nvidia",
-        "likes": 203,
-        "downloads": 85892,
-        "tags": [
-          "Model Optimizer",
-          "safetensors",
-          "gemma4",
-          "nvidia",
-          "ModelOpt",
-          "Gemma-4-31B-IT",
-          "lighthouse",
-          "quantized",
-          "NVFP4",
-          "text-generation",
-          "conversational",
-          "base_model:google/gemma-4-31B-it",
-          "base_model:quantized:google/gemma-4-31B-it",
-          "license:other",
-          "modelopt",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4"
-      },
-      {
         "id": "Jackrong/Qwopus3.5-9B-v3-GGUF",
         "author": "Jackrong",
-        "likes": 192,
+        "likes": 193,
         "downloads": 43478,
         "tags": [
           "gguf",
@@ -1208,7 +1208,7 @@
       {
         "id": "Jackrong/Qwopus3.5-27B-v3-GGUF",
         "author": "Jackrong",
-        "likes": 176,
+        "likes": 177,
         "downloads": 37479,
         "tags": [
           "gguf",
@@ -1239,7 +1239,7 @@
       {
         "id": "microsoft/harrier-oss-v1-0.6b",
         "author": "microsoft",
-        "likes": 164,
+        "likes": 165,
         "downloads": 10824,
         "tags": [
           "sentence-transformers",
@@ -1377,27 +1377,9 @@
         "link": "https://huggingface.co/prism-ml/Bonsai-8B-mlx-1bit"
       },
       {
-        "id": "google/gemma-4-26B-A4B",
-        "author": "google",
-        "likes": 145,
-        "downloads": 17463,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4",
-          "image-text-to-text",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-26B-A4B"
-      },
-      {
         "id": "unsloth/gemma-4-E4B-it-GGUF",
         "author": "unsloth",
-        "likes": 145,
+        "likes": 146,
         "downloads": 317335,
         "tags": [
           "gguf",
@@ -1418,6 +1400,24 @@
         "link": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF"
       },
       {
+        "id": "google/gemma-4-26B-A4B",
+        "author": "google",
+        "likes": 145,
+        "downloads": 17463,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4",
+          "image-text-to-text",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-26B-A4B"
+      },
+      {
         "id": "facebook/tribev2",
         "author": "facebook",
         "likes": 307,
@@ -1433,7 +1433,7 @@
       {
         "id": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1189,
+        "likes": 1192,
         "downloads": 688440,
         "tags": [
           "gguf",
@@ -1486,7 +1486,7 @@
       {
         "id": "ianncity/KIMI-K2.5-700000x",
         "author": "ianncity",
-        "likes": 114,
+        "likes": 115,
         "downloads": 755,
         "tags": [
           "task_categories:text-generation",
@@ -1552,7 +1552,7 @@
           "comments",
           "live-updated"
         ],
-        "lastModified": "2026-04-06T06:00:07.000Z",
+        "lastModified": "2026-04-06T07:00:07.000Z",
         "link": "https://huggingface.co/datasets/open-index/hacker-news"
       },
       {
@@ -1577,7 +1577,7 @@
       {
         "id": "Crownelius/Opus-4.6-Reasoning-3300x",
         "author": "Crownelius",
-        "likes": 224,
+        "likes": 225,
         "downloads": 2906,
         "tags": [
           "license:apache-2.0",
@@ -1663,7 +1663,7 @@
       {
         "id": "lambda/hermes-agent-reasoning-traces",
         "author": "lambda",
-        "likes": 24,
+        "likes": 26,
         "downloads": 206,
         "tags": [
           "task_categories:text-generation",
@@ -1692,7 +1692,7 @@
       {
         "id": "robbyant/mdm_depth",
         "author": "robbyant",
-        "likes": 21,
+        "likes": 22,
         "downloads": 29283,
         "tags": [
           "task_categories:depth-estimation",
@@ -1934,7 +1934,7 @@
       {
         "id": "fka/prompts.chat",
         "author": "fka",
-        "likes": 9634,
+        "likes": 9635,
         "downloads": 31909,
         "tags": [
           "task_categories:question-answering",
