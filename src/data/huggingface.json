@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-09T05:00:15.210Z",
+  "updatedAt": "2026-04-09T06:00:18.459Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "google/gemma-4-31B-it",
         "author": "google",
-        "likes": 1482,
+        "likes": 1486,
         "downloads": 1106883,
         "tags": [
           "transformers",
@@ -26,7 +26,7 @@
       {
         "id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
         "author": "dealignai",
-        "likes": 803,
+        "likes": 806,
         "downloads": 44246,
         "tags": [
           "mlx",
@@ -48,7 +48,7 @@
       {
         "id": "zai-org/GLM-5.1",
         "author": "zai-org",
-        "likes": 763,
+        "likes": 766,
         "downloads": 1300,
         "tags": [
           "transformers",
@@ -71,7 +71,7 @@
       {
         "id": "netflix/void-model",
         "author": "netflix",
-        "likes": 651,
+        "likes": 654,
         "downloads": 0,
         "tags": [
           "video-inpainting",
@@ -92,7 +92,7 @@
       {
         "id": "google/gemma-4-26B-A4B-it",
         "author": "google",
-        "likes": 544,
+        "likes": 547,
         "downloads": 835825,
         "tags": [
           "transformers",
@@ -112,7 +112,7 @@
       {
         "id": "google/gemma-4-E4B-it",
         "author": "google",
-        "likes": 514,
+        "likes": 515,
         "downloads": 622963,
         "tags": [
           "transformers",
@@ -132,7 +132,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 2513,
+        "likes": 2514,
         "downloads": 560798,
         "tags": [
           "safetensors",
@@ -161,7 +161,7 @@
       {
         "id": "openbmb/VoxCPM2",
         "author": "openbmb",
-        "likes": 473,
+        "likes": 475,
         "downloads": 605,
         "tags": [
           "voxcpm",
@@ -214,7 +214,7 @@
       {
         "id": "k2-fsa/OmniVoice",
         "author": "k2-fsa",
-        "likes": 401,
+        "likes": 405,
         "downloads": 144864,
         "tags": [
           "safetensors",
@@ -883,7 +883,7 @@
       {
         "id": "google/gemma-4-E2B-it",
         "author": "google",
-        "likes": 365,
+        "likes": 367,
         "downloads": 411499,
         "tags": [
           "transformers",
@@ -956,7 +956,7 @@
       {
         "id": "nvidia/Gemma-4-31B-IT-NVFP4",
         "author": "nvidia",
-        "likes": 311,
+        "likes": 312,
         "downloads": 291523,
         "tags": [
           "Model Optimizer",
@@ -983,7 +983,7 @@
       {
         "id": "prism-ml/Bonsai-8B-gguf",
         "author": "prism-ml",
-        "likes": 522,
+        "likes": 524,
         "downloads": 59633,
         "tags": [
           "llama.cpp",
@@ -1100,7 +1100,7 @@
       {
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 208,
+        "likes": 211,
         "downloads": 193995,
         "tags": [
           "gguf",
@@ -1126,7 +1126,7 @@
       {
         "id": "unsloth/gemma-4-E4B-it-GGUF",
         "author": "unsloth",
-        "likes": 197,
+        "likes": 198,
         "downloads": 634015,
         "tags": [
           "gguf",
@@ -1206,9 +1206,28 @@
         "link": "https://huggingface.co/google/gemma-4-E2B"
       },
       {
+        "id": "google/gemma-4-E4B",
+        "author": "google",
+        "likes": 143,
+        "downloads": 31763,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4",
+          "image-text-to-text",
+          "any-to-any",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-E4B"
+      },
+      {
         "id": "Jackrong/Qwopus3.5-27B-v3",
         "author": "Jackrong",
-        "likes": 155,
+        "likes": 156,
         "downloads": 11903,
         "tags": [
           "safetensors",
@@ -1237,23 +1256,31 @@
         "link": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3"
       },
       {
-        "id": "google/gemma-4-E4B",
-        "author": "google",
-        "likes": 142,
-        "downloads": 31763,
+        "id": "kai-os/gemma4-31b-Opus-4.6-reasoning",
+        "author": "kai-os",
+        "likes": 137,
+        "downloads": 256,
         "tags": [
-          "transformers",
+          "peft",
           "safetensors",
-          "gemma4",
-          "image-text-to-text",
-          "any-to-any",
+          "gemma",
+          "gemma-4",
+          "reasoning",
+          "opus",
+          "qlora",
+          "lora",
+          "text-generation",
+          "conversational",
+          "en",
+          "dataset:Crownelius/Opus-4.6-Reasoning-2100x-formatted",
+          "base_model:google/gemma-4-31B-it",
+          "base_model:adapter:google/gemma-4-31B-it",
           "license:apache-2.0",
-          "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "any-to-any",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-E4B"
+        "link": "https://huggingface.co/kai-os/gemma4-31b-Opus-4.6-reasoning"
       },
       {
         "id": "CohereLabs/cohere-transcribe-03-2026",
@@ -1323,33 +1350,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF"
-      },
-      {
-        "id": "kai-os/gemma4-31b-Opus-4.6-reasoning",
-        "author": "kai-os",
-        "likes": 135,
-        "downloads": 256,
-        "tags": [
-          "peft",
-          "safetensors",
-          "gemma",
-          "gemma-4",
-          "reasoning",
-          "opus",
-          "qlora",
-          "lora",
-          "text-generation",
-          "conversational",
-          "en",
-          "dataset:Crownelius/Opus-4.6-Reasoning-2100x-formatted",
-          "base_model:google/gemma-4-31B-it",
-          "base_model:adapter:google/gemma-4-31B-it",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/kai-os/gemma4-31b-Opus-4.6-reasoning"
       },
       {
         "id": "kai-os/Carnice-9b",
@@ -1512,8 +1512,27 @@
           "comments",
           "live-updated"
         ],
-        "lastModified": "2026-04-09T04:55:28.000Z",
+        "lastModified": "2026-04-09T05:55:19.000Z",
         "link": "https://huggingface.co/datasets/open-index/hacker-news"
+      },
+      {
+        "id": "Roman1111111/claude-opus-4.6-10000x",
+        "author": "Roman1111111",
+        "likes": 127,
+        "downloads": 3147,
+        "tags": [
+          "license:mit",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-04-05T13:42:24.000Z",
+        "link": "https://huggingface.co/datasets/Roman1111111/claude-opus-4.6-10000x"
       },
       {
         "id": "Crownelius/Opus-4.6-Reasoning-3300x",
@@ -1533,25 +1552,6 @@
         ],
         "lastModified": "2026-03-15T07:02:24.000Z",
         "link": "https://huggingface.co/datasets/Crownelius/Opus-4.6-Reasoning-3300x"
-      },
-      {
-        "id": "Roman1111111/claude-opus-4.6-10000x",
-        "author": "Roman1111111",
-        "likes": 125,
-        "downloads": 3147,
-        "tags": [
-          "license:mit",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-04-05T13:42:24.000Z",
-        "link": "https://huggingface.co/datasets/Roman1111111/claude-opus-4.6-10000x"
       },
       {
         "id": "badlogicgames/pi-mono",
