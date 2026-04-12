@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-12T22:00:16.160Z",
+  "updatedAt": "2026-04-12T23:00:20.144Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "zai-org/GLM-5.1",
         "author": "zai-org",
-        "likes": 1057,
+        "likes": 1059,
         "downloads": 28826,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "google/gemma-4-31B-it",
         "author": "google",
-        "likes": 1770,
+        "likes": 1772,
         "downloads": 2242541,
         "tags": [
           "transformers",
@@ -71,7 +71,7 @@
       {
         "id": "openbmb/VoxCPM2",
         "author": "openbmb",
-        "likes": 740,
+        "likes": 741,
         "downloads": 7452,
         "tags": [
           "voxcpm",
@@ -124,7 +124,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.7",
         "author": "MiniMaxAI",
-        "likes": 443,
+        "likes": 449,
         "downloads": 873,
         "tags": [
           "transformers",
@@ -167,7 +167,7 @@
       {
         "id": "k2-fsa/OmniVoice",
         "author": "k2-fsa",
-        "likes": 520,
+        "likes": 521,
         "downloads": 393991,
         "tags": [
           "omnivoice",
@@ -836,7 +836,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 2596,
+        "likes": 2597,
         "downloads": 578295,
         "tags": [
           "safetensors",
@@ -865,7 +865,7 @@
       {
         "id": "google/gemma-4-E4B-it",
         "author": "google",
-        "likes": 604,
+        "likes": 606,
         "downloads": 1269309,
         "tags": [
           "transformers",
@@ -885,7 +885,7 @@
       {
         "id": "google/gemma-4-26B-A4B-it",
         "author": "google",
-        "likes": 619,
+        "likes": 620,
         "downloads": 1734340,
         "tags": [
           "transformers",
@@ -905,7 +905,7 @@
       {
         "id": "unsloth/gemma-4-26B-A4B-it-GGUF",
         "author": "unsloth",
-        "likes": 435,
+        "likes": 439,
         "downloads": 1676935,
         "tags": [
           "gguf",
@@ -958,7 +958,7 @@
       {
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 277,
+        "likes": 278,
         "downloads": 432494,
         "tags": [
           "gguf",
@@ -984,7 +984,7 @@
       {
         "id": "LilaRest/gemma-4-31B-it-NVFP4-turbo",
         "author": "LilaRest",
-        "likes": 168,
+        "likes": 169,
         "downloads": 21636,
         "tags": [
           "transformers",
@@ -1014,7 +1014,7 @@
       {
         "id": "google/gemma-4-E2B-it",
         "author": "google",
-        "likes": 412,
+        "likes": 413,
         "downloads": 857206,
         "tags": [
           "transformers",
@@ -1281,7 +1281,7 @@
       {
         "id": "unsloth/gemma-4-E4B-it-GGUF",
         "author": "unsloth",
-        "likes": 242,
+        "likes": 243,
         "downloads": 1030765,
         "tags": [
           "gguf",
@@ -1304,7 +1304,7 @@
       {
         "id": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1267,
+        "likes": 1268,
         "downloads": 1017946,
         "tags": [
           "gguf",
@@ -1391,31 +1391,68 @@
         "link": "https://huggingface.co/black-forest-labs/FLUX.2-small-decoder"
       },
       {
-        "id": "douyamv/Gemma-4-31B-JANG_4M-CRACK-GGUF",
-        "author": "douyamv",
+        "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "author": "Jiunsong",
         "likes": 77,
-        "downloads": 63238,
+        "downloads": 3550,
         "tags": [
           "gguf",
           "gemma4",
-          "quantized",
-          "31b",
+          "uncensored",
+          "fast",
+          "llama.cpp",
+          "apple-silicon",
+          "conversational",
+          "korean",
+          "coding",
+          "tool-use",
           "text-generation",
           "en",
+          "ko",
+          "base_model:google/gemma-4-26B-A4B-it",
+          "base_model:quantized:google/gemma-4-26B-A4B-it",
           "license:gemma",
           "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/douyamv/Gemma-4-31B-JANG_4M-CRACK-GGUF"
+        "link": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2"
       }
     ]
   },
   "datasets": {
     "count": 20,
     "items": [
+      {
+        "id": "lambda/hermes-agent-reasoning-traces",
+        "author": "lambda",
+        "likes": 99,
+        "downloads": 1038,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "tool-calling",
+          "function-calling",
+          "agent",
+          "hermes",
+          "reasoning",
+          "sharegpt",
+          "sft"
+        ],
+        "lastModified": "2026-04-07T16:36:47.000Z",
+        "link": "https://huggingface.co/datasets/lambda/hermes-agent-reasoning-traces"
+      },
       {
         "id": "ianncity/KIMI-K2.5-1000000x",
         "author": "ianncity",
@@ -1441,35 +1478,6 @@
         ],
         "lastModified": "2026-04-07T02:04:22.000Z",
         "link": "https://huggingface.co/datasets/ianncity/KIMI-K2.5-1000000x"
-      },
-      {
-        "id": "lambda/hermes-agent-reasoning-traces",
-        "author": "lambda",
-        "likes": 98,
-        "downloads": 1038,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "tool-calling",
-          "function-calling",
-          "agent",
-          "hermes",
-          "reasoning",
-          "sharegpt",
-          "sft"
-        ],
-        "lastModified": "2026-04-07T16:36:47.000Z",
-        "link": "https://huggingface.co/datasets/lambda/hermes-agent-reasoning-traces"
       },
       {
         "id": "badlogicgames/pi-mono",
@@ -1640,7 +1648,7 @@
           "comments",
           "live-updated"
         ],
-        "lastModified": "2026-04-12T21:55:22.000Z",
+        "lastModified": "2026-04-12T22:55:29.000Z",
         "link": "https://huggingface.co/datasets/open-index/hacker-news"
       },
       {
@@ -1766,28 +1774,6 @@
         ],
         "lastModified": "2026-04-08T18:56:54.000Z",
         "link": "https://huggingface.co/datasets/microsoft/OpenMementos"
-      },
-      {
-        "id": "roneneldan/TinyStories",
-        "author": "roneneldan",
-        "likes": 950,
-        "downloads": 96224,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:cdla-sharing-1.0",
-          "size_categories:1M<n<10M",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2305.07759",
-          "region:us"
-        ],
-        "lastModified": "2024-08-12T13:27:26.000Z",
-        "link": "https://huggingface.co/datasets/roneneldan/TinyStories"
       },
       {
         "id": "Crownelius/Opus-4.6-Reasoning-2100x-formatted",
@@ -2181,6 +2167,28 @@
         ],
         "lastModified": "2026-03-23T10:18:13.000Z",
         "link": "https://huggingface.co/datasets/openai/gsm8k"
+      },
+      {
+        "id": "roneneldan/TinyStories",
+        "author": "roneneldan",
+        "likes": 950,
+        "downloads": 96224,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:cdla-sharing-1.0",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2305.07759",
+          "region:us"
+        ],
+        "lastModified": "2024-08-12T13:27:26.000Z",
+        "link": "https://huggingface.co/datasets/roneneldan/TinyStories"
       },
       {
         "id": "stepfun-ai/Step-3.5-Flash-SFT",
