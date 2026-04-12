@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-12T18:00:20.087Z",
+  "updatedAt": "2026-04-12T19:00:18.283Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "zai-org/GLM-5.1",
         "author": "zai-org",
-        "likes": 1042,
+        "likes": 1046,
         "downloads": 28826,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "google/gemma-4-31B-it",
         "author": "google",
-        "likes": 1760,
+        "likes": 1761,
         "downloads": 2242541,
         "tags": [
           "transformers",
@@ -49,7 +49,7 @@
       {
         "id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
         "author": "dealignai",
-        "likes": 952,
+        "likes": 955,
         "downloads": 99134,
         "tags": [
           "mlx",
@@ -71,7 +71,7 @@
       {
         "id": "openbmb/VoxCPM2",
         "author": "openbmb",
-        "likes": 732,
+        "likes": 734,
         "downloads": 7452,
         "tags": [
           "voxcpm",
@@ -124,7 +124,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.7",
         "author": "MiniMaxAI",
-        "likes": 406,
+        "likes": 421,
         "downloads": 873,
         "tags": [
           "transformers",
@@ -146,7 +146,7 @@
       {
         "id": "netflix/void-model",
         "author": "netflix",
-        "likes": 772,
+        "likes": 774,
         "downloads": 0,
         "tags": [
           "video-inpainting",
@@ -167,7 +167,7 @@
       {
         "id": "k2-fsa/OmniVoice",
         "author": "k2-fsa",
-        "likes": 514,
+        "likes": 515,
         "downloads": 393991,
         "tags": [
           "omnivoice",
@@ -836,7 +836,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 2593,
+        "likes": 2595,
         "downloads": 578295,
         "tags": [
           "safetensors",
@@ -905,7 +905,7 @@
       {
         "id": "unsloth/gemma-4-26B-A4B-it-GGUF",
         "author": "unsloth",
-        "likes": 429,
+        "likes": 431,
         "downloads": 1676935,
         "tags": [
           "gguf",
@@ -1009,6 +1009,26 @@
         "link": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4"
       },
       {
+        "id": "google/gemma-4-E2B-it",
+        "author": "google",
+        "likes": 409,
+        "downloads": 857206,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4",
+          "image-text-to-text",
+          "any-to-any",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-E2B-it"
+      },
+      {
         "id": "LilaRest/gemma-4-31B-it-NVFP4-turbo",
         "author": "LilaRest",
         "likes": 167,
@@ -1037,26 +1057,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/LilaRest/gemma-4-31B-it-NVFP4-turbo"
-      },
-      {
-        "id": "google/gemma-4-E2B-it",
-        "author": "google",
-        "likes": 408,
-        "downloads": 857206,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4",
-          "image-text-to-text",
-          "any-to-any",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-E2B-it"
       },
       {
         "id": "prism-ml/Bonsai-8B-gguf",
@@ -1114,7 +1114,7 @@
       {
         "id": "unsloth/GLM-5.1-GGUF",
         "author": "unsloth",
-        "likes": 122,
+        "likes": 123,
         "downloads": 25680,
         "tags": [
           "transformers",
@@ -1187,9 +1187,46 @@
         "link": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B"
       },
       {
+        "id": "LiquidAI/LFM2.5-VL-450M",
+        "author": "LiquidAI",
+        "likes": 111,
+        "downloads": 6004,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm2_vl",
+          "image-text-to-text",
+          "liquid",
+          "lfm2",
+          "lfm2-vl",
+          "edge",
+          "lfm2.5-vl",
+          "lfm2.5",
+          "conversational",
+          "en",
+          "ja",
+          "ko",
+          "fr",
+          "es",
+          "de",
+          "ar",
+          "zh",
+          "pt",
+          "arxiv:2511.23404",
+          "base_model:LiquidAI/LFM2.5-350M",
+          "base_model:finetune:LiquidAI/LFM2.5-350M",
+          "license:other",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M"
+      },
+      {
         "id": "unsloth/gemma-4-31B-it-GGUF",
         "author": "unsloth",
-        "likes": 286,
+        "likes": 287,
         "downloads": 1102673,
         "tags": [
           "gguf",
@@ -1242,43 +1279,6 @@
         "link": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF"
       },
       {
-        "id": "LiquidAI/LFM2.5-VL-450M",
-        "author": "LiquidAI",
-        "likes": 109,
-        "downloads": 6004,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "lfm2_vl",
-          "image-text-to-text",
-          "liquid",
-          "lfm2",
-          "lfm2-vl",
-          "edge",
-          "lfm2.5-vl",
-          "lfm2.5",
-          "conversational",
-          "en",
-          "ja",
-          "ko",
-          "fr",
-          "es",
-          "de",
-          "ar",
-          "zh",
-          "pt",
-          "arxiv:2511.23404",
-          "base_model:LiquidAI/LFM2.5-350M",
-          "base_model:finetune:LiquidAI/LFM2.5-350M",
-          "license:other",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M"
-      },
-      {
         "id": "unsloth/gemma-4-E4B-it-GGUF",
         "author": "unsloth",
         "likes": 239,
@@ -1329,27 +1329,9 @@
         "link": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive"
       },
       {
-        "id": "google/gemma-4-31B",
-        "author": "google",
-        "likes": 281,
-        "downloads": 183584,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4",
-          "image-text-to-text",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-31B"
-      },
-      {
         "id": "ACE-Step/acestep-v15-xl-turbo",
         "author": "ACE-Step",
-        "likes": 81,
+        "likes": 82,
         "downloads": 2849,
         "tags": [
           "transformers",
@@ -1370,34 +1352,43 @@
         "link": "https://huggingface.co/ACE-Step/acestep-v15-xl-turbo"
       },
       {
-        "id": "Jackrong/Qwopus3.5-9B-v3-GGUF",
-        "author": "Jackrong",
-        "likes": 258,
-        "downloads": 104647,
+        "id": "google/gemma-4-31B",
+        "author": "google",
+        "likes": 281,
+        "downloads": 183584,
         "tags": [
-          "gguf",
-          "qwen3_5",
-          "unsloth",
-          "qwen",
-          "qwen3.5",
-          "reasoning",
-          "chain-of-thought",
-          "lora",
-          "competitive-programming",
+          "transformers",
+          "safetensors",
+          "gemma4",
           "image-text-to-text",
-          "en",
-          "zh",
-          "ko",
-          "base_model:unsloth/Qwen3.5-9B",
-          "base_model:adapter:unsloth/Qwen3.5-9B",
           "license:apache-2.0",
           "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "region:us"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF"
+        "link": "https://huggingface.co/google/gemma-4-31B"
+      },
+      {
+        "id": "black-forest-labs/FLUX.2-small-decoder",
+        "author": "black-forest-labs",
+        "likes": 75,
+        "downloads": 5023,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image",
+          "image-editing",
+          "flux",
+          "diffusion-single-file",
+          "image-to-image",
+          "en",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/black-forest-labs/FLUX.2-small-decoder"
       },
       {
         "id": "douyamv/Gemma-4-31B-JANG_4M-CRACK-GGUF",
@@ -1603,31 +1594,9 @@
         "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles"
       },
       {
-        "id": "hysong/MentalBench",
-        "author": "hysong",
-        "likes": 26,
-        "downloads": 81,
-        "tags": [
-          "task_categories:question-answering",
-          "language:en",
-          "size_categories:10K<n<100K",
-          "format:csv",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2602.12871",
-          "region:us",
-          "medical"
-        ],
-        "lastModified": "2026-04-06T06:36:57.000Z",
-        "link": "https://huggingface.co/datasets/hysong/MentalBench"
-      },
-      {
         "id": "open-index/hacker-news",
         "author": "open-index",
-        "likes": 293,
+        "likes": 294,
         "downloads": 26025,
         "tags": [
           "task_categories:text-generation",
@@ -1649,8 +1618,30 @@
           "comments",
           "live-updated"
         ],
-        "lastModified": "2026-04-12T17:55:28.000Z",
+        "lastModified": "2026-04-12T18:55:32.000Z",
         "link": "https://huggingface.co/datasets/open-index/hacker-news"
+      },
+      {
+        "id": "hysong/MentalBench",
+        "author": "hysong",
+        "likes": 26,
+        "downloads": 81,
+        "tags": [
+          "task_categories:question-answering",
+          "language:en",
+          "size_categories:10K<n<100K",
+          "format:csv",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2602.12871",
+          "region:us",
+          "medical"
+        ],
+        "lastModified": "2026-04-06T06:36:57.000Z",
+        "link": "https://huggingface.co/datasets/hysong/MentalBench"
       },
       {
         "id": "Roman1111111/gpt-5.4-step-by-step-reasoning",
@@ -2170,6 +2161,28 @@
         "link": "https://huggingface.co/datasets/openai/gsm8k"
       },
       {
+        "id": "roneneldan/TinyStories",
+        "author": "roneneldan",
+        "likes": 949,
+        "downloads": 96224,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:cdla-sharing-1.0",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2305.07759",
+          "region:us"
+        ],
+        "lastModified": "2024-08-12T13:27:26.000Z",
+        "link": "https://huggingface.co/datasets/roneneldan/TinyStories"
+      },
+      {
         "id": "stepfun-ai/Step-3.5-Flash-SFT",
         "author": "stepfun-ai",
         "likes": 313,
@@ -2190,28 +2203,6 @@
         ],
         "lastModified": "2026-03-14T14:22:37.000Z",
         "link": "https://huggingface.co/datasets/stepfun-ai/Step-3.5-Flash-SFT"
-      },
-      {
-        "id": "roneneldan/TinyStories",
-        "author": "roneneldan",
-        "likes": 948,
-        "downloads": 96224,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:cdla-sharing-1.0",
-          "size_categories:1M<n<10M",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2305.07759",
-          "region:us"
-        ],
-        "lastModified": "2024-08-12T13:27:26.000Z",
-        "link": "https://huggingface.co/datasets/roneneldan/TinyStories"
       }
     ]
   }
