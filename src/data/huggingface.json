@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-13T23:00:16.262Z",
+  "updatedAt": "2026-04-14T00:00:19.230Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "zai-org/GLM-5.1",
         "author": "zai-org",
-        "likes": 1138,
+        "likes": 1142,
         "downloads": 35906,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "openbmb/VoxCPM2",
         "author": "openbmb",
-        "likes": 813,
+        "likes": 814,
         "downloads": 9301,
         "tags": [
           "voxcpm",
@@ -82,7 +82,7 @@
       {
         "id": "google/gemma-4-31B-it",
         "author": "google",
-        "likes": 1834,
+        "likes": 1837,
         "downloads": 2439350,
         "tags": [
           "transformers",
@@ -102,7 +102,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.7",
         "author": "MiniMaxAI",
-        "likes": 630,
+        "likes": 633,
         "downloads": 18279,
         "tags": [
           "transformers",
@@ -124,7 +124,7 @@
       {
         "id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
         "author": "dealignai",
-        "likes": 1011,
+        "likes": 1013,
         "downloads": 107378,
         "tags": [
           "mlx",
@@ -146,7 +146,7 @@
       {
         "id": "netflix/void-model",
         "author": "netflix",
-        "likes": 792,
+        "likes": 793,
         "downloads": 0,
         "tags": [
           "video-inpainting",
@@ -836,7 +836,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 2617,
+        "likes": 2619,
         "downloads": 585351,
         "tags": [
           "safetensors",
@@ -915,7 +915,7 @@
       {
         "id": "google/gemma-4-26B-A4B-it",
         "author": "google",
-        "likes": 635,
+        "likes": 637,
         "downloads": 1913569,
         "tags": [
           "transformers",
@@ -935,7 +935,7 @@
       {
         "id": "unsloth/gemma-4-26B-A4B-it-GGUF",
         "author": "unsloth",
-        "likes": 454,
+        "likes": 455,
         "downloads": 1803416,
         "tags": [
           "gguf",
@@ -959,7 +959,7 @@
       {
         "id": "tencent/HY-Embodied-0.5",
         "author": "tencent",
-        "likes": 166,
+        "likes": 167,
         "downloads": 642,
         "tags": [
           "transformers",
@@ -987,7 +987,7 @@
       {
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 292,
+        "likes": 293,
         "downloads": 486019,
         "tags": [
           "gguf",
@@ -1011,24 +1011,33 @@
         "link": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive"
       },
       {
-        "id": "google/gemma-4-E2B-it",
-        "author": "google",
-        "likes": 421,
-        "downloads": 952048,
+        "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "author": "Jiunsong",
+        "likes": 141,
+        "downloads": 7307,
         "tags": [
-          "transformers",
-          "safetensors",
+          "gguf",
           "gemma4",
-          "image-text-to-text",
-          "any-to-any",
-          "license:apache-2.0",
-          "eval-results",
+          "uncensored",
+          "fast",
+          "llama.cpp",
+          "apple-silicon",
+          "conversational",
+          "korean",
+          "coding",
+          "tool-use",
+          "text-generation",
+          "en",
+          "ko",
+          "base_model:google/gemma-4-26B-A4B-it",
+          "base_model:quantized:google/gemma-4-26B-A4B-it",
+          "license:gemma",
           "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "any-to-any",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-E2B-it"
+        "link": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2"
       },
       {
         "id": "unsloth/GLM-5.1-GGUF",
@@ -1056,9 +1065,29 @@
         "link": "https://huggingface.co/unsloth/GLM-5.1-GGUF"
       },
       {
+        "id": "google/gemma-4-E2B-it",
+        "author": "google",
+        "likes": 421,
+        "downloads": 952048,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4",
+          "image-text-to-text",
+          "any-to-any",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-E2B-it"
+      },
+      {
         "id": "nvidia/Gemma-4-31B-IT-NVFP4",
         "author": "nvidia",
-        "likes": 369,
+        "likes": 371,
         "downloads": 757154,
         "tags": [
           "Model Optimizer",
@@ -1081,35 +1110,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4"
-      },
-      {
-        "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
-        "author": "Jiunsong",
-        "likes": 131,
-        "downloads": 7307,
-        "tags": [
-          "gguf",
-          "gemma4",
-          "uncensored",
-          "fast",
-          "llama.cpp",
-          "apple-silicon",
-          "conversational",
-          "korean",
-          "coding",
-          "tool-use",
-          "text-generation",
-          "en",
-          "ko",
-          "base_model:google/gemma-4-26B-A4B-it",
-          "base_model:quantized:google/gemma-4-26B-A4B-it",
-          "license:gemma",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2"
       },
       {
         "id": "baidu/Qianfan-OCR",
@@ -1171,7 +1171,7 @@
       {
         "id": "LiquidAI/LFM2.5-VL-450M",
         "author": "LiquidAI",
-        "likes": 124,
+        "likes": 125,
         "downloads": 7523,
         "tags": [
           "transformers",
@@ -1208,7 +1208,7 @@
       {
         "id": "prism-ml/Bonsai-8B-gguf",
         "author": "prism-ml",
-        "likes": 579,
+        "likes": 580,
         "downloads": 76787,
         "tags": [
           "llama.cpp",
@@ -1255,7 +1255,7 @@
       {
         "id": "unsloth/gemma-4-31B-it-GGUF",
         "author": "unsloth",
-        "likes": 305,
+        "likes": 306,
         "downloads": 1181417,
         "tags": [
           "gguf",
@@ -1356,7 +1356,7 @@
       {
         "id": "unsloth/MiniMax-M2.7-GGUF",
         "author": "unsloth",
-        "likes": 91,
+        "likes": 92,
         "downloads": 23720,
         "tags": [
           "gguf",
@@ -1396,25 +1396,37 @@
         "link": "https://huggingface.co/black-forest-labs/FLUX.2-small-decoder"
       },
       {
-        "id": "douyamv/Gemma-4-31B-JANG_4M-CRACK-GGUF",
-        "author": "douyamv",
-        "likes": 87,
-        "downloads": 73953,
+        "id": "Jiunsong/supergemma4-26b-uncensored-mlx-4bit-v2",
+        "author": "Jiunsong",
+        "likes": 82,
+        "downloads": 2284,
         "tags": [
-          "gguf",
+          "mlx",
+          "safetensors",
           "gemma4",
+          "uncensored",
+          "apple-silicon",
+          "4bit",
           "quantized",
-          "31b",
+          "reasoning",
+          "tool-use",
+          "coding",
+          "browser-automation",
+          "korean",
+          "fast",
           "text-generation",
+          "conversational",
           "en",
+          "ko",
+          "base_model:google/gemma-4-26B-A4B-it",
+          "base_model:quantized:google/gemma-4-26B-A4B-it",
           "license:gemma",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "4-bit",
+          "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/douyamv/Gemma-4-31B-JANG_4M-CRACK-GGUF"
+        "link": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-mlx-4bit-v2"
       }
     ]
   },
@@ -1522,25 +1534,6 @@
         "link": "https://huggingface.co/datasets/badlogicgames/pi-mono"
       },
       {
-        "id": "Crownelius/Opus-4.6-Reasoning-3300x",
-        "author": "Crownelius",
-        "likes": 262,
-        "downloads": 3099,
-        "tags": [
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-03-15T07:02:24.000Z",
-        "link": "https://huggingface.co/datasets/Crownelius/Opus-4.6-Reasoning-3300x"
-      },
-      {
         "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
         "author": "nohurry",
         "likes": 537,
@@ -1560,9 +1553,28 @@
         "link": "https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"
       },
       {
+        "id": "Crownelius/Opus-4.6-Reasoning-3300x",
+        "author": "Crownelius",
+        "likes": 262,
+        "downloads": 3099,
+        "tags": [
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-03-15T07:02:24.000Z",
+        "link": "https://huggingface.co/datasets/Crownelius/Opus-4.6-Reasoning-3300x"
+      },
+      {
         "id": "open-index/hacker-news",
         "author": "open-index",
-        "likes": 297,
+        "likes": 298,
         "downloads": 26504,
         "tags": [
           "task_categories:text-generation",
@@ -1639,7 +1651,7 @@
       {
         "id": "nvidia/PhysicalAI-Autonomous-Vehicles",
         "author": "nvidia",
-        "likes": 832,
+        "likes": 833,
         "downloads": 1012019,
         "tags": [
           "license:other",
