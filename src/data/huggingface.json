@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-16T19:00:23.489Z",
+  "updatedAt": "2026-04-16T20:00:22.688Z",
   "models": {
     "count": 30,
     "items": [
@@ -79,7 +79,7 @@
       {
         "id": "google/gemma-4-31B-it",
         "author": "google",
-        "likes": 1969,
+        "likes": 1971,
         "downloads": 3195626,
         "tags": [
           "transformers",
@@ -90,8 +90,8 @@
           "license:apache-2.0",
           "eval-results",
           "endpoints_compatible",
-          "region:us",
-          "deploy:azure"
+          "deploy:azure",
+          "region:us"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
@@ -100,7 +100,7 @@
       {
         "id": "baidu/ERNIE-Image",
         "author": "baidu",
-        "likes": 368,
+        "likes": 370,
         "downloads": 1351,
         "tags": [
           "diffusers",
@@ -169,6 +169,26 @@
         "link": "https://huggingface.co/openbmb/VoxCPM2"
       },
       {
+        "id": "Qwen/Qwen3.6-35B-A3B",
+        "author": "Qwen",
+        "likes": 350,
+        "downloads": 0,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+      },
+      {
         "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
         "author": "Jiunsong",
         "likes": 328,
@@ -220,29 +240,9 @@
         "link": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK"
       },
       {
-        "id": "Qwen/Qwen3.6-35B-A3B",
-        "author": "Qwen",
-        "likes": 317,
-        "downloads": 0,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
-      },
-      {
         "id": "baidu/ERNIE-Image-Turbo",
         "author": "baidu",
-        "likes": 257,
+        "likes": 258,
         "downloads": 1369,
         "tags": [
           "diffusers",
@@ -260,7 +260,7 @@
       {
         "id": "LilaRest/gemma-4-31B-it-NVFP4-turbo",
         "author": "LilaRest",
-        "likes": 231,
+        "likes": 232,
         "downloads": 57507,
         "tags": [
           "transformers",
@@ -290,7 +290,7 @@
       {
         "id": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
         "author": "OBLITERATUS",
-        "likes": 190,
+        "likes": 193,
         "downloads": 1586,
         "tags": [
           "safetensors",
@@ -312,9 +312,33 @@
         "link": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED"
       },
       {
+        "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
+        "author": "unsloth",
+        "likes": 163,
+        "downloads": 0,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "qwen",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.6-35B-A3B",
+          "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF"
+      },
+      {
         "id": "k2-fsa/OmniVoice",
         "author": "k2-fsa",
-        "likes": 595,
+        "likes": 596,
         "downloads": 701830,
         "tags": [
           "omnivoice",
@@ -983,7 +1007,7 @@
       {
         "id": "netflix/void-model",
         "author": "netflix",
-        "likes": 843,
+        "likes": 859,
         "downloads": 0,
         "tags": [
           "video-inpainting",
@@ -1037,7 +1061,7 @@
       {
         "id": "tencent/HY-World-2.0",
         "author": "tencent",
-        "likes": 151,
+        "likes": 152,
         "downloads": 0,
         "tags": [
           "hy-world-2.0",
@@ -1056,33 +1080,9 @@
         "link": "https://huggingface.co/tencent/HY-World-2.0"
       },
       {
-        "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
-        "author": "unsloth",
-        "likes": 150,
-        "downloads": 0,
-        "tags": [
-          "transformers",
-          "gguf",
-          "unsloth",
-          "qwen",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.6-35B-A3B",
-          "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF"
-      },
-      {
         "id": "google/gemma-4-E4B-it",
         "author": "google",
-        "likes": 673,
+        "likes": 702,
         "downloads": 1801321,
         "tags": [
           "transformers",
@@ -1103,7 +1103,7 @@
       {
         "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "author": "Jackrong",
-        "likes": 2675,
+        "likes": 2676,
         "downloads": 584978,
         "tags": [
           "safetensors",
@@ -1145,7 +1145,7 @@
       {
         "id": "unsloth/ERNIE-Image-Turbo-GGUF",
         "author": "unsloth",
-        "likes": 134,
+        "likes": 136,
         "downloads": 7912,
         "tags": [
           "ggml",
@@ -1185,7 +1185,7 @@
       {
         "id": "NucleusAI/Nucleus-Image",
         "author": "NucleusAI",
-        "likes": 130,
+        "likes": 131,
         "downloads": 464,
         "tags": [
           "diffusers",
@@ -1208,7 +1208,7 @@
       {
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 344,
+        "likes": 345,
         "downloads": 620327,
         "tags": [
           "gguf",
@@ -1341,7 +1341,7 @@
       {
         "id": "nvidia/Lyra-2.0",
         "author": "nvidia",
-        "likes": 112,
+        "likes": 113,
         "downloads": 0,
         "tags": [
           "arxiv:2604.13036",
@@ -1464,7 +1464,7 @@
       {
         "id": "llamaindex/ParseBench",
         "author": "llamaindex",
-        "likes": 38,
+        "likes": 40,
         "downloads": 4657,
         "tags": [
           "benchmark:official",
@@ -1684,7 +1684,7 @@
       {
         "id": "open-index/hacker-news",
         "author": "open-index",
-        "likes": 300,
+        "likes": 303,
         "downloads": 28395,
         "tags": [
           "task_categories:text-generation",
@@ -1694,6 +1694,7 @@
           "language:en",
           "license:odc-by",
           "size_categories:10M<n<100M",
+          "modality:tabular",
           "modality:text",
           "region:us",
           "hacker-news",
@@ -1705,7 +1706,7 @@
           "comments",
           "live-updated"
         ],
-        "lastModified": "2026-04-16T18:55:30.000Z",
+        "lastModified": "2026-04-16T19:55:27.000Z",
         "link": "https://huggingface.co/datasets/open-index/hacker-news"
       },
       {
@@ -1867,31 +1868,25 @@
         "link": "https://huggingface.co/datasets/proj-persona/PersonaHub"
       },
       {
-        "id": "MME-Benchmarks/Video-MME-v2",
-        "author": "MME-Benchmarks",
-        "likes": 34,
-        "downloads": 7106,
+        "id": "cais/hle",
+        "author": "cais",
+        "likes": 772,
+        "downloads": 46431,
         "tags": [
-          "task_categories:video-text-to-text",
-          "language:en",
+          "benchmark:official",
           "license:mit",
           "size_categories:1K<n<10K",
           "format:parquet",
+          "modality:image",
           "modality:text",
-          "modality:video",
           "library:datasets",
           "library:pandas",
           "library:polars",
           "library:mlcroissant",
-          "arxiv:2604.05015",
-          "region:us",
-          "benchmark",
-          "video",
-          "multimodal",
-          "MCQ"
+          "region:us"
         ],
-        "lastModified": "2026-04-14T17:27:14.000Z",
-        "link": "https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2"
+        "lastModified": "2026-01-20T22:42:17.000Z",
+        "link": "https://huggingface.co/datasets/cais/hle"
       }
     ]
   }
