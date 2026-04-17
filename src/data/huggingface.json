@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-17T04:00:18.345Z",
+  "updatedAt": "2026-04-17T05:00:18.953Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "MiniMaxAI/MiniMax-M2.7",
         "author": "MiniMaxAI",
-        "likes": 887,
+        "likes": 888,
         "downloads": 142955,
         "tags": [
           "transformers",
@@ -56,7 +56,7 @@
       {
         "id": "Qwen/Qwen3.6-35B-A3B",
         "author": "Qwen",
-        "likes": 513,
+        "likes": 527,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -76,7 +76,7 @@
       {
         "id": "zai-org/GLM-5.1",
         "author": "zai-org",
-        "likes": 1297,
+        "likes": 1299,
         "downloads": 94376,
         "tags": [
           "transformers",
@@ -99,7 +99,7 @@
       {
         "id": "google/gemma-4-31B-it",
         "author": "google",
-        "likes": 1991,
+        "likes": 1992,
         "downloads": 3195626,
         "tags": [
           "transformers",
@@ -120,7 +120,7 @@
       {
         "id": "baidu/ERNIE-Image",
         "author": "baidu",
-        "likes": 392,
+        "likes": 393,
         "downloads": 1351,
         "tags": [
           "diffusers",
@@ -138,7 +138,7 @@
       {
         "id": "openbmb/VoxCPM2",
         "author": "openbmb",
-        "likes": 944,
+        "likes": 945,
         "downloads": 15249,
         "tags": [
           "voxcpm",
@@ -191,7 +191,7 @@
       {
         "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
         "author": "Jiunsong",
-        "likes": 336,
+        "likes": 339,
         "downloads": 42468,
         "tags": [
           "gguf",
@@ -242,7 +242,7 @@
       {
         "id": "baidu/ERNIE-Image-Turbo",
         "author": "baidu",
-        "likes": 271,
+        "likes": 273,
         "downloads": 1369,
         "tags": [
           "diffusers",
@@ -260,7 +260,7 @@
       {
         "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 225,
+        "likes": 234,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -288,17 +288,18 @@
         "downloads": 1586,
         "tags": [
           "safetensors",
+          "gguf",
           "gemma4",
           "abliterated",
           "uncensored",
           "obliteratus",
           "refusal-removal",
           "text-generation",
-          "gguf",
           "conversational",
           "base_model:google/gemma-4-E4B-it",
-          "base_model:finetune:google/gemma-4-E4B-it",
+          "base_model:quantized:google/gemma-4-E4B-it",
           "license:apache-2.0",
+          "endpoints_compatible",
           "region:us"
         ],
         "pipeline_tag": "text-generation",
@@ -338,7 +339,7 @@
       {
         "id": "tencent/HY-World-2.0",
         "author": "tencent",
-        "likes": 178,
+        "likes": 180,
         "downloads": 0,
         "tags": [
           "hy-world-2.0",
@@ -1164,7 +1165,7 @@
       {
         "id": "NucleusAI/Nucleus-Image",
         "author": "NucleusAI",
-        "likes": 138,
+        "likes": 139,
         "downloads": 464,
         "tags": [
           "diffusers",
@@ -1198,27 +1199,6 @@
         "link": "https://huggingface.co/nvidia/Lyra-2.0"
       },
       {
-        "id": "google/gemma-4-26B-A4B-it",
-        "author": "google",
-        "likes": 720,
-        "downloads": 2344759,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-26B-A4B-it"
-      },
-      {
         "id": "unsloth/MiniMax-M2.7-GGUF",
         "author": "unsloth",
         "likes": 125,
@@ -1240,28 +1220,25 @@
         "link": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF"
       },
       {
-        "id": "unsloth/gemma-4-26B-A4B-it-GGUF",
-        "author": "unsloth",
-        "likes": 492,
-        "downloads": 2104448,
+        "id": "google/gemma-4-26B-A4B-it",
+        "author": "google",
+        "likes": 720,
+        "downloads": 2344759,
         "tags": [
-          "gguf",
+          "transformers",
+          "safetensors",
           "gemma4",
-          "unsloth",
-          "gemma",
-          "google",
           "image-text-to-text",
-          "base_model:google/gemma-4-26B-A4B-it",
-          "base_model:quantized:google/gemma-4-26B-A4B-it",
+          "conversational",
           "license:apache-2.0",
+          "eval-results",
           "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
+          "deploy:azure",
+          "region:us"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF"
+        "link": "https://huggingface.co/google/gemma-4-26B-A4B-it"
       },
       {
         "id": "OpenMOSS-Team/MOSS-TTS-Nano-100M",
@@ -1324,6 +1301,30 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/LiconStudio/Ltx2.3-VBVR-lora-I2V"
+      },
+      {
+        "id": "unsloth/gemma-4-26B-A4B-it-GGUF",
+        "author": "unsloth",
+        "likes": 492,
+        "downloads": 2104448,
+        "tags": [
+          "gguf",
+          "gemma4",
+          "unsloth",
+          "gemma",
+          "google",
+          "image-text-to-text",
+          "base_model:google/gemma-4-26B-A4B-it",
+          "base_model:quantized:google/gemma-4-26B-A4B-it",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF"
       },
       {
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
@@ -1419,7 +1420,7 @@
       {
         "id": "Roman1111111/claude-opus-4.6-10000x",
         "author": "Roman1111111",
-        "likes": 200,
+        "likes": 201,
         "downloads": 5068,
         "tags": [
           "license:mit",
@@ -1582,6 +1583,71 @@
         "link": "https://huggingface.co/datasets/markov-ai/computer-use-large"
       },
       {
+        "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
+        "author": "nohurry",
+        "likes": 550,
+        "downloads": 9950,
+        "tags": [
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-03-31T12:43:36.000Z",
+        "link": "https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"
+      },
+      {
+        "id": "Crownelius/Opus-4.6-Reasoning-3300x",
+        "author": "Crownelius",
+        "likes": 276,
+        "downloads": 3195,
+        "tags": [
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-04-16T05:11:35.000Z",
+        "link": "https://huggingface.co/datasets/Crownelius/Opus-4.6-Reasoning-3300x"
+      },
+      {
+        "id": "microsoft/OpenMementos",
+        "author": "microsoft",
+        "likes": 36,
+        "downloads": 713,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:mit",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "reasoning",
+          "chain-of-thought",
+          "context-compression",
+          "synthetic",
+          "memento"
+        ],
+        "lastModified": "2026-04-08T18:56:54.000Z",
+        "link": "https://huggingface.co/datasets/microsoft/OpenMementos"
+      },
+      {
         "id": "DJLougen/harmonic-reasoning-v1",
         "author": "DJLougen",
         "likes": 23,
@@ -1617,71 +1683,6 @@
         "link": "https://huggingface.co/datasets/DJLougen/harmonic-reasoning-v1"
       },
       {
-        "id": "nohurry/Opus-4.6-Reasoning-3000x-filtered",
-        "author": "nohurry",
-        "likes": 549,
-        "downloads": 9950,
-        "tags": [
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-03-31T12:43:36.000Z",
-        "link": "https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"
-      },
-      {
-        "id": "microsoft/OpenMementos",
-        "author": "microsoft",
-        "likes": 36,
-        "downloads": 713,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:mit",
-          "size_categories:100K<n<1M",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "reasoning",
-          "chain-of-thought",
-          "context-compression",
-          "synthetic",
-          "memento"
-        ],
-        "lastModified": "2026-04-08T18:56:54.000Z",
-        "link": "https://huggingface.co/datasets/microsoft/OpenMementos"
-      },
-      {
-        "id": "Crownelius/Opus-4.6-Reasoning-3300x",
-        "author": "Crownelius",
-        "likes": 275,
-        "downloads": 3195,
-        "tags": [
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-04-16T05:11:35.000Z",
-        "link": "https://huggingface.co/datasets/Crownelius/Opus-4.6-Reasoning-3300x"
-      },
-      {
         "id": "open-index/hacker-news",
         "author": "open-index",
         "likes": 303,
@@ -1705,7 +1706,7 @@
           "comments",
           "live-updated"
         ],
-        "lastModified": "2026-04-17T03:55:30.000Z",
+        "lastModified": "2026-04-17T04:55:44.000Z",
         "link": "https://huggingface.co/datasets/open-index/hacker-news"
       },
       {
@@ -1719,28 +1720,6 @@
         ],
         "lastModified": "2026-04-07T18:24:50.000Z",
         "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles"
-      },
-      {
-        "id": "TAAC2026/data_sample_1000",
-        "author": "TAAC2026",
-        "likes": 53,
-        "downloads": 8069,
-        "tags": [
-          "license:cc-by-nc-4.0",
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "modality:tabular",
-          "modality:timeseries",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "TAAC2026",
-          "recommendation"
-        ],
-        "lastModified": "2026-04-10T09:07:28.000Z",
-        "link": "https://huggingface.co/datasets/TAAC2026/data_sample_1000"
       },
       {
         "id": "openai/gsm8k",
@@ -1880,6 +1859,33 @@
         ],
         "lastModified": "2026-04-13T22:55:17.000Z",
         "link": "https://huggingface.co/datasets/nvidia/QCalEval"
+      },
+      {
+        "id": "MME-Benchmarks/Video-MME-v2",
+        "author": "MME-Benchmarks",
+        "likes": 34,
+        "downloads": 7106,
+        "tags": [
+          "task_categories:video-text-to-text",
+          "language:en",
+          "license:mit",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "modality:text",
+          "modality:video",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2604.05015",
+          "region:us",
+          "benchmark",
+          "video",
+          "multimodal",
+          "MCQ"
+        ],
+        "lastModified": "2026-04-14T17:27:14.000Z",
+        "link": "https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2"
       }
     ]
   }
