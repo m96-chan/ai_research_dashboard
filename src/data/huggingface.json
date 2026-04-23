@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-23T12:00:20.284Z",
+  "updatedAt": "2026-04-23T13:00:17.053Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.6-35B-A3B",
         "author": "Qwen",
-        "likes": 1282,
+        "likes": 1292,
         "downloads": 717811,
         "tags": [
           "transformers",
@@ -27,7 +27,7 @@
       {
         "id": "moonshotai/Kimi-K2.6",
         "author": "moonshotai",
-        "likes": 843,
+        "likes": 850,
         "downloads": 125825,
         "tags": [
           "transformers",
@@ -50,7 +50,7 @@
       {
         "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 685,
+        "likes": 686,
         "downloads": 1283534,
         "tags": [
           "transformers",
@@ -63,10 +63,10 @@
           "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
           "license:apache-2.0",
           "endpoints_compatible",
+          "deploy:azure",
           "region:us",
           "imatrix",
-          "conversational",
-          "deploy:azure"
+          "conversational"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
@@ -75,7 +75,7 @@
       {
         "id": "Qwen/Qwen3.6-27B",
         "author": "Qwen",
-        "likes": 552,
+        "likes": 564,
         "downloads": 23964,
         "tags": [
           "transformers",
@@ -95,7 +95,7 @@
       {
         "id": "openai/privacy-filter",
         "author": "openai",
-        "likes": 431,
+        "likes": 436,
         "downloads": 1888,
         "tags": [
           "transformers",
@@ -136,7 +136,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 383,
+        "likes": 385,
         "downloads": 350262,
         "tags": [
           "gguf",
@@ -164,7 +164,7 @@
       {
         "id": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
         "author": "OBLITERATUS",
-        "likes": 467,
+        "likes": 468,
         "downloads": 90064,
         "tags": [
           "safetensors",
@@ -189,7 +189,7 @@
       {
         "id": "unsloth/Qwen3.6-27B-GGUF",
         "author": "unsloth",
-        "likes": 264,
+        "likes": 267,
         "downloads": 131398,
         "tags": [
           "transformers",
@@ -230,6 +230,46 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/google/gemma-4-31B-it"
+      },
+      {
+        "id": "Jackrong/Qwopus-GLM-18B-Merged-GGUF",
+        "author": "Jackrong",
+        "likes": 190,
+        "downloads": 63745,
+        "tags": [
+          "gguf",
+          "merge",
+          "frankenmerge",
+          "qwen3.5",
+          "reasoning",
+          "text-generation",
+          "conversational",
+          "unsloth",
+          "agent",
+          "tool-use",
+          "chain-of-thought",
+          "qlora",
+          "multilingual",
+          "code-generation",
+          "en",
+          "zh",
+          "ko",
+          "ja",
+          "fr",
+          "de",
+          "es",
+          "arxiv:2604.06628",
+          "base_model:Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1",
+          "base_model:merge:Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1",
+          "base_model:Jackrong/Qwopus3.5-9B-v3.5",
+          "base_model:merge:Jackrong/Qwopus3.5-9B-v3.5",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF"
       },
       {
         "id": "openbmb/VoxCPM2",
@@ -285,49 +325,9 @@
         "link": "https://huggingface.co/openbmb/VoxCPM2"
       },
       {
-        "id": "Jackrong/Qwopus-GLM-18B-Merged-GGUF",
-        "author": "Jackrong",
-        "likes": 190,
-        "downloads": 63745,
-        "tags": [
-          "gguf",
-          "merge",
-          "frankenmerge",
-          "qwen3.5",
-          "reasoning",
-          "text-generation",
-          "conversational",
-          "unsloth",
-          "agent",
-          "tool-use",
-          "chain-of-thought",
-          "qlora",
-          "multilingual",
-          "code-generation",
-          "en",
-          "zh",
-          "ko",
-          "ja",
-          "fr",
-          "de",
-          "es",
-          "arxiv:2604.06628",
-          "base_model:Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1",
-          "base_model:merge:Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1",
-          "base_model:Jackrong/Qwopus3.5-9B-v3.5",
-          "base_model:merge:Jackrong/Qwopus3.5-9B-v3.5",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF"
-      },
-      {
         "id": "baidu/ERNIE-Image",
         "author": "baidu",
-        "likes": 533,
+        "likes": 534,
         "downloads": 6394,
         "tags": [
           "diffusers",
@@ -358,7 +358,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M2.7",
         "author": "MiniMaxAI",
-        "likes": 1036,
+        "likes": 1037,
         "downloads": 463243,
         "tags": [
           "transformers",
@@ -380,7 +380,7 @@
       {
         "id": "Qwen/Qwen3.6-35B-A3B-FP8",
         "author": "Qwen",
-        "likes": 160,
+        "likes": 161,
         "downloads": 708701,
         "tags": [
           "transformers",
@@ -403,7 +403,7 @@
       {
         "id": "zai-org/GLM-5.1",
         "author": "zai-org",
-        "likes": 1475,
+        "likes": 1477,
         "downloads": 182748,
         "tags": [
           "transformers",
@@ -426,7 +426,7 @@
       {
         "id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
         "author": "hesamation",
-        "likes": 156,
+        "likes": 160,
         "downloads": 63121,
         "tags": [
           "gguf",
@@ -501,7 +501,7 @@
       {
         "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
         "author": "Jiunsong",
-        "likes": 466,
+        "likes": 467,
         "downloads": 126271,
         "tags": [
           "gguf",
@@ -530,7 +530,7 @@
       {
         "id": "inclusionAI/LLaDA2.0-Uni",
         "author": "inclusionAI",
-        "likes": 107,
+        "likes": 118,
         "downloads": 8,
         "tags": [
           "transformers",
@@ -562,7 +562,7 @@
       {
         "id": "Qwen/Qwen3.6-27B-FP8",
         "author": "Qwen",
-        "likes": 106,
+        "likes": 107,
         "downloads": 39230,
         "tags": [
           "transformers",
@@ -584,7 +584,7 @@
       {
         "id": "NucleusAI/Nucleus-Image",
         "author": "NucleusAI",
-        "likes": 221,
+        "likes": 222,
         "downloads": 1740,
         "tags": [
           "diffusers",
@@ -598,8 +598,8 @@
           "arxiv:2604.12163",
           "license:apache-2.0",
           "diffusers:NucleusMoEImagePipeline",
-          "region:us",
-          "deploy:azure"
+          "deploy:azure",
+          "region:us"
         ],
         "pipeline_tag": "text-to-image",
         "lastModified": "",
@@ -608,7 +608,7 @@
       {
         "id": "unsloth/Kimi-K2.6-GGUF",
         "author": "unsloth",
-        "likes": 98,
+        "likes": 99,
         "downloads": 7186,
         "tags": [
           "transformers",
@@ -648,32 +648,26 @@
         "link": "https://huggingface.co/baidu/ERNIE-Image-Turbo"
       },
       {
-        "id": "tencent/HY-Embodied-0.5",
-        "author": "tencent",
-        "likes": 901,
-        "downloads": 2521,
+        "id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "author": "dealignai",
+        "likes": 1338,
+        "downloads": 173808,
         "tags": [
-          "transformers",
+          "mlx",
           "safetensors",
-          "hunyuan_vl_mot",
+          "gemma4",
+          "abliterated",
+          "uncensored",
+          "crack",
+          "jang",
           "image-text-to-text",
-          "hunyuan",
-          "vision-language",
-          "Embodied",
-          "image-to-text",
-          "2B",
-          "end-to-end",
-          "MoT",
           "conversational",
-          "custom_code",
-          "multilingual",
-          "arxiv:2604.07430",
-          "license:other",
+          "license:gemma",
           "region:us"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/tencent/HY-Embodied-0.5"
+        "link": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK"
       },
       {
         "id": "KyleHessling1/Qwopus-GLM-18B-Merged-GGUF",
@@ -767,7 +761,7 @@
       {
         "id": "lambda/hermes-agent-reasoning-traces",
         "author": "lambda",
-        "likes": 221,
+        "likes": 222,
         "downloads": 7478,
         "tags": [
           "task_categories:text-generation",
@@ -847,7 +841,7 @@
       {
         "id": "ShadenA/MathNet",
         "author": "ShadenA",
-        "likes": 37,
+        "likes": 38,
         "downloads": 5037,
         "tags": [
           "task_categories:question-answering",
@@ -946,6 +940,24 @@
         "link": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Korea"
       },
       {
+        "id": "Roman1111111/claude-sonnet-4.6-120000x",
+        "author": "Roman1111111",
+        "likes": 31,
+        "downloads": 992,
+        "tags": [
+          "size_categories:100K<n<1M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-04-19T10:59:32.000Z",
+        "link": "https://huggingface.co/datasets/Roman1111111/claude-sonnet-4.6-120000x"
+      },
+      {
         "id": "TeraflopAI/SEC-EDGAR",
         "author": "TeraflopAI",
         "likes": 37,
@@ -964,24 +976,6 @@
         ],
         "lastModified": "2026-04-17T21:13:20.000Z",
         "link": "https://huggingface.co/datasets/TeraflopAI/SEC-EDGAR"
-      },
-      {
-        "id": "Roman1111111/claude-sonnet-4.6-120000x",
-        "author": "Roman1111111",
-        "likes": 30,
-        "downloads": 992,
-        "tags": [
-          "size_categories:100K<n<1M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-04-19T10:59:32.000Z",
-        "link": "https://huggingface.co/datasets/Roman1111111/claude-sonnet-4.6-120000x"
       },
       {
         "id": "llamaindex/ParseBench",
@@ -1265,25 +1259,25 @@
         "link": "https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"
       },
       {
-        "id": "Anthropic/hh-rlhf",
-        "author": "Anthropic",
-        "likes": 1715,
-        "downloads": 36773,
+        "id": "Kassadin88/Claude-Distills",
+        "author": "Kassadin88",
+        "likes": 15,
+        "downloads": 249,
         "tags": [
+          "task_categories:text-generation",
+          "task_categories:question-answering",
+          "language:en",
           "license:mit",
           "size_categories:100K<n<1M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:mlcroissant",
-          "library:polars",
-          "arxiv:2204.05862",
           "region:us",
-          "human-feedback"
+          "claude",
+          "distillation",
+          "reasoning",
+          "instruction-tuning",
+          "sft"
         ],
-        "lastModified": "2023-05-26T18:47:34.000Z",
-        "link": "https://huggingface.co/datasets/Anthropic/hh-rlhf"
+        "lastModified": "2026-04-23T02:12:55.000Z",
+        "link": "https://huggingface.co/datasets/Kassadin88/Claude-Distills"
       }
     ]
   }
