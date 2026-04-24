@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-24T20:00:18.426Z",
+  "updatedAt": "2026-04-24T21:00:24.623Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 2346,
+        "likes": 2368,
         "downloads": 30,
         "tags": [
           "transformers",
@@ -27,7 +27,7 @@
       {
         "id": "moonshotai/Kimi-K2.6",
         "author": "moonshotai",
-        "likes": 967,
+        "likes": 970,
         "downloads": 208251,
         "tags": [
           "transformers",
@@ -50,7 +50,7 @@
       {
         "id": "Qwen/Qwen3.6-27B",
         "author": "Qwen",
-        "likes": 745,
+        "likes": 746,
         "downloads": 162349,
         "tags": [
           "transformers",
@@ -71,7 +71,7 @@
       {
         "id": "openai/privacy-filter",
         "author": "openai",
-        "likes": 671,
+        "likes": 675,
         "downloads": 12664,
         "tags": [
           "transformers",
@@ -91,7 +91,7 @@
       {
         "id": "Qwen/Qwen3.6-35B-A3B",
         "author": "Qwen",
-        "likes": 1378,
+        "likes": 1379,
         "downloads": 861178,
         "tags": [
           "transformers",
@@ -112,7 +112,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash",
         "author": "deepseek-ai",
-        "likes": 591,
+        "likes": 598,
         "downloads": 23,
         "tags": [
           "transformers",
@@ -152,9 +152,33 @@
         "link": "https://huggingface.co/tencent/HY-World-2.0"
       },
       {
+        "id": "unsloth/Qwen3.6-27B-GGUF",
+        "author": "unsloth",
+        "likes": 369,
+        "downloads": 340032,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "qwen",
+          "qwen3_5",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.6-27B",
+          "base_model:quantized:Qwen/Qwen3.6-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF"
+      },
+      {
         "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 737,
+        "likes": 738,
         "downloads": 1397244,
         "tags": [
           "transformers",
@@ -175,30 +199,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF"
-      },
-      {
-        "id": "unsloth/Qwen3.6-27B-GGUF",
-        "author": "unsloth",
-        "likes": 368,
-        "downloads": 340032,
-        "tags": [
-          "transformers",
-          "gguf",
-          "unsloth",
-          "qwen",
-          "qwen3_5",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.6-27B",
-          "base_model:quantized:Qwen/Qwen3.6-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF"
       },
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
@@ -296,7 +296,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro-Base",
         "author": "deepseek-ai",
-        "likes": 190,
+        "likes": 191,
         "downloads": 3,
         "tags": [
           "safetensors",
@@ -332,7 +332,7 @@
       {
         "id": "inclusionAI/LLaDA2.0-Uni",
         "author": "inclusionAI",
-        "likes": 163,
+        "likes": 164,
         "downloads": 103,
         "tags": [
           "transformers",
@@ -363,7 +363,7 @@
       {
         "id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
         "author": "hesamation",
-        "likes": 174,
+        "likes": 175,
         "downloads": 83694,
         "tags": [
           "gguf",
@@ -447,7 +447,7 @@
       {
         "id": "tencent/Hy3-preview",
         "author": "tencent",
-        "likes": 130,
+        "likes": 131,
         "downloads": 1235,
         "tags": [
           "transformers",
@@ -494,27 +494,9 @@
         "link": "https://huggingface.co/z-lab/Qwen3.6-35B-A3B-DFlash"
       },
       {
-        "id": "baidu/ERNIE-Image",
-        "author": "baidu",
-        "likes": 551,
-        "downloads": 7102,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "text-to-image",
-          "8B",
-          "license:apache-2.0",
-          "diffusers:ErnieImagePipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/baidu/ERNIE-Image"
-      },
-      {
         "id": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 130,
+        "likes": 132,
         "downloads": 75561,
         "tags": [
           "gguf",
@@ -537,6 +519,24 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive"
+      },
+      {
+        "id": "baidu/ERNIE-Image",
+        "author": "baidu",
+        "likes": 551,
+        "downloads": 7102,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image",
+          "8B",
+          "license:apache-2.0",
+          "diffusers:ErnieImagePipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/baidu/ERNIE-Image"
       },
       {
         "id": "openbmb/VoxCPM2",
@@ -750,7 +750,7 @@
       {
         "id": "nvidia/Nemotron-Personas-Korea",
         "author": "nvidia",
-        "likes": 81,
+        "likes": 82,
         "downloads": 3542,
         "tags": [
           "task_categories:text-generation",
@@ -977,34 +977,6 @@
         "link": "https://huggingface.co/datasets/tencent/MegaStyle-1.4M"
       },
       {
-        "id": "nvidia/OCR-Synthetic-Multilingual-v1",
-        "author": "nvidia",
-        "likes": 26,
-        "downloads": 2600,
-        "tags": [
-          "task_categories:object-detection",
-          "task_categories:image-to-text",
-          "language:en",
-          "language:ja",
-          "language:ko",
-          "language:ru",
-          "language:zh",
-          "license:cc-by-4.0",
-          "size_categories:10M<n<100M",
-          "region:us",
-          "ocr",
-          "text-detection",
-          "text-recognition",
-          "synthetic-data",
-          "synthdog",
-          "hdf5",
-          "nvidia",
-          "nemotron"
-        ],
-        "lastModified": "2026-04-20T23:01:02.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/OCR-Synthetic-Multilingual-v1"
-      },
-      {
         "id": "llamaindex/ParseBench",
         "author": "llamaindex",
         "likes": 70,
@@ -1038,9 +1010,37 @@
         "link": "https://huggingface.co/datasets/llamaindex/ParseBench"
       },
       {
+        "id": "nvidia/OCR-Synthetic-Multilingual-v1",
+        "author": "nvidia",
+        "likes": 26,
+        "downloads": 2600,
+        "tags": [
+          "task_categories:object-detection",
+          "task_categories:image-to-text",
+          "language:en",
+          "language:ja",
+          "language:ko",
+          "language:ru",
+          "language:zh",
+          "license:cc-by-4.0",
+          "size_categories:10M<n<100M",
+          "region:us",
+          "ocr",
+          "text-detection",
+          "text-recognition",
+          "synthetic-data",
+          "synthdog",
+          "hdf5",
+          "nvidia",
+          "nemotron"
+        ],
+        "lastModified": "2026-04-20T23:01:02.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/OCR-Synthetic-Multilingual-v1"
+      },
+      {
         "id": "google/RSRCC",
         "author": "google",
-        "likes": 23,
+        "likes": 24,
         "downloads": 5386,
         "tags": [
           "task_categories:visual-question-answering",
