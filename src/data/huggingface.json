@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-30T18:00:24.147Z",
+  "updatedAt": "2026-04-30T19:00:20.101Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 3291,
+        "likes": 3294,
         "downloads": 271652,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash",
         "author": "deepseek-ai",
-        "likes": 876,
+        "likes": 877,
         "downloads": 198830,
         "tags": [
           "transformers",
@@ -49,7 +49,7 @@
       {
         "id": "openai/privacy-filter",
         "author": "openai",
-        "likes": 1125,
+        "likes": 1128,
         "downloads": 82887,
         "tags": [
           "transformers",
@@ -138,7 +138,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro-Base",
         "author": "deepseek-ai",
-        "likes": 245,
+        "likes": 246,
         "downloads": 1883,
         "tags": [
           "safetensors",
@@ -153,7 +153,7 @@
       {
         "id": "unsloth/Qwen3.6-27B-GGUF",
         "author": "unsloth",
-        "likes": 511,
+        "likes": 512,
         "downloads": 855842,
         "tags": [
           "transformers",
@@ -177,7 +177,7 @@
       {
         "id": "Qwen/Qwen3.6-35B-A3B",
         "author": "Qwen",
-        "likes": 1529,
+        "likes": 1533,
         "downloads": 1977187,
         "tags": [
           "transformers",
@@ -213,7 +213,7 @@
       {
         "id": "z-lab/Qwen3.6-27B-DFlash",
         "author": "z-lab",
-        "likes": 176,
+        "likes": 178,
         "downloads": 12879,
         "tags": [
           "transformers",
@@ -240,6 +240,22 @@
         "link": "https://huggingface.co/z-lab/Qwen3.6-27B-DFlash"
       },
       {
+        "id": "talkie-lm/talkie-1930-13b-it",
+        "author": "talkie-lm",
+        "likes": 168,
+        "downloads": 0,
+        "tags": [
+          "en",
+          "base_model:talkie-lm/talkie-1930-13b-base",
+          "base_model:finetune:talkie-lm/talkie-1930-13b-base",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/talkie-lm/talkie-1930-13b-it"
+      },
+      {
         "id": "XiaomiMiMo/MiMo-V2.5",
         "author": "XiaomiMiMo",
         "likes": 166,
@@ -264,22 +280,6 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5"
-      },
-      {
-        "id": "talkie-lm/talkie-1930-13b-it",
-        "author": "talkie-lm",
-        "likes": 166,
-        "downloads": 0,
-        "tags": [
-          "en",
-          "base_model:talkie-lm/talkie-1930-13b-base",
-          "base_model:finetune:talkie-lm/talkie-1930-13b-base",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/talkie-lm/talkie-1930-13b-it"
       },
       {
         "id": "mistralai/Mistral-Medium-3.5-128B",
@@ -341,8 +341,8 @@
           "dataset:nvidia/Nemotron-Image-Training-v3",
           "arxiv:2604.24954",
           "license:other",
-          "region:us",
-          "deploy:azure"
+          "deploy:azure",
+          "region:us"
         ],
         "pipeline_tag": "any-to-any",
         "lastModified": "",
@@ -351,7 +351,7 @@
       {
         "id": "poolside/Laguna-XS.2",
         "author": "poolside",
-        "likes": 153,
+        "likes": 154,
         "downloads": 3077,
         "tags": [
           "vllm",
@@ -372,7 +372,7 @@
       {
         "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 870,
+        "likes": 871,
         "downloads": 1850307,
         "tags": [
           "transformers",
@@ -440,6 +440,27 @@
         "link": "https://huggingface.co/inclusionAI/Ling-2.6-flash"
       },
       {
+        "id": "google/gemma-4-31B-it",
+        "author": "google",
+        "likes": 2451,
+        "downloads": 7111084,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-31B-it"
+      },
+      {
         "id": "tencent/Hy3-preview",
         "author": "tencent",
         "likes": 189,
@@ -458,27 +479,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/tencent/Hy3-preview"
-      },
-      {
-        "id": "google/gemma-4-31B-it",
-        "author": "google",
-        "likes": 2448,
-        "downloads": 7111084,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-31B-it"
       },
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
@@ -560,7 +560,7 @@
       {
         "id": "sensenova/SenseNova-U1-8B-MoT",
         "author": "sensenova",
-        "likes": 83,
+        "likes": 84,
         "downloads": 745,
         "tags": [
           "transformers",
@@ -584,7 +584,7 @@
       {
         "id": "zai-org/GLM-5.1",
         "author": "zai-org",
-        "likes": 1566,
+        "likes": 1567,
         "downloads": 276153,
         "tags": [
           "transformers",
@@ -667,7 +667,7 @@
       {
         "id": "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16",
         "author": "AEON-7",
-        "likes": 67,
+        "likes": 68,
         "downloads": 2883,
         "tags": [
           "transformers",
@@ -714,7 +714,7 @@
       {
         "id": "ibm-granite/granite-4.1-8b",
         "author": "ibm-granite",
-        "likes": 103,
+        "likes": 104,
         "downloads": 11411,
         "tags": [
           "transformers",
@@ -803,7 +803,7 @@
       {
         "id": "Roman1111111/claude-opus-4.6-10000x",
         "author": "Roman1111111",
-        "likes": 314,
+        "likes": 317,
         "downloads": 7638,
         "tags": [
           "license:mit",
@@ -822,7 +822,7 @@
       {
         "id": "lambda/hermes-agent-reasoning-traces",
         "author": "lambda",
-        "likes": 266,
+        "likes": 267,
         "downloads": 8537,
         "tags": [
           "task_categories:text-generation",
@@ -1046,7 +1046,7 @@
       {
         "id": "open-thoughts/AgentTrove",
         "author": "open-thoughts",
-        "likes": 21,
+        "likes": 22,
         "downloads": 106,
         "tags": [
           "task_categories:text-generation",
@@ -1161,6 +1161,26 @@
         "link": "https://huggingface.co/datasets/lordx64/reasoning-distill-claude-opus-4-7-max"
       },
       {
+        "id": "SWE-bench/SWE-bench_Verified",
+        "author": "SWE-bench",
+        "likes": 53,
+        "downloads": 103049,
+        "tags": [
+          "benchmark:official",
+          "benchmark:eval-yaml",
+          "size_categories:n<1K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-27T20:36:38.000Z",
+        "link": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+      },
+      {
         "id": "tencent/MegaStyle-1.4M",
         "author": "tencent",
         "likes": 37,
@@ -1184,26 +1204,6 @@
         ],
         "lastModified": "2026-04-20T09:03:50.000Z",
         "link": "https://huggingface.co/datasets/tencent/MegaStyle-1.4M"
-      },
-      {
-        "id": "SWE-bench/SWE-bench_Verified",
-        "author": "SWE-bench",
-        "likes": 52,
-        "downloads": 103049,
-        "tags": [
-          "benchmark:official",
-          "benchmark:eval-yaml",
-          "size_categories:n<1K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-27T20:36:38.000Z",
-        "link": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
       },
       {
         "id": "TAAC2026/data_sample_1000",
