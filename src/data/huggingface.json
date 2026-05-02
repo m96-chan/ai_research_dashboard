@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-02T19:00:18.041Z",
+  "updatedAt": "2026-05-02T20:00:23.939Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 3404,
+        "likes": 3408,
         "downloads": 381587,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "openai/privacy-filter",
         "author": "openai",
-        "likes": 1203,
+        "likes": 1205,
         "downloads": 99399,
         "tags": [
           "transformers",
@@ -48,7 +48,7 @@
       {
         "id": "XiaomiMiMo/MiMo-V2.5-Pro",
         "author": "XiaomiMiMo",
-        "likes": 374,
+        "likes": 376,
         "downloads": 9914,
         "tags": [
           "safetensors",
@@ -73,7 +73,7 @@
       {
         "id": "Qwen/Qwen3.6-27B",
         "author": "Qwen",
-        "likes": 1073,
+        "likes": 1075,
         "downloads": 1070778,
         "tags": [
           "transformers",
@@ -94,7 +94,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash",
         "author": "deepseek-ai",
-        "likes": 920,
+        "likes": 921,
         "downloads": 345885,
         "tags": [
           "transformers",
@@ -116,7 +116,7 @@
       {
         "id": "mistralai/Mistral-Medium-3.5-128B",
         "author": "mistralai",
-        "likes": 219,
+        "likes": 220,
         "downloads": 8492,
         "tags": [
           "safetensors",
@@ -290,7 +290,7 @@
       {
         "id": "inclusionAI/Ling-2.6-flash",
         "author": "inclusionAI",
-        "likes": 141,
+        "likes": 142,
         "downloads": 943,
         "tags": [
           "safetensors",
@@ -361,7 +361,7 @@
       {
         "id": "sensenova/SenseNova-U1-8B-MoT",
         "author": "sensenova",
-        "likes": 116,
+        "likes": 118,
         "downloads": 1308,
         "tags": [
           "transformers",
@@ -385,7 +385,7 @@
       {
         "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 892,
+        "likes": 894,
         "downloads": 2001316,
         "tags": [
           "transformers",
@@ -410,7 +410,7 @@
       {
         "id": "google/gemma-4-31B-it",
         "author": "google",
-        "likes": 2476,
+        "likes": 2477,
         "downloads": 7776034,
         "tags": [
           "transformers",
@@ -452,7 +452,7 @@
       {
         "id": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 259,
+        "likes": 261,
         "downloads": 303358,
         "tags": [
           "gguf",
@@ -534,6 +534,83 @@
         "link": "https://huggingface.co/ibm-granite/granite-4.1-8b"
       },
       {
+        "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "author": "HauhauCS",
+        "likes": 524,
+        "downloads": 766075,
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.6",
+          "moe",
+          "vision",
+          "multimodal",
+          "image-text-to-text",
+          "en",
+          "zh",
+          "multilingual",
+          "base_model:Qwen/Qwen3.6-35B-A3B",
+          "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
+      },
+      {
+        "id": "ibm-granite/granite-4.1-30b",
+        "author": "ibm-granite",
+        "likes": 78,
+        "downloads": 3072,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "granite",
+          "text-generation",
+          "language",
+          "granite-4.0",
+          "conversational",
+          "arxiv:0000.00000",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us",
+          "deploy:azure"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/ibm-granite/granite-4.1-30b"
+      },
+      {
+        "id": "AngelSlim/Hy-MT1.5-1.8B-1.25bit",
+        "author": "AngelSlim",
+        "likes": 77,
+        "downloads": 487,
+        "tags": [
+          "safetensors",
+          "hunyuan_v1_dense",
+          "translation",
+          "hy-mt",
+          "quant",
+          "1.25bit",
+          "sherry",
+          "multilingual",
+          "arxiv:2601.07892",
+          "arxiv:2512.24092",
+          "arxiv:2602.21233",
+          "base_model:tencent/HY-MT1.5-1.8B",
+          "base_model:finetune:tencent/HY-MT1.5-1.8B",
+          "region:us"
+        ],
+        "pipeline_tag": "translation",
+        "lastModified": "",
+        "link": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit"
+      },
+      {
         "id": "kai-os/Carnice-V2-27b-GGUF",
         "author": "kai-os",
         "likes": 81,
@@ -561,86 +638,9 @@
         "link": "https://huggingface.co/kai-os/Carnice-V2-27b-GGUF"
       },
       {
-        "id": "ibm-granite/granite-4.1-30b",
-        "author": "ibm-granite",
-        "likes": 78,
-        "downloads": 3072,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "granite",
-          "text-generation",
-          "language",
-          "granite-4.0",
-          "conversational",
-          "arxiv:0000.00000",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us",
-          "deploy:azure"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/ibm-granite/granite-4.1-30b"
-      },
-      {
-        "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "author": "HauhauCS",
-        "likes": 523,
-        "downloads": 766075,
-        "tags": [
-          "gguf",
-          "uncensored",
-          "qwen3.6",
-          "moe",
-          "vision",
-          "multimodal",
-          "image-text-to-text",
-          "en",
-          "zh",
-          "multilingual",
-          "base_model:Qwen/Qwen3.6-35B-A3B",
-          "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
-      },
-      {
-        "id": "AngelSlim/Hy-MT1.5-1.8B-1.25bit",
-        "author": "AngelSlim",
-        "likes": 76,
-        "downloads": 487,
-        "tags": [
-          "safetensors",
-          "hunyuan_v1_dense",
-          "translation",
-          "hy-mt",
-          "quant",
-          "1.25bit",
-          "sherry",
-          "multilingual",
-          "arxiv:2601.07892",
-          "arxiv:2512.24092",
-          "arxiv:2602.21233",
-          "base_model:tencent/HY-MT1.5-1.8B",
-          "base_model:finetune:tencent/HY-MT1.5-1.8B",
-          "region:us"
-        ],
-        "pipeline_tag": "translation",
-        "lastModified": "",
-        "link": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit"
-      },
-      {
         "id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
         "author": "dealignai",
-        "likes": 1439,
+        "likes": 1440,
         "downloads": 199500,
         "tags": [
           "mlx",
@@ -658,53 +658,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK"
-      },
-      {
-        "id": "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16",
-        "author": "AEON-7",
-        "likes": 75,
-        "downloads": 4953,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "abliterated",
-          "uncensored",
-          "qwen3",
-          "qwen3.6",
-          "bf16",
-          "bfloat16",
-          "hybrid-attention",
-          "mamba",
-          "gated-deltanet",
-          "abliterix",
-          "fernflower-ssm-repair",
-          "aeon",
-          "a100",
-          "h100",
-          "pre-blackwell",
-          "multi-gpu",
-          "fine-tuning",
-          "sm_80",
-          "sm_90",
-          "text-generation",
-          "conversational",
-          "en",
-          "zh",
-          "multilingual",
-          "arxiv:2503.00555",
-          "arxiv:2512.13655",
-          "arxiv:2406.11717",
-          "base_model:Qwen/Qwen3.6-27B",
-          "base_model:finetune:Qwen/Qwen3.6-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16"
       },
       {
         "id": "ibm-granite/granite-embedding-97m-multilingual-r2",
@@ -815,6 +768,24 @@
         "pipeline_tag": "any-to-any",
         "lastModified": "",
         "link": "https://huggingface.co/inclusionAI/LLaDA2.0-Uni"
+      },
+      {
+        "id": "facebook/sapiens2",
+        "author": "facebook",
+        "likes": 109,
+        "downloads": 0,
+        "tags": [
+          "sapiens",
+          "sapiens2",
+          "human-centric",
+          "vision-transformer",
+          "arxiv:2604.21681",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/facebook/sapiens2"
       }
     ]
   },
@@ -824,7 +795,7 @@
       {
         "id": "nvidia/Nemotron-Personas-Korea",
         "author": "nvidia",
-        "likes": 384,
+        "likes": 385,
         "downloads": 54103,
         "tags": [
           "task_categories:text-generation",
@@ -884,7 +855,7 @@
       {
         "id": "Roman1111111/claude-opus-4.6-10000x",
         "author": "Roman1111111",
-        "likes": 327,
+        "likes": 328,
         "downloads": 7748,
         "tags": [
           "license:mit",
@@ -1198,7 +1169,7 @@
       {
         "id": "Roman1111111/claude-sonnet-4.6-120000x",
         "author": "Roman1111111",
-        "likes": 61,
+        "likes": 62,
         "downloads": 4292,
         "tags": [
           "size_categories:100K<n<1M",
