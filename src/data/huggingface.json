@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-02T21:00:15.184Z",
+  "updatedAt": "2026-05-02T22:00:19.053Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 3413,
+        "likes": 3414,
         "downloads": 381587,
         "tags": [
           "transformers",
@@ -246,7 +246,7 @@
       {
         "id": "Qwen/Qwen3.6-35B-A3B",
         "author": "Qwen",
-        "likes": 1569,
+        "likes": 1571,
         "downloads": 2397446,
         "tags": [
           "transformers",
@@ -306,6 +306,30 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K2.6"
       },
       {
+        "id": "unsloth/Qwen3.6-27B-GGUF",
+        "author": "unsloth",
+        "likes": 541,
+        "downloads": 983535,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "qwen",
+          "qwen3_5",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.6-27B",
+          "base_model:quantized:Qwen/Qwen3.6-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF"
+      },
+      {
         "id": "z-lab/Qwen3.6-27B-DFlash",
         "author": "z-lab",
         "likes": 204,
@@ -333,30 +357,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/z-lab/Qwen3.6-27B-DFlash"
-      },
-      {
-        "id": "unsloth/Qwen3.6-27B-GGUF",
-        "author": "unsloth",
-        "likes": 541,
-        "downloads": 983535,
-        "tags": [
-          "transformers",
-          "gguf",
-          "unsloth",
-          "qwen",
-          "qwen3_5",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.6-27B",
-          "base_model:quantized:Qwen/Qwen3.6-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF"
       },
       {
         "id": "sensenova/SenseNova-U1-8B-MoT",
@@ -410,7 +410,7 @@
       {
         "id": "google/gemma-4-31B-it",
         "author": "google",
-        "likes": 2477,
+        "likes": 2478,
         "downloads": 7776034,
         "tags": [
           "transformers",
@@ -712,33 +712,6 @@
         "link": "https://huggingface.co/ibm-granite/granite-embedding-97m-multilingual-r2"
       },
       {
-        "id": "kai-os/Carnice-V2-27b-GGUF",
-        "author": "kai-os",
-        "likes": 81,
-        "downloads": 40813,
-        "tags": [
-          "llama.cpp",
-          "gguf",
-          "qwen",
-          "qwen3.6",
-          "qwen3.5",
-          "carnice",
-          "hermes-agent",
-          "agentic",
-          "sft",
-          "quantized",
-          "base_model:kai-os/Carnice-V2-27b",
-          "base_model:quantized:kai-os/Carnice-V2-27b",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/kai-os/Carnice-V2-27b-GGUF"
-      },
-      {
         "id": "facebook/sapiens2",
         "author": "facebook",
         "likes": 109,
@@ -780,6 +753,35 @@
         "pipeline_tag": "any-to-any",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4"
+      },
+      {
+        "id": "SeeSee21/Z-Anime",
+        "author": "SeeSee21",
+        "likes": 68,
+        "downloads": 859,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "gguf",
+          "z-anime",
+          "text-to-image",
+          "image-generation",
+          "diffusion",
+          "anime",
+          "z-image",
+          "comfyui",
+          "fp8",
+          "bf16",
+          "aio",
+          "en",
+          "base_model:Tongyi-MAI/Z-Image",
+          "base_model:finetune:Tongyi-MAI/Z-Image",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/SeeSee21/Z-Anime"
       }
     ]
   },
@@ -849,7 +851,7 @@
       {
         "id": "Roman1111111/claude-opus-4.6-10000x",
         "author": "Roman1111111",
-        "likes": 328,
+        "likes": 329,
         "downloads": 7748,
         "tags": [
           "license:mit",
@@ -864,6 +866,27 @@
         ],
         "lastModified": "2026-04-05T13:42:24.000Z",
         "link": "https://huggingface.co/datasets/Roman1111111/claude-opus-4.6-10000x"
+      },
+      {
+        "id": "nvidia/Nemotron-Image-Training-v3",
+        "author": "nvidia",
+        "likes": 38,
+        "downloads": 1868,
+        "tags": [
+          "task_categories:visual-question-answering",
+          "task_categories:image-text-to-text",
+          "license:cc-by-4.0",
+          "size_categories:1M<n<10M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-04-28T08:35:01.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Image-Training-v3"
       },
       {
         "id": "open-thoughts/AgentTrove",
@@ -891,48 +914,6 @@
         ],
         "lastModified": "2026-04-27T14:09:08.000Z",
         "link": "https://huggingface.co/datasets/open-thoughts/AgentTrove"
-      },
-      {
-        "id": "nvidia/Nemotron-Image-Training-v3",
-        "author": "nvidia",
-        "likes": 37,
-        "downloads": 1868,
-        "tags": [
-          "task_categories:visual-question-answering",
-          "task_categories:image-text-to-text",
-          "license:cc-by-4.0",
-          "size_categories:1M<n<10M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-04-28T08:35:01.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Image-Training-v3"
-      },
-      {
-        "id": "openai/healthbench-professional",
-        "author": "openai",
-        "likes": 45,
-        "downloads": 7019,
-        "tags": [
-          "license:mit",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "health",
-          "healthbench"
-        ],
-        "lastModified": "2026-04-22T16:09:30.000Z",
-        "link": "https://huggingface.co/datasets/openai/healthbench-professional"
       },
       {
         "id": "lambda/hermes-agent-reasoning-traces",
@@ -963,6 +944,27 @@
         ],
         "lastModified": "2026-04-17T10:06:39.000Z",
         "link": "https://huggingface.co/datasets/lambda/hermes-agent-reasoning-traces"
+      },
+      {
+        "id": "openai/healthbench-professional",
+        "author": "openai",
+        "likes": 45,
+        "downloads": 7019,
+        "tags": [
+          "license:mit",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "health",
+          "healthbench"
+        ],
+        "lastModified": "2026-04-22T16:09:30.000Z",
+        "link": "https://huggingface.co/datasets/openai/healthbench-professional"
       },
       {
         "id": "Jackrong/DeepSeek-V4-Distill-8000x",
@@ -1022,30 +1024,6 @@
         "link": "https://huggingface.co/datasets/SALT-NLP/SWE-chat"
       },
       {
-        "id": "AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1",
-        "author": "AlicanKiraz0",
-        "likes": 63,
-        "downloads": 6633,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:10K<n<100K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "cybersecurity",
-          "defensive-security",
-          "instruction-tuning"
-        ],
-        "lastModified": "2026-04-22T10:29:32.000Z",
-        "link": "https://huggingface.co/datasets/AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1"
-      },
-      {
         "id": "ShadenA/MathNet",
         "author": "ShadenA",
         "likes": 37,
@@ -1097,6 +1075,30 @@
         ],
         "lastModified": "2026-04-27T23:48:47.000Z",
         "link": "https://huggingface.co/datasets/ShadenA/MathNet"
+      },
+      {
+        "id": "AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1",
+        "author": "AlicanKiraz0",
+        "likes": 63,
+        "downloads": 6633,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "cybersecurity",
+          "defensive-security",
+          "instruction-tuning"
+        ],
+        "lastModified": "2026-04-22T10:29:32.000Z",
+        "link": "https://huggingface.co/datasets/AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1"
       },
       {
         "id": "Modotte/CodeX-2M-Thinking",
@@ -1181,7 +1183,7 @@
       {
         "id": "SWE-bench/SWE-bench_Verified",
         "author": "SWE-bench",
-        "likes": 60,
+        "likes": 61,
         "downloads": 96992,
         "tags": [
           "benchmark:official",
@@ -1252,32 +1254,6 @@
         "link": "https://huggingface.co/datasets/tencent/MegaStyle-1.4M"
       },
       {
-        "id": "beyoru/Deepseek-v4-pro-max-distill-1000x",
-        "author": "beyoru",
-        "likes": 18,
-        "downloads": 634,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "reasoning",
-          "distillation",
-          "chain-of-thought",
-          "deepseek",
-          "deepseek-v4-pro"
-        ],
-        "lastModified": "2026-05-01T08:56:53.000Z",
-        "link": "https://huggingface.co/datasets/beyoru/Deepseek-v4-pro-max-distill-1000x"
-      },
-      {
         "id": "HuggingFaceFW/fineweb-edu",
         "author": "HuggingFaceFW",
         "likes": 1050,
@@ -1320,6 +1296,32 @@
         ],
         "lastModified": "2026-04-28T22:38:45.000Z",
         "link": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Math-v3"
+      },
+      {
+        "id": "beyoru/Deepseek-v4-pro-max-distill-1000x",
+        "author": "beyoru",
+        "likes": 18,
+        "downloads": 634,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "reasoning",
+          "distillation",
+          "chain-of-thought",
+          "deepseek",
+          "deepseek-v4-pro"
+        ],
+        "lastModified": "2026-05-01T08:56:53.000Z",
+        "link": "https://huggingface.co/datasets/beyoru/Deepseek-v4-pro-max-distill-1000x"
       }
     ]
   }
