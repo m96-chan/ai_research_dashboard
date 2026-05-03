@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-03T12:00:18.393Z",
+  "updatedAt": "2026-05-03T13:00:14.385Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 3439,
+        "likes": 3441,
         "downloads": 457348,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "openai/privacy-filter",
         "author": "openai",
-        "likes": 1217,
+        "likes": 1219,
         "downloads": 104695,
         "tags": [
           "transformers",
@@ -115,7 +115,7 @@
       {
         "id": "Qwen/Qwen3.6-27B",
         "author": "Qwen",
-        "likes": 1088,
+        "likes": 1090,
         "downloads": 1199862,
         "tags": [
           "transformers",
@@ -225,7 +225,7 @@
       {
         "id": "poolside/Laguna-XS.2",
         "author": "poolside",
-        "likes": 193,
+        "likes": 195,
         "downloads": 9204,
         "tags": [
           "vllm",
@@ -246,7 +246,7 @@
       {
         "id": "inclusionAI/Ling-2.6-flash",
         "author": "inclusionAI",
-        "likes": 154,
+        "likes": 156,
         "downloads": 1039,
         "tags": [
           "safetensors",
@@ -264,7 +264,7 @@
       {
         "id": "Qwen/Qwen3.6-35B-A3B",
         "author": "Qwen",
-        "likes": 1580,
+        "likes": 1581,
         "downloads": 2575808,
         "tags": [
           "transformers",
@@ -281,6 +281,30 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+      },
+      {
+        "id": "sensenova/SenseNova-U1-8B-MoT",
+        "author": "sensenova",
+        "likes": 125,
+        "downloads": 1489,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "neo_chat",
+          "feature-extraction",
+          "multimodal",
+          "text-to-image",
+          "image-to-text",
+          "image-editing",
+          "interleaved-generation",
+          "custom_code",
+          "any-to-any",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT"
       },
       {
         "id": "moonshotai/Kimi-K2.6",
@@ -306,33 +330,9 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K2.6"
       },
       {
-        "id": "sensenova/SenseNova-U1-8B-MoT",
-        "author": "sensenova",
-        "likes": 124,
-        "downloads": 1489,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "neo_chat",
-          "feature-extraction",
-          "multimodal",
-          "text-to-image",
-          "image-to-text",
-          "image-editing",
-          "interleaved-generation",
-          "custom_code",
-          "any-to-any",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT"
-      },
-      {
         "id": "unsloth/Qwen3.6-27B-GGUF",
         "author": "unsloth",
-        "likes": 550,
+        "likes": 551,
         "downloads": 1045084,
         "tags": [
           "transformers",
@@ -356,7 +356,7 @@
       {
         "id": "z-lab/Qwen3.6-27B-DFlash",
         "author": "z-lab",
-        "likes": 210,
+        "likes": 211,
         "downloads": 21714,
         "tags": [
           "transformers",
@@ -431,7 +431,7 @@
       {
         "id": "google/gemma-4-31B-it",
         "author": "google",
-        "likes": 2484,
+        "likes": 2485,
         "downloads": 7907233,
         "tags": [
           "transformers",
@@ -450,31 +450,33 @@
         "link": "https://huggingface.co/google/gemma-4-31B-it"
       },
       {
-        "id": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
-        "author": "HauhauCS",
-        "likes": 269,
-        "downloads": 320747,
+        "id": "SeeSee21/Z-Anime",
+        "author": "SeeSee21",
+        "likes": 101,
+        "downloads": 1647,
         "tags": [
+          "diffusers",
+          "safetensors",
           "gguf",
-          "uncensored",
-          "qwen3.6",
-          "vision",
-          "multimodal",
-          "image-text-to-text",
+          "z-anime",
+          "text-to-image",
+          "image-generation",
+          "diffusion",
+          "anime",
+          "z-image",
+          "comfyui",
+          "fp8",
+          "bf16",
+          "aio",
           "en",
-          "zh",
-          "multilingual",
-          "base_model:Qwen/Qwen3.6-27B",
-          "base_model:quantized:Qwen/Qwen3.6-27B",
+          "base_model:Tongyi-MAI/Z-Image",
+          "base_model:finetune:Tongyi-MAI/Z-Image",
           "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
+          "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "text-to-image",
         "lastModified": "",
-        "link": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive"
+        "link": "https://huggingface.co/SeeSee21/Z-Anime"
       },
       {
         "id": "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
@@ -510,38 +512,36 @@
         "link": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
       },
       {
-        "id": "SeeSee21/Z-Anime",
-        "author": "SeeSee21",
-        "likes": 96,
-        "downloads": 1647,
+        "id": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
+        "author": "HauhauCS",
+        "likes": 269,
+        "downloads": 320747,
         "tags": [
-          "diffusers",
-          "safetensors",
           "gguf",
-          "z-anime",
-          "text-to-image",
-          "image-generation",
-          "diffusion",
-          "anime",
-          "z-image",
-          "comfyui",
-          "fp8",
-          "bf16",
-          "aio",
+          "uncensored",
+          "qwen3.6",
+          "vision",
+          "multimodal",
+          "image-text-to-text",
           "en",
-          "base_model:Tongyi-MAI/Z-Image",
-          "base_model:finetune:Tongyi-MAI/Z-Image",
+          "zh",
+          "multilingual",
+          "base_model:Qwen/Qwen3.6-27B",
+          "base_model:quantized:Qwen/Qwen3.6-27B",
           "license:apache-2.0",
-          "region:us"
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
         ],
-        "pipeline_tag": "text-to-image",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/SeeSee21/Z-Anime"
+        "link": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive"
       },
       {
         "id": "ibm-granite/granite-4.1-8b",
         "author": "ibm-granite",
-        "likes": 135,
+        "likes": 136,
         "downloads": 17108,
         "tags": [
           "transformers",
@@ -589,7 +589,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 536,
+        "likes": 537,
         "downloads": 799579,
         "tags": [
           "gguf",
@@ -787,7 +787,7 @@
       {
         "id": "nvidia/Nemotron-Personas-Korea",
         "author": "nvidia",
-        "likes": 387,
+        "likes": 388,
         "downloads": 56996,
         "tags": [
           "task_categories:text-generation",
@@ -887,7 +887,7 @@
       {
         "id": "open-thoughts/AgentTrove",
         "author": "open-thoughts",
-        "likes": 39,
+        "likes": 40,
         "downloads": 458,
         "tags": [
           "task_categories:text-generation",
@@ -972,27 +972,6 @@
         "link": "https://huggingface.co/datasets/SALT-NLP/SWE-chat"
       },
       {
-        "id": "openai/healthbench-professional",
-        "author": "openai",
-        "likes": 45,
-        "downloads": 7248,
-        "tags": [
-          "license:mit",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "health",
-          "healthbench"
-        ],
-        "lastModified": "2026-04-22T16:09:30.000Z",
-        "link": "https://huggingface.co/datasets/openai/healthbench-professional"
-      },
-      {
         "id": "Jackrong/DeepSeek-V4-Distill-8000x",
         "author": "Jackrong",
         "likes": 44,
@@ -1018,6 +997,27 @@
         ],
         "lastModified": "2026-04-24T08:32:56.000Z",
         "link": "https://huggingface.co/datasets/Jackrong/DeepSeek-V4-Distill-8000x"
+      },
+      {
+        "id": "openai/healthbench-professional",
+        "author": "openai",
+        "likes": 45,
+        "downloads": 7248,
+        "tags": [
+          "license:mit",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "health",
+          "healthbench"
+        ],
+        "lastModified": "2026-04-22T16:09:30.000Z",
+        "link": "https://huggingface.co/datasets/openai/healthbench-professional"
       },
       {
         "id": "AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1",
@@ -1258,6 +1258,32 @@
         "link": "https://huggingface.co/datasets/apptek-com/apptek_callcenter_dialogues"
       },
       {
+        "id": "beyoru/Deepseek-v4-pro-max-distill-1000x",
+        "author": "beyoru",
+        "likes": 20,
+        "downloads": 784,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "reasoning",
+          "distillation",
+          "chain-of-thought",
+          "deepseek",
+          "deepseek-v4-pro"
+        ],
+        "lastModified": "2026-05-03T02:10:57.000Z",
+        "link": "https://huggingface.co/datasets/beyoru/Deepseek-v4-pro-max-distill-1000x"
+      },
+      {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
         "likes": 15,
@@ -1288,32 +1314,6 @@
         ],
         "lastModified": "2026-05-01T17:11:41.000Z",
         "link": "https://huggingface.co/datasets/angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k"
-      },
-      {
-        "id": "beyoru/Deepseek-v4-pro-max-distill-1000x",
-        "author": "beyoru",
-        "likes": 19,
-        "downloads": 784,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "reasoning",
-          "distillation",
-          "chain-of-thought",
-          "deepseek",
-          "deepseek-v4-pro"
-        ],
-        "lastModified": "2026-05-03T02:10:57.000Z",
-        "link": "https://huggingface.co/datasets/beyoru/Deepseek-v4-pro-max-distill-1000x"
       },
       {
         "id": "nvidia/Nemotron-SFT-Math-v3",
