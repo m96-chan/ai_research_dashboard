@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-04T01:00:18.111Z",
+  "updatedAt": "2026-05-04T02:00:18.524Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 3472,
+        "likes": 3473,
         "downloads": 457348,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "XiaomiMiMo/MiMo-V2.5-Pro",
         "author": "XiaomiMiMo",
-        "likes": 408,
+        "likes": 409,
         "downloads": 11055,
         "tags": [
           "safetensors",
@@ -136,7 +136,7 @@
       {
         "id": "talkie-lm/talkie-1930-13b-it",
         "author": "talkie-lm",
-        "likes": 212,
+        "likes": 213,
         "downloads": 0,
         "tags": [
           "en",
@@ -224,7 +224,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash",
         "author": "deepseek-ai",
-        "likes": 929,
+        "likes": 930,
         "downloads": 413995,
         "tags": [
           "transformers",
@@ -333,6 +333,52 @@
         "link": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF"
       },
       {
+        "id": "SulphurAI/Sulphur-2-base",
+        "author": "SulphurAI",
+        "likes": 115,
+        "downloads": 332,
+        "tags": [
+          "diffusers",
+          "gguf",
+          "text-to-video",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
+      },
+      {
+        "id": "SeeSee21/Z-Anime",
+        "author": "SeeSee21",
+        "likes": 115,
+        "downloads": 1647,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "gguf",
+          "z-anime",
+          "text-to-image",
+          "image-generation",
+          "diffusion",
+          "anime",
+          "z-image",
+          "comfyui",
+          "fp8",
+          "bf16",
+          "aio",
+          "en",
+          "base_model:Tongyi-MAI/Z-Image",
+          "base_model:finetune:Tongyi-MAI/Z-Image",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/SeeSee21/Z-Anime"
+      },
+      {
         "id": "moonshotai/Kimi-K2.6",
         "author": "moonshotai",
         "likes": 1187,
@@ -377,35 +423,6 @@
         "link": "https://huggingface.co/inclusionAI/Ling-2.6-1T"
       },
       {
-        "id": "SeeSee21/Z-Anime",
-        "author": "SeeSee21",
-        "likes": 113,
-        "downloads": 1647,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "gguf",
-          "z-anime",
-          "text-to-image",
-          "image-generation",
-          "diffusion",
-          "anime",
-          "z-image",
-          "comfyui",
-          "fp8",
-          "bf16",
-          "aio",
-          "en",
-          "base_model:Tongyi-MAI/Z-Image",
-          "base_model:finetune:Tongyi-MAI/Z-Image",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/SeeSee21/Z-Anime"
-      },
-      {
         "id": "z-lab/Qwen3.6-27B-DFlash",
         "author": "z-lab",
         "likes": 218,
@@ -435,23 +452,6 @@
         "link": "https://huggingface.co/z-lab/Qwen3.6-27B-DFlash"
       },
       {
-        "id": "SulphurAI/Sulphur-2-base",
-        "author": "SulphurAI",
-        "likes": 106,
-        "downloads": 332,
-        "tags": [
-          "diffusers",
-          "gguf",
-          "text-to-video",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
-      },
-      {
         "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
         "author": "unsloth",
         "likes": 904,
@@ -475,6 +475,27 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF"
+      },
+      {
+        "id": "google/gemma-4-31B-it",
+        "author": "google",
+        "likes": 2494,
+        "downloads": 7907233,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-31B-it"
       },
       {
         "id": "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
@@ -510,25 +531,28 @@
         "link": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
       },
       {
-        "id": "google/gemma-4-31B-it",
-        "author": "google",
-        "likes": 2493,
-        "downloads": 7907233,
+        "id": "ibm-granite/granite-4.1-8b",
+        "author": "ibm-granite",
+        "likes": 140,
+        "downloads": 17108,
         "tags": [
           "transformers",
           "safetensors",
-          "gemma4",
-          "image-text-to-text",
+          "granite",
+          "text-generation",
+          "language",
+          "granite-4.1",
           "conversational",
+          "arxiv:0000.00000",
           "license:apache-2.0",
           "eval-results",
           "endpoints_compatible",
           "deploy:azure",
           "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-31B-it"
+        "link": "https://huggingface.co/ibm-granite/granite-4.1-8b"
       },
       {
         "id": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
@@ -558,30 +582,6 @@
         "link": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive"
       },
       {
-        "id": "ibm-granite/granite-4.1-8b",
-        "author": "ibm-granite",
-        "likes": 139,
-        "downloads": 17108,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "granite",
-          "text-generation",
-          "language",
-          "granite-4.1",
-          "conversational",
-          "arxiv:0000.00000",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/ibm-granite/granite-4.1-8b"
-      },
-      {
         "id": "ibm-granite/granite-4.1-30b",
         "author": "ibm-granite",
         "likes": 86,
@@ -604,6 +604,28 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/ibm-granite/granite-4.1-30b"
+      },
+      {
+        "id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "author": "dealignai",
+        "likes": 1456,
+        "downloads": 203453,
+        "tags": [
+          "mlx",
+          "safetensors",
+          "gemma4",
+          "abliterated",
+          "uncensored",
+          "crack",
+          "jang",
+          "image-text-to-text",
+          "conversational",
+          "license:gemma",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK"
       },
       {
         "id": "AngelSlim/Hy-MT1.5-1.8B-1.25bit",
@@ -629,28 +651,6 @@
         "pipeline_tag": "translation",
         "lastModified": "",
         "link": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit"
-      },
-      {
-        "id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
-        "author": "dealignai",
-        "likes": 1455,
-        "downloads": 203453,
-        "tags": [
-          "mlx",
-          "safetensors",
-          "gemma4",
-          "abliterated",
-          "uncensored",
-          "crack",
-          "jang",
-          "image-text-to-text",
-          "conversational",
-          "license:gemma",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK"
       },
       {
         "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
@@ -708,7 +708,7 @@
       {
         "id": "talkie-lm/talkie-1930-13b-base",
         "author": "talkie-lm",
-        "likes": 74,
+        "likes": 75,
         "downloads": 0,
         "tags": [
           "en",
@@ -1051,7 +1051,7 @@
       {
         "id": "SWE-bench/SWE-bench_Verified",
         "author": "SWE-bench",
-        "likes": 61,
+        "likes": 62,
         "downloads": 90699,
         "tags": [
           "benchmark:official",
@@ -1185,32 +1185,6 @@
         "link": "https://huggingface.co/datasets/ADSKAILab/Zero-To-CAD-1m"
       },
       {
-        "id": "beyoru/Deepseek-v4-pro-max-distill-1000x",
-        "author": "beyoru",
-        "likes": 20,
-        "downloads": 784,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "reasoning",
-          "distillation",
-          "chain-of-thought",
-          "deepseek",
-          "deepseek-v4-pro"
-        ],
-        "lastModified": "2026-05-03T02:10:57.000Z",
-        "link": "https://huggingface.co/datasets/beyoru/Deepseek-v4-pro-max-distill-1000x"
-      },
-      {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
         "likes": 15,
@@ -1260,33 +1234,58 @@
         "link": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Math-v3"
       },
       {
-        "id": "openai/gsm8k",
-        "author": "openai",
-        "likes": 1290,
-        "downloads": 878005,
+        "id": "beyoru/Deepseek-v4-pro-max-distill-1000x",
+        "author": "beyoru",
+        "likes": 20,
+        "downloads": 784,
         "tags": [
-          "benchmark:official",
-          "benchmark:eval-yaml",
           "task_categories:text-generation",
-          "annotations_creators:crowdsourced",
-          "language_creators:crowdsourced",
-          "multilinguality:monolingual",
-          "source_datasets:original",
           "language:en",
-          "license:mit",
-          "size_categories:10K<n<100K",
-          "format:parquet",
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:json",
           "modality:text",
           "library:datasets",
           "library:pandas",
           "library:polars",
           "library:mlcroissant",
-          "arxiv:2110.14168",
           "region:us",
-          "math-word-problems"
+          "reasoning",
+          "distillation",
+          "chain-of-thought",
+          "deepseek",
+          "deepseek-v4-pro"
         ],
-        "lastModified": "2026-03-23T10:18:13.000Z",
-        "link": "https://huggingface.co/datasets/openai/gsm8k"
+        "lastModified": "2026-05-03T02:10:57.000Z",
+        "link": "https://huggingface.co/datasets/beyoru/Deepseek-v4-pro-max-distill-1000x"
+      },
+      {
+        "id": "lordx64/reasoning-distill-claude-opus-4-7-max",
+        "author": "lordx64",
+        "likes": 31,
+        "downloads": 1035,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "reasoning",
+          "chain-of-thought",
+          "distillation",
+          "claude",
+          "opus-4-7",
+          "synthetic"
+        ],
+        "lastModified": "2026-04-20T22:38:17.000Z",
+        "link": "https://huggingface.co/datasets/lordx64/reasoning-distill-claude-opus-4-7-max"
       }
     ]
   }
