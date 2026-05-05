@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-05T15:00:21.140Z",
+  "updatedAt": "2026-05-05T16:00:36.936Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 3553,
+        "likes": 3557,
         "downloads": 631499,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "openai/privacy-filter",
         "author": "openai",
-        "likes": 1286,
+        "likes": 1287,
         "downloads": 141317,
         "tags": [
           "transformers",
@@ -48,7 +48,7 @@
       {
         "id": "mistralai/Mistral-Medium-3.5-128B",
         "author": "mistralai",
-        "likes": 262,
+        "likes": 263,
         "downloads": 15024,
         "tags": [
           "safetensors",
@@ -113,30 +113,26 @@
         "link": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"
       },
       {
-        "id": "poolside/Laguna-XS.2",
-        "author": "poolside",
-        "likes": 216,
-        "downloads": 12027,
+        "id": "SulphurAI/Sulphur-2-base",
+        "author": "SulphurAI",
+        "likes": 214,
+        "downloads": 37897,
         "tags": [
-          "vllm",
-          "safetensors",
-          "laguna",
-          "laguna-xs.2",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "license:apache-2.0",
-          "eval-results",
-          "region:us"
+          "diffusers",
+          "gguf",
+          "text-to-video",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "text-to-video",
         "lastModified": "",
-        "link": "https://huggingface.co/poolside/Laguna-XS.2"
+        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
       },
       {
         "id": "XiaomiMiMo/MiMo-V2.5-Pro",
         "author": "XiaomiMiMo",
-        "likes": 435,
+        "likes": 436,
         "downloads": 13317,
         "tags": [
           "safetensors",
@@ -159,26 +155,30 @@
         "link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro"
       },
       {
-        "id": "SulphurAI/Sulphur-2-base",
-        "author": "SulphurAI",
-        "likes": 210,
-        "downloads": 37897,
+        "id": "poolside/Laguna-XS.2",
+        "author": "poolside",
+        "likes": 216,
+        "downloads": 12027,
         "tags": [
-          "diffusers",
-          "gguf",
-          "text-to-video",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "vllm",
+          "safetensors",
+          "laguna",
+          "laguna-xs.2",
+          "text-generation",
+          "conversational",
+          "custom_code",
+          "license:apache-2.0",
+          "eval-results",
+          "region:us"
         ],
-        "pipeline_tag": "text-to-video",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
+        "link": "https://huggingface.co/poolside/Laguna-XS.2"
       },
       {
         "id": "talkie-lm/talkie-1930-13b-it",
         "author": "talkie-lm",
-        "likes": 231,
+        "likes": 232,
         "downloads": 0,
         "tags": [
           "en",
@@ -194,7 +194,7 @@
       {
         "id": "Qwen/Qwen3.6-27B",
         "author": "Qwen",
-        "likes": 1119,
+        "likes": 1121,
         "downloads": 1458973,
         "tags": [
           "transformers",
@@ -215,7 +215,7 @@
       {
         "id": "SeeSee21/Z-Anime",
         "author": "SeeSee21",
-        "likes": 147,
+        "likes": 149,
         "downloads": 3262,
         "tags": [
           "diffusers",
@@ -266,7 +266,7 @@
       {
         "id": "Qwen/Qwen3.6-35B-A3B",
         "author": "Qwen",
-        "likes": 1620,
+        "likes": 1621,
         "downloads": 2884820,
         "tags": [
           "transformers",
@@ -309,9 +309,33 @@
         "link": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT"
       },
       {
+        "id": "ibm-granite/granite-4.1-8b",
+        "author": "ibm-granite",
+        "likes": 153,
+        "downloads": 19605,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "granite",
+          "text-generation",
+          "language",
+          "granite-4.1",
+          "conversational",
+          "arxiv:0000.00000",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/ibm-granite/granite-4.1-8b"
+      },
+      {
         "id": "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
         "author": "unsloth",
-        "likes": 101,
+        "likes": 100,
         "downloads": 48437,
         "tags": [
           "gguf",
@@ -342,30 +366,6 @@
         "link": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
       },
       {
-        "id": "ibm-granite/granite-4.1-8b",
-        "author": "ibm-granite",
-        "likes": 153,
-        "downloads": 19605,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "granite",
-          "text-generation",
-          "language",
-          "granite-4.1",
-          "conversational",
-          "arxiv:0000.00000",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/ibm-granite/granite-4.1-8b"
-      },
-      {
         "id": "ibm-granite/granite-4.1-30b",
         "author": "ibm-granite",
         "likes": 97,
@@ -390,24 +390,16 @@
         "link": "https://huggingface.co/ibm-granite/granite-4.1-30b"
       },
       {
-        "id": "inclusionAI/Ling-2.6-flash",
-        "author": "inclusionAI",
-        "likes": 457,
-        "downloads": 1310,
+        "id": "TenStrip/LTX2.3-10Eros",
+        "author": "TenStrip",
+        "likes": 94,
+        "downloads": 0,
         "tags": [
-          "safetensors",
-          "bailing_hybrid",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "en",
-          "license:mit",
-          "eval-results",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/inclusionAI/Ling-2.6-flash"
+        "link": "https://huggingface.co/TenStrip/LTX2.3-10Eros"
       },
       {
         "id": "unsloth/Qwen3.6-27B-GGUF",
@@ -434,21 +426,29 @@
         "link": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF"
       },
       {
-        "id": "TenStrip/LTX2.3-10Eros",
-        "author": "TenStrip",
-        "likes": 94,
-        "downloads": 0,
+        "id": "inclusionAI/Ling-2.6-flash",
+        "author": "inclusionAI",
+        "likes": 457,
+        "downloads": 1310,
         "tags": [
+          "safetensors",
+          "bailing_hybrid",
+          "text-generation",
+          "conversational",
+          "custom_code",
+          "en",
+          "license:mit",
+          "eval-results",
           "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/TenStrip/LTX2.3-10Eros"
+        "link": "https://huggingface.co/inclusionAI/Ling-2.6-flash"
       },
       {
         "id": "XiaomiMiMo/MiMo-V2.5",
         "author": "XiaomiMiMo",
-        "likes": 209,
+        "likes": 211,
         "downloads": 57759,
         "tags": [
           "safetensors",
@@ -472,30 +472,9 @@
         "link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5"
       },
       {
-        "id": "google/gemma-4-31B-it",
-        "author": "google",
-        "likes": 2512,
-        "downloads": 8206643,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-31B-it"
-      },
-      {
         "id": "AngelSlim/Hy-MT1.5-1.8B-1.25bit",
         "author": "AngelSlim",
-        "likes": 92,
+        "likes": 93,
         "downloads": 16370,
         "tags": [
           "safetensors",
@@ -520,7 +499,7 @@
       {
         "id": "z-lab/Qwen3.6-27B-DFlash",
         "author": "z-lab",
-        "likes": 234,
+        "likes": 236,
         "downloads": 24768,
         "tags": [
           "transformers",
@@ -547,6 +526,27 @@
         "link": "https://huggingface.co/z-lab/Qwen3.6-27B-DFlash"
       },
       {
+        "id": "google/gemma-4-31B-it",
+        "author": "google",
+        "likes": 2513,
+        "downloads": 8206643,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-31B-it"
+      },
+      {
         "id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
         "author": "dealignai",
         "likes": 1473,
@@ -571,7 +571,7 @@
       {
         "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
         "author": "nvidia",
-        "likes": 85,
+        "likes": 86,
         "downloads": 331553,
         "tags": [
           "transformers",
@@ -718,6 +718,27 @@
         "link": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF"
       },
       {
+        "id": "inclusionAI/Ling-2.6-1T",
+        "author": "inclusionAI",
+        "likes": 410,
+        "downloads": 1062,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "bailing_hybrid",
+          "text-generation",
+          "conversational",
+          "custom_code",
+          "license:mit",
+          "eval-results",
+          "compressed-tensors",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/inclusionAI/Ling-2.6-1T"
+      },
+      {
         "id": "moonshotai/Kimi-K2.6",
         "author": "moonshotai",
         "likes": 1202,
@@ -741,30 +762,9 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K2.6"
       },
       {
-        "id": "inclusionAI/Ling-2.6-1T",
-        "author": "inclusionAI",
-        "likes": 410,
-        "downloads": 1062,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "bailing_hybrid",
-          "text-generation",
-          "conversational",
-          "custom_code",
-          "license:mit",
-          "eval-results",
-          "compressed-tensors",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/inclusionAI/Ling-2.6-1T"
-      },
-      {
         "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 919,
+        "likes": 920,
         "downloads": 2243715,
         "tags": [
           "transformers",
@@ -979,6 +979,33 @@
         "link": "https://huggingface.co/datasets/SALT-NLP/SWE-chat"
       },
       {
+        "id": "Jackrong/DeepSeek-V4-Distill-8000x",
+        "author": "Jackrong",
+        "likes": 50,
+        "downloads": 5094,
+        "tags": [
+          "task_categories:text-generation",
+          "source_datasets:Jackrong/GLM-5.1-Reasoning-1M-Cleaned",
+          "language:en",
+          "license:mit",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "reasoning",
+          "distillation",
+          "supervised-fine-tuning",
+          "chain-of-thought",
+          "deepseek-v4-flash"
+        ],
+        "lastModified": "2026-04-24T08:32:56.000Z",
+        "link": "https://huggingface.co/datasets/Jackrong/DeepSeek-V4-Distill-8000x"
+      },
+      {
         "id": "ADSKAILab/Zero-To-CAD-1m",
         "author": "ADSKAILab",
         "likes": 24,
@@ -1010,33 +1037,6 @@
         ],
         "lastModified": "2026-05-03T14:11:21.000Z",
         "link": "https://huggingface.co/datasets/ADSKAILab/Zero-To-CAD-1m"
-      },
-      {
-        "id": "Jackrong/DeepSeek-V4-Distill-8000x",
-        "author": "Jackrong",
-        "likes": 50,
-        "downloads": 5094,
-        "tags": [
-          "task_categories:text-generation",
-          "source_datasets:Jackrong/GLM-5.1-Reasoning-1M-Cleaned",
-          "language:en",
-          "license:mit",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "reasoning",
-          "distillation",
-          "supervised-fine-tuning",
-          "chain-of-thought",
-          "deepseek-v4-flash"
-        ],
-        "lastModified": "2026-04-24T08:32:56.000Z",
-        "link": "https://huggingface.co/datasets/Jackrong/DeepSeek-V4-Distill-8000x"
       },
       {
         "id": "ShadenA/MathNet",
@@ -1177,6 +1177,33 @@
         "link": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
       },
       {
+        "id": "jamiequint/sf_criminal_court",
+        "author": "jamiequint",
+        "likes": 17,
+        "downloads": 273,
+        "tags": [
+          "task_categories:tabular-classification",
+          "language:en",
+          "license:cc-by-nc-4.0",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "criminal-justice",
+          "san-francisco",
+          "court-records",
+          "district-attorney",
+          "legal"
+        ],
+        "lastModified": "2026-05-04T23:34:38.000Z",
+        "link": "https://huggingface.co/datasets/jamiequint/sf_criminal_court"
+      },
+      {
         "id": "AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1",
         "author": "AlicanKiraz0",
         "likes": 70,
@@ -1225,33 +1252,6 @@
         ],
         "lastModified": "2026-04-06T13:10:36.000Z",
         "link": "https://huggingface.co/datasets/badlogicgames/pi-mono"
-      },
-      {
-        "id": "jamiequint/sf_criminal_court",
-        "author": "jamiequint",
-        "likes": 15,
-        "downloads": 273,
-        "tags": [
-          "task_categories:tabular-classification",
-          "language:en",
-          "license:cc-by-nc-4.0",
-          "size_categories:1M<n<10M",
-          "format:parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "criminal-justice",
-          "san-francisco",
-          "court-records",
-          "district-attorney",
-          "legal"
-        ],
-        "lastModified": "2026-05-04T23:34:38.000Z",
-        "link": "https://huggingface.co/datasets/jamiequint/sf_criminal_court"
       },
       {
         "id": "open-thoughts/TaskTrove",
