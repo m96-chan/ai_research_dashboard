@@ -1,12 +1,29 @@
 {
-  "updatedAt": "2026-05-07T23:00:22.262Z",
+  "updatedAt": "2026-05-08T00:00:23.608Z",
   "models": {
     "count": 30,
     "items": [
       {
+        "id": "SulphurAI/Sulphur-2-base",
+        "author": "SulphurAI",
+        "likes": 373,
+        "downloads": 71149,
+        "tags": [
+          "diffusers",
+          "gguf",
+          "text-to-video",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
+      },
+      {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 3721,
+        "likes": 3722,
         "downloads": 946264,
         "tags": [
           "transformers",
@@ -26,26 +43,9 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
       },
       {
-        "id": "SulphurAI/Sulphur-2-base",
-        "author": "SulphurAI",
-        "likes": 368,
-        "downloads": 71149,
-        "tags": [
-          "diffusers",
-          "gguf",
-          "text-to-video",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
-      },
-      {
         "id": "openai/privacy-filter",
         "author": "openai",
-        "likes": 1342,
+        "likes": 1343,
         "downloads": 165240,
         "tags": [
           "transformers",
@@ -65,7 +65,7 @@
       {
         "id": "Zyphra/ZAYA1-8B",
         "author": "Zyphra",
-        "likes": 191,
+        "likes": 194,
         "downloads": 539,
         "tags": [
           "safetensors",
@@ -149,7 +149,7 @@
       {
         "id": "google/gemma-4-31B-it-assistant",
         "author": "google",
-        "likes": 136,
+        "likes": 138,
         "downloads": 19908,
         "tags": [
           "transformers",
@@ -252,7 +252,7 @@
       {
         "id": "sensenova/SenseNova-U1-8B-MoT",
         "author": "sensenova",
-        "likes": 184,
+        "likes": 185,
         "downloads": 2724,
         "tags": [
           "transformers",
@@ -276,7 +276,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash",
         "author": "deepseek-ai",
-        "likes": 979,
+        "likes": 980,
         "downloads": 751333,
         "tags": [
           "transformers",
@@ -294,6 +294,29 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+      },
+      {
+        "id": "google/gemma-4-31B-it",
+        "author": "google",
+        "likes": 2555,
+        "downloads": 8594149,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4",
+          "image-text-to-text",
+          "conversational",
+          "base_model:google/gemma-4-31B",
+          "base_model:finetune:google/gemma-4-31B",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-31B-it"
       },
       {
         "id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
@@ -316,29 +339,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK"
-      },
-      {
-        "id": "google/gemma-4-31B-it",
-        "author": "google",
-        "likes": 2554,
-        "downloads": 8594149,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4",
-          "image-text-to-text",
-          "conversational",
-          "base_model:google/gemma-4-31B",
-          "base_model:finetune:google/gemma-4-31B",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-31B-it"
       },
       {
         "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
@@ -392,7 +392,7 @@
       {
         "id": "google/gemma-4-26B-A4B-it-assistant",
         "author": "google",
-        "likes": 83,
+        "likes": 84,
         "downloads": 12868,
         "tags": [
           "transformers",
@@ -485,6 +485,22 @@
         "link": "https://huggingface.co/z-lab/Qwen3.6-27B-DFlash"
       },
       {
+        "id": "talkie-lm/talkie-1930-13b-it",
+        "author": "talkie-lm",
+        "likes": 242,
+        "downloads": 0,
+        "tags": [
+          "en",
+          "base_model:talkie-lm/talkie-1930-13b-base",
+          "base_model:finetune:talkie-lm/talkie-1930-13b-base",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/talkie-lm/talkie-1930-13b-it"
+      },
+      {
         "id": "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
         "author": "DavidAU",
         "likes": 91,
@@ -531,22 +547,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF"
-      },
-      {
-        "id": "talkie-lm/talkie-1930-13b-it",
-        "author": "talkie-lm",
-        "likes": 242,
-        "downloads": 0,
-        "tags": [
-          "en",
-          "base_model:talkie-lm/talkie-1930-13b-base",
-          "base_model:finetune:talkie-lm/talkie-1930-13b-base",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/talkie-lm/talkie-1930-13b-it"
       },
       {
         "id": "Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
@@ -628,32 +628,50 @@
         "link": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF"
       },
       {
-        "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "author": "HauhauCS",
-        "likes": 577,
-        "downloads": 973262,
+        "id": "froggeric/Qwen-Fixed-Chat-Templates",
+        "author": "froggeric",
+        "likes": 92,
+        "downloads": 0,
         "tags": [
-          "gguf",
-          "uncensored",
+          "mlx",
+          "jinja",
+          "chat-template",
+          "qwen",
+          "qwen3.5",
           "qwen3.6",
-          "moe",
-          "vision",
-          "multimodal",
-          "image-text-to-text",
-          "en",
-          "zh",
-          "multilingual",
-          "base_model:Qwen/Qwen3.6-35B-A3B",
-          "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
+          "lm-studio",
+          "llama.cpp",
+          "tool-calling",
+          "thinking",
           "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
+          "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
+        "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
+      },
+      {
+        "id": "google/gemma-4-E4B-it",
+        "author": "google",
+        "likes": 942,
+        "downloads": 5494056,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4",
+          "image-text-to-text",
+          "any-to-any",
+          "base_model:google/gemma-4-E4B",
+          "base_model:finetune:google/gemma-4-E4B",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-E4B-it"
       },
       {
         "id": "ibm-granite/granite-4.1-8b",
@@ -680,50 +698,32 @@
         "link": "https://huggingface.co/ibm-granite/granite-4.1-8b"
       },
       {
-        "id": "froggeric/Qwen-Fixed-Chat-Templates",
-        "author": "froggeric",
-        "likes": 92,
-        "downloads": 0,
+        "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "author": "HauhauCS",
+        "likes": 576,
+        "downloads": 973262,
         "tags": [
-          "mlx",
-          "jinja",
-          "chat-template",
-          "qwen",
-          "qwen3.5",
+          "gguf",
+          "uncensored",
           "qwen3.6",
-          "lm-studio",
-          "llama.cpp",
-          "tool-calling",
-          "thinking",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
-      },
-      {
-        "id": "google/gemma-4-E4B-it",
-        "author": "google",
-        "likes": 941,
-        "downloads": 5494056,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4",
+          "moe",
+          "vision",
+          "multimodal",
           "image-text-to-text",
-          "any-to-any",
-          "base_model:google/gemma-4-E4B",
-          "base_model:finetune:google/gemma-4-E4B",
+          "en",
+          "zh",
+          "multilingual",
+          "base_model:Qwen/Qwen3.6-35B-A3B",
+          "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
           "license:apache-2.0",
-          "eval-results",
           "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
+          "region:us",
+          "imatrix",
+          "conversational"
         ],
-        "pipeline_tag": "any-to-any",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-E4B-it"
+        "link": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
       },
       {
         "id": "XiaomiMiMo/MiMo-V2.5",
@@ -847,7 +847,7 @@
       {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
-        "likes": 31,
+        "likes": 32,
         "downloads": 587,
         "tags": [
           "task_categories:text-generation",
