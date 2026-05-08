@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-08T04:00:15.221Z",
+  "updatedAt": "2026-05-08T05:00:25.041Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "SulphurAI/Sulphur-2-base",
         "author": "SulphurAI",
-        "likes": 387,
+        "likes": 388,
         "downloads": 71149,
         "tags": [
           "diffusers",
@@ -45,7 +45,7 @@
       {
         "id": "Zyphra/ZAYA1-8B",
         "author": "Zyphra",
-        "likes": 206,
+        "likes": 210,
         "downloads": 539,
         "tags": [
           "safetensors",
@@ -81,7 +81,7 @@
       {
         "id": "SeeSee21/Z-Anime",
         "author": "SeeSee21",
-        "likes": 225,
+        "likes": 226,
         "downloads": 4460,
         "tags": [
           "diffusers",
@@ -276,7 +276,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash",
         "author": "deepseek-ai",
-        "likes": 985,
+        "likes": 986,
         "downloads": 751333,
         "tags": [
           "transformers",
@@ -343,7 +343,7 @@
       {
         "id": "unsloth/Qwen3.6-27B-GGUF",
         "author": "unsloth",
-        "likes": 618,
+        "likes": 619,
         "downloads": 1264430,
         "tags": [
           "transformers",
@@ -367,7 +367,7 @@
       {
         "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
         "author": "nvidia",
-        "likes": 262,
+        "likes": 263,
         "downloads": 65066,
         "tags": [
           "transformers",
@@ -465,7 +465,7 @@
       {
         "id": "poolside/Laguna-XS.2",
         "author": "poolside",
-        "likes": 232,
+        "likes": 233,
         "downloads": 16792,
         "tags": [
           "transformers",
@@ -533,25 +533,9 @@
         "link": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF"
       },
       {
-        "id": "talkie-lm/talkie-1930-13b-it",
-        "author": "talkie-lm",
-        "likes": 245,
-        "downloads": 0,
-        "tags": [
-          "en",
-          "base_model:talkie-lm/talkie-1930-13b-base",
-          "base_model:finetune:talkie-lm/talkie-1930-13b-base",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/talkie-lm/talkie-1930-13b-it"
-      },
-      {
         "id": "Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
         "author": "Jackrong",
-        "likes": 70,
+        "likes": 71,
         "downloads": 4754,
         "tags": [
           "transformers",
@@ -585,6 +569,22 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF"
+      },
+      {
+        "id": "talkie-lm/talkie-1930-13b-it",
+        "author": "talkie-lm",
+        "likes": 245,
+        "downloads": 0,
+        "tags": [
+          "en",
+          "base_model:talkie-lm/talkie-1930-13b-base",
+          "base_model:finetune:talkie-lm/talkie-1930-13b-base",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/talkie-lm/talkie-1930-13b-it"
       },
       {
         "id": "Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
@@ -649,29 +649,6 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
-      },
-      {
-        "id": "google/gemma-4-E4B-it",
-        "author": "google",
-        "likes": 945,
-        "downloads": 5494056,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4",
-          "image-text-to-text",
-          "any-to-any",
-          "base_model:google/gemma-4-E4B",
-          "base_model:finetune:google/gemma-4-E4B",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-E4B-it"
       },
       {
         "id": "k2-fsa/OmniVoice",
@@ -1343,56 +1320,67 @@
         "link": "https://huggingface.co/k2-fsa/OmniVoice"
       },
       {
-        "id": "ibm-granite/granite-4.1-8b",
-        "author": "ibm-granite",
-        "likes": 162,
-        "downloads": 24099,
+        "id": "google/gemma-4-E4B-it",
+        "author": "google",
+        "likes": 945,
+        "downloads": 5494056,
         "tags": [
           "transformers",
           "safetensors",
-          "granite",
-          "text-generation",
-          "language",
-          "granite-4.1",
-          "conversational",
-          "arxiv:0000.00000",
+          "gemma4",
+          "image-text-to-text",
+          "any-to-any",
+          "base_model:google/gemma-4-E4B",
+          "base_model:finetune:google/gemma-4-E4B",
           "license:apache-2.0",
           "eval-results",
           "endpoints_compatible",
           "deploy:azure",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "any-to-any",
         "lastModified": "",
-        "link": "https://huggingface.co/ibm-granite/granite-4.1-8b"
+        "link": "https://huggingface.co/google/gemma-4-E4B-it"
       },
       {
-        "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "author": "HauhauCS",
-        "likes": 575,
-        "downloads": 973262,
+        "id": "AngelSlim/Hy-MT1.5-1.8B-1.25bit",
+        "author": "AngelSlim",
+        "likes": 117,
+        "downloads": 16631,
         "tags": [
-          "gguf",
-          "uncensored",
-          "qwen3.6",
-          "moe",
-          "vision",
-          "multimodal",
-          "image-text-to-text",
-          "en",
-          "zh",
+          "safetensors",
+          "hunyuan_v1_dense",
+          "translation",
+          "hy-mt",
+          "quant",
+          "1.25bit",
+          "sherry",
           "multilingual",
-          "base_model:Qwen/Qwen3.6-35B-A3B",
-          "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
+          "arxiv:2601.07892",
+          "arxiv:2512.24092",
+          "arxiv:2602.21233",
+          "base_model:tencent/HY-MT1.5-1.8B",
+          "base_model:finetune:tencent/HY-MT1.5-1.8B",
+          "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "translation",
         "lastModified": "",
-        "link": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
+        "link": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit"
+      },
+      {
+        "id": "circlestone-labs/Anima",
+        "author": "circlestone-labs",
+        "likes": 1210,
+        "downloads": 458446,
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/circlestone-labs/Anima"
       }
     ]
   },
@@ -1402,7 +1390,7 @@
       {
         "id": "open-thoughts/AgentTrove",
         "author": "open-thoughts",
-        "likes": 76,
+        "likes": 78,
         "downloads": 4208,
         "tags": [
           "task_categories:text-generation",
@@ -1522,7 +1510,7 @@
       {
         "id": "Jackrong/DeepSeek-V4-Distill-8000x",
         "author": "Jackrong",
-        "likes": 65,
+        "likes": 66,
         "downloads": 6075,
         "tags": [
           "task_categories:text-generation",
@@ -1549,7 +1537,7 @@
       {
         "id": "Roman1111111/claude-opus-4.6-10000x",
         "author": "Roman1111111",
-        "likes": 348,
+        "likes": 349,
         "downloads": 7777,
         "tags": [
           "license:mit",
@@ -1564,6 +1552,57 @@
         ],
         "lastModified": "2026-04-05T13:42:24.000Z",
         "link": "https://huggingface.co/datasets/Roman1111111/claude-opus-4.6-10000x"
+      },
+      {
+        "id": "nvidia/Nemotron-Image-Training-v3",
+        "author": "nvidia",
+        "likes": 55,
+        "downloads": 4032,
+        "tags": [
+          "task_categories:visual-question-answering",
+          "task_categories:image-text-to-text",
+          "license:cc-by-4.0",
+          "size_categories:1M<n<10M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-04-28T08:35:01.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Image-Training-v3"
+      },
+      {
+        "id": "lambda/hermes-agent-reasoning-traces",
+        "author": "lambda",
+        "likes": 293,
+        "downloads": 8997,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "tool-calling",
+          "function-calling",
+          "agent",
+          "hermes",
+          "reasoning",
+          "sharegpt",
+          "sft",
+          "traces"
+        ],
+        "lastModified": "2026-04-17T10:06:39.000Z",
+        "link": "https://huggingface.co/datasets/lambda/hermes-agent-reasoning-traces"
       },
       {
         "id": "ADSKAILab/Zero-To-CAD-1m",
@@ -1599,60 +1638,9 @@
         "link": "https://huggingface.co/datasets/ADSKAILab/Zero-To-CAD-1m"
       },
       {
-        "id": "nvidia/Nemotron-Image-Training-v3",
-        "author": "nvidia",
-        "likes": 54,
-        "downloads": 4032,
-        "tags": [
-          "task_categories:visual-question-answering",
-          "task_categories:image-text-to-text",
-          "license:cc-by-4.0",
-          "size_categories:1M<n<10M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-04-28T08:35:01.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Image-Training-v3"
-      },
-      {
-        "id": "lambda/hermes-agent-reasoning-traces",
-        "author": "lambda",
-        "likes": 292,
-        "downloads": 8997,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "tool-calling",
-          "function-calling",
-          "agent",
-          "hermes",
-          "reasoning",
-          "sharegpt",
-          "sft",
-          "traces"
-        ],
-        "lastModified": "2026-04-17T10:06:39.000Z",
-        "link": "https://huggingface.co/datasets/lambda/hermes-agent-reasoning-traces"
-      },
-      {
         "id": "apptek-com/apptek_callcenter_dialogues",
         "author": "apptek-com",
-        "likes": 24,
+        "likes": 25,
         "downloads": 2447,
         "tags": [
           "task_categories:automatic-speech-recognition",
@@ -1793,6 +1781,26 @@
         "link": "https://huggingface.co/datasets/ShadenA/MathNet"
       },
       {
+        "id": "SWE-bench/SWE-bench_Verified",
+        "author": "SWE-bench",
+        "likes": 72,
+        "downloads": 85214,
+        "tags": [
+          "benchmark:official",
+          "benchmark:eval-yaml",
+          "size_categories:n<1K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-27T20:36:38.000Z",
+        "link": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+      },
+      {
         "id": "iletisim/dezenformasyon-bultenleri",
         "author": "iletisim",
         "likes": 21,
@@ -1823,26 +1831,6 @@
         ],
         "lastModified": "2026-05-03T09:10:37.000Z",
         "link": "https://huggingface.co/datasets/iletisim/dezenformasyon-bultenleri"
-      },
-      {
-        "id": "SWE-bench/SWE-bench_Verified",
-        "author": "SWE-bench",
-        "likes": 71,
-        "downloads": 85214,
-        "tags": [
-          "benchmark:official",
-          "benchmark:eval-yaml",
-          "size_categories:n<1K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-02-27T20:36:38.000Z",
-        "link": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
       },
       {
         "id": "r0b0tlab/deepseek-hermes-reasoning-traces",
@@ -1877,33 +1865,9 @@
         "link": "https://huggingface.co/datasets/r0b0tlab/deepseek-hermes-reasoning-traces"
       },
       {
-        "id": "AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1",
-        "author": "AlicanKiraz0",
-        "likes": 77,
-        "downloads": 7656,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:10K<n<100K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "cybersecurity",
-          "defensive-security",
-          "instruction-tuning"
-        ],
-        "lastModified": "2026-04-22T10:29:32.000Z",
-        "link": "https://huggingface.co/datasets/AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1"
-      },
-      {
         "id": "Modotte/CodeX-2M-Thinking",
         "author": "Modotte",
-        "likes": 67,
+        "likes": 68,
         "downloads": 4542,
         "tags": [
           "task_categories:text-generation",
@@ -1937,9 +1901,33 @@
         "link": "https://huggingface.co/datasets/Modotte/CodeX-2M-Thinking"
       },
       {
+        "id": "AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1",
+        "author": "AlicanKiraz0",
+        "likes": 77,
+        "downloads": 7656,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "cybersecurity",
+          "defensive-security",
+          "instruction-tuning"
+        ],
+        "lastModified": "2026-04-22T10:29:32.000Z",
+        "link": "https://huggingface.co/datasets/AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1"
+      },
+      {
         "id": "HuggingFaceFW/fineweb-edu",
         "author": "HuggingFaceFW",
-        "likes": 1059,
+        "likes": 1060,
         "downloads": 526270,
         "tags": [
           "task_categories:text-generation",
@@ -1964,31 +1952,42 @@
         "link": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
       },
       {
-        "id": "badlogicgames/pi-mono",
-        "author": "badlogicgames",
-        "likes": 115,
-        "downloads": 19345,
+        "id": "OwnedByDanes/Usenet-Corpus-1980-2013",
+        "author": "OwnedByDanes",
+        "likes": 13,
+        "downloads": 291,
         "tags": [
           "task_categories:text-generation",
+          "task_categories:text-classification",
           "language:en",
-          "language:code",
+          "language:pl",
+          "language:nl",
+          "language:es",
+          "language:fr",
+          "language:it",
+          "language:de",
+          "language:ru",
+          "language:ja",
+          "language:pt",
           "license:other",
-          "size_categories:n<1K",
+          "size_categories:10K<n<100K",
           "format:json",
-          "format:agent-traces",
-          "modality:tabular",
           "modality:text",
           "library:datasets",
           "library:dask",
           "library:polars",
           "library:mlcroissant",
           "region:us",
-          "agent-traces",
-          "coding-agent",
-          "pi-share-hf"
+          "usenet",
+          "internet-history",
+          "forums",
+          "long-form-text",
+          "pre-web",
+          "conversational",
+          "pretraining"
         ],
-        "lastModified": "2026-04-06T13:10:36.000Z",
-        "link": "https://huggingface.co/datasets/badlogicgames/pi-mono"
+        "lastModified": "2026-05-05T16:17:39.000Z",
+        "link": "https://huggingface.co/datasets/OwnedByDanes/Usenet-Corpus-1980-2013"
       }
     ]
   }
