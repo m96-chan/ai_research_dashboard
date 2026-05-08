@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-08T02:00:28.651Z",
+  "updatedAt": "2026-05-08T03:00:23.975Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "SulphurAI/Sulphur-2-base",
         "author": "SulphurAI",
-        "likes": 381,
+        "likes": 386,
         "downloads": 71149,
         "tags": [
           "diffusers",
@@ -23,7 +23,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 3725,
+        "likes": 3726,
         "downloads": 946264,
         "tags": [
           "transformers",
@@ -43,9 +43,25 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
       },
       {
+        "id": "Zyphra/ZAYA1-8B",
+        "author": "Zyphra",
+        "likes": 201,
+        "downloads": 539,
+        "tags": [
+          "safetensors",
+          "zaya",
+          "license:apache-2.0",
+          "eval-results",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/Zyphra/ZAYA1-8B"
+      },
+      {
         "id": "openai/privacy-filter",
         "author": "openai",
-        "likes": 1344,
+        "likes": 1345,
         "downloads": 165240,
         "tags": [
           "transformers",
@@ -63,25 +79,9 @@
         "link": "https://huggingface.co/openai/privacy-filter"
       },
       {
-        "id": "Zyphra/ZAYA1-8B",
-        "author": "Zyphra",
-        "likes": 198,
-        "downloads": 539,
-        "tags": [
-          "safetensors",
-          "zaya",
-          "license:apache-2.0",
-          "eval-results",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Zyphra/ZAYA1-8B"
-      },
-      {
         "id": "SeeSee21/Z-Anime",
         "author": "SeeSee21",
-        "likes": 219,
+        "likes": 221,
         "downloads": 4460,
         "tags": [
           "diffusers",
@@ -110,7 +110,7 @@
       {
         "id": "TenStrip/LTX2.3-10Eros",
         "author": "TenStrip",
-        "likes": 152,
+        "likes": 153,
         "downloads": 28215,
         "tags": [
           "diffusers",
@@ -143,7 +143,7 @@
       {
         "id": "XiaomiMiMo/MiMo-V2.5-Pro",
         "author": "XiaomiMiMo",
-        "likes": 470,
+        "likes": 472,
         "downloads": 20905,
         "tags": [
           "safetensors",
@@ -274,7 +274,7 @@
       {
         "id": "sensenova/SenseNova-U1-8B-MoT",
         "author": "sensenova",
-        "likes": 188,
+        "likes": 189,
         "downloads": 2724,
         "tags": [
           "transformers",
@@ -341,6 +341,30 @@
         "link": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK"
       },
       {
+        "id": "unsloth/Qwen3.6-27B-GGUF",
+        "author": "unsloth",
+        "likes": 617,
+        "downloads": 1264430,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "qwen",
+          "qwen3_5",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.6-27B",
+          "base_model:quantized:Qwen/Qwen3.6-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF"
+      },
+      {
         "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
         "author": "nvidia",
         "likes": 262,
@@ -364,30 +388,6 @@
         "pipeline_tag": "any-to-any",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"
-      },
-      {
-        "id": "unsloth/Qwen3.6-27B-GGUF",
-        "author": "unsloth",
-        "likes": 613,
-        "downloads": 1264430,
-        "tags": [
-          "transformers",
-          "gguf",
-          "unsloth",
-          "qwen",
-          "qwen3_5",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.6-27B",
-          "base_model:quantized:Qwen/Qwen3.6-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF"
       },
       {
         "id": "google/gemma-4-26B-A4B-it-assistant",
@@ -434,6 +434,28 @@
         "link": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF"
       },
       {
+        "id": "poolside/Laguna-XS.2",
+        "author": "poolside",
+        "likes": 232,
+        "downloads": 16792,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "laguna",
+          "text-generation",
+          "laguna-xs.2",
+          "vllm",
+          "conversational",
+          "custom_code",
+          "license:apache-2.0",
+          "eval-results",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/poolside/Laguna-XS.2"
+      },
+      {
         "id": "z-lab/Qwen3.6-27B-DFlash",
         "author": "z-lab",
         "likes": 261,
@@ -463,31 +485,9 @@
         "link": "https://huggingface.co/z-lab/Qwen3.6-27B-DFlash"
       },
       {
-        "id": "poolside/Laguna-XS.2",
-        "author": "poolside",
-        "likes": 232,
-        "downloads": 16792,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "laguna",
-          "text-generation",
-          "laguna-xs.2",
-          "vllm",
-          "conversational",
-          "custom_code",
-          "license:apache-2.0",
-          "eval-results",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/poolside/Laguna-XS.2"
-      },
-      {
         "id": "talkie-lm/talkie-1930-13b-it",
         "author": "talkie-lm",
-        "likes": 243,
+        "likes": 244,
         "downloads": 0,
         "tags": [
           "en",
@@ -630,7 +630,7 @@
       {
         "id": "froggeric/Qwen-Fixed-Chat-Templates",
         "author": "froggeric",
-        "likes": 92,
+        "likes": 94,
         "downloads": 0,
         "tags": [
           "mlx",
@@ -653,7 +653,7 @@
       {
         "id": "google/gemma-4-E4B-it",
         "author": "google",
-        "likes": 942,
+        "likes": 943,
         "downloads": 5494056,
         "tags": [
           "transformers",
@@ -676,7 +676,7 @@
       {
         "id": "k2-fsa/OmniVoice",
         "author": "k2-fsa",
-        "likes": 798,
+        "likes": 799,
         "downloads": 2238817,
         "tags": [
           "omnivoice",
@@ -1343,9 +1343,33 @@
         "link": "https://huggingface.co/k2-fsa/OmniVoice"
       },
       {
+        "id": "ibm-granite/granite-4.1-8b",
+        "author": "ibm-granite",
+        "likes": 162,
+        "downloads": 24099,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "granite",
+          "text-generation",
+          "language",
+          "granite-4.1",
+          "conversational",
+          "arxiv:0000.00000",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/ibm-granite/granite-4.1-8b"
+      },
+      {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 576,
+        "likes": 575,
         "downloads": 973262,
         "tags": [
           "gguf",
@@ -1369,30 +1393,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
-      },
-      {
-        "id": "ibm-granite/granite-4.1-8b",
-        "author": "ibm-granite",
-        "likes": 162,
-        "downloads": 24099,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "granite",
-          "text-generation",
-          "language",
-          "granite-4.1",
-          "conversational",
-          "arxiv:0000.00000",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/ibm-granite/granite-4.1-8b"
       }
     ]
   },
@@ -1685,7 +1685,7 @@
       {
         "id": "jamiequint/sf_criminal_court",
         "author": "jamiequint",
-        "likes": 22,
+        "likes": 23,
         "downloads": 444,
         "tags": [
           "task_categories:tabular-classification",
@@ -1825,6 +1825,26 @@
         "link": "https://huggingface.co/datasets/iletisim/dezenformasyon-bultenleri"
       },
       {
+        "id": "SWE-bench/SWE-bench_Verified",
+        "author": "SWE-bench",
+        "likes": 71,
+        "downloads": 85214,
+        "tags": [
+          "benchmark:official",
+          "benchmark:eval-yaml",
+          "size_categories:n<1K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-02-27T20:36:38.000Z",
+        "link": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+      },
+      {
         "id": "r0b0tlab/deepseek-hermes-reasoning-traces",
         "author": "r0b0tlab",
         "likes": 16,
@@ -1857,24 +1877,28 @@
         "link": "https://huggingface.co/datasets/r0b0tlab/deepseek-hermes-reasoning-traces"
       },
       {
-        "id": "SWE-bench/SWE-bench_Verified",
-        "author": "SWE-bench",
-        "likes": 70,
-        "downloads": 85214,
+        "id": "AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1",
+        "author": "AlicanKiraz0",
+        "likes": 77,
+        "downloads": 7656,
         "tags": [
-          "benchmark:official",
-          "benchmark:eval-yaml",
-          "size_categories:n<1K",
-          "format:parquet",
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "format:json",
           "modality:text",
           "library:datasets",
           "library:pandas",
           "library:polars",
           "library:mlcroissant",
-          "region:us"
+          "region:us",
+          "cybersecurity",
+          "defensive-security",
+          "instruction-tuning"
         ],
-        "lastModified": "2026-02-27T20:36:38.000Z",
-        "link": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+        "lastModified": "2026-04-22T10:29:32.000Z",
+        "link": "https://huggingface.co/datasets/AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1"
       },
       {
         "id": "Modotte/CodeX-2M-Thinking",
@@ -1913,30 +1937,6 @@
         "link": "https://huggingface.co/datasets/Modotte/CodeX-2M-Thinking"
       },
       {
-        "id": "AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1",
-        "author": "AlicanKiraz0",
-        "likes": 76,
-        "downloads": 7656,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:10K<n<100K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "cybersecurity",
-          "defensive-security",
-          "instruction-tuning"
-        ],
-        "lastModified": "2026-04-22T10:29:32.000Z",
-        "link": "https://huggingface.co/datasets/AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1"
-      },
-      {
         "id": "HuggingFaceFW/fineweb-edu",
         "author": "HuggingFaceFW",
         "likes": 1059,
@@ -1964,42 +1964,31 @@
         "link": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
       },
       {
-        "id": "OwnedByDanes/Usenet-Corpus-1980-2013",
-        "author": "OwnedByDanes",
-        "likes": 12,
-        "downloads": 291,
+        "id": "badlogicgames/pi-mono",
+        "author": "badlogicgames",
+        "likes": 115,
+        "downloads": 19345,
         "tags": [
           "task_categories:text-generation",
-          "task_categories:text-classification",
           "language:en",
-          "language:pl",
-          "language:nl",
-          "language:es",
-          "language:fr",
-          "language:it",
-          "language:de",
-          "language:ru",
-          "language:ja",
-          "language:pt",
+          "language:code",
           "license:other",
-          "size_categories:10K<n<100K",
+          "size_categories:n<1K",
           "format:json",
+          "format:agent-traces",
+          "modality:tabular",
           "modality:text",
           "library:datasets",
           "library:dask",
           "library:polars",
           "library:mlcroissant",
           "region:us",
-          "usenet",
-          "internet-history",
-          "forums",
-          "long-form-text",
-          "pre-web",
-          "conversational",
-          "pretraining"
+          "agent-traces",
+          "coding-agent",
+          "pi-share-hf"
         ],
-        "lastModified": "2026-05-05T16:17:39.000Z",
-        "link": "https://huggingface.co/datasets/OwnedByDanes/Usenet-Corpus-1980-2013"
+        "lastModified": "2026-04-06T13:10:36.000Z",
+        "link": "https://huggingface.co/datasets/badlogicgames/pi-mono"
       }
     ]
   }
