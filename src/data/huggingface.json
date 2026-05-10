@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T23:00:17.899Z",
+  "updatedAt": "2026-05-10T00:00:19.535Z",
   "models": {
     "count": 30,
     "items": [
@@ -23,7 +23,7 @@
       {
         "id": "Zyphra/ZAYA1-8B",
         "author": "Zyphra",
-        "likes": 325,
+        "likes": 326,
         "downloads": 23620,
         "tags": [
           "safetensors",
@@ -62,7 +62,7 @@
       {
         "id": "SeeSee21/Z-Anime",
         "author": "SeeSee21",
-        "likes": 265,
+        "likes": 266,
         "downloads": 8433,
         "tags": [
           "diffusers",
@@ -186,7 +186,7 @@
       {
         "id": "XiaomiMiMo/MiMo-V2.5-Pro",
         "author": "XiaomiMiMo",
-        "likes": 498,
+        "likes": 499,
         "downloads": 31447,
         "tags": [
           "safetensors",
@@ -211,7 +211,7 @@
       {
         "id": "HiDream-ai/HiDream-O1-Image",
         "author": "HiDream-ai",
-        "likes": 97,
+        "likes": 100,
         "downloads": 21,
         "tags": [
           "transformers",
@@ -249,7 +249,7 @@
       {
         "id": "Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
         "author": "Jackrong",
-        "likes": 93,
+        "likes": 94,
         "downloads": 33515,
         "tags": [
           "transformers",
@@ -349,6 +349,29 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
       },
       {
+        "id": "google/gemma-4-31B-it",
+        "author": "google",
+        "likes": 2576,
+        "downloads": 8894303,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4",
+          "image-text-to-text",
+          "conversational",
+          "base_model:google/gemma-4-31B",
+          "base_model:finetune:google/gemma-4-31B",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-31B-it"
+      },
+      {
         "id": "sensenova/SenseNova-U1-8B-MoT",
         "author": "sensenova",
         "likes": 206,
@@ -373,27 +396,28 @@
         "link": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT"
       },
       {
-        "id": "google/gemma-4-31B-it",
-        "author": "google",
-        "likes": 2576,
-        "downloads": 8894303,
+        "id": "unsloth/Qwen3.6-27B-GGUF",
+        "author": "unsloth",
+        "likes": 633,
+        "downloads": 1355414,
         "tags": [
           "transformers",
-          "safetensors",
-          "gemma4",
+          "gguf",
+          "unsloth",
+          "qwen",
+          "qwen3_5",
           "image-text-to-text",
-          "conversational",
-          "base_model:google/gemma-4-31B",
-          "base_model:finetune:google/gemma-4-31B",
+          "base_model:Qwen/Qwen3.6-27B",
+          "base_model:quantized:Qwen/Qwen3.6-27B",
           "license:apache-2.0",
-          "eval-results",
           "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
+          "region:us",
+          "imatrix",
+          "conversational"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-31B-it"
+        "link": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF"
       },
       {
         "id": "froggeric/Qwen-Fixed-Chat-Templates",
@@ -419,33 +443,9 @@
         "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
       },
       {
-        "id": "unsloth/Qwen3.6-27B-GGUF",
-        "author": "unsloth",
-        "likes": 632,
-        "downloads": 1355414,
-        "tags": [
-          "transformers",
-          "gguf",
-          "unsloth",
-          "qwen",
-          "qwen3_5",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.6-27B",
-          "base_model:quantized:Qwen/Qwen3.6-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF"
-      },
-      {
         "id": "AngelSlim/Hy-MT1.5-1.8B-1.25bit",
         "author": "AngelSlim",
-        "likes": 154,
+        "likes": 155,
         "downloads": 17030,
         "tags": [
           "safetensors",
@@ -468,57 +468,9 @@
         "link": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit"
       },
       {
-        "id": "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
-        "author": "DavidAU",
-        "likes": 114,
-        "downloads": 161548,
-        "tags": [
-          "transformers",
-          "gguf",
-          "unsloth",
-          "heretic",
-          "uncensored",
-          "abliterated",
-          "fine tune",
-          "creative",
-          "creative writing",
-          "fiction writing",
-          "plot generation",
-          "sub-plot generation",
-          "story generation",
-          "scene continue",
-          "storytelling",
-          "fiction story",
-          "science fiction",
-          "romance",
-          "all genres",
-          "story",
-          "writing",
-          "vivid prosing",
-          "vivid writing",
-          "fiction",
-          "roleplaying",
-          "bfloat16",
-          "all use cases",
-          "image-text-to-text",
-          "en",
-          "zh",
-          "base_model:DavidAU/Qwen3.6-27B-Heretic2-Uncensored-Finetune-Thinking",
-          "base_model:quantized:DavidAU/Qwen3.6-27B-Heretic2-Uncensored-Finetune-Thinking",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF"
-      },
-      {
         "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
         "author": "unsloth",
-        "likes": 972,
+        "likes": 973,
         "downloads": 2581735,
         "tags": [
           "transformers",
@@ -543,7 +495,7 @@
       {
         "id": "k2-fsa/OmniVoice",
         "author": "k2-fsa",
-        "likes": 821,
+        "likes": 822,
         "downloads": 2233532,
         "tags": [
           "omnivoice",
@@ -1210,6 +1162,54 @@
         "link": "https://huggingface.co/k2-fsa/OmniVoice"
       },
       {
+        "id": "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
+        "author": "DavidAU",
+        "likes": 114,
+        "downloads": 161548,
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth",
+          "heretic",
+          "uncensored",
+          "abliterated",
+          "fine tune",
+          "creative",
+          "creative writing",
+          "fiction writing",
+          "plot generation",
+          "sub-plot generation",
+          "story generation",
+          "scene continue",
+          "storytelling",
+          "fiction story",
+          "science fiction",
+          "romance",
+          "all genres",
+          "story",
+          "writing",
+          "vivid prosing",
+          "vivid writing",
+          "fiction",
+          "roleplaying",
+          "bfloat16",
+          "all use cases",
+          "image-text-to-text",
+          "en",
+          "zh",
+          "base_model:DavidAU/Qwen3.6-27B-Heretic2-Uncensored-Finetune-Thinking",
+          "base_model:quantized:DavidAU/Qwen3.6-27B-Heretic2-Uncensored-Finetune-Thinking",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF"
+      },
+      {
         "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
         "author": "nvidia",
         "likes": 267,
@@ -1343,6 +1343,29 @@
         "link": "https://huggingface.co/google/gemma-4-E4B-it"
       },
       {
+        "id": "moonshotai/Kimi-K2.6",
+        "author": "moonshotai",
+        "likes": 1238,
+        "downloads": 1239626,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "kimi_k25",
+          "feature-extraction",
+          "compressed-tensors",
+          "image-text-to-text",
+          "conversational",
+          "custom_code",
+          "arxiv:2602.02276",
+          "license:other",
+          "eval-results",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/moonshotai/Kimi-K2.6"
+      },
+      {
         "id": "talkie-lm/talkie-1930-13b-it",
         "author": "talkie-lm",
         "likes": 256,
@@ -1357,47 +1380,6 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/talkie-lm/talkie-1930-13b-it"
-      },
-      {
-        "id": "Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
-        "author": "Jackrong",
-        "likes": 115,
-        "downloads": 146609,
-        "tags": [
-          "transformers",
-          "gguf",
-          "text-generation-inference",
-          "unsloth",
-          "qwen3_5",
-          "reasoning",
-          "distillation",
-          "deepseek",
-          "deepseek-v4",
-          "sft",
-          "long-cot",
-          "chain-of-thought",
-          "efficient-inference",
-          "agent",
-          "multilingual",
-          "image-text-to-text",
-          "en",
-          "zh",
-          "ko",
-          "ja",
-          "es",
-          "ru",
-          "dataset:Jackrong/DeepSeek-V4-Distill-8000x",
-          "arxiv:2604.06628",
-          "base_model:unsloth/Qwen3.5-9B",
-          "base_model:quantized:unsloth/Qwen3.5-9B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF"
       }
     ]
   },
