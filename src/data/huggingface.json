@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-11T17:00:24.087Z",
+  "updatedAt": "2026-05-11T18:00:35.737Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "SulphurAI/Sulphur-2-base",
         "author": "SulphurAI",
-        "likes": 598,
+        "likes": 602,
         "downloads": 157648,
         "tags": [
           "diffusers",
@@ -23,7 +23,7 @@
       {
         "id": "Zyphra/ZAYA1-8B",
         "author": "Zyphra",
-        "likes": 414,
+        "likes": 415,
         "downloads": 66119,
         "tags": [
           "safetensors",
@@ -40,7 +40,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 3849,
+        "likes": 3850,
         "downloads": 2017835,
         "tags": [
           "transformers",
@@ -62,7 +62,7 @@
       {
         "id": "HiDream-ai/HiDream-O1-Image",
         "author": "HiDream-ai",
-        "likes": 224,
+        "likes": 226,
         "downloads": 3418,
         "tags": [
           "transformers",
@@ -81,7 +81,7 @@
       {
         "id": "google/gemma-4-31B-it-assistant",
         "author": "google",
-        "likes": 204,
+        "likes": 206,
         "downloads": 66561,
         "tags": [
           "transformers",
@@ -203,7 +203,7 @@
       {
         "id": "Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
         "author": "Jackrong",
-        "likes": 107,
+        "likes": 108,
         "downloads": 67205,
         "tags": [
           "transformers",
@@ -262,7 +262,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash",
         "author": "deepseek-ai",
-        "likes": 1033,
+        "likes": 1035,
         "downloads": 1162290,
         "tags": [
           "transformers",
@@ -284,7 +284,7 @@
       {
         "id": "froggeric/Qwen-Fixed-Chat-Templates",
         "author": "froggeric",
-        "likes": 142,
+        "likes": 143,
         "downloads": 0,
         "tags": [
           "mlx",
@@ -303,6 +303,29 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
+      },
+      {
+        "id": "google/gemma-4-31B-it",
+        "author": "google",
+        "likes": 2602,
+        "downloads": 9119339,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4",
+          "image-text-to-text",
+          "conversational",
+          "base_model:google/gemma-4-31B",
+          "base_model:finetune:google/gemma-4-31B",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-31B-it"
       },
       {
         "id": "sensenova/SenseNova-U1-8B-MoT",
@@ -327,29 +350,6 @@
         "pipeline_tag": "any-to-any",
         "lastModified": "",
         "link": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT"
-      },
-      {
-        "id": "google/gemma-4-31B-it",
-        "author": "google",
-        "likes": 2601,
-        "downloads": 9119339,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4",
-          "image-text-to-text",
-          "conversational",
-          "base_model:google/gemma-4-31B",
-          "base_model:finetune:google/gemma-4-31B",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-31B-it"
       },
       {
         "id": "k2-fsa/OmniVoice",
@@ -1023,7 +1023,7 @@
       {
         "id": "Supertone/supertonic-3",
         "author": "Supertone",
-        "likes": 84,
+        "likes": 85,
         "downloads": 1837,
         "tags": [
           "supertonic",
@@ -1381,7 +1381,7 @@
       {
         "id": "google/gemma-4-26B-A4B-it",
         "author": "google",
-        "likes": 926,
+        "likes": 927,
         "downloads": 7179265,
         "tags": [
           "transformers",
@@ -1409,7 +1409,7 @@
       {
         "id": "open-thoughts/AgentTrove",
         "author": "open-thoughts",
-        "likes": 110,
+        "likes": 111,
         "downloads": 7200,
         "tags": [
           "task_categories:text-generation",
@@ -1923,6 +1923,42 @@
         "link": "https://huggingface.co/datasets/Inferact/codex_swebenchpro_traces"
       },
       {
+        "id": "Modotte/CodeX-2M-Thinking",
+        "author": "Modotte",
+        "likes": 75,
+        "downloads": 5159,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:question-answering",
+          "annotations_creators:machine-generated",
+          "annotations_creators:expert-verified",
+          "multilinguality:monolingual",
+          "source_datasets:Modotte internal synthetic generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "Coding",
+          "Code",
+          "CodeX",
+          "Modotte",
+          "LLM-training",
+          "synthetic",
+          "curated",
+          "benchmark",
+          "reasoning-dataset",
+          "artifact"
+        ],
+        "lastModified": "2026-02-10T07:23:38.000Z",
+        "link": "https://huggingface.co/datasets/Modotte/CodeX-2M-Thinking"
+      },
+      {
         "id": "nvidia/Nemotron-Image-Training-v3",
         "author": "nvidia",
         "likes": 61,
@@ -1988,30 +2024,6 @@
         ],
         "lastModified": "2026-02-27T20:36:38.000Z",
         "link": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
-      },
-      {
-        "id": "AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1",
-        "author": "AlicanKiraz0",
-        "likes": 81,
-        "downloads": 8472,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:10K<n<100K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "cybersecurity",
-          "defensive-security",
-          "instruction-tuning"
-        ],
-        "lastModified": "2026-04-22T10:29:32.000Z",
-        "link": "https://huggingface.co/datasets/AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1"
       }
     ]
   }
