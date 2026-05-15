@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-15T00:00:18.724Z",
+  "updatedAt": "2026-05-15T01:00:19.654Z",
   "models": {
     "count": 30,
     "items": [
@@ -23,7 +23,7 @@
       {
         "id": "openbmb/MiniCPM-V-4.6",
         "author": "openbmb",
-        "likes": 525,
+        "likes": 526,
         "downloads": 16801,
         "tags": [
           "safetensors",
@@ -85,7 +85,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 3945,
+        "likes": 3948,
         "downloads": 2588118,
         "tags": [
           "transformers",
@@ -107,7 +107,7 @@
       {
         "id": "Supertone/supertonic-3",
         "author": "Supertone",
-        "likes": 196,
+        "likes": 199,
         "downloads": 9482,
         "tags": [
           "supertonic",
@@ -158,7 +158,7 @@
       {
         "id": "SeeSee21/Z-Anime",
         "author": "SeeSee21",
-        "likes": 367,
+        "likes": 368,
         "downloads": 12061,
         "tags": [
           "diffusers",
@@ -187,7 +187,7 @@
       {
         "id": "unsloth/Qwen3.6-27B-MTP-GGUF",
         "author": "unsloth",
-        "likes": 139,
+        "likes": 140,
         "downloads": 74765,
         "tags": [
           "transformers",
@@ -211,7 +211,7 @@
       {
         "id": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
         "author": "unsloth",
-        "likes": 128,
+        "likes": 129,
         "downloads": 67190,
         "tags": [
           "transformers",
@@ -267,26 +267,28 @@
         "link": "https://huggingface.co/jackxinning/Leanly_AI"
       },
       {
-        "id": "deepseek-ai/DeepSeek-V4-Flash",
-        "author": "deepseek-ai",
-        "likes": 1080,
-        "downloads": 1526638,
+        "id": "froggeric/Qwen-Fixed-Chat-Templates",
+        "author": "froggeric",
+        "likes": 189,
+        "downloads": 0,
         "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v4",
-          "text-generation",
-          "conversational",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "8-bit",
-          "fp8",
+          "mlx",
+          "jinja",
+          "chat-template",
+          "qwen",
+          "qwen3.5",
+          "qwen3.6",
+          "lm-studio",
+          "llama.cpp",
+          "vllm",
+          "tool-calling",
+          "thinking",
+          "license:apache-2.0",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+        "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
       },
       {
         "id": "HiDream-ai/HiDream-O1-Image-Dev",
@@ -329,28 +331,26 @@
         "link": "https://huggingface.co/Qwen/Qwen3.6-27B"
       },
       {
-        "id": "froggeric/Qwen-Fixed-Chat-Templates",
-        "author": "froggeric",
-        "likes": 188,
-        "downloads": 0,
+        "id": "deepseek-ai/DeepSeek-V4-Flash",
+        "author": "deepseek-ai",
+        "likes": 1080,
+        "downloads": 1526638,
         "tags": [
-          "mlx",
-          "jinja",
-          "chat-template",
-          "qwen",
-          "qwen3.5",
-          "qwen3.6",
-          "lm-studio",
-          "llama.cpp",
-          "vllm",
-          "tool-calling",
-          "thinking",
-          "license:apache-2.0",
+          "transformers",
+          "safetensors",
+          "deepseek_v4",
+          "text-generation",
+          "conversational",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "8-bit",
+          "fp8",
           "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
       },
       {
         "id": "Qwen/Qwen3.6-35B-A3B",
@@ -444,7 +444,7 @@
       {
         "id": "k2-fsa/OmniVoice",
         "author": "k2-fsa",
-        "likes": 876,
+        "likes": 877,
         "downloads": 2224252,
         "tags": [
           "omnivoice",
@@ -1113,7 +1113,7 @@
       {
         "id": "google/gemma-4-31B-it",
         "author": "google",
-        "likes": 2636,
+        "likes": 2637,
         "downloads": 9793704,
         "tags": [
           "transformers",
@@ -1640,6 +1640,42 @@
         "link": "https://huggingface.co/datasets/5551z/VisCoR-55K"
       },
       {
+        "id": "Modotte/CodeX-2M-Thinking",
+        "author": "Modotte",
+        "likes": 79,
+        "downloads": 5669,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:question-answering",
+          "annotations_creators:machine-generated",
+          "annotations_creators:expert-verified",
+          "multilinguality:monolingual",
+          "source_datasets:Modotte internal synthetic generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "Coding",
+          "Code",
+          "CodeX",
+          "Modotte",
+          "LLM-training",
+          "synthetic",
+          "curated",
+          "benchmark",
+          "reasoning-dataset",
+          "artifact"
+        ],
+        "lastModified": "2026-02-10T07:23:38.000Z",
+        "link": "https://huggingface.co/datasets/Modotte/CodeX-2M-Thinking"
+      },
+      {
         "id": "Jackrong/DeepSeek-V4-Distill-8000x",
         "author": "Jackrong",
         "likes": 77,
@@ -1694,93 +1730,23 @@
         "link": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
       },
       {
-        "id": "Modotte/CodeX-2M-Thinking",
-        "author": "Modotte",
-        "likes": 78,
-        "downloads": 5669,
+        "id": "Roman1111111/claude-opus-4.6-10000x",
+        "author": "Roman1111111",
+        "likes": 359,
+        "downloads": 7495,
         "tags": [
-          "task_categories:text-generation",
-          "task_categories:question-answering",
-          "annotations_creators:machine-generated",
-          "annotations_creators:expert-verified",
-          "multilinguality:monolingual",
-          "source_datasets:Modotte internal synthetic generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:1M<n<10M",
-          "format:parquet",
+          "license:mit",
+          "size_categories:1K<n<10K",
+          "format:json",
           "modality:text",
           "library:datasets",
-          "library:dask",
+          "library:pandas",
           "library:polars",
           "library:mlcroissant",
-          "region:us",
-          "Coding",
-          "Code",
-          "CodeX",
-          "Modotte",
-          "LLM-training",
-          "synthetic",
-          "curated",
-          "benchmark",
-          "reasoning-dataset",
-          "artifact"
+          "region:us"
         ],
-        "lastModified": "2026-02-10T07:23:38.000Z",
-        "link": "https://huggingface.co/datasets/Modotte/CodeX-2M-Thinking"
-      },
-      {
-        "id": "ShadenA/MathNet",
-        "author": "ShadenA",
-        "likes": 63,
-        "downloads": 21073,
-        "tags": [
-          "task_categories:question-answering",
-          "task_categories:text-generation",
-          "task_categories:image-to-text",
-          "language:en",
-          "language:pt",
-          "language:es",
-          "language:fr",
-          "language:it",
-          "language:sr",
-          "language:sl",
-          "language:de",
-          "language:zh",
-          "language:ro",
-          "language:ko",
-          "language:nl",
-          "language:ru",
-          "language:mn",
-          "language:mk",
-          "language:pl",
-          "language:hu",
-          "license:cc-by-4.0",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:image",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2604.18584",
-          "region:us",
-          "mathematics",
-          "olympiad",
-          "reasoning",
-          "competition-math",
-          "multimodal",
-          "retrieval",
-          "benchmark",
-          "evaluation",
-          "tables",
-          "iclr-2026",
-          "v0"
-        ],
-        "lastModified": "2026-04-27T23:48:47.000Z",
-        "link": "https://huggingface.co/datasets/ShadenA/MathNet"
+        "lastModified": "2026-04-05T13:42:24.000Z",
+        "link": "https://huggingface.co/datasets/Roman1111111/claude-opus-4.6-10000x"
       },
       {
         "id": "5551z/VisCoR_Contrast",
@@ -1875,25 +1841,6 @@
         "link": "https://huggingface.co/datasets/PsiBotAI/SynData"
       },
       {
-        "id": "Roman1111111/claude-opus-4.6-10000x",
-        "author": "Roman1111111",
-        "likes": 358,
-        "downloads": 7495,
-        "tags": [
-          "license:mit",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-04-05T13:42:24.000Z",
-        "link": "https://huggingface.co/datasets/Roman1111111/claude-opus-4.6-10000x"
-      },
-      {
         "id": "badlogicgames/pi-mono",
         "author": "badlogicgames",
         "likes": 126,
@@ -1950,6 +1897,59 @@
         ],
         "lastModified": "2026-04-19T05:05:17.000Z",
         "link": "https://huggingface.co/datasets/Jackrong/GLM-5.1-Reasoning-1M-Cleaned"
+      },
+      {
+        "id": "ShadenA/MathNet",
+        "author": "ShadenA",
+        "likes": 63,
+        "downloads": 21073,
+        "tags": [
+          "task_categories:question-answering",
+          "task_categories:text-generation",
+          "task_categories:image-to-text",
+          "language:en",
+          "language:pt",
+          "language:es",
+          "language:fr",
+          "language:it",
+          "language:sr",
+          "language:sl",
+          "language:de",
+          "language:zh",
+          "language:ro",
+          "language:ko",
+          "language:nl",
+          "language:ru",
+          "language:mn",
+          "language:mk",
+          "language:pl",
+          "language:hu",
+          "license:cc-by-4.0",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:image",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2604.18584",
+          "region:us",
+          "mathematics",
+          "olympiad",
+          "reasoning",
+          "competition-math",
+          "multimodal",
+          "retrieval",
+          "benchmark",
+          "evaluation",
+          "tables",
+          "iclr-2026",
+          "v0"
+        ],
+        "lastModified": "2026-04-27T23:48:47.000Z",
+        "link": "https://huggingface.co/datasets/ShadenA/MathNet"
       }
     ]
   }
