@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-16T10:00:22.900Z",
+  "updatedAt": "2026-05-16T11:00:20.265Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "openbmb/MiniCPM-V-4.6",
         "author": "openbmb",
-        "likes": 618,
+        "likes": 620,
         "downloads": 28627,
         "tags": [
           "safetensors",
@@ -14,6 +14,7 @@
           "minicpm-v",
           "multimodal",
           "On-Device Model",
+          "lightweight",
           "image-text-to-text",
           "conversational",
           "arxiv:2604.27393",
@@ -30,7 +31,7 @@
       {
         "id": "SulphurAI/Sulphur-2-base",
         "author": "SulphurAI",
-        "likes": 1004,
+        "likes": 1006,
         "downloads": 875370,
         "tags": [
           "diffusers",
@@ -47,7 +48,7 @@
       {
         "id": "HiDream-ai/HiDream-O1-Image",
         "author": "HiDream-ai",
-        "likes": 347,
+        "likes": 351,
         "downloads": 13587,
         "tags": [
           "transformers",
@@ -67,7 +68,7 @@
       {
         "id": "Supertone/supertonic-3",
         "author": "Supertone",
-        "likes": 258,
+        "likes": 261,
         "downloads": 16496,
         "tags": [
           "supertonic",
@@ -118,7 +119,7 @@
       {
         "id": "Zyphra/ZAYA1-8B",
         "author": "Zyphra",
-        "likes": 508,
+        "likes": 509,
         "downloads": 143806,
         "tags": [
           "safetensors",
@@ -137,7 +138,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 3983,
+        "likes": 3985,
         "downloads": 2967518,
         "tags": [
           "transformers",
@@ -236,7 +237,7 @@
       {
         "id": "circlestone-labs/Anima",
         "author": "circlestone-labs",
-        "likes": 1340,
+        "likes": 1342,
         "downloads": 501808,
         "tags": [
           "diffusion-single-file",
@@ -398,6 +399,28 @@
         "link": "https://huggingface.co/TencentARC/Pixal3D"
       },
       {
+        "id": "deepseek-ai/DeepSeek-V4-Flash",
+        "author": "deepseek-ai",
+        "likes": 1102,
+        "downloads": 1724666,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4",
+          "text-generation",
+          "conversational",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "8-bit",
+          "fp8",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+      },
+      {
         "id": "RuneXX/LTX-2.3-Workflows",
         "author": "RuneXX",
         "likes": 565,
@@ -420,28 +443,6 @@
         "pipeline_tag": "image-to-video",
         "lastModified": "",
         "link": "https://huggingface.co/RuneXX/LTX-2.3-Workflows"
-      },
-      {
-        "id": "deepseek-ai/DeepSeek-V4-Flash",
-        "author": "deepseek-ai",
-        "likes": 1100,
-        "downloads": 1724666,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v4",
-          "text-generation",
-          "conversational",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "8-bit",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
       },
       {
         "id": "HiDream-ai/HiDream-O1-Image-Dev",
@@ -1190,26 +1191,6 @@
         "link": "https://huggingface.co/k2-fsa/OmniVoice"
       },
       {
-        "id": "openai/privacy-filter",
-        "author": "openai",
-        "likes": 1448,
-        "downloads": 239384,
-        "tags": [
-          "transformers",
-          "onnx",
-          "safetensors",
-          "openai_privacy_filter",
-          "token-classification",
-          "transformers.js",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "token-classification",
-        "lastModified": "",
-        "link": "https://huggingface.co/openai/privacy-filter"
-      },
-      {
         "id": "jackxinning/Leanly_AI",
         "author": "jackxinning",
         "likes": 113,
@@ -1228,6 +1209,26 @@
         "pipeline_tag": "question-answering",
         "lastModified": "",
         "link": "https://huggingface.co/jackxinning/Leanly_AI"
+      },
+      {
+        "id": "openai/privacy-filter",
+        "author": "openai",
+        "likes": 1448,
+        "downloads": 239384,
+        "tags": [
+          "transformers",
+          "onnx",
+          "safetensors",
+          "openai_privacy_filter",
+          "token-classification",
+          "transformers.js",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "token-classification",
+        "lastModified": "",
+        "link": "https://huggingface.co/openai/privacy-filter"
       },
       {
         "id": "google/gemma-4-31B-it-assistant",
@@ -1874,25 +1875,6 @@
         "link": "https://huggingface.co/datasets/alibaba-multimodal-industrial-ai/IndustryBench"
       },
       {
-        "id": "Roman1111111/claude-opus-4.6-10000x",
-        "author": "Roman1111111",
-        "likes": 363,
-        "downloads": 6912,
-        "tags": [
-          "license:mit",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-04-05T13:42:24.000Z",
-        "link": "https://huggingface.co/datasets/Roman1111111/claude-opus-4.6-10000x"
-      },
-      {
         "id": "llm-jp/Jagle",
         "author": "llm-jp",
         "likes": 13,
@@ -1926,6 +1908,38 @@
         ],
         "lastModified": "2026-04-30T01:37:13.000Z",
         "link": "https://huggingface.co/datasets/5551z/VisCoR_Contrast"
+      },
+      {
+        "id": "blanchon/opencs2_dataset",
+        "author": "blanchon",
+        "likes": 13,
+        "downloads": 20467,
+        "tags": [
+          "task_categories:video-classification",
+          "task_categories:reinforcement-learning",
+          "task_categories:other",
+          "language:en",
+          "license:cc-by-4.0",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "modality:video",
+          "modality:audio",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "opencs2",
+          "counter-strike-2",
+          "torchcodec",
+          "video",
+          "audio",
+          "parquet"
+        ],
+        "lastModified": "2026-05-04T15:38:59.000Z",
+        "link": "https://huggingface.co/datasets/blanchon/opencs2_dataset"
       }
     ]
   }
