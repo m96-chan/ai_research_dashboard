@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-17T10:00:17.378Z",
+  "updatedAt": "2026-05-17T11:00:18.811Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "openbmb/MiniCPM-V-4.6",
         "author": "openbmb",
-        "likes": 664,
+        "likes": 666,
         "downloads": 56518,
         "tags": [
           "safetensors",
@@ -31,7 +31,7 @@
       {
         "id": "SulphurAI/Sulphur-2-base",
         "author": "SulphurAI",
-        "likes": 1048,
+        "likes": 1050,
         "downloads": 970124,
         "tags": [
           "diffusers",
@@ -48,7 +48,7 @@
       {
         "id": "Supertone/supertonic-3",
         "author": "Supertone",
-        "likes": 332,
+        "likes": 333,
         "downloads": 20208,
         "tags": [
           "supertonic",
@@ -119,7 +119,7 @@
       {
         "id": "unsloth/Qwen3.6-27B-MTP-GGUF",
         "author": "unsloth",
-        "likes": 210,
+        "likes": 211,
         "downloads": 185303,
         "tags": [
           "transformers",
@@ -208,7 +208,7 @@
       {
         "id": "circlestone-labs/Anima",
         "author": "circlestone-labs",
-        "likes": 1362,
+        "likes": 1364,
         "downloads": 524067,
         "tags": [
           "diffusion-single-file",
@@ -247,7 +247,7 @@
       {
         "id": "ResembleAI/Dramabox",
         "author": "ResembleAI",
-        "likes": 116,
+        "likes": 117,
         "downloads": 936,
         "tags": [
           "ltx-audio-tts",
@@ -268,6 +268,21 @@
         "pipeline_tag": "text-to-speech",
         "lastModified": "",
         "link": "https://huggingface.co/ResembleAI/Dramabox"
+      },
+      {
+        "id": "TencentARC/Pixal3D",
+        "author": "TencentARC",
+        "likes": 110,
+        "downloads": 0,
+        "tags": [
+          "image-to-3d",
+          "arxiv:2605.10922",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-3d",
+        "lastModified": "",
+        "link": "https://huggingface.co/TencentARC/Pixal3D"
       },
       {
         "id": "SeeSee21/Z-Anime",
@@ -297,21 +312,6 @@
         "pipeline_tag": "text-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/SeeSee21/Z-Anime"
-      },
-      {
-        "id": "TencentARC/Pixal3D",
-        "author": "TencentARC",
-        "likes": 108,
-        "downloads": 0,
-        "tags": [
-          "image-to-3d",
-          "arxiv:2605.10922",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-3d",
-        "lastModified": "",
-        "link": "https://huggingface.co/TencentARC/Pixal3D"
       },
       {
         "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
@@ -490,6 +490,29 @@
         "link": "https://huggingface.co/TenStrip/LTX2.3-10Eros"
       },
       {
+        "id": "microsoft/Fara-7B",
+        "author": "microsoft",
+        "likes": 570,
+        "downloads": 17170,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2_5_vl",
+          "image-text-to-text",
+          "multimodal",
+          "conversational",
+          "en",
+          "arxiv:2511.19663",
+          "license:mit",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/microsoft/Fara-7B"
+      },
+      {
         "id": "google/gemma-4-31B-it",
         "author": "google",
         "likes": 2662,
@@ -511,29 +534,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/google/gemma-4-31B-it"
-      },
-      {
-        "id": "microsoft/Fara-7B",
-        "author": "microsoft",
-        "likes": 568,
-        "downloads": 17170,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen2_5_vl",
-          "image-text-to-text",
-          "multimodal",
-          "conversational",
-          "en",
-          "arxiv:2511.19663",
-          "license:mit",
-          "text-generation-inference",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/microsoft/Fara-7B"
       },
       {
         "id": "RuneXX/LTX-2.3-Workflows",
@@ -629,9 +629,49 @@
         "link": "https://huggingface.co/openai/privacy-filter"
       },
       {
+        "id": "google/gemma-4-31B-it-assistant",
+        "author": "google",
+        "likes": 247,
+        "downloads": 168893,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4_assistant",
+          "text-generation",
+          "any-to-any",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-31B-it-assistant"
+      },
+      {
+        "id": "Cactus-Compute/needle",
+        "author": "Cactus-Compute",
+        "likes": 61,
+        "downloads": 221,
+        "tags": [
+          "jax",
+          "custom",
+          "function-calling",
+          "tool-use",
+          "encoder-decoder",
+          "edge",
+          "on-device",
+          "flax",
+          "license:mit",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/Cactus-Compute/needle"
+      },
+      {
         "id": "k2-fsa/OmniVoice",
         "author": "k2-fsa",
-        "likes": 891,
+        "likes": 892,
         "downloads": 2061515,
         "tags": [
           "omnivoice",
@@ -1298,46 +1338,6 @@
         "link": "https://huggingface.co/k2-fsa/OmniVoice"
       },
       {
-        "id": "google/gemma-4-31B-it-assistant",
-        "author": "google",
-        "likes": 247,
-        "downloads": 168893,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4_assistant",
-          "text-generation",
-          "any-to-any",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-31B-it-assistant"
-      },
-      {
-        "id": "Cactus-Compute/needle",
-        "author": "Cactus-Compute",
-        "likes": 60,
-        "downloads": 221,
-        "tags": [
-          "jax",
-          "custom",
-          "function-calling",
-          "tool-use",
-          "encoder-decoder",
-          "edge",
-          "on-device",
-          "flax",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Cactus-Compute/needle"
-      },
-      {
         "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
         "author": "unsloth",
         "likes": 1047,
@@ -1451,7 +1451,7 @@
       {
         "id": "AlienKevin/SWE-ZERO-12M-trajectories",
         "author": "AlienKevin",
-        "likes": 61,
+        "likes": 62,
         "downloads": 6550,
         "tags": [
           "task_categories:text-generation",
@@ -1673,6 +1673,32 @@
         "link": "https://huggingface.co/datasets/TeichAI/DeepSeek-v4-Pro-Agent"
       },
       {
+        "id": "alibaba-multimodal-industrial-ai/IndustryBench",
+        "author": "alibaba-multimodal-industrial-ai",
+        "likes": 20,
+        "downloads": 120,
+        "tags": [
+          "task_categories:question-answering",
+          "task_categories:text-generation",
+          "language:zh",
+          "language:en",
+          "language:ru",
+          "language:vi",
+          "license:mit",
+          "size_categories:1K<n<10K",
+          "format:csv",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2605.10267",
+          "region:us"
+        ],
+        "lastModified": "2026-05-13T05:23:50.000Z",
+        "link": "https://huggingface.co/datasets/alibaba-multimodal-industrial-ai/IndustryBench"
+      },
+      {
         "id": "Modotte/CodeX-2M-Thinking",
         "author": "Modotte",
         "likes": 92,
@@ -1737,32 +1763,6 @@
         "link": "https://huggingface.co/datasets/5CD-AI/Viet-Handwriting-OCR-v2"
       },
       {
-        "id": "alibaba-multimodal-industrial-ai/IndustryBench",
-        "author": "alibaba-multimodal-industrial-ai",
-        "likes": 19,
-        "downloads": 120,
-        "tags": [
-          "task_categories:question-answering",
-          "task_categories:text-generation",
-          "language:zh",
-          "language:en",
-          "language:ru",
-          "language:vi",
-          "license:mit",
-          "size_categories:1K<n<10K",
-          "format:csv",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2605.10267",
-          "region:us"
-        ],
-        "lastModified": "2026-05-13T05:23:50.000Z",
-        "link": "https://huggingface.co/datasets/alibaba-multimodal-industrial-ai/IndustryBench"
-      },
-      {
         "id": "blanchon/opencs2_dataset",
         "author": "blanchon",
         "likes": 16,
@@ -1793,6 +1793,35 @@
         ],
         "lastModified": "2026-05-04T15:38:59.000Z",
         "link": "https://huggingface.co/datasets/blanchon/opencs2_dataset"
+      },
+      {
+        "id": "openai/gsm8k",
+        "author": "openai",
+        "likes": 1313,
+        "downloads": 921740,
+        "tags": [
+          "benchmark:official",
+          "benchmark:eval-yaml",
+          "task_categories:text-generation",
+          "annotations_creators:crowdsourced",
+          "language_creators:crowdsourced",
+          "multilinguality:monolingual",
+          "source_datasets:original",
+          "language:en",
+          "license:mit",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2110.14168",
+          "region:us",
+          "math-word-problems"
+        ],
+        "lastModified": "2026-03-23T10:18:13.000Z",
+        "link": "https://huggingface.co/datasets/openai/gsm8k"
       },
       {
         "id": "ShadenA/MathNet",
@@ -1876,35 +1905,6 @@
         ],
         "lastModified": "2024-03-08T20:36:26.000Z",
         "link": "https://huggingface.co/datasets/cais/mmlu"
-      },
-      {
-        "id": "openai/gsm8k",
-        "author": "openai",
-        "likes": 1312,
-        "downloads": 921740,
-        "tags": [
-          "benchmark:official",
-          "benchmark:eval-yaml",
-          "task_categories:text-generation",
-          "annotations_creators:crowdsourced",
-          "language_creators:crowdsourced",
-          "multilinguality:monolingual",
-          "source_datasets:original",
-          "language:en",
-          "license:mit",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2110.14168",
-          "region:us",
-          "math-word-problems"
-        ],
-        "lastModified": "2026-03-23T10:18:13.000Z",
-        "link": "https://huggingface.co/datasets/openai/gsm8k"
       },
       {
         "id": "5551z/VisCoR_Contrast",
