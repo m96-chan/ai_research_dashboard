@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-26T18:00:24.837Z",
+  "updatedAt": "2026-05-26T19:00:20.543Z",
   "models": {
     "count": 30,
     "items": [
@@ -30,7 +30,7 @@
       {
         "id": "NemoStation/Marlin-2B",
         "author": "NemoStation",
-        "likes": 366,
+        "likes": 367,
         "downloads": 9144,
         "tags": [
           "transformers",
@@ -56,6 +56,30 @@
         "pipeline_tag": "video-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/NemoStation/Marlin-2B"
+      },
+      {
+        "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
+        "author": "meituan-longcat",
+        "likes": 284,
+        "downloads": 0,
+        "tags": [
+          "diffusers",
+          "onnx",
+          "safetensors",
+          "audio-text-to-video",
+          "audio-image-text-to-video",
+          "audio-driven-video-continuation",
+          "transformers",
+          "avatar",
+          "video-generation",
+          "en",
+          "zh",
+          "license:mit",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5"
       },
       {
         "id": "sapientinc/HRM-Text-1B",
@@ -84,45 +108,22 @@
         "link": "https://huggingface.co/sapientinc/HRM-Text-1B"
       },
       {
-        "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
-        "author": "meituan-longcat",
-        "likes": 281,
-        "downloads": 0,
-        "tags": [
-          "diffusers",
-          "onnx",
-          "safetensors",
-          "audio-text-to-video",
-          "audio-image-text-to-video",
-          "audio-driven-video-continuation",
-          "transformers",
-          "avatar",
-          "video-generation",
-          "en",
-          "zh",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5"
-      },
-      {
         "id": "openbmb/MiniCPM5-1B",
         "author": "openbmb",
-        "likes": 293,
+        "likes": 294,
         "downloads": 2409,
         "tags": [
           "transformers",
           "safetensors",
-          "minicpm",
-          "minicpm5",
           "llama",
           "text-generation",
+          "minicpm",
+          "minicpm5",
           "long-context",
           "tool-calling",
           "on-device",
           "edge-ai",
+          "conversational",
           "en",
           "zh",
           "dataset:openbmb/Ultra-FineWeb",
@@ -134,6 +135,7 @@
           "arxiv:2512.16649",
           "arxiv:2604.13016",
           "license:apache-2.0",
+          "text-generation-inference",
           "endpoints_compatible",
           "region:us"
         ],
@@ -228,9 +230,10 @@
         "tags": [
           "transformers",
           "safetensors",
+          "cohere2_vision",
+          "image-text-to-text",
           "conversational",
           "chat",
-          "image-text-to-text",
           "en",
           "ar",
           "bg",
@@ -283,6 +286,7 @@
           "base_model:quantized:CohereLabs/command-a-plus-05-2026-bf16",
           "license:apache-2.0",
           "8-bit",
+          "compressed-tensors",
           "deploy:azure",
           "region:us"
         ],
@@ -293,7 +297,7 @@
       {
         "id": "SulphurAI/Sulphur-2-base",
         "author": "SulphurAI",
-        "likes": 1366,
+        "likes": 1368,
         "downloads": 1376847,
         "tags": [
           "diffusers",
@@ -332,7 +336,7 @@
       {
         "id": "unsloth/Qwen3.6-27B-MTP-GGUF",
         "author": "unsloth",
-        "likes": 494,
+        "likes": 495,
         "downloads": 735349,
         "tags": [
           "transformers",
@@ -383,7 +387,7 @@
       {
         "id": "numind/NuExtract3",
         "author": "numind",
-        "likes": 157,
+        "likes": 159,
         "downloads": 20350,
         "tags": [
           "transformers",
@@ -456,7 +460,7 @@
       {
         "id": "tencent/Hy-MT2-1.8B",
         "author": "tencent",
-        "likes": 1003,
+        "likes": 1011,
         "downloads": 7471,
         "tags": [
           "transformers",
@@ -532,9 +536,10 @@
         "tags": [
           "transformers",
           "safetensors",
+          "cohere2_vision",
+          "image-text-to-text",
           "conversational",
           "chat",
-          "image-text-to-text",
           "en",
           "ar",
           "bg",
@@ -642,7 +647,7 @@
       {
         "id": "Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
         "author": "Jackrong",
-        "likes": 112,
+        "likes": 113,
         "downloads": 31597,
         "tags": [
           "transformers",
@@ -674,8 +679,7 @@
           "dataset:Jackrong/Claude-opus-4.6-TraceInversion-9000x",
           "license:apache-2.0",
           "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
@@ -684,7 +688,7 @@
       {
         "id": "Qwen/Qwen3.6-27B",
         "author": "Qwen",
-        "likes": 1471,
+        "likes": 1472,
         "downloads": 4577271,
         "tags": [
           "transformers",
@@ -705,7 +709,7 @@
       {
         "id": "nvidia/Nemotron-Labs-Diffusion-14B",
         "author": "nvidia",
-        "likes": 110,
+        "likes": 111,
         "downloads": 5453,
         "tags": [
           "transformers",
@@ -724,7 +728,7 @@
       {
         "id": "nvidia/PiD",
         "author": "nvidia",
-        "likes": 104,
+        "likes": 106,
         "downloads": 117,
         "tags": [
           "pytorch",
@@ -795,10 +799,11 @@
           "transformers",
           "safetensors",
           "gguf",
+          "qwen3_5_text",
+          "text-generation",
           "qwen",
           "qwen3",
           "qwen3.6",
-          "text-generation",
           "llama.cpp",
           "lm-studio",
           "ollama",
@@ -948,8 +953,7 @@
           "base_model:adapter:Jackrong/Qwopus3.5-9B-v3.5",
           "license:apache-2.0",
           "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
@@ -1024,7 +1028,7 @@
       {
         "id": "wikimedia/structured-wikipedia",
         "author": "wikimedia",
-        "likes": 175,
+        "likes": 179,
         "downloads": 3574,
         "tags": [
           "language:en",
@@ -1083,7 +1087,7 @@
       {
         "id": "actava/chi-bench",
         "author": "actava",
-        "likes": 50,
+        "likes": 51,
         "downloads": 4712,
         "tags": [
           "task_categories:text-generation",
@@ -1344,40 +1348,6 @@
         "link": "https://huggingface.co/datasets/Modotte/CodeX-2M-Thinking"
       },
       {
-        "id": "Qwen/WebWorldData",
-        "author": "Qwen",
-        "likes": 59,
-        "downloads": 1192,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "language:zh",
-          "license:apache-2.0",
-          "size_categories:100K<n<1M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2602.14721",
-          "region:us",
-          "WebWorld",
-          "world-model",
-          "web-agent",
-          "browser-simulation",
-          "a11y",
-          "html",
-          "xml",
-          "markdown",
-          "trajectories",
-          "agent-training",
-          "synthetic-data"
-        ],
-        "lastModified": "2026-05-08T12:12:49.000Z",
-        "link": "https://huggingface.co/datasets/Qwen/WebWorldData"
-      },
-      {
         "id": "HuggingFaceBio/carbon-pretraining-corpus",
         "author": "HuggingFaceBio",
         "likes": 25,
@@ -1421,6 +1391,40 @@
         ],
         "lastModified": "2026-05-22T08:01:59.000Z",
         "link": "https://huggingface.co/datasets/zhen-nan/L2P-dataset"
+      },
+      {
+        "id": "Qwen/WebWorldData",
+        "author": "Qwen",
+        "likes": 59,
+        "downloads": 1192,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "language:zh",
+          "license:apache-2.0",
+          "size_categories:100K<n<1M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2602.14721",
+          "region:us",
+          "WebWorld",
+          "world-model",
+          "web-agent",
+          "browser-simulation",
+          "a11y",
+          "html",
+          "xml",
+          "markdown",
+          "trajectories",
+          "agent-training",
+          "synthetic-data"
+        ],
+        "lastModified": "2026-05-08T12:12:49.000Z",
+        "link": "https://huggingface.co/datasets/Qwen/WebWorldData"
       },
       {
         "id": "roneneldan/TinyStories",
