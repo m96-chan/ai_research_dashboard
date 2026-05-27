@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-26T23:00:18.306Z",
+  "updatedAt": "2026-05-27T00:00:19.913Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "bytedance-research/Lance",
         "author": "bytedance-research",
-        "likes": 858,
+        "likes": 861,
         "downloads": 1908,
         "tags": [
           "Lance",
@@ -60,7 +60,7 @@
       {
         "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
         "author": "meituan-longcat",
-        "likes": 296,
+        "likes": 298,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -84,7 +84,7 @@
       {
         "id": "openbmb/MiniCPM5-1B",
         "author": "openbmb",
-        "likes": 302,
+        "likes": 304,
         "downloads": 2409,
         "tags": [
           "transformers",
@@ -197,7 +197,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 906,
+        "likes": 908,
         "downloads": 1598473,
         "tags": [
           "gguf",
@@ -314,7 +314,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 4308,
+        "likes": 4309,
         "downloads": 5019884,
         "tags": [
           "transformers",
@@ -387,7 +387,7 @@
       {
         "id": "Jackrong/Qwopus3.6-27B-v2-GGUF",
         "author": "Jackrong",
-        "likes": 143,
+        "likes": 144,
         "downloads": 16379,
         "tags": [
           "transformers",
@@ -475,7 +475,7 @@
       {
         "id": "tencent/Hy-MT2-1.8B",
         "author": "tencent",
-        "likes": 1024,
+        "likes": 1025,
         "downloads": 7471,
         "tags": [
           "transformers",
@@ -640,7 +640,7 @@
       {
         "id": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
         "author": "unsloth",
-        "likes": 388,
+        "likes": 389,
         "downloads": 627535,
         "tags": [
           "transformers",
@@ -686,30 +686,9 @@
         "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
       },
       {
-        "id": "Qwen/Qwen3.6-27B",
-        "author": "Qwen",
-        "likes": 1474,
-        "downloads": 4577271,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.6-27B"
-      },
-      {
         "id": "nvidia/PiD",
         "author": "nvidia",
-        "likes": 109,
+        "likes": 110,
         "downloads": 117,
         "tags": [
           "pytorch",
@@ -728,6 +707,27 @@
         "pipeline_tag": "image-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/PiD"
+      },
+      {
+        "id": "Qwen/Qwen3.6-27B",
+        "author": "Qwen",
+        "likes": 1475,
+        "downloads": 4577271,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.6-27B"
       },
       {
         "id": "nvidia/Nemotron-Labs-Diffusion-14B",
@@ -921,25 +921,43 @@
         "link": "https://huggingface.co/ResembleAI/Dramabox"
       },
       {
-        "id": "Efficient-Large-Model/SANA-WM_bidirectional",
-        "author": "Efficient-Large-Model",
-        "likes": 108,
-        "downloads": 0,
+        "id": "Jackrong/Qwopus3.5-9B-Coder-GGUF",
+        "author": "Jackrong",
+        "likes": 197,
+        "downloads": 45392,
         "tags": [
-          "diffusers",
-          "safetensors",
-          "text-to-video",
-          "image-to-video",
-          "camera-control",
-          "world-model",
-          "diffusion",
-          "arxiv:2605.15178",
+          "transformers",
+          "gguf",
+          "text-generation-inference",
+          "unsloth",
+          "qwen3_5",
+          "reasoning",
+          "chain-of-thought",
+          "lora",
+          "sft",
+          "agent",
+          "tool-use",
+          "function-calling",
+          "coder",
+          "image-text-to-text",
+          "en",
+          "zh",
+          "es",
+          "ru",
+          "ja",
+          "dataset:lambda/hermes-agent-reasoning-traces",
+          "dataset:Jackrong/Claude-opus-4.7-TraceInversion-5000x",
+          "dataset:Jackrong/Claude-opus-4.6-TraceInversion-9000x",
+          "base_model:Jackrong/Qwopus3.5-9B-v3.5",
+          "base_model:adapter:Jackrong/Qwopus3.5-9B-v3.5",
           "license:apache-2.0",
-          "region:us"
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
         ],
-        "pipeline_tag": "image-to-video",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/Efficient-Large-Model/SANA-WM_bidirectional"
+        "link": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF"
       }
     ]
   },
@@ -1406,6 +1424,36 @@
         "link": "https://huggingface.co/datasets/roneneldan/TinyStories"
       },
       {
+        "id": "lambda/hermes-agent-reasoning-traces",
+        "author": "lambda",
+        "likes": 343,
+        "downloads": 3469,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "tool-calling",
+          "function-calling",
+          "agent",
+          "hermes",
+          "reasoning",
+          "sharegpt",
+          "sft",
+          "traces"
+        ],
+        "lastModified": "2026-04-17T10:06:39.000Z",
+        "link": "https://huggingface.co/datasets/lambda/hermes-agent-reasoning-traces"
+      },
+      {
         "id": "5CD-AI/Viet-Handwriting-OCR-v2",
         "author": "5CD-AI",
         "likes": 58,
@@ -1452,36 +1500,6 @@
         ],
         "lastModified": "2026-05-26T08:10:01.000Z",
         "link": "https://huggingface.co/datasets/Kwai-Klear/GoLongRL"
-      },
-      {
-        "id": "lambda/hermes-agent-reasoning-traces",
-        "author": "lambda",
-        "likes": 342,
-        "downloads": 3469,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "tool-calling",
-          "function-calling",
-          "agent",
-          "hermes",
-          "reasoning",
-          "sharegpt",
-          "sft",
-          "traces"
-        ],
-        "lastModified": "2026-04-17T10:06:39.000Z",
-        "link": "https://huggingface.co/datasets/lambda/hermes-agent-reasoning-traces"
       }
     ]
   }
