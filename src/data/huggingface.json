@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-29T15:00:19.264Z",
+  "updatedAt": "2026-05-29T16:00:26.785Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "openbmb/MiniCPM5-1B",
         "author": "openbmb",
-        "likes": 534,
+        "likes": 537,
         "downloads": 23629,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
         "author": "meituan-longcat",
-        "likes": 385,
+        "likes": 389,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -64,33 +64,9 @@
         "link": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5"
       },
       {
-        "id": "bytedance-research/Lance",
-        "author": "bytedance-research",
-        "likes": 969,
-        "downloads": 2738,
-        "tags": [
-          "Lance",
-          "safetensors",
-          "multimodal",
-          "image-generation",
-          "video-generation",
-          "image-editing",
-          "video-understanding",
-          "any-to-any",
-          "arxiv:2605.18678",
-          "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
-          "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/bytedance-research/Lance"
-      },
-      {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 327,
+        "likes": 334,
         "downloads": 7861,
         "tags": [
           "transformers",
@@ -124,9 +100,33 @@
         "link": "https://huggingface.co/nvidia/LocateAnything-3B"
       },
       {
+        "id": "bytedance-research/Lance",
+        "author": "bytedance-research",
+        "likes": 970,
+        "downloads": 2738,
+        "tags": [
+          "Lance",
+          "safetensors",
+          "multimodal",
+          "image-generation",
+          "video-generation",
+          "image-editing",
+          "video-understanding",
+          "any-to-any",
+          "arxiv:2605.18678",
+          "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/bytedance-research/Lance"
+      },
+      {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1031,
+        "likes": 1033,
         "downloads": 2114938,
         "tags": [
           "gguf",
@@ -154,7 +154,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 4424,
+        "likes": 4426,
         "downloads": 5836444,
         "tags": [
           "transformers",
@@ -176,7 +176,7 @@
       {
         "id": "NemoStation/Marlin-2B",
         "author": "NemoStation",
-        "likes": 441,
+        "likes": 442,
         "downloads": 14727,
         "tags": [
           "transformers",
@@ -202,6 +202,41 @@
         "pipeline_tag": "video-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/NemoStation/Marlin-2B"
+      },
+      {
+        "id": "LiquidAI/LFM2.5-8B-A1B",
+        "author": "LiquidAI",
+        "likes": 177,
+        "downloads": 8854,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm2_moe",
+          "text-generation",
+          "liquid",
+          "lfm2.5",
+          "edge",
+          "conversational",
+          "en",
+          "ar",
+          "zh",
+          "fr",
+          "de",
+          "ja",
+          "ko",
+          "es",
+          "pt",
+          "arxiv:2511.23404",
+          "base_model:LiquidAI/LFM2.5-8B-A1B-Base",
+          "base_model:finetune:LiquidAI/LFM2.5-8B-A1B-Base",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
       },
       {
         "id": "Jackrong/Qwopus3.6-27B-v2-GGUF",
@@ -243,83 +278,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF"
-      },
-      {
-        "id": "Supertone/supertonic-3",
-        "author": "Supertone",
-        "likes": 736,
-        "downloads": 53824,
-        "tags": [
-          "supertonic",
-          "onnx",
-          "text-to-speech",
-          "speech-synthesis",
-          "tts",
-          "multilingual",
-          "on-device",
-          "en",
-          "ko",
-          "ja",
-          "ar",
-          "bg",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "es",
-          "et",
-          "fi",
-          "fr",
-          "hi",
-          "hr",
-          "hu",
-          "id",
-          "it",
-          "lt",
-          "lv",
-          "nl",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sk",
-          "sl",
-          "sv",
-          "tr",
-          "uk",
-          "vi",
-          "license:openrail",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-speech",
-        "lastModified": "",
-        "link": "https://huggingface.co/Supertone/supertonic-3"
-      },
-      {
-        "id": "sapientinc/HRM-Text-1B",
-        "author": "sapientinc",
-        "likes": 404,
-        "downloads": 131828,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "hrm_text",
-          "text-generation",
-          "hrm",
-          "hierarchical-reasoning",
-          "prefix-lm",
-          "pre-alignment",
-          "non-chat",
-          "non-instruction-tuned",
-          "en",
-          "arxiv:2605.20613",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/sapientinc/HRM-Text-1B"
       },
       {
         "id": "tencent/Hy-MT2-30B-A3B",
@@ -378,41 +336,6 @@
         "link": "https://huggingface.co/tencent/Hy-MT2-30B-A3B"
       },
       {
-        "id": "LiquidAI/LFM2.5-8B-A1B",
-        "author": "LiquidAI",
-        "likes": 171,
-        "downloads": 8854,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "lfm2_moe",
-          "text-generation",
-          "liquid",
-          "lfm2.5",
-          "edge",
-          "conversational",
-          "en",
-          "ar",
-          "zh",
-          "fr",
-          "de",
-          "ja",
-          "ko",
-          "es",
-          "pt",
-          "arxiv:2511.23404",
-          "base_model:LiquidAI/LFM2.5-8B-A1B-Base",
-          "base_model:finetune:LiquidAI/LFM2.5-8B-A1B-Base",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
-      },
-      {
         "id": "nvidia/PiD",
         "author": "nvidia",
         "likes": 171,
@@ -434,6 +357,83 @@
         "pipeline_tag": "image-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/PiD"
+      },
+      {
+        "id": "sapientinc/HRM-Text-1B",
+        "author": "sapientinc",
+        "likes": 404,
+        "downloads": 131828,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hrm_text",
+          "text-generation",
+          "hrm",
+          "hierarchical-reasoning",
+          "prefix-lm",
+          "pre-alignment",
+          "non-chat",
+          "non-instruction-tuned",
+          "en",
+          "arxiv:2605.20613",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/sapientinc/HRM-Text-1B"
+      },
+      {
+        "id": "Supertone/supertonic-3",
+        "author": "Supertone",
+        "likes": 736,
+        "downloads": 53824,
+        "tags": [
+          "supertonic",
+          "onnx",
+          "text-to-speech",
+          "speech-synthesis",
+          "tts",
+          "multilingual",
+          "on-device",
+          "en",
+          "ko",
+          "ja",
+          "ar",
+          "bg",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "es",
+          "et",
+          "fi",
+          "fr",
+          "hi",
+          "hr",
+          "hu",
+          "id",
+          "it",
+          "lt",
+          "lv",
+          "nl",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sk",
+          "sl",
+          "sv",
+          "tr",
+          "uk",
+          "vi",
+          "license:openrail",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "lastModified": "",
+        "link": "https://huggingface.co/Supertone/supertonic-3"
       },
       {
         "id": "Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
@@ -503,7 +503,7 @@
       {
         "id": "unsloth/Qwen3.6-27B-MTP-GGUF",
         "author": "unsloth",
-        "likes": 543,
+        "likes": 544,
         "downloads": 841068,
         "tags": [
           "transformers",
@@ -527,7 +527,7 @@
       {
         "id": "numind/NuExtract3",
         "author": "numind",
-        "likes": 193,
+        "likes": 194,
         "downloads": 49014,
         "tags": [
           "transformers",
@@ -560,7 +560,7 @@
       {
         "id": "tencent/Hy-MT2-1.8B",
         "author": "tencent",
-        "likes": 1085,
+        "likes": 1086,
         "downloads": 15753,
         "tags": [
           "transformers",
@@ -616,7 +616,7 @@
       {
         "id": "microsoft/Lens",
         "author": "microsoft",
-        "likes": 143,
+        "likes": 144,
         "downloads": 1255,
         "tags": [
           "diffusers",
@@ -634,7 +634,7 @@
       {
         "id": "Qwen/Qwen3.6-27B",
         "author": "Qwen",
-        "likes": 1517,
+        "likes": 1519,
         "downloads": 4858365,
         "tags": [
           "transformers",
@@ -655,7 +655,7 @@
       {
         "id": "OBLITERATUS/Qwen3.6-27B-OBLITERATED",
         "author": "OBLITERATUS",
-        "likes": 116,
+        "likes": 117,
         "downloads": 16849,
         "tags": [
           "transformers",
@@ -686,7 +686,7 @@
       {
         "id": "openbmb/MiniCPM-V-4.6",
         "author": "openbmb",
-        "likes": 1050,
+        "likes": 1051,
         "downloads": 428949,
         "tags": [
           "transformers",
@@ -711,43 +711,9 @@
         "link": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
       },
       {
-        "id": "circlestone-labs/Anima",
-        "author": "circlestone-labs",
-        "likes": 1587,
-        "downloads": 723317,
-        "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/circlestone-labs/Anima"
-      },
-      {
-        "id": "microsoft/Lens-Turbo",
-        "author": "microsoft",
-        "likes": 127,
-        "downloads": 1685,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "text-to-image",
-          "en",
-          "arxiv:2605.21573",
-          "license:mit",
-          "diffusers:LensPipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/microsoft/Lens-Turbo"
-      },
-      {
         "id": "stepfun-ai/Step-3.7-Flash",
         "author": "stepfun-ai",
-        "likes": 94,
+        "likes": 98,
         "downloads": 1421,
         "tags": [
           "transformers",
@@ -770,9 +736,43 @@
         "link": "https://huggingface.co/stepfun-ai/Step-3.7-Flash"
       },
       {
+        "id": "circlestone-labs/Anima",
+        "author": "circlestone-labs",
+        "likes": 1590,
+        "downloads": 723317,
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/circlestone-labs/Anima"
+      },
+      {
+        "id": "microsoft/Lens-Turbo",
+        "author": "microsoft",
+        "likes": 128,
+        "downloads": 1685,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image",
+          "en",
+          "arxiv:2605.21573",
+          "license:mit",
+          "diffusers:LensPipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/microsoft/Lens-Turbo"
+      },
+      {
         "id": "froggeric/Qwen-Fixed-Chat-Templates",
         "author": "froggeric",
-        "likes": 450,
+        "likes": 451,
         "downloads": 0,
         "tags": [
           "mlx",
@@ -796,7 +796,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
         "author": "LiquidAI",
-        "likes": 90,
+        "likes": 91,
         "downloads": 5293,
         "tags": [
           "gguf",
@@ -911,7 +911,7 @@
       {
         "id": "openbmb/UltraData-SFT-2605",
         "author": "openbmb",
-        "likes": 161,
+        "likes": 170,
         "downloads": 1869,
         "tags": [
           "task_categories:text-generation",
@@ -970,7 +970,7 @@
       {
         "id": "openbmb/Ultra-FineWeb-L3",
         "author": "openbmb",
-        "likes": 185,
+        "likes": 200,
         "downloads": 14442,
         "tags": [
           "task_categories:text-generation",
@@ -1035,7 +1035,7 @@
       {
         "id": "armand0e/qwen3.7-max-pi-traces",
         "author": "armand0e",
-        "likes": 54,
+        "likes": 55,
         "downloads": 3035,
         "tags": [
           "task_categories:text-generation",
@@ -1085,7 +1085,7 @@
       {
         "id": "Jackrong/Claude-opus-4.6-TraceInversion-9000x",
         "author": "Jackrong",
-        "likes": 35,
+        "likes": 36,
         "downloads": 557,
         "tags": [
           "task_categories:text-generation",
@@ -1259,26 +1259,6 @@
         "link": "https://huggingface.co/datasets/TuringEnterprises/Open-MM-RL"
       },
       {
-        "id": "zhen-nan/L2P-dataset",
-        "author": "zhen-nan",
-        "likes": 24,
-        "downloads": 183,
-        "tags": [
-          "license:apache-2.0",
-          "size_categories:10K<n<100K",
-          "format:webdataset",
-          "modality:image",
-          "modality:text",
-          "library:datasets",
-          "library:webdataset",
-          "library:mlcroissant",
-          "arxiv:2605.12013",
-          "region:us"
-        ],
-        "lastModified": "2026-05-22T08:01:59.000Z",
-        "link": "https://huggingface.co/datasets/zhen-nan/L2P-dataset"
-      },
-      {
         "id": "zhifeixie/Voices-in-the-Wild-2M",
         "author": "zhifeixie",
         "likes": 33,
@@ -1360,16 +1340,24 @@
         "link": "https://huggingface.co/datasets/amphora/ResearchMath-14k"
       },
       {
-        "id": "NodeLinker/deepseek-ai-Thinking-with-Visual-Primitives-deleted-repo",
-        "author": "NodeLinker",
-        "likes": 37,
-        "downloads": 15354,
+        "id": "zhen-nan/L2P-dataset",
+        "author": "zhen-nan",
+        "likes": 24,
+        "downloads": 183,
         "tags": [
-          "license:mit",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "format:webdataset",
+          "modality:image",
+          "modality:text",
+          "library:datasets",
+          "library:webdataset",
+          "library:mlcroissant",
+          "arxiv:2605.12013",
           "region:us"
         ],
-        "lastModified": "2026-05-01T19:27:38.000Z",
-        "link": "https://huggingface.co/datasets/NodeLinker/deepseek-ai-Thinking-with-Visual-Primitives-deleted-repo"
+        "lastModified": "2026-05-22T08:01:59.000Z",
+        "link": "https://huggingface.co/datasets/zhen-nan/L2P-dataset"
       },
       {
         "id": "openai/gsm8k",
@@ -1424,6 +1412,18 @@
         ],
         "lastModified": "2026-05-14T23:54:23.000Z",
         "link": "https://huggingface.co/datasets/AlienKevin/SWE-ZERO-12M-trajectories"
+      },
+      {
+        "id": "NodeLinker/deepseek-ai-Thinking-with-Visual-Primitives-deleted-repo",
+        "author": "NodeLinker",
+        "likes": 37,
+        "downloads": 15354,
+        "tags": [
+          "license:mit",
+          "region:us"
+        ],
+        "lastModified": "2026-05-01T19:27:38.000Z",
+        "link": "https://huggingface.co/datasets/NodeLinker/deepseek-ai-Thinking-with-Visual-Primitives-deleted-repo"
       },
       {
         "id": "Jackrong/Claude-opus-4.7-TraceInversion-5000x",
