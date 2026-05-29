@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-29T00:00:16.906Z",
+  "updatedAt": "2026-05-29T01:00:16.995Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "openbmb/MiniCPM5-1B",
         "author": "openbmb",
-        "likes": 492,
+        "likes": 494,
         "downloads": 15629,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "bytedance-research/Lance",
         "author": "bytedance-research",
-        "likes": 954,
+        "likes": 956,
         "downloads": 2506,
         "tags": [
           "Lance",
@@ -90,7 +90,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 997,
+        "likes": 1000,
         "downloads": 1956558,
         "tags": [
           "gguf",
@@ -168,9 +168,45 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
       },
       {
+        "id": "nvidia/LocateAnything-3B",
+        "author": "nvidia",
+        "likes": 191,
+        "downloads": 1755,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "locateanything",
+          "feature-extraction",
+          "nvidia",
+          "eagle",
+          "vision",
+          "object-detection",
+          "grounding",
+          "arxiv:2605.27365",
+          "image-text-to-text",
+          "conversational",
+          "custom_code",
+          "en",
+          "arxiv:2504.07491",
+          "arxiv:2109.10852",
+          "arxiv:2510.12798",
+          "arxiv:2303.05499",
+          "arxiv:1405.0312",
+          "arxiv:1908.03195",
+          "arxiv:2504.07981",
+          "base_model:Qwen/Qwen2.5-3B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-3B-Instruct",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/LocateAnything-3B"
+      },
+      {
         "id": "Supertone/supertonic-3",
         "author": "Supertone",
-        "likes": 726,
+        "likes": 727,
         "downloads": 52022,
         "tags": [
           "supertonic",
@@ -245,42 +281,6 @@
         "link": "https://huggingface.co/sapientinc/HRM-Text-1B"
       },
       {
-        "id": "nvidia/LocateAnything-3B",
-        "author": "nvidia",
-        "likes": 186,
-        "downloads": 1755,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "locateanything",
-          "feature-extraction",
-          "nvidia",
-          "eagle",
-          "vision",
-          "object-detection",
-          "grounding",
-          "arxiv:2605.27365",
-          "image-text-to-text",
-          "conversational",
-          "custom_code",
-          "en",
-          "arxiv:2504.07491",
-          "arxiv:2109.10852",
-          "arxiv:2510.12798",
-          "arxiv:2303.05499",
-          "arxiv:1405.0312",
-          "arxiv:1908.03195",
-          "arxiv:2504.07981",
-          "base_model:Qwen/Qwen2.5-3B-Instruct",
-          "base_model:finetune:Qwen/Qwen2.5-3B-Instruct",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/LocateAnything-3B"
-      },
-      {
         "id": "Jackrong/Qwopus3.6-27B-v2-GGUF",
         "author": "Jackrong",
         "likes": 172,
@@ -324,7 +324,7 @@
       {
         "id": "nvidia/PiD",
         "author": "nvidia",
-        "likes": 161,
+        "likes": 162,
         "downloads": 335,
         "tags": [
           "pytorch",
@@ -343,23 +343,6 @@
         "pipeline_tag": "image-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/PiD"
-      },
-      {
-        "id": "SulphurAI/Sulphur-2-base",
-        "author": "SulphurAI",
-        "likes": 1419,
-        "downloads": 1472982,
-        "tags": [
-          "diffusers",
-          "gguf",
-          "text-to-video",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
       },
       {
         "id": "Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
@@ -408,6 +391,23 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF"
+      },
+      {
+        "id": "SulphurAI/Sulphur-2-base",
+        "author": "SulphurAI",
+        "likes": 1419,
+        "downloads": 1472982,
+        "tags": [
+          "diffusers",
+          "gguf",
+          "text-to-video",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
       },
       {
         "id": "unsloth/Qwen3.6-27B-MTP-GGUF",
@@ -587,24 +587,9 @@
         "link": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
       },
       {
-        "id": "circlestone-labs/Anima",
-        "author": "circlestone-labs",
-        "likes": 1579,
-        "downloads": 704160,
-        "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/circlestone-labs/Anima"
-      },
-      {
         "id": "Qwen/Qwen3.6-27B",
         "author": "Qwen",
-        "likes": 1508,
+        "likes": 1510,
         "downloads": 4790806,
         "tags": [
           "transformers",
@@ -623,9 +608,24 @@
         "link": "https://huggingface.co/Qwen/Qwen3.6-27B"
       },
       {
+        "id": "circlestone-labs/Anima",
+        "author": "circlestone-labs",
+        "likes": 1580,
+        "downloads": 704160,
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/circlestone-labs/Anima"
+      },
+      {
         "id": "LiquidAI/LFM2.5-8B-A1B",
         "author": "LiquidAI",
-        "likes": 108,
+        "likes": 110,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -659,7 +659,7 @@
       {
         "id": "OBLITERATUS/Qwen3.6-27B-OBLITERATED",
         "author": "OBLITERATUS",
-        "likes": 111,
+        "likes": 112,
         "downloads": 13911,
         "tags": [
           "transformers",
@@ -811,6 +811,20 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
       },
       {
+        "id": "zhen-nan/L2P",
+        "author": "zhen-nan",
+        "likes": 78,
+        "downloads": 0,
+        "tags": [
+          "arxiv:2605.12013",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/zhen-nan/L2P"
+      },
+      {
         "id": "stabilityai/stable-audio-3-medium",
         "author": "stabilityai",
         "likes": 132,
@@ -833,20 +847,6 @@
         "pipeline_tag": "text-to-audio",
         "lastModified": "",
         "link": "https://huggingface.co/stabilityai/stable-audio-3-medium"
-      },
-      {
-        "id": "zhen-nan/L2P",
-        "author": "zhen-nan",
-        "likes": 78,
-        "downloads": 0,
-        "tags": [
-          "arxiv:2605.12013",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/zhen-nan/L2P"
       },
       {
         "id": "pyannote/speaker-diarization-3.1",
@@ -914,7 +914,7 @@
       {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
-        "likes": 268,
+        "likes": 269,
         "downloads": 6639,
         "tags": [
           "task_categories:text-generation",
@@ -975,7 +975,7 @@
       {
         "id": "armand0e/qwen3.7-max-pi-traces",
         "author": "armand0e",
-        "likes": 52,
+        "likes": 53,
         "downloads": 1324,
         "tags": [
           "task_categories:text-generation",
@@ -1002,7 +1002,7 @@
       {
         "id": "openbmb/Ultra-FineWeb-L3",
         "author": "openbmb",
-        "likes": 87,
+        "likes": 88,
         "downloads": 6241,
         "tags": [
           "task_categories:text-generation",
@@ -1060,7 +1060,7 @@
       {
         "id": "openbmb/UltraData-SFT-2605",
         "author": "openbmb",
-        "likes": 41,
+        "likes": 43,
         "downloads": 12,
         "tags": [
           "task_categories:text-generation",
@@ -1242,7 +1242,7 @@
       {
         "id": "TeichAI/DeepSeek-v4-Pro-Agent",
         "author": "TeichAI",
-        "likes": 68,
+        "likes": 69,
         "downloads": 3752,
         "tags": [
           "task_categories:text-generation",
@@ -1267,15 +1267,15 @@
         "link": "https://huggingface.co/datasets/TeichAI/DeepSeek-v4-Pro-Agent"
       },
       {
-        "id": "AlienKevin/SWE-ZERO-12M-trajectories",
-        "author": "AlienKevin",
-        "likes": 114,
-        "downloads": 13832,
+        "id": "open-thoughts/AgentTrove",
+        "author": "open-thoughts",
+        "likes": 166,
+        "downloads": 11794,
         "tags": [
           "task_categories:text-generation",
           "language:en",
           "license:apache-2.0",
-          "size_categories:10M<n<100M",
+          "size_categories:1M<n<10M",
           "format:parquet",
           "modality:text",
           "library:datasets",
@@ -1283,13 +1283,16 @@
           "library:polars",
           "library:mlcroissant",
           "region:us",
-          "swe-zero",
+          "agent",
           "code",
-          "agentic",
-          "pre-training"
+          "agentic-traces",
+          "reinforcement-learning",
+          "terminus-2",
+          "harbor",
+          "agent-traces"
         ],
-        "lastModified": "2026-05-14T23:54:23.000Z",
-        "link": "https://huggingface.co/datasets/AlienKevin/SWE-ZERO-12M-trajectories"
+        "lastModified": "2026-05-07T14:20:40.000Z",
+        "link": "https://huggingface.co/datasets/open-thoughts/AgentTrove"
       },
       {
         "id": "zhifeixie/Voices-in-the-Wild-2M",
@@ -1344,15 +1347,15 @@
         "link": "https://huggingface.co/datasets/lambda/hermes-agent-reasoning-traces"
       },
       {
-        "id": "open-thoughts/AgentTrove",
-        "author": "open-thoughts",
-        "likes": 165,
-        "downloads": 11794,
+        "id": "AlienKevin/SWE-ZERO-12M-trajectories",
+        "author": "AlienKevin",
+        "likes": 114,
+        "downloads": 13832,
         "tags": [
           "task_categories:text-generation",
           "language:en",
           "license:apache-2.0",
-          "size_categories:1M<n<10M",
+          "size_categories:10M<n<100M",
           "format:parquet",
           "modality:text",
           "library:datasets",
@@ -1360,16 +1363,13 @@
           "library:polars",
           "library:mlcroissant",
           "region:us",
-          "agent",
+          "swe-zero",
           "code",
-          "agentic-traces",
-          "reinforcement-learning",
-          "terminus-2",
-          "harbor",
-          "agent-traces"
+          "agentic",
+          "pre-training"
         ],
-        "lastModified": "2026-05-07T14:20:40.000Z",
-        "link": "https://huggingface.co/datasets/open-thoughts/AgentTrove"
+        "lastModified": "2026-05-14T23:54:23.000Z",
+        "link": "https://huggingface.co/datasets/AlienKevin/SWE-ZERO-12M-trajectories"
       },
       {
         "id": "PsiBotAI/SynData",
@@ -1394,41 +1394,38 @@
         "link": "https://huggingface.co/datasets/PsiBotAI/SynData"
       },
       {
-        "id": "Jackrong/Claude-opus-4.7-TraceInversion-5000x",
-        "author": "Jackrong",
-        "likes": 20,
-        "downloads": 527,
+        "id": "Qwen/WebWorldData",
+        "author": "Qwen",
+        "likes": 64,
+        "downloads": 1276,
         "tags": [
           "task_categories:text-generation",
-          "annotations_creators:machine-generated",
           "language:en",
           "language:zh",
-          "language:ko",
-          "language:ru",
-          "language:ja",
-          "language:es",
           "license:apache-2.0",
-          "size_categories:1K<n<10K",
+          "size_categories:100K<n<1M",
           "format:json",
           "modality:text",
           "library:datasets",
           "library:pandas",
           "library:polars",
           "library:mlcroissant",
-          "arxiv:2603.07267",
+          "arxiv:2602.14721",
           "region:us",
-          "reasoning",
-          "trace-inversion",
-          "synthetic-data",
-          "chain-of-thought",
-          "distillation",
-          "claude-opus",
-          "negentropy",
-          "qwen",
-          "unsloth"
+          "WebWorld",
+          "world-model",
+          "web-agent",
+          "browser-simulation",
+          "a11y",
+          "html",
+          "xml",
+          "markdown",
+          "trajectories",
+          "agent-training",
+          "synthetic-data"
         ],
-        "lastModified": "2026-05-19T10:20:17.000Z",
-        "link": "https://huggingface.co/datasets/Jackrong/Claude-opus-4.7-TraceInversion-5000x"
+        "lastModified": "2026-05-08T12:12:49.000Z",
+        "link": "https://huggingface.co/datasets/Qwen/WebWorldData"
       }
     ]
   }
