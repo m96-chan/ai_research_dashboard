@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-30T08:00:19.486Z",
+  "updatedAt": "2026-05-30T09:00:22.521Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "openbmb/MiniCPM5-1B",
         "author": "openbmb",
-        "likes": 580,
+        "likes": 583,
         "downloads": 28793,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 426,
+        "likes": 433,
         "downloads": 18327,
         "tags": [
           "transformers",
@@ -78,7 +78,7 @@
       {
         "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
         "author": "meituan-longcat",
-        "likes": 397,
+        "likes": 398,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -102,7 +102,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1068,
+        "likes": 1069,
         "downloads": 2227885,
         "tags": [
           "gguf",
@@ -154,7 +154,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B",
         "author": "LiquidAI",
-        "likes": 234,
+        "likes": 236,
         "downloads": 17084,
         "tags": [
           "transformers",
@@ -216,14 +216,16 @@
         "tags": [
           "transformers",
           "safetensors",
+          "qwen3_5",
+          "text-generation",
           "video",
           "multimodal",
           "video-captioning",
           "temporal-grounding",
           "qwen",
-          "text-generation",
           "VLM",
           "video-text-to-text",
+          "custom_code",
           "en",
           "arxiv:2501.00513",
           "arxiv:2407.00634",
@@ -231,7 +233,6 @@
           "base_model:Qwen/Qwen3.5-2B",
           "base_model:finetune:Qwen/Qwen3.5-2B",
           "license:apache-2.0",
-          "endpoints_compatible",
           "region:us"
         ],
         "pipeline_tag": "video-text-to-text",
@@ -241,7 +242,7 @@
       {
         "id": "nvidia/PiD",
         "author": "nvidia",
-        "likes": 179,
+        "likes": 181,
         "downloads": 437,
         "tags": [
           "pytorch",
@@ -264,7 +265,7 @@
       {
         "id": "sapientinc/HRM-Text-1B",
         "author": "sapientinc",
-        "likes": 411,
+        "likes": 413,
         "downloads": 138118,
         "tags": [
           "transformers",
@@ -412,6 +413,31 @@
         "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
       },
       {
+        "id": "stepfun-ai/Step-3.7-Flash",
+        "author": "stepfun-ai",
+        "likes": 122,
+        "downloads": 3400,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "step3p7",
+          "text-generation",
+          "vision-language",
+          "multimodal",
+          "moe",
+          "image-text-to-text",
+          "conversational",
+          "custom_code",
+          "en",
+          "license:apache-2.0",
+          "eval-results",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/stepfun-ai/Step-3.7-Flash"
+      },
+      {
         "id": "unsloth/Qwen3.6-27B-MTP-GGUF",
         "author": "unsloth",
         "likes": 552,
@@ -477,29 +503,37 @@
         "link": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF"
       },
       {
-        "id": "stepfun-ai/Step-3.7-Flash",
-        "author": "stepfun-ai",
-        "likes": 121,
-        "downloads": 3400,
+        "id": "numind/NuExtract3",
+        "author": "numind",
+        "likes": 198,
+        "downloads": 53338,
         "tags": [
           "transformers",
           "safetensors",
-          "step3p7",
-          "text-generation",
-          "vision-language",
-          "multimodal",
-          "moe",
           "image-text-to-text",
+          "qwen3_5",
+          "vision-language",
+          "vlm",
+          "document-understanding",
+          "structured-extraction",
+          "information-extraction",
+          "ocr",
+          "document-to-markdown",
+          "markdown",
+          "rag",
+          "reasoning",
+          "multilingual",
           "conversational",
-          "custom_code",
-          "en",
+          "image-to-text",
+          "base_model:Qwen/Qwen3.5-4B",
+          "base_model:finetune:Qwen/Qwen3.5-4B",
           "license:apache-2.0",
-          "eval-results",
+          "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "image-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/stepfun-ai/Step-3.7-Flash"
+        "link": "https://huggingface.co/numind/NuExtract3"
       },
       {
         "id": "Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
@@ -552,37 +586,35 @@
         "link": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF"
       },
       {
-        "id": "numind/NuExtract3",
-        "author": "numind",
-        "likes": 198,
-        "downloads": 53338,
+        "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
+        "author": "LiquidAI",
+        "likes": 113,
+        "downloads": 23685,
         "tags": [
-          "transformers",
-          "safetensors",
-          "image-text-to-text",
-          "qwen3_5",
-          "vision-language",
-          "vlm",
-          "document-understanding",
-          "structured-extraction",
-          "information-extraction",
-          "ocr",
-          "document-to-markdown",
-          "markdown",
-          "rag",
-          "reasoning",
-          "multilingual",
-          "conversational",
-          "image-to-text",
-          "base_model:Qwen/Qwen3.5-4B",
-          "base_model:finetune:Qwen/Qwen3.5-4B",
-          "license:apache-2.0",
+          "gguf",
+          "liquid",
+          "lfm2",
+          "edge",
+          "llama.cpp",
+          "text-generation",
+          "en",
+          "ar",
+          "zh",
+          "fr",
+          "de",
+          "ja",
+          "ko",
+          "es",
+          "base_model:LiquidAI/LFM2.5-8B-A1B",
+          "base_model:quantized:LiquidAI/LFM2.5-8B-A1B",
+          "license:other",
           "endpoints_compatible",
-          "region:us"
+          "region:us",
+          "conversational"
         ],
-        "pipeline_tag": "image-to-text",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/numind/NuExtract3"
+        "link": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF"
       },
       {
         "id": "OBLITERATUS/Qwen3.6-27B-OBLITERATED",
@@ -614,37 +646,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/OBLITERATUS/Qwen3.6-27B-OBLITERATED"
-      },
-      {
-        "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
-        "author": "LiquidAI",
-        "likes": 111,
-        "downloads": 23685,
-        "tags": [
-          "gguf",
-          "liquid",
-          "lfm2",
-          "edge",
-          "llama.cpp",
-          "text-generation",
-          "en",
-          "ar",
-          "zh",
-          "fr",
-          "de",
-          "ja",
-          "ko",
-          "es",
-          "base_model:LiquidAI/LFM2.5-8B-A1B",
-          "base_model:quantized:LiquidAI/LFM2.5-8B-A1B",
-          "license:other",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF"
       },
       {
         "id": "tencent/Hy-MT2-1.8B",
@@ -705,7 +706,7 @@
       {
         "id": "Qwen/Qwen3.6-27B",
         "author": "Qwen",
-        "likes": 1523,
+        "likes": 1524,
         "downloads": 4971730,
         "tags": [
           "transformers",
@@ -923,7 +924,7 @@
         "id": "openbmb/UltraData-SFT-2605",
         "author": "openbmb",
         "likes": 213,
-        "downloads": 1869,
+        "downloads": 8096,
         "tags": [
           "task_categories:text-generation",
           "task_categories:question-answering",
@@ -952,7 +953,7 @@
         "id": "openbmb/Ultra-FineWeb-L3",
         "author": "openbmb",
         "likes": 217,
-        "downloads": 14442,
+        "downloads": 21716,
         "tags": [
           "task_categories:text-generation",
           "language:en",
@@ -1015,7 +1016,7 @@
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
         "likes": 276,
-        "downloads": 7096,
+        "downloads": 7383,
         "tags": [
           "task_categories:text-generation",
           "task_categories:question-answering",
@@ -1047,7 +1048,7 @@
         "id": "armand0e/qwen3.7-max-pi-traces",
         "author": "armand0e",
         "likes": 58,
-        "downloads": 3035,
+        "downloads": 4762,
         "tags": [
           "task_categories:text-generation",
           "size_categories:n<1K",
@@ -1073,8 +1074,8 @@
       {
         "id": "jasperai/monet",
         "author": "jasperai",
-        "likes": 57,
-        "downloads": 249105,
+        "likes": 59,
+        "downloads": 256618,
         "tags": [
           "task_categories:text-to-image",
           "task_categories:image-feature-extraction",
@@ -1097,7 +1098,7 @@
         "id": "Jackrong/Claude-opus-4.6-TraceInversion-9000x",
         "author": "Jackrong",
         "likes": 37,
-        "downloads": 557,
+        "downloads": 638,
         "tags": [
           "task_categories:text-generation",
           "annotations_creators:machine-generated",
@@ -1155,7 +1156,7 @@
         "id": "actava/chi-bench",
         "author": "actava",
         "likes": 52,
-        "downloads": 6234,
+        "downloads": 6358,
         "tags": [
           "task_categories:text-generation",
           "language:en",
@@ -1189,7 +1190,7 @@
         "id": "open-thoughts/AgentTrove",
         "author": "open-thoughts",
         "likes": 168,
-        "downloads": 12024,
+        "downloads": 12071,
         "tags": [
           "task_categories:text-generation",
           "language:en",
@@ -1217,7 +1218,7 @@
         "id": "amphora/ResearchMath-14k",
         "author": "amphora",
         "likes": 18,
-        "downloads": 302,
+        "downloads": 466,
         "tags": [
           "task_categories:text-generation",
           "task_categories:question-answering",
@@ -1246,7 +1247,7 @@
         "id": "lambda/hermes-agent-reasoning-traces",
         "author": "lambda",
         "likes": 346,
-        "downloads": 3310,
+        "downloads": 3295,
         "tags": [
           "task_categories:text-generation",
           "language:en",
@@ -1276,7 +1277,7 @@
         "id": "TeichAI/DeepSeek-v4-Pro-Agent",
         "author": "TeichAI",
         "likes": 69,
-        "downloads": 3835,
+        "downloads": 3999,
         "tags": [
           "task_categories:text-generation",
           "language:en",
@@ -1303,7 +1304,7 @@
         "id": "TuringEnterprises/Open-MM-RL",
         "author": "TuringEnterprises",
         "likes": 225,
-        "downloads": 15702,
+        "downloads": 15745,
         "tags": [
           "task_categories:question-answering",
           "language:en",
@@ -1332,7 +1333,7 @@
         "id": "zhifeixie/Voices-in-the-Wild-2M",
         "author": "zhifeixie",
         "likes": 33,
-        "downloads": 11757,
+        "downloads": 12736,
         "tags": [
           "task_categories:automatic-speech-recognition",
           "language:en",
@@ -1354,7 +1355,7 @@
         "id": "Jackrong/Claude-opus-4.7-TraceInversion-5000x",
         "author": "Jackrong",
         "likes": 21,
-        "downloads": 592,
+        "downloads": 710,
         "tags": [
           "task_categories:text-generation",
           "annotations_creators:machine-generated",
@@ -1391,7 +1392,7 @@
         "id": "ngocdang83/tran-vi-teacher",
         "author": "ngocdang83",
         "likes": 19,
-        "downloads": 156,
+        "downloads": 200,
         "tags": [
           "task_categories:translation",
           "language:zh",
@@ -1449,7 +1450,7 @@
         "id": "NodeLinker/deepseek-ai-Thinking-with-Visual-Primitives-deleted-repo",
         "author": "NodeLinker",
         "likes": 37,
-        "downloads": 15354,
+        "downloads": 14285,
         "tags": [
           "license:mit",
           "region:us"
