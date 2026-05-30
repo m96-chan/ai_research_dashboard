@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-30T10:00:20.486Z",
+  "updatedAt": "2026-05-30T11:00:16.464Z",
   "models": {
     "count": 30,
     "items": [
@@ -42,7 +42,7 @@
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 439,
+        "likes": 441,
         "downloads": 18327,
         "tags": [
           "transformers",
@@ -102,7 +102,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1070,
+        "likes": 1075,
         "downloads": 2227885,
         "tags": [
           "gguf",
@@ -154,7 +154,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B",
         "author": "LiquidAI",
-        "likes": 239,
+        "likes": 240,
         "downloads": 17084,
         "tags": [
           "transformers",
@@ -211,7 +211,7 @@
       {
         "id": "NemoStation/Marlin-2B",
         "author": "NemoStation",
-        "likes": 449,
+        "likes": 450,
         "downloads": 15780,
         "tags": [
           "transformers",
@@ -265,7 +265,7 @@
       {
         "id": "sapientinc/HRM-Text-1B",
         "author": "sapientinc",
-        "likes": 413,
+        "likes": 414,
         "downloads": 138118,
         "tags": [
           "transformers",
@@ -415,7 +415,7 @@
       {
         "id": "stepfun-ai/Step-3.7-Flash",
         "author": "stepfun-ai",
-        "likes": 123,
+        "likes": 125,
         "downloads": 3400,
         "tags": [
           "transformers",
@@ -440,7 +440,7 @@
       {
         "id": "unsloth/Qwen3.6-27B-MTP-GGUF",
         "author": "unsloth",
-        "likes": 553,
+        "likes": 554,
         "downloads": 877938,
         "tags": [
           "transformers",
@@ -505,7 +505,7 @@
       {
         "id": "Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
         "author": "Jackrong",
-        "likes": 167,
+        "likes": 168,
         "downloads": 105264,
         "tags": [
           "transformers",
@@ -555,7 +555,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
         "author": "LiquidAI",
-        "likes": 115,
+        "likes": 116,
         "downloads": 23685,
         "tags": [
           "gguf",
@@ -586,7 +586,7 @@
       {
         "id": "numind/NuExtract3",
         "author": "numind",
-        "likes": 198,
+        "likes": 199,
         "downloads": 53338,
         "tags": [
           "transformers",
@@ -615,6 +615,27 @@
         "pipeline_tag": "image-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/numind/NuExtract3"
+      },
+      {
+        "id": "Qwen/Qwen3.6-27B",
+        "author": "Qwen",
+        "likes": 1526,
+        "downloads": 4971730,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.6-27B"
       },
       {
         "id": "tencent/Hy-MT2-1.8B",
@@ -673,25 +694,31 @@
         "link": "https://huggingface.co/tencent/Hy-MT2-1.8B"
       },
       {
-        "id": "Qwen/Qwen3.6-27B",
-        "author": "Qwen",
-        "likes": 1526,
-        "downloads": 4971730,
+        "id": "openbmb/MiniCPM-V-4.6",
+        "author": "openbmb",
+        "likes": 1071,
+        "downloads": 433156,
         "tags": [
           "transformers",
           "safetensors",
-          "qwen3_5",
+          "minicpmv4_6",
           "image-text-to-text",
+          "minicpm-v",
+          "multimodal",
+          "On-Device Model",
+          "lightweight",
           "conversational",
+          "arxiv:2604.27393",
+          "arxiv:2509.18154",
+          "arxiv:2408.01800",
+          "arxiv:2605.08985",
           "license:apache-2.0",
-          "eval-results",
           "endpoints_compatible",
-          "deploy:azure",
           "region:us"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.6-27B"
+        "link": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
       },
       {
         "id": "OBLITERATUS/Qwen3.6-27B-OBLITERATED",
@@ -725,54 +752,9 @@
         "link": "https://huggingface.co/OBLITERATUS/Qwen3.6-27B-OBLITERATED"
       },
       {
-        "id": "openbmb/MiniCPM-V-4.6",
-        "author": "openbmb",
-        "likes": 1071,
-        "downloads": 433156,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "minicpmv4_6",
-          "image-text-to-text",
-          "minicpm-v",
-          "multimodal",
-          "On-Device Model",
-          "lightweight",
-          "conversational",
-          "arxiv:2604.27393",
-          "arxiv:2509.18154",
-          "arxiv:2408.01800",
-          "arxiv:2605.08985",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
-      },
-      {
-        "id": "microsoft/Lens",
-        "author": "microsoft",
-        "likes": 144,
-        "downloads": 1517,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "text-to-image",
-          "en",
-          "arxiv:2605.21573",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/microsoft/Lens"
-      },
-      {
         "id": "PaddlePaddle/PaddleOCR-VL-1.6",
         "author": "PaddlePaddle",
-        "likes": 102,
+        "likes": 103,
         "downloads": 2294,
         "tags": [
           "PaddleOCR",
@@ -804,6 +786,24 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6"
+      },
+      {
+        "id": "microsoft/Lens",
+        "author": "microsoft",
+        "likes": 144,
+        "downloads": 1517,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image",
+          "en",
+          "arxiv:2605.21573",
+          "license:mit",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/microsoft/Lens"
       },
       {
         "id": "circlestone-labs/Anima",
@@ -866,7 +866,7 @@
       {
         "id": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
         "author": "unsloth",
-        "likes": 415,
+        "likes": 416,
         "downloads": 778648,
         "tags": [
           "transformers",
@@ -888,23 +888,32 @@
         "link": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF"
       },
       {
-        "id": "openai/privacy-filter",
-        "author": "openai",
-        "likes": 1565,
-        "downloads": 304691,
+        "id": "pyannote/speaker-diarization-3.1",
+        "author": "pyannote",
+        "likes": 2067,
+        "downloads": 9771170,
         "tags": [
-          "transformers",
-          "onnx",
-          "safetensors",
-          "transformers.js",
-          "token-classification",
-          "license:apache-2.0",
+          "pyannote-audio",
+          "pyannote",
+          "pyannote-audio-pipeline",
+          "audio",
+          "voice",
+          "speech",
+          "speaker",
+          "speaker-diarization",
+          "speaker-change-detection",
+          "voice-activity-detection",
+          "overlapped-speech-detection",
+          "automatic-speech-recognition",
+          "arxiv:2111.14448",
+          "arxiv:2012.01477",
+          "license:mit",
           "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "token-classification",
+        "pipeline_tag": "automatic-speech-recognition",
         "lastModified": "",
-        "link": "https://huggingface.co/openai/privacy-filter"
+        "link": "https://huggingface.co/pyannote/speaker-diarization-3.1"
       }
     ]
   },
@@ -914,7 +923,7 @@
       {
         "id": "openbmb/UltraData-SFT-2605",
         "author": "openbmb",
-        "likes": 214,
+        "likes": 215,
         "downloads": 8096,
         "tags": [
           "task_categories:text-generation",
@@ -1006,7 +1015,7 @@
       {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
-        "likes": 276,
+        "likes": 278,
         "downloads": 7383,
         "tags": [
           "task_categories:text-generation",
@@ -1038,7 +1047,7 @@
       {
         "id": "jasperai/monet",
         "author": "jasperai",
-        "likes": 61,
+        "likes": 68,
         "downloads": 256618,
         "tags": [
           "task_categories:text-to-image",
