@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-31T10:00:18.732Z",
+  "updatedAt": "2026-05-31T11:00:18.901Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "openbmb/MiniCPM5-1B",
         "author": "openbmb",
-        "likes": 631,
+        "likes": 632,
         "downloads": 36730,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 531,
+        "likes": 534,
         "downloads": 24586,
         "tags": [
           "transformers",
@@ -78,7 +78,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1130,
+        "likes": 1132,
         "downloads": 2439402,
         "tags": [
           "gguf",
@@ -130,7 +130,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B",
         "author": "LiquidAI",
-        "likes": 292,
+        "likes": 295,
         "downloads": 27677,
         "tags": [
           "transformers",
@@ -212,7 +212,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 4476,
+        "likes": 4477,
         "downloads": 5886599,
         "tags": [
           "transformers",
@@ -291,7 +291,7 @@
       {
         "id": "stepfun-ai/Step-3.7-Flash",
         "author": "stepfun-ai",
-        "likes": 145,
+        "likes": 146,
         "downloads": 7638,
         "tags": [
           "transformers",
@@ -372,7 +372,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
         "author": "LiquidAI",
-        "likes": 127,
+        "likes": 128,
         "downloads": 41828,
         "tags": [
           "gguf",
@@ -423,6 +423,23 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF"
+      },
+      {
+        "id": "SulphurAI/Sulphur-2-base",
+        "author": "SulphurAI",
+        "likes": 1462,
+        "downloads": 1590236,
+        "tags": [
+          "diffusers",
+          "gguf",
+          "text-to-video",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
       },
       {
         "id": "Supertone/supertonic-3",
@@ -476,21 +493,40 @@
         "link": "https://huggingface.co/Supertone/supertonic-3"
       },
       {
-        "id": "SulphurAI/Sulphur-2-base",
-        "author": "SulphurAI",
-        "likes": 1461,
-        "downloads": 1590236,
+        "id": "PaddlePaddle/PaddleOCR-VL-1.6",
+        "author": "PaddlePaddle",
+        "likes": 109,
+        "downloads": 2731,
         "tags": [
-          "diffusers",
-          "gguf",
-          "text-to-video",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "PaddleOCR",
+          "safetensors",
+          "paddleocr_vl",
+          "ERNIE4.5",
+          "PaddlePaddle",
+          "image-to-text",
+          "ocr",
+          "document-parse",
+          "layout",
+          "table",
+          "formula",
+          "chart",
+          "seal",
+          "spotting",
+          "image-text-to-text",
+          "conversational",
+          "custom_code",
+          "en",
+          "zh",
+          "multilingual",
+          "arxiv:2601.21957",
+          "base_model:PaddlePaddle/PaddleOCR-VL-1.6",
+          "base_model:finetune:PaddlePaddle/PaddleOCR-VL-1.6",
+          "license:apache-2.0",
+          "region:us"
         ],
-        "pipeline_tag": "text-to-video",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
+        "link": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6"
       },
       {
         "id": "Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
@@ -543,63 +579,6 @@
         "link": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF"
       },
       {
-        "id": "PaddlePaddle/PaddleOCR-VL-1.6",
-        "author": "PaddlePaddle",
-        "likes": 109,
-        "downloads": 2731,
-        "tags": [
-          "PaddleOCR",
-          "safetensors",
-          "paddleocr_vl",
-          "ERNIE4.5",
-          "PaddlePaddle",
-          "image-to-text",
-          "ocr",
-          "document-parse",
-          "layout",
-          "table",
-          "formula",
-          "chart",
-          "seal",
-          "spotting",
-          "image-text-to-text",
-          "conversational",
-          "custom_code",
-          "en",
-          "zh",
-          "multilingual",
-          "arxiv:2601.21957",
-          "base_model:PaddlePaddle/PaddleOCR-VL-1.6",
-          "base_model:finetune:PaddlePaddle/PaddleOCR-VL-1.6",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6"
-      },
-      {
-        "id": "Qwen/Qwen3.6-27B",
-        "author": "Qwen",
-        "likes": 1541,
-        "downloads": 5064096,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.6-27B"
-      },
-      {
         "id": "openbmb/MiniCPM-V-4.6",
         "author": "openbmb",
         "likes": 1079,
@@ -625,6 +604,27 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
+      },
+      {
+        "id": "Qwen/Qwen3.6-27B",
+        "author": "Qwen",
+        "likes": 1542,
+        "downloads": 5064096,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.6-27B"
       },
       {
         "id": "numind/NuExtract3",
@@ -796,7 +796,7 @@
       {
         "id": "circlestone-labs/Anima",
         "author": "circlestone-labs",
-        "likes": 1603,
+        "likes": 1604,
         "downloads": 756861,
         "tags": [
           "diffusion-single-file",
@@ -882,7 +882,7 @@
       {
         "id": "OpenMOSS-Team/MOSS-TTS-v1.5",
         "author": "OpenMOSS-Team",
-        "likes": 77,
+        "likes": 78,
         "downloads": 14272,
         "tags": [
           "safetensors",
@@ -1028,7 +1028,7 @@
       {
         "id": "jasperai/monet",
         "author": "jasperai",
-        "likes": 77,
+        "likes": 78,
         "downloads": 265463,
         "tags": [
           "task_categories:text-to-image",
@@ -1420,7 +1420,7 @@
       {
         "id": "fka/prompts.chat",
         "author": "fka",
-        "likes": 9714,
+        "likes": 9715,
         "downloads": 27444,
         "tags": [
           "task_categories:question-answering",
