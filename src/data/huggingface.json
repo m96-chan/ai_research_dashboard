@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-01T03:00:15.281Z",
+  "updatedAt": "2026-06-01T04:00:16.158Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 619,
+        "likes": 621,
         "downloads": 24586,
         "tags": [
           "transformers",
@@ -78,7 +78,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1162,
+        "likes": 1166,
         "downloads": 2439402,
         "tags": [
           "gguf",
@@ -106,7 +106,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B",
         "author": "LiquidAI",
-        "likes": 321,
+        "likes": 324,
         "downloads": 27677,
         "tags": [
           "transformers",
@@ -141,7 +141,7 @@
       {
         "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
         "author": "meituan-longcat",
-        "likes": 440,
+        "likes": 441,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -155,6 +155,8 @@
           "video-generation",
           "en",
           "zh",
+          "base_model:meituan-longcat/LongCat-Video",
+          "base_model:quantized:meituan-longcat/LongCat-Video",
           "license:mit",
           "region:us"
         ],
@@ -188,7 +190,7 @@
       {
         "id": "bytedance-research/Lance",
         "author": "bytedance-research",
-        "likes": 992,
+        "likes": 994,
         "downloads": 2948,
         "tags": [
           "Lance",
@@ -212,7 +214,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 4503,
+        "likes": 4504,
         "downloads": 5886599,
         "tags": [
           "transformers",
@@ -234,7 +236,7 @@
       {
         "id": "stepfun-ai/Step-3.7-Flash",
         "author": "stepfun-ai",
-        "likes": 162,
+        "likes": 163,
         "downloads": 7638,
         "tags": [
           "transformers",
@@ -259,7 +261,7 @@
       {
         "id": "sapientinc/HRM-Text-1B",
         "author": "sapientinc",
-        "likes": 428,
+        "likes": 429,
         "downloads": 143904,
         "tags": [
           "transformers",
@@ -285,7 +287,7 @@
       {
         "id": "NemoStation/Marlin-2B",
         "author": "NemoStation",
-        "likes": 472,
+        "likes": 473,
         "downloads": 16277,
         "tags": [
           "transformers",
@@ -316,7 +318,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
         "author": "LiquidAI",
-        "likes": 133,
+        "likes": 134,
         "downloads": 41828,
         "tags": [
           "gguf",
@@ -403,7 +405,7 @@
       {
         "id": "SulphurAI/Sulphur-2-base",
         "author": "SulphurAI",
-        "likes": 1472,
+        "likes": 1473,
         "downloads": 1590236,
         "tags": [
           "diffusers",
@@ -507,7 +509,7 @@
       {
         "id": "Qwen/Qwen3.6-27B",
         "author": "Qwen",
-        "likes": 1552,
+        "likes": 1553,
         "downloads": 5064096,
         "tags": [
           "transformers",
@@ -660,6 +662,34 @@
         "link": "https://huggingface.co/numind/NuExtract3"
       },
       {
+        "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+        "author": "nvidia",
+        "likes": 95,
+        "downloads": 105608,
+        "tags": [
+          "Model Optimizer",
+          "safetensors",
+          "qwen3_5_moe",
+          "nvidia",
+          "ModelOpt",
+          "Qwen3.6",
+          "quantized",
+          "FP4",
+          "fp4",
+          "text-generation",
+          "conversational",
+          "base_model:Qwen/Qwen3.6-35B-A3B",
+          "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
+          "license:apache-2.0",
+          "8-bit",
+          "modelopt",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4"
+      },
+      {
         "id": "tencent/Hy-MT2-1.8B",
         "author": "tencent",
         "likes": 1094,
@@ -716,34 +746,6 @@
         "link": "https://huggingface.co/tencent/Hy-MT2-1.8B"
       },
       {
-        "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
-        "author": "nvidia",
-        "likes": 94,
-        "downloads": 105608,
-        "tags": [
-          "Model Optimizer",
-          "safetensors",
-          "qwen3_5_moe",
-          "nvidia",
-          "ModelOpt",
-          "Qwen3.6",
-          "quantized",
-          "FP4",
-          "fp4",
-          "text-generation",
-          "conversational",
-          "base_model:Qwen/Qwen3.6-35B-A3B",
-          "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
-          "license:apache-2.0",
-          "8-bit",
-          "modelopt",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4"
-      },
-      {
         "id": "deepseek-ai/DeepSeek-V4-Flash",
         "author": "deepseek-ai",
         "likes": 1323,
@@ -761,30 +763,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
-      },
-      {
-        "id": "froggeric/Qwen-Fixed-Chat-Templates",
-        "author": "froggeric",
-        "likes": 469,
-        "downloads": 0,
-        "tags": [
-          "mlx",
-          "jinja",
-          "chat-template",
-          "qwen",
-          "qwen3.5",
-          "qwen3.6",
-          "lm-studio",
-          "llama.cpp",
-          "vllm",
-          "tool-calling",
-          "thinking",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
       },
       {
         "id": "OpenMOSS-Team/MOSS-TTS-v1.5",
@@ -834,6 +812,30 @@
         "pipeline_tag": "text-to-speech",
         "lastModified": "",
         "link": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-v1.5"
+      },
+      {
+        "id": "froggeric/Qwen-Fixed-Chat-Templates",
+        "author": "froggeric",
+        "likes": 469,
+        "downloads": 0,
+        "tags": [
+          "mlx",
+          "jinja",
+          "chat-template",
+          "qwen",
+          "qwen3.5",
+          "qwen3.6",
+          "lm-studio",
+          "llama.cpp",
+          "vllm",
+          "tool-calling",
+          "thinking",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
       },
       {
         "id": "microsoft/Lens",
@@ -965,7 +967,7 @@
       {
         "id": "openbmb/Ultra-FineWeb-L3",
         "author": "openbmb",
-        "likes": 222,
+        "likes": 223,
         "downloads": 27284,
         "tags": [
           "task_categories:text-generation",
@@ -998,7 +1000,7 @@
       {
         "id": "wikimedia/structured-wikipedia",
         "author": "wikimedia",
-        "likes": 238,
+        "likes": 239,
         "downloads": 5689,
         "tags": [
           "language:en",
@@ -1338,35 +1340,6 @@
         "link": "https://huggingface.co/datasets/actava/chi-bench"
       },
       {
-        "id": "TuringEnterprises/Open-MM-RL",
-        "author": "TuringEnterprises",
-        "likes": 225,
-        "downloads": 15778,
-        "tags": [
-          "task_categories:question-answering",
-          "language:en",
-          "license:mit",
-          "size_categories:n<1K",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:image",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "chemistry",
-          "physics",
-          "math",
-          "biology",
-          "science",
-          "RL"
-        ],
-        "lastModified": "2026-05-13T07:32:18.000Z",
-        "link": "https://huggingface.co/datasets/TuringEnterprises/Open-MM-RL"
-      },
-      {
         "id": "ngocdang83/tran-vi-teacher",
         "author": "ngocdang83",
         "likes": 19,
@@ -1459,6 +1432,35 @@
         ],
         "lastModified": "2026-05-21T09:00:01.000Z",
         "link": "https://huggingface.co/datasets/KRAFTON/Raon-OpenTTS-Pool"
+      },
+      {
+        "id": "TuringEnterprises/Open-MM-RL",
+        "author": "TuringEnterprises",
+        "likes": 225,
+        "downloads": 15778,
+        "tags": [
+          "task_categories:question-answering",
+          "language:en",
+          "license:mit",
+          "size_categories:n<1K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:image",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "chemistry",
+          "physics",
+          "math",
+          "biology",
+          "science",
+          "RL"
+        ],
+        "lastModified": "2026-05-13T07:32:18.000Z",
+        "link": "https://huggingface.co/datasets/TuringEnterprises/Open-MM-RL"
       },
       {
         "id": "Kwai-Klear/GoLongRL",
