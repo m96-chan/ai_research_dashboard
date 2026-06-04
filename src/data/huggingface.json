@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-04T08:00:21.838Z",
+  "updatedAt": "2026-06-04T09:00:23.532Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 1209,
+        "likes": 1212,
         "downloads": 91834,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B",
         "author": "LiquidAI",
-        "likes": 485,
+        "likes": 487,
         "downloads": 72114,
         "tags": [
           "transformers",
@@ -77,7 +77,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1368,
+        "likes": 1369,
         "downloads": 2646756,
         "tags": [
           "gguf",
@@ -101,6 +101,28 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
+      },
+      {
+        "id": "google/gemma-4-12B-it",
+        "author": "google",
+        "likes": 277,
+        "downloads": 14866,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4_unified",
+          "image-text-to-text",
+          "any-to-any",
+          "base_model:google/gemma-4-12B",
+          "base_model:finetune:google/gemma-4-12B",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-12B-it"
       },
       {
         "id": "openbmb/MiniCPM5-1B",
@@ -139,31 +161,9 @@
         "link": "https://huggingface.co/openbmb/MiniCPM5-1B"
       },
       {
-        "id": "google/gemma-4-12B-it",
-        "author": "google",
-        "likes": 267,
-        "downloads": 14866,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4_unified",
-          "image-text-to-text",
-          "any-to-any",
-          "base_model:google/gemma-4-12B",
-          "base_model:finetune:google/gemma-4-12B",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-12B-it"
-      },
-      {
         "id": "stepfun-ai/Step-3.7-Flash",
         "author": "stepfun-ai",
-        "likes": 236,
+        "likes": 237,
         "downloads": 22715,
         "tags": [
           "transformers",
@@ -225,7 +225,7 @@
       {
         "id": "JetBrains/Mellum2-12B-A2.5B-Thinking",
         "author": "JetBrains",
-        "likes": 186,
+        "likes": 188,
         "downloads": 12157,
         "tags": [
           "transformers",
@@ -246,9 +246,28 @@
         "link": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking"
       },
       {
+        "id": "google/gemma-4-12B",
+        "author": "google",
+        "likes": 181,
+        "downloads": 1978,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4_unified",
+          "image-text-to-text",
+          "any-to-any",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-12B"
+      },
+      {
         "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
         "author": "LiquidAI",
-        "likes": 178,
+        "likes": 179,
         "downloads": 102119,
         "tags": [
           "gguf",
@@ -277,9 +296,33 @@
         "link": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF"
       },
       {
+        "id": "unsloth/gemma-4-12b-it-GGUF",
+        "author": "unsloth",
+        "likes": 177,
+        "downloads": 62850,
+        "tags": [
+          "gguf",
+          "gemma4",
+          "unsloth",
+          "gemma",
+          "google",
+          "gemma4_unified",
+          "image-text-to-text",
+          "base_model:google/gemma-4-12B-it",
+          "base_model:quantized:google/gemma-4-12B-it",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF"
+      },
+      {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 4613,
+        "likes": 4614,
         "downloads": 5687031,
         "tags": [
           "transformers",
@@ -299,28 +342,9 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
       },
       {
-        "id": "google/gemma-4-12B",
-        "author": "google",
-        "likes": 175,
-        "downloads": 1978,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gemma4_unified",
-          "image-text-to-text",
-          "any-to-any",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-12B"
-      },
-      {
         "id": "sapientinc/HRM-Text-1B",
         "author": "sapientinc",
-        "likes": 566,
+        "likes": 569,
         "downloads": 157457,
         "tags": [
           "transformers",
@@ -344,33 +368,9 @@
         "link": "https://huggingface.co/sapientinc/HRM-Text-1B"
       },
       {
-        "id": "unsloth/gemma-4-12b-it-GGUF",
-        "author": "unsloth",
-        "likes": 171,
-        "downloads": 62850,
-        "tags": [
-          "gguf",
-          "gemma4",
-          "unsloth",
-          "gemma",
-          "google",
-          "gemma4_unified",
-          "image-text-to-text",
-          "base_model:google/gemma-4-12B-it",
-          "base_model:quantized:google/gemma-4-12B-it",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF"
-      },
-      {
         "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
         "author": "meituan-longcat",
-        "likes": 508,
+        "likes": 510,
         "downloads": 381,
         "tags": [
           "diffusers",
@@ -424,7 +424,7 @@
       {
         "id": "nvidia/Cosmos3-Nano",
         "author": "nvidia",
-        "likes": 149,
+        "likes": 150,
         "downloads": 17903,
         "tags": [
           "cosmos",
@@ -447,7 +447,7 @@
       {
         "id": "nvidia/PiD",
         "author": "nvidia",
-        "likes": 291,
+        "likes": 292,
         "downloads": 852,
         "tags": [
           "pytorch",
@@ -470,7 +470,7 @@
       {
         "id": "ideogram-ai/ideogram-4-fp8",
         "author": "ideogram-ai",
-        "likes": 132,
+        "likes": 139,
         "downloads": 310,
         "tags": [
           "diffusers",
@@ -492,7 +492,7 @@
       {
         "id": "nvidia/Cosmos3-Super",
         "author": "nvidia",
-        "likes": 120,
+        "likes": 122,
         "downloads": 16767,
         "tags": [
           "cosmos",
@@ -515,7 +515,7 @@
       {
         "id": "SulphurAI/Sulphur-2-base",
         "author": "SulphurAI",
-        "likes": 1538,
+        "likes": 1539,
         "downloads": 1678259,
         "tags": [
           "diffusers",
@@ -534,7 +534,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash",
         "author": "deepseek-ai",
-        "likes": 1391,
+        "likes": 1392,
         "downloads": 3503796,
         "tags": [
           "transformers",
@@ -551,9 +551,26 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
       },
       {
+        "id": "ByteDance/Bernini-R",
+        "author": "ByteDance",
+        "likes": 109,
+        "downloads": 129,
+        "tags": [
+          "safetensors",
+          "bernini_renderer",
+          "image-text-to-video",
+          "arxiv:2605.22344",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/ByteDance/Bernini-R"
+      },
+      {
         "id": "unsloth/Qwen3.6-27B-MTP-GGUF",
         "author": "unsloth",
-        "likes": 636,
+        "likes": 638,
         "downloads": 1063964,
         "tags": [
           "transformers",
@@ -573,23 +590,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF"
-      },
-      {
-        "id": "ByteDance/Bernini-R",
-        "author": "ByteDance",
-        "likes": 108,
-        "downloads": 129,
-        "tags": [
-          "safetensors",
-          "bernini_renderer",
-          "image-text-to-video",
-          "arxiv:2605.22344",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/ByteDance/Bernini-R"
       },
       {
         "id": "stepfun-ai/Step-3.7-Flash-GGUF",
@@ -632,7 +632,7 @@
       {
         "id": "nvidia/Cosmos3-Super-Image2Video",
         "author": "nvidia",
-        "likes": 97,
+        "likes": 98,
         "downloads": 899,
         "tags": [
           "cosmos",
@@ -650,6 +650,28 @@
         "pipeline_tag": "image-to-video",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video"
+      },
+      {
+        "id": "ideogram-ai/ideogram-4-nf4",
+        "author": "ideogram-ai",
+        "likes": 99,
+        "downloads": 398,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image",
+          "image-generation",
+          "diffusion",
+          "flow-matching",
+          "dit",
+          "ideogram",
+          "license:other",
+          "diffusers:Ideogram4Pipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/ideogram-ai/ideogram-4-nf4"
       },
       {
         "id": "nvidia/Cosmos3-Super-Text2Image",
@@ -672,28 +694,6 @@
         "pipeline_tag": "text-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image"
-      },
-      {
-        "id": "ideogram-ai/ideogram-4-nf4",
-        "author": "ideogram-ai",
-        "likes": 95,
-        "downloads": 398,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "text-to-image",
-          "image-generation",
-          "diffusion",
-          "flow-matching",
-          "dit",
-          "ideogram",
-          "license:other",
-          "diffusers:Ideogram4Pipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/ideogram-ai/ideogram-4-nf4"
       },
       {
         "id": "NemoStation/Marlin-2B",
@@ -778,7 +778,7 @@
       {
         "id": "Qwen/Qwen3.6-27B",
         "author": "Qwen",
-        "likes": 1599,
+        "likes": 1600,
         "downloads": 5440074,
         "tags": [
           "transformers",
@@ -805,7 +805,7 @@
         "id": "openbmb/UltraData-SFT-2605",
         "author": "openbmb",
         "likes": 292,
-        "downloads": 20175,
+        "downloads": 24363,
         "tags": [
           "task_categories:text-generation",
           "task_categories:question-answering",
@@ -833,8 +833,8 @@
       {
         "id": "openbmb/Ultra-FineWeb-L3",
         "author": "openbmb",
-        "likes": 254,
-        "downloads": 42429,
+        "likes": 255,
+        "downloads": 45803,
         "tags": [
           "task_categories:text-generation",
           "language:en",
@@ -867,7 +867,7 @@
         "id": "jasperai/monet",
         "author": "jasperai",
         "likes": 107,
-        "downloads": 293929,
+        "downloads": 306785,
         "tags": [
           "task_categories:text-to-image",
           "task_categories:image-feature-extraction",
@@ -920,7 +920,7 @@
         "id": "stanford-vision-lab/gpic",
         "author": "stanford-vision-lab",
         "likes": 53,
-        "downloads": 46080,
+        "downloads": 60798,
         "tags": [
           "language:en",
           "license:mit",
@@ -933,8 +933,8 @@
       {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
-        "likes": 310,
-        "downloads": 8120,
+        "likes": 311,
+        "downloads": 8249,
         "tags": [
           "task_categories:text-generation",
           "task_categories:question-answering",
@@ -965,8 +965,8 @@
       {
         "id": "ReasonCore/open-spatial-reasoning",
         "author": "ReasonCore",
-        "likes": 53,
-        "downloads": 447,
+        "likes": 54,
+        "downloads": 1224,
         "tags": [
           "task_categories:multiple-choice",
           "language:en",
@@ -993,7 +993,7 @@
         "id": "amphora/ResearchMath-14k",
         "author": "amphora",
         "likes": 39,
-        "downloads": 1354,
+        "downloads": 1546,
         "tags": [
           "task_categories:text-generation",
           "task_categories:question-answering",
@@ -1022,7 +1022,7 @@
         "id": "OpenClaw/clawhub-security-signals",
         "author": "OpenClaw",
         "likes": 31,
-        "downloads": 135,
+        "downloads": 173,
         "tags": [
           "task_categories:text-classification",
           "task_ids:multi-class-classification",
@@ -1060,7 +1060,7 @@
         "id": "VCLab-PolyU/GGT-100K",
         "author": "VCLab-PolyU",
         "likes": 26,
-        "downloads": 748,
+        "downloads": 1021,
         "tags": [
           "license:cc-by-nc-nd-4.0",
           "arxiv:2605.31039",
@@ -1073,7 +1073,7 @@
         "id": "armand0e/qwen3.7-max-pi-traces",
         "author": "armand0e",
         "likes": 75,
-        "downloads": 7857,
+        "downloads": 8012,
         "tags": [
           "task_categories:text-generation",
           "size_categories:n<1K",
@@ -1097,37 +1097,9 @@
         "link": "https://huggingface.co/datasets/armand0e/qwen3.7-max-pi-traces"
       },
       {
-        "id": "Qwen/Qwen-Image-Bench",
-        "author": "Qwen",
-        "likes": 24,
-        "downloads": 11483,
-        "tags": [
-          "task_categories:image-to-text",
-          "language:en",
-          "language:zh",
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:image",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2605.28091",
-          "region:us",
-          "text-to-image",
-          "image-generation",
-          "benchmark",
-          "evaluation"
-        ],
-        "lastModified": "2026-05-28T08:09:42.000Z",
-        "link": "https://huggingface.co/datasets/Qwen/Qwen-Image-Bench"
-      },
-      {
         "id": "openai/gsm8k",
         "author": "openai",
-        "likes": 1366,
+        "likes": 1367,
         "downloads": 947991,
         "tags": [
           "benchmark:official",
@@ -1154,32 +1126,10 @@
         "link": "https://huggingface.co/datasets/openai/gsm8k"
       },
       {
-        "id": "minhxthanh/Vietnam-History-1M-Vi",
-        "author": "minhxthanh",
-        "likes": 21,
-        "downloads": 86,
-        "tags": [
-          "task_categories:question-answering",
-          "task_categories:text-generation",
-          "language:vi",
-          "license:mit",
-          "size_categories:1M<n<10M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "lastModified": "2025-08-26T09:31:31.000Z",
-        "link": "https://huggingface.co/datasets/minhxthanh/Vietnam-History-1M-Vi"
-      },
-      {
         "id": "Jackrong/GLM-5.1-Reasoning-1M-Cleaned",
         "author": "Jackrong",
-        "likes": 249,
-        "downloads": 9831,
+        "likes": 250,
+        "downloads": 9755,
         "tags": [
           "task_categories:text-generation",
           "task_categories:question-answering",
@@ -1207,10 +1157,32 @@
         "link": "https://huggingface.co/datasets/Jackrong/GLM-5.1-Reasoning-1M-Cleaned"
       },
       {
+        "id": "minhxthanh/Vietnam-History-1M-Vi",
+        "author": "minhxthanh",
+        "likes": 21,
+        "downloads": 116,
+        "tags": [
+          "task_categories:question-answering",
+          "task_categories:text-generation",
+          "language:vi",
+          "license:mit",
+          "size_categories:1M<n<10M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "lastModified": "2025-08-26T09:31:31.000Z",
+        "link": "https://huggingface.co/datasets/minhxthanh/Vietnam-History-1M-Vi"
+      },
+      {
         "id": "nvidia/PhysicalAI-WorldModel-Synthetic-Physical-Interaction-Scenes",
         "author": "nvidia",
-        "likes": 20,
-        "downloads": 22673,
+        "likes": 21,
+        "downloads": 24250,
         "tags": [
           "license:openmdw-1.0",
           "size_categories:100M<n<1B",
@@ -1226,9 +1198,37 @@
         "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-WorldModel-Synthetic-Physical-Interaction-Scenes"
       },
       {
+        "id": "Qwen/Qwen-Image-Bench",
+        "author": "Qwen",
+        "likes": 24,
+        "downloads": 12407,
+        "tags": [
+          "task_categories:image-to-text",
+          "language:en",
+          "language:zh",
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:json",
+          "modality:image",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2605.28091",
+          "region:us",
+          "text-to-image",
+          "image-generation",
+          "benchmark",
+          "evaluation"
+        ],
+        "lastModified": "2026-05-28T08:09:42.000Z",
+        "link": "https://huggingface.co/datasets/Qwen/Qwen-Image-Bench"
+      },
+      {
         "id": "HuggingFaceFW/fineweb",
         "author": "HuggingFaceFW",
-        "likes": 2865,
+        "likes": 2866,
         "downloads": 1009773,
         "tags": [
           "task_categories:text-generation",
@@ -1247,28 +1247,10 @@
         "link": "https://huggingface.co/datasets/HuggingFaceFW/fineweb"
       },
       {
-        "id": "nvidia/PhysicalAI-WorldModel-Synthetic-Digital-Human-Scenes",
-        "author": "nvidia",
-        "likes": 19,
-        "downloads": 2087,
-        "tags": [
-          "language:en",
-          "license:other",
-          "modality:video",
-          "region:us",
-          "video",
-          "synthetic",
-          "human",
-          "physical-ai"
-        ],
-        "lastModified": "2026-05-29T17:47:49.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-WorldModel-Synthetic-Digital-Human-Scenes"
-      },
-      {
         "id": "WithinUsAI/claude_mythos_distilled_25k",
         "author": "WithinUsAI",
-        "likes": 28,
-        "downloads": 567,
+        "likes": 29,
+        "downloads": 627,
         "tags": [
           "language:en",
           "license:apache-2.0",
@@ -1298,7 +1280,7 @@
       {
         "id": "HuggingFaceFW/fineweb-edu",
         "author": "HuggingFaceFW",
-        "likes": 1122,
+        "likes": 1123,
         "downloads": 514470,
         "tags": [
           "task_categories:text-generation",
@@ -1321,6 +1303,24 @@
         ],
         "lastModified": "2025-07-11T20:16:53.000Z",
         "link": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
+      },
+      {
+        "id": "nvidia/PhysicalAI-WorldModel-Synthetic-Digital-Human-Scenes",
+        "author": "nvidia",
+        "likes": 19,
+        "downloads": 3937,
+        "tags": [
+          "language:en",
+          "license:other",
+          "modality:video",
+          "region:us",
+          "video",
+          "synthetic",
+          "human",
+          "physical-ai"
+        ],
+        "lastModified": "2026-05-29T17:47:49.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-WorldModel-Synthetic-Digital-Human-Scenes"
       }
     ]
   }
