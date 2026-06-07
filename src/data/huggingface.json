@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-07T00:00:17.777Z",
+  "updatedAt": "2026-06-07T01:00:18.528Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 1451,
+        "likes": 1452,
         "downloads": 111078,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "google/gemma-4-12B-it",
         "author": "google",
-        "likes": 615,
+        "likes": 617,
         "downloads": 315131,
         "tags": [
           "transformers",
@@ -88,7 +88,7 @@
       {
         "id": "google/gemma-4-12B",
         "author": "google",
-        "likes": 376,
+        "likes": 377,
         "downloads": 84549,
         "tags": [
           "transformers",
@@ -161,7 +161,7 @@
       {
         "id": "ideogram-ai/ideogram-4-fp8",
         "author": "ideogram-ai",
-        "likes": 305,
+        "likes": 307,
         "downloads": 2818,
         "tags": [
           "diffusers",
@@ -183,7 +183,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B",
         "author": "LiquidAI",
-        "likes": 531,
+        "likes": 533,
         "downloads": 95440,
         "tags": [
           "transformers",
@@ -382,7 +382,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 4680,
+        "likes": 4681,
         "downloads": 5510611,
         "tags": [
           "transformers",
@@ -404,7 +404,7 @@
       {
         "id": "openbmb/MiniCPM5-1B",
         "author": "openbmb",
-        "likes": 774,
+        "likes": 775,
         "downloads": 100575,
         "tags": [
           "transformers",
@@ -641,7 +641,7 @@
       {
         "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
         "author": "nvidia",
-        "likes": 197,
+        "likes": 198,
         "downloads": 1015381,
         "tags": [
           "Model Optimizer",
@@ -773,6 +773,25 @@
         "link": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image"
       },
       {
+        "id": "SulphurAI/Sulphur-2-base",
+        "author": "SulphurAI",
+        "likes": 1581,
+        "downloads": 1704964,
+        "tags": [
+          "diffusers",
+          "gguf",
+          "text-to-video",
+          "base_model:Lightricks/LTX-2.3",
+          "base_model:quantized:Lightricks/LTX-2.3",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
+      },
+      {
         "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
         "author": "nvidia",
         "likes": 117,
@@ -814,23 +833,26 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
       },
       {
-        "id": "SulphurAI/Sulphur-2-base",
-        "author": "SulphurAI",
-        "likes": 1580,
-        "downloads": 1704964,
+        "id": "nvidia/Cosmos3-Super-Image2Video",
+        "author": "nvidia",
+        "likes": 111,
+        "downloads": 1295,
         "tags": [
+          "cosmos",
           "diffusers",
-          "gguf",
-          "text-to-video",
-          "base_model:Lightricks/LTX-2.3",
-          "base_model:quantized:Lightricks/LTX-2.3",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "safetensors",
+          "cosmos3_omni",
+          "nvidia",
+          "cosmos3",
+          "vllm-omni",
+          "image-to-video",
+          "video-generation",
+          "license:other",
+          "region:us"
         ],
-        "pipeline_tag": "text-to-video",
+        "pipeline_tag": "image-to-video",
         "lastModified": "",
-        "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
+        "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video"
       },
       {
         "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
@@ -858,28 +880,6 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5"
-      },
-      {
-        "id": "nvidia/Cosmos3-Super-Image2Video",
-        "author": "nvidia",
-        "likes": 111,
-        "downloads": 1295,
-        "tags": [
-          "cosmos",
-          "diffusers",
-          "safetensors",
-          "cosmos3_omni",
-          "nvidia",
-          "cosmos3",
-          "vllm-omni",
-          "image-to-video",
-          "video-generation",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video"
       },
       {
         "id": "google/magenta-realtime-2",
@@ -957,7 +957,7 @@
       {
         "id": "wikimedia/structured-wikipedia",
         "author": "wikimedia",
-        "likes": 302,
+        "likes": 303,
         "downloads": 10836,
         "tags": [
           "language:en",
@@ -987,7 +987,7 @@
       {
         "id": "openbmb/Ultra-FineWeb-L3",
         "author": "openbmb",
-        "likes": 269,
+        "likes": 270,
         "downloads": 54819,
         "tags": [
           "task_categories:text-generation",
@@ -1018,20 +1018,6 @@
         "link": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb-L3"
       },
       {
-        "id": "stanford-vision-lab/gpic",
-        "author": "stanford-vision-lab",
-        "likes": 68,
-        "downloads": 84044,
-        "tags": [
-          "language:en",
-          "license:mit",
-          "arxiv:2605.30341",
-          "region:us"
-        ],
-        "lastModified": "2026-06-04T19:45:37.000Z",
-        "link": "https://huggingface.co/datasets/stanford-vision-lab/gpic"
-      },
-      {
         "id": "ReasonCore/open-spatial-reasoning",
         "author": "ReasonCore",
         "likes": 60,
@@ -1057,6 +1043,43 @@
         ],
         "lastModified": "2026-06-01T18:59:43.000Z",
         "link": "https://huggingface.co/datasets/ReasonCore/open-spatial-reasoning"
+      },
+      {
+        "id": "stanford-vision-lab/gpic",
+        "author": "stanford-vision-lab",
+        "likes": 68,
+        "downloads": 84044,
+        "tags": [
+          "language:en",
+          "license:mit",
+          "arxiv:2605.30341",
+          "region:us"
+        ],
+        "lastModified": "2026-06-04T19:45:37.000Z",
+        "link": "https://huggingface.co/datasets/stanford-vision-lab/gpic"
+      },
+      {
+        "id": "jasperai/monet",
+        "author": "jasperai",
+        "likes": 117,
+        "downloads": 329402,
+        "tags": [
+          "task_categories:text-to-image",
+          "task_categories:image-feature-extraction",
+          "task_categories:zero-shot-image-classification",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:100M<n<1B",
+          "arxiv:2605.21272",
+          "region:us",
+          "multimodal",
+          "image-text",
+          "captioning",
+          "text-to-image",
+          "synthetic-data"
+        ],
+        "lastModified": "2026-05-29T10:16:25.000Z",
+        "link": "https://huggingface.co/datasets/jasperai/monet"
       },
       {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
@@ -1089,29 +1112,6 @@
         ],
         "lastModified": "2026-05-01T17:11:41.000Z",
         "link": "https://huggingface.co/datasets/angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k"
-      },
-      {
-        "id": "jasperai/monet",
-        "author": "jasperai",
-        "likes": 117,
-        "downloads": 329402,
-        "tags": [
-          "task_categories:text-to-image",
-          "task_categories:image-feature-extraction",
-          "task_categories:zero-shot-image-classification",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:100M<n<1B",
-          "arxiv:2605.21272",
-          "region:us",
-          "multimodal",
-          "image-text",
-          "captioning",
-          "text-to-image",
-          "synthetic-data"
-        ],
-        "lastModified": "2026-05-29T10:16:25.000Z",
-        "link": "https://huggingface.co/datasets/jasperai/monet"
       },
       {
         "id": "OpenClaw/clawhub-security-signals",
