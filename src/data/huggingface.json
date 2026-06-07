@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-07T15:00:19.014Z",
+  "updatedAt": "2026-06-07T16:00:18.311Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 1500,
+        "likes": 1502,
         "downloads": 115556,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "google/gemma-4-12B-it",
         "author": "google",
-        "likes": 656,
+        "likes": 661,
         "downloads": 434969,
         "tags": [
           "transformers",
@@ -64,7 +64,7 @@
       {
         "id": "unsloth/gemma-4-12b-it-GGUF",
         "author": "unsloth",
-        "likes": 437,
+        "likes": 439,
         "downloads": 568158,
         "tags": [
           "gguf",
@@ -88,7 +88,7 @@
       {
         "id": "google/gemma-4-12B",
         "author": "google",
-        "likes": 396,
+        "likes": 400,
         "downloads": 99655,
         "tags": [
           "transformers",
@@ -107,7 +107,7 @@
       {
         "id": "ideogram-ai/ideogram-4-fp8",
         "author": "ideogram-ai",
-        "likes": 330,
+        "likes": 331,
         "downloads": 4377,
         "tags": [
           "diffusers",
@@ -155,7 +155,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1503,
+        "likes": 1504,
         "downloads": 2923564,
         "tags": [
           "gguf",
@@ -206,7 +206,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B",
         "author": "LiquidAI",
-        "likes": 537,
+        "likes": 538,
         "downloads": 118326,
         "tags": [
           "transformers",
@@ -241,7 +241,7 @@
       {
         "id": "ideogram-ai/ideogram-4-nf4",
         "author": "ideogram-ai",
-        "likes": 222,
+        "likes": 224,
         "downloads": 3844,
         "tags": [
           "diffusers",
@@ -263,7 +263,7 @@
       {
         "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
         "author": "nvidia",
-        "likes": 239,
+        "likes": 241,
         "downloads": 3439,
         "tags": [
           "nemo",
@@ -359,7 +359,7 @@
       {
         "id": "bosonai/higgs-audio-v3-tts-4b",
         "author": "bosonai",
-        "likes": 186,
+        "likes": 188,
         "downloads": 7557,
         "tags": [
           "transformers",
@@ -483,7 +483,7 @@
       {
         "id": "nvidia/Cosmos3-Nano",
         "author": "nvidia",
-        "likes": 189,
+        "likes": 191,
         "downloads": 29697,
         "tags": [
           "cosmos",
@@ -506,7 +506,7 @@
       {
         "id": "ByteDance/Bernini-R",
         "author": "ByteDance",
-        "likes": 160,
+        "likes": 163,
         "downloads": 246,
         "tags": [
           "safetensors",
@@ -542,28 +542,6 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/Cosmos3-Super"
-      },
-      {
-        "id": "deepseek-ai/DeepSeek-V4-Pro",
-        "author": "deepseek-ai",
-        "likes": 4690,
-        "downloads": 5515325,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v4",
-          "text-generation",
-          "conversational",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "8-bit",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -642,9 +620,31 @@
         "link": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6"
       },
       {
+        "id": "deepseek-ai/DeepSeek-V4-Pro",
+        "author": "deepseek-ai",
+        "likes": 4691,
+        "downloads": 5515325,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4",
+          "text-generation",
+          "conversational",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "8-bit",
+          "fp8",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+      },
+      {
         "id": "MisoLabs/MisoTTS",
         "author": "MisoLabs",
-        "likes": 137,
+        "likes": 138,
         "downloads": 0,
         "tags": [
           "pytorch",
@@ -833,6 +833,30 @@
         "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video"
       },
       {
+        "id": "unsloth/gemma-4-12B-it-qat-GGUF",
+        "author": "unsloth",
+        "likes": 111,
+        "downloads": 85842,
+        "tags": [
+          "transformers",
+          "gguf",
+          "gemma4",
+          "unsloth",
+          "gemma",
+          "google",
+          "any-to-any",
+          "base_model:google/gemma-4-12B-it-qat-q4_0-unquantized",
+          "base_model:quantized:google/gemma-4-12B-it-qat-q4_0-unquantized",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF"
+      },
+      {
         "id": "SulphurAI/Sulphur-2-base",
         "author": "SulphurAI",
         "likes": 1583,
@@ -873,30 +897,6 @@
         "pipeline_tag": "image-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/PiD"
-      },
-      {
-        "id": "unsloth/gemma-4-12B-it-qat-GGUF",
-        "author": "unsloth",
-        "likes": 108,
-        "downloads": 85842,
-        "tags": [
-          "transformers",
-          "gguf",
-          "gemma4",
-          "unsloth",
-          "gemma",
-          "google",
-          "any-to-any",
-          "base_model:google/gemma-4-12B-it-qat-q4_0-unquantized",
-          "base_model:quantized:google/gemma-4-12B-it-qat-q4_0-unquantized",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF"
       },
       {
         "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
@@ -1052,7 +1052,7 @@
       {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
-        "likes": 329,
+        "likes": 330,
         "downloads": 8459,
         "tags": [
           "task_categories:text-generation",
