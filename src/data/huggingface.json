@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-07T14:00:16.587Z",
+  "updatedAt": "2026-06-07T15:00:19.014Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 1498,
+        "likes": 1500,
         "downloads": 115556,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "google/gemma-4-12B-it",
         "author": "google",
-        "likes": 655,
+        "likes": 656,
         "downloads": 434969,
         "tags": [
           "transformers",
@@ -88,7 +88,7 @@
       {
         "id": "google/gemma-4-12B",
         "author": "google",
-        "likes": 395,
+        "likes": 396,
         "downloads": 99655,
         "tags": [
           "transformers",
@@ -155,7 +155,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1502,
+        "likes": 1503,
         "downloads": 2923564,
         "tags": [
           "gguf",
@@ -206,7 +206,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B",
         "author": "LiquidAI",
-        "likes": 536,
+        "likes": 537,
         "downloads": 118326,
         "tags": [
           "transformers",
@@ -241,7 +241,7 @@
       {
         "id": "ideogram-ai/ideogram-4-nf4",
         "author": "ideogram-ai",
-        "likes": 221,
+        "likes": 222,
         "downloads": 3844,
         "tags": [
           "diffusers",
@@ -263,7 +263,7 @@
       {
         "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
         "author": "nvidia",
-        "likes": 237,
+        "likes": 239,
         "downloads": 3439,
         "tags": [
           "nemo",
@@ -334,7 +334,7 @@
       {
         "id": "stepfun-ai/Step-3.7-Flash",
         "author": "stepfun-ai",
-        "likes": 345,
+        "likes": 346,
         "downloads": 43196,
         "tags": [
           "transformers",
@@ -483,7 +483,7 @@
       {
         "id": "nvidia/Cosmos3-Nano",
         "author": "nvidia",
-        "likes": 188,
+        "likes": 189,
         "downloads": 29697,
         "tags": [
           "cosmos",
@@ -544,41 +544,26 @@
         "link": "https://huggingface.co/nvidia/Cosmos3-Super"
       },
       {
-        "id": "PaddlePaddle/PaddleOCR-VL-1.6",
-        "author": "PaddlePaddle",
-        "likes": 265,
-        "downloads": 9084,
+        "id": "deepseek-ai/DeepSeek-V4-Pro",
+        "author": "deepseek-ai",
+        "likes": 4690,
+        "downloads": 5515325,
         "tags": [
-          "PaddleOCR",
+          "transformers",
           "safetensors",
-          "paddleocr_vl",
-          "ERNIE4.5",
-          "PaddlePaddle",
-          "image-to-text",
-          "ocr",
-          "document-parse",
-          "layout",
-          "table",
-          "formula",
-          "chart",
-          "seal",
-          "spotting",
-          "image-text-to-text",
+          "deepseek_v4",
+          "text-generation",
           "conversational",
-          "custom_code",
-          "en",
-          "zh",
-          "multilingual",
-          "arxiv:2606.03264",
-          "base_model:PaddlePaddle/PaddleOCR-VL-1.5",
-          "base_model:finetune:PaddlePaddle/PaddleOCR-VL-1.5",
-          "license:apache-2.0",
+          "license:mit",
           "eval-results",
+          "endpoints_compatible",
+          "8-bit",
+          "fp8",
           "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6"
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -620,31 +605,46 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
       },
       {
-        "id": "deepseek-ai/DeepSeek-V4-Pro",
-        "author": "deepseek-ai",
-        "likes": 4689,
-        "downloads": 5515325,
+        "id": "PaddlePaddle/PaddleOCR-VL-1.6",
+        "author": "PaddlePaddle",
+        "likes": 265,
+        "downloads": 9084,
         "tags": [
-          "transformers",
+          "PaddleOCR",
           "safetensors",
-          "deepseek_v4",
-          "text-generation",
+          "paddleocr_vl",
+          "ERNIE4.5",
+          "PaddlePaddle",
+          "image-to-text",
+          "ocr",
+          "document-parse",
+          "layout",
+          "table",
+          "formula",
+          "chart",
+          "seal",
+          "spotting",
+          "image-text-to-text",
           "conversational",
-          "license:mit",
+          "custom_code",
+          "en",
+          "zh",
+          "multilingual",
+          "arxiv:2606.03264",
+          "base_model:PaddlePaddle/PaddleOCR-VL-1.5",
+          "base_model:finetune:PaddlePaddle/PaddleOCR-VL-1.5",
+          "license:apache-2.0",
           "eval-results",
-          "endpoints_compatible",
-          "8-bit",
-          "fp8",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        "link": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6"
       },
       {
         "id": "MisoLabs/MisoTTS",
         "author": "MisoLabs",
-        "likes": 136,
+        "likes": 137,
         "downloads": 0,
         "tags": [
           "pytorch",
@@ -854,7 +854,7 @@
       {
         "id": "nvidia/PiD",
         "author": "nvidia",
-        "likes": 314,
+        "likes": 315,
         "downloads": 1082,
         "tags": [
           "pytorch",
@@ -877,7 +877,7 @@
       {
         "id": "unsloth/gemma-4-12B-it-qat-GGUF",
         "author": "unsloth",
-        "likes": 107,
+        "likes": 108,
         "downloads": 85842,
         "tags": [
           "transformers",
@@ -901,7 +901,7 @@
       {
         "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
         "author": "meituan-longcat",
-        "likes": 530,
+        "likes": 531,
         "downloads": 1884,
         "tags": [
           "longcat-video-avatar-1.5",
@@ -992,7 +992,7 @@
       {
         "id": "openbmb/Ultra-FineWeb-L3",
         "author": "openbmb",
-        "likes": 272,
+        "likes": 273,
         "downloads": 56938,
         "tags": [
           "task_categories:text-generation",
@@ -1084,7 +1084,7 @@
       {
         "id": "stanford-vision-lab/gpic",
         "author": "stanford-vision-lab",
-        "likes": 73,
+        "likes": 74,
         "downloads": 92356,
         "tags": [
           "language:en",
@@ -1136,7 +1136,7 @@
       {
         "id": "jasperai/monet",
         "author": "jasperai",
-        "likes": 118,
+        "likes": 119,
         "downloads": 342492,
         "tags": [
           "task_categories:text-to-image",
@@ -1271,6 +1271,34 @@
         "link": "https://huggingface.co/datasets/Jackrong/GLM-5.1-Reasoning-1M-Cleaned"
       },
       {
+        "id": "nvidia/Nemotron-Personas-Vietnam",
+        "author": "nvidia",
+        "likes": 25,
+        "downloads": 1456,
+        "tags": [
+          "task_categories:text-generation",
+          "language:vi",
+          "license:cc-by-4.0",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "modality:image",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "library:datadesigner",
+          "region:us",
+          "synthetic",
+          "personas",
+          "NVIDIA",
+          "Vietnamese",
+          "datadesigner"
+        ],
+        "lastModified": "2026-06-05T12:32:08.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Vietnam"
+      },
+      {
         "id": "Forithmus/MR-RATE",
         "author": "Forithmus",
         "likes": 76,
@@ -1349,34 +1377,6 @@
         ],
         "lastModified": "2026-05-31T02:31:10.000Z",
         "link": "https://huggingface.co/datasets/amphora/ResearchMath-14k"
-      },
-      {
-        "id": "nvidia/Nemotron-Personas-Vietnam",
-        "author": "nvidia",
-        "likes": 24,
-        "downloads": 1456,
-        "tags": [
-          "task_categories:text-generation",
-          "language:vi",
-          "license:cc-by-4.0",
-          "size_categories:100K<n<1M",
-          "format:parquet",
-          "modality:image",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "library:datadesigner",
-          "region:us",
-          "synthetic",
-          "personas",
-          "NVIDIA",
-          "Vietnamese",
-          "datadesigner"
-        ],
-        "lastModified": "2026-06-05T12:32:08.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Vietnam"
       },
       {
         "id": "julien-c/synthtraces",
