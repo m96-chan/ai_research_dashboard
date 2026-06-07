@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-07T20:00:20.431Z",
+  "updatedAt": "2026-06-07T21:00:16.495Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 1516,
+        "likes": 1517,
         "downloads": 115556,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "google/gemma-4-12B-it",
         "author": "google",
-        "likes": 677,
+        "likes": 682,
         "downloads": 434969,
         "tags": [
           "transformers",
@@ -64,7 +64,7 @@
       {
         "id": "unsloth/gemma-4-12b-it-GGUF",
         "author": "unsloth",
-        "likes": 442,
+        "likes": 444,
         "downloads": 568158,
         "tags": [
           "gguf",
@@ -88,7 +88,7 @@
       {
         "id": "google/gemma-4-12B",
         "author": "google",
-        "likes": 403,
+        "likes": 404,
         "downloads": 99655,
         "tags": [
           "transformers",
@@ -107,7 +107,7 @@
       {
         "id": "ideogram-ai/ideogram-4-fp8",
         "author": "ideogram-ai",
-        "likes": 339,
+        "likes": 340,
         "downloads": 4377,
         "tags": [
           "diffusers",
@@ -129,7 +129,7 @@
       {
         "id": "sapientinc/HRM-Text-1B",
         "author": "sapientinc",
-        "likes": 717,
+        "likes": 718,
         "downloads": 162822,
         "tags": [
           "transformers",
@@ -155,7 +155,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1512,
+        "likes": 1514,
         "downloads": 2923564,
         "tags": [
           "gguf",
@@ -204,6 +204,28 @@
         "link": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking"
       },
       {
+        "id": "ideogram-ai/ideogram-4-nf4",
+        "author": "ideogram-ai",
+        "likes": 232,
+        "downloads": 3844,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image",
+          "image-generation",
+          "diffusion",
+          "flow-matching",
+          "dit",
+          "ideogram",
+          "license:other",
+          "diffusers:Ideogram4Pipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/ideogram-ai/ideogram-4-nf4"
+      },
+      {
         "id": "LiquidAI/LFM2.5-8B-A1B",
         "author": "LiquidAI",
         "likes": 539,
@@ -239,31 +261,9 @@
         "link": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
       },
       {
-        "id": "ideogram-ai/ideogram-4-nf4",
-        "author": "ideogram-ai",
-        "likes": 229,
-        "downloads": 3844,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "text-to-image",
-          "image-generation",
-          "diffusion",
-          "flow-matching",
-          "dit",
-          "ideogram",
-          "license:other",
-          "diffusers:Ideogram4Pipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/ideogram-ai/ideogram-4-nf4"
-      },
-      {
         "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
         "author": "nvidia",
-        "likes": 247,
+        "likes": 249,
         "downloads": 3439,
         "tags": [
           "nemo",
@@ -458,7 +458,7 @@
       {
         "id": "nvidia/Cosmos3-Nano",
         "author": "nvidia",
-        "likes": 191,
+        "likes": 193,
         "downloads": 29697,
         "tags": [
           "cosmos",
@@ -523,7 +523,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
         "author": "nvidia",
-        "likes": 153,
+        "likes": 154,
         "downloads": 49784,
         "tags": [
           "transformers",
@@ -644,7 +644,7 @@
       {
         "id": "MisoLabs/MisoTTS",
         "author": "MisoLabs",
-        "likes": 140,
+        "likes": 141,
         "downloads": 0,
         "tags": [
           "pytorch",
@@ -783,6 +783,30 @@
         "link": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image"
       },
       {
+        "id": "unsloth/gemma-4-12B-it-qat-GGUF",
+        "author": "unsloth",
+        "likes": 117,
+        "downloads": 85842,
+        "tags": [
+          "transformers",
+          "gguf",
+          "gemma4",
+          "unsloth",
+          "gemma",
+          "google",
+          "any-to-any",
+          "base_model:google/gemma-4-12B-it-qat-q4_0-unquantized",
+          "base_model:quantized:google/gemma-4-12B-it-qat-q4_0-unquantized",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF"
+      },
+      {
         "id": "nvidia/Cosmos3-Super-Image2Video",
         "author": "nvidia",
         "likes": 114,
@@ -803,30 +827,6 @@
         "pipeline_tag": "image-to-video",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video"
-      },
-      {
-        "id": "unsloth/gemma-4-12B-it-qat-GGUF",
-        "author": "unsloth",
-        "likes": 116,
-        "downloads": 85842,
-        "tags": [
-          "transformers",
-          "gguf",
-          "gemma4",
-          "unsloth",
-          "gemma",
-          "google",
-          "any-to-any",
-          "base_model:google/gemma-4-12B-it-qat-q4_0-unquantized",
-          "base_model:quantized:google/gemma-4-12B-it-qat-q4_0-unquantized",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF"
       },
       {
         "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
@@ -876,6 +876,25 @@
         "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
       },
       {
+        "id": "deepseek-ai/DeepSeek-V4-Flash",
+        "author": "deepseek-ai",
+        "likes": 1433,
+        "downloads": 3347429,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "conversational",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "8-bit",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+      },
+      {
         "id": "nvidia/PiD",
         "author": "nvidia",
         "likes": 316,
@@ -897,25 +916,6 @@
         "pipeline_tag": "image-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/PiD"
-      },
-      {
-        "id": "deepseek-ai/DeepSeek-V4-Flash",
-        "author": "deepseek-ai",
-        "likes": 1431,
-        "downloads": 3347429,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "conversational",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "8-bit",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
       }
     ]
   },
@@ -1017,7 +1017,7 @@
       {
         "id": "ReasonCore/open-spatial-reasoning",
         "author": "ReasonCore",
-        "likes": 62,
+        "likes": 63,
         "downloads": 2630,
         "tags": [
           "task_categories:multiple-choice",
