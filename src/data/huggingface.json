@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-07T01:00:18.528Z",
+  "updatedAt": "2026-06-07T02:00:19.815Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 1452,
+        "likes": 1455,
         "downloads": 111078,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "google/gemma-4-12B-it",
         "author": "google",
-        "likes": 617,
+        "likes": 618,
         "downloads": 315131,
         "tags": [
           "transformers",
@@ -88,7 +88,7 @@
       {
         "id": "google/gemma-4-12B",
         "author": "google",
-        "likes": 377,
+        "likes": 378,
         "downloads": 84549,
         "tags": [
           "transformers",
@@ -107,7 +107,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1487,
+        "likes": 1488,
         "downloads": 2771843,
         "tags": [
           "gguf",
@@ -135,7 +135,7 @@
       {
         "id": "sapientinc/HRM-Text-1B",
         "author": "sapientinc",
-        "likes": 711,
+        "likes": 712,
         "downloads": 161627,
         "tags": [
           "transformers",
@@ -161,7 +161,7 @@
       {
         "id": "ideogram-ai/ideogram-4-fp8",
         "author": "ideogram-ai",
-        "likes": 307,
+        "likes": 308,
         "downloads": 2818,
         "tags": [
           "diffusers",
@@ -239,6 +239,28 @@
         "link": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking"
       },
       {
+        "id": "ideogram-ai/ideogram-4-nf4",
+        "author": "ideogram-ai",
+        "likes": 212,
+        "downloads": 2671,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image",
+          "image-generation",
+          "diffusion",
+          "flow-matching",
+          "dit",
+          "ideogram",
+          "license:other",
+          "diffusers:Ideogram4Pipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/ideogram-ai/ideogram-4-nf4"
+      },
+      {
         "id": "stepfun-ai/Step-3.7-Flash",
         "author": "stepfun-ai",
         "likes": 342,
@@ -264,31 +286,9 @@
         "link": "https://huggingface.co/stepfun-ai/Step-3.7-Flash"
       },
       {
-        "id": "ideogram-ai/ideogram-4-nf4",
-        "author": "ideogram-ai",
-        "likes": 212,
-        "downloads": 2671,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "text-to-image",
-          "image-generation",
-          "diffusion",
-          "flow-matching",
-          "dit",
-          "ideogram",
-          "license:other",
-          "diffusers:Ideogram4Pipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/ideogram-ai/ideogram-4-nf4"
-      },
-      {
         "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
         "author": "nvidia",
-        "likes": 219,
+        "likes": 220,
         "downloads": 1380,
         "tags": [
           "nemo",
@@ -440,7 +440,7 @@
       {
         "id": "bosonai/higgs-audio-v3-tts-4b",
         "author": "bosonai",
-        "likes": 153,
+        "likes": 154,
         "downloads": 2184,
         "tags": [
           "transformers",
@@ -564,7 +564,7 @@
       {
         "id": "nvidia/Cosmos3-Super",
         "author": "nvidia",
-        "likes": 148,
+        "likes": 149,
         "downloads": 20403,
         "tags": [
           "cosmos",
@@ -587,7 +587,7 @@
       {
         "id": "ByteDance/Bernini-R",
         "author": "ByteDance",
-        "likes": 149,
+        "likes": 150,
         "downloads": 223,
         "tags": [
           "safetensors",
@@ -669,7 +669,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
         "author": "nvidia",
-        "likes": 143,
+        "likes": 145,
         "downloads": 47285,
         "tags": [
           "transformers",
@@ -726,6 +726,47 @@
         "pipeline_tag": "text-to-speech",
         "lastModified": "",
         "link": "https://huggingface.co/MisoLabs/MisoTTS"
+      },
+      {
+        "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+        "author": "nvidia",
+        "likes": 119,
+        "downloads": 17225,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nemotron_h",
+          "text-generation",
+          "nvidia",
+          "pytorch",
+          "nemotron-3",
+          "latent-moe",
+          "mtp",
+          "conversational",
+          "en",
+          "fr",
+          "es",
+          "it",
+          "de",
+          "pt",
+          "ja",
+          "ko",
+          "hi",
+          "ar",
+          "zh",
+          "he",
+          "dataset:nvidia/nemotron-post-training-v3",
+          "dataset:nvidia/nemotron-pre-training-datasets",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "8-bit",
+          "modelopt",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
       },
       {
         "id": "nvidia/PiD",
@@ -790,47 +831,6 @@
         "pipeline_tag": "text-to-video",
         "lastModified": "",
         "link": "https://huggingface.co/SulphurAI/Sulphur-2-base"
-      },
-      {
-        "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-        "author": "nvidia",
-        "likes": 117,
-        "downloads": 17225,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_h",
-          "text-generation",
-          "nvidia",
-          "pytorch",
-          "nemotron-3",
-          "latent-moe",
-          "mtp",
-          "conversational",
-          "en",
-          "fr",
-          "es",
-          "it",
-          "de",
-          "pt",
-          "ja",
-          "ko",
-          "hi",
-          "ar",
-          "zh",
-          "he",
-          "dataset:nvidia/nemotron-post-training-v3",
-          "dataset:nvidia/nemotron-pre-training-datasets",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "8-bit",
-          "modelopt",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
       },
       {
         "id": "nvidia/Cosmos3-Super-Image2Video",
@@ -957,7 +957,7 @@
       {
         "id": "wikimedia/structured-wikipedia",
         "author": "wikimedia",
-        "likes": 303,
+        "likes": 304,
         "downloads": 10836,
         "tags": [
           "language:en",
@@ -1059,29 +1059,6 @@
         "link": "https://huggingface.co/datasets/stanford-vision-lab/gpic"
       },
       {
-        "id": "jasperai/monet",
-        "author": "jasperai",
-        "likes": 117,
-        "downloads": 329402,
-        "tags": [
-          "task_categories:text-to-image",
-          "task_categories:image-feature-extraction",
-          "task_categories:zero-shot-image-classification",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:100M<n<1B",
-          "arxiv:2605.21272",
-          "region:us",
-          "multimodal",
-          "image-text",
-          "captioning",
-          "text-to-image",
-          "synthetic-data"
-        ],
-        "lastModified": "2026-05-29T10:16:25.000Z",
-        "link": "https://huggingface.co/datasets/jasperai/monet"
-      },
-      {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
         "likes": 327,
@@ -1112,6 +1089,29 @@
         ],
         "lastModified": "2026-05-01T17:11:41.000Z",
         "link": "https://huggingface.co/datasets/angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k"
+      },
+      {
+        "id": "jasperai/monet",
+        "author": "jasperai",
+        "likes": 117,
+        "downloads": 329402,
+        "tags": [
+          "task_categories:text-to-image",
+          "task_categories:image-feature-extraction",
+          "task_categories:zero-shot-image-classification",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:100M<n<1B",
+          "arxiv:2605.21272",
+          "region:us",
+          "multimodal",
+          "image-text",
+          "captioning",
+          "text-to-image",
+          "synthetic-data"
+        ],
+        "lastModified": "2026-05-29T10:16:25.000Z",
+        "link": "https://huggingface.co/datasets/jasperai/monet"
       },
       {
         "id": "OpenClaw/clawhub-security-signals",
