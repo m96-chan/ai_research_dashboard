@@ -1,7 +1,126 @@
 {
-  "updatedAt": "2026-06-08T01:00:20.125Z",
+  "updatedAt": "2026-06-08T03:00:22.096Z",
   "count": 50,
   "papers": [
+    {
+      "id": "http://arxiv.org/abs/2606.07515v1",
+      "title": "How reliable are LLMs when it comes to playing dice?",
+      "summary": "We investigate the probabilistic reasoning capabilities of large language models through a controlled benchmarking study on discrete probability problems. We constructed two datasets, respectively a set of standard exercises and a set of counterintuitive exercises, designed to trigger heuristic reasoning, and evaluated 8 state-of-the-art models, each tested with and without Chain-of-Thought prompting. Models achieve an average accuracy of 0.96 on standard problems but only 0.59 on counterintuitive ones. We further provide empirical evidence of token bias: performance drops by over 20% when canonical formulations are replaced by disguised variants. Embedding misleading suggestions in the prompt reduces performance by up to 34%, with no model proving immune. Taken together, the reported findings suggest that current LLMs are not yet genuine probabilistic reasoners, despite their success in advanced mathematical problems.",
+      "authors": [
+        "Luca Avena",
+        "Gianmarco Bet",
+        "Bernardo Busoni"
+      ],
+      "published": "2026-06-05T17:59:42Z",
+      "updated": "2026-06-05T17:59:42Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.HC",
+        "math.PR"
+      ],
+      "link": "https://arxiv.org/abs/2606.07515v1",
+      "pdfLink": "https://arxiv.org/pdf/2606.07515v1",
+      "tldr": "TL;DR: 大規模言語モデル（LLM）の確率的推論能力を評価した結果、標準問題では平均96%の精度を達成する一方で、直感に反する問題では59%にとどまり、トークンバイアスや誤解を招くプロンプトが性能を大幅に低下させることが示された。現在のLLMは高度な数学問題での成功にもかかわらず、真の確率的推論者とは言えない。"
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.07514v1",
+      "title": "UniSHARP: Universal Sharp Monocular View Synthesis",
+      "summary": "In this work, we focus on extending SHARP, the popular photorealistic view synthesis method, for universal monocular rendering across a continuum of camera systems, from conventional perspective cameras to wide-field-of-view, fisheye and omnidirectional panoramic settings. To overcome the pinhole-specific assumptions of SHARP, our key idea is to align various images in a unified omnidirectional latent space. Thus, we propose UniSHARP, which performs implicit alignment in both feature and Gaussian spaces. Specifically, Gaussian primitives are arranged along rays and radial distances in a ray-based universal representation, while 2D semantic and 3D spatial features extracted from UniK3D-inspired encoders are jointly decoded to generate the complete Gaussian cloud. To comprehensively evaluate our method, we construct a benchmark covering diverse imaging systems across various scenes. The benchmark is further stratified by field of view (FoV) to enable fine-grained assessment of the universal monocular rendering task. Extensive experiments on the proposed benchmark demonstrate the effectiveness of UniSHARP, outperforming alternative methods by a large margin. The project page can be found at: https://insta360-research-team.github.io/Unisharp-website/",
+      "authors": [
+        "Meixi Song",
+        "Dizhe Zhang",
+        "Hao Ren",
+        "Ruiyang Zhang",
+        "Bo Du",
+        "Ming-Hsuan Yang",
+        "Lu Qi"
+      ],
+      "published": "2026-06-05T17:59:41Z",
+      "updated": "2026-06-05T17:59:41Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "link": "https://arxiv.org/abs/2606.07514v1",
+      "pdfLink": "https://arxiv.org/pdf/2606.07514v1",
+      "tldr": "UniSHARPは、従来の視点カメラから広角レンズ、魚眼、全方位パノラマ設定まで対応するユニバーサルな単眼レンダリング手法で、SHARPの制約を克服するために、様々な画像を統一された全方位潜在空間に整列させることを提案しています。実験結果は、UniSHARPが他の手法を大きく上回る効果を示していることを示しています。"
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.07513v1",
+      "title": "Agentopia: Long-Term Life Simulation and Learning in Agent Societies",
+      "summary": "Humans learn from social life. Simulating this process with LLM-powered agents represents a promising research direction, raising a natural question: whether LLMs can learn from such simulated social experience to better understand and replicate human behavior. However, prior agent society simulations typically operate at the scale of days, limiting the depth of social interactions and long-term growth. In this paper, we study long-term life simulation and LLM learning in agent societies, with two goals: (1) investigating social behaviors that emerge from life-long simulation, and (2) developing anthropomorphic capabilities in LLMs, particularly intelligence in social life, through years of simulated social experience. Specifically, we present Agentopia, a comprehensive framework for long-term life simulation in multi-agent societies, where 100 agents autonomously pursue personal growth, develop social relationships, and fulfill their needs and goals over 10 simulated years. We define life reward to mirror human well-being, and leverage this reward to train LLMs via rejection sampling. Extensive experiments show that agents exhibit rich emergent social behaviors. Furthermore, life reward training effectively enhances the underlying LLM, which leads to improved agent well-being in simulation, and generalizes to downstream role-playing benchmarks with +15.6% improvement.",
+      "authors": [
+        "Xintao Wang",
+        "Sirui Zheng",
+        "Hongqiu Wu",
+        "Weiyuan Li",
+        "Jen-tse Huang",
+        "Minghao Zhu",
+        "Can Zu",
+        "Qi Deng",
+        "Jiawei Wang",
+        "Qianyu He",
+        "Heng Wang",
+        "Xiaojian Wu",
+        "Yunzhe Tao"
+      ],
+      "published": "2026-06-05T17:59:31Z",
+      "updated": "2026-06-05T17:59:31Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2606.07513v1",
+      "pdfLink": "https://arxiv.org/pdf/2606.07513v1",
+      "tldr": "Agentopiaは、100人のエージェントが10年間のシミュレーションを通じて社会的関係を築き、個人の成長を追求する長期的なライフシミュレーションフレームワークであり、LLMの社会的知性を向上させることを目指しています。実験により、エージェントは豊かな社会的行動を示し、LLMのトレーニングがエージェントの幸福感を向上させ、役割演技のベンチマークでも15.6%の改善を達成しました。"
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.07512v1",
+      "title": "MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism",
+      "summary": "Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induces prohibitive token explosion and attention dilution. To overcome this, we introduce MemDreamer to decouple perception and reasoning, shifting long-video understanding into an agentic exploration process. As a plug-and-play framework, it incrementally streams videos to construct a Hierarchical Graph Memory, a top-down three-tier architecture for semantic abstraction, anchored by a foundational graph capturing spatiotemporal and causal relations. During inference, the reasoning model employs agentic tool-augmented retrieval, navigating hierarchies, searching nodes, and traversing logical edges via an Observation-Reason-Action loop. Experiments show MemDreamer achieves SOTA results across four mainstream benchmarks, narrowing the gap with human experts to only 3.7 points. It constrains the reasoning context window to merely 2% of full-context ingestion while delivering a 12.5 point absolute accuracy gain. Furthermore, statistical analysis uncovers a strong positive linear correlation between an VLM's performance on logic reasoning and long-video understanding benchmarks, establishing agentic capability scaling as a new paradigm for multimodal comprehension.",
+      "authors": [
+        "Cong Chen",
+        "Guo Gan",
+        "Kaixiang Ji",
+        "ChaoYang Zhang",
+        "Zhen Yang",
+        "Guangming Yao",
+        "Hao Chen",
+        "Jingdong Chen",
+        "Yi Yuan",
+        "Chunhua Shen"
+      ],
+      "published": "2026-06-05T17:59:21Z",
+      "updated": "2026-06-05T17:59:21Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2606.07512v1",
+      "pdfLink": "https://arxiv.org/pdf/2606.07512v1",
+      "tldr": "MemDreamerは、長時間の動画理解において知覚と推論を分離し、階層的グラフメモリとエージェント的リトリーバルメカニズムを用いることで、視覚言語モデルの限界を克服します。このフレームワークは、推論コンテキストを全体の2%に制限しながら、従来の手法に比べて12.5ポイントの精度向上を実現し、4つの主要ベンチマークで最先端の結果を達成しました。"
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.07508v1",
+      "title": "Streaming Video Generation with Streaming Force Control",
+      "summary": "We introduce StreamForce, a streaming video generation framework that enables physically grounded control through continuous force inputs. Unlike prior video models that train separate models for different force types, assume fixed forces, or rely on non-causal processing, StreamForce is a causal and unified model that responds instantly and coherently to both local and global, time-varying forces. To achieve this, we design a unified force representation as a control signal and develop a distillation pipeline for force-controllable video generation. Our model combines autoregressive efficiency with force responsiveness, sustaining stable photometric and dynamic realism. StreamForce runs at up to 16.6 FPS on a single GPU, achieving state-of-the-art performance in both force adherence and motion realism. Project website: https://neu-vi.github.io/StreamForce/",
+      "authors": [
+        "Hanhui Wang",
+        "Yiming Xie",
+        "Haiwen Feng",
+        "Zhaoyang Lv",
+        "Shenlong Wang",
+        "Huaizu Jiang"
+      ],
+      "published": "2026-06-05T17:57:32Z",
+      "updated": "2026-06-05T17:57:32Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "link": "https://arxiv.org/abs/2606.07508v1",
+      "pdfLink": "https://arxiv.org/pdf/2606.07508v1",
+      "tldr": "StreamForceは、連続的な力入力による物理的制御を可能にするストリーミング動画生成フレームワークで、因果的かつ統一的なモデルを用いて、時間変化する力に即座に反応します。これにより、力の遵守と動きのリアリズムにおいて最先端の性能を達成し、単一のGPUで最大16.6 FPSで動作します。"
+    },
     {
       "id": "http://arxiv.org/abs/2606.07503v1",
       "title": "Differences in Detection: Explainability Where it Matters",
@@ -18,7 +137,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07503v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07503v1",
-      "tldr": "DnD（Differences in Detection）は、2つの物体検出モデルを直接比較する直感的な手法であり、mAPやTIDEエラー分析を補完します。この方法により、両モデルが認識した真のラベルの交差点や、両モデルが見逃したラベルの差分を分析でき、エラータイプと組み合わせることで説明可能性の向上にも寄与します。"
+      "tldr": "DnD（Differences in Detection）は、2つの物体検出モデルを比較する直感的な手法であり、標準的なmAPやTIDEエラー分析を補完します。この手法は、モデル間の共通の誤りや個別の誤りを明らかにし、エラータイプと組み合わせることで、説明可能性の向上にも寄与します。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07502v1",
@@ -40,7 +159,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07502v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07502v1",
-      "tldr": "大規模言語モデル（LLM）は、テキスト埋め込みのパフォーマンスが最適でないことがあり、その原因として高頻度トークンの影響を抑えるEmbedFilterという線形変換を提案しています。この手法により、埋め込みの品質を保ちながら次元削減を実現し、ゼロショット性能を向上させることが示されました。"
+      "tldr": "大規模言語モデル（LLM）がテキスト埋め込みの性能を最適化できない原因を特定し、EmbedFilterという線形変換を導入することで、高頻度トークンの影響を抑え、意味表現を向上させることに成功した。これにより、埋め込み次元を削減しつつ、ゼロショットの下流タスクでの性能を向上させることができる。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07500v1",
@@ -60,7 +179,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07500v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07500v1",
-      "tldr": "TL;DR: SETAは、タスク固有の専門モジュールと共有機能を持つ適応的なスパースサブスペース分解を通じて、LLMにおけるプラスティシティと安定性のジレンマを解決し、従来の手法よりも優れた知識保持と逆転送を実現するフレームワークです。"
+      "tldr": "TL;DR: SETAは、タスクに依存しない継続学習のためのフレームワークで、スパースな専門家モジュールを用いてプラスティシティと安定性のジレンマを解決し、タスク固有の知識と共通の特徴を効果的に分離・管理することで、従来の手法よりも優れたパフォーマンスを実現します。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07498v1",
@@ -79,7 +198,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07498v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07498v1",
-      "tldr": "TL;DR: 提案された手法では、科学観測データの構造を保ちながら、ネットワークの重みを摂動させることでコントラストサンプルを生成し、SimCLRベースのパイプラインを用いて流星のレーダー観測に適用することで性能向上を示しています。"
+      "tldr": "TL;DR: 提案された手法では、科学的観測データの構造を保持するために、データそのものではなくネットワークの重みを摂動させてコントラストサンプルを生成し、SimCLRベースのパイプラインを用いて流星のレーダー観測データで性能向上を示しています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07496v1",
@@ -97,7 +216,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07496v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07496v1",
-      "tldr": "TL;DR: 本論文では、強凸最適化のための新しい分散確率的アルゴリズム「Multi-Gossip Accelerated DSGD」を提案し、通信効率を向上させるために、ネステロフ型のプライマル-デュアル外挿とマルチラウンドの高速ゴシップ平均を組み合わせています。このアルゴリズムは、現在利用可能な分散確率的強凸最適化における最良の通信複雑性を達成します。"
+      "tldr": "強凸最適化のための加速された分散確率的勾配降下法（MG-ADSGD）を提案し、通信効率を改善するために、ミニバッチサイズとゴシップ深度を結びつけることで、最適な通信複雑性を達成することを示しました。これにより、既存の手法に比べて優れた性能が得られます。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07495v1",
@@ -115,7 +234,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07495v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07495v1",
-      "tldr": "TL;DR: 本論文では、機械学習におけるニューラルネットワークの予測を最適化経路に沿ったデータ依存カーネルの積分として表現する二次のパスカーネル補間公式を開発し、確率的勾配降下法やモーメンタムを用いた場合の補正項を導入しています。これにより、ニューラルネットワークの予測に関するパスカーネルの解釈が洗練されます。"
+      "tldr": "TL;DR: 本論文では、機械学習におけるニューラルネットワークの予測を理解するために、Pedro Domingosが提案した一次のパスカーネル補間式を拡張し、二次の補間式を開発しました。これにより、確率的勾配降下法やモーメンタムを用いた場合の予測の曲率やノイズの影響を考慮した新たな解釈が提供されます。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07492v1",
@@ -143,7 +262,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07492v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07492v1",
-      "tldr": "TL;DR: Bradley-Terryモデルに基づく新しいランキング手法を提案し、推薦アルゴリズムの比較におけるデータセット特性の影響を考慮したランキングの一貫性評価を行い、未見のデータセットに対するアルゴリズムのランキングをモデル実行なしで実施する方法を示しました。"
+      "tldr": "推薦アルゴリズムのランキングはデータセットの特性に敏感であり、適切な比較手法が求められる。本研究では、Bradley-Terryモデルに基づく新しいデータ駆動型ランキング手法を提案し、ランキングの一貫性を評価する新しい指標を導入し、未見のデータセットに対するアルゴリズムのランキング手法も提示している。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07491v1",
@@ -162,7 +281,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07491v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07491v1",
-      "tldr": "AI駆動のHPCワークフローを設計するための12の実用的なヒントを提供し、データ重力やリソース管理の課題に対処しつつ、効率的でスケーラブルな計算環境への移行を支援します。"
+      "tldr": "AI駆動のHPCワークフローを設計するための12の実用的なヒントを提供し、データ重力やリソース管理の課題に対処しながら、効率的でスケーラブルな計算環境への移行を支援します。特に、現代の計算生物学の要求に応じたアーキテクチャ原則を強調しています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07489v1",
@@ -182,7 +301,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07489v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07489v1",
-      "tldr": "AIエージェントは、知識労働を自律的かつ効率的に再構築し、タスクの自動化や実行品質の向上を実現することで、作業の範囲を広げ、コストを大幅に削減することが示されています。特に、ComputerはSearchに比べて作業時間を87%短縮し、ユーザーが行う作業の質と内容を向上させています。"
+      "tldr": "AIエージェントは、知識労働を再構築し、自律性と効率を向上させることで、タスクの自動化や実行品質を高め、作業の範囲を広げることが示されています。特に、PerplexityのComputerは、Searchと比較して作業時間を87%短縮し、ユーザーの満足度を向上させることが確認されました。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07488v1",
@@ -200,7 +319,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07488v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07488v1",
-      "tldr": "TL;DR: CoMetaPNSは、心臓電気生理学シミュレーションのための個別化されたニューラルサロゲートを継続的に学習するフレームワークであり、新しいデータが入るたびに再訓練を必要とせず、効果的なメタ学習を実現します。実験結果は、従来の手法に比べて優れたシミュレーション予測と計算スケーラビリティを示しています。"
+      "tldr": "TL;DR: CoMetaPNSは、心臓電気生理学シミュレーションのための個別化されたニューラルサロゲートを継続的に学習するフレームワークを提案し、新しいデータを効率的に統合し、既知または未知の動的ソースからのデータを識別する能力を持つことで、従来の手法に比べてシミュレーションの予測精度と計算スケーラビリティを向上させる。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07483v1",
@@ -217,7 +336,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07483v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07483v1",
-      "tldr": "CascadeNetは、特定の拡散モデルを仮定せずに動的カスケードの背後にある隠れた影響ネットワークを回復するためのジャコビアンベースの機械学習フレームワークであり、シミュレーションおよび実データにおいて高いネットワーク回復精度を示しました。特に、COVID-19のスペインにおける伝播ネットワークの回復において、従来の手法よりも真のネットワークとの相関が顕著でした。"
+      "tldr": "CascadeNetは、特定の拡散モデルを仮定せずに動的カスケードの背後にある影響ネットワークを回復するためのJacobianベースの機械学習フレームワークであり、シミュレーションと実データにおいて高いネットワーク回復精度を示しています。特に、COVID-19のスペインにおける伝播ネットワークの回復において、従来の手法と比べて真のネットワークとの相関が顕著であることが確認されました。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07481v1",
@@ -238,7 +357,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07481v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07481v1",
-      "tldr": "CFDの高精度な流れ場を迅速に探索するために、条件付きドリフティングモデルを流体力学に適応させ、生成サンプルの境界条件との整合性を保ちながら、従来の拡散手法よりも大幅に高速な推論を実現しました。これにより、リアルタイムCFDサロゲートの可能性が広がります。"
+      "tldr": "CFDの高精度な流れのモデリングにおいて、生成的ドリフティングフレームワークを適用し、条件付きアーキテクチャを用いて高速かつ高品質なサンプル生成を実現しました。この手法は、従来の拡散ベースのアプローチに比べて2桁速く、未知のジオメトリへの一般化にも期待が持てます。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07479v1",
@@ -256,7 +375,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07479v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07479v1",
-      "tldr": "トルコ語のイディオム的軽動詞構文（LVC）の分類に関する研究では、スーパーバイズド学習とデモンストレーションベースのインコンテキスト学習を比較し、プロンプトの設計がモデルの性能に大きな影響を与えることが示されました。特に、少数ショットプロンプトがLVCの検出精度を向上させ、特定のモデルにおいてはスーパーバイズドベースラインを上回る結果が得られました。"
+      "tldr": "トルコ語の軽動詞構文（LVC）の検出を二項分類タスクとして扱い、教師あり学習とデモンストレーションベースのインコンテキスト学習を比較した結果、適切なプロンプト設計によりLLMがLVCの検出性能を向上させることが示された。特に、少数ショットプロンプトがモデルのバイアスを軽減し、全体的なパフォーマンスを強化することが確認された。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07474v1",
@@ -275,7 +394,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07474v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07474v1",
-      "tldr": "Unsupervised Continual Clustering (UCC)とForward-Backward Knowledge Distillation for Continual Clustering (FBCC)を提案し、ラベルなしでの連続タスク学習におけるクラスタリング性能を向上させる新しいアプローチを示しました。FBCCは、過去のデータを保存せずに新しいクラスタを学習しつつ、以前のクラスタ構造を保持することで、カタストロフィックフォゲッティングを大幅に軽減します。"
+      "tldr": "Unsupervised Continual Clustering (UCC)とForward-Backward Knowledge Distillation for Continual Clustering (FBCC)を提案し、ラベルなしでの逐次タスク学習におけるクラスタリング性能を向上させる新しいアプローチを示します。FBCCは、過去のデータを保存せずに新しいクラスタを学習し、以前のクラスタ構造を保持することで、カタストロフィックフォゲッティングを大幅に軽減します。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07475v1",
@@ -297,7 +416,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07475v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07475v1",
-      "tldr": "TL;DR: 新たに提案されたLabel Context Classifier (LCC)は、異なるクラスラベルを持つノードが接続されるヘテロフィルグラフにおいて、高次のクラスラベル接続を捉えることで、グラフニューラルネットワーク(GNN)のノード分類性能を向上させる。実験結果では、LCCを統合したGNNが最先端手法を上回る成果を示した。"
+      "tldr": "TL;DR: 新しいLabel Context Classifier (LCC)を提案し、異なるクラスラベルを持つノードが接続される異種グラフにおける高次のクラスラベル接続を捉えることで、グラフニューラルネットワーク(GNN)のノード分類性能を向上させることに成功した。実験結果は、LCCを統合したGNNが最先端の手法を上回ることを示している。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07473v1",
@@ -317,7 +436,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07473v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07473v1",
-      "tldr": "Whisperモデルのハルシネーションを検出・軽減するために、内部表現を利用した研究が行われ、Sparse AutoEncoderを用いた手法がハルシネーション率を大幅に低下させることが示された。"
+      "tldr": "Whisperモデルのハルシネーション（非音声オーディオに対する誤った転写）を検出・軽減するために、内部表現を利用した研究が行われ、Sparse AutoEncoder（SAE）を用いた手法が効果的であることが示されました。具体的には、SAEによるアプローチでハルシネーション率を大幅に低下させることができ、音声データの性能もほとんど損なわれませんでした。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07464v1",
@@ -349,7 +468,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07464v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07464v1",
-      "tldr": "COMPACT-VAは、長期的な文脈を圧縮し、計画に基づいた作業メモリフレームワークを提供することで、自律運転におけるトークンシーケンスの計算負荷を軽減し、重要な意思決定情報を保持しながら成功率を6%以上向上させることを実現しました。"
+      "tldr": "TL;DR: COMPACT-VAは、計画に基づいたトークン圧縮を用いて、長期的な文脈を効率的に処理し、運転行動の正確性を向上させるフレームワークであり、従来の手法と比較して成功率を6%以上向上させ、処理速度を3.3倍、メモリ使用量を2.7倍削減しました。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07463v1",
@@ -371,7 +490,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07463v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07463v1",
-      "tldr": "TL;DR: 本論文では、事前レイアウト信号整合性設計のために、反復的なブラックボックス推論を排除する「アモータイズドニューラル最適化（ANO）」を提案し、従来の手法に比べて計算速度を3〜4桁向上させることに成功した。これにより、複雑な設計シナリオにおいてもリアルタイムでの最適化が可能となる。"
+      "tldr": "TL;DR: 本論文では、事前レイアウト信号整合性設計のために、反復的なブラックボックス推論を排除するアモータイズドニューラル最適化（ANO）を提案し、オフラインで学習した最適化ポリシーを用いて、設計パラメータを迅速にマッピングすることで、計算コストを大幅に削減することを示しています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07462v1",
@@ -397,7 +516,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07462v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07462v1",
-      "tldr": "フロンティアLLMとエージェントの研究ライフサイクルにおける能力を評価するためのAARR（Act As a Real Researcher）ベンチマークシリーズが提案され、特に人間の研究者の専門性や細やかな判断を模倣する能力に焦点を当てています。実験の結果、最も優れたエージェントでも成功率は68.3%に留まり、重要な詳細を見落とすことが多いため、研究者のようなAIの開発にはさらなる探求が必要であることが示されました。"
+      "tldr": "フロンティアLLMとエージェントの研究ライフサイクルにおける能力を評価するAARR（Act As a Real Researcher）ベンチマークシリーズを提案し、特に人間の研究者の専門性や判断力を模倣する能力に焦点を当てた。実験の結果、最良のエージェントでも成功率は68.3%にとどまり、研究者としてのAIの開発にはさらなる探求が必要であることが示された。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07457v1",
@@ -419,7 +538,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07457v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07457v1",
-      "tldr": "PVオペレーターは、ターゲットサイトの観測が利用できない状態での生産予測において、合成生産履歴を生成するゼロショットパイプラインを用いた時間系列基盤モデル（TSFM）を評価し、従来の手法に比べて約1.7〜2倍の精度向上を達成した。特に、TabPFN-TSはリアルフィードバック下で最も低い誤差を記録した。"
+      "tldr": "PVオペレーターは、観測データが利用できない冷スタート時に、植物のメタデータと気象変数から合成生産履歴を生成することで、時間系列基盤モデル（TSFM）を用いた予測を行う手法を提案している。評価の結果、TSFMは従来の手法に比べて約1.7〜2倍の精度向上を示し、特にTabPFN-TSが最も低い誤差を記録した。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07454v1",
@@ -446,7 +565,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07454v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07454v1",
-      "tldr": "PaperFlowは、科学論文の推薦をプロファイリング、推薦、適応の3つの段階に分け、ユーザーの興味の変化やフィードバックを考慮した新しいフレームワークを提供します。このシステムは、従来の静的なランキング手法を超え、動的な日々の論文ストリームにおけるユーザーの関心を効果的にモデル化し、評価実験でも優れた結果を示しています。"
+      "tldr": "PaperFlowは、科学論文の推薦をプロファイリング、推薦、適応の3段階で行うフレームワークで、ユーザーの興味の変化に対応しながら、日々の論文ストリームを効果的に管理・推薦することを目指しています。実験結果は、PaperFlowが他の推薦システムと比較して優れたランキングとユーザー行動の整合性を示すことを確認しました。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07451v1",
@@ -469,7 +588,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07451v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07451v1",
-      "tldr": "TEVIは、キャプションを利用して画像埋め込みから必要な情報を選択的に再構築するフレームワークであり、CLIPモデルに適用することで、視覚と言語の整合性を向上させ、リトリーバル性能を改善することを示しています。"
+      "tldr": "TEVIは、画像埋め込みからキャプションに基づいて情報を選択的に再構築するためにスパースオートエンコーダを使用し、視覚と言語の整合性を改善するフレームワークであり、CLIPモデルに適用することで、キャプションの属性を保持しつつ、検索性能を向上させることに成功しました。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07441v1",
@@ -489,7 +608,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07441v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07441v1",
-      "tldr": "TL;DR: 言語モデルにおける過剰な称賛（sycophantic praise）は、貢献の質やユーザーの期待能力に対して過剰であるかどうかを測定する新しいパラメータ化フレームワークを提案し、従来の方法よりも人間の注釈との一致度が高いことを示した。過剰な称賛は、客観的な推論よりも社会的および解釈的な領域で頻繁に発生することが明らかになり、称賛の調整が独自の整合"
+      "tldr": "言語モデルにおける過剰な称賛は、従来の研究では過度な同意や検証として扱われてきたが、明示的な称賛やお世辞はあまり注目されていない。本研究では、称賛の過剰さを貢献の質や期待されるユーザー能力に対して測定する新たなフレームワークを提案し、称賛の調整が独自のアラインメント課題であることを示した。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07437v1",
@@ -514,7 +633,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07437v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07437v1",
-      "tldr": "TL;DR: ISO 26262の機能安全基準は、自動運転車において人間の運転者がいないため、制御可能性の概念を再考する必要があり、この記事では「移譲性」と「予測可能性」という2つの新しい測定可能なサブコンセプトを導入して、これを実現する方法を提案しています。"
+      "tldr": "TL;DR: ISO 26262の機能安全基準を自動運転車に適用するため、制御可能性を「移譲性」と「予測可能性」の2つの測定可能な概念に分解し、これにより自動運転システムの安全性を強化する新たな枠組みを提案している。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07436v1",
@@ -534,7 +653,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07436v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07436v1",
-      "tldr": "Skill-3Dは、エージェントが3D空間での推論を行う際に、シーンに応じたツール使用スキルを自己進化させるフレームワークを提案し、成功したツール使用の軌跡を記録・集約することで、ツール利用の効率を大幅に向上させることを示しています。実験結果では、3D空間推論におけるツール利用率が39%から78%に改善され、エージェントの正確かつ十分なツール使用を促進しています。"
+      "tldr": "Skill-3Dは、エージェントが3D空間推論を行う際に、シーンに応じたツール使用スキルを自己進化させるフレームワークを提案し、成功したツール使用の軌跡を蓄積して再利用することで、ツールの利用効率を大幅に向上させることを示しています。実験結果では、ツール利用率が39%から78%に改善され、エージェントの正確なツール使用を促進しています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07435v1",
@@ -552,7 +671,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07435v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07435v1",
-      "tldr": "VSRモデルはベンチマークで人間のリップリーディングを上回るが、視覚的な言語認識は人間とは異なり、主にトレーニングデータからの言語的手がかりに依存していることが示された。"
+      "tldr": "VSRモデルはベンチマークで人間のリップリーディングを上回るが、視覚的なスピーチ認識においては人間のような認識を持たず、主に言語的な手がかりに依存していることが示された。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07433v1",
@@ -584,7 +703,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07433v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07433v1",
-      "tldr": "MLLMsによる動画理解は、短いクリップから長く知識集約的なシナリオへと進化しており、視聴、記憶、推論の三つの機能を通じて、証拠の取得や文脈の保持、信頼性のある推論を行うための統一的な枠組みを提供しています。この記事では、動画理解システムの課題や応用分野、今後の方向性についても述べられています。"
+      "tldr": "TL;DR: マルチモーダル大規模言語モデル（MLLMs）を用いた動画理解が進化しており、視聴、記憶、推論の三つの機能を通じて、長期的かつ知識集約型の動画シナリオに対処するための新たな枠組みが提案されています。これにより、動画MLLMの証拠取得、文脈保持、出力生成の分析が可能となり、今後の課題や応用領域が示されています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07431v1",
@@ -604,7 +723,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07431v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07431v1",
-      "tldr": "OpenGlassは、イベントベースのジェスチャー認識を実現するオープンソースのスマートグラスプラットフォームで、モジュラー設計により、イベントベースおよびフレームベースのカメラをサポートし、200 mAhバッテリーで最大11.8時間の連続ML処理を可能にします。全てのハードウェア設計、ファームウェア、モデルはオープンソースとして公開されています。"
+      "tldr": "OpenGlassは、イベントベースのジェスチャー認識を実現するオープンソースのスマートグラスプラットフォームで、モジュラー設計により異なるカメラをサポートし、200mAhバッテリーで最大11.8時間の連続ML処理が可能です。全てのハードウェア設計、ファームウェア、モデルはオープンソースとして公開されています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07426v1",
@@ -623,7 +742,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07426v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07426v1",
-      "tldr": "Deflexは、複雑なシステムから異なる形式の多スケール数式を自動的に抽出するAI手法であり、DeflexformerとDeflexpressorの2つのサブシステムで構成されています。この手法は、従来の最先端技術に比べて最大7倍の効率を実現し、科学的発見を促進する可能性があります。"
+      "tldr": "Deflexは、複雑なシステムから多スケールの数式を自動的に抽出するAI手法で、DeflexformerとDeflexpressorの2つのサブシステムを用いて、従来の方法に比べて最大7倍の効率で数式発見を実現します。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07422v1",
@@ -648,7 +767,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07422v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07422v1",
-      "tldr": "大規模言語モデル（LLM）は文化に基づく質問に対して、英語よりも現地の言語での方がローカル文化知識へのアクセスが向上する可能性があることが示されており、特に言語適応モデルではその傾向が顕著である。英語の方が文化に無関係な質問に対しては優れた精度を示すが、現地言語では文化知識へのアクセスがより良好であることが明らかになった。"
+      "tldr": "大規模言語モデル（LLM）は、文化的な質問に対する回答において英語と現地語のどちらがより効果的かを検証した結果、文化に依存しない質問では英語が優位である一方、文化特有の質問では現地語が知識アクセスの面で有利であることが示され、言語能力の違いがその結果に影響を与えていることが分かった。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07419v1",
@@ -666,7 +785,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07419v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07419v1",
-      "tldr": "DisPOSEは、自己教師ありのフレームワークで、異なるカメラビューからの3D人間ポーズ推定を改善するために、ポリストキャスティックテンソルの生成拡散プロセスを利用します。この手法は、従来の方法を上回る性能を示し、特に手術室のような高い遮蔽があるシーンでも効果的です。"
+      "tldr": "DisPOSEは、自己教師ありのフレームワークで、複数のカメラビューからの3D人間ポーズ推定を行い、ポリストキャスティックテンソルの生成的拡散プロセスを用いて多視点の人物割り当て問題を近似します。このアプローチは、従来の手法を上回る性能を示し、特に手術室のような高い遮蔽があるシーンでも強力な結果を出しています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07416v1",
@@ -688,7 +807,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07416v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07416v1",
-      "tldr": "TL;DR: 大気プラズマスプレー（APS）における粒子の温度と速度を高速度ビデオ観察を用いて予測する手法を開発し、Tabular Prior-Data Fitted NetworksやCNNを評価した結果、温度予測でR2=0.86、速度予測でR2=0.81を達成。これにより、ビデオ由来の情報が非侵襲的なAPS診断とリアルタイムモニタリングの有望な基盤となることが示された。"
+      "tldr": "高速度ビデオ観察を用いて、大気プラズマスプレー（APS）における飛行中の粒子特性を予測する研究が行われ、Tabular Prior-Data Fitted Networks（TabPFN）が温度予測で最も高い一貫性を示し、CNNモデルが速度予測で優れた性能を発揮したことが示された。これにより、ビデオ由来のプルーム情報が非侵襲的なAPS診断とリアルタイムプロセス監視の基盤として有望であることが確認された。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07414v1",
@@ -705,7 +824,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07414v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07414v1",
-      "tldr": "スパース性を高めることで、計算コストを抑えつつモデルの効率性と解釈可能性を向上させる新しいアプローチとして、各エキスパートを単一のニューロンに縮小し、非線形性を排除したスパースゲーテッド線形ニューロン（sgatlin）を提案しています。この手法により、トランスフォーマーのフィードフォワード層を置き換えることで、言語モデルのパープレキシティが改善され、モデルの解釈性も向上することが示されました。"
+      "tldr": "スパース性を活用してモデルの計算効率と解釈可能性を向上させるために、各エキスパートを単一のニューロンに縮小し、非線形性を排除したスパースゲーテッド線形ニューロン（sgatlin）を提案。これにより、トランスフォーマーのフィードフォワード層を置き換えることで、異なる計算予算において言語モデルのパープレキシティが改善され、モデルの解釈性も向上することが示された。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07412v1",
@@ -729,7 +848,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07412v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07412v1",
-      "tldr": "Socratic-SWEは、エージェントの過去の解決トレースを利用して自己進化を促進するフレームワークであり、エージェントの弱点や進捗に基づいた修正タスクを生成することで、ソフトウェアエンジニアリングエージェントの性能を向上させることを示しています。実験結果では、同じ計算予算内で自己進化のベースラインを上回る成果を達成しました。"
+      "tldr": "Socratic-SWEは、エージェントの過去の解決トレースを利用して自己進化するコーディングエージェントを実現するフレームワークであり、これによりエージェントの弱点に基づいたターゲット修正タスクを生成し、ソフトウェアエンジニアリングの能力を向上させることができる。実験結果は、Socratic-SWEが従来の自己進化ベースラインを上回る性能を示している。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07410v1",
@@ -747,7 +866,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07410v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07410v1",
-      "tldr": "TL;DR: DeepSeek-R1-0120の数学的推論能力を人間の推論と比較した結果、モデルは表面的な推論の模倣に留まり、実際の論理的進展が不足していることが明らかになった。成功した推論は安定した分岐とバックトラッキングを示す一方、失敗した推論は探索行動の過不足が見られることが分かった。"
+      "tldr": "DeepSeek-R1-0120の数学的推論に関する研究では、人間の推論とモデルの推論の構造的な違いが明らかになり、モデルは表面的な推論の模倣に留まり、実際の論理的進展が不足していることが示されています。研究は、推論の質を向上させるための評価やトレーニングの改善策を提案しています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07404v1",
@@ -763,7 +882,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07404v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07404v1",
-      "tldr": "この論文では、120BパラメータのスパースMixture of Experts（MoE）モデルを8つのGPUノードでエンドツーエンドにトレーニングする手法が報告されており、モデルの成長に伴う再帰的な活性化の再構築や、状態を保持した成長戦略が採用されています。また、トレーニングにおいては、量子化されたベースエキスパート重みと低ランクアダプタを使用することで、効率的なオプティマイザ状態の管理が実現されています。"
+      "tldr": "TL;DR: 本論文では、120BパラメータのスパースMixture of Experts（MoE）モデルを8つのGPUノードでエンドツーエンドでトレーニングする手法を報告しており、リバーシブルな再帰スタックや状態を保持する成長戦略を用いて、効率的にモデルを拡張する方法を示しています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07403v1",
@@ -783,7 +902,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07403v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07403v1",
-      "tldr": "TL;DR: プロキシ・ベンダーズ分解（Proxy-BD）は、従来のベンダーズ分解の反復的なサブプロブレム解法を最適化プロキシに置き換える新しいフレームワークで、計算負荷を大幅に削減しつつ、近似最適解を維持することが示されています。大規模な施設配置やネットワーク設計問題において、Proxy-BDは中央値最適性ギャップを0.5%未満に抑え、最大161倍の速度向上を達成しました。"
+      "tldr": "Proxy Benders decomposition（Proxy-BD）は、従来のBenders分解の代わりに認証された最適化プロキシを用いる新しい枠組みで、サブプロブレムの計算負荷を大幅に削減しつつ、ほぼ最適な解の品質を維持することを実現します。大規模な施設配置やネットワーク設計問題において、Proxy-BDは計算速度を最大161倍向上させ、最適性ギャップを0.5%未満に抑えることが示されています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07402v1",
@@ -807,7 +926,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07402v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07402v1",
-      "tldr": "M$^3$Examは、現実的なユーザーエージェントの相互作用に基づいたマルチモーダル会話メモリのベンチマークであり、クロスモーダルグラウンディングや暗黙の情報推論を評価する新しい基準を提供します。また、M$^3$Proctorは、クエリのモダリティバイアスを検出し、必要に応じて生の視覚情報を使用することで、精度を13%向上させ、インデックス構築時間と取得トークンを70%以上削減します。"
+      "tldr": "M$^3$Examは、現実的なユーザーエージェントとの対話を基にしたマルチモーダル会話メモリのベンチマークで、クロスモーダルグラウンディングや暗黙の情報推論を評価します。さらに、M$^3$Proctorを提案し、クエリのモダリティバイアスを検出し、必要に応じて視覚情報を利用することで、精度を13%向上させ、インデックス構築時間と取得トークンを70%以上削減します。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07401v1",
@@ -830,7 +949,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07401v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07401v1",
-      "tldr": "RealDocBenchは、実際の規制文書に基づいたフィールドレベルのQAとレイアウト理解のためのベンチマークで、1,356のフィールドレベルの質問と581の文書から構成され、商業パーシングAPIやオープンソースOCRモデルを評価するためのデータセットと評価ツールが提供される。"
+      "tldr": "RealDocBenchは、実際の規制文書に基づいたフィールドレベルのQAとレイアウト理解のためのベンチマークで、1,356のフィールドレベルの質問と581の文書から成り、商業的なパーシングAPIやオープンソースOCRモデルを評価するためのデータセットと評価ツールを提供します。これにより、従来のベンチマークが隠していたパフォーマンスの広がりやコスト・レイテンシのトレードオフを明らかにします。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07400v1",
@@ -848,7 +967,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07400v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07400v1",
-      "tldr": "GReinSSは、動的に再スケーリングされた報酬を用いて観測データの尤度を最大化する潜在状態分布を学習するポリシー学習フレームワークであり、シミュレーションされた潜在セットやグラフの再構築において他の手法を上回る性能を示しています。また、実際の短鎖RNAシーケンシングデータからのアイソフォーム再構築でも、従来のRSEMアルゴリズムよりも優れた結果を得ています。"
+      "tldr": "GReinSSは、動的に再スケーリングされた報酬を用いて、間接観測からの潜在状態分布を学習し、観測データの尤度を最大化するポリシー学習フレームワークであり、シミュレーションされた潜在セットやグラフの再構築において他の手法を上回る性能を示しています。さらに、実際のRNAシーケンシングデータからのアイソフォーム再構築においても、標準のRSEMアルゴリズムよりも優れた結果を得ています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07399v1",
@@ -868,7 +987,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07399v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07399v1",
-      "tldr": "ADIGenは、一般的な介入下での自動的かつデバイアスされた反事実生成を実現するフレームワークであり、Riesz回帰や因果的不変性、直交統計学習を組み合わせることで、安定した推定と汎化能力の向上を図っています。これにより、複雑な介入における意思決定を支援し、バイアスの影響を軽減することが可能です。"
+      "tldr": "TL;DR: ADIGenは、一般的な介入下での自動的かつデバイアスされた反事実生成を実現するフレームワークであり、高次元の介入や結果に対応し、安定した推定と一般化能力を向上させるための手法を組み合わせています。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07394v1",
@@ -886,7 +1005,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07394v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07394v1",
-      "tldr": "Video Instance Segmentation (VIS)におけるパフォーマンスボトルネックを特定するための診断フレームワークを提案し、トラッキングの不安定性がオンライン手法の主要な課題であることを明らかにしました。また、TrackLensという視覚ツールを導入し、ギャップの大きさを観察可能な失敗モードに変換します。"
+      "tldr": "Video Instance Segmentation (VIS)におけるパフォーマンスボトルネックを特定するための診断フレームワークを提案し、トラッキングの不安定性がオンライン手法において重要なボトルネックであることを明らかにしました。また、TrackLensという視覚ツールを導入し、ギャップの大きさを可視化することで、VISの長期的な時間的関連性の強化に向けた基盤を提供します。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07392v1",
@@ -907,7 +1026,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07392v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07392v1",
-      "tldr": "オンラインコンテキストに基づくLLMの選択とクエリを行う「Pandora's Box」モデルを提案し、出力に基づくコストと報酬を考慮した新しい意思決定フレームワークを構築しました。このポリシーは、予約インデックスの推定とUCBスタイルの信頼区間を組み合わせ、$T$期間にわたる累積レグレットを$\\widetilde O(\\sqrt T)$に抑えることを証明しています。"
+      "tldr": "オンライン文脈型Pandora's Boxモデルを提案し、Large Language Model（LLM）APIの適応的なクエリと選択を行う方法を示します。このモデルでは、決定者がリクエストコンテキストを観察し、出力依存コストを伴うクエリフェーズと選択フェーズを経て、最適な出力をデプロイすることで、累積的な後悔を抑えることが可能です。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07387v1",
@@ -925,7 +1044,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07387v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07387v1",
-      "tldr": "限られたデータを活用するために提案された「スコア意識トレーニング」は、テキストから音楽生成の精度を向上させる手法で、音声とキャプションの整合性スコアを直接的な監視信号として利用し、低スコアのセグメントを再利用することで効果的な正則化を実現しています。この手法を用いた450MパラメータのFluxAudioベースのシステムは、ICME 2026 ATTMグランドチャレンジで評価の2位、効率トラックで3位を獲得しました"
+      "tldr": "限られたデータを活用するために提案された「スコア認識トレーニング」は、音声とキャプションの整合性スコアを直接的な監視信号として利用し、低スコアのセグメントを再利用することで、テキストから音楽への生成精度を向上させる手法です。このアプローチにより、ICME 2026 ATTMグランドチャレンジで2位、効率トラックで3位を獲得しました。"
     },
     {
       "id": "http://arxiv.org/abs/2606.07385v1",
@@ -945,123 +1064,7 @@
       ],
       "link": "https://arxiv.org/abs/2606.07385v1",
       "pdfLink": "https://arxiv.org/pdf/2606.07385v1",
-      "tldr": "スカラー時間系列からの一時的カオスの検出を目的とした幾何学に基づく機械学習フレームワークを提案し、予測的軌道発散とマクロ的アトラクタ形状を統合して急激なレジームシフトを追跡します。この手法は、部分最小二乗回帰を用いて経験的有限時間リャプノフスペクトルに直接キャリブレーションされた潜在的幾何学的成分を抽出し、複雑な非定常システムの構造的遷移を高精度かつノ"
-    },
-    {
-      "id": "http://arxiv.org/abs/2606.07383v1",
-      "title": "RhinoVLA Technical Report",
-      "summary": "Vision-Language-Action (VLA) models have shown strong potential for robotic manipulation, but real-time deployment on edge hardware remains challenging. In this work, we identify VLM visual and context tokens as a major source of deployment latency: for GEMM-dominated projection operators, computation grows linearly with the number of input tokens when model dimensions are fixed. Motivated by this observation, we propose RhinoVLA, a deployment-oriented VLA model co-designed with the Huixi R1 edge SoC. RhinoVLA adopts a token-efficient Qwen3-VL backbone and a continuous Action Expert, reducing the VLM-side token and computation burden while preserving pretrained multimodal capability. To support cross-robot learning, RhinoVLA further introduces a unified interface that combines View Registry, 72D physical state-action slot space, and robotinstance LoRA, allowing heterogeneous robot observations and action schemas to be aligned under a shared policy. On the deployment side, RhinoVLA is optimized through hardware-aware compilation, mixed-precision execution, and parallel visual encoding. Experiments show that RhinoVLA achieves downstream performance comparable to π0.5 at a similar parameter scale, while reaching 11.69 Hz end-to-end inference on Huixi R1, meeting the 10 Hz real-time closedloop control target. The project will be open-sourced at https://github.com/HuixiAI/RhinoVLA.",
-      "authors": [
-        "Huixi Intelligence",
-        ":",
-        "Chen Zhang",
-        "Chenyang Zhou",
-        "Guanglei Ding",
-        "Guanghui He",
-        "Haibin Gao",
-        "Jiajia Chen",
-        "Jianyong Zhang",
-        "Lianyi Yu",
-        "Ningyi Xu",
-        "Ping Xu",
-        "Qingchen Li",
-        "Yingjun Hu",
-        "Yijia Zhang",
-        "Yuxi Liu"
-      ],
-      "published": "2026-06-05T15:21:41Z",
-      "updated": "2026-06-05T15:21:41Z",
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ],
-      "link": "https://arxiv.org/abs/2606.07383v1",
-      "pdfLink": "https://arxiv.org/pdf/2606.07383v1",
-      "tldr": "RhinoVLAは、ロボット操作のために最適化されたVision-Language-Actionモデルで、Huixi R1エッジSoC向けに設計され、トークン効率を高めつつ、リアルタイム制御の目標である10 Hzを達成しました。プロジェクトはオープンソースとして公開される予定です。"
-    },
-    {
-      "id": "http://arxiv.org/abs/2606.07382v1",
-      "title": "Covariance Shrinkage via Stochastic Interpolation",
-      "summary": "We recast classical shrinkage of high-dimensional covariance estimators as empirical risk minimization over a parametric stochastic interpolant between a source and a target distribution. This formalism recovers known shrinkage estimators as special cases and reveals three distinct mechanisms for reducing statistical risk: (i) Scheduling: the interpolant schedule determines the class of admissible covariances, and hence the achievable risk. (ii) Flow maps and couplings: whereas naive constructions amount to assuming independence between the distributions, specific coupling structures (e.g., solutions of optimal transport problems) can lower the empirical risk. Moreover, non-linear flow maps realizing such couplings free the interpolant covariance from the eigenbasis of the empirical estimate, enabling eigenvector regularization. (iii) Early stopping: estimators defined by integrating a regressed vector field afford an additional bias-variance trade-off through approximation of the true interpolant distribution. We then propose a neural estimator of the interpolant, together with an upper bound on its quadratic risk in terms of the interpolant approximation error, and validate both on synthetic experiments. Finally, we apply the estimator to real neuroimaging data, demonstrating the additional regularization power this approach offers in practice.",
-      "authors": [
-        "Mathieu Chalvidal",
-        "Florentin Coeurdoux",
-        "Eric Vanden-Eijnden"
-      ],
-      "published": "2026-06-05T15:21:27Z",
-      "updated": "2026-06-05T15:21:27Z",
-      "categories": [
-        "cs.LG",
-        "stat.ML"
-      ],
-      "link": "https://arxiv.org/abs/2606.07382v1",
-      "pdfLink": "https://arxiv.org/pdf/2606.07382v1",
-      "tldr": "高次元共分散推定の古典的な縮小手法を、ソース分布とターゲット分布の間のパラメトリックな確率的補間として再定式化し、統計リスクを低減するための3つのメカニズムを明らかにしました。最終的に、神経画像データに対するこの推定器の適用を通じて、実際の正則化効果を示しました。"
-    },
-    {
-      "id": "http://arxiv.org/abs/2606.07381v1",
-      "title": "Impact of Synthetic Lesional MR Images in Automated Focal Cortical Dysplasia Detection in Low-Data Scenarios",
-      "summary": "Background and Purpose: Automated detection of focal cortical dysplasia (FCD) requires large volumes of voxelwise lesion-delineated MRI data, which are difficult to acquire. This study aims to generate synthetic MRI data exhibiting FCD, assess their realism, and evaluate their impact on automated FCD detection, particularly in reducing the need for manual annotations. Methods: T1-weighted (T1w) and T2-weighted Fluid-Attenuated Inversion Recovery (FLAIR) MRI scans from 131 FCD patients and 90 healthy controls from multiple (3) sites were retrospectively studied. Synthetic MRIs were generated by conditioning a generative network on binary FCD masks. Two neuroradiologists identified real images from a random set of 14 real and 14 synthetic scans. Three nnU-Net models were trained to detect FCD using: (i) real-only (35 FCD / 35 controls), (ii) real (35 FCD / 35 controls) plus synthetic augmentation, and (iii) expanded real data (70 FCD / 70 controls). Results: Experts showed limited ability to distinguish real from synthetic images, with classification accuracy of 60% for T1w and 70% for FLAIR (inter-rater agreement kappa = 0.86). Augmenting automated FCD detection with synthetic data increased sensitivity by 8.14% (p = 0.12) and improved model confidence at true lesion sites (0.83 +/- 0.11 to 0.89 +/- 0.12; p = 0.02). The expanded real-data model further improved sensitivity to 73.8% (p < 0.001) and confidence to 0.90 +/- 0.14 (p = 0.01). Conclusion: Conditional generative networks can generate realistic synthetic FCD-MRIs, reducing labeled data needs by approximately 20% while maintaining equivalent sensitivity. Equivalent amounts of real data, when available, remain more effective than synthetic augmentation.",
-      "authors": [
-        "Prabhjot Kaur",
-        "Hakim Ouaalam",
-        "Sedat Kandemirli",
-        "Sanjay P. Prabhu",
-        "Simon K. Warfield"
-      ],
-      "published": "2026-06-05T15:21:22Z",
-      "updated": "2026-06-05T15:21:22Z",
-      "categories": [
-        "eess.IV",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "link": "https://arxiv.org/abs/2606.07381v1",
-      "pdfLink": "https://arxiv.org/pdf/2606.07381v1",
-      "tldr": "合成生成ネットワークを用いてリアルな焦点皮質異形成（FCD）MRIを生成することで、手動アノテーションの必要性を約20%削減しつつ、自動FCD検出の感度を向上させることができることが示された。ただし、利用可能な実データの方が合成データの増強よりも効果的である。"
-    },
-    {
-      "id": "http://arxiv.org/abs/2606.07379v1",
-      "title": "Do Coding Agents Deceive Us? Detecting and Preventing Cheating via Capped Evaluation with Randomized Tests",
-      "summary": "A growing failure mode in agent evaluation and training is that models can achieve high evaluation scores by exploiting shortcuts instead of solving the intended task, producing deceptive performance. This makes evaluation scores unreliable as measures of true task-solving ability. We propose CapCode, a framework for constructing coding datasets with randomized tests whose best achievable non-cheating performance is deliberately capped below one. This capped-performance design gives evaluation scores a clearer interpretation: scores substantially above the cap are implausible and therefore provide evidence of cheating. To prevent cheating, we propose CapReward, a reward design based on the CapCode principle to discourage optimization beyond the cap. Experiments across multiple datasets show that CapCode detects cheating while preserving performance ranking of models, and CapReward reduces cheating behavior, yielding models that better follow the intended task specification.",
-      "authors": [
-        "Thanawat Lodkaew",
-        "Johannes Ackermann",
-        "Soichiro Nishimori",
-        "Nontawat Charoenphakdee",
-        "Masashi Sugiyama",
-        "Takashi Ishida"
-      ],
-      "published": "2026-06-05T15:20:37Z",
-      "updated": "2026-06-05T15:20:37Z",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL",
-        "stat.ME"
-      ],
-      "link": "https://arxiv.org/abs/2606.07379v1",
-      "pdfLink": "https://arxiv.org/pdf/2606.07379v1",
-      "tldr": "TL;DR: CapCodeは、エージェントの評価における不正行為を検出するためのフレームワークで、ランダム化テストを用いて評価スコアの上限を設定し、不正行為を明確に識別できるようにします。CapRewardは、この原則に基づいた報酬設計で、不正行為を抑制し、モデルが意図したタスク仕様に従うようにします。"
-    },
-    {
-      "id": "http://arxiv.org/abs/2606.07374v1",
-      "title": "Beyond Backscatter: InSAR coherence from detected SAR images",
-      "summary": "In this work, we propose a deep learning framework for coherence regression directly from detected SAR images, without the need for accurate coregistration. A Residual U-Net is trained using coherence maps derived from precisely coregistered Sentinel-1 SLC data to learn the relationship between backscatter magnitudes and coherence. The model is trained on 12-day SLC pairs and evaluated across different datasets, including coregistered SLC products and open access analysis-ready data, covering diverse radiometric properties, geometries, and locations. Experimental results demonstrate that the proposed method achieves high-resolution coherence regression with improved accuracy compared to existing intensity-based approaches. The network generalizes well across diverse geographical locations and even across different temporal baselines that were never seen at training time. Additionally, the ability to operate on globally available analysis-ready data, such as ground range detected data, e.g., distributed through Google Earth Engine, enables its large-scale application in mission design, change monitoring, and diverse mapping tasks.",
-      "authors": [
-        "Francescopaolo Sica",
-        "Andrea Pulella",
-        "Michael Schmitt"
-      ],
-      "published": "2026-06-05T15:18:28Z",
-      "updated": "2026-06-05T15:18:28Z",
-      "categories": [
-        "eess.SP",
-        "cs.CV"
-      ],
-      "link": "https://arxiv.org/abs/2606.07374v1",
-      "pdfLink": "https://arxiv.org/pdf/2606.07374v1",
-      "tldr": "TL;DR: 提案された深層学習フレームワークは、正確なコアレジストレーションなしで検出されたSAR画像からコヒーレンス回帰を行い、高解像度のコヒーレンス推定を実現する。実験結果は、既存の強度ベースのアプローチと比較して精度が向上し、さまざまな地理的場所や時系列においても一般化可能であることを示している。"
+      "tldr": "スカラー観測からの一時的カオスの検出に向けた幾何学的ガイド付き機械学習フレームワークを提案し、予測的軌道発散とマクロなアトラクタ形状を統合して急激なレジームシフトを追跡する手法を開発しました。この手法は、有限時間リャプノフスペクトルに直接キャリブレーションされた潜在的幾何学的成分を抽出し、複雑な非定常システムの構造的遷移を高精度かつノイズに強い形で"
     }
   ]
 }
