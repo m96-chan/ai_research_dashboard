@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-09T17:00:21.335Z",
+  "updatedAt": "2026-06-09T18:00:20.288Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 1702,
+        "likes": 1704,
         "downloads": 123922,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "google/gemma-4-12B-it",
         "author": "google",
-        "likes": 791,
+        "likes": 793,
         "downloads": 581354,
         "tags": [
           "transformers",
@@ -64,7 +64,7 @@
       {
         "id": "unsloth/gemma-4-12b-it-GGUF",
         "author": "unsloth",
-        "likes": 522,
+        "likes": 523,
         "downloads": 660140,
         "tags": [
           "gguf",
@@ -88,7 +88,7 @@
       {
         "id": "google/gemma-4-12B",
         "author": "google",
-        "likes": 473,
+        "likes": 475,
         "downloads": 122464,
         "tags": [
           "transformers",
@@ -107,7 +107,7 @@
       {
         "id": "ideogram-ai/ideogram-4-fp8",
         "author": "ideogram-ai",
-        "likes": 429,
+        "likes": 430,
         "downloads": 5915,
         "tags": [
           "diffusers",
@@ -155,7 +155,7 @@
       {
         "id": "ideogram-ai/ideogram-4-nf4",
         "author": "ideogram-ai",
-        "likes": 282,
+        "likes": 283,
         "downloads": 5250,
         "tags": [
           "diffusers",
@@ -248,7 +248,7 @@
       {
         "id": "bosonai/higgs-audio-v3-tts-4b",
         "author": "bosonai",
-        "likes": 270,
+        "likes": 272,
         "downloads": 16207,
         "tags": [
           "transformers",
@@ -372,7 +372,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1580,
+        "likes": 1584,
         "downloads": 2983909,
         "tags": [
           "gguf",
@@ -439,7 +439,7 @@
       {
         "id": "MisoLabs/MisoTTS",
         "author": "MisoLabs",
-        "likes": 166,
+        "likes": 167,
         "downloads": 0,
         "tags": [
           "pytorch",
@@ -457,6 +457,30 @@
         "pipeline_tag": "text-to-speech",
         "lastModified": "",
         "link": "https://huggingface.co/MisoLabs/MisoTTS"
+      },
+      {
+        "id": "unsloth/gemma-4-12B-it-qat-GGUF",
+        "author": "unsloth",
+        "likes": 167,
+        "downloads": 127332,
+        "tags": [
+          "transformers",
+          "gguf",
+          "gemma4",
+          "unsloth",
+          "gemma",
+          "google",
+          "any-to-any",
+          "base_model:google/gemma-4-12B-it-qat-q4_0-unquantized",
+          "base_model:quantized:google/gemma-4-12B-it-qat-q4_0-unquantized",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF"
       },
       {
         "id": "JetBrains/Mellum2-12B-A2.5B-Thinking",
@@ -480,30 +504,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking"
-      },
-      {
-        "id": "unsloth/gemma-4-12B-it-qat-GGUF",
-        "author": "unsloth",
-        "likes": 166,
-        "downloads": 127332,
-        "tags": [
-          "transformers",
-          "gguf",
-          "gemma4",
-          "unsloth",
-          "gemma",
-          "google",
-          "any-to-any",
-          "base_model:google/gemma-4-12B-it-qat-q4_0-unquantized",
-          "base_model:quantized:google/gemma-4-12B-it-qat-q4_0-unquantized",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "any-to-any",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF"
       },
       {
         "id": "google/magenta-realtime-2",
@@ -632,7 +632,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 4732,
+        "likes": 4733,
         "downloads": 4302553,
         "tags": [
           "transformers",
@@ -654,7 +654,7 @@
       {
         "id": "LiquidAI/LFM2.5-8B-A1B",
         "author": "LiquidAI",
-        "likes": 563,
+        "likes": 565,
         "downloads": 137138,
         "tags": [
           "transformers",
@@ -708,6 +708,51 @@
         "link": "https://huggingface.co/jdopensource/JoyAI-Echo"
       },
       {
+        "id": "CohereLabs/North-Mini-Code-1.0",
+        "author": "CohereLabs",
+        "likes": 110,
+        "downloads": 1784,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "cohere2_moe",
+          "text-generation",
+          "conversational",
+          "chat",
+          "code",
+          "agent",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
+      },
+      {
+        "id": "unsloth/gemma-4-26B-A4B-it-qat-GGUF",
+        "author": "unsloth",
+        "likes": 113,
+        "downloads": 96059,
+        "tags": [
+          "transformers",
+          "gguf",
+          "gemma4",
+          "image-text-to-text",
+          "unsloth",
+          "gemma",
+          "google",
+          "base_model:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
+          "base_model:quantized:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF"
+      },
+      {
         "id": "nvidia/Cosmos3-Nano",
         "author": "nvidia",
         "likes": 213,
@@ -731,30 +776,6 @@
         "link": "https://huggingface.co/nvidia/Cosmos3-Nano"
       },
       {
-        "id": "unsloth/gemma-4-26B-A4B-it-qat-GGUF",
-        "author": "unsloth",
-        "likes": 112,
-        "downloads": 96059,
-        "tags": [
-          "transformers",
-          "gguf",
-          "gemma4",
-          "image-text-to-text",
-          "unsloth",
-          "gemma",
-          "google",
-          "base_model:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
-          "base_model:quantized:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF"
-      },
-      {
         "id": "google/gemma-4-12B-it-qat-q4_0-gguf",
         "author": "google",
         "likes": 110,
@@ -773,6 +794,72 @@
         "pipeline_tag": "any-to-any",
         "lastModified": "",
         "link": "https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-gguf"
+      },
+      {
+        "id": "Comfy-Org/Ideogram-4",
+        "author": "Comfy-Org",
+        "likes": 103,
+        "downloads": 0,
+        "tags": [
+          "comfyui",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/Comfy-Org/Ideogram-4"
+      },
+      {
+        "id": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
+        "author": "OBLITERATUS",
+        "likes": 106,
+        "downloads": 8106,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gguf",
+          "gemma4_unified",
+          "image-text-to-text",
+          "gemma",
+          "gemma4",
+          "text-generation",
+          "obliteratus",
+          "refusal-analysis",
+          "red-team",
+          "aspa",
+          "abliteration",
+          "safety-research",
+          "alignment-research",
+          "conversational",
+          "base_model:google/gemma-4-12B-it",
+          "base_model:quantized:google/gemma-4-12B-it",
+          "license:gemma",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED"
+      },
+      {
+        "id": "nex-agi/Nex-N2-mini",
+        "author": "nex-agi",
+        "likes": 101,
+        "downloads": 748,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "text-generation",
+          "conversational",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nex-agi/Nex-N2-mini"
       },
       {
         "id": "PaddlePaddle/PaddleOCR-VL-1.6",
@@ -810,94 +897,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6"
-      },
-      {
-        "id": "Comfy-Org/Ideogram-4",
-        "author": "Comfy-Org",
-        "likes": 102,
-        "downloads": 0,
-        "tags": [
-          "comfyui",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Comfy-Org/Ideogram-4"
-      },
-      {
-        "id": "nex-agi/Nex-N2-mini",
-        "author": "nex-agi",
-        "likes": 100,
-        "downloads": 748,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "text-generation",
-          "conversational",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nex-agi/Nex-N2-mini"
-      },
-      {
-        "id": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
-        "author": "OBLITERATUS",
-        "likes": 104,
-        "downloads": 8106,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gguf",
-          "gemma4_unified",
-          "image-text-to-text",
-          "gemma",
-          "gemma4",
-          "text-generation",
-          "obliteratus",
-          "refusal-analysis",
-          "red-team",
-          "aspa",
-          "abliteration",
-          "safety-research",
-          "alignment-research",
-          "conversational",
-          "base_model:google/gemma-4-12B-it",
-          "base_model:quantized:google/gemma-4-12B-it",
-          "license:gemma",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED"
-      },
-      {
-        "id": "deepseek-ai/DeepSeek-V4-Flash",
-        "author": "deepseek-ai",
-        "likes": 1454,
-        "downloads": 2831325,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v4",
-          "text-generation",
-          "conversational",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "8-bit",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
       }
     ]
   },
@@ -951,7 +950,7 @@
       {
         "id": "openbmb/UltraData-SFT-2605",
         "author": "openbmb",
-        "likes": 331,
+        "likes": 333,
         "downloads": 35715,
         "tags": [
           "task_categories:text-generation",
@@ -976,6 +975,35 @@
         ],
         "lastModified": "2026-05-28T17:18:14.000Z",
         "link": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605"
+      },
+      {
+        "id": "nvidia/Nemotron-Personas-El-Salvador",
+        "author": "nvidia",
+        "likes": 47,
+        "downloads": 2692,
+        "tags": [
+          "task_categories:text-generation",
+          "language:es",
+          "license:cc-by-4.0",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "library:datadesigner",
+          "region:us",
+          "synthetic",
+          "personas",
+          "NVIDIA",
+          "datadesigner",
+          "sovereign-ai",
+          "el-salvador"
+        ],
+        "lastModified": "2026-06-05T11:16:23.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-El-Salvador"
       },
       {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
@@ -1008,35 +1036,6 @@
         ],
         "lastModified": "2026-05-01T17:11:41.000Z",
         "link": "https://huggingface.co/datasets/angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k"
-      },
-      {
-        "id": "nvidia/Nemotron-Personas-El-Salvador",
-        "author": "nvidia",
-        "likes": 46,
-        "downloads": 2692,
-        "tags": [
-          "task_categories:text-generation",
-          "language:es",
-          "license:cc-by-4.0",
-          "size_categories:100K<n<1M",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "library:datadesigner",
-          "region:us",
-          "synthetic",
-          "personas",
-          "NVIDIA",
-          "datadesigner",
-          "sovereign-ai",
-          "el-salvador"
-        ],
-        "lastModified": "2026-06-05T11:16:23.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-El-Salvador"
       },
       {
         "id": "nvidia/Nemotron-Pretraining-Code-v3",
