@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-12T06:00:21.035Z",
+  "updatedAt": "2026-06-12T07:00:16.628Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 1885,
+        "likes": 1891,
         "downloads": 131794,
         "tags": [
           "transformers",
@@ -42,7 +42,7 @@
       {
         "id": "google/diffusiongemma-26B-A4B-it",
         "author": "google",
-        "likes": 516,
+        "likes": 520,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -83,7 +83,7 @@
       {
         "id": "CohereLabs/North-Mini-Code-1.0",
         "author": "CohereLabs",
-        "likes": 309,
+        "likes": 313,
         "downloads": 1859,
         "tags": [
           "transformers",
@@ -230,7 +230,7 @@
       {
         "id": "ideogram-ai/ideogram-4-fp8",
         "author": "ideogram-ai",
-        "likes": 488,
+        "likes": 489,
         "downloads": 7170,
         "tags": [
           "diffusers",
@@ -347,7 +347,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1684,
+        "likes": 1686,
         "downloads": 3057541,
         "tags": [
           "gguf",
@@ -407,7 +407,7 @@
       {
         "id": "google/gemma-4-12B",
         "author": "google",
-        "likes": 518,
+        "likes": 519,
         "downloads": 140221,
         "tags": [
           "transformers",
@@ -450,7 +450,7 @@
       {
         "id": "unsloth/diffusiongemma-26B-A4B-it-GGUF",
         "author": "unsloth",
-        "likes": 184,
+        "likes": 186,
         "downloads": 0,
         "tags": [
           "gguf",
@@ -474,7 +474,7 @@
       {
         "id": "nex-agi/Nex-N2-Pro",
         "author": "nex-agi",
-        "likes": 209,
+        "likes": 210,
         "downloads": 1185,
         "tags": [
           "transformers",
@@ -537,7 +537,7 @@
       {
         "id": "unsloth/gemma-4-26B-A4B-it-qat-GGUF",
         "author": "unsloth",
-        "likes": 144,
+        "likes": 146,
         "downloads": 129110,
         "tags": [
           "transformers",
@@ -557,6 +557,26 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF"
+      },
+      {
+        "id": "google/gemma-4-12B-it-qat-q4_0-gguf",
+        "author": "google",
+        "likes": 131,
+        "downloads": 96749,
+        "tags": [
+          "transformers",
+          "gguf",
+          "any-to-any",
+          "base_model:google/gemma-4-12B-it-qat-q4_0-unquantized",
+          "base_model:quantized:google/gemma-4-12B-it-qat-q4_0-unquantized",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "any-to-any",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-gguf"
       },
       {
         "id": "google/magenta-realtime-2",
@@ -579,24 +599,24 @@
         "link": "https://huggingface.co/google/magenta-realtime-2"
       },
       {
-        "id": "google/gemma-4-12B-it-qat-q4_0-gguf",
-        "author": "google",
-        "likes": 130,
-        "downloads": 96749,
+        "id": "zai-org/SCAIL-2",
+        "author": "zai-org",
+        "likes": 121,
+        "downloads": 0,
         "tags": [
-          "transformers",
-          "gguf",
-          "any-to-any",
-          "base_model:google/gemma-4-12B-it-qat-q4_0-unquantized",
-          "base_model:quantized:google/gemma-4-12B-it-qat-q4_0-unquantized",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "diffusers",
+          "character-animation",
+          "video-generation",
+          "pose-driven",
+          "diffusion",
+          "image-to-video",
+          "arxiv:2512.05905",
+          "license:mit",
+          "region:us"
         ],
-        "pipeline_tag": "any-to-any",
+        "pipeline_tag": "image-to-video",
         "lastModified": "",
-        "link": "https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-gguf"
+        "link": "https://huggingface.co/zai-org/SCAIL-2"
       },
       {
         "id": "sapientinc/HRM-Text-1B",
@@ -625,29 +645,9 @@
         "link": "https://huggingface.co/sapientinc/HRM-Text-1B"
       },
       {
-        "id": "zai-org/SCAIL-2",
-        "author": "zai-org",
-        "likes": 120,
-        "downloads": 0,
-        "tags": [
-          "diffusers",
-          "character-animation",
-          "video-generation",
-          "pose-driven",
-          "diffusion",
-          "image-to-video",
-          "arxiv:2512.05905",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/zai-org/SCAIL-2"
-      },
-      {
         "id": "stepfun-ai/Step-3.7-Flash",
         "author": "stepfun-ai",
-        "likes": 368,
+        "likes": 369,
         "downloads": 50187,
         "tags": [
           "transformers",
@@ -672,7 +672,7 @@
       {
         "id": "MisoLabs/MisoTTS",
         "author": "MisoLabs",
-        "likes": 194,
+        "likes": 195,
         "downloads": 0,
         "tags": [
           "pytorch",
@@ -694,7 +694,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
         "author": "nvidia",
-        "likes": 198,
+        "likes": 199,
         "downloads": 59066,
         "tags": [
           "transformers",
@@ -733,7 +733,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "author": "deepseek-ai",
-        "likes": 4784,
+        "likes": 4785,
         "downloads": 4061006,
         "tags": [
           "transformers",
@@ -778,7 +778,7 @@
       {
         "id": "ByteDance/Bernini-R",
         "author": "ByteDance",
-        "likes": 223,
+        "likes": 224,
         "downloads": 305,
         "tags": [
           "safetensors",
@@ -838,45 +838,33 @@
         "link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash"
       },
       {
-        "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-        "author": "nvidia",
-        "likes": 169,
-        "downloads": 91117,
+        "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "author": "Jiunsong",
+        "likes": 808,
+        "downloads": 142580,
         "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_h",
-          "text-generation",
-          "nvidia",
-          "pytorch",
-          "nemotron-3",
-          "latent-moe",
-          "mtp",
+          "gguf",
+          "gemma4",
+          "uncensored",
+          "fast",
+          "llama.cpp",
+          "apple-silicon",
           "conversational",
+          "korean",
+          "coding",
+          "tool-use",
+          "text-generation",
           "en",
-          "fr",
-          "es",
-          "it",
-          "de",
-          "pt",
-          "ja",
           "ko",
-          "hi",
-          "ar",
-          "zh",
-          "he",
-          "dataset:nvidia/nemotron-post-training-v3",
-          "dataset:nvidia/nemotron-pre-training-datasets",
-          "license:other",
-          "eval-results",
+          "base_model:google/gemma-4-26B-A4B-it",
+          "base_model:quantized:google/gemma-4-26B-A4B-it",
+          "license:gemma",
           "endpoints_compatible",
-          "8-bit",
-          "modelopt",
           "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
+        "link": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2"
       }
     ]
   },
@@ -886,7 +874,7 @@
       {
         "id": "agents-last-exam/agents-last-exam",
         "author": "agents-last-exam",
-        "likes": 157,
+        "likes": 158,
         "downloads": 787,
         "tags": [
           "language:en",
@@ -940,7 +928,7 @@
       {
         "id": "stanford-vision-lab/gpic",
         "author": "stanford-vision-lab",
-        "likes": 120,
+        "likes": 121,
         "downloads": 120634,
         "tags": [
           "language:en",
@@ -980,6 +968,32 @@
         "link": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Vietnam"
       },
       {
+        "id": "nvidia/Nemotron-Pretraining-Code-v3",
+        "author": "nvidia",
+        "likes": 45,
+        "downloads": 941,
+        "tags": [
+          "task_categories:text-generation",
+          "language:code",
+          "license:cc-by-4.0",
+          "size_categories:100M<n<1B",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "text",
+          "pre-training",
+          "human",
+          "legal",
+          "Nemotron_3_Ultra"
+        ],
+        "lastModified": "2026-06-04T05:22:40.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Code-v3"
+      },
+      {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
         "likes": 357,
@@ -1010,32 +1024,6 @@
         ],
         "lastModified": "2026-05-01T17:11:41.000Z",
         "link": "https://huggingface.co/datasets/angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k"
-      },
-      {
-        "id": "nvidia/Nemotron-Pretraining-Code-v3",
-        "author": "nvidia",
-        "likes": 43,
-        "downloads": 941,
-        "tags": [
-          "task_categories:text-generation",
-          "language:code",
-          "license:cc-by-4.0",
-          "size_categories:100M<n<1B",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "text",
-          "pre-training",
-          "human",
-          "legal",
-          "Nemotron_3_Ultra"
-        ],
-        "lastModified": "2026-06-04T05:22:40.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Code-v3"
       },
       {
         "id": "openbmb/UltraData-SFT-2605",
@@ -1127,6 +1115,36 @@
         "link": "https://huggingface.co/datasets/Jackrong/GLM-5.1-Reasoning-1M-Cleaned"
       },
       {
+        "id": "openbmb/Ultra-FineWeb",
+        "author": "openbmb",
+        "likes": 385,
+        "downloads": 95610,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "language:zh",
+          "license:apache-2.0",
+          "size_categories:1B<n<10B",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2505.05427",
+          "arxiv:2602.09003",
+          "arxiv:2412.04315",
+          "region:us",
+          "llm",
+          "pretraining",
+          "web-corpus",
+          "data-filtering",
+          "high-quality"
+        ],
+        "lastModified": "2026-05-28T04:25:13.000Z",
+        "link": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb"
+      },
+      {
         "id": "openbmb/Ultra-FineWeb-L3",
         "author": "openbmb",
         "likes": 285,
@@ -1158,36 +1176,6 @@
         ],
         "lastModified": "2026-05-28T09:03:52.000Z",
         "link": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb-L3"
-      },
-      {
-        "id": "openbmb/Ultra-FineWeb",
-        "author": "openbmb",
-        "likes": 385,
-        "downloads": 95610,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "language:zh",
-          "license:apache-2.0",
-          "size_categories:1B<n<10B",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2505.05427",
-          "arxiv:2602.09003",
-          "arxiv:2412.04315",
-          "region:us",
-          "llm",
-          "pretraining",
-          "web-corpus",
-          "data-filtering",
-          "high-quality"
-        ],
-        "lastModified": "2026-05-28T04:25:13.000Z",
-        "link": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb"
       },
       {
         "id": "MEDHARVIX-SYSTEMS/bhasaflow-khasi-english-parallel-sample-v1",
@@ -1334,6 +1322,33 @@
         "link": "https://huggingface.co/datasets/MEDHARVIX-SYSTEMS/bhasaflow-khasi-english-parallel-corpus-v1"
       },
       {
+        "id": "HuggingFaceFW/fineweb-edu",
+        "author": "HuggingFaceFW",
+        "likes": 1138,
+        "downloads": 499336,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:odc-by",
+          "size_categories:1B<n<10B",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2406.17557",
+          "arxiv:2404.14219",
+          "arxiv:2401.10020",
+          "arxiv:2109.07445",
+          "doi:10.57967/hf/2497",
+          "region:us"
+        ],
+        "lastModified": "2025-07-11T20:16:53.000Z",
+        "link": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
+      },
+      {
         "id": "jasperai/monet",
         "author": "jasperai",
         "likes": 128,
@@ -1376,33 +1391,6 @@
         ],
         "lastModified": "2023-05-26T18:47:34.000Z",
         "link": "https://huggingface.co/datasets/Anthropic/hh-rlhf"
-      },
-      {
-        "id": "HuggingFaceFW/fineweb-edu",
-        "author": "HuggingFaceFW",
-        "likes": 1137,
-        "downloads": 499336,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:odc-by",
-          "size_categories:1B<n<10B",
-          "format:parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2406.17557",
-          "arxiv:2404.14219",
-          "arxiv:2401.10020",
-          "arxiv:2109.07445",
-          "doi:10.57967/hf/2497",
-          "region:us"
-        ],
-        "lastModified": "2025-07-11T20:16:53.000Z",
-        "link": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
       },
       {
         "id": "julien-c/synthtraces",
