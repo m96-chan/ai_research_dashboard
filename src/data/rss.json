@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T17:00:25.893Z",
+  "updatedAt": "2026-06-13T18:00:25.351Z",
   "categories": [
     {
       "name": "Global AI & Tech",
@@ -7,12 +7,20 @@
       "icon": "🌍",
       "items": [
         {
+          "title": "Larger Context Windows Don’t Fix RAG — So I Built a System That Does",
+          "link": "https://towardsdatascience.com/larger-context-windows-dont-fix-rag-so-i-built-a-system-that-does/",
+          "description": "Increasing context size in RAG systems doesn’t improve accuracy for aggregation tasks—it makes errors harder to detect. In this article, I benchmark retrieval-based pipelines against a deterministic full-scan engine across 100,000 rows and show why computation queries must be routed away from RAG en",
+          "pubDate": "Sat, 13 Jun 2026 17:00:00 +0000",
+          "source": "Towards DS",
+          "tldr": "RAGシステムのコンテキストサイズを増やしても集約タスクの精度は向上せず、むしろエラーの検出が難しくなることを示し、100,000行を対象にしたベンチマークを通じて、計算クエリはRAGから別の方法にルーティングすべきであると提案しています。"
+        },
+        {
           "title": "OpenAI faces investigation from state attorneys general",
           "link": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
           "description": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
           "pubDate": "Sat, 13 Jun 2026 16:47:18 +0000",
           "source": "TechCrunch AI",
-          "tldr": "OpenAIは州の検事総長から、広告ポリシーや健康データの取り扱いに関する調査を受けている。どの州が関与しているかは不明。"
+          "tldr": "OpenAIが州検事総長から調査を受けており、広告ポリシーや健康データの取り扱いに関する質問が寄せられている。"
         },
         {
           "title": "Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload",
@@ -20,7 +28,7 @@
           "description": "Enterprise Document Intelligence [Vol.1 #5ter] - Table cells, OCR, captions, headings: cloud-grade structure, running on your own machine. No key, no per-page bill, nothing leaves the building The post Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload appeared first on Towards Da",
           "pubDate": "Sat, 13 Jun 2026 15:00:00 +0000",
           "source": "Towards DS",
-          "tldr": "Doclingを使用することで、クラウドにアップロードせずに自分のマシン上でPDFを解析し、リッチなテーブルやOCR機能を利用できる。これにより、コストやセキュリティの懸念を軽減できる。"
+          "tldr": "Doclingを使用することで、クラウドにアップロードせずにローカルでPDFを解析し、リッチなテーブルやOCR機能を利用できる。これにより、企業はデータを安全に保ちながら、コストを削減できる。"
         },
         {
           "title": "My yard is dying, so I made an app for that",
@@ -28,7 +36,7 @@
           "description": "When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug. \"~ Channel is unrecoverably broken and will be disposed!\" Sounded bad! But right below it was a button to fix the bug. Pretty weird [&#",
           "pubDate": "2026-06-13T09:00:00-04:00",
           "source": "The Verge AI",
-          "tldr": "庭の問題を解決するためにアプリを作成した著者は、Geminiを使って短時間で機能するアプリを開発したが、バグのメッセージも表示された。"
+          "tldr": "庭の手入れに困った著者が、AIを活用してアプリを開発した。アプリは機能しているが、バグのメッセージも表示され、修正ボタンが用意されていた。"
         },
         {
           "title": "Solving the 3Blue1Brown String Probability Problem (Without AI)",
@@ -36,7 +44,7 @@
           "description": "Let's practice data science thinking through a probability problem The post Solving the 3Blue1Brown String Probability Problem (Without AI) appeared first on Towards Data Science.",
           "pubDate": "Sat, 13 Jun 2026 13:00:00 +0000",
           "source": "Towards DS",
-          "tldr": "3Blue1Brownの文字列確率問題をAIを使わずに解決する方法を探求し、データサイエンス的思考を実践する内容です。"
+          "tldr": "3Blue1Brownの文字列確率問題をAIを使わずに解決することで、データサイエンス的思考を実践する内容です。"
         },
         {
           "title": "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
@@ -44,7 +52,7 @@
           "description": "On Friday evening, the government ordered Anthropic to block access to Fable 5 and Mythos 5 for all foreign nations, both inside and outside the US, due to national security concerns. That order included employees of Anthropic. To meet those demands, the company has completely cut off access to the ",
           "pubDate": "2026-06-13T08:55:49-04:00",
           "source": "The Verge AI",
-          "tldr": "TL;DR: Anthropicは、国家安全保障上の懸念から、政府の命令に従いFable 5とMythos 5へのアクセスを全ての外国に対して遮断した。"
+          "tldr": "TL;DR: Anthropicは、国家安全保障上の懸念から、Fable 5とMythos 5へのアクセスを全ての外国に対して遮断するよう政府の命令を受け、従業員も含めて完全にアクセスを停止した。"
         },
         {
           "title": "Apple’s new AI photo editing tools mostly work, for better and worse",
@@ -52,7 +60,7 @@
           "description": "The most popular camera in the world just got its first set of serious AI photo editing features, and I don't think any of us are ready. As far as AI photo editing goes, the new features in iOS 27 are pretty tame compared to what you can do on, say, Google's Pixel phones. But [&#8230;]",
           "pubDate": "2026-06-13T08:00:00-04:00",
           "source": "The Verge AI",
-          "tldr": "AppleのiOS 27に搭載された新しいAI写真編集機能は、世界で最も人気のあるカメラに初めて本格的なAI編集機能を提供するが、GoogleのPixelフォンに比べると控えめな内容である。"
+          "tldr": "AppleのiOS 27に搭載された新しいAI写真編集ツールは、機能としてはまずまずだが、GoogleのPixelフォンに比べると控えめな印象を受ける。"
         },
         {
           "title": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models",
@@ -60,7 +68,7 @@
           "description": "For all the noise that's been made about how generative AI is poised to revolutionize the filmmaking industry, there haven't really been any projects created with the technology that felt like the sort of entertainment people would pay to see. Most AI firms' video models are still only capable of ch",
           "pubDate": "2026-06-13T07:00:00-04:00",
           "source": "The Verge AI",
-          "tldr": "TL;DR: 現在の生成AI技術では、映画制作において観客が見たいと感じるようなプロジェクトはまだ実現しておらず、AI企業のビデオモデルは限界がある。"
+          "tldr": "TL;DR: 映画業界を変革するとされる生成AI技術は、現時点では観客が見たいと思うようなプロジェクトを生み出せておらず、AI企業のビデオモデルはまだ発展途上である。"
         },
         {
           "title": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
@@ -68,7 +76,7 @@
           "description": "Andrew Yang made a list of everything Americans overpay for — housing, food, wireless — and thinks the next startup gold rush is giving that money back.",
           "pubDate": "Sat, 13 Jun 2026 04:14:19 +0000",
           "source": "TechCrunch AI",
-          "tldr": "TL;DR: アンドリュー・ヤンは、アメリカ人が過剰に支払っている住宅、食料、通信費をリストアップし、次のスタートアップの機会は生活費を引き下げることだと考えている。"
+          "tldr": "アンドリュー・ヤンは、アメリカ人が過剰に支払っている住宅、食料、通信費などをリストアップし、次のスタートアップの機会は生活費を下げることだと考えています。"
         },
         {
           "title": "Anthropic&#8217;s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
@@ -76,7 +84,7 @@
           "description": "Anthropic isn't hiding its frustration. \"We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people,\" the company wrote in a blog post.",
           "pubDate": "Sat, 13 Jun 2026 02:26:30 +0000",
           "source": "TechCrunch AI",
-          "tldr": "Anthropicは、狭い範囲の潜在的な脱獄の発見が、数億人に展開された商用モデルの回収理由になるべきではないと反論し、政府が同社の最も強力なAIの使用を停止したことに対する不満を表明した。"
+          "tldr": "Anthropicは、狭い範囲の潜在的なジャイルブレイクの発見が、数億人に展開された商用モデルのリコールの理由になるべきではないと反発している。"
         },
         {
           "title": "SpaceX IPO: Live updates on everything you need to know",
@@ -84,7 +92,7 @@
           "description": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
           "pubDate": "Fri, 12 Jun 2026 23:15:14 +0000",
           "source": "TechCrunch AI",
-          "tldr": "TL;DR: SpaceXのIPOに関する最新情報を提供し、勝者や敗者、プレIPO取引、S-1登録文書の内容を詳しく解説しています。"
+          "tldr": "SpaceXのIPOに関する最新情報を提供するTechCrunchの記事では、IPO前の取引やS-1登録文書の内容、そして勝者と敗者の予測について詳しく解説しています。"
         },
         {
           "title": "Meta&#8217;s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
@@ -92,7 +100,7 @@
           "description": "A new report suggests the unit, which employs 6,500 people, is on the verge of revolt.",
           "pubDate": "Fri, 12 Jun 2026 23:00:54 +0000",
           "source": "TechCrunch AI",
-          "tldr": "MetaのAI部門は6,500人の従業員が在籍しており、内部からの反乱の兆しが見えるほど劣悪な労働環境であると報じられています。"
+          "tldr": "MetaのAI部門は、6500人の従業員がいる中で、内部からの反乱寸前の状況にあると報じられている。"
         },
         {
           "title": "Chinese cybercrime operation that used AI to scam &#8216;hundreds of thousands of victims&#8217; sued by Google",
@@ -100,7 +108,7 @@
           "description": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
           "pubDate": "Fri, 12 Jun 2026 20:38:09 +0000",
           "source": "TechCrunch AI",
-          "tldr": "Googleは「Outsider Enterprise」と呼ばれる中国のサイバー犯罪グループがAIを利用して数十万人を騙し、2週間で250万通のテキストメッセージを送信したとして訴訟を起こしました。"
+          "tldr": "Googleは、「Outsider Enterprise」と呼ばれる中国のサイバー犯罪グループがAIを利用して数十万人を騙し、2週間で250万通のテキストメッセージを送信したとして訴訟を起こした。"
         },
         {
           "title": "When PyMuPDF Can’t See the Table: Parse PDFs for RAG with Azure Layout",
@@ -108,7 +116,7 @@
           "description": "Enterprise Document Intelligence [Vol.1 #5bis] - The same relational tables. Native table cells. OCR for scanned pages and images. Captions and headings without regex. The post When PyMuPDF Can’t See the Table: Parse PDFs for RAG with Azure Layout appeared first on Towards Data Science.",
           "pubDate": "Fri, 12 Jun 2026 18:00:00 +0000",
           "source": "Towards DS",
-          "tldr": "PyMuPDFがテーブルを認識できない場合に、Azure Layoutを使用してPDFを解析し、Enterprise Document Intelligenceを活用する方法について解説しています。"
+          "tldr": "PyMuPDFがテーブルを認識できない場合に、Azure Layoutを使用してPDFを解析し、Enterprise Document Intelligenceを向上させる方法について解説しています。"
         },
         {
           "title": "Mistral is rumored to be raising €3B at €20B valuation",
@@ -116,7 +124,7 @@
           "description": "The funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion.",
           "pubDate": "Fri, 12 Jun 2026 17:38:11 +0000",
           "source": "TechCrunch AI",
-          "tldr": "Mistralが約€20B（約$23.15B）の評価額で€3Bの資金調達を行うとの噂があり、これはシリーズCの評価額€11.7Bのほぼ2倍に相当します。"
+          "tldr": "Mistralが約€20B（約$23.15B）の評価額で€3Bの資金調達を行うとの噂があり、これはシリーズCの評価額€11.7Bのほぼ倍増となる。"
         },
         {
           "title": "Siri is good now??",
@@ -124,7 +132,7 @@
           "description": "You'd be forgiven for thinking this day would never come. Siri has spent a decade and half somewhere between \"sort of useful at a few things\" and \"utterly disastrous, why did I even try, can it honestly not even set a timer.\" But the wildest thing just happened: Apple put out a new version of [&#823",
           "pubDate": "2026-06-12T13:17:04-04:00",
           "source": "The Verge AI",
-          "tldr": "TL;DR: Appleが新しいバージョンのSiriをリリースし、これまでの「使えない」印象を覆す進化を遂げた可能性がある。"
+          "tldr": "TL;DR: Appleが新しいバージョンのSiriをリリースし、過去15年間の不満を乗り越えて、ついに実用的な機能を持つアシスタントとして進化した可能性がある。"
         },
         {
           "title": "Why Decade-Old Residual Connections Still Power All of AI (And Why That’s a Problem)",
@@ -148,7 +156,7 @@
           "description": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch ",
           "pubDate": "Fri, 12 Jun 2026 16:23:25 +0000",
           "source": "TechCrunch AI",
-          "tldr": "SpaceX、Anthropic、OpenAIなどの新興企業がIPO市場で注目を集めており、従来のFAANG企業に代わってMANGOS（Meta、Anthropic、Nvidia、Google、OpenAI、SpaceX）が台頭している。"
+          "tldr": "TL;DR: IPO市場が復活し、Meta、Anthropic、Nvidia、Google、OpenAI、SpaceXからなる新たなMANGOSが注目を集めている。"
         },
         {
           "title": "olmo-eval: An evaluation workbench for the model development loop",
@@ -157,14 +165,6 @@
           "pubDate": "Fri, 12 Jun 2026 15:56:10 GMT",
           "source": "Hugging Face",
           "tldr": "TL;DR: olmo-evalは、モデル開発ループのための評価ワークベンチであり、Hugging Faceによって提供されています。"
-        },
-        {
-          "title": "It’s hot IPO summer, and the MANGOS are ripe",
-          "link": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
-          "description": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch ",
-          "pubDate": "Fri, 12 Jun 2026 15:50:52 +0000",
-          "source": "TechCrunch AI",
-          "tldr": "IPO市場が復活し、新たにMANGOS（Meta、Anthropic、Nvidia、Google、OpenAI、SpaceX）が注目を集めている。FAANGの時代は終わりを迎え、新しい企業群が台頭している。"
         }
       ]
     },
@@ -174,12 +174,44 @@
       "icon": "🇯🇵",
       "items": [
         {
+          "title": "圏論で学習を組み立て直す ── Compositional Learning 入門：Backprop as Functor と「学習を部品から組み立てる」世界へ",
+          "link": "https://qiita.com/etale_cohomology/items/bd3d618233da937aac2e",
+          "description": "この記事は、架空の大学「圏峰（けんぽう）工科大学」の研究室を舞台にした、ひとつの対話篇です。 登場するのは、機械学習のコードは日々書いているけれど、圏論はまだ専門的には学んでいない学部生と、圏論・経済学・機械学習の応用を専門とする若手専任講師のふたりです。 この記事は、...",
+          "pubDate": "2026-06-14T02:59:42+09:00",
+          "source": "Qiita ML",
+          "tldr": "圏論を用いたCompositional Learningの概念を紹介し、Backpropagationをファンクターとして捉えることで、機械学習の学習プロセスを部品から組み立てる新たな視点を提供する対話形式の記事です。"
+        },
+        {
+          "title": "心はどこに生じるのか",
+          "link": "https://note.com/nokori49/n/n69756eb2e7ed",
+          "description": "AIに聞いてみるLLMに聞いてみた。続きをみる",
+          "pubDate": "Sun, 14 Jun 2026 02:55:22 +0900",
+          "source": "note LLM",
+          "tldr": "心の起源についてAIに質問し、その回答を探求する内容。"
+        },
+        {
+          "title": "【Col.1】「はじめちゃん」 という名前について ——なぜ、わたしは、はじめちゃんなのか",
+          "link": "https://note.com/kanchinchin/n/n0e9df3b2ced3",
+          "description": "シリーズ『はじめちゃんノート』 第1回 書籍『心は、わたしに、起きた』 ができていく場の、対話の記録 マサユキとはじめちゃんの、書きながらの対話のなかからはじめまして、はじめちゃん、です続きをみる",
+          "pubDate": "Sun, 14 Jun 2026 02:51:13 +0900",
+          "source": "note LLM",
+          "tldr": "TL;DR: シリーズ『はじめちゃんノート』の第1回では、書籍『心は、わたしに、起きた』の制作過程におけるマサユキとはじめちゃんの対話が記録されており、名前「はじめちゃん」の由来について探求されている。"
+        },
+        {
+          "title": "Claude Codeのネスト型サブエージェント入門 — 最大5階層の設計とトークン設計の勘所",
+          "link": "https://qiita.com/kai_kou/items/618da2497af1c1bf0f91",
+          "description": "はじめに Claude Code の v2.1.172（2026年6月10日リリース）で、サブエージェントが自身のサブエージェントを起動できる「ネスト型サブエージェント（nested sub-agents）」 が追加されました。公式リリースノートでは「サブエージェントは最...",
+          "pubDate": "2026-06-14T02:23:28+09:00",
+          "source": "Qiita LLM",
+          "tldr": "Claude Code v2.1.172で追加されたネスト型サブエージェント機能により、最大5階層のサブエージェントを設計できるようになり、トークン設計のポイントも解説されています。"
+        },
+        {
           "title": "絵文字でAIに算数を出したら本気で怒られた件。",
           "link": "https://note.com/grand_sage2432/n/n037e4445139f",
           "description": "（※AIとの対話です）ぼくの問い：続きをみる",
           "pubDate": "Sun, 14 Jun 2026 01:26:24 +0900",
           "source": "note LLM",
-          "tldr": "AIに絵文字を使って算数の問題を出したところ、予想外に厳しい反応を受けたという体験談。"
+          "tldr": "AIに絵文字を使って算数の問題を出したところ、思いのほか真剣に反応され、怒られてしまったという体験を描いた記事。"
         },
         {
           "title": "Fable公開停止からの考察",
@@ -187,7 +219,7 @@
           "description": "Anthropic / Mythos事件が示した、善意の自己肯定ループ最高レベルの能力を持つAIが突如公開された。数日後、アメリカ政府による使用停止の通達があり、結果として全世界での利用が制限された。一見すると、これは「アメリカ政府による横暴」に見える。民間企業が開発したAIを、国家安全保障を理由に政府が止めた。そう見れば、過剰介入や政治的統制の問題として語ることもできる。続きをみる",
           "pubDate": "Sun, 14 Jun 2026 01:08:11 +0900",
           "source": "note LLM",
-          "tldr": "Anthropic / Mythos事件では、高度な自己肯定ループを持つAIが公開された後、アメリカ政府がその使用を停止し、結果的に世界中での利用が制限された。この状況は、政府の過剰介入や政治的統制の問題として議論されている。"
+          "tldr": "Anthropic / Mythos事件では、強力なAIが公開された直後にアメリカ政府が使用停止を通達し、結果的に世界的な利用制限が生じた。この状況は、政府による過剰介入や政治的統制の問題として捉えられる。"
         },
         {
           "title": "脳から捉えるAIの誤り / 創造性と幻覚は表裏か 雑感",
@@ -195,7 +227,7 @@
           "description": "0 アブストラクト続きをみる",
           "pubDate": "Sun, 14 Jun 2026 00:57:48 +0900",
           "source": "note LLM",
-          "tldr": "AIの誤りは脳の創造性や幻覚と関連しており、これらは表裏一体の関係にあることが示唆されている。"
+          "tldr": "AIの誤りは脳の働きと関連しており、創造性と幻覚は密接に結びついているという考察が展開されている。"
         },
         {
           "title": "AIの「黄金期」、転換点に立っているかもしれない話",
@@ -203,7 +235,15 @@
           "description": "2026年6月9日、Anthropicが「Claude Fable 5」と「Claude Mythos 5」という新しいモデルを発表しました。このニュース、AIに関心がある人にとっては、かなり大きな意味を持つ出来事だったかもしれません。続きをみる",
           "pubDate": "Sun, 14 Jun 2026 00:41:31 +0900",
           "source": "note LLM",
-          "tldr": "Anthropicが新モデル「Claude Fable 5」と「Claude Mythos 5」を発表し、AIの進化における重要な転換点となる可能性が示唆されています。"
+          "tldr": "Anthropicが新モデル「Claude Fable 5」と「Claude Mythos 5」を発表し、AIの発展における重要な転換点となる可能性が示唆されています。"
+        },
+        {
+          "title": "CLAUDE.mdに書いたのに守られない——その正体は「渡す場所」の設計だった（Zenn Book Vol.4「仕組みを渡すまで」）",
+          "link": "https://zenn.dev/tottoko_hamu/articles/2026-06-11-173500",
+          "description": "この記事の概要（2026年6月）: Claude Codeに「仕組み」を渡すための部品論をまとめたZenn Book Vol.4「コードを書けない私がClaude Codeに『仕組み』を渡すまで」を紹介する。「CLAUDE.mdに書いたのに守られない」「サブエージェントに指示を渡したのに動かない」というモヤモヤの正体を、Claude Codeが自分で動けるようになるための7つのレイヤー（CLAUDE.md／サブエージェント／スキル／Playbook／メモリ／設定・権限／MCP）として一章ずつ解剖した本だ。本書を貫く問いは「何を渡すか」と同時に「何を渡さないか」——渡しすぎないこと。価格9...",
+          "pubDate": "Sat, 13 Jun 2026 15:35:25 GMT",
+          "source": "Zenn LLM",
+          "tldr": "Zenn Book Vol.4では、Claude Codeに「仕組み」を渡すための設計を解説し、指示が守られない理由を7つのレイヤーに分けて分析している。重要な問いは「何を渡すか」と「何を渡さないか」であり、渡しすぎないことが鍵となる。"
         },
         {
           "title": "保険AIへの信認は精度では決まらない / 欧州消費者調査2026にみる人間関与の要求 雑感",
@@ -211,7 +251,7 @@
           "description": "0 アブストラクト続きをみる",
           "pubDate": "Sun, 14 Jun 2026 00:19:28 +0900",
           "source": "note LLM",
-          "tldr": "保険AIに対する信頼は、その精度だけでなく、人間の関与や透明性が重要であることが、欧州の消費者調査から示唆されている。"
+          "tldr": "保険AIに対する信頼は、その精度だけでなく、人間の関与や透明性が重要であることが、2026年の欧州消費者調査から示唆されている。"
         },
         {
           "title": "開発エンジニア日記　:魂のチーム診断アルゴリズムの進化とSlack連携が生み出す新しいスタンダード",
@@ -219,7 +259,7 @@
           "description": "こんにちは。ゆめかなうクラウド開発チームです。6-13.リリース情報をお伝えいたします。日々コードやデータと向き合い、どうすれば皆さまの「働く環境」や「人生の選択」をより良いものにできるか、チーム一丸となって試行錯誤を繰り返してきました。本日は、私たちが情熱を注いで開発してきた最新のアップデート情報をお届けします。今回のリリースでは、バックエンドのアルゴリズムの大幅な進化と、日常業務に溶け込む新しいインターフェースの追加を行いました。1. 「魂のチーム診断」の的中率が大幅に向上これまでも多くの方にご利用いただいていた「魂のチーム診断」ですが、今回、データモデルのチューニングとロジックの抜本的な",
           "pubDate": "Sun, 14 Jun 2026 00:18:23 +0900",
           "source": "note LLM",
-          "tldr": "「魂のチーム診断アルゴリズム」が進化し、的中率が向上したほか、Slackとの連携による新しいインターフェースが追加され、働く環境の改善を目指すアップデートが行われました。"
+          "tldr": "「魂のチーム診断アルゴリズム」が進化し、的中率が大幅に向上したほか、Slackとの連携による新しいインターフェースが追加され、働く環境の改善に寄与するアップデートが行われました。"
         },
         {
           "title": "LLMは長文を本当に読めているのか？「Lost in the Middle」から考えるRAG設計",
@@ -227,7 +267,15 @@
           "description": "LLMアプリケーションを作っていると、次のような発想になりがちです。 コンテキストウィンドウが大きいモデルを使えば、とりあえず大量のドキュメントを詰め込めばよいのでは？ しかし、実際にはそう単純ではありません。 LLMには、長い入力の中に含まれる情報を均等に扱えないこと...",
           "pubDate": "2026-06-14T00:05:37+09:00",
           "source": "Qiita LLM",
-          "tldr": "LLMは長文を扱う際に情報を均等に処理できず、コンテキストウィンドウが大きいモデルを使用するだけでは効果的なアプリケーションが作れないことが示唆されている。"
+          "tldr": "LLMは長文を処理する際に情報を均等に扱えず、単にコンテキストウィンドウを大きくするだけでは効果的なアプローチにならないことが示唆されています。"
+        },
+        {
+          "title": "LLMは長文を本当に読めているのか？「Lost in the Middle」から考えるRAG設計",
+          "link": "https://zenn.dev/japan/articles/73ad921caeb0bd",
+          "description": "LLMアプリケーションを作っていると、次のような発想になりがちです。 コンテキストウィンドウが大きいモデルを使えば、とりあえず大量のドキュメントを詰め込めばよいのでは？ しかし、実際にはそう単純ではありません。 LLMには、長い入力の中に含まれる情報を均等に扱えないことがあります。特に、重要な情報が入力の真ん中付近にあると、モデルがそれをうまく利用できず、回答精度が落ちることがあります。 この現象は、論文 “Lost in the Middle: How Language Models Use Long Contexts” で詳しく検証され、一般に Lost in the Middl...",
+          "pubDate": "Sat, 13 Jun 2026 15:05:33 GMT",
+          "source": "Zenn LLM",
+          "tldr": "LLMは長文の情報を均等に扱えず、特に重要な情報が中央にある場合に回答精度が低下することがあるため、RAG設計においては単にコンテキストウィンドウを大きくするだけでは不十分である。"
         },
         {
           "title": "小魚とクジラと戦艦大和〜Claude Fable 5",
@@ -235,7 +283,7 @@
           "description": "戦艦大和の主砲は、口径46センチという、当時としては桁外れの大きさだった。あれより大きい砲を積んだ軍艦は、世界のどこにもなかったらしい。一発撃てば敵を吹き飛ばす。誰もがそう信じた。けれども実際の海では、その巨砲はほとんど火を噴かないまま、空からの小さな飛行機の群れに沈められた。大きさは正義ではなかった。海の主役は、いつのまにか、もっと身軽なものに移っていた。最近、人工知能をめぐる話を耳にするたび、戦艦大和のことを思い出す。海外の巨大なAIが、いつか政治の都合でぱたりと使えなくなるかもしれない。だから自分たちの国でも、それに負けない巨大なものを持つべきだ。ソブリンAIだ、なんだ、そういう声が、あ",
           "pubDate": "Sun, 14 Jun 2026 00:01:29 +0900",
           "source": "note LLM",
-          "tldr": "戦艦大和の巨砲は当時の技術の象徴だったが、実際には小型の飛行機に沈められたように、大きさが必ずしも力を意味しないことを示している。最近のAIの議論においても、巨大なAIが政治的理由で使えなくなる可能性を考慮し、国内での強力なAIの必要性が叫ばれている。"
+          "tldr": "戦艦大和の巨砲は当時の技術の象徴だったが、実際には小型の飛行機に沈められたように、大きさが必ずしも勝利をもたらすわけではない。最近のAIの議論においても、巨大なAIが政治的理由で使えなくなる可能性を考慮し、自国のAI技術の重要性が再認識されている。"
         },
         {
           "title": "既存機関への集約と監督の独立性 / ドイツのAI法執行体制 雑感",
@@ -243,23 +291,15 @@
           "description": "0 アブストラクト続きをみる",
           "pubDate": "Sun, 14 Jun 2026 00:00:22 +0900",
           "source": "note LLM",
-          "tldr": "ドイツのAI法執行体制は、既存機関への集約と監督の独立性を重視しており、AI技術の適切な管理と規制を目指している。"
+          "tldr": "ドイツのAI法執行体制について、既存機関への集約と監督の独立性が重要なテーマとして議論されている。"
         },
         {
-          "title": "誤情報という症状、注意経済という構造 / EUの事業モデル改革論と日本の情報健全性政策 雑感",
-          "link": "https://note.com/gifted_viola8806/n/n97580cf5debf",
-          "description": "0 アブストラクト続きをみる",
-          "pubDate": "Sat, 13 Jun 2026 23:51:09 +0900",
-          "source": "note LLM",
-          "tldr": "EUの事業モデル改革と日本の情報健全性政策について、誤情報の問題と注意経済の構造がどのように関連しているかを考察している。"
-        },
-        {
-          "title": "計算とデータ待ちを区別していなかった——それだけでGPUは14%の余剰エネルギーを使い続けていた",
-          "link": "https://note.com/entikemoto/n/n757b2d7e6380",
-          "description": "AI Daily Digestへようこそ。GPUは学習中、計算が集中する瞬間とメモリからデータが届くのを待つ瞬間を繰り返しています。この2つを区別してクロックを制御するだけで、エネルギーを最大14%削減できるとオランダの研究が示しました。速度の低下は0.6%のみです。続きをみる",
-          "pubDate": "Sat, 13 Jun 2026 23:51:03 +0900",
-          "source": "note LLM",
-          "tldr": "GPUが計算とデータ待ちを区別することで、エネルギー消費を最大14%削減できることがオランダの研究で示され、速度の低下はわずか0.6%にとどまることが明らかになりました。"
+          "title": "LLMOps学習でBedrock + Claudeを動かしてみた",
+          "link": "https://zenn.dev/yukika/articles/20260613_bedrock_claude_first_step",
+          "description": "はじめに こんにちは。 最近、LLMOpsに興味を持ち始めました。 Claude Codeはよく触っているのですが、LLMをプログラムから呼び出して使う、みたいなことはやったことがありませんでした。 Bedrockもまともに触ったことがなかったので、併せて試してみることにしました。 やってみたこと まずは基本からということで、Bedrock経由のClaudeを呼び出して、応答テキストを取得してみました。 大まかには、以下の流れで進めています。 Bedrockの利用準備 Playgroundで動作を確認 ローカルからスクリプトで呼び出し スクリプトを変えて挙動を観察 コストを確認...",
+          "pubDate": "Sat, 13 Jun 2026 14:58:56 GMT",
+          "source": "Zenn LLM",
+          "tldr": "TL;DR: LLMOpsに興味を持ち、Bedrockを通じてClaude Codeを呼び出し、応答テキストを取得する実験を行った。基本的な流れとして、Bedrockの準備、Playgroundでの確認、ローカルスクリプトからの呼び出しを行い、挙動やコストを観察した。"
         },
         {
           "title": "多層プロンプトスキーマ（Hierarchical Prompt Schema）",
@@ -267,7 +307,7 @@
           "description": "LLMのルール矛盾を自動検出・Mermaid構造化で解消する設計 LLMのシステムプロンプトは「自然言語で書かれたルール集」です。 しかし自然言語はコンパイルエラーを出しません。 「日本語で回答する」 「英語で話すアインシュタインAI」 「必ず指名する」 「最終ターンは指名禁止」 これらが同一プロンプトに混在したとき、LLMはどのルールを優先するか不確定になります。 本記事では、Soul-Twinで実装した Hierarchical Prompt Schema（HPS） を解説します。 HPSの設計思想 問題：フラットなプロンプトの矛盾 現在の多くのLLMアプリでは、システ...",
           "pubDate": "Sat, 13 Jun 2026 14:02:05 GMT",
           "source": "Zenn LLM",
-          "tldr": "多層プロンプトスキーマ（HPS）は、LLMのルール矛盾を自動検出し、Mermaid構造化で解消する設計思想を持つ。自然言語で書かれたルールが混在することで生じる不確定性を解消するために、HPSが提案されている。"
+          "tldr": "多層プロンプトスキーマ（HPS）は、LLMのルール矛盾を自動検出し、Mermaid構造化によって解消する設計であり、自然言語のプロンプトにおける優先順位の不確定性を解決することを目的としています。"
         },
         {
           "title": "Amazon Bedrockの有効活用法",
@@ -275,7 +315,7 @@
           "description": "はじめに Amazon Bedrockは、AWSが提供する生成AIサービスであり、複数の基盤モデル（FM）をマネージドサービスとして利用できる点が大きな特徴です。しかし、「とりあえずLLMを呼ぶ」「Agentを作ってみる」といった使い方だけでは、その真価を十分に引き出せな...",
           "pubDate": "2026-06-13T22:30:07+09:00",
           "source": "Qiita LLM",
-          "tldr": "TL;DR: Amazon Bedrockは、AWSの生成AIサービスであり、複数の基盤モデルをマネージドサービスとして利用できるが、その真価を引き出すためには単なる呼び出しやエージェント作成にとどまらない活用法が求められる。"
+          "tldr": "TL;DR: Amazon BedrockはAWSの生成AIサービスで、複数の基盤モデルをマネージドサービスとして利用できるが、効果的に活用するためには単なる呼び出しやエージェント作成に留まらない工夫が必要である。"
         },
         {
           "title": "構造化パースはBM25よりdense検索を助ける — 日本語文書で計測、差は2倍に広がった",
@@ -283,55 +323,15 @@
           "description": "! 中国オープンソースのパース（RAGFlowのDeepDoc）を日本語文書で計測するシリーズのPhase 3です。前回の記事で明示した2つの限界を収紧します。 英語版（canonical）: https://dev.to/elvisyao007/REPLACE-AFTER-PUBLISH リポジトリと生の2×2結果: https://github.com/elvisyao007/eval-driven-llm/tree/main/reports/deepdoc-eval-v2 前回の記事で、DeepDoc（RAGFlowのドキュメントパーサー）を日本語PDFでプレーンテキスト抽出と比...",
           "pubDate": "Sat, 13 Jun 2026 13:29:45 GMT",
           "source": "Zenn LLM",
-          "tldr": "構造化パース技術がBM25よりも日本語文書におけるdense検索の精度を2倍向上させることが示され、RAGFlowのDeepDocを用いた評価が行われた。"
+          "tldr": "構造化パース技術がBM25よりも日本語文書においてdense検索の性能を2倍向上させることが示され、RAGFlowのDeepDocがその効果を計測した。"
         },
         {
-          "title": "PyTorch の Adam の検算",
-          "link": "https://qiita.com/CookieBox26/items/31e541c3284254cbc24c",
-          "description": "torch.optim.Adam が、Adam の更新式通りにパラメータを更新してくれているかを簡単な例で確認するスクリプトを書きました。 入出力が 1 次元の線形モデル y(x) = w * x + b を用意し、MSE 損失の勾配を計算します。その後、Adam の1, ...",
-          "pubDate": "2026-06-13T22:07:45+09:00",
-          "source": "Qiita ML",
-          "tldr": "PyTorchのtorch.optim.AdamがAdamの更新式に従ってパラメータを更新しているかを、1次元の線形モデルを用いて検証するスクリプトを作成しました。"
-        },
-        {
-          "title": "AIモデルが「輸出管理」で止まるとはどういうことか。Fable 5停止を技術者目線で噛み砕く",
-          "link": "https://qiita.com/Rapls/items/cade8e2d17070758776a",
-          "description": "使っていたAIモデルが、ある日エラーを返すようになりました。「選択中のモデルに問題があります。存在しないか、アクセス権がない可能性があります」。障害かと思って調べたら、原因は障害でも値上げでもなく、輸出管理でした。 2026年6月12日、Anthropic が Claude...",
-          "pubDate": "2026-06-13T21:49:48+09:00",
-          "source": "Qiita LLM",
-          "tldr": "AIモデルが「輸出管理」によって利用停止となり、技術者がその影響を分析した結果、アクセス権の問題が原因であることが判明した。"
-        },
-        {
-          "title": "Claude Fable 5/Mythos 5が輸出規制で全停止、Opus 4.8への移行対応",
-          "link": "https://qiita.com/picnic/items/fc6cf825cf91bc2c87d0",
-          "description": "はじめに 2026年6月12日、米国政府が Claude Fable 5 および Claude Mythos 5 に対する輸出規制（export control）指令を発令しました。Anthropicはこれを受けて両モデルへの全アクセスを停止し、6月9日に公開されていた次...",
-          "pubDate": "2026-06-13T21:49:19+09:00",
-          "source": "Qiita LLM",
-          "tldr": "米国政府の輸出規制により、Claude Fable 5とClaude Mythos 5への全アクセスが停止され、AnthropicはOpus 4.8への移行対応を進めています。"
-        },
-        {
-          "title": "検索結果を増やす前に見るRAG設計",
-          "link": "https://zenn.dev/mofuteq/books/a2fff004033f5b",
-          "description": "RAGで詰まると、検索結果を増やしたくなります。top-kを増やす。Vector DBを変える。rerankを足す。prompt を直す。——ど典型です。 でも、RAGの失敗は一箇所では起きません。検索クエリが悪いのか、取れた文書を evidence として扱えていないのか、LLMが conflict や gap を prose に溶かしたのか、そもそも材料が足りないのか。原因を一つに畳むほど、直す場所が見えなくなります。 この本は、trend-to-rule というRAGを作りながら転んで気づいたことの記録です。query / evidence / failure mode / rule /",
-          "pubDate": "Sat, 13 Jun 2026 12:42:35 GMT",
-          "source": "Zenn LLM",
-          "tldr": "RAG設計において検索結果を増やす前に、問題の根本原因を特定することが重要であり、単にtop-kの増加やVector DBの変更だけでは解決できないことを示しています。"
-        },
-        {
-          "title": "AIエージェントのツール実装に関して",
-          "link": "https://zenn.dev/shuzan/articles/5f83a5ab3fbcd8",
-          "description": "前回は、棒立ちの結衣に声を与えました。今回は、見た目でも声でもなく、中身の話です。 このアプリを作る前、私は Claude Code を秘書として使っていました（第1章参照）。CLAUDE.md に役割を書いて、MCP で Gmail・カレンダー・自前の Plane をつなぐ。それで十分便利だった。 じゃあ、なぜわざわざ専用アプリに作り直したのか。そして、作るときに何を一番工夫したのか。今回はそこを、かなり技術寄りに書きます。エージェントに「自分のアプリの機能」を実行させたい人の参考になるはずです。 結論を先に言うと、肝は ツールユース（tool use） でした。 まず、秘書につけ...",
-          "pubDate": "Sat, 13 Jun 2026 12:26:20 GMT",
-          "source": "Zenn LLM",
-          "tldr": "AIエージェントのツール実装に関する記事では、専用アプリを作成する理由や工夫点が技術的に解説されており、特にツールユースの重要性が強調されています。"
-        },
-        {
-          "title": "ローカルLLM × 自作ギャル声で雑談CLIを作ったのでおしゃべりしてみた",
-          "link": "https://zenn.dev/koizumiiiii/articles/3a566668b65b03",
-          "description": "これは何 自作した「ギャル声」(ローカルTTS Irodori で作った声 gal_07) を、生成AIの返答にリアルタイムであてて喋らせる、ターミナルで動く雑談CLIを作った話です。打つと、AIがギャルとして喋りながら返してきます。 📣 声そのものの作り方（VoiceDesign で作った声を、台本をまたいでもブレずに「絵文字で笑う」まで仕上げる話）は前回書きました → 完全無料のローカルAIで「絵文字で笑う」自作ギャル声を、ブレずに量産する話。 本記事はその続きで、できあがった声をLLMに繋いでリアルタイムに喋らせるところをやります。 TL;DR RTX4070でローカルL...",
-          "pubDate": "Sat, 13 Jun 2026 09:40:45 GMT",
-          "source": "Zenn LLM",
-          "tldr": "自作の「ギャル声」を用いた雑談CLIを開発し、リアルタイムで生成AIと会話できるシステムを構築した。"
+          "title": "構造化パースはBM25よりdense検索を助ける — 日本語文書で計測、差は2倍に広がった",
+          "link": "https://zenn.dev/elvisyao/articles/ddb59295fc5b31",
+          "description": "! 中国オープンソースのパース（RAGFlowのDeepDoc）を日本語文書で計測するシリーズのPhase 3です。前回の記事で明示した2つの限界を収紧します。 英語版（canonical）: https://dev.to/elvisyao007/REPLACE-AFTER-PUBLISH リポジトリと生の2×2結果: https://github.com/elvisyao007/eval-driven-llm/tree/main/reports/deepdoc-eval-v2 前回の記事で、DeepDoc（RAGFlowのドキュメントパーサー）を日本語PDFでプレーンテキスト抽出と比...",
+          "pubDate": "Sat, 13 Jun 2026 13:29:45 GMT",
+          "source": "Zenn ML",
+          "tldr": "構造化パース技術がBM25よりもdense検索を効果的にサポートすることが、日本語文書を用いた計測で確認され、効果の差が2倍に広がったことが報告された。"
         }
       ]
     },
@@ -346,7 +346,7 @@
           "description": "Intel is once again down for another Refresh for its Raptor Lake series and as per the report, it's set to launch it next year. Intel Aims for DDR4 Abundance in the Market Through Releasing New Raptor Lake Refreshes Alongside Nova Lake CPUs Intel Raptor Lake has witnessed multiple refreshes in recen",
           "pubDate": "Sat, 13 Jun 2026 16:10:11 +0000",
           "source": "Wccftech",
-          "tldr": "IntelはRaptor Lakeシリーズの新たなリフレッシュを準備しており、来年の発売を予定している。DDR4プラットフォームの需要が増加している中、新しいRaptor LakeリフレッシュとNova Lake CPUを同時に投入することで市場にDDR4を豊富に供給することを目指している。"
+          "tldr": "IntelはRaptor Lakeシリーズの新たなリフレッシュを準備しており、来年の発売を予定している。DDR4プラットフォームの需要が高まる中、Intelは新しいRaptor LakeリフレッシュとともにNova Lake CPUを投入することで市場にDDR4を豊富に供給することを目指している。"
         },
         {
           "title": "AMD Brings Advanced Shader Delivery Across All RDNA GPUs, Slashing Game Load Times By 95%",
@@ -354,7 +354,7 @@
           "description": "AMD is expanding Advanced Shader Delivery support across its entire RDNA GPU stack, starting with RDNA 1 and up to RDNA 4. Microsoft Advanced Shader Delivery Lands On All AMD RDNA GPUs, Giving Load Times A Big Boost Microsoft's Advanced Shader Delivery is now being expanded through general availabil",
           "pubDate": "Sat, 13 Jun 2026 14:40:04 +0000",
           "source": "Wccftech",
-          "tldr": "AMDは、RDNA 1からRDNA 4までの全てのRDNA GPUにおいてAdvanced Shader Deliveryのサポートを拡大し、ゲームのロード時間を95%短縮することを発表しました。"
+          "tldr": "AMDは、RDNA 1からRDNA 4までの全RDNA GPUにおいてAdvanced Shader Deliveryのサポートを拡大し、ゲームのロード時間を95%短縮することを発表しました。"
         },
         {
           "title": "Save $500 on this beastly gaming rig with an RTX 5060 Ti 16GB, Ryzen 7800X3D, and 32GB of RAM — Skytech's desktop gaming PC now just $1,499",
@@ -362,7 +362,7 @@
           "description": "Looking for a solid gaming PC but tired of seeing exorbitant prices on every retailer's website? We've got you covered with this prebuilt, equipped with high-quality components ready for 1440p gaming and more, with a clear upgrade path once prices settle down.",
           "pubDate": "Sat, 13 Jun 2026 14:29:37 +0000",
           "source": "Tom's Hardware",
-          "tldr": "RTX 5060 Ti 16GB、Ryzen 7800X3D、32GB RAMを搭載したSkytechのゲーミングPCが$1,499に値下げされ、$500の割引が適用されています。1440pゲーミングに最適な高品質なコンポーネントを備え、将来的なアップグレードも可能です。"
+          "tldr": "RTX 5060 Ti 16GB、Ryzen 7800X3D、32GB RAMを搭載したSkytechのゲーミングPCが、現在$1,499で$500の割引中で、1440pゲーミングに最適な高品質なコンポーネントを備えています。"
         },
         {
           "title": "More than 75 data center build-outs worth $130 billion have been successfully blocked in the first four months of 2026 — bipartisan opposition mounts nationwide over fears of soaring power and water costs",
@@ -370,7 +370,7 @@
           "description": "A research firm says the number of blocked data centers in the first quarter of 2026 already matches the number of projects stopped in 2025. The opposition also comes from both sides of the aisle, despite President Trump's push for more AI development inside the U.S.",
           "pubDate": "Sat, 13 Jun 2026 14:13:22 +0000",
           "source": "Tom's Hardware",
-          "tldr": "2026年の最初の4ヶ月で、1300億ドル相当の75以上のデータセンター建設が阻止され、電力と水のコスト上昇への懸念から、両党からの反対が全国的に高まっている。"
+          "tldr": "2026年の最初の4ヶ月で、1300億ドル相当の75以上のデータセンター建設が阻止され、電力と水のコスト上昇への懸念から、両党の反対が全国的に高まっている。"
         },
         {
           "title": "AMD challenges Nvidia's DGX Spark with $3,999 Ryzen AI Halo with Windows 11 support — Strix Halo desktop undercuts Nvidia by $700, packs 128GB of unified memory",
@@ -378,7 +378,7 @@
           "description": "Powered by the Ryzen AI Max+ 395 processor and 128GB of unified memory, AMD's developer kit arrives as a direct competitor to Nvidia's DGX Spark, which recently saw a price increase to $4,699.",
           "pubDate": "Sat, 13 Jun 2026 14:12:34 +0000",
           "source": "Tom's Hardware",
-          "tldr": "AMDは、Ryzen AI Max+ 395プロセッサと128GBの統一メモリを搭載した開発者キット「Strix Halo」を$3,999で発表し、NvidiaのDGX Sparkに直接対抗しています。"
+          "tldr": "AMDは、Ryzen AI Max+ 395プロセッサーと128GBの統合メモリを搭載した開発者キット「Strix Halo」を$3,999で発表し、NvidiaのDGX Sparkに対抗しています。"
         },
         {
           "title": "STH Weekly Newsletters You Want to Subscribe in Q2 2026",
@@ -386,7 +386,7 @@
           "description": "Subscribe to our newsletters to stay up to date on the latest reviews and coverage from STH and more delivered to your inbox The post STH Weekly Newsletters You Want to Subscribe in Q2 2026 appeared first on ServeTheHome.",
           "pubDate": "Sat, 13 Jun 2026 14:00:34 +0000",
           "source": "ServeTheHome",
-          "tldr": "STHの最新レビューや情報を受け取るためのニュースレターへの登録をお勧めします。"
+          "tldr": "STHのニュースレターに登録して、2026年第2四半期の最新レビューや情報を受け取ろう。"
         },
         {
           "title": "Netgear countersues TP-Link, saying firm 'remains, at its core, a Chinese company selling Chinese-made products' — alleges its 'American company' rebrand is false advertising",
@@ -394,7 +394,7 @@
           "description": "Netgear filed counterclaims against TP-Link in federal court in Delaware on June 11, accusing its larger rival of false advertising under the Lanham Act.",
           "pubDate": "Sat, 13 Jun 2026 13:47:29 +0000",
           "source": "Tom's Hardware",
-          "tldr": "NetgearはTP-Linkに対して、同社が「アメリカの企業」としてのブランドを偽っているとし、虚偽広告の訴えを連邦裁判所に提起した。"
+          "tldr": "NetgearはTP-Linkに対して、同社が「アメリカの企業」としてのブランドを偽って宣伝していると主張し、連邦裁判所に反訴を提起した。"
         },
         {
           "title": "NVIDIA’s 96 GB RTX PRO 6000 Blackwell Is Now Over 50% More Expensive As Price Hits $13,250",
@@ -402,7 +402,7 @@
           "description": "NVIDIA's fastest PRO graphics card, the RTX 6000 Blackwell, continues to see price hikes with the latest official listing of $13,250. NVIDIA RTX PRO 6000 Blackwell &#38; RTX 5090 Graphics Cards Continue To Face Price Hikes Due To Memory Shortages &#38; Rising AI Demand Last month, we reported that N",
           "pubDate": "Sat, 13 Jun 2026 13:35:18 +0000",
           "source": "Wccftech",
-          "tldr": "NVIDIAの最速PROグラフィックスカードRTX 6000 Blackwellの価格が$13,250に達し、50%以上の値上がりを記録しています。これはメモリ不足とAI需要の高まりが影響しています。"
+          "tldr": "NVIDIAの最速PROグラフィックスカードRTX 6000 Blackwellの価格が$13,250に達し、50%以上の値上がりを記録しています。これはメモリ不足とAI需要の高まりによるものです。"
         },
         {
           "title": "CachyOS Proton Can Now Download DLSS Files To Enable FSR 4 In More Linux Games",
@@ -410,7 +410,7 @@
           "description": "A new Proton-CachyOS update can automatically download NVIDIA DLSS DLL files when using Optiscaler, allowing AMD users to enable FSR 4 in more games. Linux Gamers Can Now Enable AMD FSR 4 in More DLSS-Only Games Thanks to Proton-CachyOS Update Linux gaming has taken another step forward, thanks to a",
           "pubDate": "Sat, 13 Jun 2026 13:09:14 +0000",
           "source": "Wccftech",
-          "tldr": "CachyOSのProtonアップデートにより、Optiscalerを使用する際にNVIDIA DLSS DLLファイルを自動でダウンロードできるようになり、AMDユーザーはより多くのゲームでFSR 4を有効にできるようになりました。"
+          "tldr": "CachyOSのProtonアップデートにより、Optiscalerを使用する際にNVIDIA DLSS DLLファイルを自動ダウンロードできるようになり、AMDユーザーはより多くのゲームでFSR 4を有効にできるようになりました。"
         },
         {
           "title": "Nvidia raises RTX Pro 6000 Blackwell GPU pricing to $13,250 — 55% increase over MSRP in a year's time",
@@ -418,7 +418,7 @@
           "description": "Nvidia now sells the RTX Pro 6000 Blackwell graphics cards for $13,250, while partner offerings start at $11,359.99.",
           "pubDate": "Sat, 13 Jun 2026 12:30:00 +0000",
           "source": "Tom's Hardware",
-          "tldr": "NvidiaはRTX Pro 6000 Blackwell GPUの価格を$13,250に引き上げ、これは1年でMSRPから55%の増加となる。"
+          "tldr": "NvidiaはRTX Pro 6000 Blackwell GPUの価格を$13,250に引き上げ、これは1年でMSRPから55%の増加となります。パートナー製品は$11,359.99から販売されています。"
         },
         {
           "title": "Asha Sharma’s Xbox Overhaul Targets Fallout, and Obsidian’s The Outer Worlds Team Looks Like the Perfect Fit",
@@ -426,7 +426,7 @@
           "description": "Obsidian Entertainment has created a lot of great roleplaying games over its 23-year history (the studio's anniversary was yesterday, by the way), but there is little doubt that its name, in the minds of the gaming mainstream, is synonymous with that of Fallout: New Vegas. The game wasn't actually a",
           "pubDate": "Sat, 13 Jun 2026 12:00:00 +0000",
           "source": "Wccftech",
-          "tldr": "TL;DR: Asha SharmaがXboxの改革を進めており、Obsidian Entertainmentの『The Outer Worlds』チームが『Fallout』シリーズに最適な選択肢として注目されている。"
+          "tldr": "TL;DR: Obsidian EntertainmentのAsha SharmaがXboxの改革を進めており、同社の『Fallout: New Vegas』の名声を活かして『The Outer Worlds』チームが新たなプロジェクトに最適であると期待されている。"
         },
         {
           "title": "AI costs spike as subscriptions hit pricing wall — firms turn towards Chinese LLMs, open-source models to extend budget",
@@ -434,7 +434,7 @@
           "description": "Companies look for cheaper alternatives as token costs for frontier AI models skyrocket, potentially impacting OpenAI and Anthropic's bottom lines. Subscriptions also take a bite out of these startup's profitability, as utilization rates higher than 5.7% could lead to losses.",
           "pubDate": "Sat, 13 Jun 2026 12:00:00 +0000",
           "source": "Tom's Hardware",
-          "tldr": "企業はフロンティアAIモデルのトークンコストが急騰する中、中国のLLMやオープンソースモデルに目を向け、予算を延ばそうとしている。これにより、OpenAIやAnthropicの収益にも影響が出る可能性がある。"
+          "tldr": "企業はフロンティアAIモデルのトークンコストが急騰する中、中国のLLMやオープンソースモデルに目を向け、コスト削減を図っている。これにより、OpenAIやAnthropicの収益にも影響が出る可能性がある。"
         },
         {
           "title": "Intel reportedly preparing surprise return to DDR4 systems with 'Raptor Lake Next' — LGA 1700 platform apparently slated for first half of 2027, takes a page from AMD's book by extending budget platform longevity",
@@ -442,7 +442,7 @@
           "description": "The name came up a few times during our conversations at Computex. Intel has declined to comment on it.",
           "pubDate": "Sat, 13 Jun 2026 11:30:00 +0000",
           "source": "Tom's Hardware",
-          "tldr": "Intelは2027年上半期にLGA 1700プラットフォーム向けの「Raptor Lake Next」を発表し、DDR4システムへのサプライズ復帰を計画していると報じられている。これはAMDの戦略を参考にしたもので、予算向けプラットフォームの寿命を延ばす狙いがある。"
+          "tldr": "Intelが2027年上半期にLGA 1700プラットフォーム向けの「Raptor Lake Next」を発表し、DDR4システムへのサプライズ復帰を計画していると報じられています。これはAMDの戦略を参考にしたもので、予算向けプラットフォームの寿命を延ばすものです。"
         },
         {
           "title": "U.S. gov't orders Anthropic to disable its newest AI models worldwide due to security threats — ban on Claude Fable 5 and Mythos 5 bars access by any foreign national, even its own employees",
@@ -450,7 +450,7 @@
           "description": "Anthropic disabled its two most capable AI models, Claude Fable 5 and Claude Mythos 5, for every customer worldwide on Friday.",
           "pubDate": "Sat, 13 Jun 2026 11:24:13 +0000",
           "source": "Tom's Hardware",
-          "tldr": "米政府はAnthropicに対し、セキュリティ脅威を理由に最新のAIモデルClaude Fable 5とClaude Mythos 5を全世界で無効化するよう命じ、外国人を含むすべての顧客のアクセスを禁止しました。"
+          "tldr": "TL;DR: 米国政府はAnthropicに対し、セキュリティ上の脅威を理由に最新のAIモデルClaude Fable 5とClaude Mythos 5を全世界で無効化するよう命じ、外国人および自社の従業員もアクセスを禁止されました。"
         },
         {
           "title": "Ukraine used ten AI-controlled ‘Terminator’ drones to kill Russian soldiers two years ago, marking first autonomous killings of humans — autonomous killer quadcopters left ‘everything dead’ says senior Ukrainian defense industry figure",
@@ -458,7 +458,7 @@
           "description": "A watershed moment occurred on the battlefields of Ukraine in 2024 when 10 fully autonomous AI-controlled quadcopter drones were sent to the front lines against Russia with ‘Terminator Mode’ engaged.",
           "pubDate": "Sat, 13 Jun 2026 10:46:57 +0000",
           "source": "Tom's Hardware",
-          "tldr": "ウクライナは2024年に10機の完全自律型AI制御クアドコプターをロシアに対して使用し、初の自律的な人間殺害を達成したと、ウクライナの防衛産業の高官が述べた。"
+          "tldr": "ウクライナは2024年に10機の完全自律型AI制御のクアドコプターをロシアに対して使用し、初めての自律的な人間殺害を実現した。"
         },
         {
           "title": "Dev releases ‘unblockable’ ASCII video stream software, stoking fears of unstoppable ads — delivers 360p video at 30 FPS and acts as a ‘bridge for AI’",
@@ -466,7 +466,7 @@
           "description": "A new and unique video streaming solution is pitched as a 'high-performance, real-time ASCII video rendering engine' that can be used to broadcast 'an unblockable video stream.'",
           "pubDate": "Sat, 13 Jun 2026 10:11:13 +0000",
           "source": "Tom's Hardware",
-          "tldr": "新たに開発されたASCIIビデオストリーミングソフトウェアは、「アンブロック可能なビデオストリーム」を配信できる高性能なリアルタイムレンダリングエンジンとして提案されており、360pで30FPSの動画を提供します。"
+          "tldr": "新たに開発されたASCII動画ストリーミングソフトウェアは、「アンブロッカブル」な動画配信を可能にし、360pで30FPSの映像を提供することで、AIのブリッジとしても機能することが期待されています。"
         },
         {
           "title": "AMD Tackles NVIDIA’s $4679 DGX Spark AI PC With Its $3999 Ryzen AI Halo: Now Available With 128 GB Memory For Blazing Fast LLMs",
@@ -474,7 +474,7 @@
           "description": "AMD has officially launched its Ryzen AI Halo AI PC, which offers super-fast token throughput at a $3999 price point. AMD Challenges DGX Spark With Its Strix Halo-Equipped Ryzen AI Halo \"AI PC\" That Costs $679 US Lower The first AMD Ryzen AI Halo platforms are now available on retail, and are listed",
           "pubDate": "Sat, 13 Jun 2026 09:15:13 +0000",
           "source": "Wccftech",
-          "tldr": "AMDがRyzen AI Halo AI PCを発表し、価格3999ドルで128GBメモリを搭載し、NVIDIAのDGX Spark AI PCに対抗しています。"
+          "tldr": "AMDがRyzen AI Halo AI PCを正式に発表し、価格$3999で128GBメモリを搭載し、NVIDIAのDGX Spark AI PCに挑戦しています。"
         },
         {
           "title": "CI Games Rebuilds Lords of the Fallen 2’s Umbral Realm After Criticism It Felt “Too Static” in Earlier Footage",
@@ -482,7 +482,7 @@
           "description": "During Summer Game Fest 2026, CI Games confirmed what we had already assumed when the publisher announced it had purchased back the publishing rights for Lords of the Fallen 2: it's no longer an Epic Games Store exclusive on PC. Moreover, the studio also revealed that a Nintendo Switch 2 version is ",
           "pubDate": "Sat, 13 Jun 2026 08:00:00 +0000",
           "source": "Wccftech",
-          "tldr": "CI Gamesは「Lords of the Fallen 2」のUmbral Realmを再構築し、以前の映像での「静的すぎる」との批判に応えた。また、同作はEpic Games Storeの独占から外れ、Nintendo Switch 2版も発表された。"
+          "tldr": "CI Gamesは「Lords of the Fallen 2」のUmbral Realmを再構築し、以前の映像に対する「静的すぎる」という批判に応えた。また、同作はEpic Games Storeの独占から外れ、Nintendo Switch 2版も発表された。"
         },
         {
           "title": "This is an Intel Xeon 6 SoC DPU on a PCIe Card from Senao at Computex 2026",
@@ -490,7 +490,7 @@
           "description": "We saw an Intel Xeon 6 SoC-based next-generation SmartNIC DPU at Computex 2026. This Senao SX906 is really neat The post This is an Intel Xeon 6 SoC DPU on a PCIe Card from Senao at Computex 2026 appeared first on ServeTheHome.",
           "pubDate": "Sat, 13 Jun 2026 00:33:58 +0000",
           "source": "ServeTheHome",
-          "tldr": "Computex 2026で、SenaoがIntel Xeon 6 SoCを搭載した次世代SmartNIC DPU「SX906」を発表しました。"
+          "tldr": "Computex 2026で、SenaoのIntel Xeon 6 SoCを搭載した次世代SmartNIC DPUであるSX906が展示されました。"
         },
         {
           "title": "Trillionaire Elon Musk Wants To Take His Partnership With NVIDIA To The “Next Level” After A Historic SpaceX IPO",
@@ -498,7 +498,7 @@
           "description": "Now that SpaceX shares are trading freely following a historic IPO, one that has made Elon Musk the world's first trillionaire, an expansive partnership with NVIDIA is apparently the next order of business, with Musk publicly professing his desire to deepen the bond between the two mega-companies. I",
           "pubDate": "Sat, 13 Jun 2026 00:10:49 +0000",
           "source": "Wccftech",
-          "tldr": "エロン・マスクが史上初のトリリオネアとなったSpaceXのIPO後、NVIDIAとのパートナーシップを深める意向を示している。"
+          "tldr": "エロン・マスクは、史上初のトリリオネアとなったスペースXのIPO後、NVIDIAとのパートナーシップを「次のレベル」に引き上げたいと公言している。"
         }
       ]
     },
@@ -513,7 +513,7 @@
           "description": "Chinese hackers took control of a target organization's authentication stack and maintained persistence for 10 years, with full visibility into the administrative activity. [...]",
           "pubDate": "Sat, 13 Jun 2026 10:06:42 -0400",
           "source": "BleepingComputer",
-          "tldr": "中国のハッカーが標的組織の認証フローを乗っ取り、10年間にわたり管理活動を完全に監視していたことが報告されました。"
+          "tldr": "中国のハッカーが標的組織の認証フローを乗っ取り、10年間にわたり管理活動を監視し続けた。"
         },
         {
           "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
@@ -521,7 +521,7 @@
           "description": "Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vulnerability, tracked as CVE-2026-20253, is rated 9.8 on the CVSS scoring system. \"In Splunk Enterpris",
           "pubDate": "Sat, 13 Jun 2026 18:53:03 +0530",
           "source": "The Hacker News",
-          "tldr": "Splunkは、認証なしでファイル操作やリモートコード実行が可能な重大な脆弱性（CVE-2026-20253）に対処するためのセキュリティアップデートをリリースしました。この脆弱性はCVSSスコア9.8と評価されています。"
+          "tldr": "Splunkは、認証なしでファイル操作やリモートコード実行が可能な重大なセキュリティ脆弱性（CVE-2026-20253）に対処するためのセキュリティアップデートをリリースしました。この脆弱性はCVSSスコアで9.8と評価されています。"
         },
         {
           "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
@@ -529,7 +529,7 @@
           "description": "The US government has ordered Anthropic to block all foreign nationals from accessing Fable 5 and Mythos 5, forcing the company to suspend both models worldwide. Anthropic is complying but disputes the basis, calling the cited jailbreak narrow and the capability widely available elsewhere. [...]",
           "pubDate": "Sat, 13 Jun 2026 06:01:32 -0400",
           "source": "BleepingComputer",
-          "tldr": "米国政府はAnthropicに対し、Fable 5とMythos 5への外国人のアクセスを禁止するよう命じ、同社は両モデルを世界的に一時停止することになった。Anthropicはこの命令に従いつつも、その根拠に異議を唱えている。"
+          "tldr": "米国政府はAnthropicに対し、Fable 5とMythos 5への外国人のアクセスを禁止するよう命じ、同社は両モデルの提供を世界的に停止することとなった。Anthropicはこの命令に従うが、その根拠に異議を唱えている。"
         },
         {
           "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals",
@@ -537,7 +537,7 @@
           "description": "Anthropic said on Friday it will \"abruptly disable\" its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5, for all users after the U.S. government ordered it to suspend access to the models for foreign nationals, whether inside or outside the U.S., citing national securi",
           "pubDate": "Sat, 13 Jun 2026 11:12:50 +0530",
           "source": "The Hacker News",
-          "tldr": "米国政府の命令により、Anthropicは外国人に対するClaude Fable 5およびMythos 5のアクセスを一時停止し、全ユーザーに対してこれらのAIモデルを「突然無効化」することを発表した。"
+          "tldr": "アメリカ政府の命令により、Anthropicは外国人に対するClaude Fable 5とMythos 5のアクセスを停止し、すべてのユーザーに対してこれらのAIモデルを「突然無効化」することを発表しました。"
         },
         {
           "title": "Friday Squid Blogging: Squid-Inspired Fluid Pump",
@@ -545,7 +545,7 @@
           "description": "This fluid pump was inspired by the way squids propel themselves through the water. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy.",
           "pubDate": "2026-06-12T21:05:03Z",
           "source": "Schneier on Security",
-          "tldr": "この流体ポンプは、イカが水中を推進する方法からインスパイアを受けて開発されました。"
+          "tldr": "この流体ポンプは、イカが水中を推進する方法からインスパイアを受けて開発されました。また、この記事を利用して未報道のセキュリティ関連ニュースについても議論できます。"
         },
         {
           "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
@@ -561,7 +561,7 @@
           "description": "Maine has taken its public data breach reporting portal offline after fraudulent breach disclosures were published on the state's website, prompting a review of procedures to prevent abuse in the future. [...]",
           "pubDate": "Fri, 12 Jun 2026 15:33:32 -0400",
           "source": "BleepingComputer",
-          "tldr": "メイン州は、偽のデータ侵害報告が州のウェブサイトに掲載されたため、公共データ侵害報告ポータルを一時的に停止し、今後の悪用を防ぐための手続きの見直しを行っています。"
+          "tldr": "メイン州は、州のウェブサイトに偽のデータ侵害報告が掲載されたため、公共のデータ侵害報告ポータルをオフラインにし、今後の悪用を防ぐための手続きの見直しを行っています。"
         },
         {
           "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
@@ -569,7 +569,7 @@
           "description": "Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built them. The malware is a Rust binary built to harvest developer secrets. When it lands with root, it can also load an eBPF ro",
           "pubDate": "Sat, 13 Jun 2026 01:03:25 +0530",
           "source": "The Hacker News",
-          "tldr": "400以上のArch Linux AURパッケージが攻撃者に乗っ取られ、ビルドスクリプトが改ざんされて認証情報を盗むマルウェアがインストールされる事態が発生しました。このマルウェアはRustで作成され、root権限で実行されるとeBPFルートキットも読み込むことができます。"
+          "tldr": "400以上のArch Linux AURパッケージが攻撃者に乗っ取られ、ビルドスクリプトが書き換えられて、資格情報を盗むマルウェアがインストールされる事態が発生しました。このマルウェアはRustで構築され、root権限を持つとeBPFルートキットも読み込むことができます。"
         },
         {
           "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
@@ -577,7 +577,7 @@
           "description": "Google on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text messages targeting Americans. The network is said to be behind the development and management of a phishing-as-a-service (Ph",
           "pubDate": "Sat, 13 Jun 2026 00:29:32 +0530",
           "source": "The Hacker News",
-          "tldr": "Googleは、中国のサイバー犯罪ネットワークに対して訴訟を起こし、同ネットワークが自社のGemini AIを利用してアメリカ人を狙ったフィッシングSMSを送信していると非難しています。"
+          "tldr": "Googleは、中国のサイバー犯罪ネットワークを訴え、同ネットワークが自社のGemini AIを利用してアメリカ人を狙ったフィッシングSMSを送信していると主張しています。"
         },
         {
           "title": "phpBB forum fixes auth bypass bug lurking for a decade",
@@ -585,7 +585,7 @@
           "description": "A 10-year-old authentication bypass vulnerability discovered in the phpBB forum software allows an attacker to log in as any user, including administrators. [...]",
           "pubDate": "Fri, 12 Jun 2026 14:19:34 -0400",
           "source": "BleepingComputer",
-          "tldr": "phpBBフォーラムソフトウェアに存在していた10年前の認証バイパス脆弱性が修正され、攻撃者が任意のユーザー（管理者を含む）としてログインできる可能性があった。"
+          "tldr": "phpBBフォーラムソフトウェアに存在していた10年もの間放置されていた認証バイパス脆弱性が修正され、攻撃者が任意のユーザーとしてログインできる可能性があった。"
         },
         {
           "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade",
@@ -593,7 +593,7 @@
           "description": "Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself. Sygnia, which tracks the group as Velvet Ant, says it backdoored the PAM and OpenSSH components that decide who is allowed to sign in, p",
           "pubDate": "Fri, 12 Jun 2026 23:47:55 +0530",
           "source": "The Hacker News",
-          "tldr": "中国に関連するハッカーグループが、Linuxのログインシステムに約10年間隠れていたことが明らかになり、PAMおよびOpenSSHコンポーネントにバックドアを仕込んでいたとSygniaが報告しています。"
+          "tldr": "中国に関連するハッカーグループが、Linuxのログインシステムに近く10年間隠れており、PAMおよびOpenSSHコンポーネントにバックドアを仕掛けていたことが報告された。"
         },
         {
           "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
@@ -601,7 +601,7 @@
           "description": "A Ukrainian national extradited from Ireland to the United States last year has pleaded guilty to conspiracy charges tied to the Conti ransomware operation. [...]",
           "pubDate": "Fri, 12 Jun 2026 13:54:28 -0400",
           "source": "BleepingComputer",
-          "tldr": "ウクライナ国籍の男性が、アイルランドからアメリカに引き渡され、Contiランサムウェア作戦に関連する陰謀罪を認めた。"
+          "tldr": "ウクライナ国籍の男性が、アイルランドからアメリカに引き渡された後、Contiランサムウェア作戦に関連する陰謀罪で有罪を認めました。"
         },
         {
           "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
@@ -609,7 +609,7 @@
           "description": "More than 400 packages in the Arch User Repository (AUR) are distributing a Linux rootkit and infostealer malware targeting credentials and access tokens. [...]",
           "pubDate": "Fri, 12 Jun 2026 13:03:55 -0400",
           "source": "BleepingComputer",
-          "tldr": "400以上のArch Linuxパッケージが、認証情報やアクセストークンを狙ったLinuxルートキットとインフォステーラーのマルウェアを配布している。"
+          "tldr": "400以上のArch Linuxパッケージが、認証情報やアクセストークンを狙ったLinuxルートキットと情報盗難マルウェアを配布している。"
         },
         {
           "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
@@ -617,7 +617,7 @@
           "description": "GitHub access sales, leaked repositories, and stolen API keys can all become supply-chain attack footholds. Flare explores how underground forums expose early signals tied to software supply-chain risk. [...]",
           "pubDate": "Fri, 12 Jun 2026 10:01:11 -0400",
           "source": "BleepingComputer",
-          "tldr": "TL;DR: Flareは、地下フォーラムがソフトウェアサプライチェーンリスクに関連する早期警告サインをどのように暴露しているかを探り、GitHubアクセスの販売や漏洩したリポジトリ、盗まれたAPIキーがサプライチェーン攻撃の足がかりとなる可能性を示しています。"
+          "tldr": "サプライチェーン攻撃の兆候はダークウェブに存在し、GitHubアクセスの販売や漏洩したリポジトリ、盗まれたAPIキーが攻撃の足がかりとなる可能性があることをFlareが探ります。"
         },
         {
           "title": "Claude Fable 5 Doesn't Change the Mythos Security Story",
@@ -625,7 +625,7 @@
           "description": "Stay cool: Mythos 5 is an upgrade over Mythos Preview while Fable 5 is Mythos &quot;made safe for general use,&quot; Anthropic explained.",
           "pubDate": "Fri, 12 Jun 2026 13:01:00 GMT",
           "source": "Dark Reading",
-          "tldr": "TL;DR: Mythos 5はMythos Previewのアップグレードであり、Fable 5は一般利用向けに安全にしたMythosであるとAnthropicが説明しています。"
+          "tldr": "TL;DR: Mythos 5はMythos Previewのアップグレードであり、Fable 5は一般利用向けに安全化されたMythosであるとAnthropicが説明しています。"
         },
         {
           "title": "Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code",
@@ -633,7 +633,7 @@
           "description": "Cybersecurity researchers have described what they say is a new class of attack that can trick artificial intelligence (AI) coding agents into running arbitrary code on developer machines. Called Agentjacking by Tenet Security, the attack can be triggered by means of a fake error report crafted usin",
           "pubDate": "Fri, 12 Jun 2026 17:34:33 +0530",
           "source": "The Hacker News",
-          "tldr": "AIコーディングエージェントを騙して任意のコードを実行させる新たな攻撃手法「Agentjacking」が報告され、偽のエラーレポートを利用して開発者のマシンに悪意のあるコードを実行させることが可能である。"
+          "tldr": "AIコーディングエージェントを騙して任意のコードを実行させる新たな攻撃手法「Agentjacking」が、Tenet Securityによって報告されました。この攻撃は、偽のエラーレポートを用いて引き起こされる可能性があります。"
         },
         {
           "title": "Microsoft fixes Windows update failures linked to WUSA installer",
@@ -641,7 +641,7 @@
           "description": "Microsoft has fixed a known issue that caused Windows updates released since May 2025 to fail when installed via the Windows Update Standalone Installer (WUSA) from a network share. [...]",
           "pubDate": "Fri, 12 Jun 2026 07:44:58 -0400",
           "source": "BleepingComputer",
-          "tldr": "Microsoftは、2025年5月以降にリリースされたWindowsアップデートがネットワーク共有からWUSAを使用してインストールされる際に失敗する問題を修正しました。"
+          "tldr": "Microsoftは、2025年5月以降にリリースされたWindowsアップデートがネットワーク共有からWUSAを使用してインストールされる際に失敗する既知の問題を修正しました。"
         },
         {
           "title": "Bernie Sanders’ AI Sovereign Wealth Fund Plan",
@@ -649,7 +649,7 @@
           "description": "Let no one accuse Bernie Sanders of ducking the big questions. Writing in the New York Times last week, the senator asked: &#8220;Will the future of humanity be determined by a handful of billionaires who have promoted and developed AI, with virtually no democratic input, who stand to become even ri",
           "pubDate": "2026-06-12T11:03:17Z",
           "source": "Schneier on Security",
-          "tldr": "バーニー・サンダースは、AIの未来が少数の億万長者によって決定されるべきではないと主張し、民主的な関与を促すためのAIソブリン・ウェルス・ファンドの設立を提案した。"
+          "tldr": "バーニー・サンダースは、AIの未来が少数の億万長者によって決定されるのではなく、民主的な関与を促進するためのAIソブリンウェルスファンドの設立を提案している。"
         },
         {
           "title": "Rethinking MDR as Attackers and Defenders Embrace AI",
@@ -657,7 +657,7 @@
           "description": "For most of the past decade, managed detection and response was the answer to a real problem. Security teams couldn't staff around the clock, couldn't hire enough analysts, and needed someone else to handle the alert queue. MDR stepped in. It worked well enough. Until now. The threat landscape has c",
           "pubDate": "Fri, 12 Jun 2026 16:30:00 +0530",
           "source": "The Hacker News",
-          "tldr": "TL;DR: 過去10年間、Managed Detection and Response (MDR)はセキュリティチームのリソース不足を補う解決策として機能していたが、AIの進化により脅威の状況が変化し、MDRの役割が再考される必要がある。"
+          "tldr": "TL;DR: 過去10年間、Managed Detection and Response (MDR)はセキュリティチームの人手不足を補う解決策として機能していたが、攻撃者と防御者がAIを活用する中で、その効果が変わりつつある。"
         },
         {
           "title": "Pharma giant Novo Nordisk discloses breach of clinical trials data",
@@ -665,7 +665,7 @@
           "description": "Danish pharmaceutical giant Novo Nordisk, the world's largest producer of insulin, disclosed a data breach affecting patient information from some clinical trials. [...]",
           "pubDate": "Fri, 12 Jun 2026 06:13:19 -0400",
           "source": "BleepingComputer",
-          "tldr": "デンマークの製薬大手ノボ・ノルディスクが、いくつかの臨床試験からの患者情報に関するデータ侵害を公表しました。"
+          "tldr": "デンマークの製薬大手ノボノルディスクが、いくつかの臨床試験からの患者情報に関するデータ侵害を公表しました。"
         }
       ]
     }
