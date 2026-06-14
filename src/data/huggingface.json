@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-14T22:00:20.547Z",
+  "updatedAt": "2026-06-14T23:00:27.369Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "google/diffusiongemma-26B-A4B-it",
         "author": "google",
-        "likes": 783,
+        "likes": 787,
         "downloads": 198912,
         "tags": [
           "transformers",
@@ -25,7 +25,7 @@
       {
         "id": "moonshotai/Kimi-K2.7-Code",
         "author": "moonshotai",
-        "likes": 616,
+        "likes": 621,
         "downloads": 15145,
         "tags": [
           "transformers",
@@ -72,7 +72,7 @@
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 1995,
+        "likes": 1997,
         "downloads": 75201,
         "tags": [
           "transformers",
@@ -131,7 +131,7 @@
       {
         "id": "google/gemma-4-12B-it",
         "author": "google",
-        "likes": 1007,
+        "likes": 1008,
         "downloads": 1084405,
         "tags": [
           "transformers",
@@ -149,6 +149,29 @@
         "pipeline_tag": "any-to-any",
         "lastModified": "",
         "link": "https://huggingface.co/google/gemma-4-12B-it"
+      },
+      {
+        "id": "prefeitura-rio/Rio-3.5-Open-397B",
+        "author": "prefeitura-rio",
+        "likes": 268,
+        "downloads": 112371,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "conversational",
+          "pt",
+          "en",
+          "base_model:Qwen/Qwen3.5-397B-A17B",
+          "base_model:finetune:Qwen/Qwen3.5-397B-A17B",
+          "license:mit",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B"
       },
       {
         "id": "unsloth/diffusiongemma-26B-A4B-it-GGUF",
@@ -175,27 +198,36 @@
         "link": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF"
       },
       {
-        "id": "prefeitura-rio/Rio-3.5-Open-397B",
-        "author": "prefeitura-rio",
-        "likes": 267,
-        "downloads": 112371,
+        "id": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
+        "author": "OBLITERATUS",
+        "likes": 297,
+        "downloads": 60949,
         "tags": [
           "transformers",
           "safetensors",
-          "qwen3_5_moe",
+          "gguf",
+          "gemma4_unified",
           "image-text-to-text",
+          "gemma",
+          "gemma4",
+          "text-generation",
+          "obliteratus",
+          "refusal-analysis",
+          "red-team",
+          "aspa",
+          "abliteration",
+          "safety-research",
+          "alignment-research",
           "conversational",
-          "pt",
-          "en",
-          "base_model:Qwen/Qwen3.5-397B-A17B",
-          "base_model:finetune:Qwen/Qwen3.5-397B-A17B",
-          "license:mit",
+          "base_model:google/gemma-4-12B-it",
+          "base_model:quantized:google/gemma-4-12B-it",
+          "license:gemma",
           "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B"
+        "link": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED"
       },
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
@@ -226,41 +258,9 @@
         "link": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
       },
       {
-        "id": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
-        "author": "OBLITERATUS",
-        "likes": 295,
-        "downloads": 60949,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "gguf",
-          "gemma4_unified",
-          "image-text-to-text",
-          "gemma",
-          "gemma4",
-          "text-generation",
-          "obliteratus",
-          "refusal-analysis",
-          "red-team",
-          "aspa",
-          "abliteration",
-          "safety-research",
-          "alignment-research",
-          "conversational",
-          "base_model:google/gemma-4-12B-it",
-          "base_model:quantized:google/gemma-4-12B-it",
-          "license:gemma",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED"
-      },
-      {
         "id": "bosonai/higgs-audio-v3-tts-4b",
         "author": "bosonai",
-        "likes": 425,
+        "likes": 426,
         "downloads": 35122,
         "tags": [
           "transformers",
@@ -423,31 +423,9 @@
         "link": "https://huggingface.co/nex-agi/Nex-N2-mini"
       },
       {
-        "id": "ideogram-ai/ideogram-4-fp8",
-        "author": "ideogram-ai",
-        "likes": 534,
-        "downloads": 8263,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "text-to-image",
-          "image-generation",
-          "diffusion",
-          "flow-matching",
-          "dit",
-          "ideogram",
-          "license:other",
-          "diffusers:Ideogram4Pipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/ideogram-ai/ideogram-4-fp8"
-      },
-      {
         "id": "Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
         "author": "Jackrong",
-        "likes": 177,
+        "likes": 178,
         "downloads": 33720,
         "tags": [
           "transformers",
@@ -485,6 +463,28 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF"
+      },
+      {
+        "id": "ideogram-ai/ideogram-4-fp8",
+        "author": "ideogram-ai",
+        "likes": 534,
+        "downloads": 8263,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image",
+          "image-generation",
+          "diffusion",
+          "flow-matching",
+          "dit",
+          "ideogram",
+          "license:other",
+          "diffusers:Ideogram4Pipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/ideogram-ai/ideogram-4-fp8"
       },
       {
         "id": "zai-org/SCAIL-2",
@@ -580,7 +580,7 @@
       {
         "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "author": "yuxinlu1",
-        "likes": 144,
+        "likes": 152,
         "downloads": 6219,
         "tags": [
           "gguf",
@@ -606,7 +606,7 @@
       {
         "id": "unsloth/gemma-4-12b-it-GGUF",
         "author": "unsloth",
-        "likes": 593,
+        "likes": 595,
         "downloads": 926372,
         "tags": [
           "gguf",
@@ -704,7 +704,7 @@
       {
         "id": "ideogram-ai/ideogram-4-nf4",
         "author": "ideogram-ai",
-        "likes": 335,
+        "likes": 336,
         "downloads": 3763,
         "tags": [
           "diffusers",
@@ -876,33 +876,9 @@
         "link": "https://huggingface.co/Comfy-Org/Ideogram-4"
       },
       {
-        "id": "unsloth/gemma-4-26B-A4B-it-qat-GGUF",
-        "author": "unsloth",
-        "likes": 157,
-        "downloads": 317261,
-        "tags": [
-          "transformers",
-          "gguf",
-          "gemma4",
-          "image-text-to-text",
-          "unsloth",
-          "gemma",
-          "google",
-          "base_model:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
-          "base_model:quantized:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF"
-      },
-      {
         "id": "silx-ai/Quasar-Preview",
         "author": "silx-ai",
-        "likes": 69,
+        "likes": 71,
         "downloads": 307,
         "tags": [
           "transformers",
@@ -935,6 +911,30 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/silx-ai/Quasar-Preview"
+      },
+      {
+        "id": "unsloth/gemma-4-26B-A4B-it-qat-GGUF",
+        "author": "unsloth",
+        "likes": 157,
+        "downloads": 317261,
+        "tags": [
+          "transformers",
+          "gguf",
+          "gemma4",
+          "image-text-to-text",
+          "unsloth",
+          "gemma",
+          "google",
+          "base_model:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
+          "base_model:quantized:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF"
       }
     ]
   },
@@ -944,7 +944,7 @@
       {
         "id": "Glint-Research/Fable-5-traces",
         "author": "Glint-Research",
-        "likes": 171,
+        "likes": 176,
         "downloads": 41,
         "tags": [
           "license:agpl-3.0",
@@ -963,7 +963,7 @@
       {
         "id": "agents-last-exam/agents-last-exam",
         "author": "agents-last-exam",
-        "likes": 173,
+        "likes": 174,
         "downloads": 4043,
         "tags": [
           "language:en",
@@ -1058,7 +1058,7 @@
       {
         "id": "lazarus19/Vibe-Coding-Claude-Fable-5",
         "author": "lazarus19",
-        "likes": 41,
+        "likes": 42,
         "downloads": 14,
         "tags": [
           "size_categories:1M<n<10M",
@@ -1301,37 +1301,6 @@
         "link": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb-L3"
       },
       {
-        "id": "Jackrong/GLM-5.1-Reasoning-1M-Cleaned",
-        "author": "Jackrong",
-        "likes": 277,
-        "downloads": 7165,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:question-answering",
-          "language:en",
-          "language:zh",
-          "license:apache-2.0",
-          "size_categories:100K<n<1M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "reasoning",
-          "chain-of-thought",
-          "instruction-tuning",
-          "sft",
-          "distillation",
-          "glm",
-          "glm-5.1",
-          "cleaned"
-        ],
-        "lastModified": "2026-04-19T05:05:17.000Z",
-        "link": "https://huggingface.co/datasets/Jackrong/GLM-5.1-Reasoning-1M-Cleaned"
-      },
-      {
         "id": "MEDHARVIX-SYSTEMS/bhasaflow-khasi-english-parallel-sample-v1",
         "author": "MEDHARVIX-SYSTEMS",
         "likes": 23,
@@ -1389,6 +1358,37 @@
         ],
         "lastModified": "2025-07-11T20:16:53.000Z",
         "link": "https://huggingface.co/datasets/HuggingFaceFW/fineweb"
+      },
+      {
+        "id": "Jackrong/GLM-5.1-Reasoning-1M-Cleaned",
+        "author": "Jackrong",
+        "likes": 277,
+        "downloads": 7165,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:question-answering",
+          "language:en",
+          "language:zh",
+          "license:apache-2.0",
+          "size_categories:100K<n<1M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "reasoning",
+          "chain-of-thought",
+          "instruction-tuning",
+          "sft",
+          "distillation",
+          "glm",
+          "glm-5.1",
+          "cleaned"
+        ],
+        "lastModified": "2026-04-19T05:05:17.000Z",
+        "link": "https://huggingface.co/datasets/Jackrong/GLM-5.1-Reasoning-1M-Cleaned"
       },
       {
         "id": "MEDHARVIX-SYSTEMS/bhasaflow-khasi-monolingual-corpus-v1",
@@ -1455,33 +1455,25 @@
         "link": "https://huggingface.co/datasets/Jackrong/Claude-opus-4.7-TraceInversion-5000x"
       },
       {
-        "id": "MEDHARVIX-SYSTEMS/bhasaflow-khasi-english-parallel-corpus-v1",
-        "author": "MEDHARVIX-SYSTEMS",
-        "likes": 19,
-        "downloads": 134,
+        "id": "Anthropic/hh-rlhf",
+        "author": "Anthropic",
+        "likes": 1790,
+        "downloads": 32450,
         "tags": [
-          "task_categories:translation",
-          "language:en",
-          "language:kha",
-          "license:cc-by-nc-4.0",
-          "size_categories:n<1K",
-          "format:csv",
+          "license:mit",
+          "size_categories:100K<n<1M",
+          "format:json",
           "modality:text",
           "library:datasets",
-          "library:pandas",
-          "library:polars",
+          "library:dask",
           "library:mlcroissant",
+          "library:polars",
+          "arxiv:2204.05862",
           "region:us",
-          "khasi",
-          "english",
-          "parallel-corpus",
-          "low-resource",
-          "northeast-india",
-          "bhasaflow",
-          "medharvix"
+          "human-feedback"
         ],
-        "lastModified": "2026-04-30T18:22:53.000Z",
-        "link": "https://huggingface.co/datasets/MEDHARVIX-SYSTEMS/bhasaflow-khasi-english-parallel-corpus-v1"
+        "lastModified": "2023-05-26T18:47:34.000Z",
+        "link": "https://huggingface.co/datasets/Anthropic/hh-rlhf"
       }
     ]
   }
