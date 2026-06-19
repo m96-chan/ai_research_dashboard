@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-19T03:00:21.135Z",
+  "updatedAt": "2026-06-19T04:00:20.088Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "author": "yuxinlu1",
-        "likes": 1712,
+        "likes": 1719,
         "downloads": 211424,
         "tags": [
           "gguf",
@@ -32,7 +32,7 @@
       {
         "id": "zai-org/GLM-5.2",
         "author": "zai-org",
-        "likes": 1350,
+        "likes": 1361,
         "downloads": 4307,
         "tags": [
           "transformers",
@@ -82,7 +82,7 @@
       {
         "id": "moonshotai/Kimi-K2.7-Code",
         "author": "moonshotai",
-        "likes": 887,
+        "likes": 889,
         "downloads": 229156,
         "tags": [
           "transformers",
@@ -103,7 +103,7 @@
       {
         "id": "google/diffusiongemma-26B-A4B-it",
         "author": "google",
-        "likes": 1002,
+        "likes": 1005,
         "downloads": 527080,
         "tags": [
           "transformers",
@@ -280,7 +280,7 @@
       {
         "id": "microsoft/FastContext-1.0-4B-SFT",
         "author": "microsoft",
-        "likes": 205,
+        "likes": 207,
         "downloads": 957,
         "tags": [
           "transformers",
@@ -306,7 +306,7 @@
       {
         "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
         "author": "nvidia",
-        "likes": 541,
+        "likes": 545,
         "downloads": 13033,
         "tags": [
           "nemo",
@@ -377,7 +377,7 @@
       {
         "id": "CohereLabs/North-Mini-Code-1.0",
         "author": "CohereLabs",
-        "likes": 449,
+        "likes": 450,
         "downloads": 15285,
         "tags": [
           "transformers",
@@ -400,7 +400,7 @@
       {
         "id": "unsloth/Kimi-K2.7-Code-GGUF",
         "author": "unsloth",
-        "likes": 134,
+        "likes": 135,
         "downloads": 29287,
         "tags": [
           "transformers",
@@ -446,6 +446,31 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
       },
       {
+        "id": "unsloth/GLM-5.2-GGUF",
+        "author": "unsloth",
+        "likes": 126,
+        "downloads": 305,
+        "tags": [
+          "gguf",
+          "glm_moe_dsa",
+          "unsloth",
+          "text-generation",
+          "en",
+          "zh",
+          "arxiv:2602.15763",
+          "arxiv:2603.12201",
+          "base_model:zai-org/GLM-5.2",
+          "base_model:quantized:zai-org/GLM-5.2",
+          "license:mit",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/GLM-5.2-GGUF"
+      },
+      {
         "id": "unsloth/diffusiongemma-26B-A4B-it-GGUF",
         "author": "unsloth",
         "likes": 307,
@@ -470,29 +495,25 @@
         "link": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF"
       },
       {
-        "id": "unsloth/GLM-5.2-GGUF",
-        "author": "unsloth",
-        "likes": 125,
-        "downloads": 305,
+        "id": "nex-agi/Nex-N2-Pro",
+        "author": "nex-agi",
+        "likes": 329,
+        "downloads": 6640,
         "tags": [
-          "gguf",
-          "glm_moe_dsa",
-          "unsloth",
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
           "text-generation",
-          "en",
-          "zh",
-          "arxiv:2602.15763",
-          "arxiv:2603.12201",
-          "base_model:zai-org/GLM-5.2",
-          "base_model:quantized:zai-org/GLM-5.2",
-          "license:mit",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
           "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/unsloth/GLM-5.2-GGUF"
+        "link": "https://huggingface.co/nex-agi/Nex-N2-Pro"
       },
       {
         "id": "bosonai/higgs-audio-v3-tts-4b",
@@ -619,27 +640,6 @@
         "link": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b"
       },
       {
-        "id": "nex-agi/Nex-N2-Pro",
-        "author": "nex-agi",
-        "likes": 329,
-        "downloads": 6640,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "text-generation",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nex-agi/Nex-N2-Pro"
-      },
-      {
         "id": "lordx64/Qwable-v1",
         "author": "lordx64",
         "likes": 120,
@@ -759,9 +759,31 @@
         "link": "https://huggingface.co/unsloth/MiniMax-M3-GGUF"
       },
       {
+        "id": "owensong/Inflect-Nano-v1",
+        "author": "owensong",
+        "likes": 93,
+        "downloads": 0,
+        "tags": [
+          "pytorch",
+          "text-to-speech",
+          "tts",
+          "speech-synthesis",
+          "ultra-small",
+          "local-tts",
+          "efficient-inference",
+          "experimental",
+          "en",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "lastModified": "",
+        "link": "https://huggingface.co/owensong/Inflect-Nano-v1"
+      },
+      {
         "id": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
         "author": "OBLITERATUS",
-        "likes": 350,
+        "likes": 351,
         "downloads": 96805,
         "tags": [
           "transformers",
@@ -791,55 +813,9 @@
         "link": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED"
       },
       {
-        "id": "zai-org/GLM-5.2-FP8",
-        "author": "zai-org",
-        "likes": 91,
-        "downloads": 24967,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "glm_moe_dsa",
-          "text-generation",
-          "conversational",
-          "en",
-          "zh",
-          "arxiv:2602.15763",
-          "arxiv:2603.12201",
-          "license:mit",
-          "endpoints_compatible",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/zai-org/GLM-5.2-FP8"
-      },
-      {
-        "id": "owensong/Inflect-Nano-v1",
-        "author": "owensong",
-        "likes": 91,
-        "downloads": 0,
-        "tags": [
-          "pytorch",
-          "text-to-speech",
-          "tts",
-          "speech-synthesis",
-          "ultra-small",
-          "local-tts",
-          "efficient-inference",
-          "experimental",
-          "en",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-speech",
-        "lastModified": "",
-        "link": "https://huggingface.co/owensong/Inflect-Nano-v1"
-      },
-      {
         "id": "Mia-AiLab/Qwable-3.6-27b",
         "author": "Mia-AiLab",
-        "likes": 93,
+        "likes": 95,
         "downloads": 2496,
         "tags": [
           "transformers",
@@ -868,9 +844,33 @@
         "link": "https://huggingface.co/Mia-AiLab/Qwable-3.6-27b"
       },
       {
+        "id": "zai-org/GLM-5.2-FP8",
+        "author": "zai-org",
+        "likes": 91,
+        "downloads": 24967,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa",
+          "text-generation",
+          "conversational",
+          "en",
+          "zh",
+          "arxiv:2602.15763",
+          "arxiv:2603.12201",
+          "license:mit",
+          "endpoints_compatible",
+          "fp8",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/zai-org/GLM-5.2-FP8"
+      },
+      {
         "id": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
         "author": "DavidAU",
-        "likes": 394,
+        "likes": 395,
         "downloads": 529069,
         "tags": [
           "gguf",
@@ -952,7 +952,7 @@
       {
         "id": "Glint-Research/Fable-5-traces",
         "author": "Glint-Research",
-        "likes": 297,
+        "likes": 299,
         "downloads": 3979,
         "tags": [
           "task_categories:text-generation",
@@ -978,7 +978,7 @@
       {
         "id": "armand0e/claude-fable-5-claude-code",
         "author": "armand0e",
-        "likes": 151,
+        "likes": 152,
         "downloads": 4364,
         "tags": [
           "task_categories:text-generation",
@@ -1180,36 +1180,6 @@
         "link": "https://huggingface.co/datasets/victor/fable-5-boeing-747-trace"
       },
       {
-        "id": "wikimedia/structured-wikipedia",
-        "author": "wikimedia",
-        "likes": 381,
-        "downloads": 18076,
-        "tags": [
-          "language:en",
-          "language:fr",
-          "license:cc-by-sa-4.0",
-          "size_categories:10M<n<100M",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "wikipedia",
-          "wikimedia",
-          "structured-data",
-          "parquet",
-          "knowledge-base",
-          "references",
-          "citations",
-          "tables",
-          "multilingual"
-        ],
-        "lastModified": "2026-05-19T12:54:16.000Z",
-        "link": "https://huggingface.co/datasets/wikimedia/structured-wikipedia"
-      },
-      {
         "id": "nvidia/Nemotron-Personas-Belgium",
         "author": "nvidia",
         "likes": 22,
@@ -1242,6 +1212,36 @@
         ],
         "lastModified": "2026-06-17T05:12:10.000Z",
         "link": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Belgium"
+      },
+      {
+        "id": "wikimedia/structured-wikipedia",
+        "author": "wikimedia",
+        "likes": 381,
+        "downloads": 18076,
+        "tags": [
+          "language:en",
+          "language:fr",
+          "license:cc-by-sa-4.0",
+          "size_categories:10M<n<100M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "wikipedia",
+          "wikimedia",
+          "structured-data",
+          "parquet",
+          "knowledge-base",
+          "references",
+          "citations",
+          "tables",
+          "multilingual"
+        ],
+        "lastModified": "2026-05-19T12:54:16.000Z",
+        "link": "https://huggingface.co/datasets/wikimedia/structured-wikipedia"
       },
       {
         "id": "lordx64/agentic-distill-fable-5-sft",
