@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-24T16:00:23.774Z",
+  "updatedAt": "2026-06-24T17:00:19.765Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "zai-org/GLM-5.2",
         "author": "zai-org",
-        "likes": 2301,
+        "likes": 2312,
         "downloads": 57186,
         "tags": [
           "transformers",
@@ -30,7 +30,7 @@
       {
         "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "author": "yuxinlu1",
-        "likes": 2277,
+        "likes": 2278,
         "downloads": 483139,
         "tags": [
           "gguf",
@@ -56,7 +56,7 @@
       {
         "id": "baidu/Unlimited-OCR",
         "author": "baidu",
-        "likes": 667,
+        "likes": 677,
         "downloads": 45687,
         "tags": [
           "transformers",
@@ -80,7 +80,7 @@
       {
         "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "author": "yuxinlu1",
-        "likes": 500,
+        "likes": 502,
         "downloads": 138704,
         "tags": [
           "gguf",
@@ -138,7 +138,7 @@
       {
         "id": "unsloth/GLM-5.2-GGUF",
         "author": "unsloth",
-        "likes": 333,
+        "likes": 335,
         "downloads": 76971,
         "tags": [
           "gguf",
@@ -163,7 +163,7 @@
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "author": "empero-ai",
-        "likes": 288,
+        "likes": 303,
         "downloads": 63637,
         "tags": [
           "gguf",
@@ -196,7 +196,7 @@
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "author": "empero-ai",
-        "likes": 279,
+        "likes": 285,
         "downloads": 5123,
         "tags": [
           "transformers",
@@ -231,7 +231,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 2191,
+        "likes": 2193,
         "downloads": 3769369,
         "tags": [
           "gguf",
@@ -259,7 +259,7 @@
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 2335,
+        "likes": 2337,
         "downloads": 359498,
         "tags": [
           "transformers",
@@ -315,9 +315,29 @@
         "link": "https://huggingface.co/owensong/Inflect-Nano-v1"
       },
       {
+        "id": "krea/Krea-2-Turbo",
+        "author": "krea",
+        "likes": 160,
+        "downloads": 878,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image",
+          "en",
+          "base_model:krea/Krea-2-Raw",
+          "base_model:finetune:krea/Krea-2-Raw",
+          "license:other",
+          "diffusers:Krea2Pipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/krea/Krea-2-Turbo"
+      },
+      {
         "id": "microsoft/FastContext-1.0-4B-SFT",
         "author": "microsoft",
-        "likes": 332,
+        "likes": 333,
         "downloads": 4805,
         "tags": [
           "transformers",
@@ -341,29 +361,36 @@
         "link": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT"
       },
       {
-        "id": "krea/Krea-2-Turbo",
-        "author": "krea",
-        "likes": 155,
-        "downloads": 878,
+        "id": "MiniMaxAI/MiniMax-M3",
+        "author": "MiniMaxAI",
+        "likes": 1227,
+        "downloads": 143093,
         "tags": [
-          "diffusers",
+          "transformers",
           "safetensors",
-          "text-to-image",
-          "en",
-          "base_model:krea/Krea-2-Raw",
-          "base_model:finetune:krea/Krea-2-Raw",
+          "minimax_m3_vl",
+          "image-text-to-text",
+          "multimodal",
+          "moe",
+          "agent",
+          "coding",
+          "video",
+          "conversational",
+          "custom_code",
+          "arxiv:2606.13392",
           "license:other",
-          "diffusers:Krea2Pipeline",
+          "eval-results",
+          "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "text-to-image",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/krea/Krea-2-Turbo"
+        "link": "https://huggingface.co/MiniMaxAI/MiniMax-M3"
       },
       {
         "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
         "author": "nvidia",
-        "likes": 671,
+        "likes": 673,
         "downloads": 47208,
         "tags": [
           "nemo",
@@ -432,36 +459,9 @@
         "link": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
       },
       {
-        "id": "MiniMaxAI/MiniMax-M3",
-        "author": "MiniMaxAI",
-        "likes": 1227,
-        "downloads": 143093,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "minimax_m3_vl",
-          "image-text-to-text",
-          "multimodal",
-          "moe",
-          "agent",
-          "coding",
-          "video",
-          "conversational",
-          "custom_code",
-          "arxiv:2606.13392",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/MiniMaxAI/MiniMax-M3"
-      },
-      {
         "id": "datalab-to/lift",
         "author": "datalab-to",
-        "likes": 143,
+        "likes": 144,
         "downloads": 4644,
         "tags": [
           "transformers",
@@ -484,7 +484,7 @@
       {
         "id": "krea/Krea-2-Raw",
         "author": "krea",
-        "likes": 134,
+        "likes": 137,
         "downloads": 1205,
         "tags": [
           "diffusers",
@@ -560,7 +560,7 @@
       {
         "id": "Boogu/Boogu-Image-0.1-Edit",
         "author": "Boogu",
-        "likes": 115,
+        "likes": 118,
         "downloads": 743,
         "tags": [
           "diffusers",
@@ -685,6 +685,34 @@
         "link": "https://huggingface.co/LiquidAI/LFM2.5-ColBERT-350M"
       },
       {
+        "id": "Qwen/Qwen-AgentWorld-35B-A3B",
+        "author": "Qwen",
+        "likes": 87,
+        "downloads": 223,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "qwen",
+          "world-model",
+          "agent",
+          "environment-simulation",
+          "text-generation",
+          "conversational",
+          "dataset:Qwen/AgentWorldBench",
+          "arxiv:2606.24597",
+          "base_model:Qwen/Qwen3.5-35B-A3B-Base",
+          "base_model:finetune:Qwen/Qwen3.5-35B-A3B-Base",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+      },
+      {
         "id": "google/diffusiongemma-26B-A4B-it",
         "author": "google",
         "likes": 1060,
@@ -702,29 +730,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
-      },
-      {
-        "id": "deepseek-ai/DeepSeek-V4-Pro",
-        "author": "deepseek-ai",
-        "likes": 5040,
-        "downloads": 2052463,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v4",
-          "text-generation",
-          "conversational",
-          "arxiv:2606.19348",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "8-bit",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
       },
       {
         "id": "zai-org/GLM-5.2-FP8",
@@ -751,6 +756,29 @@
         "link": "https://huggingface.co/zai-org/GLM-5.2-FP8"
       },
       {
+        "id": "deepseek-ai/DeepSeek-V4-Pro",
+        "author": "deepseek-ai",
+        "likes": 5042,
+        "downloads": 2052463,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4",
+          "text-generation",
+          "conversational",
+          "arxiv:2606.19348",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "8-bit",
+          "fp8",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+      },
+      {
         "id": "google/gemma-4-12B-it",
         "author": "google",
         "likes": 1160,
@@ -773,46 +801,39 @@
         "link": "https://huggingface.co/google/gemma-4-12B-it"
       },
       {
-        "id": "Comfy-Org/Boogu-Image",
-        "author": "Comfy-Org",
-        "likes": 90,
-        "downloads": 0,
-        "tags": [
-          "comfyui",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Comfy-Org/Boogu-Image"
-      },
-      {
-        "id": "Qwen/Qwen-AgentWorld-35B-A3B",
-        "author": "Qwen",
-        "likes": 82,
-        "downloads": 223,
+        "id": "lordx64/Qwable-v1",
+        "author": "lordx64",
+        "likes": 178,
+        "downloads": 5719,
         "tags": [
           "transformers",
           "safetensors",
           "qwen3_5_moe",
           "image-text-to-text",
           "qwen",
-          "world-model",
-          "agent",
-          "environment-simulation",
+          "qwen3",
+          "qwen3.6",
+          "moe",
+          "distillation",
+          "chain-of-thought",
+          "agentic",
+          "claude-fable-5",
+          "claude-opus-4.7",
+          "tool-use",
+          "chained-distill",
           "text-generation",
           "conversational",
-          "dataset:Qwen/AgentWorldBench",
-          "arxiv:2606.24597",
-          "base_model:Qwen/Qwen3.5-35B-A3B-Base",
-          "base_model:finetune:Qwen/Qwen3.5-35B-A3B-Base",
-          "license:apache-2.0",
+          "en",
+          "dataset:lordx64/agentic-distill-fable-5-sft",
+          "base_model:lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+          "base_model:finetune:lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+          "license:agpl-3.0",
           "endpoints_compatible",
           "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+        "link": "https://huggingface.co/lordx64/Qwable-v1"
       }
     ]
   },
@@ -898,7 +919,7 @@
       {
         "id": "XDOF/ABC-130k",
         "author": "XDOF",
-        "likes": 51,
+        "likes": 52,
         "downloads": 244116,
         "tags": [
           "task_categories:robotics",
@@ -980,7 +1001,7 @@
       {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
-        "likes": 413,
+        "likes": 414,
         "downloads": 10133,
         "tags": [
           "task_categories:text-generation",
@@ -1164,27 +1185,6 @@
         "link": "https://huggingface.co/datasets/allenai/olmOCR-bench"
       },
       {
-        "id": "allenai/molmo-motion-1m",
-        "author": "allenai",
-        "likes": 13,
-        "downloads": 1470,
-        "tags": [
-          "task_categories:other",
-          "language:en",
-          "license:other",
-          "size_categories:1M<n<10M",
-          "arxiv:2606.18558",
-          "region:us",
-          "3d-point-tracking",
-          "trajectory-forecasting",
-          "point-tracking",
-          "robotics",
-          "egocentric-video"
-        ],
-        "lastModified": "2026-06-18T02:56:40.000Z",
-        "link": "https://huggingface.co/datasets/allenai/molmo-motion-1m"
-      },
-      {
         "id": "ibm-research/ScarfBench",
         "author": "ibm-research",
         "likes": 16,
@@ -1323,6 +1323,27 @@
         ],
         "lastModified": "2026-05-12T17:49:04.000Z",
         "link": "https://huggingface.co/datasets/WithinUsAI/GPT_5.5_Distilled"
+      },
+      {
+        "id": "allenai/molmo-motion-1m",
+        "author": "allenai",
+        "likes": 13,
+        "downloads": 1470,
+        "tags": [
+          "task_categories:other",
+          "language:en",
+          "license:other",
+          "size_categories:1M<n<10M",
+          "arxiv:2606.18558",
+          "region:us",
+          "3d-point-tracking",
+          "trajectory-forecasting",
+          "point-tracking",
+          "robotics",
+          "egocentric-video"
+        ],
+        "lastModified": "2026-06-18T02:56:40.000Z",
+        "link": "https://huggingface.co/datasets/allenai/molmo-motion-1m"
       }
     ]
   }
