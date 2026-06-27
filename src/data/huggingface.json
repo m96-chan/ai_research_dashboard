@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-27T13:00:17.775Z",
+  "updatedAt": "2026-06-27T14:00:15.051Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "baidu/Unlimited-OCR",
         "author": "baidu",
-        "likes": 1098,
+        "likes": 1102,
         "downloads": 212760,
         "tags": [
           "transformers",
@@ -31,7 +31,7 @@
       {
         "id": "zai-org/GLM-5.2",
         "author": "zai-org",
-        "likes": 2638,
+        "likes": 2642,
         "downloads": 98994,
         "tags": [
           "transformers",
@@ -55,7 +55,7 @@
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "author": "empero-ai",
-        "likes": 638,
+        "likes": 640,
         "downloads": 712627,
         "tags": [
           "gguf",
@@ -88,7 +88,7 @@
       {
         "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "author": "yuxinlu1",
-        "likes": 708,
+        "likes": 709,
         "downloads": 206828,
         "tags": [
           "gguf",
@@ -116,7 +116,7 @@
       {
         "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "author": "yuxinlu1",
-        "likes": 2416,
+        "likes": 2417,
         "downloads": 536130,
         "tags": [
           "gguf",
@@ -142,7 +142,7 @@
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "author": "empero-ai",
-        "likes": 464,
+        "likes": 467,
         "downloads": 30298,
         "tags": [
           "transformers",
@@ -177,7 +177,7 @@
       {
         "id": "Qwen/Qwen-AgentWorld-35B-A3B",
         "author": "Qwen",
-        "likes": 338,
+        "likes": 344,
         "downloads": 18872,
         "tags": [
           "transformers",
@@ -196,7 +196,8 @@
           "base_model:finetune:Qwen/Qwen3.5-35B-A3B-Base",
           "license:apache-2.0",
           "endpoints_compatible",
-          "region:us"
+          "region:us",
+          "deploy:azure"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
@@ -205,7 +206,7 @@
       {
         "id": "krea/Krea-2-Turbo",
         "author": "krea",
-        "likes": 303,
+        "likes": 304,
         "downloads": 17445,
         "tags": [
           "diffusers",
@@ -225,7 +226,7 @@
       {
         "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "author": "deepreinforce-ai",
-        "likes": 271,
+        "likes": 274,
         "downloads": 20266,
         "tags": [
           "transformers",
@@ -298,7 +299,7 @@
       {
         "id": "krea/Krea-2-Raw",
         "author": "krea",
-        "likes": 209,
+        "likes": 210,
         "downloads": 17748,
         "tags": [
           "diffusers",
@@ -312,6 +313,24 @@
         "pipeline_tag": "text-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/krea/Krea-2-Raw"
+      },
+      {
+        "id": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
+        "author": "deepreinforce-ai",
+        "likes": 195,
+        "downloads": 11034,
+        "tags": [
+          "transformers",
+          "gguf",
+          "text-generation",
+          "license:mit",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF"
       },
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
@@ -340,24 +359,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
-      },
-      {
-        "id": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
-        "author": "deepreinforce-ai",
-        "likes": 192,
-        "downloads": 11034,
-        "tags": [
-          "transformers",
-          "gguf",
-          "text-generation",
-          "license:mit",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF"
       },
       {
         "id": "nvidia/LocateAnything-3B",
@@ -398,7 +399,7 @@
       {
         "id": "Comfy-Org/Krea-2",
         "author": "Comfy-Org",
-        "likes": 149,
+        "likes": 150,
         "downloads": 10,
         "tags": [
           "comfyui",
@@ -408,6 +409,27 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/Comfy-Org/Krea-2"
+      },
+      {
+        "id": "deepreinforce-ai/Ornith-1.0-9B",
+        "author": "deepreinforce-ai",
+        "likes": 143,
+        "downloads": 1501,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "text-generation",
+          "conversational",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B"
       },
       {
         "id": "deepreinforce-ai/Ornith-1.0-35B",
@@ -429,27 +451,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B"
-      },
-      {
-        "id": "deepreinforce-ai/Ornith-1.0-9B",
-        "author": "deepreinforce-ai",
-        "likes": 141,
-        "downloads": 1501,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "text-generation",
-          "conversational",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B"
       },
       {
         "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
@@ -667,6 +668,35 @@
         "link": "https://huggingface.co/huihui-ai/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated"
       },
       {
+        "id": "nvidia/GLM-5.2-NVFP4",
+        "author": "nvidia",
+        "likes": 108,
+        "downloads": 6464,
+        "tags": [
+          "Model Optimizer",
+          "safetensors",
+          "glm_moe_dsa",
+          "nvidia",
+          "ModelOpt",
+          "GLM-5",
+          "quantized",
+          "4-bit precision",
+          "FP4",
+          "fp4",
+          "text-generation",
+          "conversational",
+          "base_model:zai-org/GLM-5.2",
+          "base_model:quantized:zai-org/GLM-5.2",
+          "license:mit",
+          "8-bit",
+          "modelopt",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/GLM-5.2-NVFP4"
+      },
+      {
         "id": "Chunjiang-Intelligence/DeepSeek-v4-Fable",
         "author": "Chunjiang-Intelligence",
         "likes": 110,
@@ -705,35 +735,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/Chunjiang-Intelligence/DeepSeek-v4-Fable"
-      },
-      {
-        "id": "nvidia/GLM-5.2-NVFP4",
-        "author": "nvidia",
-        "likes": 101,
-        "downloads": 6464,
-        "tags": [
-          "Model Optimizer",
-          "safetensors",
-          "glm_moe_dsa",
-          "nvidia",
-          "ModelOpt",
-          "GLM-5",
-          "quantized",
-          "4-bit precision",
-          "FP4",
-          "fp4",
-          "text-generation",
-          "conversational",
-          "base_model:zai-org/GLM-5.2",
-          "base_model:quantized:zai-org/GLM-5.2",
-          "license:mit",
-          "8-bit",
-          "modelopt",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/GLM-5.2-NVFP4"
       },
       {
         "id": "MiniMaxAI/MiniMax-M3",
@@ -865,7 +866,7 @@
       {
         "id": "Glint-Research/Fable-5-traces",
         "author": "Glint-Research",
-        "likes": 429,
+        "likes": 430,
         "downloads": 33015,
         "tags": [
           "task_categories:text-generation",
@@ -1101,7 +1102,7 @@
       {
         "id": "scholarweave/arxiv-latex",
         "author": "scholarweave",
-        "likes": 22,
+        "likes": 23,
         "downloads": 4007,
         "tags": [
           "task_categories:text-generation",
@@ -1369,48 +1370,40 @@
         "link": "https://huggingface.co/datasets/PawanKrd/claude-fable-5-code"
       },
       {
-        "id": "Aignostics/OpenTME",
-        "author": "Aignostics",
-        "likes": 29,
-        "downloads": 15602,
+        "id": "Rapidata/svg-benchmark",
+        "author": "Rapidata",
+        "likes": 14,
+        "downloads": 281,
         "tags": [
+          "task_categories:text-to-image",
           "task_categories:image-classification",
-          "task_categories:image-segmentation",
-          "task_categories:image-feature-extraction",
-          "task_categories:object-detection",
-          "license:other",
-          "size_categories:10K<n<100K",
-          "format:imagefolder",
+          "task_categories:reinforcement-learning",
+          "language:en",
+          "license:cc-by-4.0",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "format:optimized-parquet",
           "modality:image",
+          "modality:text",
           "library:datasets",
+          "library:dask",
+          "library:polars",
           "library:mlcroissant",
-          "arxiv:2604.12075",
           "region:us",
-          "biomarker-discovery",
-          "biology",
-          "bladder-cancer",
-          "breast-cancer",
-          "cancer",
-          "cell-segmentation",
-          "colorectal-cancer",
-          "computational-pathology",
-          "digital-pathology",
-          "H&E",
-          "liver-cancer",
-          "lung-cancer",
-          "oncology",
-          "pancreatic-cancer",
-          "pathology",
-          "prostate-cancer",
-          "spatial-biology",
-          "stomach-cancer",
-          "TCGA",
-          "tissue-segmentation",
-          "tumor-microenvironment",
-          "whole-slide-imaging"
+          "SVG",
+          "vector-graphics",
+          "code-generation",
+          "text-to-svg",
+          "Human",
+          "Preference",
+          "Alignment",
+          "Coherence",
+          "rapidata",
+          "benchmark",
+          "llm-evaluation"
         ],
-        "lastModified": "2026-06-19T12:03:22.000Z",
-        "link": "https://huggingface.co/datasets/Aignostics/OpenTME"
+        "lastModified": "2026-06-25T13:49:04.000Z",
+        "link": "https://huggingface.co/datasets/Rapidata/svg-benchmark"
       }
     ]
   }
