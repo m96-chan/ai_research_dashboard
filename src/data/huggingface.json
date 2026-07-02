@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-02T17:00:18.201Z",
+  "updatedAt": "2026-07-02T18:00:20.530Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "baidu/Unlimited-OCR",
         "author": "baidu",
-        "likes": 1638,
+        "likes": 1642,
         "downloads": 758489,
         "tags": [
           "transformers",
@@ -31,7 +31,7 @@
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "author": "empero-ai",
-        "likes": 1222,
+        "likes": 1225,
         "downloads": 1250562,
         "tags": [
           "gguf",
@@ -88,7 +88,7 @@
       {
         "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "author": "deepreinforce-ai",
-        "likes": 642,
+        "likes": 644,
         "downloads": 284585,
         "tags": [
           "transformers",
@@ -106,7 +106,7 @@
       {
         "id": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
         "author": "deepreinforce-ai",
-        "likes": 390,
+        "likes": 391,
         "downloads": 255123,
         "tags": [
           "transformers",
@@ -124,7 +124,7 @@
       {
         "id": "deepreinforce-ai/Ornith-1.0-9B",
         "author": "deepreinforce-ai",
-        "likes": 342,
+        "likes": 345,
         "downloads": 58385,
         "tags": [
           "transformers",
@@ -145,7 +145,7 @@
       {
         "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "author": "yuxinlu1",
-        "likes": 946,
+        "likes": 947,
         "downloads": 314374,
         "tags": [
           "gguf",
@@ -194,7 +194,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
         "author": "deepseek-ai",
-        "likes": 296,
+        "likes": 297,
         "downloads": 8184,
         "tags": [
           "transformers",
@@ -215,7 +215,7 @@
       {
         "id": "Qwen/Qwen-AgentWorld-35B-A3B",
         "author": "Qwen",
-        "likes": 509,
+        "likes": 510,
         "downloads": 39448,
         "tags": [
           "transformers",
@@ -244,7 +244,7 @@
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "author": "empero-ai",
-        "likes": 632,
+        "likes": 633,
         "downloads": 124909,
         "tags": [
           "transformers",
@@ -279,7 +279,7 @@
       {
         "id": "krea/Krea-2-Turbo",
         "author": "krea",
-        "likes": 452,
+        "likes": 453,
         "downloads": 69788,
         "tags": [
           "diffusers",
@@ -297,30 +297,32 @@
         "link": "https://huggingface.co/krea/Krea-2-Turbo"
       },
       {
-        "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "author": "yuxinlu1",
-        "likes": 2564,
-        "downloads": 614069,
+        "id": "nvidia/Qwen3.6-27B-NVFP4",
+        "author": "nvidia",
+        "likes": 201,
+        "downloads": 27249,
         "tags": [
-          "gguf",
-          "gemma4",
-          "coding",
-          "code",
-          "reasoning",
-          "thinking",
-          "llama.cpp",
-          "local-llm",
+          "Model Optimizer",
+          "safetensors",
+          "qwen3_5",
+          "nvidia",
+          "ModelOpt",
+          "Qwen3.6",
+          "quantized",
+          "FP4",
+          "fp4",
           "text-generation",
-          "base_model:google/gemma-4-12B-it",
-          "base_model:quantized:google/gemma-4-12B-it",
+          "conversational",
+          "base_model:Qwen/Qwen3.6-27B",
+          "base_model:quantized:Qwen/Qwen3.6-27B",
           "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "8-bit",
+          "modelopt",
+          "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF"
+        "link": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4"
       },
       {
         "id": "nvidia/GLM-5.2-NVFP4",
@@ -352,37 +354,35 @@
         "link": "https://huggingface.co/nvidia/GLM-5.2-NVFP4"
       },
       {
-        "id": "nvidia/Qwen3.6-27B-NVFP4",
-        "author": "nvidia",
-        "likes": 198,
-        "downloads": 27249,
+        "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "author": "yuxinlu1",
+        "likes": 2564,
+        "downloads": 614069,
         "tags": [
-          "Model Optimizer",
-          "safetensors",
-          "qwen3_5",
-          "nvidia",
-          "ModelOpt",
-          "Qwen3.6",
-          "quantized",
-          "FP4",
-          "fp4",
+          "gguf",
+          "gemma4",
+          "coding",
+          "code",
+          "reasoning",
+          "thinking",
+          "llama.cpp",
+          "local-llm",
           "text-generation",
-          "conversational",
-          "base_model:Qwen/Qwen3.6-27B",
-          "base_model:quantized:Qwen/Qwen3.6-27B",
+          "base_model:google/gemma-4-12B-it",
+          "base_model:quantized:google/gemma-4-12B-it",
           "license:apache-2.0",
-          "8-bit",
-          "modelopt",
-          "region:us"
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4"
+        "link": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF"
       },
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 2567,
+        "likes": 2570,
         "downloads": 1006831,
         "tags": [
           "transformers",
@@ -416,6 +416,28 @@
         "link": "https://huggingface.co/nvidia/LocateAnything-3B"
       },
       {
+        "id": "InternScience/Agents-A1",
+        "author": "InternScience",
+        "likes": 170,
+        "downloads": 1533,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "text-generation",
+          "conversational",
+          "arxiv:2606.30616",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/InternScience/Agents-A1"
+      },
+      {
         "id": "deepreinforce-ai/Ornith-1.0-397B",
         "author": "deepreinforce-ai",
         "likes": 193,
@@ -437,31 +459,9 @@
         "link": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-397B"
       },
       {
-        "id": "InternScience/Agents-A1",
-        "author": "InternScience",
-        "likes": 168,
-        "downloads": 1533,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "text-generation",
-          "conversational",
-          "arxiv:2606.30616",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/InternScience/Agents-A1"
-      },
-      {
         "id": "meituan-longcat/LongCat-2.0",
         "author": "meituan-longcat",
-        "likes": 159,
+        "likes": 160,
         "downloads": 0,
         "tags": [
           "eval-results",
@@ -470,6 +470,34 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/meituan-longcat/LongCat-2.0"
+      },
+      {
+        "id": "fal/LTX-2.3-3DREAL-LoRA",
+        "author": "fal",
+        "likes": 142,
+        "downloads": 0,
+        "tags": [
+          "lora",
+          "ic-lora",
+          "ltx",
+          "ltx-video",
+          "ltx-2.3",
+          "video",
+          "video-to-video",
+          "image-to-video",
+          "3d-to-real",
+          "render-to-real",
+          "photorealistic",
+          "cgi",
+          "fal",
+          "base_model:Lightricks/LTX-Video",
+          "base_model:adapter:Lightricks/LTX-Video",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/fal/LTX-2.3-3DREAL-LoRA"
       },
       {
         "id": "LiquidAI/LFM2.5-230M",
@@ -508,37 +536,9 @@
         "link": "https://huggingface.co/LiquidAI/LFM2.5-230M"
       },
       {
-        "id": "fal/LTX-2.3-3DREAL-LoRA",
-        "author": "fal",
-        "likes": 140,
-        "downloads": 0,
-        "tags": [
-          "lora",
-          "ic-lora",
-          "ltx",
-          "ltx-video",
-          "ltx-2.3",
-          "video",
-          "video-to-video",
-          "image-to-video",
-          "3d-to-real",
-          "render-to-real",
-          "photorealistic",
-          "cgi",
-          "fal",
-          "base_model:Lightricks/LTX-Video",
-          "base_model:adapter:Lightricks/LTX-Video",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/fal/LTX-2.3-3DREAL-LoRA"
-      },
-      {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 2394,
+        "likes": 2395,
         "downloads": 3078904,
         "tags": [
           "gguf",
@@ -587,7 +587,7 @@
       {
         "id": "huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 128,
+        "likes": 129,
         "downloads": 2592,
         "tags": [
           "transformers",
@@ -614,23 +614,9 @@
         "link": "https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF"
       },
       {
-        "id": "Comfy-Org/Krea-2",
-        "author": "Comfy-Org",
-        "likes": 228,
-        "downloads": 10,
-        "tags": [
-          "comfyui",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Comfy-Org/Krea-2"
-      },
-      {
         "id": "Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF",
         "author": "Jackrong",
-        "likes": 115,
+        "likes": 116,
         "downloads": 29589,
         "tags": [
           "transformers",
@@ -670,6 +656,20 @@
         "link": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF"
       },
       {
+        "id": "Comfy-Org/Krea-2",
+        "author": "Comfy-Org",
+        "likes": 228,
+        "downloads": 10,
+        "tags": [
+          "comfyui",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/Comfy-Org/Krea-2"
+      },
+      {
         "id": "BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6",
         "author": "BugTraceAI",
         "likes": 121,
@@ -705,7 +705,7 @@
       {
         "id": "google/tabfm-1.0.0-pytorch",
         "author": "google",
-        "likes": 107,
+        "likes": 108,
         "downloads": 89,
         "tags": [
           "tabfm",
@@ -808,7 +808,7 @@
       {
         "id": "mlabonne/open-perfectblend",
         "author": "mlabonne",
-        "likes": 132,
+        "likes": 134,
         "downloads": 2737,
         "tags": [
           "license:apache-2.0",
@@ -998,7 +998,7 @@
       {
         "id": "markov-ai/gaming-500-hours",
         "author": "markov-ai",
-        "likes": 27,
+        "likes": 29,
         "downloads": 2877,
         "tags": [
           "size_categories:n<1K",
