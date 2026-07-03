@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-03T09:00:20.331Z",
+  "updatedAt": "2026-07-03T10:00:21.333Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "author": "empero-ai",
-        "likes": 1298,
+        "likes": 1304,
         "downloads": 1366360,
         "tags": [
           "gguf",
@@ -39,7 +39,7 @@
       {
         "id": "baidu/Unlimited-OCR",
         "author": "baidu",
-        "likes": 1666,
+        "likes": 1668,
         "downloads": 885040,
         "tags": [
           "transformers",
@@ -64,7 +64,7 @@
       {
         "id": "zai-org/GLM-5.2",
         "author": "zai-org",
-        "likes": 3287,
+        "likes": 3293,
         "downloads": 191462,
         "tags": [
           "transformers",
@@ -88,7 +88,7 @@
       {
         "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "author": "deepreinforce-ai",
-        "likes": 666,
+        "likes": 667,
         "downloads": 322780,
         "tags": [
           "transformers",
@@ -102,6 +102,27 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
+        "author": "deepseek-ai",
+        "likes": 315,
+        "downloads": 9388,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4",
+          "text-generation",
+          "arxiv:2606.19348",
+          "license:mit",
+          "endpoints_compatible",
+          "8-bit",
+          "fp8",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
       },
       {
         "id": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
@@ -122,30 +143,9 @@
         "link": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF"
       },
       {
-        "id": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
-        "author": "deepseek-ai",
-        "likes": 312,
-        "downloads": 9388,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v4",
-          "text-generation",
-          "arxiv:2606.19348",
-          "license:mit",
-          "endpoints_compatible",
-          "8-bit",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
-      },
-      {
         "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "author": "yuxinlu1",
-        "likes": 970,
+        "likes": 971,
         "downloads": 329391,
         "tags": [
           "gguf",
@@ -194,7 +194,7 @@
       {
         "id": "deepreinforce-ai/Ornith-1.0-35B",
         "author": "deepreinforce-ai",
-        "likes": 313,
+        "likes": 314,
         "downloads": 211406,
         "tags": [
           "transformers",
@@ -305,24 +305,30 @@
         "link": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4"
       },
       {
-        "id": "krea/Krea-2-Turbo",
-        "author": "krea",
-        "likes": 467,
-        "downloads": 84006,
+        "id": "InternScience/Agents-A1",
+        "author": "InternScience",
+        "likes": 192,
+        "downloads": 3530,
         "tags": [
-          "diffusers",
+          "transformers",
           "safetensors",
-          "text-to-image",
-          "en",
-          "base_model:krea/Krea-2-Raw",
-          "base_model:finetune:krea/Krea-2-Raw",
-          "license:other",
-          "diffusers:Krea2Pipeline",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "moe",
+          "vlm",
+          "vision",
+          "agentic",
+          "text-generation",
+          "conversational",
+          "arxiv:2606.30616",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "text-to-image",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/krea/Krea-2-Turbo"
+        "link": "https://huggingface.co/InternScience/Agents-A1"
       },
       {
         "id": "nvidia/LocateAnything-3B",
@@ -361,30 +367,24 @@
         "link": "https://huggingface.co/nvidia/LocateAnything-3B"
       },
       {
-        "id": "InternScience/Agents-A1",
-        "author": "InternScience",
-        "likes": 188,
-        "downloads": 3530,
+        "id": "krea/Krea-2-Turbo",
+        "author": "krea",
+        "likes": 467,
+        "downloads": 84006,
         "tags": [
-          "transformers",
+          "diffusers",
           "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "moe",
-          "vlm",
-          "vision",
-          "agentic",
-          "text-generation",
-          "conversational",
-          "arxiv:2606.30616",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
+          "text-to-image",
+          "en",
+          "base_model:krea/Krea-2-Raw",
+          "base_model:finetune:krea/Krea-2-Raw",
+          "license:other",
+          "diffusers:Krea2Pipeline",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "text-to-image",
         "lastModified": "",
-        "link": "https://huggingface.co/InternScience/Agents-A1"
+        "link": "https://huggingface.co/krea/Krea-2-Turbo"
       },
       {
         "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
@@ -457,7 +457,7 @@
       {
         "id": "fal/LTX-2.3-3DREAL-LoRA",
         "author": "fal",
-        "likes": 148,
+        "likes": 149,
         "downloads": 0,
         "tags": [
           "lora",
@@ -512,6 +512,28 @@
         "link": "https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF"
       },
       {
+        "id": "google/tabfm-1.0.0-pytorch",
+        "author": "google",
+        "likes": 133,
+        "downloads": 450,
+        "tags": [
+          "tabfm",
+          "safetensors",
+          "tabular",
+          "tabular-regression",
+          "zero-shot",
+          "in-context-learning",
+          "pytorch",
+          "foundation-model",
+          "tabular-classification",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "tabular-classification",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/tabfm-1.0.0-pytorch"
+      },
+      {
         "id": "deepreinforce-ai/Ornith-1.0-397B",
         "author": "deepreinforce-ai",
         "likes": 199,
@@ -531,28 +553,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-397B"
-      },
-      {
-        "id": "google/tabfm-1.0.0-pytorch",
-        "author": "google",
-        "likes": 131,
-        "downloads": 450,
-        "tags": [
-          "tabfm",
-          "safetensors",
-          "tabular",
-          "tabular-regression",
-          "zero-shot",
-          "in-context-learning",
-          "pytorch",
-          "foundation-model",
-          "tabular-classification",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "tabular-classification",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/tabfm-1.0.0-pytorch"
       },
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
@@ -711,42 +711,6 @@
         "link": "https://huggingface.co/Comfy-Org/Krea-2"
       },
       {
-        "id": "LiquidAI/LFM2.5-230M",
-        "author": "LiquidAI",
-        "likes": 193,
-        "downloads": 29645,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "lfm2",
-          "text-generation",
-          "liquid",
-          "lfm2.5",
-          "edge",
-          "conversational",
-          "en",
-          "ar",
-          "zh",
-          "fr",
-          "de",
-          "ja",
-          "ko",
-          "es",
-          "pt",
-          "it",
-          "arxiv:2511.23404",
-          "base_model:LiquidAI/LFM2.5-230M-Base",
-          "base_model:finetune:LiquidAI/LFM2.5-230M-Base",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/LiquidAI/LFM2.5-230M"
-      },
-      {
         "id": "nationaldesignstudio/rampart",
         "author": "nationaldesignstudio",
         "likes": 108,
@@ -779,6 +743,42 @@
         "pipeline_tag": "token-classification",
         "lastModified": "",
         "link": "https://huggingface.co/nationaldesignstudio/rampart"
+      },
+      {
+        "id": "LiquidAI/LFM2.5-230M",
+        "author": "LiquidAI",
+        "likes": 194,
+        "downloads": 29645,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm2",
+          "text-generation",
+          "liquid",
+          "lfm2.5",
+          "edge",
+          "conversational",
+          "en",
+          "ar",
+          "zh",
+          "fr",
+          "de",
+          "ja",
+          "ko",
+          "es",
+          "pt",
+          "it",
+          "arxiv:2511.23404",
+          "base_model:LiquidAI/LFM2.5-230M-Base",
+          "base_model:finetune:LiquidAI/LFM2.5-230M-Base",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/LiquidAI/LFM2.5-230M"
       }
     ]
   },
@@ -788,8 +788,8 @@
       {
         "id": "Glint-Research/Fable-5-traces",
         "author": "Glint-Research",
-        "likes": 504,
-        "downloads": 47339,
+        "likes": 505,
+        "downloads": 51152,
         "tags": [
           "task_categories:text-generation",
           "annotations_creators:machine-generated",
@@ -843,7 +843,7 @@
         "id": "armand0e/claude-fable-5-claude-code",
         "author": "armand0e",
         "likes": 264,
-        "downloads": 14557,
+        "downloads": 15763,
         "tags": [
           "task_categories:text-generation",
           "size_categories:n<1K",
@@ -870,7 +870,7 @@
         "id": "bcbl190626/SpanishBCBL",
         "author": "bcbl190626",
         "likes": 47,
-        "downloads": 3164,
+        "downloads": 3686,
         "tags": [
           "task_categories:other",
           "language:es",
@@ -893,8 +893,8 @@
       {
         "id": "markov-ai/gaming-500-hours",
         "author": "markov-ai",
-        "likes": 41,
-        "downloads": 2877,
+        "likes": 42,
+        "downloads": 8696,
         "tags": [
           "size_categories:n<1K",
           "format:json",
@@ -914,7 +914,7 @@
         "id": "scholarweave/arxiv-latex",
         "author": "scholarweave",
         "likes": 52,
-        "downloads": 12005,
+        "downloads": 17543,
         "tags": [
           "task_categories:text-generation",
           "task_categories:feature-extraction",
@@ -934,8 +934,8 @@
       {
         "id": "Crownelius/Complete-FABLE.5-traces-2M",
         "author": "Crownelius",
-        "likes": 54,
-        "downloads": 3769,
+        "likes": 55,
+        "downloads": 4300,
         "tags": [
           "task_categories:text-generation",
           "task_ids:language-modeling",
@@ -976,7 +976,7 @@
         "id": "LiquidAI/ifstruct-v1.0",
         "author": "LiquidAI",
         "likes": 33,
-        "downloads": 76,
+        "downloads": 114,
         "tags": [
           "benchmark:official",
           "benchmark:eval-yaml",
@@ -1004,7 +1004,7 @@
         "id": "LocalLaws/LOCUS-v1",
         "author": "LocalLaws",
         "likes": 86,
-        "downloads": 2298,
+        "downloads": 2005,
         "tags": [
           "task_categories:text-classification",
           "language:en",
@@ -1034,7 +1034,7 @@
         "id": "Qwen/AgentWorldBench",
         "author": "Qwen",
         "likes": 62,
-        "downloads": 1583,
+        "downloads": 1684,
         "tags": [
           "task_categories:text-generation",
           "language:en",
@@ -1063,7 +1063,7 @@
         "id": "WithinUsAI/claude_mythos_distilled_25k",
         "author": "WithinUsAI",
         "likes": 139,
-        "downloads": 3699,
+        "downloads": 3828,
         "tags": [
           "language:en",
           "license:apache-2.0",
@@ -1091,35 +1091,10 @@
         "link": "https://huggingface.co/datasets/WithinUsAI/claude_mythos_distilled_25k"
       },
       {
-        "id": "ginigen-ai/Metacognition-Bench",
-        "author": "ginigen-ai",
-        "likes": 22,
-        "downloads": 115,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:question-answering",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "region:us",
-          "metacognition",
-          "self-correction",
-          "hallucination-detection",
-          "reasoning",
-          "benchmark",
-          "trap-escape",
-          "error-recovery",
-          "metacognition-adapter",
-          "aether"
-        ],
-        "lastModified": "2026-07-03T07:40:14.000Z",
-        "link": "https://huggingface.co/datasets/ginigen-ai/Metacognition-Bench"
-      },
-      {
         "id": "lordx64/agentic-distill-fable-5-sft",
         "author": "lordx64",
-        "likes": 54,
-        "downloads": 1480,
+        "likes": 55,
+        "downloads": 1550,
         "tags": [
           "task_categories:text-generation",
           "language:en",
@@ -1146,10 +1121,35 @@
         "link": "https://huggingface.co/datasets/lordx64/agentic-distill-fable-5-sft"
       },
       {
+        "id": "ginigen-ai/Metacognition-Bench",
+        "author": "ginigen-ai",
+        "likes": 22,
+        "downloads": 140,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:question-answering",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "region:us",
+          "metacognition",
+          "self-correction",
+          "hallucination-detection",
+          "reasoning",
+          "benchmark",
+          "trap-escape",
+          "error-recovery",
+          "metacognition-adapter",
+          "aether"
+        ],
+        "lastModified": "2026-07-03T07:40:14.000Z",
+        "link": "https://huggingface.co/datasets/ginigen-ai/Metacognition-Bench"
+      },
+      {
         "id": "BitRobot/HIW-500",
         "author": "BitRobot",
         "likes": 39,
-        "downloads": 64404,
+        "downloads": 67892,
         "tags": [
           "language:en",
           "license:cc-by-4.0",
@@ -1161,10 +1161,39 @@
         "link": "https://huggingface.co/datasets/BitRobot/HIW-500"
       },
       {
+        "id": "openai/gsm8k",
+        "author": "openai",
+        "likes": 1418,
+        "downloads": 934366,
+        "tags": [
+          "benchmark:official",
+          "benchmark:eval-yaml",
+          "task_categories:text-generation",
+          "annotations_creators:crowdsourced",
+          "language_creators:crowdsourced",
+          "multilinguality:monolingual",
+          "source_datasets:original",
+          "language:en",
+          "license:mit",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2110.14168",
+          "region:us",
+          "math-word-problems"
+        ],
+        "lastModified": "2026-03-23T10:18:13.000Z",
+        "link": "https://huggingface.co/datasets/openai/gsm8k"
+      },
+      {
         "id": "Rapidata/svg-benchmark",
         "author": "Rapidata",
         "likes": 26,
-        "downloads": 802,
+        "downloads": 872,
         "tags": [
           "task_categories:text-to-image",
           "task_categories:image-classification",
@@ -1197,39 +1226,75 @@
         "link": "https://huggingface.co/datasets/Rapidata/svg-benchmark"
       },
       {
-        "id": "openai/gsm8k",
-        "author": "openai",
-        "likes": 1417,
-        "downloads": 934366,
+        "id": "ByteDance-Seed/EdgeBench",
+        "author": "ByteDance-Seed",
+        "likes": 13,
+        "downloads": 519,
         "tags": [
-          "benchmark:official",
-          "benchmark:eval-yaml",
           "task_categories:text-generation",
-          "annotations_creators:crowdsourced",
-          "language_creators:crowdsourced",
-          "multilinguality:monolingual",
-          "source_datasets:original",
           "language:en",
-          "license:mit",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2110.14168",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
           "region:us",
-          "math-word-problems"
+          "benchmark",
+          "code-agents",
+          "evaluation",
+          "long-horizon"
         ],
-        "lastModified": "2026-03-23T10:18:13.000Z",
-        "link": "https://huggingface.co/datasets/openai/gsm8k"
+        "lastModified": "2026-07-02T18:27:30.000Z",
+        "link": "https://huggingface.co/datasets/ByteDance-Seed/EdgeBench"
+      },
+      {
+        "id": "XDOF/ABC-130k",
+        "author": "XDOF",
+        "likes": 69,
+        "downloads": 572683,
+        "tags": [
+          "task_categories:robotics",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:n>1T",
+          "arxiv:2606.27375",
+          "region:us",
+          "robotics",
+          "manipulation",
+          "imitation-learning",
+          "bimanual",
+          "teleoperation",
+          "mcap"
+        ],
+        "lastModified": "2026-07-02T20:47:44.000Z",
+        "link": "https://huggingface.co/datasets/XDOF/ABC-130k"
+      },
+      {
+        "id": "DavydenkoGr/AFTER",
+        "author": "DavydenkoGr",
+        "likes": 13,
+        "downloads": 1174,
+        "tags": [
+          "language:en",
+          "license:apache-2.0",
+          "arxiv:2606.23127",
+          "region:us",
+          "benchmark",
+          "agents",
+          "skill-evolution",
+          "evaluation",
+          "software-engineering",
+          "data-science",
+          "data-engineering",
+          "infrastructure",
+          "generative-ai",
+          "project-management"
+        ],
+        "lastModified": "2026-06-30T09:35:05.000Z",
+        "link": "https://huggingface.co/datasets/DavydenkoGr/AFTER"
       },
       {
         "id": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
         "author": "angrygiraffe",
         "likes": 427,
-        "downloads": 8661,
+        "downloads": 8565,
         "tags": [
           "task_categories:text-generation",
           "task_categories:question-answering",
@@ -1256,71 +1321,6 @@
         ],
         "lastModified": "2026-05-01T17:11:41.000Z",
         "link": "https://huggingface.co/datasets/angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k"
-      },
-      {
-        "id": "XDOF/ABC-130k",
-        "author": "XDOF",
-        "likes": 69,
-        "downloads": 539300,
-        "tags": [
-          "task_categories:robotics",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:n>1T",
-          "arxiv:2606.27375",
-          "region:us",
-          "robotics",
-          "manipulation",
-          "imitation-learning",
-          "bimanual",
-          "teleoperation",
-          "mcap"
-        ],
-        "lastModified": "2026-07-02T20:47:44.000Z",
-        "link": "https://huggingface.co/datasets/XDOF/ABC-130k"
-      },
-      {
-        "id": "DavydenkoGr/AFTER",
-        "author": "DavydenkoGr",
-        "likes": 13,
-        "downloads": 1109,
-        "tags": [
-          "language:en",
-          "license:apache-2.0",
-          "arxiv:2606.23127",
-          "region:us",
-          "benchmark",
-          "agents",
-          "skill-evolution",
-          "evaluation",
-          "software-engineering",
-          "data-science",
-          "data-engineering",
-          "infrastructure",
-          "generative-ai",
-          "project-management"
-        ],
-        "lastModified": "2026-06-30T09:35:05.000Z",
-        "link": "https://huggingface.co/datasets/DavydenkoGr/AFTER"
-      },
-      {
-        "id": "ByteDance-Seed/EdgeBench",
-        "author": "ByteDance-Seed",
-        "likes": 12,
-        "downloads": 75,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:cc-by-4.0",
-          "size_categories:n<1K",
-          "region:us",
-          "benchmark",
-          "code-agents",
-          "evaluation",
-          "long-horizon"
-        ],
-        "lastModified": "2026-07-02T18:27:30.000Z",
-        "link": "https://huggingface.co/datasets/ByteDance-Seed/EdgeBench"
       }
     ]
   }
