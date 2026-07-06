@@ -1,0 +1,31 @@
+version: 2
+updates:
+  # GitHub Actions のバージョン更新を毎週チェックして PR を出す
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      timezone: "Asia/Tokyo"
+    commit-message:
+      prefix: "chore"
+    labels:
+      - "dependencies"
+
+  # npm (pnpm) 依存パッケージも毎週チェック
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      timezone: "Asia/Tokyo"
+    commit-message:
+      prefix: "chore"
+    labels:
+      - "dependencies"
+    # マイナー/パッチはまとめて 1 本の PR にする
+    groups:
+      minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
