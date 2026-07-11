@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-11T01:00:21.784Z",
+  "updatedAt": "2026-07-11T02:00:28.494Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "tencent/Hy3",
         "author": "tencent",
-        "likes": 664,
+        "likes": 666,
         "downloads": 6923,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "author": "empero-ai",
-        "likes": 1976,
+        "likes": 1977,
         "downloads": 1909705,
         "tags": [
           "gguf",
@@ -62,7 +62,7 @@
       {
         "id": "zai-org/GLM-5.2",
         "author": "zai-org",
-        "likes": 3784,
+        "likes": 3785,
         "downloads": 392655,
         "tags": [
           "transformers",
@@ -86,7 +86,7 @@
       {
         "id": "InternScience/Agents-A1",
         "author": "InternScience",
-        "likes": 469,
+        "likes": 472,
         "downloads": 25772,
         "tags": [
           "transformers",
@@ -251,7 +251,7 @@
       {
         "id": "conradlocke/krea2-identity-edit",
         "author": "conradlocke",
-        "likes": 160,
+        "likes": 161,
         "downloads": 0,
         "tags": [
           "image-editing",
@@ -332,7 +332,7 @@
       {
         "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
         "author": "GnLOLot",
-        "likes": 157,
+        "likes": 158,
         "downloads": 9029,
         "tags": [
           "gguf",
@@ -427,7 +427,7 @@
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 2700,
+        "likes": 2701,
         "downloads": 1456269,
         "tags": [
           "transformers",
@@ -461,30 +461,39 @@
         "link": "https://huggingface.co/nvidia/LocateAnything-3B"
       },
       {
-        "id": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
-        "author": "deepseek-ai",
-        "likes": 463,
-        "downloads": 33088,
+        "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
+        "author": "OpenMOSS-Team",
+        "likes": 98,
+        "downloads": 5919,
         "tags": [
           "transformers",
           "safetensors",
-          "deepseek_v4",
+          "moss_transcribe_diarize",
           "text-generation",
-          "arxiv:2606.19348",
-          "license:mit",
-          "endpoints_compatible",
-          "8-bit",
-          "fp8",
+          "moss",
+          "audio",
+          "speech",
+          "asr",
+          "diarization",
+          "timestamp-asr",
+          "long-form-audio",
+          "multimodal",
+          "custom_code",
+          "audio-text-to-text",
+          "en",
+          "zh",
+          "arxiv:2601.01554",
+          "license:apache-2.0",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "audio-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
+        "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
         "author": "nvidia",
-        "likes": 100,
+        "likes": 99,
         "downloads": 23404,
         "tags": [
           "transformers",
@@ -523,34 +532,57 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4"
       },
       {
-        "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
-        "author": "OpenMOSS-Team",
-        "likes": 98,
-        "downloads": 5919,
+        "id": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
+        "author": "deepseek-ai",
+        "likes": 463,
+        "downloads": 33088,
         "tags": [
           "transformers",
           "safetensors",
-          "moss_transcribe_diarize",
+          "deepseek_v4",
           "text-generation",
-          "moss",
-          "audio",
-          "speech",
-          "asr",
-          "diarization",
-          "timestamp-asr",
-          "long-form-audio",
-          "multimodal",
-          "custom_code",
-          "audio-text-to-text",
-          "en",
-          "zh",
-          "arxiv:2601.01554",
-          "license:apache-2.0",
+          "arxiv:2606.19348",
+          "license:mit",
+          "endpoints_compatible",
+          "8-bit",
+          "fp8",
           "region:us"
         ],
-        "pipeline_tag": "audio-text-to-text",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
+      },
+      {
+        "id": "nvidia/Nemotron-Labs-Audex-30B-A3B",
+        "author": "nvidia",
+        "likes": 95,
+        "downloads": 576,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nemotron_labs_audex",
+          "nvidia",
+          "nemotron-labs-audex",
+          "reasoning",
+          "general-purpose",
+          "SFT",
+          "RL",
+          "audio-language-modeling",
+          "audio-understanding",
+          "text-to-speech",
+          "text-to-audio",
+          "speech-recognition",
+          "speech-translation",
+          "text-generation",
+          "en",
+          "arxiv:2607.05196",
+          "license:other",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B"
       },
       {
         "id": "nvidia/Qwen3.6-27B-NVFP4",
@@ -579,38 +611,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4"
-      },
-      {
-        "id": "nvidia/Nemotron-Labs-Audex-30B-A3B",
-        "author": "nvidia",
-        "likes": 93,
-        "downloads": 576,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_labs_audex",
-          "nvidia",
-          "nemotron-labs-audex",
-          "reasoning",
-          "general-purpose",
-          "SFT",
-          "RL",
-          "audio-language-modeling",
-          "audio-understanding",
-          "text-to-speech",
-          "text-to-audio",
-          "speech-recognition",
-          "speech-translation",
-          "text-generation",
-          "en",
-          "arxiv:2607.05196",
-          "license:other",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B"
       },
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
@@ -701,7 +701,7 @@
       {
         "id": "krea/Krea-2-Turbo",
         "author": "krea",
-        "likes": 575,
+        "likes": 576,
         "downloads": 164525,
         "tags": [
           "diffusers",
@@ -721,7 +721,7 @@
       {
         "id": "Alissonerdx/LTX-Best-Face-ID",
         "author": "Alissonerdx",
-        "likes": 83,
+        "likes": 84,
         "downloads": 0,
         "tags": [
           "ltx-video",
@@ -745,7 +745,7 @@
       {
         "id": "robbyant/lingbot-video-moe-30b-a3b",
         "author": "robbyant",
-        "likes": 75,
+        "likes": 76,
         "downloads": 317,
         "tags": [
           "diffusers",
@@ -786,7 +786,7 @@
       {
         "id": "Glint-Research/Fable-5-traces",
         "author": "Glint-Research",
-        "likes": 588,
+        "likes": 589,
         "downloads": 68720,
         "tags": [
           "task_categories:text-generation",
@@ -893,7 +893,7 @@
       {
         "id": "FlyRank/internship-warehouse",
         "author": "FlyRank",
-        "likes": 78,
+        "likes": 79,
         "downloads": 57,
         "tags": [
           "language:en",
@@ -915,7 +915,7 @@
       {
         "id": "Crownelius/Complete-FABLE.5-traces-2M",
         "author": "Crownelius",
-        "likes": 90,
+        "likes": 91,
         "downloads": 7495,
         "tags": [
           "task_categories:text-generation",
