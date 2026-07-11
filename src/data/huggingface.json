@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-11T18:00:17.542Z",
+  "updatedAt": "2026-07-11T19:00:22.491Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "tencent/Hy3",
         "author": "tencent",
-        "likes": 694,
+        "likes": 696,
         "downloads": 8210,
         "tags": [
           "transformers",
@@ -62,7 +62,7 @@
       {
         "id": "zai-org/GLM-5.2",
         "author": "zai-org",
-        "likes": 3821,
+        "likes": 3824,
         "downloads": 421270,
         "tags": [
           "transformers",
@@ -86,7 +86,7 @@
       {
         "id": "InternScience/Agents-A1",
         "author": "InternScience",
-        "likes": 487,
+        "likes": 488,
         "downloads": 28141,
         "tags": [
           "transformers",
@@ -137,7 +137,7 @@
       {
         "id": "baidu/Unlimited-OCR",
         "author": "baidu",
-        "likes": 1927,
+        "likes": 1928,
         "downloads": 1380690,
         "tags": [
           "transformers",
@@ -162,7 +162,7 @@
       {
         "id": "froggeric/Qwen-Fixed-Chat-Templates",
         "author": "froggeric",
-        "likes": 847,
+        "likes": 849,
         "downloads": 0,
         "tags": [
           "mlx",
@@ -186,7 +186,7 @@
       {
         "id": "conradlocke/krea2-identity-edit",
         "author": "conradlocke",
-        "likes": 175,
+        "likes": 177,
         "downloads": 0,
         "tags": [
           "image-editing",
@@ -223,7 +223,7 @@
       {
         "id": "google/tabfm-1.0.0-pytorch",
         "author": "google",
-        "likes": 347,
+        "likes": 348,
         "downloads": 20110,
         "tags": [
           "tabfm",
@@ -245,7 +245,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 2647,
+        "likes": 2648,
         "downloads": 2641936,
         "tags": [
           "gguf",
@@ -301,7 +301,7 @@
       {
         "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "author": "deepreinforce-ai",
-        "likes": 846,
+        "likes": 847,
         "downloads": 1216495,
         "tags": [
           "transformers",
@@ -319,7 +319,7 @@
       {
         "id": "unsloth/DeepSeek-V4-Flash-GGUF",
         "author": "unsloth",
-        "likes": 139,
+        "likes": 140,
         "downloads": 38922,
         "tags": [
           "gguf",
@@ -343,7 +343,7 @@
       {
         "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "author": "yuxinlu1",
-        "likes": 1144,
+        "likes": 1146,
         "downloads": 436530,
         "tags": [
           "gguf",
@@ -386,7 +386,7 @@
       {
         "id": "nvidia/Nemotron-Labs-Audex-30B-A3B",
         "author": "nvidia",
-        "likes": 113,
+        "likes": 115,
         "downloads": 743,
         "tags": [
           "transformers",
@@ -487,25 +487,36 @@
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4"
       },
       {
-        "id": "mistralai/Leanstral-1.5-119B-A6B",
-        "author": "mistralai",
-        "likes": 189,
-        "downloads": 350,
+        "id": "SupraLabs/Supra-Router-51M",
+        "author": "SupraLabs",
+        "likes": 97,
+        "downloads": 1275,
         "tags": [
-          "vllm",
-          "base_model:mistralai/Leanstral-2603",
-          "base_model:finetune:mistralai/Leanstral-2603",
-          "license:apache-2.0",
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "router",
+          "orchestrator",
+          "slm",
+          "edge-computing",
+          "mixture-of-experts",
+          "en",
+          "dataset:SupraLabs/Prompt-Routing-Dataset",
+          "base_model:SupraLabs/Supra-1.5-50M-Base-exp",
+          "base_model:finetune:SupraLabs/Supra-1.5-50M-Base-exp",
+          "text-generation-inference",
+          "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B"
+        "link": "https://huggingface.co/SupraLabs/Supra-Router-51M"
       },
       {
         "id": "nvidia/LocateAnything-3B",
         "author": "nvidia",
-        "likes": 2706,
+        "likes": 2707,
         "downloads": 1472194,
         "tags": [
           "transformers",
@@ -539,31 +550,44 @@
         "link": "https://huggingface.co/nvidia/LocateAnything-3B"
       },
       {
-        "id": "SupraLabs/Supra-Router-51M",
-        "author": "SupraLabs",
-        "likes": 97,
-        "downloads": 1275,
+        "id": "mistralai/Leanstral-1.5-119B-A6B",
+        "author": "mistralai",
+        "likes": 189,
+        "downloads": 350,
         "tags": [
-          "transformers",
-          "safetensors",
-          "llama",
-          "text-generation",
-          "router",
-          "orchestrator",
-          "slm",
-          "edge-computing",
-          "mixture-of-experts",
-          "en",
-          "dataset:SupraLabs/Prompt-Routing-Dataset",
-          "base_model:SupraLabs/Supra-1.5-50M-Base-exp",
-          "base_model:finetune:SupraLabs/Supra-1.5-50M-Base-exp",
-          "text-generation-inference",
-          "endpoints_compatible",
+          "vllm",
+          "base_model:mistralai/Leanstral-2603",
+          "base_model:finetune:mistralai/Leanstral-2603",
+          "license:apache-2.0",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/SupraLabs/Supra-Router-51M"
+        "link": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B"
+      },
+      {
+        "id": "Alissonerdx/LTX-Best-Face-ID",
+        "author": "Alissonerdx",
+        "likes": 97,
+        "downloads": 0,
+        "tags": [
+          "ltx-video",
+          "ltx-2",
+          "identity-preservation",
+          "ipt2v",
+          "reference-to-video",
+          "lora",
+          "comfyui",
+          "text-to-video",
+          "arxiv:2606.02441",
+          "base_model:Lightricks/LTX-2",
+          "base_model:adapter:Lightricks/LTX-2",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/Alissonerdx/LTX-Best-Face-ID"
       },
       {
         "id": "AliesTaha/fable-traces",
@@ -589,30 +613,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/AliesTaha/fable-traces"
-      },
-      {
-        "id": "Alissonerdx/LTX-Best-Face-ID",
-        "author": "Alissonerdx",
-        "likes": 97,
-        "downloads": 0,
-        "tags": [
-          "ltx-video",
-          "ltx-2",
-          "identity-preservation",
-          "ipt2v",
-          "reference-to-video",
-          "lora",
-          "comfyui",
-          "text-to-video",
-          "arxiv:2606.02441",
-          "base_model:Lightricks/LTX-2",
-          "base_model:adapter:Lightricks/LTX-2",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/Alissonerdx/LTX-Best-Face-ID"
       },
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
@@ -795,7 +795,7 @@
       {
         "id": "LiquidAI/antidoom-mix-v1.0",
         "author": "LiquidAI",
-        "likes": 57,
+        "likes": 58,
         "downloads": 394,
         "tags": [
           "task_categories:text-generation",
@@ -874,7 +874,7 @@
       {
         "id": "FlyRank/internship-warehouse",
         "author": "FlyRank",
-        "likes": 101,
+        "likes": 102,
         "downloads": 373,
         "tags": [
           "language:en",
@@ -962,6 +962,31 @@
         "link": "https://huggingface.co/datasets/Crownelius/Complete-FABLE.5-traces-2M"
       },
       {
+        "id": "kyutai/rocket-science",
+        "author": "kyutai",
+        "likes": 24,
+        "downloads": 17982,
+        "tags": [
+          "task_categories:other",
+          "language:en",
+          "license:cc-by-nc-sa-4.0",
+          "size_categories:1M<n<10M",
+          "modality:video",
+          "library:webdataset",
+          "arxiv:2607.05352",
+          "region:us",
+          "rocket-league",
+          "world-model",
+          "video",
+          "reinforcement-learning",
+          "multimodal",
+          "game",
+          "webdataset"
+        ],
+        "lastModified": "2026-07-09T17:14:36.000Z",
+        "link": "https://huggingface.co/datasets/kyutai/rocket-science"
+      },
+      {
         "id": "armand0e/claude-fable-5-claude-code",
         "author": "armand0e",
         "likes": 302,
@@ -987,31 +1012,6 @@
         ],
         "lastModified": "2026-06-19T16:23:10.000Z",
         "link": "https://huggingface.co/datasets/armand0e/claude-fable-5-claude-code"
-      },
-      {
-        "id": "kyutai/rocket-science",
-        "author": "kyutai",
-        "likes": 24,
-        "downloads": 17982,
-        "tags": [
-          "task_categories:other",
-          "language:en",
-          "license:cc-by-nc-sa-4.0",
-          "size_categories:1M<n<10M",
-          "modality:video",
-          "library:webdataset",
-          "arxiv:2607.05352",
-          "region:us",
-          "rocket-league",
-          "world-model",
-          "video",
-          "reinforcement-learning",
-          "multimodal",
-          "game",
-          "webdataset"
-        ],
-        "lastModified": "2026-07-09T17:14:36.000Z",
-        "link": "https://huggingface.co/datasets/kyutai/rocket-science"
       },
       {
         "id": "netflix/Vera-Layered-Video-Dataset",
@@ -1201,27 +1201,6 @@
         "link": "https://huggingface.co/datasets/Syn4D/Syn4D"
       },
       {
-        "id": "scholarweave/arxiv-latex",
-        "author": "scholarweave",
-        "likes": 69,
-        "downloads": 31177,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:feature-extraction",
-          "language:en",
-          "license:other",
-          "size_categories:1M<n<10M",
-          "modality:text",
-          "region:us",
-          "science",
-          "arxiv",
-          "latex",
-          "academic"
-        ],
-        "lastModified": "2026-07-11T11:33:29.000Z",
-        "link": "https://huggingface.co/datasets/scholarweave/arxiv-latex"
-      },
-      {
         "id": "Qwen/AgentWorldBench",
         "author": "Qwen",
         "likes": 77,
@@ -1249,6 +1228,32 @@
         ],
         "lastModified": "2026-07-04T12:59:38.000Z",
         "link": "https://huggingface.co/datasets/Qwen/AgentWorldBench"
+      },
+      {
+        "id": "RekaAI/CS2-10k",
+        "author": "RekaAI",
+        "likes": 26,
+        "downloads": 70774,
+        "tags": [
+          "task_categories:other",
+          "license:cc-by-nc-4.0",
+          "size_categories:100K<n<1M",
+          "modality:video",
+          "library:webdataset",
+          "region:us",
+          "counter-strike",
+          "cs2",
+          "gaming",
+          "egocentric",
+          "first-person",
+          "video",
+          "world-models",
+          "imitation-learning",
+          "action-prediction",
+          "webdataset"
+        ],
+        "lastModified": "2026-06-29T17:14:11.000Z",
+        "link": "https://huggingface.co/datasets/RekaAI/CS2-10k"
       }
     ]
   }
