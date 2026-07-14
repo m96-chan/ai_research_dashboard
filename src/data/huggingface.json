@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-14T18:00:23.362Z",
+  "updatedAt": "2026-07-14T19:00:19.378Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "author": "empero-ai",
-        "likes": 2133,
+        "likes": 2138,
         "downloads": 2006265,
         "tags": [
           "gguf",
@@ -39,7 +39,7 @@
       {
         "id": "tencent/Hy3",
         "author": "tencent",
-        "likes": 775,
+        "likes": 776,
         "downloads": 10406,
         "tags": [
           "transformers",
@@ -62,7 +62,7 @@
       {
         "id": "zai-org/GLM-5.2",
         "author": "zai-org",
-        "likes": 3940,
+        "likes": 3941,
         "downloads": 489611,
         "tags": [
           "transformers",
@@ -86,7 +86,7 @@
       {
         "id": "conradlocke/krea2-identity-edit",
         "author": "conradlocke",
-        "likes": 282,
+        "likes": 283,
         "downloads": 0,
         "tags": [
           "image-editing",
@@ -105,7 +105,7 @@
       {
         "id": "bottlecapai/ThinkingCap-Qwen3.6-27B",
         "author": "bottlecapai",
-        "likes": 334,
+        "likes": 335,
         "downloads": 6208,
         "tags": [
           "transformers",
@@ -130,7 +130,7 @@
       {
         "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
         "author": "OpenMOSS-Team",
-        "likes": 180,
+        "likes": 182,
         "downloads": 65109,
         "tags": [
           "transformers",
@@ -161,7 +161,7 @@
       {
         "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
         "author": "GnLOLot",
-        "likes": 227,
+        "likes": 229,
         "downloads": 89892,
         "tags": [
           "gguf",
@@ -189,7 +189,7 @@
       {
         "id": "InternScience/Agents-A1",
         "author": "InternScience",
-        "likes": 534,
+        "likes": 535,
         "downloads": 30539,
         "tags": [
           "transformers",
@@ -264,7 +264,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 2724,
+        "likes": 2726,
         "downloads": 2443871,
         "tags": [
           "gguf",
@@ -290,6 +290,21 @@
         "link": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
       },
       {
+        "id": "open-gigaai/Giga-World-1",
+        "author": "open-gigaai",
+        "likes": 132,
+        "downloads": 0,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/open-gigaai/Giga-World-1"
+      },
+      {
         "id": "unsloth/DeepSeek-V4-Flash-GGUF",
         "author": "unsloth",
         "likes": 168,
@@ -312,21 +327,6 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-GGUF"
-      },
-      {
-        "id": "open-gigaai/Giga-World-1",
-        "author": "open-gigaai",
-        "likes": 131,
-        "downloads": 0,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/open-gigaai/Giga-World-1"
       },
       {
         "id": "empero-ai/Qwythos-9B-v2-GGUF",
@@ -557,7 +557,7 @@
       {
         "id": "unsloth/Qwen3.6-27B-NVFP4",
         "author": "unsloth",
-        "likes": 200,
+        "likes": 201,
         "downloads": 1599150,
         "tags": [
           "transformers",
@@ -580,23 +580,47 @@
         "link": "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4"
       },
       {
-        "id": "mgwr/M87",
-        "author": "mgwr",
-        "likes": 102,
-        "downloads": 2408,
+        "id": "jlnsrk/GLM-5.2-colibri-int4",
+        "author": "jlnsrk",
+        "likes": 100,
+        "downloads": 2188,
         "tags": [
-          "diffusers",
-          "text-to-image",
-          "lora",
-          "template:diffusion-lora",
-          "base_model:krea/Krea-2-Turbo",
-          "base_model:adapter:krea/Krea-2-Turbo",
-          "license:apache-2.0",
+          "glm_moe_dsa",
+          "int4",
+          "cpu",
+          "moe",
+          "expert-streaming",
+          "colibri",
+          "en",
+          "zh",
+          "base_model:zai-org/GLM-5.2-FP8",
+          "base_model:quantized:zai-org/GLM-5.2-FP8",
+          "license:mit",
+          "fp8",
           "region:us"
         ],
-        "pipeline_tag": "text-to-image",
+        "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/mgwr/M87"
+        "link": "https://huggingface.co/jlnsrk/GLM-5.2-colibri-int4"
+      },
+      {
+        "id": "robbyant/lingbot-world-v2-14b-causal-fast",
+        "author": "robbyant",
+        "likes": 96,
+        "downloads": 0,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "i2v",
+          "World Model",
+          "image-to-video",
+          "en",
+          "license:cc-by-nc-sa-4.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/robbyant/lingbot-world-v2-14b-causal-fast"
       },
       {
         "id": "nineninesix/gepard-1.0",
@@ -645,52 +669,9 @@
         "link": "https://huggingface.co/nineninesix/gepard-1.0"
       },
       {
-        "id": "jlnsrk/GLM-5.2-colibri-int4",
-        "author": "jlnsrk",
-        "likes": 100,
-        "downloads": 2188,
-        "tags": [
-          "glm_moe_dsa",
-          "int4",
-          "cpu",
-          "moe",
-          "expert-streaming",
-          "colibri",
-          "en",
-          "zh",
-          "base_model:zai-org/GLM-5.2-FP8",
-          "base_model:quantized:zai-org/GLM-5.2-FP8",
-          "license:mit",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/jlnsrk/GLM-5.2-colibri-int4"
-      },
-      {
-        "id": "robbyant/lingbot-world-v2-14b-causal-fast",
-        "author": "robbyant",
-        "likes": 96,
-        "downloads": 0,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "i2v",
-          "World Model",
-          "image-to-video",
-          "en",
-          "license:cc-by-nc-sa-4.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/robbyant/lingbot-world-v2-14b-causal-fast"
-      },
-      {
         "id": "Alissonerdx/LTX-Best-Face-ID",
         "author": "Alissonerdx",
-        "likes": 136,
+        "likes": 137,
         "downloads": 0,
         "tags": [
           "ltx-video",
@@ -712,9 +693,28 @@
         "link": "https://huggingface.co/Alissonerdx/LTX-Best-Face-ID"
       },
       {
+        "id": "mgwr/M87",
+        "author": "mgwr",
+        "likes": 102,
+        "downloads": 2408,
+        "tags": [
+          "diffusers",
+          "text-to-image",
+          "lora",
+          "template:diffusion-lora",
+          "base_model:krea/Krea-2-Turbo",
+          "base_model:adapter:krea/Krea-2-Turbo",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/mgwr/M87"
+      },
+      {
         "id": "unsloth/Qwen3.6-27B-MTP-GGUF",
         "author": "unsloth",
-        "likes": 1085,
+        "likes": 1086,
         "downloads": 2904515,
         "tags": [
           "transformers",
@@ -734,6 +734,28 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF"
+      },
+      {
+        "id": "google/tabfm-1.0.0-pytorch",
+        "author": "google",
+        "likes": 363,
+        "downloads": 22733,
+        "tags": [
+          "tabfm",
+          "safetensors",
+          "tabular",
+          "tabular-regression",
+          "zero-shot",
+          "in-context-learning",
+          "pytorch",
+          "foundation-model",
+          "tabular-classification",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "tabular-classification",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/tabfm-1.0.0-pytorch"
       },
       {
         "id": "CohereLabs/cohere-transcribe-arabic-07-2026",
@@ -765,28 +787,6 @@
         "pipeline_tag": "automatic-speech-recognition",
         "lastModified": "",
         "link": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026"
-      },
-      {
-        "id": "google/tabfm-1.0.0-pytorch",
-        "author": "google",
-        "likes": 362,
-        "downloads": 22733,
-        "tags": [
-          "tabfm",
-          "safetensors",
-          "tabular",
-          "tabular-regression",
-          "zero-shot",
-          "in-context-learning",
-          "pytorch",
-          "foundation-model",
-          "tabular-classification",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "tabular-classification",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/tabfm-1.0.0-pytorch"
       }
     ]
   },
@@ -796,7 +796,7 @@
       {
         "id": "markov-ai/gaming-500-hours",
         "author": "markov-ai",
-        "likes": 159,
+        "likes": 160,
         "downloads": 26068,
         "tags": [
           "size_categories:n<1K",
@@ -812,25 +812,6 @@
         ],
         "lastModified": "2026-06-30T11:56:39.000Z",
         "link": "https://huggingface.co/datasets/markov-ai/gaming-500-hours"
-      },
-      {
-        "id": "LiquidAI/antidoom-mix-v1.0",
-        "author": "LiquidAI",
-        "likes": 83,
-        "downloads": 472,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:100K<n<1M",
-          "region:us",
-          "antidoom",
-          "prompt-only",
-          "sharegpt",
-          "preference-training"
-        ],
-        "lastModified": "2026-07-07T12:10:58.000Z",
-        "link": "https://huggingface.co/datasets/LiquidAI/antidoom-mix-v1.0"
       },
       {
         "id": "FlyRank/internship-warehouse",
@@ -853,6 +834,25 @@
         ],
         "lastModified": "2026-07-07T10:02:21.000Z",
         "link": "https://huggingface.co/datasets/FlyRank/internship-warehouse"
+      },
+      {
+        "id": "LiquidAI/antidoom-mix-v1.0",
+        "author": "LiquidAI",
+        "likes": 83,
+        "downloads": 472,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:100K<n<1M",
+          "region:us",
+          "antidoom",
+          "prompt-only",
+          "sharegpt",
+          "preference-training"
+        ],
+        "lastModified": "2026-07-07T12:10:58.000Z",
+        "link": "https://huggingface.co/datasets/LiquidAI/antidoom-mix-v1.0"
       },
       {
         "id": "Glint-Research/Fable-5-traces",
@@ -1057,6 +1057,17 @@
         "link": "https://huggingface.co/datasets/sensenova/SenseNova-Vision-Corpus-50M"
       },
       {
+        "id": "CMRobot/MotionDecode",
+        "author": "CMRobot",
+        "likes": 27,
+        "downloads": 8544,
+        "tags": [
+          "region:us"
+        ],
+        "lastModified": "2026-07-14T09:52:10.000Z",
+        "link": "https://huggingface.co/datasets/CMRobot/MotionDecode"
+      },
+      {
         "id": "armand0e/claude-fable-5-claude-code",
         "author": "armand0e",
         "likes": 305,
@@ -1084,97 +1095,9 @@
         "link": "https://huggingface.co/datasets/armand0e/claude-fable-5-claude-code"
       },
       {
-        "id": "CMRobot/MotionDecode",
-        "author": "CMRobot",
-        "likes": 27,
-        "downloads": 8544,
-        "tags": [
-          "region:us"
-        ],
-        "lastModified": "2026-07-14T09:52:10.000Z",
-        "link": "https://huggingface.co/datasets/CMRobot/MotionDecode"
-      },
-      {
-        "id": "LiquidAI/ifstruct-v1.0",
-        "author": "LiquidAI",
-        "likes": 74,
-        "downloads": 729,
-        "tags": [
-          "benchmark:official",
-          "benchmark:eval-yaml",
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "structured-output",
-          "json",
-          "yaml",
-          "instruction-following",
-          "schema-following"
-        ],
-        "lastModified": "2026-07-07T12:32:14.000Z",
-        "link": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0"
-      },
-      {
-        "id": "bigfacing/GOKU-2M",
-        "author": "bigfacing",
-        "likes": 33,
-        "downloads": 13705,
-        "tags": [
-          "task_categories:text-to-video",
-          "task_categories:video-to-video",
-          "language:en",
-          "license:cc-by-nc-4.0",
-          "size_categories:1M<n<10M",
-          "modality:image",
-          "modality:video",
-          "arxiv:2606.30599",
-          "region:us",
-          "video-editing",
-          "instruction-based-editing",
-          "video"
-        ],
-        "lastModified": "2026-07-05T14:26:56.000Z",
-        "link": "https://huggingface.co/datasets/bigfacing/GOKU-2M"
-      },
-      {
-        "id": "ProCreations/grug-think",
-        "author": "ProCreations",
-        "likes": 22,
-        "downloads": 493,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:100K<n<1M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "function-calling",
-          "tool-use",
-          "agents",
-          "reasoning",
-          "synthetic",
-          "grug"
-        ],
-        "lastModified": "2026-07-09T05:46:25.000Z",
-        "link": "https://huggingface.co/datasets/ProCreations/grug-think"
-      },
-      {
         "id": "wikimedia/wikipedia",
         "author": "wikimedia",
-        "likes": 1286,
+        "likes": 1287,
         "downloads": 224303,
         "tags": [
           "task_categories:text-generation",
@@ -1516,6 +1439,83 @@
         ],
         "lastModified": "2024-01-09T09:40:51.000Z",
         "link": "https://huggingface.co/datasets/wikimedia/wikipedia"
+      },
+      {
+        "id": "bigfacing/GOKU-2M",
+        "author": "bigfacing",
+        "likes": 33,
+        "downloads": 13705,
+        "tags": [
+          "task_categories:text-to-video",
+          "task_categories:video-to-video",
+          "language:en",
+          "license:cc-by-nc-4.0",
+          "size_categories:1M<n<10M",
+          "modality:image",
+          "modality:video",
+          "arxiv:2606.30599",
+          "region:us",
+          "video-editing",
+          "instruction-based-editing",
+          "video"
+        ],
+        "lastModified": "2026-07-05T14:26:56.000Z",
+        "link": "https://huggingface.co/datasets/bigfacing/GOKU-2M"
+      },
+      {
+        "id": "ProCreations/grug-think",
+        "author": "ProCreations",
+        "likes": 22,
+        "downloads": 493,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:100K<n<1M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "function-calling",
+          "tool-use",
+          "agents",
+          "reasoning",
+          "synthetic",
+          "grug"
+        ],
+        "lastModified": "2026-07-09T05:46:25.000Z",
+        "link": "https://huggingface.co/datasets/ProCreations/grug-think"
+      },
+      {
+        "id": "LiquidAI/ifstruct-v1.0",
+        "author": "LiquidAI",
+        "likes": 74,
+        "downloads": 729,
+        "tags": [
+          "benchmark:official",
+          "benchmark:eval-yaml",
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "structured-output",
+          "json",
+          "yaml",
+          "instruction-following",
+          "schema-following"
+        ],
+        "lastModified": "2026-07-07T12:32:14.000Z",
+        "link": "https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0"
       },
       {
         "id": "kyutai/rocket-science",
