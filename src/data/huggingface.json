@@ -1,21 +1,23 @@
 {
-  "updatedAt": "2026-07-16T15:00:20.243Z",
+  "updatedAt": "2026-07-16T16:00:20.844Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "thinkingmachines/Inkling",
         "author": "thinkingmachines",
-        "likes": 688,
+        "likes": 710,
         "downloads": 4,
         "tags": [
+          "transformers",
           "safetensors",
           "inkling_mm_model",
-          "conversational",
           "image-text-to-text",
+          "conversational",
           "audio-text-to-text",
           "moe",
           "license:apache-2.0",
+          "endpoints_compatible",
           "region:us"
         ],
         "pipeline_tag": "image-text-to-text",
@@ -25,7 +27,7 @@
       {
         "id": "prism-ml/Ternary-Bonsai-27B-gguf",
         "author": "prism-ml",
-        "likes": 549,
+        "likes": 555,
         "downloads": 74007,
         "tags": [
           "llama.cpp",
@@ -54,7 +56,7 @@
       {
         "id": "prism-ml/Bonsai-27B-gguf",
         "author": "prism-ml",
-        "likes": 310,
+        "likes": 312,
         "downloads": 559267,
         "tags": [
           "llama.cpp",
@@ -115,7 +117,7 @@
       {
         "id": "zai-org/GLM-5.2",
         "author": "zai-org",
-        "likes": 4018,
+        "likes": 4019,
         "downloads": 513061,
         "tags": [
           "transformers",
@@ -139,7 +141,7 @@
       {
         "id": "bottlecapai/ThinkingCap-Qwen3.6-27B",
         "author": "bottlecapai",
-        "likes": 381,
+        "likes": 382,
         "downloads": 8238,
         "tags": [
           "transformers",
@@ -164,7 +166,7 @@
       {
         "id": "conradlocke/krea2-identity-edit",
         "author": "conradlocke",
-        "likes": 315,
+        "likes": 316,
         "downloads": 0,
         "tags": [
           "image-editing",
@@ -183,7 +185,7 @@
       {
         "id": "tencent/Hy3",
         "author": "tencent",
-        "likes": 808,
+        "likes": 809,
         "downloads": 11849,
         "tags": [
           "transformers",
@@ -206,7 +208,7 @@
       {
         "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
         "author": "OpenMOSS-Team",
-        "likes": 225,
+        "likes": 228,
         "downloads": 75105,
         "tags": [
           "transformers",
@@ -237,7 +239,7 @@
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 2777,
+        "likes": 2778,
         "downloads": 2328315,
         "tags": [
           "gguf",
@@ -323,7 +325,7 @@
       {
         "id": "ATH-MaaS/OvisOCR2",
         "author": "ATH-MaaS",
-        "likes": 129,
+        "likes": 131,
         "downloads": 3678,
         "tags": [
           "transformers",
@@ -478,6 +480,31 @@
         "link": "https://huggingface.co/jlnsrk/GLM-5.2-colibri-int4"
       },
       {
+        "id": "unsloth/Qwen3.6-27B-NVFP4",
+        "author": "unsloth",
+        "likes": 214,
+        "downloads": 1712974,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "unsloth",
+          "qwen",
+          "conversational",
+          "base_model:Qwen/Qwen3.6-27B",
+          "base_model:quantized:Qwen/Qwen3.6-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "compressed-tensors",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4"
+      },
+      {
         "id": "baidu/Unlimited-OCR",
         "author": "baidu",
         "likes": 2007,
@@ -503,31 +530,6 @@
         "link": "https://huggingface.co/baidu/Unlimited-OCR"
       },
       {
-        "id": "unsloth/Qwen3.6-27B-NVFP4",
-        "author": "unsloth",
-        "likes": 213,
-        "downloads": 1712974,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "unsloth",
-          "qwen",
-          "conversational",
-          "base_model:Qwen/Qwen3.6-27B",
-          "base_model:quantized:Qwen/Qwen3.6-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "compressed-tensors",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4"
-      },
-      {
         "id": "Cactus-Compute/needle",
         "author": "Cactus-Compute",
         "likes": 244,
@@ -550,19 +552,58 @@
         "link": "https://huggingface.co/Cactus-Compute/needle"
       },
       {
-        "id": "open-gigaai/Giga-World-1",
-        "author": "open-gigaai",
-        "likes": 137,
+        "id": "Alissonerdx/LTX-Best-Face-ID",
+        "author": "Alissonerdx",
+        "likes": 162,
         "downloads": 0,
         "tags": [
-          "diffusers",
-          "safetensors",
-          "license:apache-2.0",
+          "ltx-video",
+          "identity-preservation",
+          "ipt2v",
+          "reference-to-video",
+          "lora",
+          "comfyui",
+          "ltx2.3",
+          "text-to-video",
+          "arxiv:2606.02441",
+          "base_model:Lightricks/LTX-2.3",
+          "base_model:adapter:Lightricks/LTX-2.3",
+          "license:other",
           "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "text-to-video",
         "lastModified": "",
-        "link": "https://huggingface.co/open-gigaai/Giga-World-1"
+        "link": "https://huggingface.co/Alissonerdx/LTX-Best-Face-ID"
+      },
+      {
+        "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
+        "author": "GnLOLot",
+        "likes": 93,
+        "downloads": 3691,
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized",
+          "minicpm5",
+          "thinking",
+          "fable5",
+          "tool-calling",
+          "function-calling",
+          "coding",
+          "instruction-following",
+          "conversational",
+          "text-generation",
+          "en",
+          "zh",
+          "base_model:GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking",
+          "base_model:quantized:GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF"
       },
       {
         "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
@@ -593,63 +634,9 @@
         "link": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF"
       },
       {
-        "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
-        "author": "GnLOLot",
-        "likes": 92,
-        "downloads": 3691,
-        "tags": [
-          "gguf",
-          "llama.cpp",
-          "quantized",
-          "minicpm5",
-          "thinking",
-          "fable5",
-          "tool-calling",
-          "function-calling",
-          "coding",
-          "instruction-following",
-          "conversational",
-          "text-generation",
-          "en",
-          "zh",
-          "base_model:GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking",
-          "base_model:quantized:GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF"
-      },
-      {
-        "id": "Alissonerdx/LTX-Best-Face-ID",
-        "author": "Alissonerdx",
-        "likes": 158,
-        "downloads": 0,
-        "tags": [
-          "ltx-video",
-          "identity-preservation",
-          "ipt2v",
-          "reference-to-video",
-          "lora",
-          "comfyui",
-          "ltx2.3",
-          "text-to-video",
-          "arxiv:2606.02441",
-          "base_model:Lightricks/LTX-2.3",
-          "base_model:adapter:Lightricks/LTX-2.3",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/Alissonerdx/LTX-Best-Face-ID"
-      },
-      {
         "id": "Wan-AI/Wan-Dancer-14B",
         "author": "Wan-AI",
-        "likes": 86,
+        "likes": 87,
         "downloads": 1884,
         "tags": [
           "diffusers",
@@ -668,6 +655,21 @@
         "pipeline_tag": "image-to-video",
         "lastModified": "",
         "link": "https://huggingface.co/Wan-AI/Wan-Dancer-14B"
+      },
+      {
+        "id": "open-gigaai/Giga-World-1",
+        "author": "open-gigaai",
+        "likes": 137,
+        "downloads": 0,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/open-gigaai/Giga-World-1"
       },
       {
         "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
@@ -690,7 +692,7 @@
       {
         "id": "robbyant/lingbot-world-v2-14b-causal-fast",
         "author": "robbyant",
-        "likes": 100,
+        "likes": 101,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -774,7 +776,7 @@
       {
         "id": "FlyRank/internship-warehouse",
         "author": "FlyRank",
-        "likes": 236,
+        "likes": 237,
         "downloads": 1352,
         "tags": [
           "language:en",
@@ -861,6 +863,35 @@
         "link": "https://huggingface.co/datasets/openbmb/UltraX-Preview"
       },
       {
+        "id": "AlicanKiraz0/Turkce-Atlas-Instruct",
+        "author": "AlicanKiraz0",
+        "likes": 34,
+        "downloads": 162,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:question-answering",
+          "task_categories:summarization",
+          "language:tr",
+          "license:mit",
+          "size_categories:100K<n<1M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "turkish",
+          "instruction-tuning",
+          "sft",
+          "conversational",
+          "chat",
+          "text"
+        ],
+        "lastModified": "2026-07-12T12:00:15.000Z",
+        "link": "https://huggingface.co/datasets/AlicanKiraz0/Turkce-Atlas-Instruct"
+      },
+      {
         "id": "Glint-Research/Fable-5-traces",
         "author": "Glint-Research",
         "likes": 619,
@@ -893,35 +924,6 @@
         ],
         "lastModified": "2026-06-29T15:10:20.000Z",
         "link": "https://huggingface.co/datasets/Glint-Research/Fable-5-traces"
-      },
-      {
-        "id": "AlicanKiraz0/Turkce-Atlas-Instruct",
-        "author": "AlicanKiraz0",
-        "likes": 32,
-        "downloads": 162,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:question-answering",
-          "task_categories:summarization",
-          "language:tr",
-          "license:mit",
-          "size_categories:100K<n<1M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "turkish",
-          "instruction-tuning",
-          "sft",
-          "conversational",
-          "chat",
-          "text"
-        ],
-        "lastModified": "2026-07-12T12:00:15.000Z",
-        "link": "https://huggingface.co/datasets/AlicanKiraz0/Turkce-Atlas-Instruct"
       },
       {
         "id": "netflix/Vera-Layered-Video-Dataset",
@@ -1460,52 +1462,6 @@
         "link": "https://huggingface.co/datasets/bigfacing/GOKU-2M"
       },
       {
-        "id": "Manusagents/GPT-5.5-Gemini-3.1-Pro-Grok-4-Claude-Fable-5-Mythos-5-Qwen-3.7-Max-and-more-Distillation-Dataset",
-        "author": "Manusagents",
-        "likes": 18,
-        "downloads": 5007,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:other",
-          "language:en",
-          "language:multilingual",
-          "license:mit",
-          "size_categories:10M<n<100M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "distillation",
-          "instruction-tuning",
-          "sft",
-          "reasoning",
-          "coding",
-          "code-repositories",
-          "cybersecurity",
-          "open-source",
-          "collection",
-          "fable-5",
-          "gpt-5.5",
-          "claude",
-          "gemini",
-          "grok",
-          "kimi",
-          "deepseek",
-          "Trace",
-          "qwen",
-          "biology",
-          "science",
-          "Llm",
-          "Open-source",
-          "Math"
-        ],
-        "lastModified": "2026-07-07T21:01:58.000Z",
-        "link": "https://huggingface.co/datasets/Manusagents/GPT-5.5-Gemini-3.1-Pro-Grok-4-Claude-Fable-5-Mythos-5-Qwen-3.7-Max-and-more-Distillation-Dataset"
-      },
-      {
         "id": "ProCreations/grug-think",
         "author": "ProCreations",
         "likes": 28,
@@ -1635,6 +1591,52 @@
         ],
         "lastModified": "2026-07-09T17:14:36.000Z",
         "link": "https://huggingface.co/datasets/kyutai/rocket-science"
+      },
+      {
+        "id": "Manusagents/GPT-5.5-Gemini-3.1-Pro-Grok-4-Claude-Fable-5-Mythos-5-Qwen-3.7-Max-and-more-Distillation-Dataset",
+        "author": "Manusagents",
+        "likes": 18,
+        "downloads": 5007,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:other",
+          "language:en",
+          "language:multilingual",
+          "license:mit",
+          "size_categories:10M<n<100M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "distillation",
+          "instruction-tuning",
+          "sft",
+          "reasoning",
+          "coding",
+          "code-repositories",
+          "cybersecurity",
+          "open-source",
+          "collection",
+          "fable-5",
+          "gpt-5.5",
+          "claude",
+          "gemini",
+          "grok",
+          "kimi",
+          "deepseek",
+          "Trace",
+          "qwen",
+          "biology",
+          "science",
+          "Llm",
+          "Open-source",
+          "Math"
+        ],
+        "lastModified": "2026-07-07T21:01:58.000Z",
+        "link": "https://huggingface.co/datasets/Manusagents/GPT-5.5-Gemini-3.1-Pro-Grok-4-Claude-Fable-5-Mythos-5-Qwen-3.7-Max-and-more-Distillation-Dataset"
       },
       {
         "id": "roneneldan/TinyStories",
