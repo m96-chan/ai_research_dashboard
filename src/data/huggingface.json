@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-04T20:00:25.870Z",
+  "updatedAt": "2026-08-04T21:00:26.781Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
         "author": "deepseek-ai",
-        "likes": 2269,
+        "likes": 2275,
         "downloads": 433284,
         "tags": [
           "transformers",
@@ -30,7 +30,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 1940,
+        "likes": 1960,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -59,7 +59,7 @@
       {
         "id": "moonshotai/Kimi-K3",
         "author": "moonshotai",
-        "likes": 9996,
+        "likes": 9998,
         "downloads": 1125935,
         "tags": [
           "transformers",
@@ -82,10 +82,12 @@
       {
         "id": "Comfy-Org/MiniMax-H3",
         "author": "Comfy-Org",
-        "likes": 583,
+        "likes": 587,
         "downloads": 2,
         "tags": [
           "comfyui",
+          "base_model:MiniMaxAI/MiniMax-H3",
+          "base_model:finetune:MiniMaxAI/MiniMax-H3",
           "license:other",
           "region:us"
         ],
@@ -96,7 +98,7 @@
       {
         "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 1498,
+        "likes": 1504,
         "downloads": 1633405,
         "tags": [
           "gguf",
@@ -144,7 +146,7 @@
       {
         "id": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
         "author": "unsloth",
-        "likes": 462,
+        "likes": 465,
         "downloads": 111678,
         "tags": [
           "gguf",
@@ -166,7 +168,7 @@
       {
         "id": "baidu/Unlimited-OCR",
         "author": "baidu",
-        "likes": 3878,
+        "likes": 3879,
         "downloads": 2703366,
         "tags": [
           "transformers",
@@ -191,7 +193,7 @@
       {
         "id": "thinkingmachines/Inkling-Small",
         "author": "thinkingmachines",
-        "likes": 280,
+        "likes": 281,
         "downloads": 15500,
         "tags": [
           "transformers",
@@ -213,7 +215,7 @@
       {
         "id": "Audio8/Audio8-TTS-Preview-0.6b",
         "author": "Audio8",
-        "likes": 243,
+        "likes": 245,
         "downloads": 11276,
         "tags": [
           "transformers",
@@ -248,7 +250,7 @@
       {
         "id": "unsloth/Kimi-K3-GGUF",
         "author": "unsloth",
-        "likes": 303,
+        "likes": 304,
         "downloads": 170055,
         "tags": [
           "transformers",
@@ -270,7 +272,7 @@
       {
         "id": "microsoft/Mage-VL",
         "author": "microsoft",
-        "likes": 253,
+        "likes": 254,
         "downloads": 435784,
         "tags": [
           "transformers",
@@ -291,6 +293,33 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/microsoft/Mage-VL"
+      },
+      {
+        "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot",
+        "author": "ethanfel",
+        "likes": 183,
+        "downloads": 0,
+        "tags": [
+          "comfyui",
+          "minimax-h3",
+          "qwen3-vl",
+          "qwen3-vl-32b",
+          "heretic",
+          "abliterated",
+          "uncensored",
+          "int8",
+          "convrot",
+          "quantized",
+          "image-text-to-text",
+          "en",
+          "base_model:llmfan46/Qwen3-VL-32B-Instruct-ultra-uncensored-heretic",
+          "base_model:finetune:llmfan46/Qwen3-VL-32B-Instruct-ultra-uncensored-heretic",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot"
       },
       {
         "id": "zai-org/GLM-5.2",
@@ -317,36 +346,9 @@
         "link": "https://huggingface.co/zai-org/GLM-5.2"
       },
       {
-        "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot",
-        "author": "ethanfel",
-        "likes": 181,
-        "downloads": 0,
-        "tags": [
-          "comfyui",
-          "minimax-h3",
-          "qwen3-vl",
-          "qwen3-vl-32b",
-          "heretic",
-          "abliterated",
-          "uncensored",
-          "int8",
-          "convrot",
-          "quantized",
-          "image-text-to-text",
-          "en",
-          "base_model:llmfan46/Qwen3-VL-32B-Instruct-ultra-uncensored-heretic",
-          "base_model:finetune:llmfan46/Qwen3-VL-32B-Instruct-ultra-uncensored-heretic",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot"
-      },
-      {
         "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
         "author": "Kwaipilot",
-        "likes": 466,
+        "likes": 468,
         "downloads": 15381,
         "tags": [
           "transformers",
@@ -405,7 +407,7 @@
       {
         "id": "XYZAILab/XYZ-Aquila-mini",
         "author": "XYZAILab",
-        "likes": 403,
+        "likes": 404,
         "downloads": 1317,
         "tags": [
           "transformers",
@@ -479,7 +481,7 @@
       {
         "id": "owensong/Inflect-Micro-v2",
         "author": "owensong",
-        "likes": 407,
+        "likes": 409,
         "downloads": 2072,
         "tags": [
           "text-to-speech",
@@ -526,7 +528,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash",
         "author": "deepseek-ai",
-        "likes": 2010,
+        "likes": 2011,
         "downloads": 2737621,
         "tags": [
           "transformers",
@@ -584,6 +586,47 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF"
+      },
+      {
+        "id": "LiquidAI/LFM2.5-2.6B",
+        "author": "LiquidAI",
+        "likes": 116,
+        "downloads": 47393,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm2",
+          "text-generation",
+          "liquid",
+          "lfm2.5",
+          "edge",
+          "conversational",
+          "ar",
+          "zh",
+          "en",
+          "fr",
+          "de",
+          "hi",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "pl",
+          "pt",
+          "ru",
+          "es",
+          "th",
+          "vi",
+          "arxiv:2511.23404",
+          "base_model:LiquidAI/LFM2.5-2.6B-Base",
+          "base_model:finetune:LiquidAI/LFM2.5-2.6B-Base",
+          "license:other",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
       },
       {
         "id": "Nanbeige/Nanbeige4.2-3B",
@@ -652,47 +695,6 @@
         "link": "https://huggingface.co/empero-ai/Qwythos-27B-v1"
       },
       {
-        "id": "LiquidAI/LFM2.5-2.6B",
-        "author": "LiquidAI",
-        "likes": 108,
-        "downloads": 47393,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "lfm2",
-          "text-generation",
-          "liquid",
-          "lfm2.5",
-          "edge",
-          "conversational",
-          "ar",
-          "zh",
-          "en",
-          "fr",
-          "de",
-          "hi",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "pl",
-          "pt",
-          "ru",
-          "es",
-          "th",
-          "vi",
-          "arxiv:2511.23404",
-          "base_model:LiquidAI/LFM2.5-2.6B-Base",
-          "base_model:finetune:LiquidAI/LFM2.5-2.6B-Base",
-          "license:other",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
-      },
-      {
         "id": "poolside/Laguna-S-2.1",
         "author": "poolside",
         "likes": 919,
@@ -717,7 +719,7 @@
       {
         "id": "LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
         "author": "LGAI-EXAONE",
-        "likes": 114,
+        "likes": 115,
         "downloads": 325,
         "tags": [
           "transformers",
@@ -808,7 +810,7 @@
       {
         "id": "realrebelai/MiniMax-H3_GGUFs",
         "author": "realrebelai",
-        "likes": 97,
+        "likes": 100,
         "downloads": 40010,
         "tags": [
           "gguf",
@@ -861,7 +863,7 @@
       {
         "id": "HuggingFaceCode/stack-v3-train",
         "author": "HuggingFaceCode",
-        "likes": 300,
+        "likes": 301,
         "downloads": 143828,
         "tags": [
           "task_categories:text-generation",
