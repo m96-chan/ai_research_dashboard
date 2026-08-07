@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-07T09:00:25.986Z",
+  "updatedAt": "2026-08-07T10:00:21.241Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 2835,
+        "likes": 2850,
         "downloads": 18112,
         "tags": [
           "diffusers",
@@ -35,7 +35,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
         "author": "deepseek-ai",
-        "likes": 2694,
+        "likes": 2703,
         "downloads": 702709,
         "tags": [
           "transformers",
@@ -57,9 +57,26 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
       },
       {
+        "id": "Comfy-Org/MiniMax-H3",
+        "author": "Comfy-Org",
+        "likes": 882,
+        "downloads": 3139920,
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "base_model:MiniMaxAI/MiniMax-H3",
+          "base_model:finetune:MiniMaxAI/MiniMax-H3",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/Comfy-Org/MiniMax-H3"
+      },
+      {
         "id": "moonshotai/Kimi-K3",
         "author": "moonshotai",
-        "likes": 10237,
+        "likes": 10243,
         "downloads": 1308186,
         "tags": [
           "transformers",
@@ -80,26 +97,9 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K3"
       },
       {
-        "id": "Comfy-Org/MiniMax-H3",
-        "author": "Comfy-Org",
-        "likes": 877,
-        "downloads": 3139920,
-        "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "base_model:MiniMaxAI/MiniMax-H3",
-          "base_model:finetune:MiniMaxAI/MiniMax-H3",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Comfy-Org/MiniMax-H3"
-      },
-      {
         "id": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
         "author": "unsloth",
-        "likes": 565,
+        "likes": 567,
         "downloads": 161253,
         "tags": [
           "gguf",
@@ -122,7 +122,7 @@
       {
         "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 1668,
+        "likes": 1670,
         "downloads": 2217339,
         "tags": [
           "gguf",
@@ -168,9 +168,30 @@
         "link": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF"
       },
       {
+        "id": "larryvrh/MiniMax-H3-Turbo-Lora",
+        "author": "larryvrh",
+        "likes": 357,
+        "downloads": 0,
+        "tags": [
+          "text-to-video",
+          "text-to-audio",
+          "audio-video",
+          "lora",
+          "minimax-h3",
+          "comfyui",
+          "base_model:Comfy-Org/MiniMax-H3",
+          "base_model:adapter:Comfy-Org/MiniMax-H3",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora"
+      },
+      {
         "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
         "author": "ethanfel",
-        "likes": 353,
+        "likes": 356,
         "downloads": 0,
         "tags": [
           "comfyui",
@@ -200,7 +221,7 @@
       {
         "id": "LiquidAI/LFM2.5-2.6B",
         "author": "LiquidAI",
-        "likes": 345,
+        "likes": 347,
         "downloads": 77973,
         "tags": [
           "transformers",
@@ -238,27 +259,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
-      },
-      {
-        "id": "larryvrh/MiniMax-H3-Turbo-Lora",
-        "author": "larryvrh",
-        "likes": 346,
-        "downloads": 0,
-        "tags": [
-          "text-to-video",
-          "text-to-audio",
-          "audio-video",
-          "lora",
-          "minimax-h3",
-          "comfyui",
-          "base_model:Comfy-Org/MiniMax-H3",
-          "base_model:adapter:Comfy-Org/MiniMax-H3",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora"
       },
       {
         "id": "baidu/Unlimited-OCR",
@@ -312,7 +312,7 @@
       {
         "id": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
         "author": "nvidia",
-        "likes": 199,
+        "likes": 205,
         "downloads": 359,
         "tags": [
           "safetensors",
@@ -353,7 +353,7 @@
       {
         "id": "lodestones/Kroma",
         "author": "lodestones",
-        "likes": 213,
+        "likes": 214,
         "downloads": 0,
         "tags": [
           "lora",
@@ -371,7 +371,7 @@
       {
         "id": "mistralai/Shieldstral-1.0-3B",
         "author": "mistralai",
-        "likes": 171,
+        "likes": 173,
         "downloads": 2480,
         "tags": [
           "vllm",
@@ -401,33 +401,9 @@
         "link": "https://huggingface.co/mistralai/Shieldstral-1.0-3B"
       },
       {
-        "id": "zai-org/GLM-5.2",
-        "author": "zai-org",
-        "likes": 4879,
-        "downloads": 2430330,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "glm_moe_dsa",
-          "text-generation",
-          "conversational",
-          "en",
-          "zh",
-          "arxiv:2602.15763",
-          "arxiv:2603.12201",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/zai-org/GLM-5.2"
-      },
-      {
         "id": "drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
         "author": "drbaph",
-        "likes": 153,
+        "likes": 157,
         "downloads": 0,
         "tags": [
           "minimax-h3",
@@ -463,6 +439,30 @@
         "link": "https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI"
       },
       {
+        "id": "zai-org/GLM-5.2",
+        "author": "zai-org",
+        "likes": 4881,
+        "downloads": 2430330,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa",
+          "text-generation",
+          "conversational",
+          "en",
+          "zh",
+          "arxiv:2602.15763",
+          "arxiv:2603.12201",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/zai-org/GLM-5.2"
+      },
+      {
         "id": "realrebelai/MiniMax-H3_GGUFs",
         "author": "realrebelai",
         "likes": 162,
@@ -479,28 +479,6 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/realrebelai/MiniMax-H3_GGUFs"
-      },
-      {
-        "id": "thinkingmachines/Inkling-Small",
-        "author": "thinkingmachines",
-        "likes": 331,
-        "downloads": 25340,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "inkling_mm_model",
-          "image-text-to-text",
-          "conversational",
-          "audio-text-to-text",
-          "moe",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/thinkingmachines/Inkling-Small"
       },
       {
         "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
@@ -531,9 +509,31 @@
         "link": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev"
       },
       {
+        "id": "thinkingmachines/Inkling-Small",
+        "author": "thinkingmachines",
+        "likes": 331,
+        "downloads": 25340,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "inkling_mm_model",
+          "image-text-to-text",
+          "conversational",
+          "audio-text-to-text",
+          "moe",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/thinkingmachines/Inkling-Small"
+      },
+      {
         "id": "microsoft/Mage-VL",
         "author": "microsoft",
-        "likes": 296,
+        "likes": 297,
         "downloads": 456140,
         "tags": [
           "transformers",
@@ -663,7 +663,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash",
         "author": "deepseek-ai",
-        "likes": 2052,
+        "likes": 2054,
         "downloads": 2577975,
         "tags": [
           "transformers",
@@ -687,7 +687,7 @@
       {
         "id": "Abiray/Minimax-H3-nvfp4-INT4-INT8-Convrot",
         "author": "Abiray",
-        "likes": 114,
+        "likes": 116,
         "downloads": 452420,
         "tags": [
           "diffusers",
@@ -736,7 +736,7 @@
       {
         "id": "EschaLabs/Qwen3.6-35B-A3B-Escha-W2",
         "author": "EschaLabs",
-        "likes": 228,
+        "likes": 230,
         "downloads": 3622,
         "tags": [
           "safetensors",
@@ -767,7 +767,7 @@
       {
         "id": "black-forest-labs/FLUX.1-dev",
         "author": "black-forest-labs",
-        "likes": 14016,
+        "likes": 14017,
         "downloads": 512841,
         "tags": [
           "diffusers",
@@ -902,6 +902,27 @@
         "link": "https://huggingface.co/datasets/rajpurkar/squad"
       },
       {
+        "id": "Anthropic/hh-rlhf",
+        "author": "Anthropic",
+        "likes": 1915,
+        "downloads": 35309,
+        "tags": [
+          "license:mit",
+          "size_categories:100K<n<1M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:mlcroissant",
+          "library:polars",
+          "arxiv:2204.05862",
+          "region:us",
+          "human-feedback"
+        ],
+        "lastModified": "2023-05-26T18:47:34.000Z",
+        "link": "https://huggingface.co/datasets/Anthropic/hh-rlhf"
+      },
+      {
         "id": "stanfordnlp/imdb",
         "author": "stanfordnlp",
         "likes": 466,
@@ -957,27 +978,6 @@
         "link": "https://huggingface.co/datasets/openai/gsm8k"
       },
       {
-        "id": "Anthropic/hh-rlhf",
-        "author": "Anthropic",
-        "likes": 1914,
-        "downloads": 35309,
-        "tags": [
-          "license:mit",
-          "size_categories:100K<n<1M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:mlcroissant",
-          "library:polars",
-          "arxiv:2204.05862",
-          "region:us",
-          "human-feedback"
-        ],
-        "lastModified": "2023-05-26T18:47:34.000Z",
-        "link": "https://huggingface.co/datasets/Anthropic/hh-rlhf"
-      },
-      {
         "id": "tatsu-lab/alpaca",
         "author": "tatsu-lab",
         "likes": 1084,
@@ -1002,7 +1002,7 @@
       {
         "id": "HuggingFaceCode/stack-v3-train",
         "author": "HuggingFaceCode",
-        "likes": 314,
+        "likes": 315,
         "downloads": 167174,
         "tags": [
           "task_categories:text-generation",
@@ -1190,6 +1190,36 @@
         "link": "https://huggingface.co/datasets/FlyRank/internship-warehouse"
       },
       {
+        "id": "Qyrou/reasoning-corpus-4K-5M-v1",
+        "author": "Qyrou",
+        "likes": 191,
+        "downloads": 7754,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:1M<n<10M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "reasoning",
+          "CoT",
+          "code",
+          "agentic",
+          "thinking",
+          "think",
+          "deepseek-v4",
+          "qwen3",
+          "qwen3next"
+        ],
+        "lastModified": "2026-07-31T02:06:14.000Z",
+        "link": "https://huggingface.co/datasets/Qyrou/reasoning-corpus-4K-5M-v1"
+      },
+      {
         "id": "simple-world-lab/HiFi-UMI-2K",
         "author": "simple-world-lab",
         "likes": 39,
@@ -1266,36 +1296,6 @@
         "link": "https://huggingface.co/datasets/mito0o852/OHLCV-1m"
       },
       {
-        "id": "Qyrou/reasoning-corpus-4K-5M-v1",
-        "author": "Qyrou",
-        "likes": 190,
-        "downloads": 7754,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:1M<n<10M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "reasoning",
-          "CoT",
-          "code",
-          "agentic",
-          "thinking",
-          "think",
-          "deepseek-v4",
-          "qwen3",
-          "qwen3next"
-        ],
-        "lastModified": "2026-07-31T02:06:14.000Z",
-        "link": "https://huggingface.co/datasets/Qyrou/reasoning-corpus-4K-5M-v1"
-      },
-      {
         "id": "r0b0tlab/qwen3.8-max-distillation-50k",
         "author": "r0b0tlab",
         "likes": 77,
@@ -1330,6 +1330,31 @@
         "link": "https://huggingface.co/datasets/r0b0tlab/qwen3.8-max-distillation-50k"
       },
       {
+        "id": "PaddlePaddle/Real5-OmniDocBench",
+        "author": "PaddlePaddle",
+        "likes": 33,
+        "downloads": 3239,
+        "tags": [
+          "benchmark:official",
+          "benchmark:eval-yaml",
+          "task_categories:image-to-text",
+          "language:zh",
+          "language:en",
+          "modality:document",
+          "modality:image",
+          "arxiv:2603.04205",
+          "region:us",
+          "ocr",
+          "document-parsing",
+          "benchmark",
+          "multimodal",
+          "document",
+          "image"
+        ],
+        "lastModified": "2026-08-04T03:13:24.000Z",
+        "link": "https://huggingface.co/datasets/PaddlePaddle/Real5-OmniDocBench"
+      },
+      {
         "id": "HuggingFaceFW/fineweb-edu",
         "author": "HuggingFaceFW",
         "likes": 1244,
@@ -1355,31 +1380,6 @@
         ],
         "lastModified": "2025-07-11T20:16:53.000Z",
         "link": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
-      },
-      {
-        "id": "PaddlePaddle/Real5-OmniDocBench",
-        "author": "PaddlePaddle",
-        "likes": 33,
-        "downloads": 3239,
-        "tags": [
-          "benchmark:official",
-          "benchmark:eval-yaml",
-          "task_categories:image-to-text",
-          "language:zh",
-          "language:en",
-          "modality:document",
-          "modality:image",
-          "arxiv:2603.04205",
-          "region:us",
-          "ocr",
-          "document-parsing",
-          "benchmark",
-          "multimodal",
-          "document",
-          "image"
-        ],
-        "lastModified": "2026-08-04T03:13:24.000Z",
-        "link": "https://huggingface.co/datasets/PaddlePaddle/Real5-OmniDocBench"
       }
     ]
   }
