@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-08T19:00:24.686Z",
+  "updatedAt": "2026-08-08T20:00:23.613Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 3082,
+        "likes": 3086,
         "downloads": 26693,
         "tags": [
           "diffusers",
@@ -35,7 +35,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
         "author": "deepseek-ai",
-        "likes": 2836,
+        "likes": 2839,
         "downloads": 785771,
         "tags": [
           "transformers",
@@ -76,7 +76,7 @@
       {
         "id": "moonshotai/Kimi-K3",
         "author": "moonshotai",
-        "likes": 10328,
+        "likes": 10331,
         "downloads": 1388105,
         "tags": [
           "transformers",
@@ -99,7 +99,7 @@
       {
         "id": "larryvrh/MiniMax-H3-Turbo-Lora",
         "author": "larryvrh",
-        "likes": 470,
+        "likes": 474,
         "downloads": 0,
         "tags": [
           "text-to-video",
@@ -120,7 +120,7 @@
       {
         "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 1750,
+        "likes": 1752,
         "downloads": 2345190,
         "tags": [
           "gguf",
@@ -168,7 +168,7 @@
       {
         "id": "LiquidAI/LFM2.5-2.6B",
         "author": "LiquidAI",
-        "likes": 409,
+        "likes": 412,
         "downloads": 81522,
         "tags": [
           "transformers",
@@ -210,7 +210,7 @@
       {
         "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
         "author": "ethanfel",
-        "likes": 401,
+        "likes": 403,
         "downloads": 0,
         "tags": [
           "comfyui",
@@ -263,7 +263,7 @@
       {
         "id": "deepgrove/maple-preview",
         "author": "deepgrove",
-        "likes": 250,
+        "likes": 252,
         "downloads": 896,
         "tags": [
           "transformers",
@@ -287,7 +287,7 @@
       {
         "id": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
         "author": "nvidia",
-        "likes": 242,
+        "likes": 244,
         "downloads": 458,
         "tags": [
           "safetensors",
@@ -328,7 +328,7 @@
       {
         "id": "drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
         "author": "drbaph",
-        "likes": 199,
+        "likes": 201,
         "downloads": 0,
         "tags": [
           "minimax-h3",
@@ -371,34 +371,31 @@
         "link": "https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI"
       },
       {
-        "id": "baidu/Unlimited-OCR",
-        "author": "baidu",
-        "likes": 3967,
-        "downloads": 2857997,
+        "id": "lightx2v/Minimax-h3-Turbo",
+        "author": "lightx2v",
+        "likes": 191,
+        "downloads": 0,
         "tags": [
-          "transformers",
-          "safetensors",
-          "unlimited-ocr",
-          "feature-extraction",
-          "baidu",
-          "vision-language",
-          "ocr",
-          "custom_code",
-          "image-text-to-text",
-          "multilingual",
-          "arxiv:2606.23050",
-          "license:mit",
-          "eval-results",
+          "diffusers",
+          "t2v",
+          "i2v",
+          "r2v",
+          "image-to-video",
+          "en",
+          "zh",
+          "base_model:MiniMaxAI/MiniMax-H3",
+          "base_model:finetune:MiniMaxAI/MiniMax-H3",
+          "license:apache-2.0",
           "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "image-to-video",
         "lastModified": "",
-        "link": "https://huggingface.co/baidu/Unlimited-OCR"
+        "link": "https://huggingface.co/lightx2v/Minimax-h3-Turbo"
       },
       {
         "id": "mistralai/Shieldstral-1.0-3B",
         "author": "mistralai",
-        "likes": 197,
+        "likes": 198,
         "downloads": 4950,
         "tags": [
           "vllm",
@@ -428,31 +425,34 @@
         "link": "https://huggingface.co/mistralai/Shieldstral-1.0-3B"
       },
       {
-        "id": "lightx2v/Minimax-h3-Turbo",
-        "author": "lightx2v",
-        "likes": 187,
-        "downloads": 0,
+        "id": "baidu/Unlimited-OCR",
+        "author": "baidu",
+        "likes": 3967,
+        "downloads": 2857997,
         "tags": [
-          "diffusers",
-          "t2v",
-          "i2v",
-          "r2v",
-          "image-to-video",
-          "en",
-          "zh",
-          "base_model:MiniMaxAI/MiniMax-H3",
-          "base_model:finetune:MiniMaxAI/MiniMax-H3",
-          "license:apache-2.0",
+          "transformers",
+          "safetensors",
+          "unlimited-ocr",
+          "feature-extraction",
+          "baidu",
+          "vision-language",
+          "ocr",
+          "custom_code",
+          "image-text-to-text",
+          "multilingual",
+          "arxiv:2606.23050",
+          "license:mit",
+          "eval-results",
           "region:us"
         ],
-        "pipeline_tag": "image-to-video",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/lightx2v/Minimax-h3-Turbo"
+        "link": "https://huggingface.co/baidu/Unlimited-OCR"
       },
       {
         "id": "Kijai/MiniMax-H3_comfy",
         "author": "Kijai",
-        "likes": 177,
+        "likes": 178,
         "downloads": 0,
         "tags": [
           "region:us"
@@ -464,7 +464,7 @@
       {
         "id": "realrebelai/MiniMax-H3_GGUFs",
         "author": "realrebelai",
-        "likes": 174,
+        "likes": 175,
         "downloads": 128265,
         "tags": [
           "gguf",
@@ -482,7 +482,7 @@
       {
         "id": "SexGod1979/PinkCherry_MiniMax-H3",
         "author": "SexGod1979",
-        "likes": 162,
+        "likes": 165,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -499,7 +499,7 @@
       {
         "id": "LiquidAI/LFM2.5-2.6B-GGUF",
         "author": "LiquidAI",
-        "likes": 154,
+        "likes": 155,
         "downloads": 49562,
         "tags": [
           "gguf",
@@ -561,6 +561,18 @@
         "link": "https://huggingface.co/Abiray/Minimax-H3-nvfp4-INT4-INT8-Convrot"
       },
       {
+        "id": "Kijai/MiniMax-H3-experimental",
+        "author": "Kijai",
+        "likes": 138,
+        "downloads": 0,
+        "tags": [
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/Kijai/MiniMax-H3-experimental"
+      },
+      {
         "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
         "author": "Kwaipilot",
         "likes": 544,
@@ -589,18 +601,6 @@
         "link": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev"
       },
       {
-        "id": "Kijai/MiniMax-H3-experimental",
-        "author": "Kijai",
-        "likes": 137,
-        "downloads": 0,
-        "tags": [
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Kijai/MiniMax-H3-experimental"
-      },
-      {
         "id": "zai-org/GLM-5.2",
         "author": "zai-org",
         "likes": 4902,
@@ -623,6 +623,29 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/zai-org/GLM-5.2"
+      },
+      {
+        "id": "sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4",
+        "author": "sakamakismile",
+        "likes": 132,
+        "downloads": 0,
+        "tags": [
+          "comfyui",
+          "minimax-h3",
+          "text-encoder",
+          "qwen3-vl",
+          "nvfp4",
+          "video-generation",
+          "uncensored",
+          "abliterated",
+          "base_model:ethanfel/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot",
+          "base_model:quantized:ethanfel/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4"
       },
       {
         "id": "Audio8/Audio8-TTS-Preview-0.6b",
@@ -660,32 +683,9 @@
         "link": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b"
       },
       {
-        "id": "sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4",
-        "author": "sakamakismile",
-        "likes": 132,
-        "downloads": 0,
-        "tags": [
-          "comfyui",
-          "minimax-h3",
-          "text-encoder",
-          "qwen3-vl",
-          "nvfp4",
-          "video-generation",
-          "uncensored",
-          "abliterated",
-          "base_model:ethanfel/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot",
-          "base_model:quantized:ethanfel/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4"
-      },
-      {
         "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V7-GGUF",
         "author": "LuffyTheFox",
-        "likes": 436,
+        "likes": 438,
         "downloads": 373651,
         "tags": [
           "hermes",
@@ -811,7 +811,7 @@
       {
         "id": "HuggingFaceH4/ultrachat_200k",
         "author": "HuggingFaceH4",
-        "likes": 853,
+        "likes": 854,
         "downloads": 70664,
         "tags": [
           "task_categories:text-generation",
