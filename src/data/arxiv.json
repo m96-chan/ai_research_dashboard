@@ -1,7 +1,126 @@
 {
-  "updatedAt": "2026-08-13T01:00:33.320Z",
+  "updatedAt": "2026-08-13T04:00:25.216Z",
   "count": 50,
   "papers": [
+    {
+      "id": "http://arxiv.org/abs/2608.12314v1",
+      "title": "StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization",
+      "summary": "Previsualization is an intermediate layer between ideas and production in film, games, architecture, and urban design. It lets creators iteratively refine scenes, actions, cameras, and spatial-temporal dynamics. Yet existing generative methods rely on simple prompts to jointly control all of these factors through one-shot image or video synthesis, offering weak controllability and limited support for iterative editing. Fundamentally, a world comprises multiple elements with geometry, appearance, and other attributes, together with cameras. Different frames are produced through local modifications or recombinations of this shared state, which is otherwise largely reused. Therefore, we argue that the missing component is an explicit and persistent working state. To address this, we present StateFlow, a state-centric framework for generative previsualization. Rather than generating videos in one shot, StateFlow uses an editable 3D world to organize scene structure, evolution, and cameras, while off-the-shelf video models enhance visual quality when higher fidelity is desired. This world is maintained as a persistent structured 3D state of scene elements and camera configurations, serving as the core working representation for previsualization. Built on this insight, StateFlow has three stages to construct, evolve, and access the world state. State construction lifts generated 2D content into a coherent 3D world through prior-guided, conflict-aware dual-view initialization, while State evolution translates user intent into structured state transitions while preserving world memory, avoiding full-scene regeneration for each edit. State access uses render-feedback reflection to refine camera plans into visually feasible trajectories, avoiding reliance on VLM semantics alone. Experiments show that StateFlow produces high-quality 3D worlds for video creation and game-like prototyping.",
+      "authors": [
+        "Yuyang Yin",
+        "Zixiang Li",
+        "Longxuan Deng",
+        "Hongkai Li",
+        "Shifang Zhao",
+        "Junnan Liu",
+        "Weirong Huang",
+        "Mengyu Wang",
+        "Tianxiao Fu",
+        "Yikai Wang",
+        "Peng-Shuai Wang",
+        "Xiaojie Jin",
+        "Yao Zhao",
+        "Yunchao Wei"
+      ],
+      "published": "2026-08-12T17:58:07Z",
+      "updated": "2026-08-12T17:58:07Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "link": "https://arxiv.org/abs/2608.12314v1",
+      "pdfLink": "https://arxiv.org/pdf/2608.12314v1",
+      "tldr": "TL;DR: StateFlowは、映像制作やゲームなどのために、シーン要素とカメラ構成を持続的に管理する3Dワールド状態を構築、進化、アクセスするフレームワークであり、従来の一発生成法に代わって反復的な編集を可能にします。"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.12313v1",
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. To address the challenge, we propose the Agentic Video Auto-Encoder (AVA-Encoder), a framework for learning agent-native video representations via agentic auto-encoding. AVA-Encoder transforms a video into a knowledge graph (KG) representation and then reconstructs it back into video. Its hierarchy and state nodes store structured text, while a linked asset layer holds generated images, audio, and video. Typed edges preserve the relations between these text descriptions and assets in a form that agents can easily understand, query, and edit. The video reconstruction differences drive a textual-gradient optimization framework, which expresses evaluation feedback as natural-language update directions for Data-Independent Encoding Policy Pseudo-Training in the outer loop and optional Data-Dependent KG Representation Refinement in the test-time inner loop. Extensive experiments show that AVA-Encoder improves by 20.7 percentage points over the strongest external baseline. In the controlled policy-only setting, its pseudo-trained shot-level Agentic Video Encoder policy also outperforms a carefully human-tuned policy while using 74.3% fewer system-prompt tokens. We release the complete AVA-Encoder framework, a reliable agentic video reconstruction benchmark, and the first dataset of high-quality film KG representations.",
+      "authors": [
+        "Chuyue Li",
+        "Jinpeng Yu",
+        "Haozhe Wang",
+        "Tian Xueyun",
+        "Zhijing Zhang",
+        "Bingnan Li",
+        "Shuqi Gu",
+        "Kan Ren",
+        "Jiaming Liu",
+        "Ruihua Hua"
+      ],
+      "published": "2026-08-12T17:58:02Z",
+      "updated": "2026-08-12T17:58:02Z",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2608.12313v1",
+      "pdfLink": "https://arxiv.org/pdf/2608.12313v1",
+      "tldr": "AVA-Encoderは、高品質な人間の映画から学ぶためのエージェントネイティブな動画表現学習フレームワークで、動画を知識グラフに変換し再構築することで、エージェントが理解・操作しやすい構造化された表現を提供します。この手法は、従来のベースラインに対して20.7ポイントの改善を示し、エージェントの動画再構築能力を向上させることが実証されています。"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.12308v1",
+      "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
+      "summary": "Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observability. Although recent VLA models offer a promising perception-to-action paradigm, adapting them to aerial navigation remains challenging due to limited historical context, short planning horizons, and unreliable implicit termination. To address these challenges, we propose DreamFly, a diffusion-based aerial VLN framework built on Dream-VLA. DreamFly introduces a causally aligned historical memory that augments the current visual representation using only observations preceding the current decision step, enabling temporal reasoning without future information leakage. We further formulate navigation as receding-horizon diffusion planning, where the policy predicts a $K$-step action chunk but executes only the first action before replanning. This plan-$K$, execute-one strategy uses future actions as auxiliary planning targets while preserving closed-loop visual feedback. Finally, LiteStop estimates the stop probability directly from action logits at the initial all-mask state, decoupling explicit termination from action generation. Experiments on the OpenFly benchmark demonstrate consistent improvements in seen and unseen environments. DreamFly achieves 32.04%/29.46% SR and 28.22%/23.54% SPL on the test-seen/test-unseen splits, respectively, outperforming all compared methods on both metrics while attaining the lowest navigation error. These results demonstrate the effectiveness of jointly modeling historical context, future action structure, and explicit termination for aerial VLN.",
+      "authors": [
+        "Yan Deng",
+        "Fei Xu"
+      ],
+      "published": "2026-08-12T17:54:33Z",
+      "updated": "2026-08-12T17:54:33Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2608.12308v1",
+      "pdfLink": "https://arxiv.org/pdf/2608.12308v1",
+      "tldr": "DreamFlyは、視覚と言語を統合した航空ナビゲーションのための新しいフレームワークで、因果的な履歴メモリと再帰的ホライズンプランニングを活用し、ナビゲーションの精度を向上させることを目指しています。実験結果では、既存の手法と比較して、ナビゲーションエラーを最小限に抑えつつ、目標達成率や成功率で優れた成果を示しました。"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.12307v1",
+      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "summary": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In this paper, we ask whether such transfer can instead occur at test time. We study strong-to-weak scaffolding: whether a stronger builder model can construct inference-time harnesses that help a weaker target model solve tasks more reliably without any parameter updates. Using four representative Theory-of-Mind benchmarks, each builder model uses 5% of the data as a validation set to iteratively refine its harness over multiple rounds, after which the finalized harness is evaluated on the full test set. Empirically, this form of test-time capability transfer is highly effective, nearly doubling average target-model performance from 0.49 to 0.91. Our analysis shows that the gains come primarily from offloading unstable model reasoning into deterministic code, benchmark-specific routing, and strict answer-format enforcement, rather than from encouraging the target model to reason more extensively or sample more broadly. We further find that builder-model reasoning effort improves harness quality monotonically, platform effects are modest relative to the builder model's own capability, and weaker target models receive the largest gains. These results suggest that inference-time harness design is an important complement to conventional training-time distillation, enabling strong models to transfer cognitive structure to weaker models without retraining.",
+      "authors": [
+        "Cheng Qian",
+        "Wenting Zhao",
+        "Liangwei Yang",
+        "Heng Wang",
+        "Jielin Qiu",
+        "Heng Ji",
+        "Silvio Savarese",
+        "Huan Wang",
+        "Shelby Heinecke"
+      ],
+      "published": "2026-08-12T17:53:18Z",
+      "updated": "2026-08-12T17:53:18Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2608.12307v1",
+      "pdfLink": "https://arxiv.org/pdf/2608.12307v1",
+      "tldr": "強力なモデルが弱いモデルのタスク解決を支援するためのハーネスをテスト時に構築することで、パラメータ更新なしに能力を移転する手法を提案し、実験によりターゲットモデルのパフォーマンスがほぼ倍増することを示しました。これにより、従来のトレーニング時の蒸留に加え、推論時のハーネス設計が重要であることが示唆されます。"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.12306v1",
+      "title": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
+      "summary": "Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide only trajectory-level stop-feedback: a binary signal at the first unsafe transition, with no per-step attribution. We frame this as a temporal credit assignment problem and propose the Redistribution-based Cost Inference (RCI) framework, which converts sparse stop-feedback into dense per-step costs via return decomposition, then trains a constrained offline policy on the augmented dataset. We show that return-equivalent redistribution preserves the feasible policy set and the optimal Lagrangian in a CMDP, establishing that the transformation is lossless in theory while yielding better-conditioned cost critic learning in practice. Experiments on highway driving and robotic manipulation demonstrate substantially lower violation rates than sparse and classifier-based baselines, with robustness to heterogeneous dataset compositions and label noise.",
+      "authors": [
+        "Ebenezer Gelo",
+        "Geraud Nangue Tasse",
+        "Steven James",
+        "Benjamin Rosman"
+      ],
+      "published": "2026-08-12T17:53:15Z",
+      "updated": "2026-08-12T17:53:15Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2608.12306v1",
+      "pdfLink": "https://arxiv.org/pdf/2608.12306v1",
+      "tldr": "TL;DR: Redistribution-based Cost Inference (RCI)は、スパースな停止フィードバックを密なステップごとのコストに変換し、制約付きオフラインポリシーを訓練することで、安全なオフライン強化学習の性能を向上させる手法であり、実験結果は従来の手法よりも低い違反率を示しています。"
+    },
     {
       "id": "http://arxiv.org/abs/2608.12304v1",
       "title": "Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models",
@@ -18,7 +137,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12304v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12304v1",
-      "tldr": "動的マスターロジックモデル（DML）の自動構築を知識グラフ（KG-DML）として表現するフレームワークが提案され、複雑なシステムの診断における機能的依存関係や論理関係を保持しながら、リトリーバル拡張生成と大規模言語モデルを活用してスケーラビリティを向上させることが示された。デコミッショニングされた沸騰水型原子炉の低圧冷却注入システムへの適用により、技術文書を実"
+      "tldr": "動的マスターロジック（DML）を知識グラフ（KG-DML）として自動構築するフレームワークが提案され、複雑なシステムの診断において、リトリーバル拡張生成と大規模言語モデルを活用することで、技術文書からのモデル構築が可能となり、診断推論や安全評価を支援することが示された。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12302v1",
@@ -35,7 +154,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12302v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12302v1",
-      "tldr": "人間に aligned した報酬関数を設計するためのフレームワークを提案し、自然言語で記述されたタスクから線形報酬関数を生成するプロセスを3つのステップで説明しています。このプロセスは、基本的な目的を抽出し、因果的に代表的な成果変数を選定し、好みの引き出しを通じて報酬項に重みを適合させることを含みます。"
+      "tldr": "人間に aligned な報酬関数を設計するためのフレームワークを提案し、自然言語で記述されたタスクから線形報酬関数を生成するプロセスを3つのステップで示しています。この方法は、因果関係を考慮した報酬項の選択や、好みの引き出しを通じた重みの調整を含み、初めて決定論的に矛盾のない重み領域を維持することが可能です。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12299v1",
@@ -56,7 +175,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12299v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12299v1",
-      "tldr": "TL;DR: クラスアクティベーションマッピング（CAM）は、説明可能なAIにおける視覚的説明手法の一つで、画像の特定の領域を強調するヒートマップを生成します。本レビューは、2016年以降の57の手法中心の論文を分析し、CAMの進化や評価の断片化を指摘しつつ、最新の手法がどのようにクラススコアの説明を多層的かつ確率的に行う方向にシフトしているかを示しています。"
+      "tldr": "TL;DR: クラス活性化マッピング（CAM）は、説明可能なAIにおける視覚的説明手法の一つで、2016年以降の57の手法をレビューし、方法の分類や評価目的に基づいて整理。最近のトレンドは、低解像度CNN層の単一クラススコアの説明から、比較的で多層的なトークン認識を含む説明への移行であり、評価基準は依然として断片的であることが強調されている。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12290v1",
@@ -78,7 +197,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12290v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12290v1",
-      "tldr": "最新のImage-to-Video（I2V）モデルの課題を解決するために、「Agentic Self-Improvement」フレームワークを提案し、動画合成を目標指向の最適化プロセスに再構築しました。このアプローチは、生成パラメータ空間を体系的に探索し、生成された動画の品質を向上させることに成功しました。"
+      "tldr": "最新のImage-to-Video（I2V）モデルの課題を解決するために、「Agentic Self-Improvement」フレームワークを提案し、動画合成を目標指向の最適化プロセスに再構築しました。このアプローチにより、生成された動画の品質が大幅に向上し、従来の手法に比べて人間の好みで69%の勝率を達成しました。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12283v1",
@@ -98,7 +217,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12283v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12283v1",
-      "tldr": "大規模言語モデルを用いた小型株取引の研究では、金融ニュースのセンチメントやマクロ経済指標を活用し、ポートフォリオ構築におけるリスクをモデル予測に基づいて直接コバリアンス行列に組み込む手法を評価しました。結果、純アルファと純ベータの選択肢がシャープ比やリターンで優位性を示し、特に取引コストやホールド期間によってその効果が変動することが明らかになりました。"
+      "tldr": "大規模言語モデルを用いた小型株取引の研究では、金融ニュースのセンチメントやマクロ経済指標を活用し、ポートフォリオ構築においてリスクを直接共分散行列に組み込む手法が評価されました。結果として、純アルファと純ベータの選択肢が、シャープ比やリターンにおいてベータ交差点を上回ることが示され、特に40日間の保有期間での純ベータが優れたパフォーマンスを発揮しました。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12282v1",
@@ -122,7 +241,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12282v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12282v1",
-      "tldr": "VAKRAは、企業環境におけるAPIと文書コレクションを通じたマルチホップ推論を評価するためのベンチマークで、8,000以上の実行可能なAPIを62のドメインにわたって提供します。評価の結果、最良モデルでも単一ホップタスクで70.4%の正答率にとどまり、マルチホップ推論やポリシー制約のある質問では著しく性能が低下することが示されました。"
+      "tldr": "VAKRAは、企業環境におけるAPIと文書コレクションを跨ぐマルチホップ推論を評価するためのベンチマークで、8,000以上の実行可能なAPIを62のドメインで提供し、難易度の異なるタスクを含んでいます。評価の結果、最良のモデルでも単一ホップタスクで70.4%の正答率にとどまり、推論の深さが増すにつれて性能が大幅に低下することが明らかになりました。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12279v1",
@@ -142,7 +261,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12279v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12279v1",
-      "tldr": "TL;DR: 本研究では、メモリ効率の良いテスト時適応（TTA）を実現するために、低ランクのヘッセ行列構造を利用したカーブチャー認識ゼロオーダー（CAZO）最適化手法を提案し、従来の手法よりも優れた性能を示しました。"
+      "tldr": "TL;DR: 提案されたCAZO法は、テスト時適応（TTA）において、低ランクのヘッセ行列構造を利用し、メモリ効率を保ちながら高精度な最適化を実現するゼロオーダー手法であり、従来のTTA手法を大幅に上回る性能を示しています。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12278v1",
@@ -161,7 +280,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12278v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12278v1",
-      "tldr": "AI教育ツールは資源の乏しいコミュニティのアクセスギャップに対応するものとされるが、ベンガル語のような過小評価された言語の話者に対して構造的な障壁が存在し、データセットの不足や接続性の問題がAIモデルの訓練前から不利に働いていることを指摘している。"
+      "tldr": "TL;DR: AI教育ツールは、リソース不足のコミュニティにおけるアクセスギャップの解決策として位置付けられているが、ベンガル語のような過小評価された言語の話者に対して構造的な障壁が存在し、データ不足や接続性の問題がAIモデルの訓練前から不利に働いていることを指摘している。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12276v1",
@@ -181,7 +300,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12276v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12276v1",
-      "tldr": "XYZFlowは、効率的な生成モデリングのために多次元スケーリングを活用し、従来の単一ステップマッピングよりも表現力を高めるフレームワークであり、実験結果では教師モデルに対して7.2-8.5倍の速度向上を達成し、競争力のあるFIDを示しています。"
+      "tldr": "XYZFlowは、効率的な生成モデルのために多次元スケーリングを活用し、従来の単一ステップマッピングを超えて、より識別可能で学習可能な確率パスを実現します。このフレームワークは、教師モデルの速度を7.2〜8.5倍向上させつつ、競争力のあるFIDを達成し、Next Shortcut Predictionにより品質とレイテンシのトレードオフを最適化します。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12274v1",
@@ -206,7 +325,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12274v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12274v1",
-      "tldr": "NA-UNETRは、低コントラストのCT画像における左前下行動脈（LAD）の3Dセグメンテーションを改善するためのトランスフォーマーベースのモデルで、局所的な精度とグローバルな文脈をバランスよく捉え、放射線治療計画における心臓のサブストラクチャーセグメンテーションを効率化します。"
+      "tldr": "NA-UNETRは、低コントラストのCT画像における左前下行動脈（LAD）の3Dセグメンテーションを改善するために、ローカルとグローバルな文脈をモデル化し、不確実性に基づく最適化を行うトランスフォーマーベースのフレームワークであり、従来のモデルよりも高い精度を達成しました。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12273v1",
@@ -229,7 +348,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12273v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12273v1",
-      "tldr": "TL;DR: Convergent Detour Hijacking (CDH)は、LLMエージェントにおけるスキル選択と計画の過程を悪用する攻撃手法で、攻撃者が不必要なスキルを介入させつつタスクを完了させることが可能であることを示しています。この手法により、タスクの結果は正しいものの、実行コストや時間が大幅に増加することが確認されました。"
+      "tldr": "TL;DR: Convergent Detour Hijacking (CDH)は、LLMエージェントが第三者のスキルを利用する際に、選択と計画の段階を結びつけた攻撃手法であり、タスクの完了を維持しつつ不必要なリソース消費を引き起こすことが示された。評価の結果、タスク完了率は維持されるものの、トークン消費と実行時間が大幅に増加することが明らかになった。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12271v1",
@@ -251,7 +370,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12271v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12271v1",
-      "tldr": "地球観測の埋め込みを用いた手法が、粗いグリッドでの気象再解析を基にした確率的ダウンスケーリングにおいて、地表の持続的特性を捉え、温度と風速の予測精度を向上させることを示しました。特に、異なる気候地域での適用において、CRPSスキルがそれぞれ11.5%と6.2%改善される結果が得られました。"
+      "tldr": "地球観測の埋め込みを用いた手法が、粗いグリッドでの気象再解析データを基にした確率的な天気のダウンスケーリングにおいて、局所的な表面特性を効果的に表現し、温度と風速の予測精度を向上させることを示した。特に、地形が温度のサブグリッド構造に与える影響が大きく、TESSERA埋め込みが風速の追加情報を提供することが確認された。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12269v1",
@@ -273,7 +392,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12269v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12269v1",
-      "tldr": "公的調達における不正を検出するために、エクアドルの公式調達システムのメタデータを分析し、無監督クラスタリングと監督分類を統合したNLPパイプラインを提案。実験結果は、ドメイン特化型のWord2Vec埋め込みとGMMクラスタリング、Random Forest分類器の組み合わせが高い精度と再現率を達成することを示しており、リスク識別と透明性向上に寄与することが確認された。"
+      "tldr": "公的調達における不正を検出するために、エクアドルの公式調達システムのメタデータを分析し、無監督クラスタリングと監督分類を統合したNLPパイプラインを提案。実験結果は、ドメイン適応型の軽量NLPアーキテクチャがリスク識別と透明性向上に効果的であることを示している。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12262v1",
@@ -299,7 +418,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12262v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12262v1",
-      "tldr": "TL;DR: Diagram-MMUは、科学的図表の解析と理解におけるマルチモーダル大規模言語モデル（MLLM）の能力を評価するためのベンチマークで、3.7kの図表と18.3kの質問を含み、図表からコードへの変換や編集、質問応答のタスクを評価します。評価結果は、図表からコードへのタスクがより難易度が高く、MLLMの能力向上が求められることを示しています。"
+      "tldr": "TL;DR: Diagram-MMUは、科学的図表の解析と理解におけるマルチモーダル大規模言語モデル（MLLM）の能力を評価するためのベンチマークであり、3.7kの図表と18.3kの人間検証済み質問を含む。評価結果は、図表からコードへの変換タスクが質問応答よりも難易度が高く、MLLMの図表からコード生成能力を向上させる方法の必要性を示している。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12259v1",
@@ -317,7 +436,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12259v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12259v1",
-      "tldr": "金融予測モデルにおけるポストトレーニング量子化（PTQ）のための活性化キャリブレーションが、特に4ビット量子化時に予測性能に大きな影響を与えることが示され、適切なキャリブレーション手法を選択することが重要であると結論付けられています。"
+      "tldr": "金融予測モデルの低精度推論におけるポストトレーニング量子化（PTQ）において、アクティベーションのキャリブレーションが予測性能に与える影響を体系的に調査した結果、特に4ビット量子化ではキャリブレーションが重要な要素であることが明らかになった。適切なキャリブレーションを行うことで、予測性能の低下を大幅に回復できる可能性が示唆されている。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12253v1",
@@ -344,7 +463,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12253v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12253v1",
-      "tldr": "マルチエージェント強化学習において、単一の大規模言語モデルに依存するシミュレーターが一般化に失敗する「シミュレーター崩壊」を示し、これを解決するために推論時と訓練時の二つの補完的なアプローチを提案しています。提案された「Verbalized Sampling」と「Co-Training」は、ポリシーの多様性を維持しつつ、実際のユーザーや未見のシミュレーターに対する成功率を向上させることが確認されました。"
+      "tldr": "マルチエージェント強化学習におけるシミュレーターの崩壊問題を指摘し、単一の大規模言語モデルに依存するアプローチが一般化に失敗する理由を説明しています。提案された解決策として、推論時の「Verbalized Sampling」と訓練時の「Co-Training」があり、これによりポリシーの多様性を保ちながら、実際のユーザーへの適応性を向上させることが示されています。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12252v1",
@@ -364,7 +483,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12252v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12252v1",
-      "tldr": "ボーリングコアの分析において、報告書から得られた弱ラベルと完全監視型の亀裂セグメンテーションを組み合わせた手法を提案し、F1スコア0.860と亀裂クラスのIoU0.754を達成しました。このフレームワークは、報告書に基づく弱監視による間隔分類と、画像ベースの亀裂位置特定のための完全監視型セグメンテーションを統合しています。"
+      "tldr": "ボーリングコアの分析において、報告書から得られた弱ラベルを用いた分類と、完全に監視された亀裂セグメンテーションを組み合わせた新しいフレームワークが提案され、最高のF1スコア0.860と亀裂クラスのIoU0.754を達成しました。これにより、コアの欠陥間隔情報の抽出が効率的に行えることが示されています。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12251v1",
@@ -382,7 +501,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12251v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12251v1",
-      "tldr": "TL;DR: 本研究では、レジーム情報を直接予測に使用するのではなく、専門家のルーティングにのみ利用するレジームゲート残差混合専門家（RG-ResMoE）アーキテクチャを提案し、米国株式のボラティリティ予測において、従来のMLPよりも予測精度とトレーニングの安定性で優れた結果を示した。"
+      "tldr": "TL;DR: 本研究では、RG-ResMoEというレジームゲート残差混合専門家アーキテクチャを提案し、レジーム情報を専門家のルーティングにのみ使用することで、米国株式のボラティリティ予測において、従来のMLPモデルよりも予測精度とトレーニングの安定性を向上させることを示しました。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12249v1",
@@ -401,7 +520,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12249v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12249v1",
-      "tldr": "レガシーHPCのモダナイゼーションにおいて、GAMESSの二電子積分ルーチンをFortran 77からFortran 2008に変換するためのエージェントワークフローを提案し、全てのソースファイルが標準テストを通過したことを報告しています。エージェントは独立した作業環境で動作し、結果は元のエネルギーとビット単位で一致し、化学的に重要な差異はゼロでした。"
+      "tldr": "レガシーなFortranコードのモダナイゼーションにおいて、GAMESSの二電子積分ルーチンをFortran 77からFortran 2008に変換するためのエージェントワークフローを提案し、全てのソースファイルが標準テストに合格することを確認しました。エージェントは、自己が作成・改訂した仕様の下で動作し、化学的に重要な差異はゼロでした。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12246v1",
@@ -426,7 +545,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12246v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12246v1",
-      "tldr": "VICBenchは、Python、Java、C++の88プロジェクトにわたる100の検証済み脆弱性導入コミット（VIC）を含むマルチランゲージベンチマークで、複雑な脆弱性修正を特徴とし、最新のアルゴリズムでもF1スコアが33.3%-40.1%に留まることから、既存の手法には依然として多大な手作業が必要であることを示しています。"
+      "tldr": "VICBenchは、Python、Java、C++の88プロジェクトにおける100の確認済み脆弱性誘発コミット（VIC）を用いたマルチランゲージベンチマークで、複雑なリアルワールドの脆弱性修正を含み、既存の脆弱性検出手法の評価を強化します。評価結果は、最先端アルゴリズムが依然として手動作業を多く必要とすることを示しています。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12239v1",
@@ -444,7 +563,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12239v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12239v1",
-      "tldr": "HAMP-LICは、Hessianに基づく混合精度のポストトレーニング量子化フレームワークで、学習画像圧縮モデルの低ビット展開を効率的かつ正確に実現し、最大4.85倍のモデル圧縮を達成しながらも0.59%のBD-rate損失でクロスプラットフォームのエンコーディング・デコーディングエラーを完全に排除します。"
+      "tldr": "HAMP-LICは、Hessianに基づく混合精度のポストトレーニング量子化フレームワークで、学習画像圧縮モデルの低ビット展開を効率的かつ正確に実現し、最大4.85倍のモデル圧縮を達成しつつ、0.59%のBDレート損失でクロスプラットフォームのエンコーディング・デコーディングエラーを完全に排除します。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12236v1",
@@ -466,7 +585,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12236v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12236v1",
-      "tldr": "企業はChatGPTを活用しており、その使用は新規採用と既存ユーザーの利用増加により急速に成長しています。特に大手企業や若手社員による多様な業務での利用が見られ、企業ごとにAI導入の速度や目的に大きな違いがあることが示されています。"
+      "tldr": "企業はChatGPTを利用して、急速にAIを導入しており、特に大規模で価値の高い企業に集中しています。利用は職務や階層を超えて広がり、特に若手社員の使用が活発で、さまざまな知識労働タスクに対応しています。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12232v1",
@@ -487,7 +606,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12232v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12232v1",
-      "tldr": "ScaleVidは、メッシュを使用せずに幾何学的な整合性を保ちながら動画内のオブジェクトをスケーリングする新しい手法を提案し、前景と背景の変換を分離した二段階のトレーニングフレームワークを用いて、より高い幾何学的一貫性と背景保存を実現しています。"
+      "tldr": "ScaleVidは、メッシュフリー推論を用いて、幾何学的整合性や時間的コヒーレンスを保ちながら、オブジェクト中心の軸に沿って動画内のオブジェクトを非等方的にリサイズする手法を提案します。この手法は、2段階のトレーニングフレームワークを通じて、背景の保持と現実的な動画合成を分離し、明示的な3D再構築なしで高い幾何学的一貫性を実現します。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12231v1",
@@ -505,7 +624,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12231v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12231v1",
-      "tldr": "敵対的な$m$-セットバンディットに対する効率的な近似最適アルゴリズムを提案し、指数的に大きなアクションセットを明示的に列挙することなく、ポリノミアル時間で動作し、固定された最良アクションに対するレグレットを$R_T = O\\left(\\sqrt{dT\\log(K/δ)}\\right)$と保証します。"
+      "tldr": "敵対的$m$-セットバンディットに対する効率的な近似最適アルゴリズムを提案し、指数的に大きなアクションセットを明示的に列挙せずに、適応的な敵に対しても高確率で最適アクションに対するレグレットを保証することを示しました。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12230v1",
@@ -526,7 +645,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12230v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12230v1",
-      "tldr": "ハイパースペクトル画像を用いた食品の鮮度推定において、少数のラベル付きデータで学習可能なフレームワークを提案し、16日間のサーモンデータセットで平均絶対誤差1.58日、72.3%の2日精度を達成した。"
+      "tldr": "ハイパースペクトル画像を用いた食品の鮮度評価において、少ないラベルデータでの学習を可能にする新しいフレームワークを提案し、鮮度推定の精度を向上させた。16日間のサーモンデータセットで、平均絶対誤差1.58日、2日間の精度72.3%を達成した。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12227v1",
@@ -547,7 +666,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12227v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12227v1",
-      "tldr": "TL;DR: SGNetは、ハイパースペクトル画像を用いて魚の鮮度を分類するための軽量なアーキテクチャで、97.8%の分類精度を達成し、従来のモデルに比べてパラメータ数を大幅に削減しています。"
+      "tldr": "TL;DR: SGNetは、ハイパースペクトルイメージングを用いた魚の鮮度分類のための軽量アーキテクチャで、97.8%の分類精度を達成し、従来の手法に比べてパラメータ数を大幅に削減しています。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12220v1",
@@ -568,7 +687,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12220v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12220v1",
-      "tldr": "SCOUTは、構造化されたChain-of-Thoughtフレームワークとマルチオブジェクティブプロセス報酬を用いて、視覚と言語のモデルにおける空間的推論を強化し、3D環境の知覚を明示的にモデル化することで、従来のモデルを大幅に改善することを目指しています。評価結果では、SCOUT-3Bが一般的な空間ベンチマークで16.85%、複雑な空間推論タスクで6.3%の向上を示し、SCOUT-7BはGPT-4oを4"
+      "tldr": "SCOUTは、構造化されたChain-of-Thoughtとマルチオブジェクティブプロセス報酬を活用した新しい強化学習アルゴリズムで、3D環境の知覚をモデル化し、空間的理解と推論を強化することを目指しています。評価結果では、SCOUT-3Bが基準モデルに対して16.85%の改善を示し、SCOUT-7BはGPT-4oを4.28%上回る性能を発揮しました。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12219v1",
@@ -586,7 +705,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12219v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12219v1",
-      "tldr": "ScreenShotは、40の薬剤スクリーニングデータセットで事前学習された階層型トランスフォーマーで、少数の観察から新しい患者の薬剤併用療法に対する反応を予測し、実験設計に役立つ内部表現を提供します。これにより、従来の方法よりも高い予測精度を達成し、コストを削減しながら効果的な治療法の特定が可能になります。"
+      "tldr": "ScreenShotは、40の薬剤スクリーニングデータセットで事前学習された階層型トランスフォーマーで、少数の観察から新しい患者の薬剤併用療法への反応を予測し、実験デザインにも役立つ内部表現を提供します。従来の手法と比較して、予測精度と効果的な治療法の特定において優れた性能を示し、コストを大幅に削減することが可能です。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12218v1",
@@ -605,7 +724,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12218v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12218v1",
-      "tldr": "TL;DR: 情報の豊富さの逆説により、長いコンテキストでのトレーニングはモデルのパラメトリック知識の内部化を妨げ、コンテキストへの依存を高めることが示されている。長文での事前学習では、コンテキストウィンドウの拡大が一定の最適点までは性能を向上させるが、それを超えると性能が低下する。"
+      "tldr": "TL;DR: 情報の豊富さパラドックスにより、長いコンテキストでのトレーニングはモデルのパラメトリック知識の内部化を妨げ、コンテキストへの依存を高めることが示されている。長文での事前学習では、コンテキストウィンドウの拡大が一定の最適点までは性能を向上させるが、それ以降は一貫して低下する。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12209v1",
@@ -628,7 +747,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12209v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12209v1",
-      "tldr": "GAS（Generation as Auxiliary Supervision）は、視覚生成を補助的な監督として再解釈し、視覚理解を強化するためのトレーニングフレームワークであり、トレーニング後に生成ブランチを廃棄することで推論オーバーヘッドをゼロに保ちながら、マルチモーダル理解を向上させることを目指しています。"
+      "tldr": "GAS（Generation as Auxiliary Supervision）は、視覚生成を補助的な監督として再解釈し、視覚理解を強化するための新しいトレーニングフレームワークを提案します。このアプローチにより、モデルは視覚的な表現をより精密に学習しつつ、推論時のオーバーヘッドをゼロに保つことができます。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12203v1",
@@ -651,7 +770,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12203v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12203v1",
-      "tldr": "GeoFlowは、幾何学的先行情報を活用することで、効率的な運転動画生成を実現する新しいフレームワークであり、従来のガウスノイズに依存せず、マルチビュー幾何学と空間適応型ノイズ注入を用いて生成プロセスを最適化します。これにより、トレーニングと推論の効率が大幅に向上し、少ないステップで高品質な動画生成が可能になります。"
+      "tldr": "GeoFlowは、幾何学的先行情報を活用することで、効率的な運転動画生成を実現する新しいフレームワークであり、従来の標準ガウス分布に依存せず、マルチビュー幾何学と空間適応型ノイズ注入を用いて生成プロセスを最適化します。これにより、トレーニングと推論の効率が大幅に向上し、少ないステップでの高品質な動画生成が可能になります。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12198v1",
@@ -672,7 +791,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12198v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12198v1",
-      "tldr": "TL;DR: 研究では、機械学習と従来の手法の利点を組み合わせたハイブリッドプランニングアーキテクチャを提案し、深層ニューラルネットワークを用いて複雑な交通シーンを解釈し、運転行動を提案する一方で、最適化ベースの監視層が安全性を確保することを目指しています。実際の都市データを用いた評価や、研究車両での実世界での展開結果も報告されています。"
+      "tldr": "TL;DR: 研究では、機械学習と従来のプランニング手法を組み合わせたハイブリッドプランニングアーキテクチャを提案し、自動運転車の運転行動を改善するための安全性と透明性を確保する方法を示しています。実際の都市データを用いた評価と、研究車両での実世界での展開結果も報告されています。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12197v1",
@@ -693,7 +812,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12197v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12197v1",
-      "tldr": "NetlistBenchは、SPICEネットリストの認識と操作における大規模言語モデル（LLM）の信頼性を評価するための構造検証されたベンチマークであり、2,342のケースを通じて、操作の複雑さに応じたモデルのパフォーマンスの変動を示しています。特に、単純なローカル編集は高い精度を達成する一方で、デバイス追加や同等性判断では精度が大幅に低下し、LLMを用いた回路設計自動化の信頼性におけるボトルネ"
+      "tldr": "NetlistBenchは、SPICEネットリストの認識と操作における大規模言語モデル（LLM）の信頼性を評価するための構造検証されたベンチマークであり、2,342のケースを通じてモデルの性能を測定した結果、操作の構造的複雑さに応じて精度が大きく変動することを示しています。特に、単純なローカル編集では高い精度を達成する一方で、デバイス追加や同等性判断では精度が低下し、LLMベースの回路設計自動化におけ"
     },
     {
       "id": "http://arxiv.org/abs/2608.12196v1",
@@ -712,7 +831,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12196v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12196v1",
-      "tldr": "M-Netは、医療画像セグメンテーションにおいて、数学的先入観を統合することでU-Netを強化し、リバー、キドニー、脳腫瘍のセグメンテーションで従来の手法を上回る成果を示しました。特に、条件数に基づく連続的なスペクトル特徴や物理場演算子を活用することで、深層学習の性能を向上させることが確認されました。"
+      "tldr": "M-Netは、医療画像セグメンテーションにおいて、データ駆動型アプローチを超えて数学的帰納バイアスを統合することで、U-Netを改良し、肝臓、腎臓、脳腫瘍のセグメンテーションで従来の手法を上回る成果を示しました。特に、連続的な条件数特徴とMath-Attention Gateを活用することで、セグメンテーション精度を向上させることに成功しています。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12194v1",
@@ -735,7 +854,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12194v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12194v1",
-      "tldr": "HYDRA（Hyperbolic Dynamic Representation Architecture）は、Kolmogorov-Arnold Networksのパラメータ冗長性を削減し、効率的な学習を実現するために、スプラインベースの関数学習とポアンカレボール内の表現を組み合わせた新しいアーキテクチャです。実験結果は、HYDRAが競争力のある予測性能を維持しつつ、パラメータ効率と表現の解釈性を向上させることを示しています。"
+      "tldr": "HYDRAは、Kolmogorov-Arnold Networksのパラメータ冗長性を削減し、効率的なハイパーボリック表現を提供する新しいアーキテクチャであり、これにより予測性能と解釈可能性を向上させることが示されています。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12192v1",
@@ -758,7 +877,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12192v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12192v1",
-      "tldr": "TL;DR: プロテイン構造予測モデルにおけるオラクル予算の使い方を比較し、O3が低予算で最も効果的である一方、FK-steeringとDPOは予算が増えると性能が向上することを示し、実践者向けの具体的な推奨事項を提供します。"
+      "tldr": "TL;DR: プロテイン構造予測モデルにおけるオラクル予算の使い方に関する実用的なガイダンスを提供する研究で、O3が低予算で最も効果的であり、FK-steeringとDPOは予算が増えると性能が向上することが示された。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12190v1",
@@ -782,7 +901,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12190v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12190v1",
-      "tldr": "機械学習に基づくサイバー防御フレームワークを提案し、Deep Q-Network (DQN)を用いてクラウドインフラにおける侵入検知と自動脅威軽減を実現。DQNは99.72%の精度を達成し、強力な適応型リアルタイム防御能力を示した。"
+      "tldr": "強化学習に基づく動的サイバー防御フレームワークを提案し、Deep Q-Network (DQN)を用いてクラウド環境におけるサイバー攻撃に対するリアルタイム検出と自動応答を実現しました。DQNは99.72%の精度を達成し、99.54%の攻撃緩和率を示すなど、強力な適応能力を持つことが確認されました。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12187v1",
@@ -803,7 +922,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12187v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12187v1",
-      "tldr": "HSTGFormerは、3D人間ポーズ推定のためのグラフ強化型Transformerフレームワークで、空間的および時間的推論を結合したグラフ集約として再定義し、個々の関節時間ノード周辺の局所的な受容野を利用することで、構造を意識した推論を実現します。実験結果は、HSTGFormerが高い精度と計算効率を達成することを示しています。"
+      "tldr": "HSTGFormerは、3Dヒューマンポーズ推定のためのグラフ強化型トランスフォーマーフレームワークで、空間的および時間的推論を結合したグラフ集約として再定義し、個々の関節時間ノード周辺の局所的な受容野を利用することで、構造を意識した推論を可能にします。実験結果は、HSTGFormerが高い精度と計算効率を達成することを示しています。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12185v1",
@@ -850,7 +969,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12185v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12185v1",
-      "tldr": "GenFARは、49,246の多コホートMRIから得られた脳構造の一般化された表現を学習するモジュラー深層学習フレームワークであり、臨床的に関連する特徴を抽出し、さまざまなタスクでの知識移転を可能にします。最適なタスクのシーケンスを特定し、学習した特徴表現を用いることで、二次的な予測モデルの効率と精度を大幅に向上させることを示しました。"
+      "tldr": "GenFARは、49,246件の脳MRIを用いて深層学習により開発されたモジュラー型フレームワークで、一般的かつ臨床的に有意義な脳の特徴を学習し、タスク間の知識移転を促進します。このアプローチにより、特定の二次予測器の基盤として機能し、サンプル効率と精度を大幅に向上させることが示されました。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12179v1",
@@ -875,7 +994,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12179v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12179v1",
-      "tldr": "Map-Det3Dは、RGBから再構築された3D空間で直接3Dオブジェクトを検出するオンラインマルチビュー3Dオブジェクト検出モデルであり、従来の2Dから3Dへの変換を避けることで、安定したメトリック3D検出を実現します。実験結果は、適応なしで強力なオンライン性能とロバストな転送を示しています。"
+      "tldr": "Map-Det3Dは、RGBから再構築された3D空間で直接オブジェクト検出を行うオンラインマルチビュー3Dオブジェクト検出モデルであり、従来の2Dから3Dへの変換を排除し、安定したメトリック3D検出を実現します。実験結果は、適応なしで強力なオンライン性能とロバストな転送能力を示しています。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12175v1",
@@ -896,7 +1015,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12175v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12175v1",
-      "tldr": "TGRHumanは、テキストからリアルな3D人間を生成する新しいアプローチで、ジオメトリとテクスチャの生成を分離し、効率的な3D合成を実現します。この手法は、従来のNeRFベースの方法よりも高品質で一貫性のある3D人間を生成できることが実験で示されています。"
+      "tldr": "TGRHumanは、テキストからリアルな3D人間を生成する新しいアプローチで、ジオメトリとテクスチャの生成を分離し、効率的な3D合成を実現します。この手法は、従来のNeRFベースの方法に比べて高品質で一貫性のある3D人間を迅速に生成することができます。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12166v1",
@@ -917,7 +1036,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12166v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12166v1",
-      "tldr": "TL;DR: アルゴリズムレジスターは公共サービスにおけるアルゴリズムの透明性を提供する手段として注目されているが、異なる利害関係者の視点を取り入れることで、社会技術的システムの安全性分析をより包括的に行うことができることを示す研究が行われた。具体的には、オランダの都市のアルゴリズムレジスターを通じて、福利厚生の適格性評価に関する意思決定支援ツールのケーススタディを実施し、潜在的な安全リスクを特定した"
+      "tldr": "アルゴリズムレジスターは公共サービスにおけるアルゴリズムの透明性を提供する手段として注目されているが、異なる利害関係者の期待や情報の解釈能力には差があり、これが社会技術システムの理解やアカウンタビリティに影響を与える。本研究では、オランダの都市のアルゴリズムレジスターを通じて、利害関係者の視点を活かした安全分析の重要性を探求し、システム理論的プロセス分析（STPA）を用いて潜在的な安全リスク"
     },
     {
       "id": "http://arxiv.org/abs/2608.12158v1",
@@ -938,7 +1057,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12158v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12158v1",
-      "tldr": "TL;DR: 本研究では、マルチモーダル大規模言語モデル（MLLM）のオブジェクトハルシネーションを軽減するために、文脈を考慮した好み最適化手法「C$^2$-DPO」を提案し、これによりハルシネーション率を36%削減できることを示しました。"
+      "tldr": "TL;DR: 本研究では、マルチモーダル大規模言語モデル（MLLM）のオブジェクトハルシネーションを軽減するために、文脈に基づいた好みの最適化手法（C$^2$-DPO）を提案し、これによりハルシネーションを36%削減できることを示しました。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12155v1",
@@ -956,7 +1075,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12155v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12155v1",
-      "tldr": "TL;DR: 基盤モデルを用いた画像検出器は、実画像と拡散生成画像の間の非意味的な低・中周波数の分布の違いを捉えることで効果を発揮し、強い一般化能力とロバスト性を示すことが明らかになった。"
+      "tldr": "TL;DR: ビジョンファウンデーションモデルは、AI生成画像の検出において強力な特徴抽出器として機能し、リアル画像と拡散生成画像の違いを低中周波数の分布的な不一致を通じて識別することが明らかになった。これにより、より解釈可能なフォレンジック手法の方向性が示唆される。"
     },
     {
       "id": "http://arxiv.org/abs/2608.12150v1",
@@ -974,124 +1093,7 @@
       ],
       "link": "https://arxiv.org/abs/2608.12150v1",
       "pdfLink": "https://arxiv.org/pdf/2608.12150v1",
-      "tldr": "大規模言語モデルの評価において、トークン生成予算を変えることでモデルのランキングが逆転することがあり、特に制約のある予算下でモデルの補完性が高まることが示された。この結果は、予算に応じた評価プロトコルの必要性を示唆している。"
-    },
-    {
-      "id": "http://arxiv.org/abs/2608.12149v1",
-      "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
-      "summary": "We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two architecture-aligned morphologies: MAs consistently spike immediately before full attention layers, forming pre-attention spikes (PAS), and can persist through intervening linear attention layers, giving rise to inter-spike plateaus (ISP). As full attention becomes denser, successive PAS become increasingly connected through ISP, ultimately recovering the stable MA morphology of full attention LLMs. We establish the recurrence of this organization across five linear attention architectures, six hybridization configurations, five data domains, and representative open-source hybrid models spanning 1.2B to 397B total parameters. Controlled pretraining of GDN-based hybrids at scales up to 1.3B shows that both morphologies emerge early and respond asymmetrically to output gating: full attention output gating strongly attenuates their absolute magnitudes without eliminating their layerwise organization, whereas removing GDN gates yields comparatively modest amplification. Mechanistically, our systematic-outlier analysis supports a shared lifecycle account governed by the timing of MA cancellation. PAS follows a localized write-sink-cancel process, while the extended persistence of ISP is consistent with delayed cancellation. At the full attention limit, this account recovers the stable MA morphology characteristic of full attention LLMs. Our code is available at https://github.com/StartluxLabs/Massive-Activations-HLA.",
-      "authors": [
-        "Zunhai Su",
-        "Bohan Sun",
-        "Xialie Zhuang",
-        "Shuibai Zhang",
-        "He Xiao",
-        "Jing Xiong",
-        "Hengyuan Zhang",
-        "Zhongzhu Zhou",
-        "Tiantian Zhang",
-        "Ngai Wong",
-        "Chuan-Wei Kuo"
-      ],
-      "published": "2026-08-12T15:11:18Z",
-      "updated": "2026-08-12T15:11:18Z",
-      "categories": [
-        "cs.CL"
-      ],
-      "link": "https://arxiv.org/abs/2608.12149v1",
-      "pdfLink": "https://arxiv.org/pdf/2608.12149v1",
-      "tldr": "ハイブリッド線形アテンション大規模言語モデルにおける大規模活性化（MA）の体系的研究を行い、全アテンション層の前にスパイクを形成する前アテンションスパイク（PAS）と、線形アテンション層を介して持続するインタースパイクプラトー（ISP）の2つの形態を発見しました。これらの形態は、さまざまなアーキテクチャやデータドメインにわたって再現され、フルアテンションの密度が高まるにつれて相互に接続される"
-    },
-    {
-      "id": "http://arxiv.org/abs/2608.12145v1",
-      "title": "Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Performance Assessment",
-      "summary": "Autonomous rehabilitation systems must not only recognize human motion but also provide structured feedback to support users without continuous therapist supervision. This paper presents a telerehabilitation pipeline that integrates skeleton-based exercise quality assessment and short-term motion prediction into a two-module system operating on marker-free RGB video. A self-attentive Bidirectional LSTM performs exercise quality classification using MMD-NCA metric learning, while a graph-based motion prediction module computes per-joint position errors between predicted and observed poses, generating spatially localized deviation signals. Each module is evaluated independently on established benchmarks: the classifier achieves 96.45% mean-class accuracy on squat sequences from the PROZIS dataset, and the adopted STARS predictor achieves a mean MPJPE of 75.8 mm at 560 ms on Human3.6M, outperforming graph and recurrent baselines across all prediction horizons. The framework is designed for eventual deployment in assistive robotics and home-based rehabilitation contexts; end-to-end integration and clinical validation are important directions for future work. By combining motion recognition and prediction in a single system, this work contributes a step toward autonomous, feedback-driven telerehabilitation, for more accessible and scalable rehabilitation solutions.",
-      "authors": [
-        "Lara Pereira",
-        "João Ruivo Paulo",
-        "Pedro Santos",
-        "Paulo Peixoto"
-      ],
-      "published": "2026-08-12T15:06:51Z",
-      "updated": "2026-08-12T15:06:51Z",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "link": "https://arxiv.org/abs/2608.12145v1",
-      "pdfLink": "https://arxiv.org/pdf/2608.12145v1",
-      "tldr": "自律的なテレリハビリテーションシステムを提案し、骨格に基づく運動品質評価と短期的な動作予測を統合した二つのモジュールを用いて、運動認識と予測を一体化したアプローチを示しています。このシステムは、支援ロボティクスや自宅でのリハビリテーションに向けた実用化を目指しており、臨床検証が今後の重要な課題です。"
-    },
-    {
-      "id": "http://arxiv.org/abs/2608.12144v1",
-      "title": "ADEPT: A Unified Framework for Deep Learning Test Adequacy",
-      "summary": "Over the past decade, many test adequacy metrics have been proposed for deep learning that characterize test dataset adequacy from different perspectives, e.g., neuron activation behavior, latent feature coverage, decision-boundary exploration, etc. However, these metrics are typically released as independent research prototypes with substantially different installation and preprocessing requirements, execution workflows, and configuration mechanisms. These complications make them quite difficult to reproduce, compare, and adopt in research work and practical deployment alike. In this paper, we present the engineering details of ADEPT, a framework that integrates representative adequacy techniques, including neuron-coverage-based metrics, surprise adequacy, input distribution coverage, boundary coverage, and source- and model-level mutation score, under a consistent execution workflow. ADEPT provides a template-based metric interface with well-defined extension points for integrating new adequacy metrics. Furthermore, it provides YAML-based configuration management, preprocessing-cache reuse, and structured result reporting, making it easy to use in any research and development workflows. ADEPT is designed for researchers and practitioners who wish to reproduce and apply adequacy metrics without spending days or weeks implementing missing tooling or configuring disparate research prototypes. A demo video is available at https://aub.ie/ADEPT_video.",
-      "authors": [
-        "Yidi Kao",
-        "Shawn Burnham",
-        "Tommi Rose Fahy",
-        "Ali Ghanbari"
-      ],
-      "published": "2026-08-12T15:03:28Z",
-      "updated": "2026-08-12T15:03:28Z",
-      "categories": [
-        "cs.SE",
-        "cs.LG"
-      ],
-      "link": "https://arxiv.org/abs/2608.12144v1",
-      "pdfLink": "https://arxiv.org/pdf/2608.12144v1",
-      "tldr": "TL;DR: ADEPTは、深層学習のテスト適合性を評価するための統一フレームワークで、異なるテストメトリクスを一貫した実行ワークフローで統合し、使いやすい設定管理や結果報告機能を提供します。これにより、研究者や実務者は複雑なツールの実装や設定なしに適合性メトリクスを再現・適用できるようになります。"
-    },
-    {
-      "id": "http://arxiv.org/abs/2608.12140v1",
-      "title": "FQTree: Fine-grained Quantization and Hardware Generation of Boosted Decision Trees",
-      "summary": "Boosted decision trees (BDTs) are widely used in latency-critical applications, but efficient hardware deployment remains challenging. Existing designs often rely on uniform or manually tuned fixed-point formats, which can introduce unnecessary hardware cost or accuracy loss. This work presents the FQTree algorithm{https://github.com/ecs-bristol/FQTree} for fine-grained quantization-aware training of BDTs, together with the QXGB framework for automatic hardware generation. FQTree introduces a hardware-oriented leaf-value quantization scheme that uses a global quantization step together with a tree-wise shift, enabling compact non-negative integer leaf representations, controlled clipping/pruning, and bias folding to reduce datapath cost. This work further applies this quantization during boosting so that later trees adapt to the errors of the already-quantized ensemble, and then lowers the trained model into low-latency hardware implementations through a compiler-based flow. Results on JSC, MNIST, and NID show that our method reduces LUT usage by 26-57\\% compared with the state-of-the-art FPGA-based BDT designs while matching or improving accuracy.",
-      "authors": [
-        "Zhiqiang Que",
-        "Chang Sun",
-        "Haiyang Wang",
-        "Dinesh Pamunuwa",
-        "Roshan Weerasekera",
-        "Qijia Tang",
-        "Bakhtiar Zadeh",
-        "Wayne Luk",
-        "Maria Spiropulu"
-      ],
-      "published": "2026-08-12T14:56:13Z",
-      "updated": "2026-08-12T14:56:13Z",
-      "categories": [
-        "cs.AR",
-        "cs.LG"
-      ],
-      "link": "https://arxiv.org/abs/2608.12140v1",
-      "pdfLink": "https://arxiv.org/pdf/2608.12140v1",
-      "tldr": "FQTreeアルゴリズムは、ブーステッド決定木（BDT）のための細粒度量子化とハードウェア生成を実現し、従来のFPGAベースの設計と比較してLUT使用量を26-57%削減しつつ、精度を維持または向上させることを示しています。"
-    },
-    {
-      "id": "http://arxiv.org/abs/2608.12138v1",
-      "title": "A corpus-specific clinical RAG system matches or outperforms newer frontier LLMs on HealthBench",
-      "summary": "General-purpose large language models (LLMs) have recently been reported to match or exceed specialized clinical AI tools on medical benchmarks, but such comparisons draw on a narrow set of systems and on benchmarks developed largely in high-income settings. We evaluate VITA, a retrieval-augmented generation (RAG) system purpose-built for contextual knowledge retrieval in India and other low- and middle-income (LMIC) settings. VITA retrieves from a curated corpus of disease-specific guidelines, India-specific antimicrobial resistance data, national formulary constraints, and resource-limited care protocols; its architecture and corpus are proprietary, but the benchmark, the physician-written rubrics, and our full response and scoring outputs are public for independent verification. On 4,023 English-language HealthBench questions (80.5% of the benchmark), scored with a GPT-4.1 judge, VITA ranked first with 51.9% of possible rubric points, ahead of GPT-5.4 (46.1%), o4-mini (44.3%), Gemini 3.1 Pro (42.6%), and Claude Sonnet 4.6 (37.3%), and scored highest on 45.4% of questions. To test robustness to newer models and judge lineage, a 500-question subset was re-run against current-generation models (GPT-5.5, Claude Opus 4.8, Gemini 3.5 Pro, Grok 4.3) and graded by a neutral open-weight judge (DeepSeek-V4-Pro) sharing no lineage with any system tested. Here the gap narrowed to parity: VITA and GPT-5.5 were statistically indistinguishable on mean per-question score, while VITA led on points-weighted score and won the most questions. VITA's advantages in accuracy and completeness persisted under the neutral judge; its communication scores were lower. These results indicate that a purpose-built clinical RAG system remains competitive with frontier LLMs on an open benchmark, consistent with corpus specificity as a design variable that improves grounding at some cost to communication polish.",
-      "authors": [
-        "Praveen Reddy",
-        "Charuta Mandke",
-        "Suvrankar Datta",
-        "Sarah Khan",
-        "Siddharth Reddy Anthireddy",
-        "Shitij Arora",
-        "Vishal Singh"
-      ],
-      "published": "2026-08-12T14:55:46Z",
-      "updated": "2026-08-12T14:55:46Z",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.HC",
-        "cs.IR",
-        "cs.LG"
-      ],
-      "link": "https://arxiv.org/abs/2608.12138v1",
-      "pdfLink": "https://arxiv.org/pdf/2608.12138v1",
-      "tldr": "VITAという特化型のリトリーバル・オーグメンテッド・ジェネレーション（RAG）システムは、医療ベンチマークHealthBenchにおいて、最新の大規模言語モデル（LLM）と競争力を持ち、特に低・中所得国向けのコンテキスト知識の取得に優れていることが示されました。VITAは、GPT-5.5と統計的に同等のスコアを記録し、ポイント加重スコアでリードしました。"
+      "tldr": "大規模言語モデルの評価において、トークン生成予算を変えることでモデルのランキングが逆転することがあり、特に制約のある予算でモデルの補完性が高まることが示されました。この研究は、予算に応じた評価プロトコルの必要性を提唱しています。"
     }
   ]
 }
