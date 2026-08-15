@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-15T01:00:17.149Z",
+  "updatedAt": "2026-08-15T02:00:17.424Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 8995,
+        "likes": 9053,
         "downloads": 2,
         "tags": [
           "transformers",
@@ -26,7 +26,7 @@
       {
         "id": "meta-models/Muse-Glimmer-30B",
         "author": "meta-models",
-        "likes": 1512,
+        "likes": 1518,
         "downloads": 165300,
         "tags": [
           "transformers",
@@ -48,7 +48,7 @@
       {
         "id": "Qwen/Qwen3.8-2.4T-A95B",
         "author": "Qwen",
-        "likes": 917,
+        "likes": 919,
         "downloads": 3832,
         "tags": [
           "transformers",
@@ -68,7 +68,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 3920,
+        "likes": 3922,
         "downloads": 1997541,
         "tags": [
           "minimax-h3",
@@ -97,7 +97,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 798,
+        "likes": 822,
         "downloads": 0,
         "tags": [
           "gguf",
@@ -118,7 +118,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 858,
+        "likes": 859,
         "downloads": 207830,
         "tags": [
           "diffusion-single-file",
@@ -157,7 +157,7 @@
       {
         "id": "MiniMaxAI/MiniMax-Music3",
         "author": "MiniMaxAI",
-        "likes": 652,
+        "likes": 656,
         "downloads": 63,
         "tags": [
           "diffusers",
@@ -177,7 +177,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
         "author": "deepseek-ai",
-        "likes": 3383,
+        "likes": 3387,
         "downloads": 1606491,
         "tags": [
           "transformers",
@@ -201,7 +201,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
         "author": "deepseek-ai",
-        "likes": 433,
+        "likes": 436,
         "downloads": 245,
         "tags": [
           "transformers",
@@ -223,7 +223,7 @@
       {
         "id": "unsloth/Muse-Glimmer-30B-GGUF",
         "author": "unsloth",
-        "likes": 414,
+        "likes": 415,
         "downloads": 596774,
         "tags": [
           "transformers",
@@ -269,7 +269,7 @@
       {
         "id": "Comfy-Org/MiniMax-H3",
         "author": "Comfy-Org",
-        "likes": 1317,
+        "likes": 1318,
         "downloads": 11768622,
         "tags": [
           "diffusion-single-file",
@@ -284,30 +284,31 @@
         "link": "https://huggingface.co/Comfy-Org/MiniMax-H3"
       },
       {
-        "id": "larryvrh/MiniMax-H3-Turbo-Lora",
-        "author": "larryvrh",
-        "likes": 742,
+        "id": "Qwen/Qwen3.8-27B-FP8",
+        "author": "Qwen",
+        "likes": 306,
         "downloads": 0,
         "tags": [
-          "text-to-video",
-          "text-to-audio",
-          "audio-video",
-          "lora",
-          "minimax-h3",
-          "comfyui",
-          "base_model:Comfy-Org/MiniMax-H3",
-          "base_model:adapter:Comfy-Org/MiniMax-H3",
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:quantized:Qwen/Qwen3.8-27B",
           "license:apache-2.0",
+          "endpoints_compatible",
+          "fp8",
           "region:us"
         ],
-        "pipeline_tag": "text-to-video",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora"
+        "link": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8"
       },
       {
         "id": "moonshotai/Kimi-K3",
         "author": "moonshotai",
-        "likes": 10673,
+        "likes": 10675,
         "downloads": 1974635,
         "tags": [
           "transformers",
@@ -328,31 +329,30 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K3"
       },
       {
-        "id": "Qwen/Qwen3.8-27B-FP8",
-        "author": "Qwen",
-        "likes": 295,
+        "id": "larryvrh/MiniMax-H3-Turbo-Lora",
+        "author": "larryvrh",
+        "likes": 743,
         "downloads": 0,
         "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:quantized:Qwen/Qwen3.8-27B",
+          "text-to-video",
+          "text-to-audio",
+          "audio-video",
+          "lora",
+          "minimax-h3",
+          "comfyui",
+          "base_model:Comfy-Org/MiniMax-H3",
+          "base_model:adapter:Comfy-Org/MiniMax-H3",
           "license:apache-2.0",
-          "endpoints_compatible",
-          "fp8",
           "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "text-to-video",
         "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8"
+        "link": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora"
       },
       {
         "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 2016,
+        "likes": 2017,
         "downloads": 2891524,
         "tags": [
           "gguf",
@@ -421,7 +421,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
         "author": "nvidia",
-        "likes": 257,
+        "likes": 258,
         "downloads": 119572,
         "tags": [
           "transformers",
@@ -512,7 +512,7 @@
       {
         "id": "Kijai/MiniMax-H3_comfy",
         "author": "Kijai",
-        "likes": 339,
+        "likes": 340,
         "downloads": 0,
         "tags": [
           "region:us"
@@ -546,7 +546,7 @@
       {
         "id": "SexGod1979/PinkCherry_MiniMax-H3",
         "author": "SexGod1979",
-        "likes": 310,
+        "likes": 311,
         "downloads": 473,
         "tags": [
           "transformers",
@@ -563,7 +563,7 @@
       {
         "id": "fal/MiniMax-H3-Realism-People-LoRA",
         "author": "fal",
-        "likes": 176,
+        "likes": 177,
         "downloads": 9060,
         "tags": [
           "minimax-h3",
@@ -640,6 +640,33 @@
         "link": "https://huggingface.co/unsloth/MiniMax-H3-GGUF"
       },
       {
+        "id": "dots-studio/dots3-note-prev",
+        "author": "dots-studio",
+        "likes": 143,
+        "downloads": 11,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "dots3_note",
+          "text-generation",
+          "dots3",
+          "dots3-note",
+          "audio",
+          "multimodal",
+          "long-context",
+          "agentic",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/dots-studio/dots3-note-prev"
+      },
+      {
         "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
         "author": "nvidia",
         "likes": 143,
@@ -671,33 +698,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"
-      },
-      {
-        "id": "dots-studio/dots3-note-prev",
-        "author": "dots-studio",
-        "likes": 140,
-        "downloads": 11,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "dots3_note",
-          "text-generation",
-          "dots3",
-          "dots3-note",
-          "audio",
-          "multimodal",
-          "long-context",
-          "agentic",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/dots-studio/dots3-note-prev"
       },
       {
         "id": "drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
@@ -762,7 +762,7 @@
       {
         "id": "HuggingFaceFW/fineweb",
         "author": "HuggingFaceFW",
-        "likes": 3194,
+        "likes": 3195,
         "downloads": 424171,
         "tags": [
           "task_categories:text-generation",
@@ -783,7 +783,7 @@
       {
         "id": "r0b0tlab/qwen3.8-max-glm5.2-kimi-k3-distillation",
         "author": "r0b0tlab",
-        "likes": 94,
+        "likes": 95,
         "downloads": 2583,
         "tags": [
           "task_categories:text-generation",
@@ -939,54 +939,6 @@
         ],
         "lastModified": "2024-10-16T11:52:27.000Z",
         "link": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k"
-      },
-      {
-        "id": "FINAL-Bench/AX-RAY",
-        "author": "FINAL-Bench",
-        "likes": 31,
-        "downloads": 18,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:question-answering",
-          "annotations_creators:expert-generated",
-          "source_datasets:original",
-          "language:en",
-          "language:ko",
-          "license:cc-by-nc-4.0",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "ai-safety",
-          "ax-safety",
-          "ai-evaluation",
-          "model-evaluation",
-          "model-audit",
-          "safety-diagnostics",
-          "deployment-readiness",
-          "causal-leakage",
-          "causal-integrity",
-          "responsible-ai",
-          "ai-governance",
-          "governance",
-          "leaderboard",
-          "red-teaming",
-          "regulatory-compliance",
-          "risk-assessment",
-          "model-safety",
-          "llm-evaluation",
-          "ai-compliance",
-          "korean-ai",
-          "final-bench",
-          "ax-ray",
-          "text"
-        ],
-        "lastModified": "2026-08-14T02:09:38.000Z",
-        "link": "https://huggingface.co/datasets/FINAL-Bench/AX-RAY"
       },
       {
         "id": "r0b0tlab/qwen3.8-max-distillation-50k",
@@ -1325,6 +1277,38 @@
         ],
         "lastModified": "2026-08-14T08:26:49.000Z",
         "link": "https://huggingface.co/datasets/bench-labs/slop-classification"
+      },
+      {
+        "id": "histde/ddb-newspaper-corpus",
+        "author": "histde",
+        "likes": 10,
+        "downloads": 313,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:fill-mask",
+          "language:de",
+          "license:other",
+          "size_categories:10M<n<100M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2510.13996",
+          "region:us",
+          "newspapers",
+          "historical",
+          "ocr",
+          "cultural-heritage",
+          "public-domain",
+          "deutsche-digitale-bibliothek",
+          "zeitungsportal",
+          "alto",
+          "iiif"
+        ],
+        "lastModified": "2026-08-10T17:42:59.000Z",
+        "link": "https://huggingface.co/datasets/histde/ddb-newspaper-corpus"
       }
     ]
   }
