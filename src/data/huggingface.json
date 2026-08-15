@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-15T12:00:23.088Z",
+  "updatedAt": "2026-08-15T13:00:29.368Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 9460,
+        "likes": 9496,
         "downloads": 91917,
         "tags": [
           "transformers",
@@ -17,7 +17,8 @@
           "license:apache-2.0",
           "eval-results",
           "endpoints_compatible",
-          "region:us"
+          "region:us",
+          "deploy:azure"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
@@ -26,7 +27,7 @@
       {
         "id": "meta-models/Muse-Glimmer-30B",
         "author": "meta-models",
-        "likes": 1544,
+        "likes": 1548,
         "downloads": 246454,
         "tags": [
           "transformers",
@@ -48,7 +49,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 998,
+        "likes": 1014,
         "downloads": 867963,
         "tags": [
           "gguf",
@@ -69,7 +70,7 @@
       {
         "id": "Qwen/Qwen3.8-2.4T-A95B",
         "author": "Qwen",
-        "likes": 947,
+        "likes": 950,
         "downloads": 6381,
         "tags": [
           "transformers",
@@ -89,7 +90,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 3950,
+        "likes": 3955,
         "downloads": 2212155,
         "tags": [
           "minimax-h3",
@@ -118,7 +119,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 896,
+        "likes": 900,
         "downloads": 378439,
         "tags": [
           "diffusion-single-file",
@@ -157,7 +158,7 @@
       {
         "id": "MiniMaxAI/MiniMax-Music3",
         "author": "MiniMaxAI",
-        "likes": 728,
+        "likes": 731,
         "downloads": 5079,
         "tags": [
           "diffusers",
@@ -177,7 +178,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
         "author": "deepseek-ai",
-        "likes": 3401,
+        "likes": 3404,
         "downloads": 1798247,
         "tags": [
           "transformers",
@@ -201,7 +202,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
         "author": "deepseek-ai",
-        "likes": 460,
+        "likes": 463,
         "downloads": 19945,
         "tags": [
           "transformers",
@@ -223,7 +224,7 @@
       {
         "id": "unsloth/Muse-Glimmer-30B-GGUF",
         "author": "unsloth",
-        "likes": 425,
+        "likes": 427,
         "downloads": 682188,
         "tags": [
           "transformers",
@@ -247,7 +248,7 @@
       {
         "id": "Qwen/Qwen3.8-27B-FP8",
         "author": "Qwen",
-        "likes": 377,
+        "likes": 381,
         "downloads": 123157,
         "tags": [
           "transformers",
@@ -269,7 +270,7 @@
       {
         "id": "lightx2v/Minimax-h3-Turbo",
         "author": "lightx2v",
-        "likes": 504,
+        "likes": 506,
         "downloads": 211917,
         "tags": [
           "diffusers",
@@ -308,7 +309,7 @@
       {
         "id": "moonshotai/Kimi-K3",
         "author": "moonshotai",
-        "likes": 10697,
+        "likes": 10698,
         "downloads": 2100680,
         "tags": [
           "transformers",
@@ -350,9 +351,30 @@
         "link": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora"
       },
       {
+        "id": "meta-models/Muse-Glimmer-30B-GGUF",
+        "author": "meta-models",
+        "likes": 275,
+        "downloads": 321049,
+        "tags": [
+          "gguf",
+          "image-text-to-text",
+          "arxiv:2504.13181",
+          "arxiv:2602.06036",
+          "base_model:meta-models/Muse-Glimmer-30B",
+          "base_model:quantized:meta-models/Muse-Glimmer-30B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/meta-models/Muse-Glimmer-30B-GGUF"
+      },
+      {
         "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 2038,
+        "likes": 2039,
         "downloads": 2983500,
         "tags": [
           "gguf",
@@ -398,30 +420,9 @@
         "link": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF"
       },
       {
-        "id": "meta-models/Muse-Glimmer-30B-GGUF",
-        "author": "meta-models",
-        "likes": 275,
-        "downloads": 321049,
-        "tags": [
-          "gguf",
-          "image-text-to-text",
-          "arxiv:2504.13181",
-          "arxiv:2602.06036",
-          "base_model:meta-models/Muse-Glimmer-30B",
-          "base_model:quantized:meta-models/Muse-Glimmer-30B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/meta-models/Muse-Glimmer-30B-GGUF"
-      },
-      {
         "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
         "author": "nvidia",
-        "likes": 266,
+        "likes": 267,
         "downloads": 170554,
         "tags": [
           "transformers",
@@ -512,7 +513,7 @@
       {
         "id": "fal/MiniMax-H3-Realism-People-LoRA",
         "author": "fal",
-        "likes": 189,
+        "likes": 190,
         "downloads": 12737,
         "tags": [
           "minimax-h3",
@@ -597,23 +598,6 @@
         "link": "https://huggingface.co/Kijai/MiniMax-H3_comfy"
       },
       {
-        "id": "SexGod1979/PinkCherry_MiniMax-H3",
-        "author": "SexGod1979",
-        "likes": 324,
-        "downloads": 633,
-        "tags": [
-          "transformers",
-          "minimax-h3",
-          "text-to-video",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3"
-      },
-      {
         "id": "unsloth/MiniMax-H3-GGUF",
         "author": "unsloth",
         "likes": 160,
@@ -640,9 +624,26 @@
         "link": "https://huggingface.co/unsloth/MiniMax-H3-GGUF"
       },
       {
+        "id": "SexGod1979/PinkCherry_MiniMax-H3",
+        "author": "SexGod1979",
+        "likes": 325,
+        "downloads": 633,
+        "tags": [
+          "transformers",
+          "minimax-h3",
+          "text-to-video",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3"
+      },
+      {
         "id": "dots-studio/dots3-note-prev",
         "author": "dots-studio",
-        "likes": 150,
+        "likes": 155,
         "downloads": 240,
         "tags": [
           "transformers",
@@ -669,7 +670,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-NVFP4",
         "author": "unsloth",
-        "likes": 150,
+        "likes": 152,
         "downloads": 90924,
         "tags": [
           "safetensors",
@@ -1159,36 +1160,6 @@
         "link": "https://huggingface.co/datasets/sarvamai/indic-diarbench"
       },
       {
-        "id": "biglam/british-library-book-images",
-        "author": "biglam",
-        "likes": 26,
-        "downloads": 2096,
-        "tags": [
-          "task_categories:image-classification",
-          "task_categories:image-to-text",
-          "task_categories:text-to-image",
-          "annotations_creators:machine-generated",
-          "language_creators:found",
-          "source_datasets:blbooks",
-          "license:cc0-1.0",
-          "size_categories:1M<n<10M",
-          "format:parquet",
-          "modality:image",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "image",
-          "digital-humanities-research",
-          "glam",
-          "book-illustration"
-        ],
-        "lastModified": "2026-08-08T13:33:46.000Z",
-        "link": "https://huggingface.co/datasets/biglam/british-library-book-images"
-      },
-      {
         "id": "openai/gsm8k",
         "author": "openai",
         "likes": 1567,
@@ -1245,34 +1216,34 @@
         "link": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu"
       },
       {
-        "id": "Qyrou/reasoning-corpus-4K-5M-v1",
-        "author": "Qyrou",
-        "likes": 202,
-        "downloads": 12014,
+        "id": "biglam/british-library-book-images",
+        "author": "biglam",
+        "likes": 26,
+        "downloads": 2096,
         "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:apache-2.0",
+          "task_categories:image-classification",
+          "task_categories:image-to-text",
+          "task_categories:text-to-image",
+          "annotations_creators:machine-generated",
+          "language_creators:found",
+          "source_datasets:blbooks",
+          "license:cc0-1.0",
           "size_categories:1M<n<10M",
-          "format:json",
+          "format:parquet",
+          "modality:image",
           "modality:text",
           "library:datasets",
-          "library:pandas",
+          "library:dask",
           "library:polars",
           "library:mlcroissant",
           "region:us",
-          "reasoning",
-          "CoT",
-          "code",
-          "agentic",
-          "thinking",
-          "think",
-          "deepseek-v4",
-          "qwen3",
-          "qwen3next"
+          "image",
+          "digital-humanities-research",
+          "glam",
+          "book-illustration"
         ],
-        "lastModified": "2026-07-31T02:06:14.000Z",
-        "link": "https://huggingface.co/datasets/Qyrou/reasoning-corpus-4K-5M-v1"
+        "lastModified": "2026-08-08T13:33:46.000Z",
+        "link": "https://huggingface.co/datasets/biglam/british-library-book-images"
       },
       {
         "id": "llamaindex/ExtractBench",
@@ -1339,6 +1310,26 @@
         ],
         "lastModified": "2026-08-10T17:42:59.000Z",
         "link": "https://huggingface.co/datasets/histde/ddb-newspaper-corpus"
+      },
+      {
+        "id": "SWE-bench/SWE-bench_Verified",
+        "author": "SWE-bench",
+        "likes": 142,
+        "downloads": 82003,
+        "tags": [
+          "benchmark:official",
+          "benchmark:eval-yaml",
+          "size_categories:n<1K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-08-10T02:06:09.000Z",
+        "link": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
       }
     ]
   }
