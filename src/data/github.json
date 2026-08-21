@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T01:00:40.154Z",
+  "updatedAt": "2026-08-21T02:00:20.106Z",
   "count": 50,
   "repos": [
     {
@@ -13,7 +13,7 @@
       "url": "https://github.com/SigmanticAI/apex-inference-chip",
       "createdAt": "2026-08-17T04:25:26Z",
       "updatedAt": "2026-08-20T22:46:40Z",
-      "tldr": "FPGA上で実際のLLM（Qwen2.5-0.5B）を実行する推論チップ設計が発表され、RTLでのトランスフォーマーデコーダレイヤーが実装され、シリコンの各ビットがゴールデンモデルと完全に一致していることが確認され、0.56トークン/秒の性能向上が達成された。"
+      "tldr": "FPGA上で実際のLLM（Qwen2.5-0.5B）を実行する推論チップ設計が発表され、RTLで1つのトランスフォーマーデコーダーレイヤーが実装され、シリコンの値はゴールデンモデルとビット単位で一致している。測定された速度は0.56トークン/秒で、140倍の向上が確認された。"
     },
     {
       "name": "AI-Engineering-Lab",
@@ -47,7 +47,7 @@
       "url": "https://github.com/zorost/AI-Engineering-Lab",
       "createdAt": "2026-08-17T16:34:05Z",
       "updatedAt": "2026-08-20T23:55:46Z",
-      "tldr": "無料で自己学習可能な24週間のAIエンジニアリングコースが提供されており、Python、機械学習、LLM、RAG、ファインチューニング、エージェント、MCP、Azure、Vertex、Bedrock、Databricksに関する43の実行可能なノートブックと1つの継続的なケーススタディが含まれています。MITライセンスで、サインアップ不要です。"
+      "tldr": "無料で自己学習可能な24週間のAIエンジニアリングコースが提供されており、Python、機械学習、LLM、RAG、ファインチューニング、エージェント、MCP、Azure、Vertex、Bedrock、Databricksに関する内容が含まれています。43の実行可能なノートブックと1つの継続的なケーススタディがあり、MITライセンスのもとでサインアップなしで利用できます。"
     },
     {
       "name": "oplogs",
@@ -60,7 +60,7 @@
       "url": "https://github.com/cneuralnetwork/oplogs",
       "createdAt": "2026-08-15T12:32:39Z",
       "updatedAt": "2026-08-20T09:10:33Z",
-      "tldr": "TL;DR: cneuralnetwork/oplogsは、機械学習とエージェントのためのローカルファーストなオープンソースの実験追跡ツールです。"
+      "tldr": "ローカルファーストのオープンソース実験追跡ツール「oplogs」は、機械学習やエージェントのためのプロジェクト管理をサポートします。"
     },
     {
       "name": "deepvision-studio",
@@ -73,26 +73,13 @@
       "url": "https://github.com/hewanglanhao/deepvision-studio",
       "createdAt": "2026-08-17T06:54:35Z",
       "updatedAt": "2026-08-21T00:31:00Z",
-      "tldr": "インタラクティブな深層学習ラボで、フォワード/バックプロパゲーションの視覚化や実際のPyTorchモデルのトレーニング、CNN、トランスフォーマー、RNN、AIの歴史を探求できます。"
-    },
-    {
-      "name": "CS224n-Winter-2026-Learning-Notes",
-      "fullName": "lvsir18/CS224n-Winter-2026-Learning-Notes",
-      "description": "这是一套围绕 Stanford CS224N: Natural Language Processing with Deep Learning 整理的系统课程笔记。仓库以课程 19 节 Lecture 为主线，从 Word Vectors、RNN、Attention、Transformer 一路延伸到 Pretraining、Post-training、PEFT、RAG、Agents、Reasoning、Multilinguality、Interpretability 与 Multimodality。",
-      "stars": 11,
-      "forks": 0,
-      "language": "",
-      "topics": [],
-      "url": "https://github.com/lvsir18/CS224n-Winter-2026-Learning-Notes",
-      "createdAt": "2026-08-17T08:33:40Z",
-      "updatedAt": "2026-08-19T02:33:33Z",
-      "tldr": "Stanford CS224Nの自然言語処理に関するシステム的な講義ノートを整理したリポジトリで、Word Vectorsから始まり、RNN、Attention、Transformer、Pretraining、Post-training、PEFT、RAG、Agents、Reasoning、Multilinguality、Interpretability、Multimodalityに至るまでの内容をカバーしています。"
+      "tldr": "TL;DR: hewanglanhao/deepvision-studioは、フォワード/バックプロパゲーションの可視化やPyTorchモデルのトレーニング、CNN、トランスフォーマー、RNN、AIの歴史を探求するためのインタラクティブなディープラーニングラボです。"
     },
     {
       "name": "deepseek-harness-atlas",
       "fullName": "ItBayMax/deepseek-harness-atlas",
       "description": "针对 [`deepseek-harness`](https://github.com/deepseek-ai/deepseek-harness) 仓库的交互式学习地图：架构分层、依赖脉络、核心流程、模块深读（含**关键源码片段**）、**双源文档库**（官方文档中文优先 + Claude 解读文档）、源码浏览。",
-      "stars": 10,
+      "stars": 11,
       "forks": 0,
       "language": "JavaScript",
       "topics": [
@@ -110,8 +97,21 @@
       ],
       "url": "https://github.com/ItBayMax/deepseek-harness-atlas",
       "createdAt": "2026-08-20T08:22:27Z",
-      "updatedAt": "2026-08-20T10:15:38Z",
-      "tldr": "TL;DR: `deepseek-harness`リポジトリに対するインタラクティブラーニングマップが提供されており、アーキテクチャの層、依存関係、コアプロセス、モジュールの詳細な読み込み、重要なソースコードの断片、双源ドキュメントライブラリ（公式文書とClaudeによる解説）を含んでいます。"
+      "updatedAt": "2026-08-21T01:34:36Z",
+      "tldr": "`deepseek-harness`リポジトリに対するインタラクティブラーニングマップが提供されており、アーキテクチャの層、依存関係、主要プロセス、モジュールの詳細解析（重要なソースコードスニペットを含む）、および二次文献ライブラリ（公式文書を優先し、Claudeの解説文書も含む）を含んでいます。"
+    },
+    {
+      "name": "CS224n-Winter-2026-Learning-Notes",
+      "fullName": "lvsir18/CS224n-Winter-2026-Learning-Notes",
+      "description": "这是一套围绕 Stanford CS224N: Natural Language Processing with Deep Learning 整理的系统课程笔记。仓库以课程 19 节 Lecture 为主线，从 Word Vectors、RNN、Attention、Transformer 一路延伸到 Pretraining、Post-training、PEFT、RAG、Agents、Reasoning、Multilinguality、Interpretability 与 Multimodality。",
+      "stars": 11,
+      "forks": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/lvsir18/CS224n-Winter-2026-Learning-Notes",
+      "createdAt": "2026-08-17T08:33:40Z",
+      "updatedAt": "2026-08-19T02:33:33Z",
+      "tldr": "TL;DR: Stanford CS224Nの自然言語処理に関する深層学習の講義ノートを整理したリポジトリで、Word Vectorsから始まり、RNN、Attention、Transformer、Pretraining、Post-training、PEFT、RAG、Agents、Reasoning、Multilinguality、Interpretability、Multimodalityに至るまでの内容を網羅しています。"
     },
     {
       "name": "data-science-cheatsheets",
@@ -124,7 +124,7 @@
       "url": "https://github.com/ahmed123-cell/data-science-cheatsheets",
       "createdAt": "2026-08-17T15:14:22Z",
       "updatedAt": "2026-08-20T04:19:31Z",
-      "tldr": "Python、データサイエンス、機械学習、深層学習、MLOpsに関する実用的なノートや例、リファレンスノートブックのコレクション。"
+      "tldr": "Python、データサイエンス、機械学習、深層学習、MLOpsに関する実用的なノートや例、リファレンスノートブックを集めたリポジトリです。"
     },
     {
       "name": "ap-welfare-fraud-detection",
@@ -137,7 +137,7 @@
       "url": "https://github.com/thrinathpolanki/ap-welfare-fraud-detection",
       "createdAt": "2026-08-16T08:36:29Z",
       "updatedAt": "2026-08-18T17:52:28Z",
-      "tldr": "アンドラプラデシュの福祉制度における不正請求を検出するための機械学習プロジェクトで、Random Forestを用いたデータ前処理、特徴量エンジニアリング、探索的データ分析（EDA）、モデル評価、Flaskベースのウェブダッシュボードが含まれています。"
+      "tldr": "アンドラプラデシュの福祉制度における不正請求を検出するための機械学習プロジェクトで、Random Forestを使用し、データ前処理、特徴量エンジニアリング、探索的データ分析（EDA）、モデル評価、Flaskベースのウェブダッシュボードを含む。"
     },
     {
       "name": "Cifar100-images-classification-CNN",
@@ -165,7 +165,7 @@
       "url": "https://github.com/python-is-life2022/Cifar100-images-classification-CNN",
       "createdAt": "2026-08-16T09:21:52Z",
       "updatedAt": "2026-08-19T23:00:24Z",
-      "tldr": "TL;DR: CIFAR-100データセットを用いてCNNとTensorFlow/Kerasで100のオブジェクトクラスを分類する深層学習プロジェクトで、シーケンシャルアーキテクチャ、データ拡張、最適化戦略を特徴としています。"
+      "tldr": "TL;DR: CIFAR-100データセットを使用して、CNNとTensorFlow/Kerasで100のオブジェクトクラスを分類する深層学習プロジェクトで、シーケンシャルアーキテクチャやデータ拡張、最適化戦略を特徴としています。"
     },
     {
       "name": "0-1LLM-Stanford-CS336-Language-Modeling-from-Scratch-",
@@ -178,7 +178,7 @@
       "url": "https://github.com/zizhengwang2026/0-1LLM-Stanford-CS336-Language-Modeling-from-Scratch-",
       "createdAt": "2026-08-17T13:50:25Z",
       "updatedAt": "2026-08-20T12:09:26Z",
-      "tldr": "TL;DR: CS 336の哲学に基づき、PyTorchのテンソルプリミティブからLLMの全コンポーネント（トークナイザー、Transformer、トレーニング、データ、システム最適化、アラインメント）を自分で実装し、その過程での課題やトレードオフを文書化することを目的としたプロジェクトです。"
+      "tldr": "TL;DR: CS 336の哲学に基づき、PyTorchのテンソルプリミティブからLLMの全コンポーネント（トークナイザー、Transformer、トレーニング、データ、システム最適化、アラインメント）を自分で実装し、遭遇した問題やトレードオフを文書化することを目的としたプロジェクトです。"
     },
     {
       "name": "Student-Marks-Prediction-ML",
@@ -191,7 +191,7 @@
       "url": "https://github.com/BarathElumalai22/Student-Marks-Prediction-ML",
       "createdAt": "2026-08-19T09:23:29Z",
       "updatedAt": "2026-08-19T14:35:28Z",
-      "tldr": "学生の成績を予測するために、線形回帰と機械学習を用いたJupyter Notebookのリポジトリ。"
+      "tldr": "学生の成績予測を線形回帰と機械学習を用いて行うJupyter Notebookのリポジトリです。"
     },
     {
       "name": "employee-attrition-analysis-prediction",
@@ -204,7 +204,7 @@
       "url": "https://github.com/Meena55-sree/employee-attrition-analysis-prediction",
       "createdAt": "2026-08-16T08:30:00Z",
       "updatedAt": "2026-08-19T15:47:11Z",
-      "tldr": "PythonとStreamlitを使用した機械学習ベースの従業員離職分析および予測システム。"
+      "tldr": "PythonとStreamlitを使用した機械学習に基づく従業員離職分析および予測システム。"
     },
     {
       "name": "awesome-ai-certifications",
@@ -231,7 +231,7 @@
       "url": "https://github.com/hartmamt/awesome-ai-certifications",
       "createdAt": "2026-08-17T00:51:34Z",
       "updatedAt": "2026-08-17T02:02:49Z",
-      "tldr": "AIおよび機械学習の認定資格に関するキュレーションリストで、コスト、妥当性、資格要件、再受験ポリシーがベンダーページに基づいて確認されています。"
+      "tldr": "AIおよび機械学習の認証に関するキュレーションリストで、費用、妥当性、資格、再受験ポリシーがベンダーページに基づいて確認されています。"
     },
     {
       "name": "logpose",
@@ -249,7 +249,7 @@
       "url": "https://github.com/NiklasCODES/logpose",
       "createdAt": "2026-08-17T20:05:35Z",
       "updatedAt": "2026-08-18T04:15:24Z",
-      "tldr": "このリポジトリは、Mixture of Attention (MoA) 大規模言語モデルのトレーニングと実験のための新しい、高度にカスタマイズ可能なフレームワークを紹介しています。"
+      "tldr": "TL;DR: このリポジトリは、Mixture of Attention (MoA) 大規模言語モデルのトレーニングと実験のための新しい柔軟なフレームワークを紹介しています。"
     },
     {
       "name": "Applied-Deep-Learning-PyTorch",
@@ -262,7 +262,7 @@
       "url": "https://github.com/surafelasfawosen/Applied-Deep-Learning-PyTorch",
       "createdAt": "2026-08-18T07:49:31Z",
       "updatedAt": "2026-08-19T07:59:05Z",
-      "tldr": "TL;DR: インタラクティブなPyTorchと深層学習のガイドで、コアなニューラルネットワークの概念、バックプロパゲーション、オートグラッド、コンピュータビジョンをJupyter Notebookを使って実践的に学べます。"
+      "tldr": "TL;DR: インタラクティブなPyTorchと深層学習のガイドで、コアなニューラルネットワークの概念、バックプロパゲーション、オートグラッド、コンピュータビジョンをJupyter Notebookを使って実践的に学べる内容です。"
     },
     {
       "name": "LLM-Fine-Tuning-Evaluation-Pipeline",
@@ -275,7 +275,7 @@
       "url": "https://github.com/yuvrajnode/LLM-Fine-Tuning-Evaluation-Pipeline",
       "createdAt": "2026-08-19T19:01:55Z",
       "updatedAt": "2026-08-19T19:50:14Z",
-      "tldr": "LoRA/PEFTとRLHFを使用してオープンソースのLLMをファインチューニングし、10,000以上のトレーニング例で下流タスクの精度を25%向上させた。自動化されたHugging Face Transformers評価ワークフローを通じて15以上のモデルチェックポイントをベンチマークし、イテレーションのターンアラウンドを60%加速した。"
+      "tldr": "LoRA/PEFTとRLHFを用いて、10,000以上のトレーニング例でオープンソースのLLMをファインチューニングし、下流タスクの精度を25%向上させました。また、Hugging Face Transformersの自動評価ワークフローを通じて15以上のモデルチェックポイントをベンチマークし、イテレーションのターンアラウンドを60%加速しました。"
     },
     {
       "name": "Notes-Generator",
@@ -288,7 +288,7 @@
       "url": "https://github.com/AlgoNinja2025/Notes-Generator",
       "createdAt": "2026-08-19T14:47:13Z",
       "updatedAt": "2026-08-19T15:29:04Z",
-      "tldr": "AIを活用した強力な試験ノート生成器を開発し、ワンクリックで試験向けのノートを生成できるようにしました。"
+      "tldr": "AIを活用した強力な試験ノート生成ツールを開発し、ワンクリックで試験に特化したノートを生成できるようになりました。"
     },
     {
       "name": "Sikandarabbas-dev",
@@ -301,7 +301,7 @@
       "url": "https://github.com/Sikandarabbas-dev/Sikandarabbas-dev",
       "createdAt": "2026-08-17T07:23:25Z",
       "updatedAt": "2026-08-19T15:19:56Z",
-      "tldr": "BSコンピュータサイエンスの学生で、人工知能と機械学習のバックグラウンドを持ち、実用的なAIシステムを構築し、深層学習、LLMs、NLP、コンピュータビジョン、生成AI、インテリジェントシステムに関する将来の研究を追求しています。"
+      "tldr": "BSコンピュータサイエンスの学生で、人工知能と機械学習のバックグラウンドを持ち、実用的なAIシステムを構築し、深層学習、LLM、NLP、コンピュータビジョン、生成AI、インテリジェントシステムに関する将来の研究を追求しています。"
     },
     {
       "name": "MachineLearningUiO",
@@ -329,7 +329,7 @@
       "url": "https://github.com/ujjwalcurry30/Machine-Learning-",
       "createdAt": "2026-08-19T15:00:42Z",
       "updatedAt": "2026-08-19T15:42:19Z",
-      "tldr": "申し訳ありませんが、具体的な記事の内容が提供されていないため、TL;DRを作成することができません。記事の内容を教えていただければ、まとめることができます。"
+      "tldr": "申し訳ありませんが、具体的な内容が提供されていないため、TL;DRを作成することができません。記事の内容を教えていただければ、まとめることができます。"
     },
     {
       "name": "Fake-News-Detection-Using-Machine-Learning",
@@ -355,7 +355,7 @@
       "url": "https://github.com/sathwika1710/Used-Car-Price-Prediction-Model-using-Machine-Learning",
       "createdAt": "2026-08-17T15:15:28Z",
       "updatedAt": "2026-08-18T03:53:28Z",
-      "tldr": "中古車の価格予測モデルを構築するために、データ前処理、探索的データ分析、特徴量エンジニアリング、ワンホットエンコーディング、回帰モデルを用いた機械学習プロジェクト。"
+      "tldr": "中古車の価格予測モデルを構築するために、データ前処理、探索的データ分析、特徴量エンジニアリング、ワンホットエンコーディング、回帰モデリングを用いた機械学習プロジェクト。"
     },
     {
       "name": "Zahraaa88",
@@ -368,7 +368,7 @@
       "url": "https://github.com/Zahraaa88/Zahraaa88",
       "createdAt": "2026-08-17T14:21:04Z",
       "updatedAt": "2026-08-17T14:57:49Z",
-      "tldr": "このリポジトリは、商業データ分析や収益インテリジェンス、機械学習に関連するプロジェクトを含んでいます。"
+      "tldr": "TL;DR: Zahraaa88/Zahraaa88リポジトリは、商業データ分析、収益インテリジェンス、機械学習に関連するプロジェクトを含んでいます。"
     },
     {
       "name": "student-performance-prediction",
@@ -394,7 +394,7 @@
       "url": "https://github.com/MUDITGUPTA08/GlobalAirScope",
       "createdAt": "2026-08-19T05:44:07Z",
       "updatedAt": "2026-08-20T04:43:09Z",
-      "tldr": "グローバルな大気汚染のクラスタリングとプロファイリングを機械学習を用いて行うJupyter Notebookのリポジトリです。"
+      "tldr": "グローバルな大気汚染のクラスタリングとプロファイリングを機械学習を用いて行うJupyter Notebookプロジェクト。"
     },
     {
       "name": "modelstamp",
@@ -407,7 +407,7 @@
       "url": "https://github.com/AnaghaDhekne/modelstamp",
       "createdAt": "2026-08-20T16:26:20Z",
       "updatedAt": "2026-08-20T22:24:26Z",
-      "tldr": "Pythonの機械学習モデルに対するバージョン対応の整合性チェック済み永続化を提供するライブラリです。"
+      "tldr": "Pythonの機械学習モデルのための、バージョン管理と整合性チェックを備えた永続化ライブラリ「modelstamp」が提供されています。"
     },
     {
       "name": "Movie-Recommendation-System",
@@ -420,7 +420,7 @@
       "url": "https://github.com/Rajwardhan35/Movie-Recommendation-System",
       "createdAt": "2026-08-19T14:24:27Z",
       "updatedAt": "2026-08-19T14:52:16Z",
-      "tldr": "機械学習を用いた複数の推薦手法を活用した映画推薦システムのリポジトリです。"
+      "tldr": "機械学習を用いた映画推薦システムで、複数の推薦技術を活用しています。"
     },
     {
       "name": "customer-churn-prediction-engine",
@@ -433,7 +433,7 @@
       "url": "https://github.com/Zahraaa88/customer-churn-prediction-engine",
       "createdAt": "2026-08-17T14:06:57Z",
       "updatedAt": "2026-08-17T14:57:48Z",
-      "tldr": "16,000件の顧客データを用いたエンドツーエンドの機械学習による顧客離脱診断エンジンが実装されたJupyter Notebookのリポジトリです。"
+      "tldr": "16,000件の顧客データを用いたエンドツーエンドの機械学習による顧客離脱診断エンジンが開発されました。"
     },
     {
       "name": "Aditya_Portfolio",
@@ -446,7 +446,7 @@
       "url": "https://github.com/Aadityya07/Aditya_Portfolio",
       "createdAt": "2026-08-15T09:05:57Z",
       "updatedAt": "2026-08-17T06:08:29Z",
-      "tldr": "TL;DR: 個人ポートフォリオで、AI、機械学習、フルスタック開発のプロジェクトやスキル、経験、成果を紹介しています。"
+      "tldr": "個人ポートフォリオで、AI、機械学習、フルスタック開発のプロジェクトやスキル、経験、成果を紹介しています。"
     },
     {
       "name": "QuickLab",
@@ -496,7 +496,7 @@
       "url": "https://github.com/CULTUREYES-stack/HIM-engine",
       "createdAt": "2026-08-20T15:30:20Z",
       "updatedAt": "2026-08-20T18:22:39Z",
-      "tldr": "大規模言語モデル向けの統一適応推論エンジンが開発され、GPUを活用した効率的な推論を実現しています。"
+      "tldr": "大規模言語モデル向けの統一適応推論エンジンが開発され、GPUを活用したフラッシュアテンションとPyTorchを使用している。"
     },
     {
       "name": "AtmosCoder-Bench",
@@ -509,7 +509,7 @@
       "url": "https://github.com/acodercat/AtmosCoder-Bench",
       "createdAt": "2026-08-18T02:16:37Z",
       "updatedAt": "2026-08-20T09:27:20Z",
-      "tldr": "大規模言語モデルの気象科学計算における実行に基づく評価を行うためのリポジトリ「acodercat/AtmosCoder-Bench」。"
+      "tldr": "大規模言語モデルの大気科学計算における実行に基づく評価を行うためのリポジトリです。"
     },
     {
       "name": "llmops-applied-program",
@@ -522,7 +522,7 @@
       "url": "https://github.com/paiml/llmops-applied-program",
       "createdAt": "2026-08-18T08:08:14Z",
       "updatedAt": "2026-08-20T10:28:15Z",
-      "tldr": "8週間のプロジェクトベースのプログラムで、Large Language Models (LLMOps)を実用化し、実際のLLMアプリケーションを構築して公開し、ポートフォリオを作成することを目指します。"
+      "tldr": "8週間のプロジェクトベースのプログラムで、Large Language Models (LLMOps)を実用化し、実際のLLMアプリケーションを構築して公開し、ポートフォリオを作成します。"
     },
     {
       "name": "OAM-DeepLearning-Research",
@@ -535,7 +535,7 @@
       "url": "https://github.com/zengwei998/OAM-DeepLearning-Research",
       "createdAt": "2026-08-20T04:49:30Z",
       "updatedAt": "2026-08-20T11:42:11Z",
-      "tldr": "TL;DR: zengwei998/OAM-DeepLearning-Researchは、物理ベースのOAM光場シミュレーション、データセット構築、深層学習を用いたモード認識に関するPythonプロジェクトです。"
+      "tldr": "TL;DR: zengwei998/OAM-DeepLearning-Researchは、物理ベースのOAM光場シミュレーション、データセット構築、深層学習によるモード認識を行うPythonプロジェクトです。"
     },
     {
       "name": "deepseek-harness-learning-space",
@@ -547,8 +547,8 @@
       "topics": [],
       "url": "https://github.com/kaikaixiaotian/deepseek-harness-learning-space",
       "createdAt": "2026-08-18T09:33:13Z",
-      "updatedAt": "2026-08-20T10:17:31Z",
-      "tldr": "TL;DR: リポジトリ「kaikaixiaotian/deepseek-harness-learning-space」は、TypeScriptで開発されたプロジェクトで、特定のトピックに関連していますが、詳細は記載されていません。"
+      "updatedAt": "2026-08-21T01:22:43Z",
+      "tldr": "TL;DR: リポジトリ「kaikaixiaotian/deepseek-harness-learning-space」は、TypeScriptで開発されたプロジェクトで、特定のトピックに関連するコードが含まれています。"
     },
     {
       "name": "deep-learning-food-classification",
@@ -568,7 +568,7 @@
       "url": "https://github.com/Sikandarabbas-dev/deep-learning-food-classification",
       "createdAt": "2026-08-17T09:56:30Z",
       "updatedAt": "2026-08-19T15:19:50Z",
-      "tldr": "AIを活用したモバイルアプリで、ディッシュ認識を行うためのDeep Learning（CNN/MobileNetV2、Transfer Learning、TensorFlow Lite）を使用しており、FlutterとFirebaseで構築されています。"
+      "tldr": "AIを活用したモバイルアプリで、Deep Learning（CNN/MobileNetV2、Transfer Learning、TensorFlow Lite）を使用して料理の認識を行います。FlutterとFirebaseを用いて構築されています。"
     },
     {
       "name": "AI_Based_Glaucoma_Detection_System",
@@ -581,7 +581,7 @@
       "url": "https://github.com/VidhyaBoda/AI_Based_Glaucoma_Detection_System",
       "createdAt": "2026-08-18T09:20:21Z",
       "updatedAt": "2026-08-19T04:33:02Z",
-      "tldr": "AIを活用した緑内障検出システムが、網膜の眼底画像に対して深層学習と転移学習を用いて開発されました。"
+      "tldr": "AIを活用した緑内障検出システムで、深層学習と転移学習を用いて網膜眼底画像を解析します。"
     },
     {
       "name": "COMP-3200-TEAM-ROGUE-ONE",
@@ -607,7 +607,7 @@
       "url": "https://github.com/sita-karimi/ADHD-rsfMRI-Transformer",
       "createdAt": "2026-08-18T15:08:04Z",
       "updatedAt": "2026-08-19T14:24:42Z",
-      "tldr": "ADHD-200データセットを用いて、ローカルテンポラルアテンションとROI選択を活用したトランスフォーマーによるADHD診断のための深層学習モデルを開発したリポジトリです。"
+      "tldr": "TL;DR: ADHD-rsfMRI-Transformerは、rs-fMRIデータを用いてADHDを診断するためのディープラーニングモデルで、ローカルテンポラルアテンションとROI選択を活用しています。"
     },
     {
       "name": "i2k-2026",
@@ -620,7 +620,7 @@
       "url": "https://github.com/bnorthan/i2k-2026",
       "createdAt": "2026-08-17T11:56:59Z",
       "updatedAt": "2026-08-18T13:23:49Z",
-      "tldr": "GPUと深層学習を用いたセグメンテーションと復元に関する短期コースで、各手法は独自の環境で実行され、JupyterとNapariを使用します。"
+      "tldr": "GPUと深層学習を用いたセグメンテーションと復元に関する短期コースで、各手法は独自の環境で実行されるJupyterとNapariを使用します。"
     },
     {
       "name": "brain",
@@ -646,7 +646,7 @@
       "url": "https://github.com/Jayanth176/2D_image_to_3D",
       "createdAt": "2026-08-17T13:23:44Z",
       "updatedAt": "2026-08-18T15:35:44Z",
-      "tldr": "TL;DR: MoGeモデルを使用して、単一の2D画像から3D表現を生成し、深度推定と3Dシーン再構築を可能にするディープラーニングプロジェクト。"
+      "tldr": "TL;DR: MoGeモデルを使用して、単一の2D画像から深度推定と3Dシーン再構築を行う深層学習プロジェクト。"
     },
     {
       "name": "Persian-Digits-Hand-Writing-Image-Classification-Fully-Connected-Neural-Network",
@@ -674,7 +674,7 @@
       "url": "https://github.com/python-is-life2022/Persian-Digits-Hand-Writing-Image-Classification-Fully-Connected-Neural-Network",
       "createdAt": "2026-08-15T04:09:54Z",
       "updatedAt": "2026-08-15T11:33:14Z",
-      "tldr": "ペルシャ数字の手書き画像を分類するための深層学習プロジェクトで、Fully Connected Neural Network (FCNN)を使用し、画像前処理、データ準備、ニューラルネットワークの設計、モデルのトレーニング、評価、パフォーマンスの可視化を行います。"
+      "tldr": "ペルシャ数字の手書き画像を分類するための深層学習プロジェクトで、完全連結ニューラルネットワーク（FCNN）を使用し、画像前処理からデータ準備、ニューラルネットワークの設計、モデルのトレーニング、評価、パフォーマンスの可視化までをカバーしています。"
     },
     {
       "name": "Advanced-DL-Compression-Challenge-2026",
@@ -687,7 +687,7 @@
       "url": "https://github.com/BytePhilosopher/Advanced-DL-Compression-Challenge-2026",
       "createdAt": "2026-08-18T23:41:38Z",
       "updatedAt": "2026-08-19T21:47:17Z",
-      "tldr": "TL;DR: BytePhilosopherのリポジトリでは、深層学習の圧縮概念を理解し、厳しいレイテンシとサイズの制約の下で、インターネットアクセスなしで複数選択肢の質問に正しく答えられる小型で高速な「学生」モデルに圧縮する方法を探求しています。"
+      "tldr": "TL;DR: BytePhilosopherのリポジトリは、深層学習の圧縮概念を理解し、厳しいレイテンシとサイズの制約の下で、インターネットアクセスなしで複数選択肢の質問に正しく回答できる小型で高速な「学生」モデルに圧縮することを目指しています。"
     },
     {
       "name": "glassbox-ai-suite",
@@ -709,7 +709,7 @@
       "url": "https://github.com/makotonanamori/glassbox-ai-suite",
       "createdAt": "2026-08-16T04:30:55Z",
       "updatedAt": "2026-08-20T18:01:44Z",
-      "tldr": "透明性のあるローカルファーストのラボを提供し、教師あり学習、ミニマルなTransformer言語モデル、強化学習を実現する「glassbox-ai-suite」リポジトリ。"
+      "tldr": "教育や説明可能なAIに焦点を当てた、透明性のあるローカルファーストのラボで、監視学習や小型のTransformer言語モデル、強化学習を実現するJavaScriptライブラリ。"
     },
     {
       "name": "scribe",
@@ -744,7 +744,7 @@
       "url": "https://github.com/suba-shini7/AI-Text-Generator",
       "createdAt": "2026-08-17T15:27:18Z",
       "updatedAt": "2026-08-20T13:31:47Z",
-      "tldr": "初心者向けのAIテキスト生成ウェブアプリケーションで、Python、Streamlit、Hugging Face Transformersを使用し、Qwen/Qwen2.5-0.5B-Instructの事前学習済み言語モデルを利用してユーザーが提供したプロンプトに基づいてテキストを生成します。"
+      "tldr": "Python、Streamlit、Hugging Face Transformersを使用して構築された初心者向けのAIテキスト生成ウェブアプリケーションで、ユーザーが提供したプロンプトに基づいてQwen/Qwen2.5-0.5B-Instructの事前学習済み言語モデルを使用してテキストを生成します。"
     },
     {
       "name": "CodeAlpha_Internship_ArtificialIntelligence",
@@ -775,7 +775,7 @@
       "url": "https://github.com/harshithashastry2007-lang/CodeAlpha_Internship_ArtificialIntelligence",
       "createdAt": "2026-08-18T10:08:21Z",
       "updatedAt": "2026-08-18T11:00:56Z",
-      "tldr": "TL;DR: Pythonを使用して構築されたAIアプリケーションのコレクションで、言語翻訳、インテリジェントFAQ支援、AI音楽生成、リアルタイムの物体検出・追跡機能を提供しています。"
+      "tldr": "TL;DR: Pythonを使用して構築されたAIアプリケーションのコレクションで、言語翻訳、FAQ支援、AI音楽生成、リアルタイムの物体検出・追跡機能を提供しています。"
     },
     {
       "name": "Artificial-intelligence",
