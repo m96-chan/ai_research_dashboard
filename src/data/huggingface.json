@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-23T06:00:18.803Z",
+  "updatedAt": "2026-08-23T07:00:25.728Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 12183,
+        "likes": 12188,
         "downloads": 2090699,
         "tags": [
           "transformers",
@@ -18,7 +18,8 @@
           "eval-results",
           "endpoints_compatible",
           "deploy:azure",
-          "region:us"
+          "region:us",
+          "deploy:sagemaker"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
@@ -27,7 +28,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 2646,
+        "likes": 2650,
         "downloads": 6320542,
         "tags": [
           "gguf",
@@ -48,7 +49,7 @@
       {
         "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
         "author": "orcarouter",
-        "likes": 893,
+        "likes": 894,
         "downloads": 34909,
         "tags": [
           "mlx",
@@ -117,7 +118,7 @@
       {
         "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
         "author": "OBLITERATUS",
-        "likes": 555,
+        "likes": 560,
         "downloads": 164950,
         "tags": [
           "mlx",
@@ -175,7 +176,7 @@
       {
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 627,
+        "likes": 628,
         "downloads": 1223422,
         "tags": [
           "llama.cpp",
@@ -203,7 +204,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 1579,
+        "likes": 1581,
         "downloads": 694670,
         "tags": [
           "diffusion-single-file",
@@ -283,7 +284,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 4352,
+        "likes": 4353,
         "downloads": 3899160,
         "tags": [
           "minimax-h3",
@@ -312,7 +313,7 @@
       {
         "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
         "author": "orcarouter",
-        "likes": 345,
+        "likes": 346,
         "downloads": 85371,
         "tags": [
           "gguf",
@@ -347,7 +348,7 @@
       {
         "id": "froggeric/Qwen-Fixed-Chat-Templates",
         "author": "froggeric",
-        "likes": 1401,
+        "likes": 1402,
         "downloads": 0,
         "tags": [
           "mlx",
@@ -370,27 +371,9 @@
         "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
       },
       {
-        "id": "ornith-ai/Ornith-1.5-35B-A3B-GGUF",
-        "author": "ornith-ai",
-        "likes": 240,
-        "downloads": 173935,
-        "tags": [
-          "transformers",
-          "gguf",
-          "text-generation",
-          "license:mit",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF"
-      },
-      {
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 259,
+        "likes": 261,
         "downloads": 635416,
         "tags": [
           "transformers",
@@ -412,9 +395,27 @@
         "link": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF"
       },
       {
+        "id": "ornith-ai/Ornith-1.5-35B-A3B-GGUF",
+        "author": "ornith-ai",
+        "likes": 240,
+        "downloads": 173935,
+        "tags": [
+          "transformers",
+          "gguf",
+          "text-generation",
+          "license:mit",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF"
+      },
+      {
         "id": "Qwen/Qwen3.8-27B-FP8",
         "author": "Qwen",
-        "likes": 667,
+        "likes": 668,
         "downloads": 2306777,
         "tags": [
           "transformers",
@@ -436,7 +437,7 @@
       {
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
         "author": "huihui-ai",
-        "likes": 248,
+        "likes": 249,
         "downloads": 21612,
         "tags": [
           "transformers",
@@ -537,6 +538,24 @@
         "link": "https://huggingface.co/DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF"
       },
       {
+        "id": "TenStrip/10Eros-Max",
+        "author": "TenStrip",
+        "likes": 319,
+        "downloads": 0,
+        "tags": [
+          "text-to-video",
+          "image-text-to-video",
+          "image-to-video",
+          "base_model:MiniMaxAI/MiniMax-H3",
+          "base_model:finetune:MiniMaxAI/MiniMax-H3",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/TenStrip/10Eros-Max"
+      },
+      {
         "id": "z-lab/Qwen3.8-27B-DFlash2",
         "author": "z-lab",
         "likes": 194,
@@ -561,24 +580,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2"
-      },
-      {
-        "id": "TenStrip/10Eros-Max",
-        "author": "TenStrip",
-        "likes": 318,
-        "downloads": 0,
-        "tags": [
-          "text-to-video",
-          "image-text-to-video",
-          "image-to-video",
-          "base_model:MiniMaxAI/MiniMax-H3",
-          "base_model:finetune:MiniMaxAI/MiniMax-H3",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/TenStrip/10Eros-Max"
       },
       {
         "id": "empero-ai/Qwen3.8-27B-Ridge-GGUF",
@@ -616,7 +617,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
         "author": "deepseek-ai",
-        "likes": 721,
+        "likes": 723,
         "downloads": 54566,
         "tags": [
           "transformers",
@@ -639,7 +640,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
         "author": "deepseek-ai",
-        "likes": 3634,
+        "likes": 3635,
         "downloads": 2976281,
         "tags": [
           "transformers",
@@ -724,6 +725,32 @@
         "link": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill"
       },
       {
+        "id": "incoai/Qwen3.8-27B-DFlash2",
+        "author": "incoai",
+        "likes": 156,
+        "downloads": 54439,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3",
+          "dflash2",
+          "speculative-decoding",
+          "block-diffusion",
+          "draft-model",
+          "sglang",
+          "vllm",
+          "text-generation",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:finetune:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/incoai/Qwen3.8-27B-DFlash2"
+      },
+      {
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
         "likes": 229,
@@ -751,35 +778,9 @@
         "link": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF"
       },
       {
-        "id": "incoai/Qwen3.8-27B-DFlash2",
-        "author": "incoai",
-        "likes": 156,
-        "downloads": 54439,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3",
-          "dflash2",
-          "speculative-decoding",
-          "block-diffusion",
-          "draft-model",
-          "sglang",
-          "vllm",
-          "text-generation",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:finetune:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "text-generation-inference",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/incoai/Qwen3.8-27B-DFlash2"
-      },
-      {
         "id": "moonshotai/Kimi-K3",
         "author": "moonshotai",
-        "likes": 10933,
+        "likes": 10932,
         "downloads": 2612739,
         "tags": [
           "transformers",
@@ -911,6 +912,22 @@
         "link": "https://huggingface.co/datasets/r0b0tlab/qwen3.8-max-glm5.2-kimi-k3-distillation"
       },
       {
+        "id": "markov-ai/cad-1000-hours",
+        "author": "markov-ai",
+        "likes": 58,
+        "downloads": 2916,
+        "tags": [
+          "modality:video",
+          "region:us",
+          "cad",
+          "computer-use",
+          "screen-recording",
+          "video"
+        ],
+        "lastModified": "2026-08-21T12:26:29.000Z",
+        "link": "https://huggingface.co/datasets/markov-ai/cad-1000-hours"
+      },
+      {
         "id": "ChartGalaxy/ChartGalaxy",
         "author": "ChartGalaxy",
         "likes": 83,
@@ -935,22 +952,6 @@
         ],
         "lastModified": "2026-08-21T15:16:19.000Z",
         "link": "https://huggingface.co/datasets/ChartGalaxy/ChartGalaxy"
-      },
-      {
-        "id": "markov-ai/cad-1000-hours",
-        "author": "markov-ai",
-        "likes": 57,
-        "downloads": 2916,
-        "tags": [
-          "modality:video",
-          "region:us",
-          "cad",
-          "computer-use",
-          "screen-recording",
-          "video"
-        ],
-        "lastModified": "2026-08-21T12:26:29.000Z",
-        "link": "https://huggingface.co/datasets/markov-ai/cad-1000-hours"
       },
       {
         "id": "ostris/minimax_h3_1k",
@@ -1133,29 +1134,9 @@
         "link": "https://huggingface.co/datasets/FlyRank/internship-warehouse"
       },
       {
-        "id": "HuggingFaceCode/stack-v3-train",
-        "author": "HuggingFaceCode",
-        "likes": 365,
-        "downloads": 270685,
-        "tags": [
-          "task_categories:text-generation",
-          "language_creators:crowdsourced",
-          "language_creators:expert-generated",
-          "multilinguality:multilingual",
-          "language:code",
-          "license:odc-by",
-          "size_categories:100M<n<1B",
-          "arxiv:2402.19173",
-          "region:us",
-          "code"
-        ],
-        "lastModified": "2026-08-17T09:21:44.000Z",
-        "link": "https://huggingface.co/datasets/HuggingFaceCode/stack-v3-train"
-      },
-      {
         "id": "LightwheelAI/EgoStandard",
         "author": "LightwheelAI",
-        "likes": 19,
+        "likes": 20,
         "downloads": 4807,
         "tags": [
           "task_categories:video-classification",
@@ -1178,6 +1159,26 @@
         ],
         "lastModified": "2026-08-22T03:48:33.000Z",
         "link": "https://huggingface.co/datasets/LightwheelAI/EgoStandard"
+      },
+      {
+        "id": "HuggingFaceCode/stack-v3-train",
+        "author": "HuggingFaceCode",
+        "likes": 365,
+        "downloads": 270685,
+        "tags": [
+          "task_categories:text-generation",
+          "language_creators:crowdsourced",
+          "language_creators:expert-generated",
+          "multilinguality:multilingual",
+          "language:code",
+          "license:odc-by",
+          "size_categories:100M<n<1B",
+          "arxiv:2402.19173",
+          "region:us",
+          "code"
+        ],
+        "lastModified": "2026-08-17T09:21:44.000Z",
+        "link": "https://huggingface.co/datasets/HuggingFaceCode/stack-v3-train"
       },
       {
         "id": "Apexintelligence-AI/ASI-Bench-seed31415",
