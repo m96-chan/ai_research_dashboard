@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-30T19:00:28.957Z",
+  "updatedAt": "2026-08-30T20:00:22.575Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Qwen/Qwen3.8-Flash-Next",
         "author": "Qwen",
-        "likes": 4367,
+        "likes": 4371,
         "downloads": 121976,
         "tags": [
           "transformers",
@@ -26,7 +26,7 @@
       {
         "id": "zai-org/GLM-5.3-Flash",
         "author": "zai-org",
-        "likes": 1692,
+        "likes": 1693,
         "downloads": 346516,
         "tags": [
           "transformers",
@@ -75,7 +75,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 13326,
+        "likes": 13328,
         "downloads": 4511348,
         "tags": [
           "transformers",
@@ -97,7 +97,7 @@
       {
         "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
         "author": "unsloth",
-        "likes": 596,
+        "likes": 597,
         "downloads": 328195,
         "tags": [
           "gguf",
@@ -117,7 +117,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 3224,
+        "likes": 3228,
         "downloads": 8839153,
         "tags": [
           "gguf",
@@ -138,7 +138,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 2236,
+        "likes": 2243,
         "downloads": 1137181,
         "tags": [
           "diffusion-single-file",
@@ -177,7 +177,7 @@
       {
         "id": "tencent/Hy4-preview",
         "author": "tencent",
-        "likes": 314,
+        "likes": 315,
         "downloads": 2123,
         "tags": [
           "transformers",
@@ -226,7 +226,7 @@
       {
         "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
         "author": "OBLITERATUS",
-        "likes": 941,
+        "likes": 942,
         "downloads": 725757,
         "tags": [
           "mlx",
@@ -319,7 +319,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 4649,
+        "likes": 4651,
         "downloads": 5263381,
         "tags": [
           "minimax-h3",
@@ -454,6 +454,28 @@
         "link": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union"
       },
       {
+        "id": "thomsonreuters/Thomson-1.0-Small",
+        "author": "thomsonreuters",
+        "likes": 158,
+        "downloads": 1009,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "conversational",
+          "arxiv:2608.27147",
+          "base_model:tri-fair-lab/Snowdon1.1-Small",
+          "base_model:finetune:tri-fair-lab/Snowdon1.1-Small",
+          "license:other",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/thomsonreuters/Thomson-1.0-Small"
+      },
+      {
         "id": "Qwen/Qwen3.8-Flash-Next-FP8",
         "author": "Qwen",
         "likes": 158,
@@ -478,7 +500,7 @@
       {
         "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
         "author": "orcarouter",
-        "likes": 574,
+        "likes": 575,
         "downloads": 238397,
         "tags": [
           "gguf",
@@ -511,26 +533,22 @@
         "link": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF"
       },
       {
-        "id": "thomsonreuters/Thomson-1.0-Small",
-        "author": "thomsonreuters",
-        "likes": 156,
-        "downloads": 1009,
+        "id": "alibaba-pai/MiniMax-H3-Acc-LoRAs",
+        "author": "alibaba-pai",
+        "likes": 152,
+        "downloads": 23734,
         "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "conversational",
-          "arxiv:2608.27147",
-          "base_model:tri-fair-lab/Snowdon1.1-Small",
-          "base_model:finetune:tri-fair-lab/Snowdon1.1-Small",
+          "videox_fun",
+          "text-to-video",
+          "arxiv:2607.26004",
+          "base_model:MiniMaxAI/MiniMax-H3",
+          "base_model:finetune:MiniMaxAI/MiniMax-H3",
           "license:other",
-          "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "text-to-video",
         "lastModified": "",
-        "link": "https://huggingface.co/thomsonreuters/Thomson-1.0-Small"
+        "link": "https://huggingface.co/alibaba-pai/MiniMax-H3-Acc-LoRAs"
       },
       {
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
@@ -561,27 +579,9 @@
         "link": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF"
       },
       {
-        "id": "alibaba-pai/MiniMax-H3-Acc-LoRAs",
-        "author": "alibaba-pai",
-        "likes": 152,
-        "downloads": 23734,
-        "tags": [
-          "videox_fun",
-          "text-to-video",
-          "arxiv:2607.26004",
-          "base_model:MiniMaxAI/MiniMax-H3",
-          "base_model:finetune:MiniMaxAI/MiniMax-H3",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/alibaba-pai/MiniMax-H3-Acc-LoRAs"
-      },
-      {
         "id": "pipecat-ai/phonellm-alpha-1",
         "author": "pipecat-ai",
-        "likes": 144,
+        "likes": 145,
         "downloads": 3982,
         "tags": [
           "transformers",
@@ -611,7 +611,7 @@
       {
         "id": "ornith-ai/Ornith-1.5-35B-A3B",
         "author": "ornith-ai",
-        "likes": 502,
+        "likes": 504,
         "downloads": 147038,
         "tags": [
           "transformers",
@@ -632,7 +632,7 @@
       {
         "id": "peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF",
         "author": "peculiar-ragdoll",
-        "likes": 135,
+        "likes": 136,
         "downloads": 87848,
         "tags": [
           "gguf",
@@ -768,29 +768,40 @@
         "link": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored"
       },
       {
-        "id": "froggeric/Qwen-Fixed-Chat-Templates",
-        "author": "froggeric",
-        "likes": 1525,
-        "downloads": 0,
+        "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+        "author": "orcarouter",
+        "likes": 121,
+        "downloads": 42864,
         "tags": [
-          "mlx",
-          "jinja",
-          "chat-template",
+          "gguf",
+          "abliterated",
+          "uncensored",
           "qwen",
-          "qwen3.5",
-          "qwen3.6",
           "qwen3.8",
-          "lm-studio",
+          "qwen4",
+          "flash-next",
+          "moe",
           "llama.cpp",
-          "vllm",
-          "tool-calling",
-          "thinking",
+          "vision-language",
+          "mmproj",
+          "function-calling",
+          "reasoning",
+          "ai-red-team",
+          "red-teaming",
+          "image-text-to-text",
+          "en",
+          "zh",
+          "base_model:Qwen/Qwen3.8-Flash-Next",
+          "base_model:quantized:Qwen/Qwen3.8-Flash-Next",
           "license:apache-2.0",
-          "region:us"
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
+        "link": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF"
       }
     ]
   },
@@ -800,7 +811,7 @@
       {
         "id": "markov-ai/cad-1000-hours",
         "author": "markov-ai",
-        "likes": 234,
+        "likes": 235,
         "downloads": 76013,
         "tags": [
           "modality:video",
@@ -816,7 +827,7 @@
       {
         "id": "hamzabagirsakci/turkish-court-decisions",
         "author": "hamzabagirsakci",
-        "likes": 106,
+        "likes": 107,
         "downloads": 2209,
         "tags": [
           "task_categories:text-generation",
@@ -979,7 +990,7 @@
       {
         "id": "rajpurkar/squad",
         "author": "rajpurkar",
-        "likes": 491,
+        "likes": 494,
         "downloads": 214128,
         "tags": [
           "task_categories:question-answering",
@@ -1065,9 +1076,44 @@
         "link": "https://huggingface.co/datasets/LightwheelAI/EgoStandard"
       },
       {
+        "id": "nyu-mll/glue",
+        "author": "nyu-mll",
+        "likes": 547,
+        "downloads": 531981,
+        "tags": [
+          "task_categories:text-classification",
+          "task_ids:acceptability-classification",
+          "task_ids:natural-language-inference",
+          "task_ids:semantic-similarity-scoring",
+          "task_ids:sentiment-classification",
+          "task_ids:text-scoring",
+          "annotations_creators:other",
+          "language_creators:other",
+          "multilinguality:monolingual",
+          "source_datasets:original",
+          "language:en",
+          "license:other",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "arxiv:1804.07461",
+          "region:us",
+          "qa-nli",
+          "coreference-nli",
+          "paraphrase-identification"
+        ],
+        "lastModified": "2024-01-30T07:41:18.000Z",
+        "link": "https://huggingface.co/datasets/nyu-mll/glue"
+      },
+      {
         "id": "stanfordnlp/imdb",
         "author": "stanfordnlp",
-        "likes": 493,
+        "likes": 494,
         "downloads": 173123,
         "tags": [
           "task_categories:text-classification",
@@ -1266,41 +1312,6 @@
         ],
         "lastModified": "2026-08-25T21:51:47.000Z",
         "link": "https://huggingface.co/datasets/snapwre/amharic-speech"
-      },
-      {
-        "id": "nyu-mll/glue",
-        "author": "nyu-mll",
-        "likes": 541,
-        "downloads": 531981,
-        "tags": [
-          "task_categories:text-classification",
-          "task_ids:acceptability-classification",
-          "task_ids:natural-language-inference",
-          "task_ids:semantic-similarity-scoring",
-          "task_ids:sentiment-classification",
-          "task_ids:text-scoring",
-          "annotations_creators:other",
-          "language_creators:other",
-          "multilinguality:monolingual",
-          "source_datasets:original",
-          "language:en",
-          "license:other",
-          "size_categories:1M<n<10M",
-          "format:parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "arxiv:1804.07461",
-          "region:us",
-          "qa-nli",
-          "coreference-nli",
-          "paraphrase-identification"
-        ],
-        "lastModified": "2024-01-30T07:41:18.000Z",
-        "link": "https://huggingface.co/datasets/nyu-mll/glue"
       },
       {
         "id": "Specific-Labs/Scaffold-CoT",
