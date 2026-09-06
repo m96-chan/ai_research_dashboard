@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-06T18:00:21.403Z",
+  "updatedAt": "2026-09-06T19:00:21.761Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "author": "deepseek-ai",
-        "likes": 725,
+        "likes": 731,
         "downloads": 209191,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 14105,
+        "likes": 14110,
         "downloads": 6190807,
         "tags": [
           "transformers",
@@ -50,7 +50,7 @@
       {
         "id": "XHToken/Spark-X2.5-4B",
         "author": "XHToken",
-        "likes": 587,
+        "likes": 589,
         "downloads": 5477,
         "tags": [
           "transformers",
@@ -73,7 +73,7 @@
       {
         "id": "google/timesfm-3.0-pytorch",
         "author": "google",
-        "likes": 491,
+        "likes": 493,
         "downloads": 144455,
         "tags": [
           "safetensors",
@@ -143,7 +143,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 2938,
+        "likes": 2942,
         "downloads": 1526928,
         "tags": [
           "diffusion-single-file",
@@ -183,7 +183,7 @@
       {
         "id": "zai-org/GLM-5.3-Flash",
         "author": "zai-org",
-        "likes": 2092,
+        "likes": 2094,
         "downloads": 761364,
         "tags": [
           "transformers",
@@ -207,7 +207,7 @@
       {
         "id": "zai-org/GLM-5.3",
         "author": "zai-org",
-        "likes": 1732,
+        "likes": 1733,
         "downloads": 410074,
         "tags": [
           "transformers",
@@ -231,7 +231,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 3576,
+        "likes": 3577,
         "downloads": 10311462,
         "tags": [
           "gguf",
@@ -252,7 +252,7 @@
       {
         "id": "sentence-transformers/all-MiniLM-L6-v2",
         "author": "sentence-transformers",
-        "likes": 5562,
+        "likes": 5563,
         "downloads": 253029336,
         "tags": [
           "sentence-transformers",
@@ -366,7 +366,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 4954,
+        "likes": 4955,
         "downloads": 4986349,
         "tags": [
           "minimax-h3",
@@ -472,6 +472,24 @@
         "pipeline_tag": "fill-mask",
         "lastModified": "",
         "link": "https://huggingface.co/google-bert/bert-base-uncased"
+      },
+      {
+        "id": "OpenVDN/vdn-minimax-h3",
+        "author": "OpenVDN",
+        "likes": 208,
+        "downloads": 0,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-video",
+          "base_model:MiniMaxAI/MiniMax-H3",
+          "base_model:finetune:MiniMaxAI/MiniMax-H3",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/OpenVDN/vdn-minimax-h3"
       },
       {
         "id": "facebook/mms-300m",
@@ -624,24 +642,6 @@
         "link": "https://huggingface.co/facebook/mms-300m"
       },
       {
-        "id": "OpenVDN/vdn-minimax-h3",
-        "author": "OpenVDN",
-        "likes": 208,
-        "downloads": 0,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "text-to-video",
-          "base_model:MiniMaxAI/MiniMax-H3",
-          "base_model:finetune:MiniMaxAI/MiniMax-H3",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/OpenVDN/vdn-minimax-h3"
-      },
-      {
         "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
         "author": "unsloth",
         "likes": 809,
@@ -743,7 +743,7 @@
       {
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 976,
+        "likes": 977,
         "downloads": 1568315,
         "tags": [
           "gguf",
@@ -772,7 +772,7 @@
       {
         "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
         "author": "OBLITERATUS",
-        "likes": 1105,
+        "likes": 1106,
         "downloads": 995160,
         "tags": [
           "mlx",
@@ -799,34 +799,9 @@
         "link": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED"
       },
       {
-        "id": "tencent/Hy4-preview",
-        "author": "tencent",
-        "likes": 445,
-        "downloads": 6441,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "hy_v4",
-          "text-generation",
-          "hunyuan",
-          "hy4",
-          "moe",
-          "conversational",
-          "arxiv:2512.02556",
-          "arxiv:2603.12201",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/tencent/Hy4-preview"
-      },
-      {
         "id": "Jackrong/Qwopus3.8-27B-Flash-GGUF",
         "author": "Jackrong",
-        "likes": 126,
+        "likes": 128,
         "downloads": 22128,
         "tags": [
           "transformers",
@@ -869,6 +844,31 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Jackrong/Qwopus3.8-27B-Flash-GGUF"
+      },
+      {
+        "id": "tencent/Hy4-preview",
+        "author": "tencent",
+        "likes": 445,
+        "downloads": 6441,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hy_v4",
+          "text-generation",
+          "hunyuan",
+          "hy4",
+          "moe",
+          "conversational",
+          "arxiv:2512.02556",
+          "arxiv:2603.12201",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/tencent/Hy4-preview"
       },
       {
         "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
@@ -936,7 +936,7 @@
       {
         "id": "nvidia/Qwen3.8-Flash-Next-NVFP4",
         "author": "nvidia",
-        "likes": 110,
+        "likes": 111,
         "downloads": 13321,
         "tags": [
           "Model Optimizer",
@@ -964,7 +964,7 @@
       {
         "id": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
         "author": "dealignai",
-        "likes": 115,
+        "likes": 119,
         "downloads": 15648,
         "tags": [
           "safetensors",
@@ -1009,7 +1009,7 @@
       {
         "id": "rajpurkar/squad",
         "author": "rajpurkar",
-        "likes": 712,
+        "likes": 713,
         "downloads": 265395,
         "tags": [
           "task_categories:question-answering",
@@ -1098,7 +1098,7 @@
       {
         "id": "kuben-developer/tiktok-videos-4b",
         "author": "kuben-developer",
-        "likes": 149,
+        "likes": 151,
         "downloads": 4818,
         "tags": [
           "task_categories:text-classification",
@@ -1190,6 +1190,27 @@
         "link": "https://huggingface.co/datasets/junchaoh-cs/SolarWM-Data"
       },
       {
+        "id": "llm-jp/AnswerCarefully",
+        "author": "llm-jp",
+        "likes": 142,
+        "downloads": 13865,
+        "tags": [
+          "language:ja",
+          "language:en",
+          "license:other",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-08-20T01:02:50.000Z",
+        "link": "https://huggingface.co/datasets/llm-jp/AnswerCarefully"
+      },
+      {
         "id": "hamzabagirsakci/turkish-court-decisions",
         "author": "hamzabagirsakci",
         "likes": 136,
@@ -1225,27 +1246,6 @@
         ],
         "lastModified": "2026-09-02T05:57:26.000Z",
         "link": "https://huggingface.co/datasets/hamzabagirsakci/turkish-court-decisions"
-      },
-      {
-        "id": "llm-jp/AnswerCarefully",
-        "author": "llm-jp",
-        "likes": 142,
-        "downloads": 13865,
-        "tags": [
-          "language:ja",
-          "language:en",
-          "license:other",
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-08-20T01:02:50.000Z",
-        "link": "https://huggingface.co/datasets/llm-jp/AnswerCarefully"
       },
       {
         "id": "zouhar/last-translation-benchmark",
@@ -1334,7 +1334,7 @@
       {
         "id": "SageBio/mva-hackathon-2026-data",
         "author": "SageBio",
-        "likes": 125,
+        "likes": 126,
         "downloads": 1413,
         "tags": [
           "license:cc-by-4.0",
@@ -1471,6 +1471,28 @@
         ],
         "lastModified": "2026-08-31T17:57:10.000Z",
         "link": "https://huggingface.co/datasets/Vyber07/cyber-security"
+      },
+      {
+        "id": "spatialverse/UniPhys-Bench",
+        "author": "spatialverse",
+        "likes": 19,
+        "downloads": 520,
+        "tags": [
+          "language:en",
+          "license:cc-by-nc-4.0",
+          "size_categories:1K<n<10K",
+          "modality:3d",
+          "arxiv:2607.13586",
+          "region:us",
+          "3d",
+          "physical-grounding",
+          "articulation",
+          "robotics",
+          "simulation",
+          "benchmark"
+        ],
+        "lastModified": "2026-09-04T07:05:38.000Z",
+        "link": "https://huggingface.co/datasets/spatialverse/UniPhys-Bench"
       },
       {
         "id": "wikimedia/wikipedia",
@@ -1819,77 +1841,16 @@
         "link": "https://huggingface.co/datasets/wikimedia/wikipedia"
       },
       {
-        "id": "spatialverse/UniPhys-Bench",
-        "author": "spatialverse",
-        "likes": 18,
-        "downloads": 520,
-        "tags": [
-          "language:en",
-          "license:cc-by-nc-4.0",
-          "size_categories:1K<n<10K",
-          "modality:3d",
-          "arxiv:2607.13586",
-          "region:us",
-          "3d",
-          "physical-grounding",
-          "articulation",
-          "robotics",
-          "simulation",
-          "benchmark"
-        ],
-        "lastModified": "2026-09-04T07:05:38.000Z",
-        "link": "https://huggingface.co/datasets/spatialverse/UniPhys-Bench"
-      },
-      {
         "id": "malcolmrey/various",
         "author": "malcolmrey",
         "likes": 147,
         "downloads": 45788,
         "tags": [
           "license:wtfpl",
-          "size_categories:n<1K",
-          "format:imagefolder",
-          "modality:image",
-          "modality:video",
-          "library:datasets",
-          "library:mlcroissant",
           "region:us"
         ],
-        "lastModified": "2026-09-06T02:03:03.000Z",
+        "lastModified": "2026-09-06T18:46:16.000Z",
         "link": "https://huggingface.co/datasets/malcolmrey/various"
-      },
-      {
-        "id": "r0b0tlab/qwen3.8-max-glm5.2-kimi-k3-distillation",
-        "author": "r0b0tlab",
-        "likes": 242,
-        "downloads": 9402,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "language:zh",
-          "language:es",
-          "language:fr",
-          "language:de",
-          "language:ja",
-          "license:other",
-          "size_categories:10M<n<100M",
-          "format:parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "distillation",
-          "sft",
-          "reasoning",
-          "tool-use",
-          "multi-turn",
-          "multi-teacher"
-        ],
-        "lastModified": "2026-08-02T01:32:23.000Z",
-        "link": "https://huggingface.co/datasets/r0b0tlab/qwen3.8-max-glm5.2-kimi-k3-distillation"
       },
       {
         "id": "ACERobotics/ACE-Data-0",
@@ -1931,6 +1892,26 @@
         ],
         "lastModified": "2026-08-31T08:20:23.000Z",
         "link": "https://huggingface.co/datasets/ACERobotics/ACE-Data-0"
+      },
+      {
+        "id": "jacokon/fasth3-live",
+        "author": "jacokon",
+        "likes": 16,
+        "downloads": 495,
+        "tags": [
+          "language:en",
+          "license:other",
+          "region:us",
+          "minimax-h3",
+          "fasth3",
+          "comfyui",
+          "text-to-video",
+          "video-generation",
+          "streaming",
+          "prompt-library"
+        ],
+        "lastModified": "2026-09-03T06:23:08.000Z",
+        "link": "https://huggingface.co/datasets/jacokon/fasth3-live"
       }
     ]
   }
