@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-07T23:00:22.366Z",
+  "updatedAt": "2026-09-08T00:00:28.988Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "XHToken/Spark-X2.5-4B",
         "author": "XHToken",
-        "likes": 718,
+        "likes": 722,
         "downloads": 7216,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 14255,
+        "likes": 14259,
         "downloads": 6416358,
         "tags": [
           "transformers",
@@ -51,7 +51,7 @@
       {
         "id": "google/timesfm-3.0-pytorch",
         "author": "google",
-        "likes": 571,
+        "likes": 572,
         "downloads": 271713,
         "tags": [
           "safetensors",
@@ -72,7 +72,7 @@
       {
         "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "author": "ISTA-DASLab",
-        "likes": 551,
+        "likes": 554,
         "downloads": 403292,
         "tags": [
           "gguf",
@@ -101,7 +101,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "author": "deepseek-ai",
-        "likes": 796,
+        "likes": 798,
         "downloads": 251611,
         "tags": [
           "transformers",
@@ -163,7 +163,7 @@
       {
         "id": "Qwen/Qwen3.8-Flash-Next",
         "author": "Qwen",
-        "likes": 4977,
+        "likes": 4978,
         "downloads": 474693,
         "tags": [
           "transformers",
@@ -183,7 +183,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 3636,
+        "likes": 3639,
         "downloads": 10479045,
         "tags": [
           "gguf",
@@ -254,7 +254,7 @@
       {
         "id": "zai-org/GLM-5.3-Flash",
         "author": "zai-org",
-        "likes": 2132,
+        "likes": 2133,
         "downloads": 784005,
         "tags": [
           "transformers",
@@ -360,7 +360,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 5006,
+        "likes": 5007,
         "downloads": 4990034,
         "tags": [
           "minimax-h3",
@@ -434,36 +434,47 @@
         "link": "https://huggingface.co/openai-community/gpt2"
       },
       {
-        "id": "BreezeBlue/Breeze-TTS-2",
-        "author": "BreezeBlue",
-        "likes": 476,
-        "downloads": 6754,
+        "id": "openbmb/MiniCPM5-2B",
+        "author": "openbmb",
+        "likes": 221,
+        "downloads": 13,
         "tags": [
           "transformers",
           "safetensors",
-          "breeze",
+          "llama",
           "text-generation",
-          "text-to-speech",
-          "speech-generation",
-          "voice-clone",
-          "voice-design",
-          "voice-direction",
-          "pytorch",
-          "cuda",
+          "minicpm",
+          "minicpm5",
+          "long-context",
+          "tool-calling",
+          "on-device",
+          "edge-ai",
+          "conversational",
           "en",
           "zh",
-          "license:other",
+          "dataset:openbmb/Ultra-FineWeb",
+          "dataset:openbmb/UltraX-Preview",
+          "dataset:openbmb/Ultra-FineWeb-L3",
+          "dataset:openbmb/UltraData-Math",
+          "dataset:openbmb/UltraData-Code",
+          "dataset:openbmb/UltraData-SFT-2605",
+          "dataset:openbmb/UltraData-SFT-Agent-2609",
+          "dataset:openbmb/UltraData-RL-2609",
+          "arxiv:2506.07900",
+          "arxiv:2602.09003",
+          "license:apache-2.0",
+          "text-generation-inference",
           "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "text-to-speech",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/BreezeBlue/Breeze-TTS-2"
+        "link": "https://huggingface.co/openbmb/MiniCPM5-2B"
       },
       {
         "id": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
         "author": "dealignai",
-        "likes": 266,
+        "likes": 267,
         "downloads": 18602,
         "tags": [
           "safetensors",
@@ -501,47 +512,36 @@
         "link": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8"
       },
       {
-        "id": "openbmb/MiniCPM5-2B",
-        "author": "openbmb",
-        "likes": 209,
-        "downloads": 13,
+        "id": "BreezeBlue/Breeze-TTS-2",
+        "author": "BreezeBlue",
+        "likes": 476,
+        "downloads": 6754,
         "tags": [
           "transformers",
           "safetensors",
-          "llama",
+          "breeze",
           "text-generation",
-          "minicpm",
-          "minicpm5",
-          "long-context",
-          "tool-calling",
-          "on-device",
-          "edge-ai",
-          "conversational",
+          "text-to-speech",
+          "speech-generation",
+          "voice-clone",
+          "voice-design",
+          "voice-direction",
+          "pytorch",
+          "cuda",
           "en",
           "zh",
-          "dataset:openbmb/Ultra-FineWeb",
-          "dataset:openbmb/UltraX-Preview",
-          "dataset:openbmb/Ultra-FineWeb-L3",
-          "dataset:openbmb/UltraData-Math",
-          "dataset:openbmb/UltraData-Code",
-          "dataset:openbmb/UltraData-SFT-2605",
-          "dataset:openbmb/UltraData-SFT-Agent-2609",
-          "dataset:openbmb/UltraData-RL-2609",
-          "arxiv:2506.07900",
-          "arxiv:2602.09003",
-          "license:apache-2.0",
-          "text-generation-inference",
+          "license:other",
           "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "text-to-speech",
         "lastModified": "",
-        "link": "https://huggingface.co/openbmb/MiniCPM5-2B"
+        "link": "https://huggingface.co/BreezeBlue/Breeze-TTS-2"
       },
       {
         "id": "IFM/K2-Horizon-MoVA-36B-A4B",
         "author": "IFM",
-        "likes": 204,
+        "likes": 208,
         "downloads": 2226,
         "tags": [
           "transformers",
@@ -850,7 +850,7 @@
       {
         "id": "Jackrong/Qwopus3.8-27B-Flash-GGUF",
         "author": "Jackrong",
-        "likes": 140,
+        "likes": 141,
         "downloads": 60343,
         "tags": [
           "transformers",
@@ -895,34 +895,9 @@
         "link": "https://huggingface.co/Jackrong/Qwopus3.8-27B-Flash-GGUF"
       },
       {
-        "id": "WarmBloodAban/Minimax-h3_Singularity",
-        "author": "WarmBloodAban",
-        "likes": 139,
-        "downloads": 26731,
-        "tags": [
-          "minimax-h3",
-          "video-generation",
-          "text-to-video",
-          "image-to-video",
-          "video-to-video",
-          "reference-to-video",
-          "comfyui",
-          "fine-tuned",
-          "hdr",
-          "singularity",
-          "en",
-          "zh",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity"
-      },
-      {
         "id": "nvidia/Qwen3.8-Flash-Next-NVFP4",
         "author": "nvidia",
-        "likes": 137,
+        "likes": 139,
         "downloads": 18068,
         "tags": [
           "Model Optimizer",
@@ -948,9 +923,34 @@
         "link": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4"
       },
       {
+        "id": "WarmBloodAban/Minimax-h3_Singularity",
+        "author": "WarmBloodAban",
+        "likes": 140,
+        "downloads": 26731,
+        "tags": [
+          "minimax-h3",
+          "video-generation",
+          "text-to-video",
+          "image-to-video",
+          "video-to-video",
+          "reference-to-video",
+          "comfyui",
+          "fine-tuned",
+          "hdr",
+          "singularity",
+          "en",
+          "zh",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-video",
+        "lastModified": "",
+        "link": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity"
+      },
+      {
         "id": "microsoft/VibeVoice-ASR-Streaming-7B",
         "author": "microsoft",
-        "likes": 137,
+        "likes": 138,
         "downloads": 1144,
         "tags": [
           "transformers",
@@ -983,7 +983,7 @@
       {
         "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
         "author": "orcarouter",
-        "likes": 787,
+        "likes": 789,
         "downloads": 292633,
         "tags": [
           "gguf",
@@ -1110,7 +1110,7 @@
       {
         "id": "nyu-mll/glue",
         "author": "nyu-mll",
-        "likes": 739,
+        "likes": 740,
         "downloads": 788648,
         "tags": [
           "task_categories:text-classification",
@@ -1145,7 +1145,7 @@
       {
         "id": "markov-ai/cad-1000-hours",
         "author": "markov-ai",
-        "likes": 389,
+        "likes": 390,
         "downloads": 112449,
         "tags": [
           "modality:video",
@@ -1159,27 +1159,9 @@
         "link": "https://huggingface.co/datasets/markov-ai/cad-1000-hours"
       },
       {
-        "id": "malcolmrey/various",
-        "author": "malcolmrey",
-        "likes": 163,
-        "downloads": 47029,
-        "tags": [
-          "license:wtfpl",
-          "size_categories:n<1K",
-          "format:imagefolder",
-          "modality:image",
-          "modality:video",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-09-06T18:46:16.000Z",
-        "link": "https://huggingface.co/datasets/malcolmrey/various"
-      },
-      {
         "id": "zouhar/last-translation-benchmark",
         "author": "zouhar",
-        "likes": 31,
+        "likes": 32,
         "downloads": 293,
         "tags": [
           "task_categories:translation",
@@ -1259,6 +1241,24 @@
         ],
         "lastModified": "2026-09-04T05:01:57.000Z",
         "link": "https://huggingface.co/datasets/zouhar/last-translation-benchmark"
+      },
+      {
+        "id": "malcolmrey/various",
+        "author": "malcolmrey",
+        "likes": 163,
+        "downloads": 47029,
+        "tags": [
+          "license:wtfpl",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "modality:video",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "lastModified": "2026-09-06T18:46:16.000Z",
+        "link": "https://huggingface.co/datasets/malcolmrey/various"
       },
       {
         "id": "IFM/TxT360-v2",
@@ -1466,6 +1466,31 @@
         "link": "https://huggingface.co/datasets/saidutta69/fable-5-premium"
       },
       {
+        "id": "IFM/Code-Reasoning",
+        "author": "IFM",
+        "likes": 21,
+        "downloads": 1523,
+        "tags": [
+          "task_categories:text-generation",
+          "license:apache-2.0",
+          "size_categories:100M<n<1B",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "k2-horizon",
+          "training-data",
+          "parquet",
+          "code",
+          "reasoning"
+        ],
+        "lastModified": "2026-09-02T07:01:01.000Z",
+        "link": "https://huggingface.co/datasets/IFM/Code-Reasoning"
+      },
+      {
         "id": "Vyber07/cyber-security",
         "author": "Vyber07",
         "likes": 68,
@@ -1503,31 +1528,6 @@
         "link": "https://huggingface.co/datasets/Vyber07/cyber-security"
       },
       {
-        "id": "IFM/Code-Reasoning",
-        "author": "IFM",
-        "likes": 20,
-        "downloads": 1523,
-        "tags": [
-          "task_categories:text-generation",
-          "license:apache-2.0",
-          "size_categories:100M<n<1B",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "k2-horizon",
-          "training-data",
-          "parquet",
-          "code",
-          "reasoning"
-        ],
-        "lastModified": "2026-09-02T07:01:01.000Z",
-        "link": "https://huggingface.co/datasets/IFM/Code-Reasoning"
-      },
-      {
         "id": "spatialverse/UniPhys-Bench",
         "author": "spatialverse",
         "likes": 20,
@@ -1548,6 +1548,35 @@
         ],
         "lastModified": "2026-09-04T07:05:38.000Z",
         "link": "https://huggingface.co/datasets/spatialverse/UniPhys-Bench"
+      },
+      {
+        "id": "openbmb/UltraData-Code",
+        "author": "openbmb",
+        "likes": 22,
+        "downloads": 8,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "language:zh",
+          "license:apache-2.0",
+          "size_categories:100M<n<1B",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2602.09003",
+          "region:us",
+          "llm",
+          "code",
+          "code-pretraining",
+          "algorithmic-code",
+          "synthetic-data"
+        ],
+        "lastModified": "2026-09-07T10:56:08.000Z",
+        "link": "https://huggingface.co/datasets/openbmb/UltraData-Code"
       },
       {
         "id": "llm-jp/AnswerCarefully",
@@ -1584,26 +1613,6 @@
         ],
         "lastModified": "2026-08-26T19:35:26.000Z",
         "link": "https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data"
-      },
-      {
-        "id": "jacokon/fasth3-live",
-        "author": "jacokon",
-        "likes": 18,
-        "downloads": 563,
-        "tags": [
-          "language:en",
-          "license:other",
-          "region:us",
-          "minimax-h3",
-          "fasth3",
-          "comfyui",
-          "text-to-video",
-          "video-generation",
-          "streaming",
-          "prompt-library"
-        ],
-        "lastModified": "2026-09-03T06:23:08.000Z",
-        "link": "https://huggingface.co/datasets/jacokon/fasth3-live"
       }
     ]
   }
