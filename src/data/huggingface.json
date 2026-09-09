@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-09T10:00:25.310Z",
+  "updatedAt": "2026-09-09T11:00:20.180Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "XHToken/Spark-X2.5-4B",
         "author": "XHToken",
-        "likes": 945,
+        "likes": 957,
         "downloads": 10661,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "openbmb/MiniCPM5-2B",
         "author": "openbmb",
-        "likes": 788,
+        "likes": 798,
         "downloads": 2879,
         "tags": [
           "transformers",
@@ -67,7 +67,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 14441,
+        "likes": 14454,
         "downloads": 6712160,
         "tags": [
           "transformers",
@@ -89,7 +89,7 @@
       {
         "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "author": "ISTA-DASLab",
-        "likes": 684,
+        "likes": 692,
         "downloads": 479597,
         "tags": [
           "gguf",
@@ -118,7 +118,7 @@
       {
         "id": "google/timesfm-3.0-pytorch",
         "author": "google",
-        "likes": 661,
+        "likes": 671,
         "downloads": 444052,
         "tags": [
           "safetensors",
@@ -139,7 +139,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 3209,
+        "likes": 3219,
         "downloads": 1644796,
         "tags": [
           "diffusion-single-file",
@@ -177,9 +177,30 @@
         "link": "https://huggingface.co/Lightricks/LTX-2.5"
       },
       {
+        "id": "unsloth/Qwen3.8-27B-GGUF",
+        "author": "unsloth",
+        "likes": 3744,
+        "downloads": 10675683,
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:quantized:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
+      },
+      {
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 385,
+        "likes": 391,
         "downloads": 348753,
         "tags": [
           "gguf",
@@ -227,30 +248,9 @@
         "link": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
       },
       {
-        "id": "unsloth/Qwen3.8-27B-GGUF",
-        "author": "unsloth",
-        "likes": 3736,
-        "downloads": 10675683,
-        "tags": [
-          "gguf",
-          "qwen3_5",
-          "unsloth",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:quantized:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
-      },
-      {
         "id": "sentence-transformers/all-MiniLM-L6-v2",
         "author": "sentence-transformers",
-        "likes": 5671,
+        "likes": 5680,
         "downloads": 253331994,
         "tags": [
           "sentence-transformers",
@@ -308,7 +308,7 @@
       {
         "id": "Qwen/Qwen3.8-Flash-Next",
         "author": "Qwen",
-        "likes": 5026,
+        "likes": 5035,
         "downloads": 503263,
         "tags": [
           "transformers",
@@ -326,9 +326,38 @@
         "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
       },
       {
+        "id": "openai-community/gpt2",
+        "author": "openai-community",
+        "likes": 3804,
+        "downloads": 14770863,
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tf",
+          "jax",
+          "tflite",
+          "rust",
+          "onnx",
+          "safetensors",
+          "gpt2",
+          "text-generation",
+          "exbert",
+          "en",
+          "doi:10.57967/hf/0039",
+          "license:mit",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/openai-community/gpt2"
+      },
+      {
         "id": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
         "author": "dealignai",
-        "likes": 334,
+        "likes": 342,
         "downloads": 19433,
         "tags": [
           "safetensors",
@@ -366,38 +395,27 @@
         "link": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8"
       },
       {
-        "id": "openai-community/gpt2",
-        "author": "openai-community",
-        "likes": 3794,
-        "downloads": 14770863,
+        "id": "OpenVDN/vdn-minimax-h3",
+        "author": "OpenVDN",
+        "likes": 267,
+        "downloads": 0,
         "tags": [
-          "transformers",
-          "pytorch",
-          "tf",
-          "jax",
-          "tflite",
-          "rust",
-          "onnx",
+          "diffusers",
           "safetensors",
-          "gpt2",
-          "text-generation",
-          "exbert",
-          "en",
-          "doi:10.57967/hf/0039",
-          "license:mit",
-          "text-generation-inference",
-          "endpoints_compatible",
-          "deploy:azure",
+          "text-to-video",
+          "base_model:MiniMaxAI/MiniMax-H3",
+          "base_model:finetune:MiniMaxAI/MiniMax-H3",
+          "license:other",
           "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "text-to-video",
         "lastModified": "",
-        "link": "https://huggingface.co/openai-community/gpt2"
+        "link": "https://huggingface.co/OpenVDN/vdn-minimax-h3"
       },
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "author": "deepseek-ai",
-        "likes": 827,
+        "likes": 836,
         "downloads": 313547,
         "tags": [
           "transformers",
@@ -417,27 +435,9 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
       },
       {
-        "id": "OpenVDN/vdn-minimax-h3",
-        "author": "OpenVDN",
-        "likes": 260,
-        "downloads": 0,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "text-to-video",
-          "base_model:MiniMaxAI/MiniMax-H3",
-          "base_model:finetune:MiniMaxAI/MiniMax-H3",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-video",
-        "lastModified": "",
-        "link": "https://huggingface.co/OpenVDN/vdn-minimax-h3"
-      },
-      {
         "id": "IFM/K2-Horizon-MoVA-36B-A4B",
         "author": "IFM",
-        "likes": 247,
+        "likes": 254,
         "downloads": 3205,
         "tags": [
           "transformers",
@@ -465,7 +465,7 @@
       {
         "id": "zai-org/GLM-5.3-Flash",
         "author": "zai-org",
-        "likes": 2185,
+        "likes": 2193,
         "downloads": 826875,
         "tags": [
           "transformers",
@@ -489,7 +489,7 @@
       {
         "id": "google-bert/bert-base-uncased",
         "author": "google-bert",
-        "likes": 3068,
+        "likes": 3083,
         "downloads": 48848285,
         "tags": [
           "transformers",
@@ -520,7 +520,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 5065,
+        "likes": 5075,
         "downloads": 4994268,
         "tags": [
           "minimax-h3",
@@ -549,7 +549,7 @@
       {
         "id": "zai-org/GLM-5.3",
         "author": "zai-org",
-        "likes": 1778,
+        "likes": 1785,
         "downloads": 474141,
         "tags": [
           "transformers",
@@ -573,7 +573,7 @@
       {
         "id": "facebook/mms-300m",
         "author": "facebook",
-        "likes": 322,
+        "likes": 332,
         "downloads": 12171,
         "tags": [
           "transformers",
@@ -723,7 +723,7 @@
       {
         "id": "distilbert/distilbert-base-uncased",
         "author": "distilbert",
-        "likes": 1228,
+        "likes": 1239,
         "downloads": 7178154,
         "tags": [
           "transformers",
@@ -752,7 +752,7 @@
       {
         "id": "openai/clip-vit-base-patch32",
         "author": "openai",
-        "likes": 1285,
+        "likes": 1295,
         "downloads": 20778503,
         "tags": [
           "transformers",
@@ -774,7 +774,7 @@
       {
         "id": "WarmBloodAban/Minimax-h3_Singularity",
         "author": "WarmBloodAban",
-        "likes": 190,
+        "likes": 197,
         "downloads": 58060,
         "tags": [
           "minimax-h3",
@@ -799,7 +799,7 @@
       {
         "id": "nvidia/Qwen3.8-Flash-Next-NVFP4",
         "author": "nvidia",
-        "likes": 164,
+        "likes": 171,
         "downloads": 26302,
         "tags": [
           "Model Optimizer",
@@ -827,7 +827,7 @@
       {
         "id": "microsoft/VibeVoice-ASR-Streaming-7B",
         "author": "microsoft",
-        "likes": 166,
+        "likes": 173,
         "downloads": 1449,
         "tags": [
           "transformers",
@@ -860,7 +860,7 @@
       {
         "id": "Jackrong/Qwopus3.8-27B-Flash-GGUF",
         "author": "Jackrong",
-        "likes": 160,
+        "likes": 167,
         "downloads": 113295,
         "tags": [
           "transformers",
@@ -907,7 +907,7 @@
       {
         "id": "BreezeBlue/Breeze-TTS-2",
         "author": "BreezeBlue",
-        "likes": 498,
+        "likes": 506,
         "downloads": 7243,
         "tags": [
           "transformers",
@@ -934,7 +934,7 @@
       {
         "id": "nex-agi/Nex-N2.5-mini",
         "author": "nex-agi",
-        "likes": 166,
+        "likes": 177,
         "downloads": 2,
         "tags": [
           "transformers",
@@ -954,7 +954,7 @@
       {
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1035,
+        "likes": 1043,
         "downloads": 1715824,
         "tags": [
           "gguf",
@@ -983,7 +983,7 @@
       {
         "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
         "author": "unsloth",
-        "likes": 850,
+        "likes": 857,
         "downloads": 935568,
         "tags": [
           "gguf",
@@ -1041,7 +1041,7 @@
       {
         "id": "rajpurkar/squad",
         "author": "rajpurkar",
-        "likes": 787,
+        "likes": 790,
         "downloads": 260686,
         "tags": [
           "task_categories:question-answering",
@@ -1095,7 +1095,7 @@
       {
         "id": "nyu-mll/glue",
         "author": "nyu-mll",
-        "likes": 798,
+        "likes": 802,
         "downloads": 789359,
         "tags": [
           "task_categories:text-classification",
@@ -1130,7 +1130,7 @@
       {
         "id": "markov-ai/cad-1000-hours",
         "author": "markov-ai",
-        "likes": 405,
+        "likes": 406,
         "downloads": 117089,
         "tags": [
           "modality:video",
@@ -1340,7 +1340,7 @@
       {
         "id": "IFM/TxT360-v2",
         "author": "IFM",
-        "likes": 34,
+        "likes": 35,
         "downloads": 1740,
         "tags": [
           "task_categories:text-generation",
@@ -1385,7 +1385,7 @@
       {
         "id": "echel0nn1881/kimi-cyber-reasoning",
         "author": "echel0nn1881",
-        "likes": 36,
+        "likes": 37,
         "downloads": 1149,
         "tags": [
           "task_categories:text-generation",
