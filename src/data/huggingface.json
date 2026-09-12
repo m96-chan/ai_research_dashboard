@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-12T01:00:19.813Z",
+  "updatedAt": "2026-09-12T02:00:19.177Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
         "author": "deepseek-ai",
-        "likes": 1791,
+        "likes": 1801,
         "downloads": 75774,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "openbmb/MiniCPM5-2B",
         "author": "openbmb",
-        "likes": 1194,
+        "likes": 1196,
         "downloads": 67550,
         "tags": [
           "transformers",
@@ -66,7 +66,7 @@
       {
         "id": "XHToken/Spark-X2.5-4B",
         "author": "XHToken",
-        "likes": 1104,
+        "likes": 1106,
         "downloads": 17712,
         "tags": [
           "transformers",
@@ -87,9 +87,29 @@
         "link": "https://huggingface.co/XHToken/Spark-X2.5-4B"
       },
       {
+        "id": "nex-agi/Nex-N2.5-mini",
+        "author": "nex-agi",
+        "likes": 691,
+        "downloads": 3121,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "text-generation",
+          "conversational",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nex-agi/Nex-N2.5-mini"
+      },
+      {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 14761,
+        "likes": 14764,
         "downloads": 7563763,
         "tags": [
           "transformers",
@@ -109,29 +129,9 @@
         "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
       },
       {
-        "id": "nex-agi/Nex-N2.5-mini",
-        "author": "nex-agi",
-        "likes": 690,
-        "downloads": 3121,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "text-generation",
-          "conversational",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nex-agi/Nex-N2.5-mini"
-      },
-      {
         "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "author": "ISTA-DASLab",
-        "likes": 837,
+        "likes": 838,
         "downloads": 682187,
         "tags": [
           "gguf",
@@ -181,7 +181,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 3501,
+        "likes": 3502,
         "downloads": 1669564,
         "tags": [
           "diffusion-single-file",
@@ -307,7 +307,7 @@
       {
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 482,
+        "likes": 483,
         "downloads": 606200,
         "tags": [
           "gguf",
@@ -378,7 +378,7 @@
       {
         "id": "m-a-p/YuE2-3B",
         "author": "m-a-p",
-        "likes": 228,
+        "likes": 230,
         "downloads": 971,
         "tags": [
           "safetensors",
@@ -430,7 +430,7 @@
       {
         "id": "Qwen/Qwen3.8-Flash-Next",
         "author": "Qwen",
-        "likes": 5104,
+        "likes": 5105,
         "downloads": 586040,
         "tags": [
           "transformers",
@@ -446,6 +446,52 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+        "author": "deepseek-ai",
+        "likes": 864,
+        "downloads": 443954,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4",
+          "text-generation",
+          "image-text-to-text",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "8-bit",
+          "fp8",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+      },
+      {
+        "id": "zai-org/GLM-5.3-Flash",
+        "author": "zai-org",
+        "likes": 2252,
+        "downloads": 1173520,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm5_next",
+          "image-text-to-text",
+          "conversational",
+          "en",
+          "zh",
+          "arxiv:2602.15763",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "fp8",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/zai-org/GLM-5.3-Flash"
       },
       {
         "id": "nvidia/Qwen3.8-Flash-Next-NVFP4",
@@ -474,52 +520,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4"
-      },
-      {
-        "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
-        "author": "deepseek-ai",
-        "likes": 864,
-        "downloads": 443954,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v4",
-          "text-generation",
-          "image-text-to-text",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "8-bit",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
-      },
-      {
-        "id": "zai-org/GLM-5.3-Flash",
-        "author": "zai-org",
-        "likes": 2251,
-        "downloads": 1173520,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "glm5_next",
-          "image-text-to-text",
-          "conversational",
-          "en",
-          "zh",
-          "arxiv:2602.15763",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "fp8",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/zai-org/GLM-5.3-Flash"
       },
       {
         "id": "sentence-transformers/all-MiniLM-L6-v2",
@@ -619,7 +619,7 @@
       {
         "id": "Viggle/Viggle-Animate",
         "author": "Viggle",
-        "likes": 180,
+        "likes": 181,
         "downloads": 0,
         "tags": [
           "diffusers",
@@ -728,53 +728,6 @@
         "link": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B"
       },
       {
-        "id": "Jackrong/Qwopus3.8-27B-Flash-GGUF",
-        "author": "Jackrong",
-        "likes": 204,
-        "downloads": 231831,
-        "tags": [
-          "transformers",
-          "gguf",
-          "llama.cpp",
-          "image-text-to-text",
-          "vision",
-          "multimodal",
-          "text-generation-inference",
-          "unsloth",
-          "conversational",
-          "text-generation",
-          "qwen3_8",
-          "qwen3",
-          "qwen",
-          "27b",
-          "fine-tuned",
-          "instruction-tuned",
-          "reasoning",
-          "agent",
-          "agentic",
-          "tool-use",
-          "function-calling",
-          "code-generation",
-          "mtp",
-          "speculative-decoding",
-          "local-inference",
-          "safetensors",
-          "en",
-          "zh",
-          "es",
-          "ru",
-          "ja",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:quantized:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Jackrong/Qwopus3.8-27B-Flash-GGUF"
-      },
-      {
         "id": "IFM/K2-Horizon-MoVA-36B-A4B",
         "author": "IFM",
         "likes": 282,
@@ -830,6 +783,53 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF"
+      },
+      {
+        "id": "Jackrong/Qwopus3.8-27B-Flash-GGUF",
+        "author": "Jackrong",
+        "likes": 205,
+        "downloads": 231831,
+        "tags": [
+          "transformers",
+          "gguf",
+          "llama.cpp",
+          "image-text-to-text",
+          "vision",
+          "multimodal",
+          "text-generation-inference",
+          "unsloth",
+          "conversational",
+          "text-generation",
+          "qwen3_8",
+          "qwen3",
+          "qwen",
+          "27b",
+          "fine-tuned",
+          "instruction-tuned",
+          "reasoning",
+          "agent",
+          "agentic",
+          "tool-use",
+          "function-calling",
+          "code-generation",
+          "mtp",
+          "speculative-decoding",
+          "local-inference",
+          "safetensors",
+          "en",
+          "zh",
+          "es",
+          "ru",
+          "ja",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:quantized:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Jackrong/Qwopus3.8-27B-Flash-GGUF"
       },
       {
         "id": "facebook/mms-300m",
@@ -1050,7 +1050,7 @@
       {
         "id": "openbmb/UltraData-SFT-Agent-2609",
         "author": "openbmb",
-        "likes": 123,
+        "likes": 124,
         "downloads": 5838,
         "tags": [
           "task_categories:text-generation",
@@ -1084,7 +1084,7 @@
       {
         "id": "openbmb/UltraData-RL-2609",
         "author": "openbmb",
-        "likes": 112,
+        "likes": 113,
         "downloads": 4915,
         "tags": [
           "task_categories:text-generation",
@@ -1240,7 +1240,7 @@
       {
         "id": "IFM/Code-Reasoning",
         "author": "IFM",
-        "likes": 39,
+        "likes": 40,
         "downloads": 13356,
         "tags": [
           "task_categories:text-generation",
@@ -1399,7 +1399,7 @@
       {
         "id": "Grio43/Tag_cleaning",
         "author": "Grio43",
-        "likes": 28,
+        "likes": 29,
         "downloads": 277,
         "tags": [
           "license:apache-2.0",
@@ -1418,6 +1418,31 @@
         ],
         "lastModified": "2026-09-09T11:57:32.000Z",
         "link": "https://huggingface.co/datasets/Grio43/Tag_cleaning"
+      },
+      {
+        "id": "IFM/TxT360-v2",
+        "author": "IFM",
+        "likes": 46,
+        "downloads": 8961,
+        "tags": [
+          "task_categories:text-generation",
+          "license:cc-by-4.0",
+          "size_categories:1B<n<10B",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "k2-horizon",
+          "training-data",
+          "parquet",
+          "web"
+        ],
+        "lastModified": "2026-09-03T06:23:38.000Z",
+        "link": "https://huggingface.co/datasets/IFM/TxT360-v2"
       },
       {
         "id": "saidutta69/fable-5-premium",
@@ -1448,31 +1473,6 @@
         ],
         "lastModified": "2026-09-10T20:36:13.000Z",
         "link": "https://huggingface.co/datasets/saidutta69/fable-5-premium"
-      },
-      {
-        "id": "IFM/TxT360-v2",
-        "author": "IFM",
-        "likes": 45,
-        "downloads": 8961,
-        "tags": [
-          "task_categories:text-generation",
-          "license:cc-by-4.0",
-          "size_categories:1B<n<10B",
-          "format:parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "k2-horizon",
-          "training-data",
-          "parquet",
-          "web"
-        ],
-        "lastModified": "2026-09-03T06:23:38.000Z",
-        "link": "https://huggingface.co/datasets/IFM/TxT360-v2"
       },
       {
         "id": "ikala/tmmluplus",
