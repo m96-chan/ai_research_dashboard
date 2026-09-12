@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-12T20:00:19.053Z",
+  "updatedAt": "2026-09-12T21:00:21.897Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
         "author": "deepseek-ai",
-        "likes": 1982,
+        "likes": 1990,
         "downloads": 140636,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "openbmb/MiniCPM5-2B",
         "author": "openbmb",
-        "likes": 1248,
+        "likes": 1250,
         "downloads": 102334,
         "tags": [
           "transformers",
@@ -66,7 +66,7 @@
       {
         "id": "nex-agi/Nex-N2.5-mini",
         "author": "nex-agi",
-        "likes": 725,
+        "likes": 727,
         "downloads": 3581,
         "tags": [
           "transformers",
@@ -86,7 +86,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 14850,
+        "likes": 14852,
         "downloads": 7726687,
         "tags": [
           "transformers",
@@ -129,6 +129,27 @@
         "link": "https://huggingface.co/XHToken/Spark-X2.5-4B"
       },
       {
+        "id": "nex-agi/Nex-N2.5-Pro",
+        "author": "nex-agi",
+        "likes": 615,
+        "downloads": 30081,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe",
+          "image-text-to-text",
+          "text-generation",
+          "conversational",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "compressed-tensors",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/nex-agi/Nex-N2.5-Pro"
+      },
+      {
         "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "author": "ISTA-DASLab",
         "likes": 882,
@@ -158,30 +179,9 @@
         "link": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF"
       },
       {
-        "id": "nex-agi/Nex-N2.5-Pro",
-        "author": "nex-agi",
-        "likes": 615,
-        "downloads": 30081,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe",
-          "image-text-to-text",
-          "text-generation",
-          "conversational",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "compressed-tensors",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/nex-agi/Nex-N2.5-Pro"
-      },
-      {
         "id": "Edge0/Edge0-35B-A3B-preview",
         "author": "Edge0",
-        "likes": 389,
+        "likes": 399,
         "downloads": 1596,
         "tags": [
           "mlx",
@@ -205,7 +205,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 3594,
+        "likes": 3597,
         "downloads": 1601007,
         "tags": [
           "diffusion-single-file",
@@ -245,7 +245,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 3941,
+        "likes": 3942,
         "downloads": 11529203,
         "tags": [
           "gguf",
@@ -356,7 +356,7 @@
       {
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 516,
+        "likes": 517,
         "downloads": 665911,
         "tags": [
           "gguf",
@@ -406,7 +406,7 @@
       {
         "id": "google/timesfm-3.0-pytorch",
         "author": "google",
-        "likes": 754,
+        "likes": 756,
         "downloads": 784262,
         "tags": [
           "safetensors",
@@ -427,7 +427,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 5187,
+        "likes": 5192,
         "downloads": 4860709,
         "tags": [
           "minimax-h3",
@@ -452,6 +452,64 @@
         "pipeline_tag": "image-text-to-video",
         "lastModified": "",
         "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+      },
+      {
+        "id": "sentence-transformers/all-MiniLM-L6-v2",
+        "author": "sentence-transformers",
+        "likes": 5861,
+        "downloads": 253739900,
+        "tags": [
+          "sentence-transformers",
+          "pytorch",
+          "tf",
+          "rust",
+          "onnx",
+          "safetensors",
+          "openvino",
+          "bert",
+          "feature-extraction",
+          "sentence-similarity",
+          "transformers",
+          "en",
+          "dataset:s2orc",
+          "dataset:flax-sentence-embeddings/stackexchange_xml",
+          "dataset:ms_marco",
+          "dataset:gooaq",
+          "dataset:yahoo_answers_topics",
+          "dataset:code_search_net",
+          "dataset:search_qa",
+          "dataset:eli5",
+          "dataset:snli",
+          "dataset:multi_nli",
+          "dataset:wikihow",
+          "dataset:natural_questions",
+          "dataset:trivia_qa",
+          "dataset:embedding-data/sentence-compression",
+          "dataset:embedding-data/flickr30k-captions",
+          "dataset:embedding-data/altlex",
+          "dataset:embedding-data/simple-wiki",
+          "dataset:embedding-data/QQP",
+          "dataset:embedding-data/SPECTER",
+          "dataset:embedding-data/PAQ_pairs",
+          "dataset:embedding-data/WikiAnswers",
+          "arxiv:1904.06472",
+          "arxiv:2102.07033",
+          "arxiv:2104.08727",
+          "arxiv:1704.05179",
+          "arxiv:1810.09305",
+          "base_model:nreimers/MiniLM-L6-H384-uncased",
+          "base_model:quantized:nreimers/MiniLM-L6-H384-uncased",
+          "license:apache-2.0",
+          "eval-results",
+          "text-embeddings-inference",
+          "endpoints_compatible",
+          "region:us",
+          "deploy:sagemaker",
+          "deploy:azure"
+        ],
+        "pipeline_tag": "sentence-similarity",
+        "lastModified": "",
+        "link": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
       },
       {
         "id": "Qwen/Qwen3.8-Flash-Next",
@@ -511,67 +569,9 @@
         "link": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF"
       },
       {
-        "id": "sentence-transformers/all-MiniLM-L6-v2",
-        "author": "sentence-transformers",
-        "likes": 5857,
-        "downloads": 253739900,
-        "tags": [
-          "sentence-transformers",
-          "pytorch",
-          "tf",
-          "rust",
-          "onnx",
-          "safetensors",
-          "openvino",
-          "bert",
-          "feature-extraction",
-          "sentence-similarity",
-          "transformers",
-          "en",
-          "dataset:s2orc",
-          "dataset:flax-sentence-embeddings/stackexchange_xml",
-          "dataset:ms_marco",
-          "dataset:gooaq",
-          "dataset:yahoo_answers_topics",
-          "dataset:code_search_net",
-          "dataset:search_qa",
-          "dataset:eli5",
-          "dataset:snli",
-          "dataset:multi_nli",
-          "dataset:wikihow",
-          "dataset:natural_questions",
-          "dataset:trivia_qa",
-          "dataset:embedding-data/sentence-compression",
-          "dataset:embedding-data/flickr30k-captions",
-          "dataset:embedding-data/altlex",
-          "dataset:embedding-data/simple-wiki",
-          "dataset:embedding-data/QQP",
-          "dataset:embedding-data/SPECTER",
-          "dataset:embedding-data/PAQ_pairs",
-          "dataset:embedding-data/WikiAnswers",
-          "arxiv:1904.06472",
-          "arxiv:2102.07033",
-          "arxiv:2104.08727",
-          "arxiv:1704.05179",
-          "arxiv:1810.09305",
-          "base_model:nreimers/MiniLM-L6-H384-uncased",
-          "base_model:quantized:nreimers/MiniLM-L6-H384-uncased",
-          "license:apache-2.0",
-          "eval-results",
-          "text-embeddings-inference",
-          "endpoints_compatible",
-          "region:us",
-          "deploy:sagemaker",
-          "deploy:azure"
-        ],
-        "pipeline_tag": "sentence-similarity",
-        "lastModified": "",
-        "link": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
-      },
-      {
         "id": "zai-org/GLM-5.3-Flash",
         "author": "zai-org",
-        "likes": 2273,
+        "likes": 2276,
         "downloads": 1333574,
         "tags": [
           "transformers",
@@ -595,7 +595,7 @@
       {
         "id": "openai-community/gpt2",
         "author": "openai-community",
-        "likes": 3979,
+        "likes": 3980,
         "downloads": 15150566,
         "tags": [
           "transformers",
@@ -666,6 +666,37 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
       },
       {
+        "id": "google-bert/bert-base-uncased",
+        "author": "google-bert",
+        "likes": 3246,
+        "downloads": 47340648,
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tf",
+          "jax",
+          "rust",
+          "coreml",
+          "onnx",
+          "safetensors",
+          "bert",
+          "fill-mask",
+          "exbert",
+          "en",
+          "dataset:bookcorpus",
+          "dataset:wikipedia",
+          "arxiv:1810.04805",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:sagemaker",
+          "deploy:azure",
+          "region:us"
+        ],
+        "pipeline_tag": "fill-mask",
+        "lastModified": "",
+        "link": "https://huggingface.co/google-bert/bert-base-uncased"
+      },
+      {
         "id": "microsoft/VibeVoice-ASR-Streaming-7B",
         "author": "microsoft",
         "likes": 214,
@@ -699,40 +730,9 @@
         "link": "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B"
       },
       {
-        "id": "google-bert/bert-base-uncased",
-        "author": "google-bert",
-        "likes": 3243,
-        "downloads": 47340648,
-        "tags": [
-          "transformers",
-          "pytorch",
-          "tf",
-          "jax",
-          "rust",
-          "coreml",
-          "onnx",
-          "safetensors",
-          "bert",
-          "fill-mask",
-          "exbert",
-          "en",
-          "dataset:bookcorpus",
-          "dataset:wikipedia",
-          "arxiv:1810.04805",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "deploy:sagemaker",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "fill-mask",
-        "lastModified": "",
-        "link": "https://huggingface.co/google-bert/bert-base-uncased"
-      },
-      {
         "id": "facebook/mms-300m",
         "author": "facebook",
-        "likes": 486,
+        "likes": 488,
         "downloads": 12122,
         "tags": [
           "transformers",
@@ -882,7 +882,7 @@
       {
         "id": "Qwen/Qwen-Drive-1.0-4B",
         "author": "Qwen",
-        "likes": 179,
+        "likes": 182,
         "downloads": 3761,
         "tags": [
           "transformers",
@@ -905,6 +905,57 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B"
+      },
+      {
+        "id": "distilbert/distilbert-base-uncased",
+        "author": "distilbert",
+        "likes": 1392,
+        "downloads": 7369104,
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tf",
+          "jax",
+          "rust",
+          "safetensors",
+          "distilbert",
+          "fill-mask",
+          "exbert",
+          "en",
+          "dataset:bookcorpus",
+          "dataset:wikipedia",
+          "arxiv:1910.01108",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "deploy:sagemaker",
+          "deploy:azure"
+        ],
+        "pipeline_tag": "fill-mask",
+        "lastModified": "",
+        "link": "https://huggingface.co/distilbert/distilbert-base-uncased"
+      },
+      {
+        "id": "openai/clip-vit-base-patch32",
+        "author": "openai",
+        "likes": 1455,
+        "downloads": 21323978,
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tf",
+          "jax",
+          "clip",
+          "zero-shot-image-classification",
+          "vision",
+          "arxiv:2103.00020",
+          "arxiv:1908.04913",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "zero-shot-image-classification",
+        "lastModified": "",
+        "link": "https://huggingface.co/openai/clip-vit-base-patch32"
       },
       {
         "id": "nvidia/Qwen3.8-Flash-Next-NVFP4",
@@ -933,57 +984,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4"
-      },
-      {
-        "id": "openai/clip-vit-base-patch32",
-        "author": "openai",
-        "likes": 1454,
-        "downloads": 21323978,
-        "tags": [
-          "transformers",
-          "pytorch",
-          "tf",
-          "jax",
-          "clip",
-          "zero-shot-image-classification",
-          "vision",
-          "arxiv:2103.00020",
-          "arxiv:1908.04913",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "zero-shot-image-classification",
-        "lastModified": "",
-        "link": "https://huggingface.co/openai/clip-vit-base-patch32"
-      },
-      {
-        "id": "distilbert/distilbert-base-uncased",
-        "author": "distilbert",
-        "likes": 1389,
-        "downloads": 7369104,
-        "tags": [
-          "transformers",
-          "pytorch",
-          "tf",
-          "jax",
-          "rust",
-          "safetensors",
-          "distilbert",
-          "fill-mask",
-          "exbert",
-          "en",
-          "dataset:bookcorpus",
-          "dataset:wikipedia",
-          "arxiv:1910.01108",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "deploy:sagemaker",
-          "deploy:azure"
-        ],
-        "pipeline_tag": "fill-mask",
-        "lastModified": "",
-        "link": "https://huggingface.co/distilbert/distilbert-base-uncased"
       }
     ]
   },
@@ -993,7 +993,7 @@
       {
         "id": "stanfordnlp/imdb",
         "author": "stanfordnlp",
-        "likes": 937,
+        "likes": 938,
         "downloads": 197024,
         "tags": [
           "task_categories:text-classification",
@@ -1017,9 +1017,44 @@
         "link": "https://huggingface.co/datasets/stanfordnlp/imdb"
       },
       {
+        "id": "nyu-mll/glue",
+        "author": "nyu-mll",
+        "likes": 971,
+        "downloads": 797071,
+        "tags": [
+          "task_categories:text-classification",
+          "task_ids:acceptability-classification",
+          "task_ids:natural-language-inference",
+          "task_ids:semantic-similarity-scoring",
+          "task_ids:sentiment-classification",
+          "task_ids:text-scoring",
+          "annotations_creators:other",
+          "language_creators:other",
+          "multilinguality:monolingual",
+          "source_datasets:original",
+          "language:en",
+          "license:other",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "arxiv:1804.07461",
+          "region:us",
+          "qa-nli",
+          "coreference-nli",
+          "paraphrase-identification"
+        ],
+        "lastModified": "2024-01-30T07:41:18.000Z",
+        "link": "https://huggingface.co/datasets/nyu-mll/glue"
+      },
+      {
         "id": "rajpurkar/squad",
         "author": "rajpurkar",
-        "likes": 937,
+        "likes": 939,
         "downloads": 254625,
         "tags": [
           "task_categories:question-answering",
@@ -1135,41 +1170,6 @@
         ],
         "lastModified": "2026-09-07T10:56:08.000Z",
         "link": "https://huggingface.co/datasets/openbmb/UltraData-Code"
-      },
-      {
-        "id": "nyu-mll/glue",
-        "author": "nyu-mll",
-        "likes": 969,
-        "downloads": 797071,
-        "tags": [
-          "task_categories:text-classification",
-          "task_ids:acceptability-classification",
-          "task_ids:natural-language-inference",
-          "task_ids:semantic-similarity-scoring",
-          "task_ids:sentiment-classification",
-          "task_ids:text-scoring",
-          "annotations_creators:other",
-          "language_creators:other",
-          "multilinguality:monolingual",
-          "source_datasets:original",
-          "language:en",
-          "license:other",
-          "size_categories:1M<n<10M",
-          "format:parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "arxiv:1804.07461",
-          "region:us",
-          "qa-nli",
-          "coreference-nli",
-          "paraphrase-identification"
-        ],
-        "lastModified": "2024-01-30T07:41:18.000Z",
-        "link": "https://huggingface.co/datasets/nyu-mll/glue"
       },
       {
         "id": "markov-ai/cad-1000-hours",
