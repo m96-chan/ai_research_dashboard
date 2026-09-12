@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-12T02:00:19.177Z",
+  "updatedAt": "2026-09-12T03:00:19.621Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
         "author": "deepseek-ai",
-        "likes": 1801,
+        "likes": 1807,
         "downloads": 75774,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "openbmb/MiniCPM5-2B",
         "author": "openbmb",
-        "likes": 1196,
+        "likes": 1197,
         "downloads": 67550,
         "tags": [
           "transformers",
@@ -66,7 +66,7 @@
       {
         "id": "XHToken/Spark-X2.5-4B",
         "author": "XHToken",
-        "likes": 1106,
+        "likes": 1107,
         "downloads": 17712,
         "tags": [
           "transformers",
@@ -89,7 +89,7 @@
       {
         "id": "nex-agi/Nex-N2.5-mini",
         "author": "nex-agi",
-        "likes": 691,
+        "likes": 692,
         "downloads": 3121,
         "tags": [
           "transformers",
@@ -109,7 +109,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 14764,
+        "likes": 14765,
         "downloads": 7563763,
         "tags": [
           "transformers",
@@ -160,7 +160,7 @@
       {
         "id": "nex-agi/Nex-N2.5-Pro",
         "author": "nex-agi",
-        "likes": 595,
+        "likes": 597,
         "downloads": 12260,
         "tags": [
           "transformers",
@@ -181,7 +181,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 3502,
+        "likes": 3503,
         "downloads": 1669564,
         "tags": [
           "diffusion-single-file",
@@ -221,7 +221,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 3897,
+        "likes": 3898,
         "downloads": 11339637,
         "tags": [
           "gguf",
@@ -297,6 +297,8 @@
           "singularity",
           "en",
           "zh",
+          "base_model:MiniMaxAI/MiniMax-H3",
+          "base_model:finetune:MiniMaxAI/MiniMax-H3",
           "license:apache-2.0",
           "region:us"
         ],
@@ -401,7 +403,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 5156,
+        "likes": 5157,
         "downloads": 4970363,
         "tags": [
           "minimax-h3",
@@ -430,7 +432,7 @@
       {
         "id": "Qwen/Qwen3.8-Flash-Next",
         "author": "Qwen",
-        "likes": 5105,
+        "likes": 5106,
         "downloads": 586040,
         "tags": [
           "transformers",
@@ -472,7 +474,7 @@
       {
         "id": "zai-org/GLM-5.3-Flash",
         "author": "zai-org",
-        "likes": 2252,
+        "likes": 2253,
         "downloads": 1173520,
         "tags": [
           "transformers",
@@ -520,6 +522,43 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4"
+      },
+      {
+        "id": "openbmb/MiniCPM5-2B-GGUF",
+        "author": "openbmb",
+        "likes": 168,
+        "downloads": 70755,
+        "tags": [
+          "transformers",
+          "gguf",
+          "minicpm",
+          "minicpm5",
+          "llama",
+          "text-generation",
+          "long-context",
+          "tool-calling",
+          "on-device",
+          "edge-ai",
+          "en",
+          "zh",
+          "dataset:openbmb/Ultra-FineWeb",
+          "dataset:openbmb/UltraX-Preview",
+          "dataset:openbmb/Ultra-FineWeb-L3",
+          "dataset:openbmb/UltraData-Math",
+          "dataset:openbmb/UltraData-Code",
+          "dataset:openbmb/UltraData-SFT-2605",
+          "dataset:openbmb/UltraData-SFT-Agent-2609",
+          "dataset:openbmb/UltraData-RL-2609",
+          "arxiv:2506.07900",
+          "arxiv:2602.09003",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF"
       },
       {
         "id": "sentence-transformers/all-MiniLM-L6-v2",
@@ -580,43 +619,6 @@
         "link": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
       },
       {
-        "id": "openbmb/MiniCPM5-2B-GGUF",
-        "author": "openbmb",
-        "likes": 168,
-        "downloads": 70755,
-        "tags": [
-          "transformers",
-          "gguf",
-          "minicpm",
-          "minicpm5",
-          "llama",
-          "text-generation",
-          "long-context",
-          "tool-calling",
-          "on-device",
-          "edge-ai",
-          "en",
-          "zh",
-          "dataset:openbmb/Ultra-FineWeb",
-          "dataset:openbmb/UltraX-Preview",
-          "dataset:openbmb/Ultra-FineWeb-L3",
-          "dataset:openbmb/UltraData-Math",
-          "dataset:openbmb/UltraData-Code",
-          "dataset:openbmb/UltraData-SFT-2605",
-          "dataset:openbmb/UltraData-SFT-Agent-2609",
-          "dataset:openbmb/UltraData-RL-2609",
-          "arxiv:2506.07900",
-          "arxiv:2602.09003",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF"
-      },
-      {
         "id": "Viggle/Viggle-Animate",
         "author": "Viggle",
         "likes": 181,
@@ -637,6 +639,39 @@
         "pipeline_tag": "video-to-video",
         "lastModified": "",
         "link": "https://huggingface.co/Viggle/Viggle-Animate"
+      },
+      {
+        "id": "microsoft/VibeVoice-ASR-Streaming-7B",
+        "author": "microsoft",
+        "likes": 202,
+        "downloads": 2279,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "vibevoice",
+          "ASR",
+          "Transcription",
+          "Speech-to-Text",
+          "Streaming",
+          "automatic-speech-recognition",
+          "en",
+          "zh",
+          "es",
+          "pt",
+          "de",
+          "ja",
+          "ko",
+          "fr",
+          "ru",
+          "it",
+          "arxiv:2609.02812",
+          "license:mit",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "lastModified": "",
+        "link": "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B"
       },
       {
         "id": "openai-community/gpt2",
@@ -668,39 +703,6 @@
         "link": "https://huggingface.co/openai-community/gpt2"
       },
       {
-        "id": "microsoft/VibeVoice-ASR-Streaming-7B",
-        "author": "microsoft",
-        "likes": 201,
-        "downloads": 2279,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "vibevoice",
-          "ASR",
-          "Transcription",
-          "Speech-to-Text",
-          "Streaming",
-          "automatic-speech-recognition",
-          "en",
-          "zh",
-          "es",
-          "pt",
-          "de",
-          "ja",
-          "ko",
-          "fr",
-          "ru",
-          "it",
-          "arxiv:2609.02812",
-          "license:mit",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "automatic-speech-recognition",
-        "lastModified": "",
-        "link": "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B"
-      },
-      {
         "id": "Qwen/Qwen-Drive-1.0-4B",
         "author": "Qwen",
         "likes": 169,
@@ -726,63 +728,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B"
-      },
-      {
-        "id": "IFM/K2-Horizon-MoVA-36B-A4B",
-        "author": "IFM",
-        "likes": 282,
-        "downloads": 5192,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "k2_horizon",
-          "text-generation",
-          "k2-horizon",
-          "36b",
-          "mova",
-          "moe",
-          "open-weights",
-          "ifm",
-          "conversational",
-          "custom_code",
-          "en",
-          "dataset:IFM/K2-Horizon-Pretrain-Data",
-          "dataset:IFM/K2-Horizon-Midtrain-Data",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B"
-      },
-      {
-        "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-        "author": "HauhauCS",
-        "likes": 1102,
-        "downloads": 1999181,
-        "tags": [
-          "gguf",
-          "uncensored",
-          "qwen3.8",
-          "multimodal",
-          "vision",
-          "mtp",
-          "speculative-decoding",
-          "fastmtp",
-          "image-text-to-text",
-          "en",
-          "zh",
-          "multilingual",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:quantized:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF"
       },
       {
         "id": "Jackrong/Qwopus3.8-27B-Flash-GGUF",
@@ -830,6 +775,63 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Jackrong/Qwopus3.8-27B-Flash-GGUF"
+      },
+      {
+        "id": "IFM/K2-Horizon-MoVA-36B-A4B",
+        "author": "IFM",
+        "likes": 282,
+        "downloads": 5192,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "k2_horizon",
+          "text-generation",
+          "k2-horizon",
+          "36b",
+          "mova",
+          "moe",
+          "open-weights",
+          "ifm",
+          "conversational",
+          "custom_code",
+          "en",
+          "dataset:IFM/K2-Horizon-Pretrain-Data",
+          "dataset:IFM/K2-Horizon-Midtrain-Data",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B"
+      },
+      {
+        "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+        "author": "HauhauCS",
+        "likes": 1103,
+        "downloads": 1999181,
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.8",
+          "multimodal",
+          "vision",
+          "mtp",
+          "speculative-decoding",
+          "fastmtp",
+          "image-text-to-text",
+          "en",
+          "zh",
+          "multilingual",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:quantized:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF"
       },
       {
         "id": "facebook/mms-300m",
@@ -984,7 +986,7 @@
       {
         "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
         "author": "orcarouter",
-        "likes": 898,
+        "likes": 899,
         "downloads": 320537,
         "tags": [
           "gguf",
@@ -1420,31 +1422,6 @@
         "link": "https://huggingface.co/datasets/Grio43/Tag_cleaning"
       },
       {
-        "id": "IFM/TxT360-v2",
-        "author": "IFM",
-        "likes": 46,
-        "downloads": 8961,
-        "tags": [
-          "task_categories:text-generation",
-          "license:cc-by-4.0",
-          "size_categories:1B<n<10B",
-          "format:parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "k2-horizon",
-          "training-data",
-          "parquet",
-          "web"
-        ],
-        "lastModified": "2026-09-03T06:23:38.000Z",
-        "link": "https://huggingface.co/datasets/IFM/TxT360-v2"
-      },
-      {
         "id": "saidutta69/fable-5-premium",
         "author": "saidutta69",
         "likes": 101,
@@ -1473,6 +1450,31 @@
         ],
         "lastModified": "2026-09-10T20:36:13.000Z",
         "link": "https://huggingface.co/datasets/saidutta69/fable-5-premium"
+      },
+      {
+        "id": "IFM/TxT360-v2",
+        "author": "IFM",
+        "likes": 46,
+        "downloads": 8961,
+        "tags": [
+          "task_categories:text-generation",
+          "license:cc-by-4.0",
+          "size_categories:1B<n<10B",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "k2-horizon",
+          "training-data",
+          "parquet",
+          "web"
+        ],
+        "lastModified": "2026-09-03T06:23:38.000Z",
+        "link": "https://huggingface.co/datasets/IFM/TxT360-v2"
       },
       {
         "id": "ikala/tmmluplus",
