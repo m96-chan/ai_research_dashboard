@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-17T04:00:18.839Z",
+  "updatedAt": "2026-09-17T05:00:19.807Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
         "author": "deepseek-ai",
-        "likes": 2874,
+        "likes": 2882,
         "downloads": 366459,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "Edge0/Edge0-35B-A3B-preview",
         "author": "Edge0",
-        "likes": 3150,
+        "likes": 3180,
         "downloads": 27759,
         "tags": [
           "mlx",
@@ -41,6 +41,7 @@
           "ssd-offload",
           "text-generation",
           "conversational",
+          "arxiv:2609.18063",
           "base_model:Qwen/Qwen3.6-35B-A3B",
           "base_model:adapter:Qwen/Qwen3.6-35B-A3B",
           "license:apache-2.0",
@@ -54,7 +55,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 15421,
+        "likes": 15430,
         "downloads": 7667556,
         "tags": [
           "transformers",
@@ -76,7 +77,7 @@
       {
         "id": "m-a-p/YuE2-3B",
         "author": "m-a-p",
-        "likes": 650,
+        "likes": 652,
         "downloads": 9391,
         "tags": [
           "safetensors",
@@ -157,7 +158,7 @@
       {
         "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "author": "ISTA-DASLab",
-        "likes": 1201,
+        "likes": 1206,
         "downloads": 956964,
         "tags": [
           "gguf",
@@ -186,7 +187,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 4122,
+        "likes": 4124,
         "downloads": 1616663,
         "tags": [
           "diffusion-single-file",
@@ -226,7 +227,7 @@
       {
         "id": "TokenRhythm/NeoHorse-1-4B",
         "author": "TokenRhythm",
-        "likes": 2132,
+        "likes": 2139,
         "downloads": 16163,
         "tags": [
           "transformers",
@@ -324,7 +325,7 @@
       {
         "id": "ukisai/Swift-Qwen3.8-27b",
         "author": "ukisai",
-        "likes": 334,
+        "likes": 335,
         "downloads": 2753,
         "tags": [
           "transformers",
@@ -434,7 +435,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 5385,
+        "likes": 5389,
         "downloads": 4689062,
         "tags": [
           "minimax-h3",
@@ -463,7 +464,7 @@
       {
         "id": "Qwen/Qwen3.8-Flash-Next",
         "author": "Qwen",
-        "likes": 5316,
+        "likes": 5319,
         "downloads": 689347,
         "tags": [
           "transformers",
@@ -479,35 +480,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
-      },
-      {
-        "id": "openai-community/gpt2",
-        "author": "openai-community",
-        "likes": 4120,
-        "downloads": 15584259,
-        "tags": [
-          "transformers",
-          "pytorch",
-          "tf",
-          "jax",
-          "tflite",
-          "rust",
-          "onnx",
-          "safetensors",
-          "gpt2",
-          "text-generation",
-          "exbert",
-          "en",
-          "doi:10.57967/hf/0039",
-          "license:mit",
-          "text-generation-inference",
-          "endpoints_compatible",
-          "deploy:azure",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/openai-community/gpt2"
       },
       {
         "id": "dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
@@ -540,33 +512,38 @@
         "link": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8"
       },
       {
-        "id": "XHToken/Spark-X2.5-4B",
-        "author": "XHToken",
-        "likes": 1236,
-        "downloads": 27191,
+        "id": "openai-community/gpt2",
+        "author": "openai-community",
+        "likes": 4122,
+        "downloads": 15584259,
         "tags": [
           "transformers",
+          "pytorch",
+          "tf",
+          "jax",
+          "tflite",
+          "rust",
+          "onnx",
           "safetensors",
-          "spark2_5",
+          "gpt2",
           "text-generation",
-          "llm",
-          "sparkx2_5",
-          "agent",
-          "conversational",
-          "custom_code",
-          "base_model:XHToken/Spark-X2.5-4B-Base",
-          "base_model:finetune:XHToken/Spark-X2.5-4B-Base",
-          "license:apache-2.0",
+          "exbert",
+          "en",
+          "doi:10.57967/hf/0039",
+          "license:mit",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "deploy:azure",
           "region:us"
         ],
         "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/XHToken/Spark-X2.5-4B"
+        "link": "https://huggingface.co/openai-community/gpt2"
       },
       {
         "id": "meta-llama/Llama-3.1-8B-Instruct",
         "author": "meta-llama",
-        "likes": 7660,
+        "likes": 7661,
         "downloads": 5861705,
         "tags": [
           "transformers",
@@ -601,9 +578,33 @@
         "link": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
       },
       {
+        "id": "XHToken/Spark-X2.5-4B",
+        "author": "XHToken",
+        "likes": 1236,
+        "downloads": 27191,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "spark2_5",
+          "text-generation",
+          "llm",
+          "sparkx2_5",
+          "agent",
+          "conversational",
+          "custom_code",
+          "base_model:XHToken/Spark-X2.5-4B-Base",
+          "base_model:finetune:XHToken/Spark-X2.5-4B-Base",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/XHToken/Spark-X2.5-4B"
+      },
+      {
         "id": "WarmBloodAban/Minimax-h3_Singularity",
         "author": "WarmBloodAban",
-        "likes": 451,
+        "likes": 452,
         "downloads": 164451,
         "tags": [
           "minimax-h3",
@@ -838,7 +839,7 @@
       {
         "id": "ukisai/Swift-Qwen3.8-27B-GGUF",
         "author": "ukisai",
-        "likes": 189,
+        "likes": 190,
         "downloads": 55309,
         "tags": [
           "gguf",
@@ -939,7 +940,7 @@
       {
         "id": "Comfy-Org/YuE2",
         "author": "Comfy-Org",
-        "likes": 152,
+        "likes": 153,
         "downloads": 59231,
         "tags": [
           "diffusion-single-file",
@@ -956,7 +957,7 @@
       {
         "id": "TaichuAI/ZDTaichu5.0-9B",
         "author": "TaichuAI",
-        "likes": 155,
+        "likes": 156,
         "downloads": 213,
         "tags": [
           "safetensors",
@@ -985,7 +986,7 @@
       {
         "id": "nyu-mll/glue",
         "author": "nyu-mll",
-        "likes": 1053,
+        "likes": 1055,
         "downloads": 851781,
         "tags": [
           "task_categories:text-classification",
@@ -1046,7 +1047,7 @@
       {
         "id": "rajpurkar/squad",
         "author": "rajpurkar",
-        "likes": 991,
+        "likes": 992,
         "downloads": 269401,
         "tags": [
           "task_categories:question-answering",
@@ -1074,7 +1075,7 @@
       {
         "id": "openbmb/UltraData-SFT-Agent-2609",
         "author": "openbmb",
-        "likes": 179,
+        "likes": 180,
         "downloads": 13932,
         "tags": [
           "task_categories:text-generation",
@@ -1245,7 +1246,7 @@
       {
         "id": "wikimedia/wikipedia",
         "author": "wikimedia",
-        "likes": 1467,
+        "likes": 1468,
         "downloads": 264787,
         "tags": [
           "task_categories:text-generation",
@@ -1676,35 +1677,6 @@
         "link": "https://huggingface.co/datasets/OpenDataArena/Spark-234K"
       },
       {
-        "id": "echel0nn1881/kimi-cyber-reasoning",
-        "author": "echel0nn1881",
-        "likes": 68,
-        "downloads": 1950,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "license:wtfpl",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "cybersecurity",
-          "security",
-          "reasoning",
-          "chain-of-thought",
-          "thinking",
-          "distillation",
-          "tool-use",
-          "kimi"
-        ],
-        "lastModified": "2026-09-03T10:51:05.000Z",
-        "link": "https://huggingface.co/datasets/echel0nn1881/kimi-cyber-reasoning"
-      },
-      {
         "id": "Yootta/World-SimReady-Home",
         "author": "Yootta",
         "likes": 27,
@@ -1793,6 +1765,47 @@
         "link": "https://huggingface.co/datasets/ILSVRC/imagenet-1k"
       },
       {
+        "id": "echel0nn1881/kimi-cyber-reasoning",
+        "author": "echel0nn1881",
+        "likes": 68,
+        "downloads": 1950,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "license:wtfpl",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "cybersecurity",
+          "security",
+          "reasoning",
+          "chain-of-thought",
+          "thinking",
+          "distillation",
+          "tool-use",
+          "kimi"
+        ],
+        "lastModified": "2026-09-03T10:51:05.000Z",
+        "link": "https://huggingface.co/datasets/echel0nn1881/kimi-cyber-reasoning"
+      },
+      {
+        "id": "nvidia/PhysicalAI-Autonomous-Vehicles",
+        "author": "nvidia",
+        "likes": 1047,
+        "downloads": 202929,
+        "tags": [
+          "license:other",
+          "region:us"
+        ],
+        "lastModified": "2026-09-12T04:33:08.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles"
+      },
+      {
         "id": "Anthropic/hh-rlhf",
         "author": "Anthropic",
         "likes": 2071,
@@ -1812,18 +1825,6 @@
         ],
         "lastModified": "2023-05-26T18:47:34.000Z",
         "link": "https://huggingface.co/datasets/Anthropic/hh-rlhf"
-      },
-      {
-        "id": "nvidia/PhysicalAI-Autonomous-Vehicles",
-        "author": "nvidia",
-        "likes": 1047,
-        "downloads": 202929,
-        "tags": [
-          "license:other",
-          "region:us"
-        ],
-        "lastModified": "2026-09-12T04:33:08.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles"
       }
     ]
   }
