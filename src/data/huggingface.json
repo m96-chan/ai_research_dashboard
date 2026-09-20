@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-20T20:00:21.536Z",
+  "updatedAt": "2026-09-20T21:00:21.048Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
         "author": "prism-ml",
-        "likes": 1448,
+        "likes": 1461,
         "downloads": 1908396,
         "tags": [
           "llama.cpp",
@@ -35,7 +35,7 @@
       {
         "id": "convaiinnovations/laya",
         "author": "convaiinnovations",
-        "likes": 989,
+        "likes": 1011,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -63,7 +63,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
         "author": "deepseek-ai",
-        "likes": 3414,
+        "likes": 3418,
         "downloads": 496684,
         "tags": [
           "transformers",
@@ -85,7 +85,7 @@
       {
         "id": "XingChen-AGI/Xing4.0-29B-A4B",
         "author": "XingChen-AGI",
-        "likes": 848,
+        "likes": 855,
         "downloads": 12617,
         "tags": [
           "transformers",
@@ -102,6 +102,27 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B"
+      },
+      {
+        "id": "Qwen/Qwen-Image-2.1",
+        "author": "Qwen",
+        "likes": 636,
+        "downloads": 183,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "qwen",
+          "image-generation",
+          "image-editing",
+          "rgba",
+          "text-to-image",
+          "license:other",
+          "diffusers:QwenImage21Pipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen-Image-2.1"
       },
       {
         "id": "Qwen/Qwen3.8-27B",
@@ -126,30 +147,9 @@
         "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
       },
       {
-        "id": "Qwen/Qwen-Image-2.1",
-        "author": "Qwen",
-        "likes": 593,
-        "downloads": 183,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "qwen",
-          "image-generation",
-          "image-editing",
-          "rgba",
-          "text-to-image",
-          "license:other",
-          "diffusers:QwenImage21Pipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen-Image-2.1"
-      },
-      {
         "id": "m-a-p/YuE2-3B",
         "author": "m-a-p",
-        "likes": 909,
+        "likes": 910,
         "downloads": 17403,
         "tags": [
           "safetensors",
@@ -172,7 +172,7 @@
       {
         "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "author": "ISTA-DASLab",
-        "likes": 1474,
+        "likes": 1475,
         "downloads": 1217204,
         "tags": [
           "gguf",
@@ -201,7 +201,7 @@
       {
         "id": "harshatheg/Qwen-2.5-1B-RLCD",
         "author": "harshatheg",
-        "likes": 471,
+        "likes": 475,
         "downloads": 0,
         "tags": [
           "mlx",
@@ -225,7 +225,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 4535,
+        "likes": 4540,
         "downloads": 1609559,
         "tags": [
           "diffusion-single-file",
@@ -291,7 +291,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 4422,
+        "likes": 4424,
         "downloads": 6941478,
         "tags": [
           "gguf",
@@ -362,7 +362,7 @@
       {
         "id": "AlexWortega/openjev",
         "author": "AlexWortega",
-        "likes": 294,
+        "likes": 297,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -385,9 +385,57 @@
         "link": "https://huggingface.co/AlexWortega/openjev"
       },
       {
+        "id": "prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
+        "author": "prism-ml",
+        "likes": 281,
+        "downloads": 30043,
+        "tags": [
+          "mlx",
+          "safetensors",
+          "prism_hadamard_qwen35",
+          "ternary",
+          "2-bit",
+          "cuda",
+          "metal",
+          "on-device",
+          "hybrid-attention",
+          "prismml",
+          "bonsai",
+          "text-generation",
+          "conversational",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:finetune:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit"
+      },
+      {
+        "id": "Qwen/Qwen3.8-Flash-Next",
+        "author": "Qwen",
+        "likes": 5489,
+        "downloads": 761112,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen4_exp",
+          "image-text-to-text",
+          "conversational",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+      },
+      {
         "id": "openbmb/MiniCPM5-2B",
         "author": "openbmb",
-        "likes": 1621,
+        "likes": 1622,
         "downloads": 420622,
         "tags": [
           "transformers",
@@ -423,57 +471,9 @@
         "link": "https://huggingface.co/openbmb/MiniCPM5-2B"
       },
       {
-        "id": "prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
-        "author": "prism-ml",
-        "likes": 280,
-        "downloads": 30043,
-        "tags": [
-          "mlx",
-          "safetensors",
-          "prism_hadamard_qwen35",
-          "ternary",
-          "2-bit",
-          "cuda",
-          "metal",
-          "on-device",
-          "hybrid-attention",
-          "prismml",
-          "bonsai",
-          "text-generation",
-          "conversational",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:finetune:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit"
-      },
-      {
-        "id": "Qwen/Qwen3.8-Flash-Next",
-        "author": "Qwen",
-        "likes": 5488,
-        "downloads": 761112,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen4_exp",
-          "image-text-to-text",
-          "conversational",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
-      },
-      {
         "id": "ukisai/Swift-Qwen3.8-27B-GGUF",
         "author": "ukisai",
-        "likes": 325,
+        "likes": 327,
         "downloads": 136668,
         "tags": [
           "gguf",
@@ -499,7 +499,7 @@
       {
         "id": "Comfy-Org/Qwen-Image-2.1",
         "author": "Comfy-Org",
-        "likes": 229,
+        "likes": 237,
         "downloads": 120,
         "tags": [
           "diffusion-single-file",
@@ -516,7 +516,7 @@
       {
         "id": "meta-llama/Llama-3.1-8B-Instruct",
         "author": "meta-llama",
-        "likes": 7766,
+        "likes": 7767,
         "downloads": 5910102,
         "tags": [
           "transformers",
@@ -553,7 +553,7 @@
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "author": "MiniMaxAI",
-        "likes": 5522,
+        "likes": 5523,
         "downloads": 4057444,
         "tags": [
           "minimax-h3",
@@ -582,7 +582,7 @@
       {
         "id": "TokenRhythm/NeoHorse-1-9B",
         "author": "TokenRhythm",
-        "likes": 976,
+        "likes": 977,
         "downloads": 11913,
         "tags": [
           "transformers",
@@ -627,7 +627,7 @@
       {
         "id": "TaichuAI/ZDTaichu5.0-9B",
         "author": "TaichuAI",
-        "likes": 209,
+        "likes": 210,
         "downloads": 3750,
         "tags": [
           "safetensors",
@@ -765,7 +765,7 @@
       {
         "id": "zai-org/GLM-5.3-Flash",
         "author": "zai-org",
-        "likes": 2495,
+        "likes": 2496,
         "downloads": 3109084,
         "tags": [
           "transformers",
@@ -814,7 +814,7 @@
       {
         "id": "secemp9/arxiv-complete",
         "author": "secemp9",
-        "likes": 234,
+        "likes": 237,
         "downloads": 1992,
         "tags": [
           "task_categories:text-generation",
@@ -953,7 +953,7 @@
       {
         "id": "MoreThought/Fable-5.1-Max-Reasoning-Filtered-5000x",
         "author": "MoreThought",
-        "likes": 79,
+        "likes": 80,
         "downloads": 1689,
         "tags": [
           "task_categories:text-generation",
@@ -1419,7 +1419,7 @@
       {
         "id": "zgcagi/ZGCM-1-Data",
         "author": "zgcagi",
-        "likes": 35,
+        "likes": 36,
         "downloads": 16585,
         "tags": [
           "task_categories:text-generation",
@@ -1494,35 +1494,6 @@
         "link": "https://huggingface.co/datasets/openbmb/UltraData-RL-2609"
       },
       {
-        "id": "openai/gsm8k",
-        "author": "openai",
-        "likes": 1655,
-        "downloads": 1221924,
-        "tags": [
-          "benchmark:official",
-          "benchmark:eval-yaml",
-          "task_categories:text-generation",
-          "annotations_creators:crowdsourced",
-          "language_creators:crowdsourced",
-          "multilinguality:monolingual",
-          "source_datasets:original",
-          "language:en",
-          "license:mit",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2110.14168",
-          "region:us",
-          "math-word-problems"
-        ],
-        "lastModified": "2026-03-23T10:18:13.000Z",
-        "link": "https://huggingface.co/datasets/openai/gsm8k"
-      },
-      {
         "id": "ILSVRC/imagenet-1k",
         "author": "ILSVRC",
         "likes": 959,
@@ -1581,6 +1552,35 @@
         ],
         "lastModified": "2026-09-08T08:19:31.000Z",
         "link": "https://huggingface.co/datasets/ikala/tmmluplus"
+      },
+      {
+        "id": "openai/gsm8k",
+        "author": "openai",
+        "likes": 1655,
+        "downloads": 1221924,
+        "tags": [
+          "benchmark:official",
+          "benchmark:eval-yaml",
+          "task_categories:text-generation",
+          "annotations_creators:crowdsourced",
+          "language_creators:crowdsourced",
+          "multilinguality:monolingual",
+          "source_datasets:original",
+          "language:en",
+          "license:mit",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2110.14168",
+          "region:us",
+          "math-word-problems"
+        ],
+        "lastModified": "2026-03-23T10:18:13.000Z",
+        "link": "https://huggingface.co/datasets/openai/gsm8k"
       },
       {
         "id": "OpenDataArena/Spark-234K",
