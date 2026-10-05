@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-05T14:00:25.371Z",
+  "updatedAt": "2026-10-05T15:00:21.369Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "Cloudflare/clef",
         "author": "Cloudflare",
-        "likes": 1325,
+        "likes": 1338,
         "downloads": 5416,
         "tags": [
           "transformers",
@@ -37,7 +37,7 @@
       {
         "id": "convaiinnovations/laya",
         "author": "convaiinnovations",
-        "likes": 5201,
+        "likes": 5204,
         "downloads": 11733,
         "tags": [
           "transformers",
@@ -65,7 +65,7 @@
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
         "author": "abenzerps",
-        "likes": 3201,
+        "likes": 3208,
         "downloads": 1638838,
         "tags": [
           "gguf",
@@ -86,7 +86,7 @@
       {
         "id": "Aleph-Alpha/Kolibri-1",
         "author": "Aleph-Alpha",
-        "likes": 538,
+        "likes": 554,
         "downloads": 2453,
         "tags": [
           "vllm",
@@ -114,7 +114,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 6407,
+        "likes": 6419,
         "downloads": 1645444,
         "tags": [
           "diffusion-single-file",
@@ -154,7 +154,7 @@
       {
         "id": "Cloudflare/clef-flash",
         "author": "Cloudflare",
-        "likes": 470,
+        "likes": 474,
         "downloads": 8075,
         "tags": [
           "transformers",
@@ -185,7 +185,7 @@
       {
         "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
         "author": "Venastine-Research",
-        "likes": 388,
+        "likes": 390,
         "downloads": 18863,
         "tags": [
           "transformers",
@@ -210,7 +210,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 16981,
+        "likes": 16982,
         "downloads": 6758884,
         "tags": [
           "transformers",
@@ -250,7 +250,7 @@
       {
         "id": "Qwen/Qwen-Image-2.1",
         "author": "Qwen",
-        "likes": 2968,
+        "likes": 2972,
         "downloads": 94556,
         "tags": [
           "diffusers",
@@ -299,37 +299,43 @@
         "link": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF"
       },
       {
-        "id": "nvidia/Nemotron-3-Diarization",
-        "author": "nvidia",
-        "likes": 687,
-        "downloads": 55491,
+        "id": "autotrust/JEV-27B-VL",
+        "author": "autotrust",
+        "likes": 259,
+        "downloads": 1278569,
         "tags": [
-          "nemo",
-          "safetensors",
-          "gguf",
-          "nemotron3_diarization",
-          "audio-frame-classification",
-          "speaker-diarization",
-          "streaming-sortformer",
-          "speaker-tagging",
           "transformers",
-          "voice-activity-detection",
-          "arxiv:2409.06656",
-          "arxiv:2507.18446",
-          "arxiv:2605.15442",
-          "arxiv:2507.09226",
-          "arxiv:2408.13106",
-          "license:openmdw-1.1",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "jev",
+          "system-one",
+          "system-two",
+          "typed-decisions",
+          "calibrated-probabilities",
+          "multimodal",
+          "vision",
+          "zero-shot",
+          "recommendation",
+          "lora",
+          "vllm",
+          "conversational",
+          "en",
+          "arxiv:2512.16899",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:adapter:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "voice-activity-detection",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/nvidia/Nemotron-3-Diarization"
+        "link": "https://huggingface.co/autotrust/JEV-27B-VL"
       },
       {
         "id": "TaichuAI/ZDTaichu5.0-9B",
         "author": "TaichuAI",
-        "likes": 2864,
+        "likes": 2865,
         "downloads": 12782,
         "tags": [
           "safetensors",
@@ -353,7 +359,7 @@
       {
         "id": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
         "author": "orcarouter",
-        "likes": 378,
+        "likes": 379,
         "downloads": 16802,
         "tags": [
           "llama.cpp",
@@ -386,9 +392,37 @@
         "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF"
       },
       {
+        "id": "nvidia/Nemotron-3-Diarization",
+        "author": "nvidia",
+        "likes": 687,
+        "downloads": 55491,
+        "tags": [
+          "nemo",
+          "safetensors",
+          "gguf",
+          "nemotron3_diarization",
+          "audio-frame-classification",
+          "speaker-diarization",
+          "streaming-sortformer",
+          "speaker-tagging",
+          "transformers",
+          "voice-activity-detection",
+          "arxiv:2409.06656",
+          "arxiv:2507.18446",
+          "arxiv:2605.15442",
+          "arxiv:2507.09226",
+          "arxiv:2408.13106",
+          "license:openmdw-1.1",
+          "region:us"
+        ],
+        "pipeline_tag": "voice-activity-detection",
+        "lastModified": "",
+        "link": "https://huggingface.co/nvidia/Nemotron-3-Diarization"
+      },
+      {
         "id": "Contrastive-LM/CLM-v0.1-8B",
         "author": "Contrastive-LM",
-        "likes": 725,
+        "likes": 726,
         "downloads": 3715,
         "tags": [
           "contrastive-lm",
@@ -411,7 +445,7 @@
       {
         "id": "Viggle/Qwen-Image-2.1-viggle-turbo",
         "author": "Viggle",
-        "likes": 600,
+        "likes": 601,
         "downloads": 286885,
         "tags": [
           "diffusers",
@@ -468,7 +502,7 @@
       {
         "id": "Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
         "author": "Infatoshi",
-        "likes": 225,
+        "likes": 226,
         "downloads": 1342,
         "tags": [
           "exllamav3",
@@ -490,64 +524,9 @@
         "link": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw"
       },
       {
-        "id": "autotrust/JEV-27B-VL",
-        "author": "autotrust",
-        "likes": 224,
-        "downloads": 1278569,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "jev",
-          "system-one",
-          "system-two",
-          "typed-decisions",
-          "calibrated-probabilities",
-          "multimodal",
-          "vision",
-          "zero-shot",
-          "recommendation",
-          "lora",
-          "vllm",
-          "conversational",
-          "en",
-          "arxiv:2512.16899",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:adapter:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/autotrust/JEV-27B-VL"
-      },
-      {
-        "id": "SupersonicLabs/Julia-1",
-        "author": "SupersonicLabs",
-        "likes": 430,
-        "downloads": 3898,
-        "tags": [
-          "pytorch",
-          "safetensors",
-          "decision-model",
-          "text-classification",
-          "multilingual",
-          "routing",
-          "base_model:jhu-clsp/mmBERT-small",
-          "base_model:finetune:jhu-clsp/mmBERT-small",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-classification",
-        "lastModified": "",
-        "link": "https://huggingface.co/SupersonicLabs/Julia-1"
-      },
-      {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
         "author": "deepseek-ai",
-        "likes": 4107,
+        "likes": 4109,
         "downloads": 869321,
         "tags": [
           "transformers",
@@ -595,6 +574,60 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
+      },
+      {
+        "id": "SupersonicLabs/Julia-1",
+        "author": "SupersonicLabs",
+        "likes": 430,
+        "downloads": 3898,
+        "tags": [
+          "pytorch",
+          "safetensors",
+          "decision-model",
+          "text-classification",
+          "multilingual",
+          "routing",
+          "base_model:jhu-clsp/mmBERT-small",
+          "base_model:finetune:jhu-clsp/mmBERT-small",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-classification",
+        "lastModified": "",
+        "link": "https://huggingface.co/SupersonicLabs/Julia-1"
+      },
+      {
+        "id": "jialinyyzz/humanizer",
+        "author": "jialinyyzz",
+        "likes": 182,
+        "downloads": 10329,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gguf",
+          "gemma4_unified",
+          "image-text-to-text",
+          "humanizer",
+          "text-rewriting",
+          "rewriting",
+          "paraphrase",
+          "style-transfer",
+          "llama.cpp",
+          "mlx",
+          "gemma4",
+          "text-generation",
+          "en",
+          "zh",
+          "base_model:google/gemma-4-12B",
+          "base_model:finetune:google/gemma-4-12B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/jialinyyzz/humanizer"
       },
       {
         "id": "akatz-ai/MiniMax-H3-Character-Swap-LoRA",
@@ -682,42 +715,46 @@
         "link": "https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap"
       },
       {
-        "id": "jialinyyzz/humanizer",
-        "author": "jialinyyzz",
-        "likes": 172,
-        "downloads": 10329,
+        "id": "autotrust/GEV-26B-Decide",
+        "author": "autotrust",
+        "likes": 215,
+        "downloads": 446527,
         "tags": [
           "transformers",
           "safetensors",
-          "gguf",
-          "gemma4_unified",
-          "image-text-to-text",
-          "humanizer",
-          "text-rewriting",
-          "rewriting",
-          "paraphrase",
-          "style-transfer",
-          "llama.cpp",
-          "mlx",
           "gemma4",
-          "text-generation",
+          "image-text-to-text",
+          "system-one",
+          "system-two",
+          "adaptive-thinking",
+          "typed-decisions",
+          "decision-model",
+          "calibrated-probabilities",
+          "jev",
+          "noul",
+          "choice",
+          "score",
+          "lora",
+          "mixture-of-experts",
+          "multimodal",
+          "vllm",
+          "text-classification",
           "en",
-          "zh",
-          "base_model:google/gemma-4-12B",
-          "base_model:finetune:google/gemma-4-12B",
+          "base_model:google/gemma-4-26B-A4B-it",
+          "base_model:adapter:google/gemma-4-26B-A4B-it",
           "license:apache-2.0",
+          "model-index",
           "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "text-classification",
         "lastModified": "",
-        "link": "https://huggingface.co/jialinyyzz/humanizer"
+        "link": "https://huggingface.co/autotrust/GEV-26B-Decide"
       },
       {
         "id": "pablodawson/MiniMax-H3-360-Orbit-LoRA",
         "author": "pablodawson",
-        "likes": 198,
+        "likes": 199,
         "downloads": 6930,
         "tags": [
           "minimax-h3",
@@ -773,7 +810,7 @@
       {
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 1439,
+        "likes": 1441,
         "downloads": 2134360,
         "tags": [
           "gguf",
@@ -819,26 +856,6 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
-      },
-      {
-        "id": "Qwen/Qwen3.8-Flash-Next",
-        "author": "Qwen",
-        "likes": 5920,
-        "downloads": 1530359,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen4_exp",
-          "image-text-to-text",
-          "conversational",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
       }
     ]
   },
@@ -848,7 +865,7 @@
       {
         "id": "XiaomiMiMo/MiMo-V2.6-RL-oss",
         "author": "XiaomiMiMo",
-        "likes": 804,
+        "likes": 805,
         "downloads": 79027,
         "tags": [
           "license:apache-2.0",
@@ -1556,7 +1573,7 @@
       {
         "id": "witfoo/precinct6-cybersecurity",
         "author": "witfoo",
-        "likes": 34,
+        "likes": 35,
         "downloads": 1715,
         "tags": [
           "task_categories:text-classification",
