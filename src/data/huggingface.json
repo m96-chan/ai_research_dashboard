@@ -1,49 +1,74 @@
 {
-  "updatedAt": "2026-10-09T16:00:21.898Z",
+  "updatedAt": "2026-10-09T17:00:25.647Z",
   "models": {
     "count": 30,
     "items": [
       {
-        "id": "autotrust/JEV-27B-VL",
-        "author": "autotrust",
-        "likes": 3464,
-        "downloads": 1536533,
+        "id": "google/embeddinggemma-2",
+        "author": "google",
+        "likes": 1298,
+        "downloads": 29185,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "embedding_gemma2",
+          "feature-extraction",
+          "embedding",
+          "sentence-transformers",
+          "multimodal-embedding",
+          "multimodal",
+          "vision",
+          "audio",
+          "video",
+          "image-feature-extraction",
+          "audio-feature-extraction",
+          "video-feature-extraction",
+          "sentence-similarity",
+          "multilingual",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "feature-extraction",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/embeddinggemma-2"
+      },
+      {
+        "id": "Cloudflare/clef",
+        "author": "Cloudflare",
+        "likes": 1925,
+        "downloads": 12066,
         "tags": [
           "transformers",
           "safetensors",
           "qwen3_5",
           "image-text-to-text",
-          "jev",
-          "system-one",
-          "system-two",
-          "typed-decisions",
+          "clef",
+          "cloudflare",
+          "systemone",
           "decision-model",
-          "calibrated-probabilities",
+          "qwen3.8",
+          "post-train",
+          "image-text-to-typed-output",
           "multimodal",
-          "vision",
-          "zero-shot",
-          "decision-index",
-          "recommendation",
-          "lora",
-          "vllm",
+          "structured-output",
+          "classification",
+          "custom-code",
           "conversational",
-          "en",
-          "dataset:SargeDev/jev-distill-corpus-v3",
-          "arxiv:2512.16899",
           "base_model:Qwen/Qwen3.8-27B",
-          "base_model:adapter:Qwen/Qwen3.8-27B",
+          "base_model:finetune:Qwen/Qwen3.8-27B",
           "license:apache-2.0",
           "endpoints_compatible",
           "region:us"
         ],
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/autotrust/JEV-27B-VL"
+        "link": "https://huggingface.co/Cloudflare/clef"
       },
       {
         "id": "autotrust/GEV-26B-Decide",
         "author": "autotrust",
-        "likes": 2099,
+        "likes": 2123,
         "downloads": 909755,
         "tags": [
           "transformers",
@@ -78,71 +103,9 @@
         "link": "https://huggingface.co/autotrust/GEV-26B-Decide"
       },
       {
-        "id": "google/embeddinggemma-2",
-        "author": "google",
-        "likes": 1294,
-        "downloads": 29185,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "embedding_gemma2",
-          "feature-extraction",
-          "embedding",
-          "sentence-transformers",
-          "multimodal-embedding",
-          "multimodal",
-          "vision",
-          "audio",
-          "video",
-          "image-feature-extraction",
-          "audio-feature-extraction",
-          "video-feature-extraction",
-          "sentence-similarity",
-          "multilingual",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "feature-extraction",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/embeddinggemma-2"
-      },
-      {
-        "id": "Cloudflare/clef",
-        "author": "Cloudflare",
-        "likes": 1922,
-        "downloads": 12066,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "clef",
-          "cloudflare",
-          "systemone",
-          "decision-model",
-          "qwen3.8",
-          "post-train",
-          "image-text-to-typed-output",
-          "multimodal",
-          "structured-output",
-          "classification",
-          "custom-code",
-          "conversational",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:finetune:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Cloudflare/clef"
-      },
-      {
         "id": "Aleph-Alpha/Kolibri-1",
         "author": "Aleph-Alpha",
-        "likes": 833,
+        "likes": 835,
         "downloads": 8474,
         "tags": [
           "vllm",
@@ -170,7 +133,7 @@
       {
         "id": "jialinyyzz/humanizer",
         "author": "jialinyyzz",
-        "likes": 710,
+        "likes": 716,
         "downloads": 29470,
         "tags": [
           "gguf",
@@ -202,7 +165,7 @@
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
         "author": "abenzerps",
-        "likes": 3737,
+        "likes": 3741,
         "downloads": 2013268,
         "tags": [
           "gguf",
@@ -246,40 +209,9 @@
         "link": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF"
       },
       {
-        "id": "autotrust/GLM5.3-Flash-E224-DGX-Spark",
-        "author": "autotrust",
-        "likes": 555,
-        "downloads": 11534,
-        "tags": [
-          "vllm",
-          "safetensors",
-          "glm5_next",
-          "autotrust",
-          "moe",
-          "nvfp4",
-          "modelopt",
-          "dgx-spark",
-          "gb10",
-          "blackwell",
-          "expert-pruned",
-          "image-text-to-text",
-          "conversational",
-          "en",
-          "zh",
-          "base_model:zai-org/GLM-5.3-Flash",
-          "base_model:quantized:zai-org/GLM-5.3-Flash",
-          "license:mit",
-          "8-bit",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark"
-      },
-      {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 7017,
+        "likes": 7018,
         "downloads": 1687531,
         "tags": [
           "diffusion-single-file",
@@ -319,7 +251,7 @@
       {
         "id": "Cloudflare/clef-flash",
         "author": "Cloudflare",
-        "likes": 709,
+        "likes": 708,
         "downloads": 18971,
         "tags": [
           "transformers",
@@ -347,6 +279,28 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Cloudflare/clef-flash"
+      },
+      {
+        "id": "Qwen/Qwen3.8-27B",
+        "author": "Qwen",
+        "likes": 17325,
+        "downloads": 6783589,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "deploy:sagemaker",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
       },
       {
         "id": "convaiinnovations/laya",
@@ -378,28 +332,6 @@
         "link": "https://huggingface.co/convaiinnovations/laya"
       },
       {
-        "id": "Qwen/Qwen3.8-27B",
-        "author": "Qwen",
-        "likes": 17324,
-        "downloads": 6783589,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "deploy:sagemaker",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
-      },
-      {
         "id": "canberkkkkkk/ema-lightning",
         "author": "canberkkkkkk",
         "likes": 311,
@@ -421,9 +353,77 @@
         "link": "https://huggingface.co/canberkkkkkk/ema-lightning"
       },
       {
+        "id": "autotrust/GLM5.3-Flash-E224-DGX-Spark",
+        "author": "autotrust",
+        "likes": 556,
+        "downloads": 11534,
+        "tags": [
+          "vllm",
+          "safetensors",
+          "glm5_next",
+          "autotrust",
+          "moe",
+          "nvfp4",
+          "modelopt",
+          "dgx-spark",
+          "gb10",
+          "blackwell",
+          "expert-pruned",
+          "image-text-to-text",
+          "conversational",
+          "en",
+          "zh",
+          "base_model:zai-org/GLM-5.3-Flash",
+          "base_model:quantized:zai-org/GLM-5.3-Flash",
+          "license:mit",
+          "8-bit",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark"
+      },
+      {
+        "id": "autotrust/JEV-27B-VL",
+        "author": "autotrust",
+        "likes": 3495,
+        "downloads": 1536533,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "jev",
+          "system-one",
+          "system-two",
+          "typed-decisions",
+          "decision-model",
+          "calibrated-probabilities",
+          "multimodal",
+          "vision",
+          "zero-shot",
+          "decision-index",
+          "recommendation",
+          "lora",
+          "vllm",
+          "conversational",
+          "en",
+          "dataset:SargeDev/jev-distill-corpus-v3",
+          "arxiv:2512.16899",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:adapter:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/autotrust/JEV-27B-VL"
+      },
+      {
         "id": "Cactus-Compute/whistle",
         "author": "Cactus-Compute",
-        "likes": 242,
+        "likes": 245,
         "downloads": 5558,
         "tags": [
           "cactus-needle",
@@ -452,7 +452,7 @@
       {
         "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
         "author": "ISTA-DASLab",
-        "likes": 736,
+        "likes": 739,
         "downloads": 3559321,
         "tags": [
           "gguf",
@@ -530,7 +530,7 @@
       {
         "id": "Qwen/Qwen-Image-2.1",
         "author": "Qwen",
-        "likes": 3146,
+        "likes": 3149,
         "downloads": 122311,
         "tags": [
           "diffusers",
@@ -580,6 +580,28 @@
         "link": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF"
       },
       {
+        "id": "Qwen/Qwen-Image-2.1-Turbo",
+        "author": "Qwen",
+        "likes": 188,
+        "downloads": 0,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "qwen",
+          "image-generation",
+          "image-editing",
+          "text-to-image",
+          "base_model:Qwen/Qwen-Image-2.1",
+          "base_model:finetune:Qwen/Qwen-Image-2.1",
+          "license:other",
+          "diffusers:QwenImage21Pipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
+      },
+      {
         "id": "Alissonerdx/BFS-Best-Face-Swap",
         "author": "Alissonerdx",
         "likes": 1334,
@@ -608,29 +630,9 @@
         "link": "https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap"
       },
       {
-        "id": "Qwen/Qwen3.8-Flash-Next",
-        "author": "Qwen",
-        "likes": 6054,
-        "downloads": 1751752,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen4_exp",
-          "image-text-to-text",
-          "conversational",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
-      },
-      {
         "id": "Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
         "author": "Infatoshi",
-        "likes": 305,
+        "likes": 307,
         "downloads": 2277,
         "tags": [
           "exllamav3",
@@ -650,6 +652,60 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw"
+      },
+      {
+        "id": "Qwen/Qwen3.8-Flash-Next",
+        "author": "Qwen",
+        "likes": 6055,
+        "downloads": 1751752,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen4_exp",
+          "image-text-to-text",
+          "conversational",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+      },
+      {
+        "id": "Phocinae/Phocinae-Largha-150M-v1",
+        "author": "Phocinae",
+        "likes": 182,
+        "downloads": 89,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "modernbert",
+          "fill-mask",
+          "decision-making",
+          "typed-decisions",
+          "text-classification",
+          "small-model",
+          "bilingual",
+          "calibration",
+          "option-order-invariance",
+          "systemone",
+          "zero-output-tokens",
+          "on-premise",
+          "en",
+          "zh",
+          "dataset:LocalLLaMA/typed-decisions",
+          "base_model:jhu-clsp/mmBERT-small",
+          "base_model:finetune:jhu-clsp/mmBERT-small",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-classification",
+        "lastModified": "",
+        "link": "https://huggingface.co/Phocinae/Phocinae-Largha-150M-v1"
       },
       {
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
@@ -702,31 +758,9 @@
         "link": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
       },
       {
-        "id": "Qwen/Qwen-Image-2.1-Turbo",
-        "author": "Qwen",
-        "likes": 165,
-        "downloads": 0,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "qwen",
-          "image-generation",
-          "image-editing",
-          "text-to-image",
-          "base_model:Qwen/Qwen-Image-2.1",
-          "base_model:finetune:Qwen/Qwen-Image-2.1",
-          "license:other",
-          "diffusers:QwenImage21Pipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
-      },
-      {
         "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "author": "ISTA-DASLab",
-        "likes": 2088,
+        "likes": 2090,
         "downloads": 1490741,
         "tags": [
           "gguf",
@@ -755,7 +789,7 @@
       {
         "id": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
         "author": "orcarouter",
-        "likes": 481,
+        "likes": 482,
         "downloads": 21406,
         "tags": [
           "llama.cpp",
@@ -788,38 +822,9 @@
         "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF"
       },
       {
-        "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-        "author": "prism-ml",
-        "likes": 2563,
-        "downloads": 4389072,
-        "tags": [
-          "llama.cpp",
-          "gguf",
-          "ternary",
-          "2-bit",
-          "llama-cpp",
-          "cuda",
-          "metal",
-          "on-device",
-          "hybrid-attention",
-          "prismml",
-          "bonsai",
-          "text-generation",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:quantized:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
-      },
-      {
         "id": "ConwayResearch/Underdog-Saluki-27B-1.0",
         "author": "ConwayResearch",
-        "likes": 155,
+        "likes": 159,
         "downloads": 15274,
         "tags": [
           "gguf",
@@ -844,27 +849,33 @@
         "link": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
       },
       {
-        "id": "deepseek-ai/DeepSeek-V4.1-Flash",
-        "author": "deepseek-ai",
-        "likes": 4284,
-        "downloads": 1316468,
+        "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "author": "prism-ml",
+        "likes": 2562,
+        "downloads": 4389072,
         "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v41",
+          "llama.cpp",
+          "gguf",
+          "ternary",
+          "2-bit",
+          "llama-cpp",
+          "cuda",
+          "metal",
+          "on-device",
+          "hybrid-attention",
+          "prismml",
+          "bonsai",
           "text-generation",
-          "image-text-to-text",
-          "conversational",
-          "license:mit",
-          "eval-results",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:quantized:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
           "endpoints_compatible",
-          "8-bit",
-          "fp8",
-          "region:us"
+          "region:us",
+          "conversational"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+        "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
       },
       {
         "id": "autotrust/GEV-26B-Decide-NVFP4",
@@ -915,7 +926,7 @@
       {
         "id": "datasocial/tiktok-5.6B-videos",
         "author": "datasocial",
-        "likes": 158,
+        "likes": 159,
         "downloads": 8728,
         "tags": [
           "license:cc-by-nc-4.0",
@@ -980,33 +991,6 @@
         ],
         "lastModified": "2026-09-27T16:02:46.000Z",
         "link": "https://huggingface.co/datasets/nisten/opus5-5-doctor-patient-conversations-all-human-diseases"
-      },
-      {
-        "id": "LightwheelAI/EgoStandard",
-        "author": "LightwheelAI",
-        "likes": 188,
-        "downloads": 692,
-        "tags": [
-          "task_categories:video-classification",
-          "language:en",
-          "license:other",
-          "size_categories:10K<n<100K",
-          "modality:video",
-          "region:us",
-          "video",
-          "egocentric-video",
-          "embodied-ai",
-          "human-demonstration",
-          "human-pose",
-          "hand-pose",
-          "body-pose",
-          "multimodal",
-          "lerobot",
-          "mcap",
-          "robotics"
-        ],
-        "lastModified": "2026-10-09T01:53:50.000Z",
-        "link": "https://huggingface.co/datasets/LightwheelAI/EgoStandard"
       },
       {
         "id": "secemp9/arxiv-complete",
@@ -1211,29 +1195,6 @@
         "link": "https://huggingface.co/datasets/docling-project/DeskForge-1M"
       },
       {
-        "id": "venvoo/china-a-share-l2-level2-limit-order-book-tick-data",
-        "author": "venvoo",
-        "likes": 220,
-        "downloads": 71788,
-        "tags": [
-          "license:other",
-          "size_categories:n>1T",
-          "region:us",
-          "finance",
-          "trading",
-          "stock-market",
-          "china",
-          "a-share",
-          "level-2",
-          "limit-order-book",
-          "tick-data",
-          "high-frequency",
-          "market-microstructure"
-        ],
-        "lastModified": "2026-09-30T21:01:33.000Z",
-        "link": "https://huggingface.co/datasets/venvoo/china-a-share-l2-level2-limit-order-book-tick-data"
-      },
-      {
         "id": "LocalLLaMA/typed-decisions",
         "author": "LocalLLaMA",
         "likes": 155,
@@ -1262,6 +1223,29 @@
         ],
         "lastModified": "2026-10-08T03:24:02.000Z",
         "link": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions"
+      },
+      {
+        "id": "venvoo/china-a-share-l2-level2-limit-order-book-tick-data",
+        "author": "venvoo",
+        "likes": 220,
+        "downloads": 71788,
+        "tags": [
+          "license:other",
+          "size_categories:n>1T",
+          "region:us",
+          "finance",
+          "trading",
+          "stock-market",
+          "china",
+          "a-share",
+          "level-2",
+          "limit-order-book",
+          "tick-data",
+          "high-frequency",
+          "market-microstructure"
+        ],
+        "lastModified": "2026-09-30T21:01:33.000Z",
+        "link": "https://huggingface.co/datasets/venvoo/china-a-share-l2-level2-limit-order-book-tick-data"
       },
       {
         "id": "Anthropic/hh-rlhf",
@@ -1715,6 +1699,31 @@
         "link": "https://huggingface.co/datasets/ankitjh4/bharat-government-documents"
       },
       {
+        "id": "harvardMadsys/freeinference_agentic_trace",
+        "author": "harvardMadsys",
+        "likes": 25,
+        "downloads": 741,
+        "tags": [
+          "license:cc-by-4.0",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "agents",
+          "llm-inference",
+          "tool-use",
+          "prefix-caching",
+          "traces"
+        ],
+        "lastModified": "2026-10-06T21:27:44.000Z",
+        "link": "https://huggingface.co/datasets/harvardMadsys/freeinference_agentic_trace"
+      },
+      {
         "id": "genrobot2025/Gen-HumanEgo",
         "author": "genrobot2025",
         "likes": 75,
@@ -1738,29 +1747,33 @@
         "link": "https://huggingface.co/datasets/genrobot2025/Gen-HumanEgo"
       },
       {
-        "id": "harvardMadsys/freeinference_agentic_trace",
-        "author": "harvardMadsys",
-        "likes": 23,
-        "downloads": 741,
+        "id": "OpenDataArena/Spark-234K",
+        "author": "OpenDataArena",
+        "likes": 120,
+        "downloads": 4455,
         "tags": [
-          "license:cc-by-4.0",
-          "size_categories:1M<n<10M",
+          "task_categories:text-generation",
+          "annotations_creators:machine-generated",
+          "language_creators:machine-generated",
+          "multilinguality:monolingual",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:100K<n<1M",
           "format:parquet",
-          "modality:tabular",
           "modality:text",
           "library:datasets",
           "library:pandas",
           "library:polars",
           "library:mlcroissant",
+          "arxiv:2608.30214",
           "region:us",
-          "agents",
-          "llm-inference",
-          "tool-use",
-          "prefix-caching",
-          "traces"
+          "science",
+          "reasoning",
+          "scientific-reasoning",
+          "sft"
         ],
-        "lastModified": "2026-10-06T21:27:44.000Z",
-        "link": "https://huggingface.co/datasets/harvardMadsys/freeinference_agentic_trace"
+        "lastModified": "2026-09-06T12:33:16.000Z",
+        "link": "https://huggingface.co/datasets/OpenDataArena/Spark-234K"
       }
     ]
   }
