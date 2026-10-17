@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-17T22:00:20.679Z",
+  "updatedAt": "2026-10-17T23:00:20.818Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "google/embeddinggemma-2",
         "author": "google",
-        "likes": 2588,
+        "likes": 2591,
         "downloads": 158490,
         "tags": [
           "transformers",
@@ -36,7 +36,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "author": "deepseek-ai",
-        "likes": 894,
+        "likes": 913,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -89,7 +89,7 @@
       {
         "id": "openbmb/MiniCPM-V-4.7-35B-A3B",
         "author": "openbmb",
-        "likes": 895,
+        "likes": 897,
         "downloads": 36252,
         "tags": [
           "transformers",
@@ -218,7 +218,7 @@
       {
         "id": "black-forest-labs/flux-3-image-klein-comfy",
         "author": "black-forest-labs",
-        "likes": 640,
+        "likes": 644,
         "downloads": 224108,
         "tags": [
           "diffusion-single-file",
@@ -269,7 +269,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 8213,
+        "likes": 8222,
         "downloads": 1993003,
         "tags": [
           "diffusion-single-file",
@@ -351,7 +351,7 @@
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "author": "abenzerps",
-        "likes": 4491,
+        "likes": 4492,
         "downloads": 2571722,
         "tags": [
           "gguf",
@@ -375,7 +375,7 @@
       {
         "id": "black-forest-labs/flux-3-image-klein",
         "author": "black-forest-labs",
-        "likes": 449,
+        "likes": 453,
         "downloads": 46123,
         "tags": [
           "diffusers",
@@ -446,7 +446,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 17903,
+        "likes": 17905,
         "downloads": 7795543,
         "tags": [
           "transformers",
@@ -468,7 +468,7 @@
       {
         "id": "openbmb/MiniCPM-V-4.7-1B",
         "author": "openbmb",
-        "likes": 374,
+        "likes": 375,
         "downloads": 15243,
         "tags": [
           "transformers",
@@ -515,6 +515,28 @@
         "pipeline_tag": "text-to-image",
         "lastModified": "",
         "link": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
+      },
+      {
+        "id": "OpenMOSS-Team/MOSS-Image-SFT",
+        "author": "OpenMOSS-Team",
+        "likes": 232,
+        "downloads": 1036,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "moss-image",
+          "text-to-image",
+          "en",
+          "zh",
+          "base_model:OpenMOSS-Team/MOSS-Image-Base",
+          "base_model:finetune:OpenMOSS-Team/MOSS-Image-Base",
+          "license:apache-2.0",
+          "diffusers:MOSSImagePipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
       },
       {
         "id": "facebook/sam3",
@@ -567,31 +589,9 @@
         "link": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
       },
       {
-        "id": "OpenMOSS-Team/MOSS-Image-SFT",
-        "author": "OpenMOSS-Team",
-        "likes": 229,
-        "downloads": 1036,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "moss-image",
-          "text-to-image",
-          "en",
-          "zh",
-          "base_model:OpenMOSS-Team/MOSS-Image-Base",
-          "base_model:finetune:OpenMOSS-Team/MOSS-Image-Base",
-          "license:apache-2.0",
-          "diffusers:MOSSImagePipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
-      },
-      {
         "id": "OpenMOSS-Team/MOSS-Image-Base",
         "author": "OpenMOSS-Team",
-        "likes": 221,
+        "likes": 223,
         "downloads": 958,
         "tags": [
           "diffusers",
@@ -636,6 +636,45 @@
         "pipeline_tag": "zero-shot-classification",
         "lastModified": "",
         "link": "https://huggingface.co/vllm-sr/d3"
+      },
+      {
+        "id": "autotrust/JEV-27B-VL",
+        "author": "autotrust",
+        "likes": 6607,
+        "downloads": 1704732,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "jev",
+          "system-one",
+          "system-two",
+          "typed-decisions",
+          "decision-model",
+          "calibrated-probabilities",
+          "multimodal",
+          "vision",
+          "zero-shot",
+          "decision-index",
+          "recommendation",
+          "lora",
+          "vllm",
+          "conversational",
+          "en",
+          "dataset:SargeDev/jev-distill-corpus-v3",
+          "arxiv:2609.14973",
+          "arxiv:2512.16899",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:adapter:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/autotrust/JEV-27B-VL"
       },
       {
         "id": "speridlabs/iris-3b",
@@ -696,48 +735,9 @@
         "link": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF"
       },
       {
-        "id": "autotrust/JEV-27B-VL",
-        "author": "autotrust",
-        "likes": 6558,
-        "downloads": 1704732,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "jev",
-          "system-one",
-          "system-two",
-          "typed-decisions",
-          "decision-model",
-          "calibrated-probabilities",
-          "multimodal",
-          "vision",
-          "zero-shot",
-          "decision-index",
-          "recommendation",
-          "lora",
-          "vllm",
-          "conversational",
-          "en",
-          "dataset:SargeDev/jev-distill-corpus-v3",
-          "arxiv:2609.14973",
-          "arxiv:2512.16899",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:adapter:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/autotrust/JEV-27B-VL"
-      },
-      {
         "id": "pablodawson/MiniMax-H3-360-Orbit-LoRA",
         "author": "pablodawson",
-        "likes": 496,
+        "likes": 498,
         "downloads": 22625,
         "tags": [
           "minimax-h3",
@@ -762,29 +762,9 @@
         "link": "https://huggingface.co/pablodawson/MiniMax-H3-360-Orbit-LoRA"
       },
       {
-        "id": "Qwen/Qwen3.8-Flash-Next",
-        "author": "Qwen",
-        "likes": 6305,
-        "downloads": 2457201,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen4_exp",
-          "image-text-to-text",
-          "conversational",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
-      },
-      {
         "id": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
         "author": "nerkyor",
-        "likes": 408,
+        "likes": 412,
         "downloads": 228320,
         "tags": [
           "safetensors",
@@ -833,9 +813,29 @@
         "link": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2"
       },
       {
+        "id": "Qwen/Qwen3.8-Flash-Next",
+        "author": "Qwen",
+        "likes": 6306,
+        "downloads": 2457201,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen4_exp",
+          "image-text-to-text",
+          "conversational",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+      },
+      {
         "id": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
         "author": "nvidia",
-        "likes": 178,
+        "likes": 179,
         "downloads": 3110,
         "tags": [
           "Model Optimizer",
@@ -861,34 +861,9 @@
         "link": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local"
       },
       {
-        "id": "deepseek-ai/DeepSeek-V4.1-Flash",
-        "author": "deepseek-ai",
-        "likes": 4603,
-        "downloads": 1306744,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v41",
-          "text-generation",
-          "image-text-to-text",
-          "conversational",
-          "license:mit",
-          "eval-results",
-          "endpoints_compatible",
-          "8-bit",
-          "fp8",
-          "deploy:azure",
-          "deploy:sagemaker",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
-      },
-      {
         "id": "datalab-to/indra-ocr",
         "author": "datalab-to",
-        "likes": 166,
+        "likes": 167,
         "downloads": 1053,
         "tags": [
           "onnx",
@@ -921,6 +896,31 @@
         "pipeline_tag": "image-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/datalab-to/indra-ocr"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "author": "deepseek-ai",
+        "likes": 4603,
+        "downloads": 1306744,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41",
+          "text-generation",
+          "image-text-to-text",
+          "conversational",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
+          "8-bit",
+          "fp8",
+          "deploy:azure",
+          "deploy:sagemaker",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
       }
     ]
   },
@@ -1058,7 +1058,7 @@
       {
         "id": "XiaomiMiMo/MiMo-V2.6-RL-oss",
         "author": "XiaomiMiMo",
-        "likes": 968,
+        "likes": 969,
         "downloads": 164201,
         "tags": [
           "license:apache-2.0",
@@ -1183,7 +1183,7 @@
       {
         "id": "nvidia/Nemotron-Personas-Vietnam",
         "author": "nvidia",
-        "likes": 103,
+        "likes": 104,
         "downloads": 1788,
         "tags": [
           "task_categories:text-generation",
@@ -1236,6 +1236,43 @@
         ],
         "lastModified": "2026-09-19T20:39:46.000Z",
         "link": "https://huggingface.co/datasets/secemp9/arxiv-complete"
+      },
+      {
+        "id": "Vyber07/cyber-security",
+        "author": "Vyber07",
+        "likes": 170,
+        "downloads": 3188,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:question-answering",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "cybersecurity",
+          "penetration-testing",
+          "red-team",
+          "blue-team",
+          "web-security",
+          "cloud-security",
+          "malware",
+          "forensics",
+          "exploit",
+          "vulnerability",
+          "iot",
+          "ai-security",
+          "bug-bounty",
+          "offensive-security",
+          "defensive-security"
+        ],
+        "lastModified": "2026-08-31T17:57:10.000Z",
+        "link": "https://huggingface.co/datasets/Vyber07/cyber-security"
       },
       {
         "id": "bakrianoo/jabarti-llm-dataset",
@@ -1313,43 +1350,6 @@
         ],
         "lastModified": "2026-09-27T16:02:46.000Z",
         "link": "https://huggingface.co/datasets/nisten/opus5-5-doctor-patient-conversations-all-human-diseases"
-      },
-      {
-        "id": "Vyber07/cyber-security",
-        "author": "Vyber07",
-        "likes": 168,
-        "downloads": 3188,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:question-answering",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "cybersecurity",
-          "penetration-testing",
-          "red-team",
-          "blue-team",
-          "web-security",
-          "cloud-security",
-          "malware",
-          "forensics",
-          "exploit",
-          "vulnerability",
-          "iot",
-          "ai-security",
-          "bug-bounty",
-          "offensive-security",
-          "defensive-security"
-        ],
-        "lastModified": "2026-08-31T17:57:10.000Z",
-        "link": "https://huggingface.co/datasets/Vyber07/cyber-security"
       },
       {
         "id": "HuggingFaceFW/fineweb",
