@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-23T13:00:20.589Z",
+  "updatedAt": "2026-10-23T14:00:25.931Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "author": "deepseek-ai",
-        "likes": 2479,
+        "likes": 2495,
         "downloads": 57715,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "black-forest-labs/flux-3-image-klein-comfy",
         "author": "black-forest-labs",
-        "likes": 1349,
+        "likes": 1354,
         "downloads": 534837,
         "tags": [
           "diffusion-single-file",
@@ -52,7 +52,7 @@
       {
         "id": "RecursiveSI/flint",
         "author": "RecursiveSI",
-        "likes": 616,
+        "likes": 621,
         "downloads": 1904,
         "tags": [
           "transformers",
@@ -71,7 +71,7 @@
       {
         "id": "OpenMOSS-Team/MOSS-Image-SFT",
         "author": "OpenMOSS-Team",
-        "likes": 619,
+        "likes": 622,
         "downloads": 7658,
         "tags": [
           "diffusers",
@@ -115,7 +115,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 8968,
+        "likes": 8972,
         "downloads": 2026951,
         "tags": [
           "diffusion-single-file",
@@ -155,7 +155,7 @@
       {
         "id": "fishaudio/drama-3",
         "author": "fishaudio",
-        "likes": 933,
+        "likes": 934,
         "downloads": 17017,
         "tags": [
           "safetensors",
@@ -258,26 +258,9 @@
         "link": "https://huggingface.co/fishaudio/drama-3"
       },
       {
-        "id": "Comfy-Org/MOSS-Image",
-        "author": "Comfy-Org",
-        "likes": 385,
-        "downloads": 1606363,
-        "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "base_model:OpenMOSS-Team/MOSS-Image-Base",
-          "base_model:finetune:OpenMOSS-Team/MOSS-Image-Base",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Comfy-Org/MOSS-Image"
-      },
-      {
         "id": "XHToken/Spark-X2.6-4B",
         "author": "XHToken",
-        "likes": 390,
+        "likes": 391,
         "downloads": 1060,
         "tags": [
           "transformers",
@@ -298,6 +281,69 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/XHToken/Spark-X2.6-4B"
+      },
+      {
+        "id": "Comfy-Org/MOSS-Image",
+        "author": "Comfy-Org",
+        "likes": 386,
+        "downloads": 1606363,
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "base_model:OpenMOSS-Team/MOSS-Image-Base",
+          "base_model:finetune:OpenMOSS-Team/MOSS-Image-Base",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/Comfy-Org/MOSS-Image"
+      },
+      {
+        "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+        "author": "abenzerps",
+        "likes": 4884,
+        "downloads": 2398071,
+        "tags": [
+          "gguf",
+          "qwen",
+          "image-generation",
+          "comfyui",
+          "comfyui-gguf",
+          "mlx",
+          "fp8",
+          "nvfp4",
+          "text-to-image",
+          "base_model:Qwen/Qwen-Image-2.1",
+          "base_model:quantized:Qwen/Qwen-Image-2.1",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+      },
+      {
+        "id": "Qwen/Qwen3.8-27B",
+        "author": "Qwen",
+        "likes": 18263,
+        "downloads": 7710011,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "deploy:sagemaker",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
       },
       {
         "id": "google/embeddinggemma-2",
@@ -328,52 +374,6 @@
         "pipeline_tag": "feature-extraction",
         "lastModified": "",
         "link": "https://huggingface.co/google/embeddinggemma-2"
-      },
-      {
-        "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-        "author": "abenzerps",
-        "likes": 4878,
-        "downloads": 2398071,
-        "tags": [
-          "gguf",
-          "qwen",
-          "image-generation",
-          "comfyui",
-          "comfyui-gguf",
-          "mlx",
-          "fp8",
-          "nvfp4",
-          "text-to-image",
-          "base_model:Qwen/Qwen-Image-2.1",
-          "base_model:quantized:Qwen/Qwen-Image-2.1",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
-      },
-      {
-        "id": "Qwen/Qwen3.8-27B",
-        "author": "Qwen",
-        "likes": 18258,
-        "downloads": 7710011,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "deploy:sagemaker",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
       },
       {
         "id": "jialinyyzz/humanizer",
@@ -410,7 +410,7 @@
       {
         "id": "datalab-to/indra-ocr",
         "author": "datalab-to",
-        "likes": 382,
+        "likes": 383,
         "downloads": 4033,
         "tags": [
           "onnx",
@@ -490,36 +490,9 @@
         "link": "https://huggingface.co/datalab-to/indra-ocr"
       },
       {
-        "id": "meta-models/Muse-Spark-Open-816B-A42B",
-        "author": "meta-models",
-        "likes": 669,
-        "downloads": 5196,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "muse_spark",
-          "image-text-to-text",
-          "facebook",
-          "meta",
-          "pytorch",
-          "muse",
-          "muse-spark",
-          "conversational",
-          "en",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:sagemaker",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
-      },
-      {
         "id": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
         "author": "dealignai",
-        "likes": 282,
+        "likes": 284,
         "downloads": 4141,
         "tags": [
           "transformers",
@@ -555,6 +528,33 @@
         "link": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8"
       },
       {
+        "id": "meta-models/Muse-Spark-Open-816B-A42B",
+        "author": "meta-models",
+        "likes": 670,
+        "downloads": 5196,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "muse_spark",
+          "image-text-to-text",
+          "facebook",
+          "meta",
+          "pytorch",
+          "muse",
+          "muse-spark",
+          "conversational",
+          "en",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:sagemaker",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+      },
+      {
         "id": "InternScience/Sage-A1.5",
         "author": "InternScience",
         "likes": 244,
@@ -582,6 +582,26 @@
         "link": "https://huggingface.co/InternScience/Sage-A1.5"
       },
       {
+        "id": "mistralai/Timestral-209M",
+        "author": "mistralai",
+        "likes": 298,
+        "downloads": 6815,
+        "tags": [
+          "timestral",
+          "safetensors",
+          "time-series",
+          "forecasting",
+          "foundation-model",
+          "time-series-forecasting",
+          "license:other",
+          "model-index",
+          "region:us"
+        ],
+        "pipeline_tag": "time-series-forecasting",
+        "lastModified": "",
+        "link": "https://huggingface.co/mistralai/Timestral-209M"
+      },
+      {
         "id": "black-forest-labs/flux-3-image-klein",
         "author": "black-forest-labs",
         "likes": 645,
@@ -604,29 +624,30 @@
         "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
       },
       {
-        "id": "mistralai/Timestral-209M",
-        "author": "mistralai",
-        "likes": 295,
-        "downloads": 6815,
+        "id": "lodestones/Kromoss",
+        "author": "lodestones",
+        "likes": 228,
+        "downloads": 16365,
         "tags": [
-          "timestral",
+          "diffusers",
           "safetensors",
-          "time-series",
-          "forecasting",
-          "foundation-model",
-          "time-series-forecasting",
-          "license:other",
-          "model-index",
+          "moss-image",
+          "text-to-image",
+          "en",
+          "base_model:OpenMOSS-Team/MOSS-Image-Base",
+          "base_model:finetune:OpenMOSS-Team/MOSS-Image-Base",
+          "license:apache-2.0",
+          "diffusers:MOSSImagePipeline",
           "region:us"
         ],
-        "pipeline_tag": "time-series-forecasting",
+        "pipeline_tag": "text-to-image",
         "lastModified": "",
-        "link": "https://huggingface.co/mistralai/Timestral-209M"
+        "link": "https://huggingface.co/lodestones/Kromoss"
       },
       {
         "id": "tencent/Hy-Memory-30B-A3B",
         "author": "tencent",
-        "likes": 297,
+        "likes": 298,
         "downloads": 3270,
         "tags": [
           "transformers",
@@ -644,6 +665,35 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/tencent/Hy-Memory-30B-A3B"
+      },
+      {
+        "id": "MiniMaxAI/MiniMax-M3.1-Flash",
+        "author": "MiniMaxAI",
+        "likes": 206,
+        "downloads": 1096,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minimax_m3_vl",
+          "image-text-to-text",
+          "multimodal",
+          "moe",
+          "agent",
+          "coding",
+          "video",
+          "conversational",
+          "custom_code",
+          "arxiv:2606.13392",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "8-bit",
+          "mxfp8",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
       },
       {
         "id": "reflection/Beam-1.0-501B-A23B",
@@ -669,27 +719,6 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/reflection/Beam-1.0-501B-A23B"
-      },
-      {
-        "id": "lodestones/Kromoss",
-        "author": "lodestones",
-        "likes": 228,
-        "downloads": 16365,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "moss-image",
-          "text-to-image",
-          "en",
-          "base_model:OpenMOSS-Team/MOSS-Image-Base",
-          "base_model:finetune:OpenMOSS-Team/MOSS-Image-Base",
-          "license:apache-2.0",
-          "diffusers:MOSSImagePipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/lodestones/Kromoss"
       },
       {
         "id": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
@@ -739,7 +768,7 @@
       {
         "id": "orcarouter/OrcaCyber-Nano-1.0",
         "author": "orcarouter",
-        "likes": 201,
+        "likes": 203,
         "downloads": 22314,
         "tags": [
           "gguf",
@@ -767,34 +796,6 @@
         "link": "https://huggingface.co/orcarouter/OrcaCyber-Nano-1.0"
       },
       {
-        "id": "MiniMaxAI/MiniMax-M3.1-Flash",
-        "author": "MiniMaxAI",
-        "likes": 192,
-        "downloads": 1096,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "minimax_m3_vl",
-          "image-text-to-text",
-          "multimodal",
-          "moe",
-          "agent",
-          "coding",
-          "video",
-          "conversational",
-          "custom_code",
-          "arxiv:2606.13392",
-          "license:other",
-          "endpoints_compatible",
-          "8-bit",
-          "mxfp8",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
-      },
-      {
         "id": "facebook/sam3",
         "author": "facebook",
         "likes": 4961,
@@ -820,7 +821,7 @@
       {
         "id": "unsloth/flint-GGUF",
         "author": "unsloth",
-        "likes": 170,
+        "likes": 173,
         "downloads": 33277,
         "tags": [
           "gguf",
@@ -842,7 +843,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
         "author": "nvidia",
-        "likes": 170,
+        "likes": 171,
         "downloads": 3769,
         "tags": [
           "transformers",
@@ -867,7 +868,7 @@
       {
         "id": "Qwen/Qwen3.8-Flash-Next",
         "author": "Qwen",
-        "likes": 6425,
+        "likes": 6428,
         "downloads": 2788737,
         "tags": [
           "transformers",
@@ -892,7 +893,7 @@
       {
         "id": "nvidia/Nemotron-Personas-Vietnam",
         "author": "nvidia",
-        "likes": 205,
+        "likes": 206,
         "downloads": 17464,
         "tags": [
           "task_categories:text-generation",
@@ -920,7 +921,7 @@
       {
         "id": "Vyber07/cyber-security",
         "author": "Vyber07",
-        "likes": 276,
+        "likes": 280,
         "downloads": 3931,
         "tags": [
           "task_categories:text-generation",
@@ -1229,6 +1230,19 @@
         "link": "https://huggingface.co/datasets/hongzhuyi/VDEBench"
       },
       {
+        "id": "nvidia/simready-assets",
+        "author": "nvidia",
+        "likes": 45,
+        "downloads": 215679,
+        "tags": [
+          "size_categories:n<1K",
+          "modality:image",
+          "region:us"
+        ],
+        "lastModified": "2026-10-20T00:15:00.000Z",
+        "link": "https://huggingface.co/datasets/nvidia/simready-assets"
+      },
+      {
         "id": "Qwen/BlenderWorld",
         "author": "Qwen",
         "likes": 49,
@@ -1248,19 +1262,6 @@
         ],
         "lastModified": "2026-10-15T09:46:44.000Z",
         "link": "https://huggingface.co/datasets/Qwen/BlenderWorld"
-      },
-      {
-        "id": "nvidia/simready-assets",
-        "author": "nvidia",
-        "likes": 43,
-        "downloads": 215679,
-        "tags": [
-          "size_categories:n<1K",
-          "modality:image",
-          "region:us"
-        ],
-        "lastModified": "2026-10-20T00:15:00.000Z",
-        "link": "https://huggingface.co/datasets/nvidia/simready-assets"
       },
       {
         "id": "FineEnvs/openai-math",
@@ -1319,37 +1320,9 @@
         "link": "https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design"
       },
       {
-        "id": "TheAgenticDataCompany/open-yap-1k",
-        "author": "TheAgenticDataCompany",
-        "likes": 147,
-        "downloads": 2694,
-        "tags": [
-          "task_categories:audio-to-audio",
-          "task_categories:automatic-speech-recognition",
-          "task_categories:text-to-speech",
-          "annotations_creators:machine-generated",
-          "language_creators:crowdsourced",
-          "language:en",
-          "license:cc-by-4.0",
-          "size_categories:n<1K",
-          "format:audiofolder",
-          "modality:audio",
-          "modality:text",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us",
-          "speech",
-          "audio",
-          "full-duplex",
-          "conversational"
-        ],
-        "lastModified": "2026-10-21T07:08:26.000Z",
-        "link": "https://huggingface.co/datasets/TheAgenticDataCompany/open-yap-1k"
-      },
-      {
         "id": "bones-studio/seed",
         "author": "bones-studio",
-        "likes": 325,
+        "likes": 326,
         "downloads": 6502,
         "tags": [
           "task_categories:robotics",
@@ -1378,6 +1351,119 @@
         ],
         "lastModified": "2026-05-03T15:03:12.000Z",
         "link": "https://huggingface.co/datasets/bones-studio/seed"
+      },
+      {
+        "id": "TheAgenticDataCompany/open-yap-1k",
+        "author": "TheAgenticDataCompany",
+        "likes": 147,
+        "downloads": 2694,
+        "tags": [
+          "task_categories:audio-to-audio",
+          "task_categories:automatic-speech-recognition",
+          "task_categories:text-to-speech",
+          "annotations_creators:machine-generated",
+          "language_creators:crowdsourced",
+          "language:en",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:audiofolder",
+          "modality:audio",
+          "modality:text",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "speech",
+          "audio",
+          "full-duplex",
+          "conversational"
+        ],
+        "lastModified": "2026-10-21T07:08:26.000Z",
+        "link": "https://huggingface.co/datasets/TheAgenticDataCompany/open-yap-1k"
+      },
+      {
+        "id": "CohereLabsCommunity/CulturalRiddles",
+        "author": "CohereLabsCommunity",
+        "likes": 22,
+        "downloads": 248,
+        "tags": [
+          "task_categories:question-answering",
+          "annotations_creators:expert-generated",
+          "language_creators:expert-generated",
+          "multilinguality:multilingual",
+          "source_datasets:original",
+          "language:aeb",
+          "language:apc",
+          "language:apd",
+          "language:ary",
+          "language:arz",
+          "language:asm",
+          "language:bel",
+          "language:ben",
+          "language:bug",
+          "language:bul",
+          "language:cat",
+          "language:deu",
+          "language:eng",
+          "language:fra",
+          "language:gaz",
+          "language:guj",
+          "language:hun",
+          "language:ind",
+          "language:ita",
+          "language:jpn",
+          "language:kan",
+          "language:kok",
+          "language:ltz",
+          "language:lug",
+          "language:mal",
+          "language:mar",
+          "language:mog",
+          "language:myx",
+          "language:nep",
+          "language:nld",
+          "language:pes",
+          "language:pol",
+          "language:por",
+          "language:rus",
+          "language:sin",
+          "language:snd",
+          "language:spa",
+          "language:srp",
+          "language:swa",
+          "language:tam",
+          "language:tel",
+          "language:tha",
+          "language:tur",
+          "language:ukr",
+          "language:urd",
+          "language:uzb",
+          "language:vie",
+          "language:yor",
+          "language:yue",
+          "language:zho",
+          "language:zsm",
+          "license:other",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2610.29968",
+          "region:us",
+          "riddles",
+          "cultural-reasoning",
+          "cultural-knowledge",
+          "multilingual",
+          "multicultural",
+          "community-curated",
+          "low-resource-languages",
+          "human-evaluation"
+        ],
+        "lastModified": "2026-10-23T00:11:20.000Z",
+        "link": "https://huggingface.co/datasets/CohereLabsCommunity/CulturalRiddles"
       },
       {
         "id": "wikimedia/wikipedia",
@@ -1724,91 +1810,6 @@
         ],
         "lastModified": "2024-01-09T09:40:51.000Z",
         "link": "https://huggingface.co/datasets/wikimedia/wikipedia"
-      },
-      {
-        "id": "CohereLabsCommunity/CulturalRiddles",
-        "author": "CohereLabsCommunity",
-        "likes": 21,
-        "downloads": 248,
-        "tags": [
-          "task_categories:question-answering",
-          "annotations_creators:expert-generated",
-          "language_creators:expert-generated",
-          "multilinguality:multilingual",
-          "source_datasets:original",
-          "language:aeb",
-          "language:apc",
-          "language:apd",
-          "language:ary",
-          "language:arz",
-          "language:asm",
-          "language:bel",
-          "language:ben",
-          "language:bug",
-          "language:bul",
-          "language:cat",
-          "language:deu",
-          "language:eng",
-          "language:fra",
-          "language:gaz",
-          "language:guj",
-          "language:hun",
-          "language:ind",
-          "language:ita",
-          "language:jpn",
-          "language:kan",
-          "language:kok",
-          "language:ltz",
-          "language:lug",
-          "language:mal",
-          "language:mar",
-          "language:mog",
-          "language:myx",
-          "language:nep",
-          "language:nld",
-          "language:pes",
-          "language:pol",
-          "language:por",
-          "language:rus",
-          "language:sin",
-          "language:snd",
-          "language:spa",
-          "language:srp",
-          "language:swa",
-          "language:tam",
-          "language:tel",
-          "language:tha",
-          "language:tur",
-          "language:ukr",
-          "language:urd",
-          "language:uzb",
-          "language:vie",
-          "language:yor",
-          "language:yue",
-          "language:zho",
-          "language:zsm",
-          "license:other",
-          "size_categories:100K<n<1M",
-          "format:parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2610.29968",
-          "region:us",
-          "riddles",
-          "cultural-reasoning",
-          "cultural-knowledge",
-          "multilingual",
-          "multicultural",
-          "community-curated",
-          "low-resource-languages",
-          "human-evaluation"
-        ],
-        "lastModified": "2026-10-23T00:11:20.000Z",
-        "link": "https://huggingface.co/datasets/CohereLabsCommunity/CulturalRiddles"
       }
     ]
   }
