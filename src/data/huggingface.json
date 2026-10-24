@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-24T11:00:17.134Z",
+  "updatedAt": "2026-10-24T12:00:20.428Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "author": "deepseek-ai",
-        "likes": 2660,
+        "likes": 2669,
         "downloads": 73215,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "RecursiveSI/flint",
         "author": "RecursiveSI",
-        "likes": 717,
+        "likes": 723,
         "downloads": 4795,
         "tags": [
           "transformers",
@@ -47,7 +47,7 @@
       {
         "id": "black-forest-labs/flux-3-image-klein-comfy",
         "author": "black-forest-labs",
-        "likes": 1443,
+        "likes": 1448,
         "downloads": 590742,
         "tags": [
           "diffusion-single-file",
@@ -71,7 +71,7 @@
       {
         "id": "OpenMOSS-Team/MOSS-Image-SFT",
         "author": "OpenMOSS-Team",
-        "likes": 665,
+        "likes": 667,
         "downloads": 9717,
         "tags": [
           "diffusers",
@@ -94,7 +94,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 9092,
+        "likes": 9098,
         "downloads": 2087721,
         "tags": [
           "diffusion-single-file",
@@ -134,7 +134,7 @@
       {
         "id": "XHToken/Spark-X2.6-4B",
         "author": "XHToken",
-        "likes": 427,
+        "likes": 428,
         "downloads": 2537,
         "tags": [
           "transformers",
@@ -159,7 +159,7 @@
       {
         "id": "fishaudio/drama-3",
         "author": "fishaudio",
-        "likes": 959,
+        "likes": 960,
         "downloads": 19831,
         "tags": [
           "safetensors",
@@ -283,9 +283,31 @@
         "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base"
       },
       {
+        "id": "Qwen/Qwen3.8-27B",
+        "author": "Qwen",
+        "likes": 18310,
+        "downloads": 7851161,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "conversational",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:azure",
+          "deploy:sagemaker",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
+      },
+      {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "author": "abenzerps",
-        "likes": 4924,
+        "likes": 4925,
         "downloads": 2303585,
         "tags": [
           "gguf",
@@ -307,31 +329,9 @@
         "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
       },
       {
-        "id": "Qwen/Qwen3.8-27B",
-        "author": "Qwen",
-        "likes": 18309,
-        "downloads": 7851161,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "conversational",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:azure",
-          "deploy:sagemaker",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
-      },
-      {
         "id": "Comfy-Org/MOSS-Image",
         "author": "Comfy-Org",
-        "likes": 409,
+        "likes": 412,
         "downloads": 1944278,
         "tags": [
           "diffusion-single-file",
@@ -348,7 +348,7 @@
       {
         "id": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
         "author": "dealignai",
-        "likes": 316,
+        "likes": 318,
         "downloads": 5583,
         "tags": [
           "transformers",
@@ -415,7 +415,7 @@
       {
         "id": "google/embeddinggemma-2",
         "author": "google",
-        "likes": 2880,
+        "likes": 2882,
         "downloads": 206909,
         "tags": [
           "transformers",
@@ -445,7 +445,7 @@
       {
         "id": "InternScience/Sage-A1.5",
         "author": "InternScience",
-        "likes": 260,
+        "likes": 261,
         "downloads": 2033,
         "tags": [
           "transformers",
@@ -472,7 +472,7 @@
       {
         "id": "mistralai/Timestral-209M",
         "author": "mistralai",
-        "likes": 323,
+        "likes": 325,
         "downloads": 8731,
         "tags": [
           "timestral",
@@ -490,41 +490,9 @@
         "link": "https://huggingface.co/mistralai/Timestral-209M"
       },
       {
-        "id": "jialinyyzz/humanizer",
-        "author": "jialinyyzz",
-        "likes": 2123,
-        "downloads": 138556,
-        "tags": [
-          "gguf",
-          "safetensors",
-          "gemma4_unified",
-          "image-text-to-text",
-          "humanizer",
-          "transformers",
-          "text-rewriting",
-          "rewriting",
-          "paraphrase",
-          "style-transfer",
-          "llama.cpp",
-          "gemma4",
-          "text-generation",
-          "en",
-          "zh",
-          "base_model:google/gemma-4-12B",
-          "base_model:finetune:google/gemma-4-12B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/jialinyyzz/humanizer"
-      },
-      {
         "id": "lodestones/Kromoss",
         "author": "lodestones",
-        "likes": 239,
+        "likes": 240,
         "downloads": 21143,
         "tags": [
           "diffusers",
@@ -545,7 +513,7 @@
       {
         "id": "datalab-to/indra-ocr",
         "author": "datalab-to",
-        "likes": 394,
+        "likes": 395,
         "downloads": 4436,
         "tags": [
           "onnx",
@@ -625,9 +593,41 @@
         "link": "https://huggingface.co/datalab-to/indra-ocr"
       },
       {
+        "id": "jialinyyzz/humanizer",
+        "author": "jialinyyzz",
+        "likes": 2124,
+        "downloads": 138556,
+        "tags": [
+          "gguf",
+          "safetensors",
+          "gemma4_unified",
+          "image-text-to-text",
+          "humanizer",
+          "transformers",
+          "text-rewriting",
+          "rewriting",
+          "paraphrase",
+          "style-transfer",
+          "llama.cpp",
+          "gemma4",
+          "text-generation",
+          "en",
+          "zh",
+          "base_model:google/gemma-4-12B",
+          "base_model:finetune:google/gemma-4-12B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/jialinyyzz/humanizer"
+      },
+      {
         "id": "orcarouter/OrcaCyber-Nano-1.0",
         "author": "orcarouter",
-        "likes": 218,
+        "likes": 219,
         "downloads": 27054,
         "tags": [
           "gguf",
@@ -657,7 +657,7 @@
       {
         "id": "unsloth/flint-GGUF",
         "author": "unsloth",
-        "likes": 202,
+        "likes": 204,
         "downloads": 78891,
         "tags": [
           "gguf",
@@ -679,7 +679,7 @@
       {
         "id": "black-forest-labs/flux-3-image-klein",
         "author": "black-forest-labs",
-        "likes": 661,
+        "likes": 662,
         "downloads": 112091,
         "tags": [
           "diffusers",
@@ -701,7 +701,7 @@
       {
         "id": "facebook/sam3",
         "author": "facebook",
-        "likes": 5001,
+        "likes": 5002,
         "downloads": 1863670,
         "tags": [
           "transformers",
@@ -722,36 +722,9 @@
         "link": "https://huggingface.co/facebook/sam3"
       },
       {
-        "id": "meta-models/Muse-Spark-Open-816B-A42B",
-        "author": "meta-models",
-        "likes": 680,
-        "downloads": 6811,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "muse_spark",
-          "image-text-to-text",
-          "facebook",
-          "meta",
-          "pytorch",
-          "muse",
-          "muse-spark",
-          "conversational",
-          "en",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "deploy:sagemaker",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
-      },
-      {
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 2033,
+        "likes": 2036,
         "downloads": 1679051,
         "tags": [
           "gguf",
@@ -799,6 +772,33 @@
         "link": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
       },
       {
+        "id": "meta-models/Muse-Spark-Open-816B-A42B",
+        "author": "meta-models",
+        "likes": 680,
+        "downloads": 6811,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "muse_spark",
+          "image-text-to-text",
+          "facebook",
+          "meta",
+          "pytorch",
+          "muse",
+          "muse-spark",
+          "conversational",
+          "en",
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "deploy:sagemaker",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+      },
+      {
         "id": "tencent/Hy-Memory-30B-A3B",
         "author": "tencent",
         "likes": 305,
@@ -823,7 +823,7 @@
       {
         "id": "Comfy-Org/Fibo-2.0",
         "author": "Comfy-Org",
-        "likes": 156,
+        "likes": 157,
         "downloads": 111611,
         "tags": [
           "diffusion-single-file",
@@ -915,7 +915,7 @@
       {
         "id": "Vyber07/cyber-security",
         "author": "Vyber07",
-        "likes": 306,
+        "likes": 307,
         "downloads": 4262,
         "tags": [
           "task_categories:text-generation",
@@ -980,7 +980,7 @@
       {
         "id": "scenario-labs/3d-collection",
         "author": "scenario-labs",
-        "likes": 106,
+        "likes": 112,
         "downloads": 6797,
         "tags": [
           "license:cc-by-4.0",
@@ -1048,7 +1048,7 @@
       {
         "id": "nvidia/simready-assets",
         "author": "nvidia",
-        "likes": 61,
+        "likes": 65,
         "downloads": 235040,
         "tags": [
           "size_categories:n<1K",
@@ -1450,6 +1450,32 @@
         "link": "https://huggingface.co/datasets/TheAgenticDataCompany/open-yap-1k"
       },
       {
+        "id": "FineEnvs/openai-math",
+        "author": "FineEnvs",
+        "likes": 126,
+        "downloads": 12651,
+        "tags": [
+          "task_categories:other",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "modality:text",
+          "library:datasets",
+          "library:harbor",
+          "library:mlcroissant",
+          "region:us",
+          "harbor",
+          "rl-environment",
+          "reinforcement-learning",
+          "code-agent",
+          "lean4",
+          "mathlib",
+          "theorem-proving",
+          "openai-math"
+        ],
+        "lastModified": "2026-10-09T05:53:45.000Z",
+        "link": "https://huggingface.co/datasets/FineEnvs/openai-math"
+      },
+      {
         "id": "bones-studio/seed",
         "author": "bones-studio",
         "likes": 328,
@@ -1481,32 +1507,6 @@
         ],
         "lastModified": "2026-05-03T15:03:12.000Z",
         "link": "https://huggingface.co/datasets/bones-studio/seed"
-      },
-      {
-        "id": "FineEnvs/openai-math",
-        "author": "FineEnvs",
-        "likes": 125,
-        "downloads": 12651,
-        "tags": [
-          "task_categories:other",
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "modality:text",
-          "library:datasets",
-          "library:harbor",
-          "library:mlcroissant",
-          "region:us",
-          "harbor",
-          "rl-environment",
-          "reinforcement-learning",
-          "code-agent",
-          "lean4",
-          "mathlib",
-          "theorem-proving",
-          "openai-math"
-        ],
-        "lastModified": "2026-10-09T05:53:45.000Z",
-        "link": "https://huggingface.co/datasets/FineEnvs/openai-math"
       }
     ]
   }
