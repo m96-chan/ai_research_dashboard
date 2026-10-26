@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-26T15:00:27.072Z",
+  "updatedAt": "2026-10-26T16:00:25.572Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "author": "deepseek-ai",
-        "likes": 3119,
+        "likes": 3127,
         "downloads": 95889,
         "tags": [
           "transformers",
@@ -28,7 +28,7 @@
       {
         "id": "RecursiveSI/flint",
         "author": "RecursiveSI",
-        "likes": 895,
+        "likes": 896,
         "downloads": 8470,
         "tags": [
           "transformers",
@@ -47,7 +47,7 @@
       {
         "id": "Nanbeige/Nanbeige4.3-33B",
         "author": "Nanbeige",
-        "likes": 539,
+        "likes": 545,
         "downloads": 2787,
         "tags": [
           "transformers",
@@ -73,7 +73,7 @@
       {
         "id": "XHToken/Spark-X2.6-4B",
         "author": "XHToken",
-        "likes": 618,
+        "likes": 624,
         "downloads": 4726,
         "tags": [
           "transformers",
@@ -98,7 +98,7 @@
       {
         "id": "black-forest-labs/flux-3-image-klein-comfy",
         "author": "black-forest-labs",
-        "likes": 1658,
+        "likes": 1666,
         "downloads": 700652,
         "tags": [
           "diffusion-single-file",
@@ -122,7 +122,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 9401,
+        "likes": 9407,
         "downloads": 2117147,
         "tags": [
           "diffusion-single-file",
@@ -162,7 +162,7 @@
       {
         "id": "MiniMaxAI/MiniMax-M3.1-Flash",
         "author": "MiniMaxAI",
-        "likes": 373,
+        "likes": 376,
         "downloads": 8782,
         "tags": [
           "transformers",
@@ -191,7 +191,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 18436,
+        "likes": 18439,
         "downloads": 7608285,
         "tags": [
           "transformers",
@@ -209,6 +209,56 @@
         "pipeline_tag": "image-text-to-text",
         "lastModified": "",
         "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
+      },
+      {
+        "id": "OpenMOSS-Team/MOSS-Image-SFT",
+        "author": "OpenMOSS-Team",
+        "likes": 746,
+        "downloads": 12114,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "moss-image",
+          "text-to-image",
+          "en",
+          "zh",
+          "arxiv:2610.23374",
+          "base_model:OpenMOSS-Team/MOSS-Image-Base",
+          "base_model:finetune:OpenMOSS-Team/MOSS-Image-Base",
+          "license:apache-2.0",
+          "diffusers:MOSSImagePipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
+      },
+      {
+        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "author": "ISTA-DASLab",
+        "likes": 328,
+        "downloads": 891147,
+        "tags": [
+          "gguf",
+          "gsq",
+          "rco",
+          "quantization",
+          "mixed-precision",
+          "ist-daslab",
+          "moe",
+          "deepseek",
+          "text-generation",
+          "conversational",
+          "arxiv:2604.18556",
+          "arxiv:2605.00649",
+          "base_model:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "license:mit",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
       },
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
@@ -235,59 +285,9 @@
         "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
       },
       {
-        "id": "OpenMOSS-Team/MOSS-Image-SFT",
-        "author": "OpenMOSS-Team",
-        "likes": 743,
-        "downloads": 12114,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "moss-image",
-          "text-to-image",
-          "en",
-          "zh",
-          "arxiv:2610.23374",
-          "base_model:OpenMOSS-Team/MOSS-Image-Base",
-          "base_model:finetune:OpenMOSS-Team/MOSS-Image-Base",
-          "license:apache-2.0",
-          "diffusers:MOSSImagePipeline",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
-      },
-      {
-        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-        "author": "ISTA-DASLab",
-        "likes": 325,
-        "downloads": 891147,
-        "tags": [
-          "gguf",
-          "gsq",
-          "rco",
-          "quantization",
-          "mixed-precision",
-          "ist-daslab",
-          "moe",
-          "deepseek",
-          "text-generation",
-          "conversational",
-          "arxiv:2604.18556",
-          "arxiv:2605.00649",
-          "base_model:deepseek-ai/DeepSeek-V4.1-Flash-1017",
-          "base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash-1017",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
-      },
-      {
         "id": "InternScience/Sage-A1.5",
         "author": "InternScience",
-        "likes": 304,
+        "likes": 306,
         "downloads": 5235,
         "tags": [
           "transformers",
@@ -314,7 +314,7 @@
       {
         "id": "fishaudio/drama-3",
         "author": "fishaudio",
-        "likes": 1024,
+        "likes": 1025,
         "downloads": 23216,
         "tags": [
           "safetensors",
@@ -496,7 +496,7 @@
       {
         "id": "mistralai/Timestral-209M",
         "author": "mistralai",
-        "likes": 389,
+        "likes": 393,
         "downloads": 10971,
         "tags": [
           "timestral",
@@ -516,7 +516,7 @@
       {
         "id": "datalab-to/indra-ocr",
         "author": "datalab-to",
-        "likes": 434,
+        "likes": 435,
         "downloads": 5008,
         "tags": [
           "onnx",
@@ -598,7 +598,7 @@
       {
         "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
         "author": "orcarouter",
-        "likes": 231,
+        "likes": 232,
         "downloads": 9022,
         "tags": [
           "gguf",
@@ -634,7 +634,7 @@
       {
         "id": "OpenMOSS-Team/MOSS-Image-Base",
         "author": "OpenMOSS-Team",
-        "likes": 561,
+        "likes": 564,
         "downloads": 8080,
         "tags": [
           "diffusers",
@@ -655,7 +655,7 @@
       {
         "id": "HuggingFaceBio/Carbon-X",
         "author": "HuggingFaceBio",
-        "likes": 197,
+        "likes": 198,
         "downloads": 1128,
         "tags": [
           "transformers",
@@ -680,57 +680,9 @@
         "link": "https://huggingface.co/HuggingFaceBio/Carbon-X"
       },
       {
-        "id": "google/embeddinggemma-2",
-        "author": "google",
-        "likes": 2936,
-        "downloads": 231262,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "embedding_gemma2",
-          "feature-extraction",
-          "embedding",
-          "sentence-transformers",
-          "multimodal-embedding",
-          "multimodal",
-          "vision",
-          "audio",
-          "video",
-          "image-feature-extraction",
-          "audio-feature-extraction",
-          "video-feature-extraction",
-          "sentence-similarity",
-          "multilingual",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "feature-extraction",
-        "lastModified": "",
-        "link": "https://huggingface.co/google/embeddinggemma-2"
-      },
-      {
-        "id": "Comfy-Org/Fibo-2.0",
-        "author": "Comfy-Org",
-        "likes": 188,
-        "downloads": 146049,
-        "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "arxiv:2511.06876",
-          "base_model:briaai/Fibo-2.0-dev",
-          "base_model:finetune:briaai/Fibo-2.0-dev",
-          "license:cc-by-nc-4.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/Comfy-Org/Fibo-2.0"
-      },
-      {
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 2102,
+        "likes": 2105,
         "downloads": 1687633,
         "tags": [
           "gguf",
@@ -778,30 +730,57 @@
         "link": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
       },
       {
-        "id": "lodestones/Kromoss",
-        "author": "lodestones",
-        "likes": 264,
-        "downloads": 27829,
+        "id": "Comfy-Org/Fibo-2.0",
+        "author": "Comfy-Org",
+        "likes": 190,
+        "downloads": 146049,
         "tags": [
-          "diffusers",
-          "safetensors",
-          "moss-image",
-          "text-to-image",
-          "en",
-          "base_model:OpenMOSS-Team/MOSS-Image-Base",
-          "base_model:finetune:OpenMOSS-Team/MOSS-Image-Base",
-          "license:apache-2.0",
-          "diffusers:MOSSImagePipeline",
+          "diffusion-single-file",
+          "comfyui",
+          "arxiv:2511.06876",
+          "base_model:briaai/Fibo-2.0-dev",
+          "base_model:finetune:briaai/Fibo-2.0-dev",
+          "license:cc-by-nc-4.0",
           "region:us"
         ],
-        "pipeline_tag": "text-to-image",
+        "pipeline_tag": "",
         "lastModified": "",
-        "link": "https://huggingface.co/lodestones/Kromoss"
+        "link": "https://huggingface.co/Comfy-Org/Fibo-2.0"
+      },
+      {
+        "id": "google/embeddinggemma-2",
+        "author": "google",
+        "likes": 2937,
+        "downloads": 231262,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "embedding_gemma2",
+          "feature-extraction",
+          "embedding",
+          "sentence-transformers",
+          "multimodal-embedding",
+          "multimodal",
+          "vision",
+          "audio",
+          "video",
+          "image-feature-extraction",
+          "audio-feature-extraction",
+          "video-feature-extraction",
+          "sentence-similarity",
+          "multilingual",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "feature-extraction",
+        "lastModified": "",
+        "link": "https://huggingface.co/google/embeddinggemma-2"
       },
       {
         "id": "KRAFTON/Raon-1-mini-preview",
         "author": "KRAFTON",
-        "likes": 192,
+        "likes": 193,
         "downloads": 1450,
         "tags": [
           "transformers",
@@ -820,9 +799,30 @@
         "link": "https://huggingface.co/KRAFTON/Raon-1-mini-preview"
       },
       {
+        "id": "lodestones/Kromoss",
+        "author": "lodestones",
+        "likes": 265,
+        "downloads": 27829,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "moss-image",
+          "text-to-image",
+          "en",
+          "base_model:OpenMOSS-Team/MOSS-Image-Base",
+          "base_model:finetune:OpenMOSS-Team/MOSS-Image-Base",
+          "license:apache-2.0",
+          "diffusers:MOSSImagePipeline",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/lodestones/Kromoss"
+      },
+      {
         "id": "ornith-ai/Ornith-1.5-122B",
         "author": "ornith-ai",
-        "likes": 182,
+        "likes": 183,
         "downloads": 60210,
         "tags": [
           "transformers",
@@ -897,7 +897,7 @@
       {
         "id": "briaai/Fibo-2.0-dev",
         "author": "briaai",
-        "likes": 160,
+        "likes": 163,
         "downloads": 1267,
         "tags": [
           "diffusers",
@@ -929,7 +929,7 @@
       {
         "id": "nvidia/simready-assets",
         "author": "nvidia",
-        "likes": 378,
+        "likes": 394,
         "downloads": 393196,
         "tags": [
           "size_categories:n<1K",
@@ -942,7 +942,7 @@
       {
         "id": "scenario-labs/3d-collection",
         "author": "scenario-labs",
-        "likes": 250,
+        "likes": 251,
         "downloads": 20299,
         "tags": [
           "license:cc-by-4.0",
@@ -963,7 +963,7 @@
       {
         "id": "Vyber07/cyber-security",
         "author": "Vyber07",
-        "likes": 367,
+        "likes": 368,
         "downloads": 4823,
         "tags": [
           "task_categories:text-generation",
@@ -1000,7 +1000,7 @@
       {
         "id": "venvoo/china-a-share-l2-level2-limit-order-book-tick-data",
         "author": "venvoo",
-        "likes": 475,
+        "likes": 476,
         "downloads": 174535,
         "tags": [
           "license:other",
@@ -1128,39 +1128,9 @@
         "link": "https://huggingface.co/datasets/hongzhuyi/VDEBench"
       },
       {
-        "id": "LocalLLaMA/typed-decisions",
-        "author": "LocalLLaMA",
-        "likes": 249,
-        "downloads": 43341,
-        "tags": [
-          "benchmark:official",
-          "benchmark:eval-yaml",
-          "task_categories:text-classification",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "structured-decisions",
-          "calibration",
-          "probabilistic-classification",
-          "system-one",
-          "workflow-evaluation",
-          "synthetic"
-        ],
-        "lastModified": "2026-10-24T14:49:22.000Z",
-        "link": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions"
-      },
-      {
         "id": "MoreThought/Fable-5.1-Max-Reasoning-Filtered-10000x",
         "author": "MoreThought",
-        "likes": 397,
+        "likes": 398,
         "downloads": 4961,
         "tags": [
           "task_categories:text-generation",
@@ -1203,6 +1173,36 @@
         ],
         "lastModified": "2026-10-10T12:16:08.000Z",
         "link": "https://huggingface.co/datasets/MoreThought/Fable-5.1-Max-Reasoning-Filtered-10000x"
+      },
+      {
+        "id": "LocalLLaMA/typed-decisions",
+        "author": "LocalLLaMA",
+        "likes": 249,
+        "downloads": 43341,
+        "tags": [
+          "benchmark:official",
+          "benchmark:eval-yaml",
+          "task_categories:text-classification",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "structured-decisions",
+          "calibration",
+          "probabilistic-classification",
+          "system-one",
+          "workflow-evaluation",
+          "synthetic"
+        ],
+        "lastModified": "2026-10-24T14:49:22.000Z",
+        "link": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions"
       },
       {
         "id": "XiaomiMiMo/MiMo-V2.6-RL-oss",
@@ -1313,7 +1313,7 @@
       {
         "id": "Qwen/BlenderWorld",
         "author": "Qwen",
-        "likes": 60,
+        "likes": 61,
         "downloads": 8687,
         "tags": [
           "language:en",
@@ -1453,31 +1453,9 @@
         "link": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-UK"
       },
       {
-        "id": "Sharpa-Robotics/SharpaDex-v1.0",
-        "author": "Sharpa-Robotics",
-        "likes": 50,
-        "downloads": 116351,
-        "tags": [
-          "license:cc-by-nc-4.0",
-          "size_categories:100K<n<1M",
-          "modality:video",
-          "region:us",
-          "robotics",
-          "lerobot",
-          "imitation-learning",
-          "visuomotor-learning",
-          "tactile-sensing",
-          "dexterous-manipulation",
-          "bimanual-manipulation",
-          "language-conditioned-robotics"
-        ],
-        "lastModified": "2026-10-20T05:38:27.000Z",
-        "link": "https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0"
-      },
-      {
         "id": "TheAgenticDataCompany/open-yap-1k",
         "author": "TheAgenticDataCompany",
-        "likes": 156,
+        "likes": 157,
         "downloads": 2852,
         "tags": [
           "task_categories:audio-to-audio",
@@ -1501,6 +1479,28 @@
         ],
         "lastModified": "2026-10-21T07:08:26.000Z",
         "link": "https://huggingface.co/datasets/TheAgenticDataCompany/open-yap-1k"
+      },
+      {
+        "id": "Sharpa-Robotics/SharpaDex-v1.0",
+        "author": "Sharpa-Robotics",
+        "likes": 50,
+        "downloads": 116351,
+        "tags": [
+          "license:cc-by-nc-4.0",
+          "size_categories:100K<n<1M",
+          "modality:video",
+          "region:us",
+          "robotics",
+          "lerobot",
+          "imitation-learning",
+          "visuomotor-learning",
+          "tactile-sensing",
+          "dexterous-manipulation",
+          "bimanual-manipulation",
+          "language-conditioned-robotics"
+        ],
+        "lastModified": "2026-10-20T05:38:27.000Z",
+        "link": "https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0"
       },
       {
         "id": "ILSVRC/imagenet-1k",
