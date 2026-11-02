@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-02T06:00:19.305Z",
+  "updatedAt": "2026-11-02T07:00:28.212Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "author": "deepseek-ai",
-        "likes": 4406,
+        "likes": 4422,
         "downloads": 170353,
         "tags": [
           "transformers",
@@ -29,7 +29,7 @@
       {
         "id": "LiquidAI/LFM3-1.7B",
         "author": "LiquidAI",
-        "likes": 733,
+        "likes": 738,
         "downloads": 37568,
         "tags": [
           "transformers",
@@ -69,7 +69,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
         "author": "nvidia",
-        "likes": 620,
+        "likes": 623,
         "downloads": 29364,
         "tags": [
           "nemo",
@@ -151,7 +151,7 @@
       {
         "id": "mistralai/Mistral-Large-4-1T-A52B",
         "author": "mistralai",
-        "likes": 1464,
+        "likes": 1465,
         "downloads": 4576,
         "tags": [
           "transformers",
@@ -213,7 +213,7 @@
       {
         "id": "baidu/Unlimited-OCR-2",
         "author": "baidu",
-        "likes": 535,
+        "likes": 537,
         "downloads": 109519,
         "tags": [
           "transformers",
@@ -226,6 +226,7 @@
           "custom_code",
           "image-text-to-text",
           "multilingual",
+          "arxiv:2610.39308",
           "arxiv:2606.23050",
           "license:mit",
           "region:us"
@@ -262,9 +263,34 @@
         "link": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
       },
       {
+        "id": "ccore/Qwen3.5-4B-3D-Coder",
+        "author": "ccore",
+        "likes": 510,
+        "downloads": 44825,
+        "tags": [
+          "safetensors",
+          "gguf",
+          "qwen3_5",
+          "code",
+          "threejs",
+          "3d",
+          "preview",
+          "dataset:ccore/ThreeJS-3D-Scenes",
+          "base_model:Qwen/Qwen3.5-4B",
+          "base_model:finetune:Qwen/Qwen3.5-4B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
+      },
+      {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 10243,
+        "likes": 10248,
         "downloads": 2431846,
         "tags": [
           "diffusion-single-file",
@@ -302,34 +328,9 @@
         "link": "https://huggingface.co/Lightricks/LTX-2.5"
       },
       {
-        "id": "ccore/Qwen3.5-4B-3D-Coder",
-        "author": "ccore",
-        "likes": 507,
-        "downloads": 44825,
-        "tags": [
-          "safetensors",
-          "gguf",
-          "qwen3_5",
-          "code",
-          "threejs",
-          "3d",
-          "preview",
-          "dataset:ccore/ThreeJS-3D-Scenes",
-          "base_model:Qwen/Qwen3.5-4B",
-          "base_model:finetune:Qwen/Qwen3.5-4B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
-      },
-      {
         "id": "Pika-Labs/Pika-H3-Flex",
         "author": "Pika-Labs",
-        "likes": 327,
+        "likes": 330,
         "downloads": 404,
         "tags": [
           "diffusers",
@@ -350,7 +351,7 @@
       {
         "id": "speridlabs/idol",
         "author": "speridlabs",
-        "likes": 324,
+        "likes": 329,
         "downloads": 4194,
         "tags": [
           "idol",
@@ -365,33 +366,9 @@
         "link": "https://huggingface.co/speridlabs/idol"
       },
       {
-        "id": "black-forest-labs/flux-3-image-klein-comfy",
-        "author": "black-forest-labs",
-        "likes": 2288,
-        "downloads": 970633,
-        "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "image-generation",
-          "image-editing",
-          "flux",
-          "flux-3",
-          "black-forest-labs",
-          "image-to-image",
-          "en",
-          "base_model:black-forest-labs/flux-3-image-klein",
-          "base_model:finetune:black-forest-labs/flux-3-image-klein",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
-      },
-      {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "author": "abenzerps",
-        "likes": 5490,
+        "likes": 5494,
         "downloads": 2548468,
         "tags": [
           "gguf",
@@ -413,9 +390,33 @@
         "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
       },
       {
+        "id": "black-forest-labs/flux-3-image-klein-comfy",
+        "author": "black-forest-labs",
+        "likes": 2291,
+        "downloads": 970633,
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "image-generation",
+          "image-editing",
+          "flux",
+          "flux-3",
+          "black-forest-labs",
+          "image-to-image",
+          "en",
+          "base_model:black-forest-labs/flux-3-image-klein",
+          "base_model:finetune:black-forest-labs/flux-3-image-klein",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+      },
+      {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 18945,
+        "likes": 18950,
         "downloads": 7892866,
         "tags": [
           "transformers",
@@ -435,34 +436,9 @@
         "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
       },
       {
-        "id": "XHToken/Spark-X2.6-4B",
-        "author": "XHToken",
-        "likes": 958,
-        "downloads": 16707,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "spark2_5",
-          "text-generation",
-          "llm",
-          "sparkx2_5",
-          "conversational",
-          "custom_code",
-          "en",
-          "zh",
-          "base_model:XHToken/Spark-X2.6-4B-Base",
-          "base_model:finetune:XHToken/Spark-X2.6-4B-Base",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/XHToken/Spark-X2.6-4B"
-      },
-      {
         "id": "LiquidAI/LFM3-Omni-2B",
         "author": "LiquidAI",
-        "likes": 286,
+        "likes": 288,
         "downloads": 8376,
         "tags": [
           "transformers",
@@ -512,6 +488,31 @@
         "link": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
       },
       {
+        "id": "XHToken/Spark-X2.6-4B",
+        "author": "XHToken",
+        "likes": 959,
+        "downloads": 16707,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "spark2_5",
+          "text-generation",
+          "llm",
+          "sparkx2_5",
+          "conversational",
+          "custom_code",
+          "en",
+          "zh",
+          "base_model:XHToken/Spark-X2.6-4B-Base",
+          "base_model:finetune:XHToken/Spark-X2.6-4B-Base",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/XHToken/Spark-X2.6-4B"
+      },
+      {
         "id": "RecursiveSI/flint",
         "author": "RecursiveSI",
         "likes": 1303,
@@ -533,7 +534,7 @@
       {
         "id": "burner22/numbat",
         "author": "burner22",
-        "likes": 230,
+        "likes": 234,
         "downloads": 5846,
         "tags": [
           "safetensors",
@@ -550,7 +551,7 @@
       {
         "id": "Edge0/Audio8-TTS-Realistic-0.6b",
         "author": "Edge0",
-        "likes": 222,
+        "likes": 227,
         "downloads": 4613,
         "tags": [
           "transformers",
@@ -600,7 +601,7 @@
       {
         "id": "Diffuspace/Clover-35B-A3B-Preview",
         "author": "Diffuspace",
-        "likes": 213,
+        "likes": 214,
         "downloads": 2352,
         "tags": [
           "transformers",
@@ -625,7 +626,7 @@
       {
         "id": "LiquidAI/LFM3-VL-2B",
         "author": "LiquidAI",
-        "likes": 211,
+        "likes": 212,
         "downloads": 9121,
         "tags": [
           "transformers",
@@ -666,7 +667,7 @@
       {
         "id": "facebook/sam3",
         "author": "facebook",
-        "likes": 5663,
+        "likes": 5667,
         "downloads": 1891055,
         "tags": [
           "transformers",
@@ -716,7 +717,7 @@
       {
         "id": "LiquidAI/LFM3-Audio-2B",
         "author": "LiquidAI",
-        "likes": 187,
+        "likes": 188,
         "downloads": 5688,
         "tags": [
           "transformers",
@@ -786,7 +787,7 @@
       {
         "id": "LiquidAI/LFM3-1.7B-GGUF",
         "author": "LiquidAI",
-        "likes": 186,
+        "likes": 187,
         "downloads": 150260,
         "tags": [
           "gguf",
@@ -824,7 +825,7 @@
       {
         "id": "LiquidAI/d1-2B",
         "author": "LiquidAI",
-        "likes": 170,
+        "likes": 172,
         "downloads": 4256,
         "tags": [
           "transformers",
@@ -873,7 +874,7 @@
       {
         "id": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
         "author": "OBLITERATUS",
-        "likes": 177,
+        "likes": 181,
         "downloads": 520,
         "tags": [
           "transformers",
@@ -920,7 +921,7 @@
       {
         "id": "xiaomi-research/Xiaomi-OCR-0",
         "author": "xiaomi-research",
-        "likes": 217,
+        "likes": 219,
         "downloads": 17143,
         "tags": [
           "transformers",
@@ -951,32 +952,29 @@
         "link": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0"
       },
       {
-        "id": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
-        "author": "AtomicChat",
-        "likes": 160,
-        "downloads": 17384,
+        "id": "sensenova/SenseNova-Loop-9B-Preview",
+        "author": "sensenova",
+        "likes": 151,
+        "downloads": 927,
         "tags": [
-          "gguf",
-          "atomic-chat",
-          "deepseek",
-          "deepseek41",
-          "gsq",
-          "rco",
-          "strata",
-          "abliteration",
-          "refusal-direction",
-          "uncensored",
+          "transformers",
+          "safetensors",
+          "sensenova_loop",
           "text-generation",
-          "base_model:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-          "base_model:quantized:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-          "license:mit",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
+          "multimodal",
+          "image-text-to-text",
+          "looped-transformer",
+          "mhc",
+          "custom_code",
+          "conversational",
+          "en",
+          "zh",
+          "license:apache-2.0",
+          "region:us"
         ],
-        "pipeline_tag": "text-generation",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF"
+        "link": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview"
       }
     ]
   },
@@ -986,7 +984,7 @@
       {
         "id": "nvidia/simready-assets",
         "author": "nvidia",
-        "likes": 1214,
+        "likes": 1217,
         "downloads": 1121844,
         "tags": [
           "license:cc-by-4.0",
@@ -999,7 +997,7 @@
       {
         "id": "Vyber07/cyber-security",
         "author": "Vyber07",
-        "likes": 558,
+        "likes": 562,
         "downloads": 8571,
         "tags": [
           "task_categories:text-generation",
@@ -1036,7 +1034,7 @@
       {
         "id": "scenario-labs/3d-collection",
         "author": "scenario-labs",
-        "likes": 355,
+        "likes": 356,
         "downloads": 38313,
         "tags": [
           "license:cc-by-4.0",
@@ -1077,7 +1075,7 @@
       {
         "id": "venvoo/china-a-share-l2-level2-limit-order-book-tick-data",
         "author": "venvoo",
-        "likes": 588,
+        "likes": 589,
         "downloads": 183337,
         "tags": [
           "license:other",
@@ -1167,7 +1165,7 @@
       {
         "id": "nvidia/Granary-v2",
         "author": "nvidia",
-        "likes": 41,
+        "likes": 42,
         "downloads": 3859,
         "tags": [
           "task_categories:automatic-speech-recognition",
@@ -1440,7 +1438,7 @@
       {
         "id": "TheAgenticDataCompany/open-yap-1k",
         "author": "TheAgenticDataCompany",
-        "likes": 177,
+        "likes": 178,
         "downloads": 3924,
         "tags": [
           "task_categories:audio-to-audio",
