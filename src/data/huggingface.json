@@ -1,12 +1,29 @@
 {
-  "updatedAt": "2026-11-07T10:00:21.443Z",
+  "updatedAt": "2026-11-07T11:00:18.991Z",
   "models": {
     "count": 30,
     "items": [
       {
+        "id": "speridlabs/idol",
+        "author": "speridlabs",
+        "likes": 1000,
+        "downloads": 20689,
+        "tags": [
+          "idol",
+          "gaussian-splatting",
+          "3d",
+          "image-to-3d",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-3d",
+        "lastModified": "",
+        "link": "https://huggingface.co/speridlabs/idol"
+      },
+      {
         "id": "moonshotai/Kimi-K3.1-Pro",
         "author": "moonshotai",
-        "likes": 1577,
+        "likes": 1583,
         "downloads": 22571,
         "tags": [
           "transformers",
@@ -28,26 +45,9 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
       },
       {
-        "id": "speridlabs/idol",
-        "author": "speridlabs",
-        "likes": 992,
-        "downloads": 20689,
-        "tags": [
-          "idol",
-          "gaussian-splatting",
-          "3d",
-          "image-to-3d",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-3d",
-        "lastModified": "",
-        "link": "https://huggingface.co/speridlabs/idol"
-      },
-      {
         "id": "ccore/Qwen3.5-4B-3D-Coder",
         "author": "ccore",
-        "likes": 813,
+        "likes": 820,
         "downloads": 221506,
         "tags": [
           "safetensors",
@@ -72,7 +72,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 10902,
+        "likes": 10908,
         "downloads": 2643778,
         "tags": [
           "diffusion-single-file",
@@ -112,7 +112,7 @@
       {
         "id": "ricursiveAI/Ripple-65B-Preview",
         "author": "ricursiveAI",
-        "likes": 347,
+        "likes": 349,
         "downloads": 3803,
         "tags": [
           "safetensors",
@@ -145,7 +145,7 @@
       {
         "id": "FusionCow/Sulphur-3",
         "author": "FusionCow",
-        "likes": 400,
+        "likes": 401,
         "downloads": 997,
         "tags": [
           "minimax-h3",
@@ -160,7 +160,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 19301,
+        "likes": 19305,
         "downloads": 7813215,
         "tags": [
           "transformers",
@@ -264,7 +264,7 @@
       {
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 2620,
+        "likes": 2623,
         "downloads": 1545313,
         "tags": [
           "gguf",
@@ -342,7 +342,7 @@
       {
         "id": "black-forest-labs/flux-3-image-klein-comfy",
         "author": "black-forest-labs",
-        "likes": 2642,
+        "likes": 2643,
         "downloads": 1143397,
         "tags": [
           "diffusion-single-file",
@@ -366,7 +366,7 @@
       {
         "id": "Pika-Labs/Pika-H3-Flex",
         "author": "Pika-Labs",
-        "likes": 501,
+        "likes": 502,
         "downloads": 1083,
         "tags": [
           "diffusers",
@@ -387,7 +387,7 @@
       {
         "id": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
         "author": "OBLITERATUS",
-        "likes": 269,
+        "likes": 270,
         "downloads": 3835,
         "tags": [
           "transformers",
@@ -412,7 +412,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "author": "deepseek-ai",
-        "likes": 5372,
+        "likes": 5375,
         "downloads": 277323,
         "tags": [
           "transformers",
@@ -433,9 +433,54 @@
         "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
       },
       {
+        "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "author": "xtools-at",
+        "likes": 246,
+        "downloads": 1369,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "text-generation-inference",
+          "unsloth",
+          "reasoning",
+          "distillation",
+          "deepseek",
+          "sft",
+          "rl",
+          "gspo",
+          "math",
+          "stem",
+          "tool-use",
+          "function-calling",
+          "mtp",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "text-generation",
+          "conversational",
+          "en",
+          "zh",
+          "ko",
+          "ja",
+          "es",
+          "ru",
+          "base_model:Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B",
+          "base_model:finetune:Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "text-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
+      },
+      {
         "id": "mistralai/Mistral-Large-4-1T-A52B",
         "author": "mistralai",
-        "likes": 1628,
+        "likes": 1629,
         "downloads": 11206,
         "tags": [
           "transformers",
@@ -495,6 +540,30 @@
         "link": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
       },
       {
+        "id": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+        "author": "abenzerps",
+        "likes": 5696,
+        "downloads": 65099,
+        "tags": [
+          "gguf",
+          "qwen",
+          "image-generation",
+          "comfyui",
+          "comfyui-gguf",
+          "mlx",
+          "fp8",
+          "nvfp4",
+          "text-to-image",
+          "base_model:Qwen/Qwen-Image-2.1-Turbo",
+          "base_model:quantized:Qwen/Qwen-Image-2.1-Turbo",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized"
+      },
+      {
         "id": "LiquidAI/LFM3-1.7B",
         "author": "LiquidAI",
         "likes": 1532,
@@ -536,33 +605,9 @@
         "link": "https://huggingface.co/LiquidAI/LFM3-1.7B"
       },
       {
-        "id": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
-        "author": "abenzerps",
-        "likes": 5694,
-        "downloads": 65099,
-        "tags": [
-          "gguf",
-          "qwen",
-          "image-generation",
-          "comfyui",
-          "comfyui-gguf",
-          "mlx",
-          "fp8",
-          "nvfp4",
-          "text-to-image",
-          "base_model:Qwen/Qwen-Image-2.1-Turbo",
-          "base_model:quantized:Qwen/Qwen-Image-2.1-Turbo",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized"
-      },
-      {
         "id": "ccore/Qwen3.5-4B-GLB-3D-Coder",
         "author": "ccore",
-        "likes": 232,
+        "likes": 234,
         "downloads": 24479,
         "tags": [
           "safetensors",
@@ -588,54 +633,9 @@
         "link": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder"
       },
       {
-        "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-        "author": "xtools-at",
-        "likes": 227,
-        "downloads": 1369,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "text-generation-inference",
-          "unsloth",
-          "reasoning",
-          "distillation",
-          "deepseek",
-          "sft",
-          "rl",
-          "gspo",
-          "math",
-          "stem",
-          "tool-use",
-          "function-calling",
-          "mtp",
-          "heretic",
-          "uncensored",
-          "decensored",
-          "abliterated",
-          "text-generation",
-          "conversational",
-          "en",
-          "zh",
-          "ko",
-          "ja",
-          "es",
-          "ru",
-          "base_model:Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B",
-          "base_model:finetune:Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "text-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
-      },
-      {
         "id": "facebook/sam3",
         "author": "facebook",
-        "likes": 6020,
+        "likes": 6022,
         "downloads": 1952223,
         "tags": [
           "transformers",
@@ -658,7 +658,7 @@
       {
         "id": "PrunaAI/P-H3-Image-Comfy",
         "author": "PrunaAI",
-        "likes": 226,
+        "likes": 227,
         "downloads": 505526,
         "tags": [
           "diffusion-single-file",
@@ -684,9 +684,30 @@
         "link": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy"
       },
       {
+        "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
+        "author": "unsloth",
+        "likes": 1485,
+        "downloads": 1423501,
+        "tags": [
+          "gguf",
+          "unsloth",
+          "Qwen",
+          "image-text-to-text",
+          "base_model:Qwen/Qwen3.8-Flash-Next",
+          "base_model:quantized:Qwen/Qwen3.8-Flash-Next",
+          "license:other",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF"
+      },
+      {
         "id": "webAI-Official/TwIL-8B",
         "author": "webAI-Official",
-        "likes": 191,
+        "likes": 193,
         "downloads": 15324,
         "tags": [
           "transformers",
@@ -764,27 +785,6 @@
         "pipeline_tag": "text-to-speech",
         "lastModified": "",
         "link": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air"
-      },
-      {
-        "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
-        "author": "unsloth",
-        "likes": 1480,
-        "downloads": 1423501,
-        "tags": [
-          "gguf",
-          "unsloth",
-          "Qwen",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.8-Flash-Next",
-          "base_model:quantized:Qwen/Qwen3.8-Flash-Next",
-          "license:other",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF"
       },
       {
         "id": "sensenova/SenseNova-Loop-9B-Preview",
@@ -872,7 +872,7 @@
       {
         "id": "baidu/Unlimited-OCR-2",
         "author": "baidu",
-        "likes": 639,
+        "likes": 640,
         "downloads": 355394,
         "tags": [
           "transformers",
@@ -928,8 +928,8 @@
       {
         "id": "nvidia/simready-assets",
         "author": "nvidia",
-        "likes": 1454,
-        "downloads": 1373507,
+        "likes": 1455,
+        "downloads": 1419300,
         "tags": [
           "license:cc-by-4.0",
           "region:us",
@@ -941,8 +941,8 @@
       {
         "id": "Vyber07/cyber-security",
         "author": "Vyber07",
-        "likes": 733,
-        "downloads": 12453,
+        "likes": 735,
+        "downloads": 12936,
         "tags": [
           "task_categories:text-generation",
           "task_categories:question-answering",
@@ -978,8 +978,8 @@
       {
         "id": "open-index/hacker-news",
         "author": "open-index",
-        "likes": 534,
-        "downloads": 469321,
+        "likes": 535,
+        "downloads": 476793,
         "tags": [
           "task_categories:text-generation",
           "task_categories:feature-extraction",
@@ -1006,7 +1006,7 @@
         "id": "codepawl/abo-glb",
         "author": "codepawl",
         "likes": 89,
-        "downloads": 13013,
+        "downloads": 20835,
         "tags": [
           "license:cc-by-4.0",
           "size_categories:1K<n<10K",
@@ -1034,7 +1034,7 @@
         "id": "PentesterFlow/OffsecCyber",
         "author": "PentesterFlow",
         "likes": 73,
-        "downloads": 4538,
+        "downloads": 5210,
         "tags": [
           "task_categories:text-generation",
           "task_categories:text-classification",
@@ -1056,8 +1056,8 @@
       {
         "id": "ccore/ThreeJS-3D-Scenes",
         "author": "ccore",
-        "likes": 81,
-        "downloads": 5844,
+        "likes": 82,
+        "downloads": 6672,
         "tags": [
           "task_categories:text-generation",
           "language:en",
@@ -1087,7 +1087,7 @@
         "id": "HuggingFaceBio/FineDNA",
         "author": "HuggingFaceBio",
         "likes": 58,
-        "downloads": 9586,
+        "downloads": 10246,
         "tags": [
           "task_categories:text-generation",
           "language:en",
@@ -1114,7 +1114,7 @@
         "id": "codepawl/simready-glb",
         "author": "codepawl",
         "likes": 75,
-        "downloads": 24739,
+        "downloads": 26133,
         "tags": [
           "license:cc-by-4.0",
           "size_categories:1K<n<10K",
@@ -1140,7 +1140,7 @@
         "id": "venvoo/china-a-share-l2-level2-limit-order-book-tick-data",
         "author": "venvoo",
         "likes": 646,
-        "downloads": 214226,
+        "downloads": 219121,
         "tags": [
           "license:other",
           "size_categories:n>1T",
@@ -1163,7 +1163,7 @@
         "id": "codepawl/scanned-objects-glb",
         "author": "codepawl",
         "likes": 41,
-        "downloads": 7953,
+        "downloads": 10059,
         "tags": [
           "license:cc-by-4.0",
           "size_categories:1K<n<10K",
@@ -1189,7 +1189,7 @@
         "id": "scenario-labs/3d-collection",
         "author": "scenario-labs",
         "likes": 385,
-        "downloads": 42973,
+        "downloads": 43936,
         "tags": [
           "license:cc-by-4.0",
           "size_categories:1K<n<10K",
@@ -1209,8 +1209,8 @@
       {
         "id": "tencent/TailorRig",
         "author": "tencent",
-        "likes": 31,
-        "downloads": 283,
+        "likes": 32,
+        "downloads": 485,
         "tags": [
           "language:en",
           "license:other",
@@ -1234,7 +1234,7 @@
         "id": "MoreThought/Fable-5.1-Max-Reasoning-Filtered-10000x",
         "author": "MoreThought",
         "likes": 470,
-        "downloads": 6574,
+        "downloads": 6882,
         "tags": [
           "task_categories:text-generation",
           "task_categories:question-answering",
@@ -1281,7 +1281,7 @@
         "id": "bones-studio/seed",
         "author": "bones-studio",
         "likes": 406,
-        "downloads": 10897,
+        "downloads": 11215,
         "tags": [
           "task_categories:robotics",
           "task_categories:text-to-video",
@@ -1311,10 +1311,89 @@
         "link": "https://huggingface.co/datasets/bones-studio/seed"
       },
       {
+        "id": "speechcolab/gigaspeech3",
+        "author": "speechcolab",
+        "likes": 20,
+        "downloads": 7234,
+        "tags": [
+          "task_categories:automatic-speech-recognition",
+          "annotations_creators:machine-generated",
+          "language_creators:found",
+          "multilinguality:monolingual",
+          "language:ar",
+          "license:other",
+          "size_categories:10M<n<100M",
+          "modality:audio",
+          "arxiv:2611.02476",
+          "region:us",
+          "audio",
+          "speech",
+          "arabic",
+          "dialectal-arabic",
+          "weak-supervision",
+          "noisy-student-training"
+        ],
+        "lastModified": "2026-11-07T09:53:14.000Z",
+        "link": "https://huggingface.co/datasets/speechcolab/gigaspeech3"
+      },
+      {
+        "id": "Axion1-0/axion-training-data",
+        "author": "Axion1-0",
+        "likes": 20,
+        "downloads": 1570,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:question-answering",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2611.03233",
+          "region:us",
+          "agents",
+          "scientific-reasoning",
+          "tool-use",
+          "supervised-fine-tuning",
+          "reinforcement-learning",
+          "datasets"
+        ],
+        "lastModified": "2026-11-05T01:53:04.000Z",
+        "link": "https://huggingface.co/datasets/Axion1-0/axion-training-data"
+      },
+      {
+        "id": "NousResearch/arete-data-pairs",
+        "author": "NousResearch",
+        "likes": 20,
+        "downloads": 244,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:question-answering",
+          "language:en",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "values",
+          "synthetic",
+          "sft"
+        ],
+        "lastModified": "2026-11-06T21:14:56.000Z",
+        "link": "https://huggingface.co/datasets/NousResearch/arete-data-pairs"
+      },
+      {
         "id": "nvidia/Granary-v2",
         "author": "nvidia",
         "likes": 53,
-        "downloads": 7030,
+        "downloads": 7306,
         "tags": [
           "task_categories:automatic-speech-recognition",
           "task_categories:translation",
@@ -1381,65 +1460,10 @@
         "link": "https://huggingface.co/datasets/nvidia/Granary-v2"
       },
       {
-        "id": "speechcolab/gigaspeech3",
-        "author": "speechcolab",
-        "likes": 20,
-        "downloads": 7022,
-        "tags": [
-          "task_categories:automatic-speech-recognition",
-          "annotations_creators:machine-generated",
-          "language_creators:found",
-          "multilinguality:monolingual",
-          "language:ar",
-          "license:other",
-          "size_categories:10M<n<100M",
-          "modality:audio",
-          "arxiv:2611.02476",
-          "region:us",
-          "audio",
-          "speech",
-          "arabic",
-          "dialectal-arabic",
-          "weak-supervision",
-          "noisy-student-training"
-        ],
-        "lastModified": "2026-11-07T09:53:14.000Z",
-        "link": "https://huggingface.co/datasets/speechcolab/gigaspeech3"
-      },
-      {
-        "id": "Axion1-0/axion-training-data",
-        "author": "Axion1-0",
-        "likes": 20,
-        "downloads": 1397,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:question-answering",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2611.03233",
-          "region:us",
-          "agents",
-          "scientific-reasoning",
-          "tool-use",
-          "supervised-fine-tuning",
-          "reinforcement-learning",
-          "datasets"
-        ],
-        "lastModified": "2026-11-05T01:53:04.000Z",
-        "link": "https://huggingface.co/datasets/Axion1-0/axion-training-data"
-      },
-      {
         "id": "bumbuboon/llm-course-final-2026",
         "author": "bumbuboon",
         "likes": 20,
-        "downloads": 4415,
+        "downloads": 5418,
         "tags": [
           "language:ja",
           "license:cc-by-sa-4.0",
@@ -1452,7 +1476,7 @@
         "id": "bitmanagerai-speech-lab/darbuka_arabic_tts_dataset",
         "author": "bitmanagerai-speech-lab",
         "likes": 22,
-        "downloads": 2158,
+        "downloads": 3038,
         "tags": [
           "task_categories:automatic-speech-recognition",
           "task_categories:text-to-speech",
@@ -1470,38 +1494,6 @@
         ],
         "lastModified": "2026-10-31T17:58:32.000Z",
         "link": "https://huggingface.co/datasets/bitmanagerai-speech-lab/darbuka_arabic_tts_dataset"
-      },
-      {
-        "id": "Sandflow/sand3d-objaverse",
-        "author": "Sandflow",
-        "likes": 19,
-        "downloads": 21981,
-        "tags": [
-          "task_categories:text-to-3d",
-          "task_categories:image-to-3d",
-          "license:cc-by-4.0",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "modality:3d",
-          "modality:image",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2212.08051",
-          "region:us",
-          "3d",
-          "code",
-          "openusd",
-          "usd",
-          "cad",
-          "articulated-objects",
-          "program-synthesis",
-          "sand3d"
-        ],
-        "lastModified": "2026-11-05T06:47:05.000Z",
-        "link": "https://huggingface.co/datasets/Sandflow/sand3d-objaverse"
       }
     ]
   }
