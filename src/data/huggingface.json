@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-09T03:00:21.933Z",
+  "updatedAt": "2026-11-09T04:00:16.959Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "speridlabs/idol",
         "author": "speridlabs",
-        "likes": 1402,
+        "likes": 1412,
         "downloads": 22854,
         "tags": [
           "idol",
@@ -23,7 +23,7 @@
       {
         "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "author": "xtools-at",
-        "likes": 868,
+        "likes": 883,
         "downloads": 7088,
         "tags": [
           "transformers",
@@ -67,7 +67,7 @@
       {
         "id": "moonshotai/Kimi-K3.1-Pro",
         "author": "moonshotai",
-        "likes": 1730,
+        "likes": 1732,
         "downloads": 25569,
         "tags": [
           "transformers",
@@ -91,7 +91,7 @@
       {
         "id": "ricursiveAI/Ripple-65B-Preview",
         "author": "ricursiveAI",
-        "likes": 408,
+        "likes": 410,
         "downloads": 5087,
         "tags": [
           "safetensors",
@@ -107,7 +107,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 11139,
+        "likes": 11143,
         "downloads": 2661026,
         "tags": [
           "diffusion-single-file",
@@ -172,7 +172,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 19420,
+        "likes": 19422,
         "downloads": 7668187,
         "tags": [
           "transformers",
@@ -194,7 +194,7 @@
       {
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 2712,
+        "likes": 2713,
         "downloads": 1553252,
         "tags": [
           "gguf",
@@ -244,7 +244,7 @@
       {
         "id": "NousResearch/Arete-27B",
         "author": "NousResearch",
-        "likes": 297,
+        "likes": 300,
         "downloads": 1747,
         "tags": [
           "safetensors",
@@ -268,7 +268,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
         "author": "nvidia",
-        "likes": 3109,
+        "likes": 3110,
         "downloads": 67230,
         "tags": [
           "nemo",
@@ -350,7 +350,7 @@
       {
         "id": "FusionCow/Sulphur-3",
         "author": "FusionCow",
-        "likes": 419,
+        "likes": 420,
         "downloads": 1003,
         "tags": [
           "minimax-h3",
@@ -417,7 +417,7 @@
       {
         "id": "webAI-Official/TwIL-8B",
         "author": "webAI-Official",
-        "likes": 235,
+        "likes": 236,
         "downloads": 22737,
         "tags": [
           "transformers",
@@ -449,7 +449,7 @@
       {
         "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
         "author": "unsloth",
-        "likes": 1538,
+        "likes": 1539,
         "downloads": 1548621,
         "tags": [
           "gguf",
@@ -498,7 +498,7 @@
       {
         "id": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
         "author": "AtomicChat",
-        "likes": 391,
+        "likes": 393,
         "downloads": 130020,
         "tags": [
           "gguf",
@@ -526,7 +526,7 @@
       {
         "id": "Viggle/Viggle-Remake",
         "author": "Viggle",
-        "likes": 196,
+        "likes": 198,
         "downloads": 76308,
         "tags": [
           "minimax-h3",
@@ -545,33 +545,41 @@
         "link": "https://huggingface.co/Viggle/Viggle-Remake"
       },
       {
-        "id": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
-        "author": "abenzerps",
-        "likes": 5728,
-        "downloads": 76804,
+        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+        "author": "ISTA-DASLab",
+        "likes": 206,
+        "downloads": 258719,
         "tags": [
           "gguf",
-          "qwen",
-          "image-generation",
-          "comfyui",
-          "comfyui-gguf",
-          "mlx",
-          "fp8",
-          "nvfp4",
-          "text-to-image",
-          "base_model:Qwen/Qwen-Image-2.1-Turbo",
-          "base_model:quantized:Qwen/Qwen-Image-2.1-Turbo",
-          "license:other",
+          "text-generation",
+          "image-text-to-text",
+          "vision",
+          "gsq",
+          "rco",
+          "quantization",
+          "pruning",
+          "expert-pruning",
+          "mixed-precision",
+          "ist-daslab",
+          "moe",
+          "deepseek",
+          "code",
+          "conversational",
+          "arxiv:2604.18556",
+          "arxiv:2605.00649",
+          "base_model:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "license:mit",
           "region:us"
         ],
-        "pipeline_tag": "text-to-image",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized"
+        "link": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF"
       },
       {
         "id": "LiquidAI/LFM3-1.7B",
         "author": "LiquidAI",
-        "likes": 1558,
+        "likes": 1559,
         "downloads": 73562,
         "tags": [
           "transformers",
@@ -610,61 +618,6 @@
         "link": "https://huggingface.co/LiquidAI/LFM3-1.7B"
       },
       {
-        "id": "facebook/sam3",
-        "author": "facebook",
-        "likes": 6114,
-        "downloads": 1982669,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "sam3_video",
-          "feature-extraction",
-          "sam3",
-          "mask-generation",
-          "en",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us",
-          "deploy:azure"
-        ],
-        "pipeline_tag": "mask-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/facebook/sam3"
-      },
-      {
-        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
-        "author": "ISTA-DASLab",
-        "likes": 206,
-        "downloads": 258719,
-        "tags": [
-          "gguf",
-          "text-generation",
-          "image-text-to-text",
-          "vision",
-          "gsq",
-          "rco",
-          "quantization",
-          "pruning",
-          "expert-pruning",
-          "mixed-precision",
-          "ist-daslab",
-          "moe",
-          "deepseek",
-          "code",
-          "conversational",
-          "arxiv:2604.18556",
-          "arxiv:2605.00649",
-          "base_model:deepseek-ai/DeepSeek-V4.1-Flash-1017",
-          "base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash-1017",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF"
-      },
-      {
         "id": "Scantist/GLM-5.3-SLIM-GGUF",
         "author": "Scantist",
         "likes": 1292,
@@ -692,32 +645,56 @@
         "link": "https://huggingface.co/Scantist/GLM-5.3-SLIM-GGUF"
       },
       {
-        "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "author": "deepseek-ai",
-        "likes": 5412,
-        "downloads": 295747,
+        "id": "facebook/sam3",
+        "author": "facebook",
+        "likes": 6116,
+        "downloads": 1982669,
         "tags": [
           "transformers",
           "safetensors",
-          "deepseek_v41",
-          "text-generation",
-          "image-text-to-text",
-          "license:mit",
+          "sam3_video",
+          "feature-extraction",
+          "sam3",
+          "mask-generation",
+          "en",
+          "license:other",
           "eval-results",
           "endpoints_compatible",
-          "8-bit",
+          "region:us",
+          "deploy:azure"
+        ],
+        "pipeline_tag": "mask-generation",
+        "lastModified": "",
+        "link": "https://huggingface.co/facebook/sam3"
+      },
+      {
+        "id": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+        "author": "abenzerps",
+        "likes": 5728,
+        "downloads": 76804,
+        "tags": [
+          "gguf",
+          "qwen",
+          "image-generation",
+          "comfyui",
+          "comfyui-gguf",
+          "mlx",
           "fp8",
-          "deploy:azure",
+          "nvfp4",
+          "text-to-image",
+          "base_model:Qwen/Qwen-Image-2.1-Turbo",
+          "base_model:quantized:Qwen/Qwen-Image-2.1-Turbo",
+          "license:other",
           "region:us"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "text-to-image",
         "lastModified": "",
-        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized"
       },
       {
         "id": "Pika-Labs/Pika-H3-Flex",
         "author": "Pika-Labs",
-        "likes": 516,
+        "likes": 517,
         "downloads": 1083,
         "tags": [
           "pika-h3-flex",
@@ -737,21 +714,27 @@
         "link": "https://huggingface.co/Pika-Labs/Pika-H3-Flex"
       },
       {
-        "id": "burner22/numbat",
-        "author": "burner22",
-        "likes": 391,
-        "downloads": 10197,
+        "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "author": "deepseek-ai",
+        "likes": 5413,
+        "downloads": 295747,
         "tags": [
+          "transformers",
           "safetensors",
-          "numbat",
-          "custom_code",
+          "deepseek_v41",
+          "text-generation",
+          "image-text-to-text",
+          "license:mit",
+          "eval-results",
+          "endpoints_compatible",
           "8-bit",
-          "modelopt",
+          "fp8",
+          "deploy:azure",
           "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/burner22/numbat"
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
       },
       {
         "id": "baidu/ERNIE-5.5-Flash-Base",
@@ -782,7 +765,7 @@
       {
         "id": "PrunaAI/P-H3-Image",
         "author": "PrunaAI",
-        "likes": 172,
+        "likes": 173,
         "downloads": 893,
         "tags": [
           "diffusers",
@@ -808,7 +791,7 @@
       {
         "id": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
         "author": "mradermacher",
-        "likes": 188,
+        "likes": 190,
         "downloads": 136706,
         "tags": [
           "transformers",
@@ -848,6 +831,23 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF"
+      },
+      {
+        "id": "burner22/numbat",
+        "author": "burner22",
+        "likes": 393,
+        "downloads": 10197,
+        "tags": [
+          "safetensors",
+          "numbat",
+          "custom_code",
+          "8-bit",
+          "modelopt",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/burner22/numbat"
       },
       {
         "id": "mistralai/Mistral-Large-4-1T-A52B",
@@ -932,7 +932,7 @@
       {
         "id": "Vyber07/cyber-security",
         "author": "Vyber07",
-        "likes": 791,
+        "likes": 794,
         "downloads": 13494,
         "tags": [
           "task_categories:text-generation",
@@ -996,7 +996,7 @@
       {
         "id": "codepawl/abo-glb",
         "author": "codepawl",
-        "likes": 98,
+        "likes": 99,
         "downloads": 23857,
         "tags": [
           "license:cc-by-4.0",
@@ -1047,7 +1047,7 @@
       {
         "id": "Angais/pixel-art-atlas-1.4m",
         "author": "Angais",
-        "likes": 66,
+        "likes": 75,
         "downloads": 1771,
         "tags": [
           "task_categories:text-to-image",
@@ -1073,7 +1073,7 @@
       {
         "id": "ccore/ThreeJS-3D-Scenes",
         "author": "ccore",
-        "likes": 95,
+        "likes": 96,
         "downloads": 7351,
         "tags": [
           "task_categories:text-generation",
@@ -1103,7 +1103,7 @@
       {
         "id": "codepawl/scanned-objects-glb",
         "author": "codepawl",
-        "likes": 49,
+        "likes": 50,
         "downloads": 11450,
         "tags": [
           "license:cc-by-4.0",
@@ -1227,7 +1227,7 @@
       {
         "id": "NousResearch/Propaganda_Eval",
         "author": "NousResearch",
-        "likes": 40,
+        "likes": 41,
         "downloads": 620,
         "tags": [
           "task_categories:question-answering",
@@ -1252,7 +1252,7 @@
       {
         "id": "scenario-labs/3d-collection",
         "author": "scenario-labs",
-        "likes": 389,
+        "likes": 390,
         "downloads": 44991,
         "tags": [
           "license:cc-by-4.0",
@@ -1271,35 +1271,9 @@
         "link": "https://huggingface.co/datasets/scenario-labs/3d-collection"
       },
       {
-        "id": "codepawl/simready-glb",
-        "author": "codepawl",
-        "likes": 78,
-        "downloads": 27664,
-        "tags": [
-          "license:cc-by-4.0",
-          "size_categories:1K<n<10K",
-          "modality:3d",
-          "modality:image",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us",
-          "3d",
-          "gltf",
-          "glb",
-          "web",
-          "three.js",
-          "simready",
-          "nvidia"
-        ],
-        "lastModified": "2026-11-07T06:01:43.000Z",
-        "link": "https://huggingface.co/datasets/codepawl/simready-glb"
-      },
-      {
         "id": "codepawl/plateau-city-glb",
         "author": "codepawl",
-        "likes": 31,
+        "likes": 32,
         "downloads": 1850,
         "tags": [
           "license:cc-by-4.0",
@@ -1327,6 +1301,32 @@
         ],
         "lastModified": "2026-11-07T06:43:50.000Z",
         "link": "https://huggingface.co/datasets/codepawl/plateau-city-glb"
+      },
+      {
+        "id": "codepawl/simready-glb",
+        "author": "codepawl",
+        "likes": 78,
+        "downloads": 27664,
+        "tags": [
+          "license:cc-by-4.0",
+          "size_categories:1K<n<10K",
+          "modality:3d",
+          "modality:image",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "3d",
+          "gltf",
+          "glb",
+          "web",
+          "three.js",
+          "simready",
+          "nvidia"
+        ],
+        "lastModified": "2026-11-07T06:01:43.000Z",
+        "link": "https://huggingface.co/datasets/codepawl/simready-glb"
       },
       {
         "id": "bumbuboon/llm-course-final-2026",
