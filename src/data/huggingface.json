@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-17T18:00:22.662Z",
+  "updatedAt": "2026-11-17T19:00:19.990Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "MiniMaxAI/MiniMax-H3-Image",
         "author": "MiniMaxAI",
-        "likes": 1406,
+        "likes": 1415,
         "downloads": 727110,
         "tags": [
           "minimax-h3",
@@ -29,7 +29,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 20381,
+        "likes": 20386,
         "downloads": 6942530,
         "tags": [
           "transformers",
@@ -51,7 +51,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 12363,
+        "likes": 12371,
         "downloads": 2828071,
         "tags": [
           "diffusion-single-file",
@@ -91,7 +91,7 @@
       {
         "id": "higurashi-ai/Haru-4B",
         "author": "higurashi-ai",
-        "likes": 481,
+        "likes": 485,
         "downloads": 4445,
         "tags": [
           "safetensors",
@@ -142,7 +142,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 6124,
+        "likes": 6128,
         "downloads": 6827598,
         "tags": [
           "gguf",
@@ -160,6 +160,176 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
+      },
+      {
+        "id": "Comfy-Org/MiniMax-H3-Image",
+        "author": "Comfy-Org",
+        "likes": 516,
+        "downloads": 2660341,
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "text-to-image",
+          "base_model:MiniMaxAI/MiniMax-H3-Image",
+          "base_model:finetune:MiniMaxAI/MiniMax-H3-Image",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+      },
+      {
+        "id": "black-forest-labs/flux-3-image-klein-comfy",
+        "author": "black-forest-labs",
+        "likes": 3398,
+        "downloads": 1062051,
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "image-generation",
+          "image-editing",
+          "flux",
+          "flux-3",
+          "black-forest-labs",
+          "image-to-image",
+          "en",
+          "base_model:black-forest-labs/flux-3-image-klein",
+          "base_model:finetune:black-forest-labs/flux-3-image-klein",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+      },
+      {
+        "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+        "author": "chatrlabs",
+        "likes": 480,
+        "downloads": 160748,
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "gguf",
+          "qwen-image",
+          "qwen-image-2.1",
+          "text-to-image",
+          "image-editing",
+          "fp8",
+          "int8",
+          "nvfp4",
+          "nf4",
+          "quantized",
+          "comfyui",
+          "uncensored",
+          "base_model:Qwen/Qwen-Image-2.1",
+          "base_model:quantized:Qwen/Qwen-Image-2.1",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized"
+      },
+      {
+        "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+        "author": "DavidAU",
+        "likes": 3279,
+        "downloads": 1759757,
+        "tags": [
+          "gguf",
+          "unsloth",
+          "fine tune",
+          "heretic",
+          "uncensored",
+          "abliterated",
+          "ara",
+          "MTP GGUF Quants",
+          "Regular GGUF Quants",
+          "qwen3_8",
+          "qwen3_6",
+          "qwen3_5",
+          "multi-stage tuned",
+          "thinking",
+          "reasoning",
+          "all use cases",
+          "coder",
+          "creative",
+          "creative writing",
+          "all genres",
+          "story",
+          "writing",
+          "fiction",
+          "roleplaying",
+          "bfloat16",
+          "multi-stage-tune",
+          "multi-state-merge",
+          "image-text-to-text",
+          "ar",
+          "zh",
+          "en",
+          "fr",
+          "de",
+          "hi",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "pl",
+          "pt",
+          "ru",
+          "es",
+          "th",
+          "vi",
+          "dataset:DavidAU/Polar-STRICT-Datasets",
+          "dataset:DavidAU/F451-STRICT-Datasets",
+          "base_model:DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU",
+          "base_model:quantized:DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us",
+          "imatrix",
+          "conversational"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
+      },
+      {
+        "id": "n4ze3m/tiny-voca",
+        "author": "n4ze3m",
+        "likes": 224,
+        "downloads": 3042,
+        "tags": [
+          "onnx",
+          "gguf",
+          "text-to-speech",
+          "en",
+          "dataset:n4ze3m/tiny-voca",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "lastModified": "",
+        "link": "https://huggingface.co/n4ze3m/tiny-voca"
+      },
+      {
+        "id": "speridlabs/idol",
+        "author": "speridlabs",
+        "likes": 2447,
+        "downloads": 36388,
+        "tags": [
+          "idol",
+          "gaussian-splatting",
+          "3d",
+          "image-to-3d",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-3d",
+        "lastModified": "",
+        "link": "https://huggingface.co/speridlabs/idol"
       },
       {
         "id": "Zyphra/ZONOS3-Mini",
@@ -230,202 +400,9 @@
         "link": "https://huggingface.co/Zyphra/ZONOS3-Mini"
       },
       {
-        "id": "Comfy-Org/MiniMax-H3-Image",
-        "author": "Comfy-Org",
-        "likes": 514,
-        "downloads": 2660341,
-        "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "text-to-image",
-          "base_model:MiniMaxAI/MiniMax-H3-Image",
-          "base_model:finetune:MiniMaxAI/MiniMax-H3-Image",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
-      },
-      {
-        "id": "black-forest-labs/flux-3-image-klein-comfy",
-        "author": "black-forest-labs",
-        "likes": 3398,
-        "downloads": 1062051,
-        "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "image-generation",
-          "image-editing",
-          "flux",
-          "flux-3",
-          "black-forest-labs",
-          "image-to-image",
-          "en",
-          "base_model:black-forest-labs/flux-3-image-klein",
-          "base_model:finetune:black-forest-labs/flux-3-image-klein",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
-      },
-      {
-        "id": "facebook/sam3",
-        "author": "facebook",
-        "likes": 6864,
-        "downloads": 1971023,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "sam3_video",
-          "feature-extraction",
-          "sam3",
-          "mask-generation",
-          "en",
-          "license:other",
-          "eval-results",
-          "endpoints_compatible",
-          "region:us",
-          "deploy:azure"
-        ],
-        "pipeline_tag": "mask-generation",
-        "lastModified": "",
-        "link": "https://huggingface.co/facebook/sam3"
-      },
-      {
-        "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-        "author": "chatrlabs",
-        "likes": 478,
-        "downloads": 160748,
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "gguf",
-          "qwen-image",
-          "qwen-image-2.1",
-          "text-to-image",
-          "image-editing",
-          "fp8",
-          "int8",
-          "nvfp4",
-          "nf4",
-          "quantized",
-          "comfyui",
-          "uncensored",
-          "base_model:Qwen/Qwen-Image-2.1",
-          "base_model:quantized:Qwen/Qwen-Image-2.1",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized"
-      },
-      {
-        "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-        "author": "DavidAU",
-        "likes": 3273,
-        "downloads": 1759757,
-        "tags": [
-          "gguf",
-          "unsloth",
-          "fine tune",
-          "heretic",
-          "uncensored",
-          "abliterated",
-          "ara",
-          "MTP GGUF Quants",
-          "Regular GGUF Quants",
-          "qwen3_8",
-          "qwen3_6",
-          "qwen3_5",
-          "multi-stage tuned",
-          "thinking",
-          "reasoning",
-          "all use cases",
-          "coder",
-          "creative",
-          "creative writing",
-          "all genres",
-          "story",
-          "writing",
-          "fiction",
-          "roleplaying",
-          "bfloat16",
-          "multi-stage-tune",
-          "multi-state-merge",
-          "image-text-to-text",
-          "ar",
-          "zh",
-          "en",
-          "fr",
-          "de",
-          "hi",
-          "id",
-          "it",
-          "ja",
-          "ko",
-          "pl",
-          "pt",
-          "ru",
-          "es",
-          "th",
-          "vi",
-          "dataset:DavidAU/Polar-STRICT-Datasets",
-          "dataset:DavidAU/F451-STRICT-Datasets",
-          "base_model:DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU",
-          "base_model:quantized:DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "imatrix",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
-      },
-      {
-        "id": "n4ze3m/tiny-voca",
-        "author": "n4ze3m",
-        "likes": 223,
-        "downloads": 3042,
-        "tags": [
-          "onnx",
-          "gguf",
-          "text-to-speech",
-          "en",
-          "dataset:n4ze3m/tiny-voca",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-speech",
-        "lastModified": "",
-        "link": "https://huggingface.co/n4ze3m/tiny-voca"
-      },
-      {
-        "id": "speridlabs/idol",
-        "author": "speridlabs",
-        "likes": 2445,
-        "downloads": 36388,
-        "tags": [
-          "idol",
-          "gaussian-splatting",
-          "3d",
-          "image-to-3d",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "image-to-3d",
-        "lastModified": "",
-        "link": "https://huggingface.co/speridlabs/idol"
-      },
-      {
         "id": "meituan-longcat/LongCat-Video-Avatar-1.6",
         "author": "meituan-longcat",
-        "likes": 187,
+        "likes": 191,
         "downloads": 489,
         "tags": [
           "longcat-video-avatar-1.6",
@@ -452,7 +429,7 @@
       {
         "id": "maxwell-model/Maxwell-V1-Flash",
         "author": "maxwell-model",
-        "likes": 139,
+        "likes": 142,
         "downloads": 287,
         "tags": [
           "safetensors",
@@ -467,6 +444,31 @@
         "pipeline_tag": "text-generation",
         "lastModified": "",
         "link": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash"
+      },
+      {
+        "id": "sensenova/SenseNova-Loop-9B",
+        "author": "sensenova",
+        "likes": 128,
+        "downloads": 0,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "sensenova_loop",
+          "text-generation",
+          "multimodal",
+          "image-text-to-text",
+          "looped-transformer",
+          "mhc",
+          "custom_code",
+          "conversational",
+          "en",
+          "zh",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
       },
       {
         "id": "Edge0/Edge0-145B-NVFP4",
@@ -496,29 +498,27 @@
         "link": "https://huggingface.co/Edge0/Edge0-145B-NVFP4"
       },
       {
-        "id": "sensenova/SenseNova-Loop-9B",
-        "author": "sensenova",
-        "likes": 112,
-        "downloads": 0,
+        "id": "facebook/sam3",
+        "author": "facebook",
+        "likes": 6868,
+        "downloads": 1971023,
         "tags": [
           "transformers",
           "safetensors",
-          "sensenova_loop",
-          "text-generation",
-          "multimodal",
-          "image-text-to-text",
-          "looped-transformer",
-          "mhc",
-          "custom_code",
-          "conversational",
+          "sam3_video",
+          "feature-extraction",
+          "sam3",
+          "mask-generation",
           "en",
-          "zh",
-          "license:apache-2.0",
-          "region:us"
+          "license:other",
+          "eval-results",
+          "endpoints_compatible",
+          "region:us",
+          "deploy:azure"
         ],
-        "pipeline_tag": "image-text-to-text",
+        "pipeline_tag": "mask-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
+        "link": "https://huggingface.co/facebook/sam3"
       },
       {
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
@@ -557,7 +557,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "author": "deepseek-ai",
-        "likes": 5848,
+        "likes": 5851,
         "downloads": 479986,
         "tags": [
           "transformers",
@@ -581,7 +581,7 @@
       {
         "id": "moonshotai/Kimi-K3.1-Pro",
         "author": "moonshotai",
-        "likes": 2189,
+        "likes": 2191,
         "downloads": 53224,
         "tags": [
           "transformers",
@@ -605,7 +605,7 @@
       {
         "id": "NousResearch/Arete-27B",
         "author": "NousResearch",
-        "likes": 679,
+        "likes": 680,
         "downloads": 10670,
         "tags": [
           "safetensors",
@@ -629,7 +629,7 @@
       {
         "id": "Cactus-Compute/mirage",
         "author": "Cactus-Compute",
-        "likes": 407,
+        "likes": 408,
         "downloads": 35418,
         "tags": [
           "cactus-compute",
@@ -700,7 +700,7 @@
       {
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 1868,
+        "likes": 1870,
         "downloads": 2187411,
         "tags": [
           "gguf",
@@ -753,37 +753,9 @@
         "link": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF"
       },
       {
-        "id": "pyannote/speaker-diarization-3.1",
-        "author": "pyannote",
-        "likes": 5275,
-        "downloads": 6375689,
-        "tags": [
-          "pyannote-audio",
-          "pyannote",
-          "pyannote-audio-pipeline",
-          "audio",
-          "voice",
-          "speech",
-          "speaker",
-          "speaker-diarization",
-          "speaker-change-detection",
-          "voice-activity-detection",
-          "overlapped-speech-detection",
-          "automatic-speech-recognition",
-          "arxiv:2111.14448",
-          "arxiv:2012.01477",
-          "license:mit",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "automatic-speech-recognition",
-        "lastModified": "",
-        "link": "https://huggingface.co/pyannote/speaker-diarization-3.1"
-      },
-      {
         "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "author": "xtools-at",
-        "likes": 9435,
+        "likes": 9438,
         "downloads": 32356,
         "tags": [
           "transformers",
@@ -826,9 +798,37 @@
         "link": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
       },
       {
+        "id": "pyannote/speaker-diarization-3.1",
+        "author": "pyannote",
+        "likes": 5277,
+        "downloads": 6375689,
+        "tags": [
+          "pyannote-audio",
+          "pyannote",
+          "pyannote-audio-pipeline",
+          "audio",
+          "voice",
+          "speech",
+          "speaker",
+          "speaker-diarization",
+          "speaker-change-detection",
+          "voice-activity-detection",
+          "overlapped-speech-detection",
+          "automatic-speech-recognition",
+          "arxiv:2111.14448",
+          "arxiv:2012.01477",
+          "license:mit",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "lastModified": "",
+        "link": "https://huggingface.co/pyannote/speaker-diarization-3.1"
+      },
+      {
         "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic",
         "author": "xtools-at",
-        "likes": 211,
+        "likes": 213,
         "downloads": 21167,
         "tags": [
           "transformers",
@@ -867,24 +867,32 @@
         "link": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic"
       },
       {
-        "id": "OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
-        "author": "OliviaRossi",
-        "likes": 338,
-        "downloads": 512570,
+        "id": "MoonMath-ai/DeepSeek-V4.1-Flash-1017-uncensored",
+        "author": "MoonMath-ai",
+        "likes": 144,
+        "downloads": 1683,
         "tags": [
-          "minimax-h3",
-          "merge",
-          "ref2va",
-          "base_model:TenStrip/10Eros-Max",
-          "base_model:merge:TenStrip/10Eros-Max",
-          "base_model:WarmBloodAban/Minimax-h3_Singularity",
-          "base_model:merge:WarmBloodAban/Minimax-h3_Singularity",
-          "license:other",
+          "transformers",
+          "safetensors",
+          "deepseek_v41",
+          "text-generation",
+          "deepseek",
+          "deepseek-v4.1",
+          "uncensored",
+          "research",
+          "red-team",
+          "moe",
+          "fp8",
+          "base_model:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "license:mit",
+          "endpoints_compatible",
+          "8-bit",
           "region:us"
         ],
-        "pipeline_tag": "",
+        "pipeline_tag": "text-generation",
         "lastModified": "",
-        "link": "https://huggingface.co/OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM"
+        "link": "https://huggingface.co/MoonMath-ai/DeepSeek-V4.1-Flash-1017-uncensored"
       }
     ]
   },
@@ -970,7 +978,7 @@
       {
         "id": "google/physical-engineerings-last-exam",
         "author": "google",
-        "likes": 85,
+        "likes": 86,
         "downloads": 132059,
         "tags": [
           "benchmark:official",
@@ -997,32 +1005,9 @@
         "link": "https://huggingface.co/datasets/google/physical-engineerings-last-exam"
       },
       {
-        "id": "google/multimodal-knowledge-agent",
-        "author": "google",
-        "likes": 52,
-        "downloads": 5306,
-        "tags": [
-          "task_categories:image-text-to-text",
-          "task_categories:visual-question-answering",
-          "task_categories:document-question-answering",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:imagefolder",
-          "modality:document",
-          "modality:geospatial",
-          "modality:image",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "lastModified": "2026-11-10T10:02:28.000Z",
-        "link": "https://huggingface.co/datasets/google/multimodal-knowledge-agent"
-      },
-      {
         "id": "nvidia/USDCraft-10K",
         "author": "nvidia",
-        "likes": 51,
+        "likes": 52,
         "downloads": 17274,
         "tags": [
           "task_categories:robotics",
@@ -1052,28 +1037,27 @@
         "link": "https://huggingface.co/datasets/nvidia/USDCraft-10K"
       },
       {
-        "id": "tencent/TailorRig",
-        "author": "tencent",
-        "likes": 116,
-        "downloads": 5958,
+        "id": "google/multimodal-knowledge-agent",
+        "author": "google",
+        "likes": 52,
+        "downloads": 5306,
         "tags": [
+          "task_categories:image-text-to-text",
+          "task_categories:visual-question-answering",
+          "task_categories:document-question-answering",
           "language:en",
-          "license:other",
-          "size_categories:10K<n<100K",
-          "modality:3d",
-          "arxiv:2611.02902",
-          "region:us",
-          "3d",
-          "mesh",
-          "skeleton",
-          "rigging",
-          "skinning",
-          "auto-rigging",
-          "character",
-          "npz"
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:document",
+          "modality:geospatial",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us"
         ],
-        "lastModified": "2026-11-05T06:24:47.000Z",
-        "link": "https://huggingface.co/datasets/tencent/TailorRig"
+        "lastModified": "2026-11-10T10:02:28.000Z",
+        "link": "https://huggingface.co/datasets/google/multimodal-knowledge-agent"
       },
       {
         "id": "nvidia/PhysicalAI-Human-1M-100K",
@@ -1102,6 +1086,30 @@
         ],
         "lastModified": "2026-11-07T01:51:33.000Z",
         "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Human-1M-100K"
+      },
+      {
+        "id": "tencent/TailorRig",
+        "author": "tencent",
+        "likes": 116,
+        "downloads": 5958,
+        "tags": [
+          "language:en",
+          "license:other",
+          "size_categories:10K<n<100K",
+          "modality:3d",
+          "arxiv:2611.02902",
+          "region:us",
+          "3d",
+          "mesh",
+          "skeleton",
+          "rigging",
+          "skinning",
+          "auto-rigging",
+          "character",
+          "npz"
+        ],
+        "lastModified": "2026-11-05T06:24:47.000Z",
+        "link": "https://huggingface.co/datasets/tencent/TailorRig"
       },
       {
         "id": "venvoo/china-a-share-l2-level2-limit-order-book-tick-data",
@@ -1334,32 +1342,6 @@
         "link": "https://huggingface.co/datasets/KORMo-VL/EVIDENT"
       },
       {
-        "id": "arc4g/arc-art",
-        "author": "arc4g",
-        "likes": 53,
-        "downloads": 2841,
-        "tags": [
-          "license:cc-by-nc-4.0",
-          "size_categories:n<1K",
-          "modality:3d",
-          "modality:image",
-          "modality:tabular",
-          "modality:text",
-          "modality:video",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us",
-          "blender",
-          "3d",
-          "3d-art",
-          "animation",
-          "cycles",
-          "art"
-        ],
-        "lastModified": "2026-11-16T04:55:11.000Z",
-        "link": "https://huggingface.co/datasets/arc4g/arc-art"
-      },
-      {
         "id": "openai/gsm8k",
         "author": "openai",
         "likes": 2053,
@@ -1387,6 +1369,56 @@
         ],
         "lastModified": "2026-03-23T10:18:13.000Z",
         "link": "https://huggingface.co/datasets/openai/gsm8k"
+      },
+      {
+        "id": "arc4g/arc-art",
+        "author": "arc4g",
+        "likes": 53,
+        "downloads": 2841,
+        "tags": [
+          "license:cc-by-nc-4.0",
+          "size_categories:n<1K",
+          "modality:3d",
+          "modality:image",
+          "modality:tabular",
+          "modality:text",
+          "modality:video",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "blender",
+          "3d",
+          "3d-art",
+          "animation",
+          "cycles",
+          "art"
+        ],
+        "lastModified": "2026-11-16T04:55:11.000Z",
+        "link": "https://huggingface.co/datasets/arc4g/arc-art"
+      },
+      {
+        "id": "NousResearch/arete-data-pairs",
+        "author": "NousResearch",
+        "likes": 76,
+        "downloads": 1754,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:question-answering",
+          "language:en",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "values",
+          "synthetic",
+          "sft"
+        ],
+        "lastModified": "2026-11-06T21:14:56.000Z",
+        "link": "https://huggingface.co/datasets/NousResearch/arete-data-pairs"
       },
       {
         "id": "MoreThought/Fable-5.1-Max-Reasoning-Filtered-10000x",
@@ -1434,30 +1466,6 @@
         ],
         "lastModified": "2026-10-10T12:16:08.000Z",
         "link": "https://huggingface.co/datasets/MoreThought/Fable-5.1-Max-Reasoning-Filtered-10000x"
-      },
-      {
-        "id": "NousResearch/arete-data-pairs",
-        "author": "NousResearch",
-        "likes": 76,
-        "downloads": 1754,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:question-answering",
-          "language:en",
-          "size_categories:10K<n<100K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "values",
-          "synthetic",
-          "sft"
-        ],
-        "lastModified": "2026-11-06T21:14:56.000Z",
-        "link": "https://huggingface.co/datasets/NousResearch/arete-data-pairs"
       }
     ]
   }
