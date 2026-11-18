@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-18T00:00:19.369Z",
+  "updatedAt": "2026-11-18T01:00:19.385Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "MiniMaxAI/MiniMax-H3-Image",
         "author": "MiniMaxAI",
-        "likes": 1456,
+        "likes": 1460,
         "downloads": 727110,
         "tags": [
           "minimax-h3",
@@ -29,7 +29,7 @@
       {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 20426,
+        "likes": 20432,
         "downloads": 6942530,
         "tags": [
           "transformers",
@@ -49,9 +49,37 @@
         "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
       },
       {
+        "id": "higurashi-ai/Haru-4B",
+        "author": "higurashi-ai",
+        "likes": 506,
+        "downloads": 4445,
+        "tags": [
+          "safetensors",
+          "haru",
+          "speech",
+          "full-duplex",
+          "speech-to-speech",
+          "audio-to-audio",
+          "en",
+          "es",
+          "pt",
+          "de",
+          "fr",
+          "zh",
+          "ja",
+          "ru",
+          "ko",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "audio-to-audio",
+        "lastModified": "",
+        "link": "https://huggingface.co/higurashi-ai/Haru-4B"
+      },
+      {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 12400,
+        "likes": 12403,
         "downloads": 2828071,
         "tags": [
           "diffusion-single-file",
@@ -89,37 +117,9 @@
         "link": "https://huggingface.co/Lightricks/LTX-2.5"
       },
       {
-        "id": "higurashi-ai/Haru-4B",
-        "author": "higurashi-ai",
-        "likes": 499,
-        "downloads": 4445,
-        "tags": [
-          "safetensors",
-          "haru",
-          "speech",
-          "full-duplex",
-          "speech-to-speech",
-          "audio-to-audio",
-          "en",
-          "es",
-          "pt",
-          "de",
-          "fr",
-          "zh",
-          "ja",
-          "ru",
-          "ko",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "audio-to-audio",
-        "lastModified": "",
-        "link": "https://huggingface.co/higurashi-ai/Haru-4B"
-      },
-      {
         "id": "thinkingmachines/Inkling-2-Small",
         "author": "thinkingmachines",
-        "likes": 440,
+        "likes": 442,
         "downloads": 18359,
         "tags": [
           "transformers",
@@ -142,7 +142,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 6136,
+        "likes": 6138,
         "downloads": 6827598,
         "tags": [
           "gguf",
@@ -182,7 +182,7 @@
       {
         "id": "black-forest-labs/flux-3-image-klein-comfy",
         "author": "black-forest-labs",
-        "likes": 3406,
+        "likes": 3405,
         "downloads": 1062051,
         "tags": [
           "diffusion-single-file",
@@ -206,7 +206,7 @@
       {
         "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
         "author": "chatrlabs",
-        "likes": 494,
+        "likes": 498,
         "downloads": 160748,
         "tags": [
           "diffusers",
@@ -299,7 +299,7 @@
       {
         "id": "n4ze3m/tiny-voca",
         "author": "n4ze3m",
-        "likes": 231,
+        "likes": 232,
         "downloads": 3042,
         "tags": [
           "onnx",
@@ -317,7 +317,7 @@
       {
         "id": "sensenova/SenseNova-Loop-9B",
         "author": "sensenova",
-        "likes": 179,
+        "likes": 184,
         "downloads": 0,
         "tags": [
           "transformers",
@@ -342,7 +342,7 @@
       {
         "id": "meituan-longcat/LongCat-Video-Avatar-1.6",
         "author": "meituan-longcat",
-        "likes": 199,
+        "likes": 201,
         "downloads": 489,
         "tags": [
           "longcat-video-avatar-1.6",
@@ -369,7 +369,7 @@
       {
         "id": "maxwell-model/Maxwell-V1-Flash",
         "author": "maxwell-model",
-        "likes": 152,
+        "likes": 153,
         "downloads": 287,
         "tags": [
           "safetensors",
@@ -456,7 +456,7 @@
       {
         "id": "speridlabs/idol",
         "author": "speridlabs",
-        "likes": 2450,
+        "likes": 2452,
         "downloads": 36388,
         "tags": [
           "idol",
@@ -469,6 +469,33 @@
         "pipeline_tag": "image-to-3d",
         "lastModified": "",
         "link": "https://huggingface.co/speridlabs/idol"
+      },
+      {
+        "id": "harness-hub/Qwen3.8-27B-pi-adapted",
+        "author": "harness-hub",
+        "likes": 129,
+        "downloads": 0,
+        "tags": [
+          "peft",
+          "safetensors",
+          "trl",
+          "grpo",
+          "async-grpo",
+          "lora",
+          "agents",
+          "harbor",
+          "openenv",
+          "pi",
+          "dataset:harness-hub/scale800-harbor",
+          "dataset:harness-hub/termgrade-train-harbor",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:adapter:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
       },
       {
         "id": "Edge0/Edge0-145B-NVFP4",
@@ -498,36 +525,9 @@
         "link": "https://huggingface.co/Edge0/Edge0-145B-NVFP4"
       },
       {
-        "id": "harness-hub/Qwen3.8-27B-pi-adapted",
-        "author": "harness-hub",
-        "likes": 118,
-        "downloads": 0,
-        "tags": [
-          "peft",
-          "safetensors",
-          "trl",
-          "grpo",
-          "async-grpo",
-          "lora",
-          "agents",
-          "harbor",
-          "openenv",
-          "pi",
-          "dataset:harness-hub/scale800-harbor",
-          "dataset:harness-hub/termgrade-train-harbor",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:adapter:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
-      },
-      {
         "id": "facebook/sam3",
         "author": "facebook",
-        "likes": 6881,
+        "likes": 6884,
         "downloads": 1971023,
         "tags": [
           "transformers",
@@ -550,7 +550,7 @@
       {
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 2278,
+        "likes": 2280,
         "downloads": 4292911,
         "tags": [
           "transformers",
@@ -598,7 +598,7 @@
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "author": "deepseek-ai",
-        "likes": 5856,
+        "likes": 5858,
         "downloads": 479986,
         "tags": [
           "transformers",
@@ -622,7 +622,7 @@
       {
         "id": "Cactus-Compute/mirage",
         "author": "Cactus-Compute",
-        "likes": 413,
+        "likes": 415,
         "downloads": 35418,
         "tags": [
           "cactus-compute",
@@ -653,7 +653,7 @@
       {
         "id": "NousResearch/Arete-27B",
         "author": "NousResearch",
-        "likes": 687,
+        "likes": 689,
         "downloads": 10670,
         "tags": [
           "safetensors",
@@ -677,7 +677,7 @@
       {
         "id": "moonshotai/Kimi-K3.1-Pro",
         "author": "moonshotai",
-        "likes": 2196,
+        "likes": 2197,
         "downloads": 53224,
         "tags": [
           "transformers",
@@ -699,35 +699,9 @@
         "link": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
       },
       {
-        "id": "Abiray/MiniMax-H3-Image-GGUF",
-        "author": "Abiray",
-        "likes": 297,
-        "downloads": 190006,
-        "tags": [
-          "minimax-h3",
-          "gguf",
-          "text-to-image",
-          "image-to-image",
-          "image-editing",
-          "minimax",
-          "minimax-h3-image",
-          "comfyui",
-          "dit",
-          "quantized",
-          "en",
-          "base_model:MiniMaxAI/MiniMax-H3-Image",
-          "base_model:quantized:MiniMaxAI/MiniMax-H3-Image",
-          "license:other",
-          "region:us"
-        ],
-        "pipeline_tag": "text-to-image",
-        "lastModified": "",
-        "link": "https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF"
-      },
-      {
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 1872,
+        "likes": 1873,
         "downloads": 2187411,
         "tags": [
           "gguf",
@@ -780,9 +754,35 @@
         "link": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF"
       },
       {
+        "id": "Abiray/MiniMax-H3-Image-GGUF",
+        "author": "Abiray",
+        "likes": 298,
+        "downloads": 190006,
+        "tags": [
+          "minimax-h3",
+          "gguf",
+          "text-to-image",
+          "image-to-image",
+          "image-editing",
+          "minimax",
+          "minimax-h3-image",
+          "comfyui",
+          "dit",
+          "quantized",
+          "en",
+          "base_model:MiniMaxAI/MiniMax-H3-Image",
+          "base_model:quantized:MiniMaxAI/MiniMax-H3-Image",
+          "license:other",
+          "region:us"
+        ],
+        "pipeline_tag": "text-to-image",
+        "lastModified": "",
+        "link": "https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF"
+      },
+      {
         "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic",
         "author": "xtools-at",
-        "likes": 219,
+        "likes": 221,
         "downloads": 21167,
         "tags": [
           "transformers",
@@ -868,7 +868,7 @@
       {
         "id": "pyannote/speaker-diarization-3.1",
         "author": "pyannote",
-        "likes": 5281,
+        "likes": 5282,
         "downloads": 6375689,
         "tags": [
           "pyannote-audio",
@@ -901,7 +901,7 @@
       {
         "id": "Vyber07/cyber-security",
         "author": "Vyber07",
-        "likes": 1169,
+        "likes": 1170,
         "downloads": 24049,
         "tags": [
           "task_categories:text-generation",
@@ -964,7 +964,7 @@
       {
         "id": "nvidia/simready-assets",
         "author": "nvidia",
-        "likes": 1629,
+        "likes": 1630,
         "downloads": 1683886,
         "tags": [
           "license:cc-by-4.0",
@@ -977,7 +977,7 @@
       {
         "id": "google/physical-engineerings-last-exam",
         "author": "google",
-        "likes": 89,
+        "likes": 90,
         "downloads": 132059,
         "tags": [
           "benchmark:official",
@@ -1088,29 +1088,6 @@
         "link": "https://huggingface.co/datasets/nvidia/PhysicalAI-Human-1M-100K"
       },
       {
-        "id": "venvoo/china-a-share-l2-level2-limit-order-book-tick-data",
-        "author": "venvoo",
-        "likes": 754,
-        "downloads": 214059,
-        "tags": [
-          "license:other",
-          "size_categories:n>1T",
-          "region:us",
-          "finance",
-          "trading",
-          "stock-market",
-          "china",
-          "a-share",
-          "level-2",
-          "limit-order-book",
-          "tick-data",
-          "high-frequency",
-          "market-microstructure"
-        ],
-        "lastModified": "2026-11-17T20:00:06.000Z",
-        "link": "https://huggingface.co/datasets/venvoo/china-a-share-l2-level2-limit-order-book-tick-data"
-      },
-      {
         "id": "google/multimodal-knowledge-agent",
         "author": "google",
         "likes": 52,
@@ -1132,6 +1109,29 @@
         ],
         "lastModified": "2026-11-10T10:02:28.000Z",
         "link": "https://huggingface.co/datasets/google/multimodal-knowledge-agent"
+      },
+      {
+        "id": "venvoo/china-a-share-l2-level2-limit-order-book-tick-data",
+        "author": "venvoo",
+        "likes": 754,
+        "downloads": 214059,
+        "tags": [
+          "license:other",
+          "size_categories:n>1T",
+          "region:us",
+          "finance",
+          "trading",
+          "stock-market",
+          "china",
+          "a-share",
+          "level-2",
+          "limit-order-book",
+          "tick-data",
+          "high-frequency",
+          "market-microstructure"
+        ],
+        "lastModified": "2026-11-17T20:00:06.000Z",
+        "link": "https://huggingface.co/datasets/venvoo/china-a-share-l2-level2-limit-order-book-tick-data"
       },
       {
         "id": "bones-studio/seed",
@@ -1197,37 +1197,9 @@
         "link": "https://huggingface.co/datasets/ccore/ThreeJS-3D-Scenes"
       },
       {
-        "id": "laion/laion-audio-xl",
-        "author": "laion",
-        "likes": 30,
-        "downloads": 12985,
-        "tags": [
-          "task_categories:audio-classification",
-          "task_categories:text-to-audio",
-          "task_categories:feature-extraction",
-          "license:other",
-          "size_categories:100M<n<1B",
-          "format:parquet",
-          "modality:audio",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "arxiv:2611.11592",
-          "region:us",
-          "audio",
-          "audio-text",
-          "clap"
-        ],
-        "lastModified": "2026-11-17T14:29:44.000Z",
-        "link": "https://huggingface.co/datasets/laion/laion-audio-xl"
-      },
-      {
         "id": "HubLabs/HubEgo-100K",
         "author": "HubLabs",
-        "likes": 31,
+        "likes": 32,
         "downloads": 2471,
         "tags": [
           "task_categories:robotics",
@@ -1270,8 +1242,36 @@
           "skilled-work",
           "manual-work"
         ],
-        "lastModified": "2026-11-17T22:25:00.000Z",
+        "lastModified": "2026-11-18T00:37:22.000Z",
         "link": "https://huggingface.co/datasets/HubLabs/HubEgo-100K"
+      },
+      {
+        "id": "laion/laion-audio-xl",
+        "author": "laion",
+        "likes": 30,
+        "downloads": 12985,
+        "tags": [
+          "task_categories:audio-classification",
+          "task_categories:text-to-audio",
+          "task_categories:feature-extraction",
+          "license:other",
+          "size_categories:100M<n<1B",
+          "format:parquet",
+          "modality:audio",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2611.11592",
+          "region:us",
+          "audio",
+          "audio-text",
+          "clap"
+        ],
+        "lastModified": "2026-11-17T14:29:44.000Z",
+        "link": "https://huggingface.co/datasets/laion/laion-audio-xl"
       },
       {
         "id": "HuggingFaceFW/fineweb",
