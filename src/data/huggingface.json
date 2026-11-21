@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-21T08:00:19.211Z",
+  "updatedAt": "2026-11-21T09:00:26.297Z",
   "models": {
     "count": 30,
     "items": [
       {
         "id": "thinkingmachines/Inkling-2-Mini",
         "author": "thinkingmachines",
-        "likes": 991,
+        "likes": 1057,
         "downloads": 136,
         "tags": [
           "transformers",
@@ -27,9 +27,37 @@
         "link": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
       },
       {
+        "id": "higurashi-ai/Haru-4B",
+        "author": "higurashi-ai",
+        "likes": 5709,
+        "downloads": 7323,
+        "tags": [
+          "safetensors",
+          "haru",
+          "speech",
+          "full-duplex",
+          "speech-to-speech",
+          "audio-to-audio",
+          "en",
+          "es",
+          "pt",
+          "de",
+          "fr",
+          "zh",
+          "ja",
+          "ru",
+          "ko",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "pipeline_tag": "audio-to-audio",
+        "lastModified": "",
+        "link": "https://huggingface.co/higurashi-ai/Haru-4B"
+      },
+      {
         "id": "harness-hub/Qwen3.8-27B-pi-adapted",
         "author": "harness-hub",
-        "likes": 830,
+        "likes": 834,
         "downloads": 1874,
         "tags": [
           "peft",
@@ -60,7 +88,7 @@
       {
         "id": "Sentinel7/h3",
         "author": "Sentinel7",
-        "likes": 514,
+        "likes": 539,
         "downloads": 0,
         "tags": [
           "region:us"
@@ -97,7 +125,7 @@
       {
         "id": "Lightricks/LTX-2.5",
         "author": "Lightricks",
-        "likes": 12837,
+        "likes": 12841,
         "downloads": 2964523,
         "tags": [
           "diffusion-single-file",
@@ -135,37 +163,34 @@
         "link": "https://huggingface.co/Lightricks/LTX-2.5"
       },
       {
-        "id": "higurashi-ai/Haru-4B",
-        "author": "higurashi-ai",
-        "likes": 5707,
-        "downloads": 7323,
+        "id": "inworld/voice-isolator",
+        "author": "inworld",
+        "likes": 512,
+        "downloads": 0,
         "tags": [
-          "safetensors",
-          "haru",
+          "inworld-voice-isolation",
+          "audio",
           "speech",
-          "full-duplex",
-          "speech-to-speech",
+          "speech-enhancement",
+          "speech-denoising",
+          "noise-suppression",
+          "voice-isolation",
+          "48khz",
+          "full-band",
+          "streaming",
+          "realtime",
           "audio-to-audio",
-          "en",
-          "es",
-          "pt",
-          "de",
-          "fr",
-          "zh",
-          "ja",
-          "ru",
-          "ko",
           "license:apache-2.0",
           "region:us"
         ],
         "pipeline_tag": "audio-to-audio",
         "lastModified": "",
-        "link": "https://huggingface.co/higurashi-ai/Haru-4B"
+        "link": "https://huggingface.co/inworld/voice-isolator"
       },
       {
         "id": "unsloth/Inkling-2-Mini-GGUF",
         "author": "unsloth",
-        "likes": 328,
+        "likes": 336,
         "downloads": 0,
         "tags": [
           "gguf",
@@ -185,9 +210,36 @@
         "link": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF"
       },
       {
+        "id": "meituan-longcat/LongCat-Video-Avatar-1.6",
+        "author": "meituan-longcat",
+        "likes": 398,
+        "downloads": 2568,
+        "tags": [
+          "longcat-video-avatar-1.6",
+          "onnx",
+          "diffusers",
+          "safetensors",
+          "audio-text-to-video",
+          "audio-image-text-to-video",
+          "audio-driven-video-continuation",
+          "transformers",
+          "avatar",
+          "video-generation",
+          "en",
+          "zh",
+          "base_model:meituan-longcat/LongCat-Video",
+          "base_model:quantized:meituan-longcat/LongCat-Video",
+          "license:mit",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "lastModified": "",
+        "link": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6"
+      },
+      {
         "id": "Qwen/Qwen3.8-27B",
         "author": "Qwen",
-        "likes": 20826,
+        "likes": 20748,
         "downloads": 6454419,
         "tags": [
           "transformers",
@@ -232,34 +284,33 @@
         "link": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
       },
       {
-        "id": "inworld/voice-isolator",
-        "author": "inworld",
-        "likes": 510,
-        "downloads": 0,
+        "id": "RadixArk/DaisyRose-27B",
+        "author": "RadixArk",
+        "likes": 280,
+        "downloads": 918,
         "tags": [
-          "inworld-voice-isolation",
-          "audio",
-          "speech",
-          "speech-enhancement",
-          "speech-denoising",
-          "noise-suppression",
-          "voice-isolation",
-          "48khz",
-          "full-band",
-          "streaming",
-          "realtime",
-          "audio-to-audio",
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "daisyrose",
+          "qwen3.8",
+          "reinforcement-learning",
+          "conversational",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:finetune:Qwen/Qwen3.8-27B",
           "license:apache-2.0",
+          "endpoints_compatible",
           "region:us"
         ],
-        "pipeline_tag": "audio-to-audio",
+        "pipeline_tag": "image-text-to-text",
         "lastModified": "",
-        "link": "https://huggingface.co/inworld/voice-isolator"
+        "link": "https://huggingface.co/RadixArk/DaisyRose-27B"
       },
       {
         "id": "MiniMaxAI/MiniMax-H3-Image",
         "author": "MiniMaxAI",
-        "likes": 1691,
+        "likes": 1693,
         "downloads": 876986,
         "tags": [
           "minimax-h3",
@@ -300,7 +351,7 @@
       {
         "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
         "author": "nvidia",
-        "likes": 688,
+        "likes": 689,
         "downloads": 183617,
         "tags": [
           "transformers",
@@ -361,7 +412,7 @@
       {
         "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
         "author": "chatrlabs",
-        "likes": 771,
+        "likes": 772,
         "downloads": 309394,
         "tags": [
           "diffusers",
@@ -390,7 +441,7 @@
       {
         "id": "apple/DepthPro2",
         "author": "apple",
-        "likes": 140,
+        "likes": 145,
         "downloads": 0,
         "tags": [
           "depth-pro-2",
@@ -405,33 +456,6 @@
         "pipeline_tag": "depth-estimation",
         "lastModified": "",
         "link": "https://huggingface.co/apple/DepthPro2"
-      },
-      {
-        "id": "meituan-longcat/LongCat-Video-Avatar-1.6",
-        "author": "meituan-longcat",
-        "likes": 397,
-        "downloads": 2568,
-        "tags": [
-          "longcat-video-avatar-1.6",
-          "onnx",
-          "diffusers",
-          "safetensors",
-          "audio-text-to-video",
-          "audio-image-text-to-video",
-          "audio-driven-video-continuation",
-          "transformers",
-          "avatar",
-          "video-generation",
-          "en",
-          "zh",
-          "base_model:meituan-longcat/LongCat-Video",
-          "base_model:quantized:meituan-longcat/LongCat-Video",
-          "license:mit",
-          "region:us"
-        ],
-        "pipeline_tag": "",
-        "lastModified": "",
-        "link": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6"
       },
       {
         "id": "n4ze3m/tiny-voca",
@@ -473,7 +497,7 @@
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "author": "unsloth",
-        "likes": 6304,
+        "likes": 6217,
         "downloads": 7383193,
         "tags": [
           "gguf",
@@ -493,9 +517,37 @@
         "link": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
       },
       {
+        "id": "Cloudflare/clairic",
+        "author": "Cloudflare",
+        "likes": 204,
+        "downloads": 246,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5",
+          "image-text-to-text",
+          "clairic",
+          "cloudflare",
+          "systemone",
+          "multimodal",
+          "structured-output",
+          "information-extraction",
+          "custom-code",
+          "conversational",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:finetune:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/Cloudflare/clairic"
+      },
+      {
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 3439,
+        "likes": 3442,
         "downloads": 1807159,
         "tags": [
           "gguf",
@@ -559,7 +611,7 @@
       {
         "id": "tencent/Hy4",
         "author": "tencent",
-        "likes": 132,
+        "likes": 123,
         "downloads": 89,
         "tags": [
           "transformers",
@@ -585,7 +637,7 @@
       {
         "id": "black-forest-labs/flux-3-image-klein-comfy",
         "author": "black-forest-labs",
-        "likes": 3640,
+        "likes": 3644,
         "downloads": 981223,
         "tags": [
           "diffusion-single-file",
@@ -609,8 +661,8 @@
       {
         "id": "facebook/sam3",
         "author": "facebook",
-        "likes": 7156,
-        "downloads": 1895035,
+        "likes": 7158,
+        "downloads": 1850744,
         "tags": [
           "transformers",
           "safetensors",
@@ -630,9 +682,32 @@
         "link": "https://huggingface.co/facebook/sam3"
       },
       {
+        "id": "thinkingmachines/Inkling-2-Small",
+        "author": "thinkingmachines",
+        "likes": 668,
+        "downloads": 40574,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "inkling2",
+          "image-text-to-text",
+          "conversational",
+          "moe",
+          "license:apache-2.0",
+          "eval-results",
+          "endpoints_compatible",
+          "8-bit",
+          "modelopt",
+          "region:us"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "lastModified": "",
+        "link": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+      },
+      {
         "id": "Zyphra/ZONOS3-Mini",
         "author": "Zyphra",
-        "likes": 621,
+        "likes": 622,
         "downloads": 142778,
         "tags": [
           "zonos3",
@@ -698,29 +773,6 @@
         "link": "https://huggingface.co/Zyphra/ZONOS3-Mini"
       },
       {
-        "id": "thinkingmachines/Inkling-2-Small",
-        "author": "thinkingmachines",
-        "likes": 667,
-        "downloads": 40574,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "inkling2",
-          "image-text-to-text",
-          "conversational",
-          "moe",
-          "license:apache-2.0",
-          "eval-results",
-          "endpoints_compatible",
-          "8-bit",
-          "modelopt",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
-      },
-      {
         "id": "microsoft/Aion-1.0-Instruct-2.3B",
         "author": "microsoft",
         "likes": 175,
@@ -751,30 +803,6 @@
         "link": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B"
       },
       {
-        "id": "RadixArk/DaisyRose-27B",
-        "author": "RadixArk",
-        "likes": 278,
-        "downloads": 918,
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5",
-          "image-text-to-text",
-          "daisyrose",
-          "qwen3.8",
-          "reinforcement-learning",
-          "conversational",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:finetune:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/RadixArk/DaisyRose-27B"
-      },
-      {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "author": "deepseek-ai",
         "likes": 6047,
@@ -801,8 +829,8 @@
       {
         "id": "facebook/sam-3d-body-dinov3",
         "author": "facebook",
-        "likes": 1715,
-        "downloads": 17319,
+        "likes": 1721,
+        "downloads": 18111,
         "tags": [
           "sam-3d-body",
           "sam-3d",
@@ -816,40 +844,6 @@
         "pipeline_tag": "",
         "lastModified": "",
         "link": "https://huggingface.co/facebook/sam-3d-body-dinov3"
-      },
-      {
-        "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
-        "author": "huihui-ai",
-        "likes": 2514,
-        "downloads": 4448225,
-        "tags": [
-          "transformers",
-          "gguf",
-          "abliterated",
-          "uncensored",
-          "huihui",
-          "qwen3",
-          "unsloth",
-          "ternary",
-          "2-bit",
-          "llama-cpp",
-          "cuda",
-          "metal",
-          "on-device",
-          "hybrid-attention",
-          "prismml",
-          "bonsai",
-          "image-text-to-text",
-          "base_model:Qwen/Qwen3.8-27B",
-          "base_model:quantized:Qwen/Qwen3.8-27B",
-          "license:apache-2.0",
-          "endpoints_compatible",
-          "region:us",
-          "conversational"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "lastModified": "",
-        "link": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF"
       }
     ]
   },
@@ -859,7 +853,7 @@
       {
         "id": "Vyber07/cyber-security",
         "author": "Vyber07",
-        "likes": 1330,
+        "likes": 1334,
         "downloads": 28056,
         "tags": [
           "task_categories:text-generation",
@@ -968,7 +962,7 @@
       {
         "id": "google/physical-engineerings-last-exam",
         "author": "google",
-        "likes": 159,
+        "likes": 157,
         "downloads": 223078,
         "tags": [
           "benchmark:official",
@@ -997,7 +991,7 @@
       {
         "id": "Digitaluz/uzbek-language-corpus",
         "author": "Digitaluz",
-        "likes": 73,
+        "likes": 74,
         "downloads": 877,
         "tags": [
           "task_categories:text-generation",
